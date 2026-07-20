@@ -119,3 +119,132 @@ ChECalc = [
     { "text": 'A high volatile B bituminous coal\r\nanalyzing 22% VCM, 64% FC, 4% M,\r\n1.4% N and 1.6% S has a calorific\r\nvalue of 32.5 MJ/kg. It is burned in\r\nexcess air supplied essentially dry at\r\n28°C and 1 atm. The dry stack gases\r\nleave at 250°C, 740 mmHg and\r\ncontain 8.37% CO2, 4.19% CO and\r\n2.51% H2. Calculate: The % N₂ in the complete Orsat\r\nanalysis of the stack gas',  "options": ['A. 72%', 'B. 89%', 'C. 76%', 'D. 80%'], "correct": 2}
 
 ]
+
+Sepa = [
+
+    # Leaching
+    { "text": 'Which of the following operations does not\r\ninvolve leaching? ',  "options": ['A. Dissolving gold from ores.', 'B. Dissolving pharmaceutical products from bark\r\nor roots', 'C. Dissolving sugar from the cells of the beet.', 'D. Removing nicotine from its water solution by\r\nkerosene.'], "correct": 3}, 
+    
+    { "text": 'Tea percolation employs ',  "options": ['A. liquid-liquid extraction', 'B. leaching', 'C. absorption', 'D.  adsorption'], "correct": 1}, 
+    
+    { "text": 'Neem oil is a traditional plant product which possesses\r\nspermicidal properties. A group of students working on their\r\ninvestigatory project wanted to test how effective the said oil was as\r\ncontraceptive by using it as a component for contraceptives. The\r\nstudents were able to gather 5 kg of Neem Tree Seeds that contains\r\n30% of soluble oil and 70% inert solids and they decided to use 5 kg\r\nof pure hexane to extract the oil. What percentage of oil will they be\r\nable to recover given that the ratio of the liquid to solid components\r\nin the underflow is 0.5? Assume ideal leaching. ',  "options": ['A. 88%', 'B. 93%', 'C. 73%', 'D. 65%'], "correct": 2}, 
+    
+    { "text": 'Which of the following is the most\r\ncommonly used leaching solvent in vegetableoil industry? ',  "options": ['A. phenol', 'B. hexane', 'C. furfural', 'D. liquid SO2'], "correct": 1}, 
+    
+    { "text": 'Leaching of sugar from sugar beets is done using ',  "options": ['A. hot water', 'B. hexane', 'C. dilute HSO4', 'D. lime water'], "correct": 0}, 
+    
+    { "text": 'In a determination of the solution retention data,\r\nthe mass fraction of the solute in the extract was\r\ndetermined to be 0.6. The corresponding underflow\r\nanalysis showed a retention of 0.6 kg solvent per kg of\r\nthe inert solid. The mass fraction of solute in the\r\nunderflow is most likely ',  "options": ['A. 0.60', 'B.  0.36', 'C. 0.47', 'D. 0.27'], "correct": 1}, 
+
+    { "text": 'In a salt recovery plant, rock salt is being leached to produce industrialsalt in a continuous counter current system consisting of two idealstages using water as leaching medium. the average composition of therock salt is: inerts = 70%, soluble salts = 25%, moisture = 5%, allpercentage by weight. The underflow from each stage contains 0.3 kg ofsolution per kg of inerts. The plant leaches 50 MT of rock salt per day using 50 MT of water. The quantity of soluble salts recovered in MT/day is',  "options": ['A. 12.1', 'B. 14', 'C.  13.1', 'D.  11.2'], "correct": 0}, 
+    { "text": 'In a salt recovery plant, rock salt is being leached to produce industrialsalt in a continuous counter current system consisting of two idealstages using water as leaching medium. the average composition of therock salt is: inerts = 70%, soluble salts = 25%, moisture = 5%, allpercentage by weight. The underflow from each stage contains 0.3 kg ofsolution per kg of inerts. The plant leaches 50 MT of rock salt per day using 50 MT of water. The composition of salt in weight percent in the final underflow is',  "options": ['A.  0.88%', 'B. 0.78%', 'C. 0.98%', 'D. 0.68%'], "correct": 0}, 
+
+    { "text": 'Rate of leaching increases with increasing ',  "options": ['A. temperature', 'B. pressure', 'C. viscosity of solvent', 'D. size of the solid'], "correct": 0}, 
+    
+    { "text": 'In a counter-current extractor, as the axialmixing increases, the extraction efficiency ',  "options": ['A. increases', 'B. decreases', 'C. remains unchanged', 'D. depends on the pressure of the system'], "correct": 1}, 
+
+    { "text": '0.4 kg/s of dry sea-shore sand, containing 1 per cent by mass of salt, is to be washed with 0.4 kg/s of fresh water running\r\ncounter currently to the sand through two classifiers in series.\r\nIt may be assumed that perfect mixing of the sand and water\r\noccurs in each classifier and that the sand discharged from each\r\nclassifier contains one part of water for every two of sand by\r\nmass. If the washed sand is dried in a kiln dryer, what percentage\r\nof salt will it retain?',  "options": ['A. 0.47%', 'B. 0.18%', 'C.  0.25%', 'D.  0.33%'], "correct": 2}, 
+    { "text": '0.4 kg/s of dry sea-shore sand, containing 1 per cent by mass of salt, is to be washed with 0.4 kg/s of fresh water running\r\ncounter currently to the sand through two classifiers in series.\r\nIt may be assumed that perfect mixing of the sand and water\r\noccurs in each classifier and that the sand discharged from each\r\nclassifier contains one part of water for every two of sand by\r\nmass.\r\n What wash rate would be required in a\r\nsingle classifier in order to wash the sandto the same extent?',  "options": ['A.  0.5 kg/s', 'B. 0.8 kg/s', 'C. 0.4 kg/s', 'D. 0.9 kg/s'], "correct": 1}, 
+
+    { "text": 'When the solvent dissolves very little of solute,then\r\n ',  "options": ['A. solvent of low latent heat of vaporizationshould be used.', 'B. solvent of low freezing point should be used.', 'C. large quantity of solvent is required to extract\r\nthe solute.', 'D. very small quantity of solvent is required.'], "correct": 2}, 
+
+    { "text": ' Seeds, containing 20% by mass of oil, are extracted\r\nin a counter current plant, and 90% of the oil is\r\nrecovered in a solution containing 50% by mass of oil.\r\nIf the seeds are extracted with fresh solvent and 1 kg\r\nof solution is removed in the underflow in association\r\nwith every 2 kg of insoluble matter, how many ideal\r\nstages are required? ',  "options": ['A. 5', 'B. 3', 'C. 7', 'D. 2'], "correct": 0}, 
+    
+    { "text": 'Ground roasted coffee contains 8% soluble solids, 2% water,\r\nand 90% inert insoluble solids. In order to obtain an extract\r\nwith high soluble solids content without having to concentrate\r\nit for spray drying, a countercurrent extraction process is to be\r\nused to prepare the extract. It is desired that the final extract\r\ncontains 0.15 kg soluble/ kg water and that the soluble of the\r\nspent coffee grounds not to exceed 0.008 kg/kg dry inert solids.\r\nThe coffee grounds carry 1 kg water/ kg of soluble free inert\r\nsolids and this quantity is constant with the solute\r\nconcentration in the extract. Determine the number of\r\nextraction stages needed for this process.\r\n ',  "options": ['A. 3', 'B. 4', 'C. 5', 'D. 6'], "correct": 3}, 
+
+    { "text": 'Leaching of uranium ore and gold ore isdone in ',  "options": ['A.  centrifugal extractor', 'B. Bollman extractor', 'C. Pachuka tanks', 'D.  none of these'], "correct": 2}, 
+
+    { "text": 'Bollman extractor ',  "options": ['A.  is a static bed leaching equipment.', 'B.  is used for extraction of oil from oilseed.', 'C. is a centrifugal extractor.', 'D. employs only counter-current extraction.'], "correct": 1}, 
+
+    { "text": 'Tung meal containing 55% oil is to be extracted at a\r\nrate of 4000 kg/hr using n-hexane containing 5% wt oilas solvent. A counter current multiple stage extraction\r\nsystem is to be used. The meal retains 2 kg solvent perkg of oil free meal while the residual charge contains 0.11\r\nkg oil per kg oil free meal while the product is\r\ncomposed of 15 weight percent of oil. The theoretical\r\nnumber of stages is ',  "options": ['A. 4', 'B. 5', 'C. 3', 'D. 6'], "correct": 0}, 
+
+    { "text": 'One thousand pounds of roasted copper ore containing 10 percent\r\nCuSO4, 85 percent insoluble gangue and 5 percent moisture is to be\r\nextracted by washing it three times with 2000-lb batches of fresh water.\r\nIt has been found the that the solids retain 0.8 lb of solution per pound of\r\ngangue. What is the percent CuSO4 of the final underflow sludge after three\r\nwashings?',  "options": ['A. 0.13%', 'B.  6.54%', 'C. 3.12%', 'D. 8.90%'], "correct": 0}, 
+    { "text": 'One thousand pounds of roasted copper ore containing 10 percent\r\nCuSO4, 85 percent insoluble gangue and 5 percent moisture is to be\r\nextracted by washing it three times with 2000-lb batches of fresh water.\r\nIt has been found the that the solids retain 0.8 lb of solution per pound of\r\ngangue. What is the percent recovery?',  "options": ['A. 75.5%', 'B.  90.8%', 'C. 85.1%', 'D.  97.9%'], "correct": 3}, 
+
+    # Solvent Extraction
+
+    { "text": 'Acetic acid will be most economicallyseparated from a dilute solution of acetic acidin water by ',  "options": ['A.  solvent extraction', 'B.  evaporation', 'C. continuous distillation', 'D.  absorption'], "correct": 0}, 
+
+    { "text": ' Separation of two or more components ofa liquid solution cannot be achieved by ',  "options": ['A. liquid extraction', 'B. absorption', 'C. fractional crystallization', 'D. evaporation'], "correct": 1}, 
+
+    { "text": 'Solvent extraction is the terminology applied to the\r\nliquid-liquid extraction, which is preferred for the\r\nseparation of the components of liquids, when ',  "options": ['A.  extracting solvent is cheaply & abundantly available.', 'B. one of the liquid components is heat sensitive.', 'C. viscosity of liquid components is very high.', 'D. one of the liquid components has very high affinitytowards the solvent.'], "correct": 3}, 
+
+    { "text": 'The distribution coefficient of solute A between\r\nsolvents B and S is given by Y = 2.5X where Y = mass\r\nof A / mass of S in extract and X = mass of A / mass ofB in raffinate. S and B are mutually immiscible. A\r\nsolution containing 25% A in B is to be extracted in a\r\nsingle stage contact with a recovery of 80%. The\r\namount of S in kg required per 100 kg of solution is\r\nnearly ',  "options": ['A. 100', 'B. 150', 'C. 120', 'D. 200'], "correct": 2}, 
+
+    { "text": 'The solvent used in liquid extraction should not have\r\nhigh latent heat of vaporization, because ',  "options": ['A. the pressure drop and hence the pumping cost will be very\r\nhigh.', 'B. it cannot be recovered by distillation.', 'C.  its recovery cost by distillation may be prohibitively high.', 'D. it will decompose while recovering by distillation.'], "correct": 2}, 
+
+    { "text": 'Which of the following is an undesirableproperty for an absorbing solvent? ',  "options": ['A. low vapor pressure', 'B.  low freezing point', 'C. low viscosity', 'D. none of these'], "correct": 3}, 
+
+    { "text": 'Compound A is extracted from a solution of A + B into a\r\npure solvent S. A co-current unit is used for the liquid-liquid\r\nextraction. The inlet rate of the solution containing A is 200\r\nmoles of B/hr-m² and the solvent flow, rate is 400 moles of\r\nS/m²-hr. The equilibrium data is represented by Y = 2X,where Y is in moles of a A/moles of B and X is in moles\r\nA/moles of S. The maximum percentage extraction achieved\r\nin the unit is ',  "options": ['A. 25%', 'B. 70%', 'C. 50%', 'D. 90%'], "correct": 2}, 
+
+    { "text": 'Which of the following equipment is not\r\nused in liquid-liquid extraction? ',  "options": ['A. Pachuka tank', 'B. Packed towers', 'C. Agitated vessels', 'D. Centrifugal extractors'], "correct": 0}, 
+
+    { "text": 'A liquid mixture of acetaldehyde and toluene contains 8 lЬ\r\nof acetaldehyde and 90 lb of toluene. Part of the acetaldehydein this solution is to be extracted using pure water as the\r\nextracting agent. The extraction is to be performed in two\r\nstages, using 25 lb of fresh water for each stage. The raffinate\r\nlayer from the first stage is treated by fresh water in the\r\nsecond stage. The extraction takes place at 17°C and the equilibrium equation Y=2.2X may be employed. Assuming\r\ntoluene and water is immiscible, what would be the weight\r\npercent of acetaldehyde in a mixture of the extracts from both\r\nstage if each of the extraction were theoretically perfect? ',  "options": ['A. 8.96%', 'B. 7.10%', 'C. 9.33%', 'D. 5.52%'], "correct": 0}, 
+
+    { "text": ' A solution of solute (A) in diluent (B) is\r\nmixed with solvent (S). The component (B) is\r\nslightly soluble in (S). The resulting extract willbe\r\n ',  "options": ['A. rich in S, poor in B, poor in A', 'B. poor in S, rich in B, poor in A', 'C. rich in S, rich in B, rich in A', 'D.  rich in S, poor in B, rich in A'], "correct": 3}, 
+
+    { "text": 'A solution of 5% acetaldehyde in toluene is to be extracted with\r\nwater in a five stage concurrent unit. If 25 kg water per 100 kg\r\nof feed is used, calculate the following: The mass of acetaldehyde extracted if the equilibriumrelation is given by: kg acetaldehyde per kg water = 2.20 (kg acetaldehyde per kg toluene).',  "options": ['A. 4.49 kg / 100 kg feed', 'B. 1.11 kg / 100 kg feed', 'C. 3.36 kg / 100 kg feed', 'D. 2.98 kg / 100 kg feed'], "correct": 0}, 
+    { "text": 'A solution of 5% acetaldehyde in toluene is to be extracted with\r\nwater in a five stage concurrent unit. If 25 kg water per 100 kg\r\nof feed is used, calculate the following: The final concentration in weight percent is',  "options": ['A. 0.89%', 'B.  0.67%', 'C. 0.54%', 'D. 0.33%'], "correct": 2}, 
+
+    { "text": 'The apex of an equilateral-triangularcoordinate (in ternary liquid system) represents\r\na/an\r\n ',  "options": ['A. pure component', 'B. ternary mixture', 'C.  binary mixture', 'D. insoluble binary system'], "correct": 0}, 
+    
+    { "text": 'Sides of equilateral-triangular coordinates (onwhich ternary system is plotted) represent ',  "options": ['A. a pure component', 'B. a binary mixture', 'C. ternary mixture', 'D. partially miscible ternary system'], "correct": 1}, 
+
+    { "text": 'In triangular coordinates, the ternary\r\ncomposition point falls of the triangle. ',  "options": ['A. in the corners', 'B. on the sides', 'C. inside', 'D. none of these'], "correct": 2}, 
+
+    { "text": 'The solubility of iodine per unit volume is 200 times greater in ether than\r\nin water at a particular temperature. If an aqueous solution of iodine, 30 ml in\r\nvolume and containing 2 mg of iodine is shaken with 30 ml of ether and the\r\nether is allowed to separate, what quantity of iodine remains in the water\r\nlayer? ',  "options": ['A. 9.95x10-3 mg', 'B. 6.05x10-3 mg', 'C. 8.86 x10-3 mg', 'D. 5.40 x10-3 mg'], "correct": 0}, 
+    { "text": 'The solubility of iodine per unit volume is 200 times greater in ether than\r\nin water at a particular temperature. If an aqueous solution of iodine, 30 ml in\r\nvolume and containing 2 mg of iodine is shaken with 30 ml of ether and the\r\nether is allowed to separate, what quantity of iodine remains in the water\r\nlayer? What quantity of iodine remains in the water layer if only 3 ml of ether is\r\nused?\r\n',  "options": ['A. 0.086 mg', 'B.  0.072 mg', 'C. 0.095 mg', 'D.  0.063 mg'], "correct": 2}, 
+    { "text": ' The solubility of iodine per unit volume is 200 times greater in ether than\r\nin water at a particular temperature. If an aqueous solution of iodine, 30 ml in\r\nvolume and containing 2 mg of iodine is shaken with 30 ml of ether and the\r\nether is allowed to separate, what quantity of iodine remains in the water\r\nlayer? How much iodine is left in the water layer if the extraction in (31) is\r\nfollowed by a second extraction, again using 3 ml of ether?',  "options": ['A. 4.53x10-3 mg', 'B. 1.37x10-3 mg', 'C. 2.09 x10-3 mg', 'D. 2.88 x10-3 mg'], "correct": 0}, 
+
+    { "text": ' The solubility of iodine per unit volume is 200 times greater in ether than\r\nin water at a particular temperature. If an aqueous solution of iodine, 30 ml in\r\nvolume and containing 2 mg of iodine is shaken with 30 ml of ether and the\r\nether is allowed to separate, what quantity of iodine remains in the water\r\nlayer? Which method is more efficient, a single large washing or repeated small\r\nwashing?',  "options": ['A. single large washing', 'B. repeated small washing', 'C. both a and b', 'D.  either a or b'], "correct": 1}, 
+
+    { "text": 'The commonly used solvent in supercriticalextraction is ',  "options": ['A.  methyl ethyl ketone', 'B. carbon tetrachloride', 'C. water', 'D. carbon dioxide'], "correct": 3}, 
+
+    { "text": "To plan a liquid-liquid extraction we need to know the\r\nsolute's distribution ratio between the two phases. One\r\napproach is to carry out the extraction on a solution\r\ncontaining a known amount of solute. After extracting the\r\nsolution, we isolate the organic phase and allow it to\r\nevaporate, leaving behind the solute. In one such experiment,\r\n1.235 g of a solute with a molar mass of 117.3 g/mol is dissolved\r\nin 10.00 ml of water. After extracting with 5.00 mL of toluene,\r\n0.889 g of the solute is recovered in the organic phase. How\r\nmany extractions will we need to recover 99.9% of the solute? ",  "options": ['A. 5', 'B. 6', 'C. 8', 'D. 4'], "correct": 1}, 
+
+    { "text": ' In a counter-current liquid extractor ',  "options": ['A. both liquids flow at fixed rate.', 'B. both liquids can have any desired flow rate.', 'C. only one of the liquids may be pumped at any\r\ndesired rate.', "D. liquid's flow rate depends upon thetemperature and pressure."], "correct": 2}, 
+
+    { "text": 'The equipment used in the extraction ofhighly corrosive radioactive liquids is ',  "options": ['A. pulse column', 'B. mixer settler', 'C. spray column', 'D. baffle tower'], "correct": 0}, 
+
+    { "text": 'Radioactive nuclear waste is treated in ',  "options": ['A. mixer-settler extractor', 'B. rotating-disc contactor', 'C. pulsed column extractor', 'D. Bollman extractor'], "correct": 2}, 
+
+    { "text": 'Antibiotics are best handled in a ',  "options": ['A. Podbielniak extractor', 'B. rotating disc contactor', 'C. sieve tray contractor', 'D.  pulsed column extractor'], "correct": 0}, 
+
+    { "text": ' extractor uses centrifugal forcefor separating the two phases.\r\n ',  "options": ['A. Treybal', 'B. Podbielniak', 'C. Schiebel', 'D.  None of these'], "correct": 1}, 
+
+    { "text": 'Which of the following is the most\r\nsuitable for extraction in a system havingvery low-density difference? ',  "options": ['A.  Mixer-settler extractor', 'B. Centrifugal extractor', 'C. Pulsed extractor', 'D. Packed extraction tower'], "correct": 1}, 
+
+    { "text": 'By extraction with amyl acetate, Penicillin Fis recovered from an aqueous\r\nfermentation broth using 6 volumes of solvent per 100 volumes of the\r\naqueous phase. At pH = 3.2, the distribution coefficient Kp is 80. What fraction of the penicillin would be recovered in a single ideal\r\nstage?',  "options": ['A. 77%', 'B. 65%', 'C. 83%', 'D. 92%'], "correct": 2}, 
+    { "text": 'By extraction with amyl acetate, Penicillin Fis recovered from an aqueous\r\nfermentation broth using 6 volumes of solvent per 100 volumes of the\r\naqueous phase. At pH = 3.2, the distribution coefficient Kp is 80. What would be the recovery with two-stage extraction using fresh solvent in both stages',  "options": ['A. 88%', 'B. 97%', 'C.  75%', 'D. 69%'], "correct": 1}, 
+
+    { "text": 'Which of the following equipment is not\r\nused for liquid dispersion? ',  "options": ['A. Wetted wall towers', 'B. Packed towers', 'C. Venturi scrubbers', 'D. Agitated vessels'], "correct": 3}, 
+
+    { "text": 'Desulfurization of petrol is done in a ',  "options": ['A. Bollman extractor', 'B. rotating disc extractor', 'C. packed extraction column\r\n', 'D. plate type extraction column'], "correct": 1}, 
+
+    { "text": 'Benzoic acid is 9 times more soluble in chloroform than in water. The percent\r\nbenzoic acid that will remain from a water solution of benzoic acid if Equal quantity of chloroform and water is used is',  "options": ['A. 10%', 'B.  20%', 'C. 15%', 'D. 30%'], "correct": 0}, 
+    { "text": 'Benzoic acid is 9 times more soluble in chloroform than in water. The percent\r\nbenzoic acid that will remain from a water solution of benzoic acid if Twice as much as chloroform as water is used',  "options": ['A. 2.6%', 'B. 5.3%', 'C. 3.5%', 'D. 6.0%'], "correct": 1}, 
+    { "text": 'Benzoic acid is 9 times more soluble in chloroform than in water. The percent\r\nbenzoic acid that will remain from a water solution of benzoic acid if If extraction as in Problem 48 were followed by an extraction as\r\nProblem 49 is\r\nin',  "options": ['A. 0.53%', 'B. 0.35%', 'C. 0.63%', 'D. 0.73%'], "correct": 0}, 
+
+    # Distillation
+
+    { "text": "Which of the following solutions will followRaoult's law most closely? ",  "options": ['A. A solution of benzene, toluene and oxylene', 'B. 35% solution of camphor in water', 'C. 35% solution of NH₂ in water', 'D. A solution of polar organic compounds (not ofhomologs of a series).'], "correct": 0}, 
+
+    { "text": 'Calculate the equilibrium compositions of the liquid and the\r\nvapor phases for the mixture of methyl alcohol in water at a\r\ntemperature of 50°C and under a pressure of 40 kPa. Assume that\r\nboth the liquid and the vapor behave ideally. At 50°C, the vapor\r\npressure of methyl alcohol is 53.32 kPa and that of water is 12.33 kPa. ',  "options": ['A. 67.5% methyl alcohol in liquid and 89.98% methyl alcohol\r\nvapor', 'B.  50.2% methyl alcohol in liquid and 77.60% methyl alcohol\r\nvapor', 'C.  61.1% methyl alcohol in liquid and 62.12% methyl alcohol in vapor', 'D. 54.6% methyl alcohol in liquid and 94.33% methyl alcohol in\r\nvapor'], "correct": 0}, 
+
+    { "text": "Determine the composition of the equilibrium vapor over\r\na liquid mixture consisting of 10 mol % water, 50 mol %\r\nacetic acid and 40 mol % acetone at 80°C, assuming that the\r\ncomponent obey Raoult's law. The vapor pressures ofcomponents at 80°C are: water - 47.33 kPa, acetic acid\r\n27.32 kPa and acetone - 219.77 kPa. ",  "options": ['A. 2.55% water, 10.35% acetic acid and 87.10% acetone', 'B. 4.45% water, 12.85% acetic acid and 82.70% acetone', 'C. 3.50% water, 15.00% acetic acid and 81.50% acetone', 'D. 5.60% water, 11.75% acetic acid and 82.65% acetone'], "correct": 1}, 
+
+    { "text": ' A binary mixture of two moles benzene and 8\r\nmoles of toluene will boil at ',  "options": ['A. 110 °С', 'B. 105 °C', 'C. 110 °С', 'D.  102 °С'], "correct": 3}, 
+
+    { "text": 'Boiling point diagram is ',  "options": ['A. not affected by pressure.', 'B. affected by pressure.', 'C.  a plot of temperature vs. liquid composition.', 'D.  a plot of temperature vs. vapor composition.'], "correct": 1}, 
+
+    { "text": 'A 50 % by weight benzene - toluene-\r\nmixture is fed to a column at 180 °F and 1\r\natm. The condition of the feed is called ',  "options": ['A. saturated liquid', 'B.  sub cooled liquid', 'C. saturated vapor', 'D. mixture of liquid and vapor'], "correct": 1}, 
+
+    { "text": 'The percentage change in the boiling point of a 20 mole benzene - toluene solution when the pressure is increased from 1 atm to 2 atm is ',  "options": ['A. 10.5% increase', 'B. 25.5% increase', 'C. 25.5% decrease', 'D. 10.5% decrease'], "correct": 1}, 
+
+    { "text": 'The ease of difficulty of seperating components by distillation is determined by the  ',  "options": ['A. relative volatility', 'B. viscosity', 'C. mole fraction', 'D. weight fraction of the components'], "correct": 0}, 
+
+    { "text": 'When the liquid phase and vapor phase of a binary system obeys Raoults and Daltons law respectively, the relative volatility is the ratio of ',  "options": ['A. vapor pressure of component A to that of component B', 'B. vapor pressure of component A to the total pressure', 'C. vapor pressure of component A  to the partial pressure of A', 'D. partial pressure of component A to the total pressure'], "correct": 0}, 
+
+
+    
+]
+
