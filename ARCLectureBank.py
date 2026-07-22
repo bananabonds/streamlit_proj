@@ -244,7 +244,138 @@ Sepa = [
 
     { "text": 'When the liquid phase and vapor phase of a binary system obeys Raoults and Daltons law respectively, the relative volatility is the ratio of ',  "options": ['A. vapor pressure of component A to that of component B', 'B. vapor pressure of component A to the total pressure', 'C. vapor pressure of component A  to the partial pressure of A', 'D. partial pressure of component A to the total pressure'], "correct": 0}, 
 
+    { "text": "Relative volatility varies with the concentration of\r\ncomponent for an ideal solution. The relative volatility of a\r\nbinary mixture may be defined as the ratio of vapor pressure\r\nof component 'A' to that of component 'B', when ",  "options": ["A. only vapor phase follows Raoult's law", "B. only liquid phase obeys Dalton's law.", "C. liquid phase obeys Dalton's law and vapor phase obeys\r\nRaoult's law.", "D. Vapor phase obeys Dalton's law and liquid phase obeys\r\nRaoult's law."], "correct": 3}, 
 
+    { "text": 'The-relative volatility for separation of a\r\nnon-ideal binary mixture by distillationshould be ',  "options": ['A. 0', 'B. > 1', 'C. 1', 'D. < 1'], "correct": 1}, 
+
+    { "text": 'A liquid mixture of ethyl alcohol and water is in\r\nequilibrium with a vapor containing ethyl alcohol andwater at a total pressure of 760 mmHg. A sample of the\r\nvapor indicates that it contains 3.3 mol of ethyl alcoholfor every 1.7 mol of water. If the liquid has a molfraction of 0.52 ethyl, what is the relative volatility for\r\nthe mixture? ',  "options": ['A. 1.59', 'B. 1.79', 'C. 1.69', 'D. 1.89'], "correct": 1}, 
+
+    { "text": 'The physical separation of components in a\r\nmiscible mixture by simultaneous evaporation andcondensation is ',  "options": ['A. absorption', 'B. drying', 'C. extraction', 'D. distillation'], "correct": 3}, 
+
+    { "text": 'In a batch distillation, the boiling point ofthe distillate product compared to the residueis\r\n ',  "options": ['A. the same', 'B. higher', 'C. lower', 'D. half'], "correct": 2}, 
+
+    { "text": 'Increasing the operating pressure of a\r\ndistilling column ',  "options": ['A. does not make a difference in components\r\nseparation', 'B. makes separation difficult', 'C. sharpens separation', 'D. requires less heat in the feed heater'], "correct": 1}, 
+
+    { "text": 'In batch distillation with constant reflux,overhead product composition with time. ',  "options": ['A. increases', 'B. decreases', 'C.  does not vary', 'D. may increase on decrease, depends on the\r\nsystem.'], "correct": 1}, 
+
+    { "text": 'Determine the relative volatility of n-butane/npentane mixture at 30°C and 1 atm abs ',  "options": ['A. 2.55', 'B. 3.04', 'C. 3.46', 'D. 4.28'], "correct": 2}, 
+
+    { "text": 'One hundred mols of 15% by mole n-butane/npentane mixture is distilled until the residual liquidcontains 45.5 mols. Using the value of the relative\r\nvolatility obtained in problem no.60, find the average\r\nconcentration of the distillate in mol% butane. ',  "options": ['A. 20.6', 'B. 24.7', 'C. 32.4', 'D. 48.5'], "correct": 1}, 
+
+    { "text": 'In distillation, overhead product contains ',  "options": ['A. only one component', 'B. two components', 'C. any number of components', 'D. only saturated liquid'], "correct": 2}, 
+
+    { "text": 'Given a relative volatility of 4,600 mols of A and 400 mols of B\r\nare fed in a kettle for distillation. A is more volatile than B. What is the amount of the overhead product if the remaining\r\nmixture in the kettle is 80%B?',  "options": ['A. 826 mol', 'B.  641 mol', 'C. 725 mol', 'D. 503 mol'], "correct": 2}, 
+    { "text": 'Given a relative volatility of 4,600 mols of A and 400 mols of B\r\nare fed in a kettle for distillation. A is more volatile than B. How much A is in the overhead product?',  "options": ['A. 315 mol', 'B.  545 mol', 'C. 495 mol', 'D. 625 mol'], "correct": 1}, 
+    { "text": 'Given a relative volatility of 4,600 mols of A and 400\r\nmols of B are fed in a kettle for distillation. A is more\r\nvolatile than B. If 50% of the feed evaporated, how much A remains\r\nin the kettle?',  "options": ['A. 268', 'B. 406', 'C. 354', 'D. 197'], "correct": 3}, 
+
+    { "text": 'Flash distillation is suitable for separatingthe constituents of a binary system, which ',  "options": ['A. form minimum boiling azeotrope.', 'B. have very wide boiling points.', 'C. have very close boiling points.', 'D.  form constant boiling azeotrope.'], "correct": 1}, 
+
+    { "text": 'A mixture of 60 mole % A and 40 mol % B is\r\nsubject to flash distillation at a separator pressure of 1\r\natm. The relative volatility of A with respect to B is\r\nconstant 3. What fraction of the feed must be vaporized\r\nto have the composition of the vapor leaving the\r\nseparator be 75 mol % A? ',  "options": ['A. 0.3', 'B. 0.6', 'C. 0.5', 'D. 0.4'], "correct": 3}, 
+
+    { "text": "One mole feed of a binary mixture of a given\r\ncomposition is flash vaporized at a fixed P and T. If Raoult'slaw is obeyed, then changing the feed composition would\r\neffect ",  "options": ['A. the product composition but not the fraction vaporized.', 'B. the product composition as well as the fraction vaporized.', 'C. the fraction vaporized but not the product composition.', 'D. neither the product composition nor the fraction\r\nvaporized.'], "correct": 2}, 
+
+    { "text": 'An equimolal mixture of benzene and toluene\r\nis subjected to flash distillation at a separator\r\npressure of 1 atm. If 40% of the charge isvaporized, at what temperature will the vapor and\r\nliquid separate? ',  "options": ['A. 76.5°С', 'B. 82.10°C', 'C. 95°C', 'D. 106°C'], "correct": 2}, 
+
+    { "text": 'A particle A of diameter 10 microns settles in an oil of specific  gravity 0.9 and viscosity 10 poise under Stokes law. A particle B with diameter 20 microns settling in the same oil will have a settling velocity ',  "options": ['A. same as that of A', 'B. twice as that of A ', 'C. one fourth as that of A ', 'D. four times as that of A'], "correct": 2}, 
+
+    { "text": 'When the mixture to be distilled has a very\r\nhigh boiling point and the product material is\r\nheat sensitive, the separation technique to beused is distillation.\r\n ',  "options": ['A. continuous', 'B. azeotropic', 'C. steam', 'D. none of these'], "correct": 2}, 
+
+    { "text": 'Steam distillation is used to ',  "options": ['A. reduce the number of plates.', 'B. avoid thermal decomposition of a component.\r\n', 'C. increase the efficiency of separation.', 'D.  increase the total pressure of distillation.'], "correct": 1}, 
+
+    { "text": 'Nitrobenzene is to be open-steam distilled at\r\n125.8°C at a vacuum of 26" Hg. How many\r\npounds of steam will be theoretically required to\r\ncollect 2000 pounds of pure nitrobenzene? ',  "options": ['A. 93', 'B. 114', 'C. 193', 'D. 232'], "correct": 2}, 
+
+    { "text": 'In steam distillation, the ',  "options": ['A. temperature is 100°C.', 'B.  temperature is more than 100°С.', 'C. product must be immiscible with water.', 'D. temperature is higher than the boilingpoint of either component.'], "correct": 2}, 
+
+    { "text": ' Glycerin is steam distilled at 182°C and under a 26\r\nin Hg vacuum. A test shows that one lb of steam is\r\nconsumed per lb of glycerine distilled. What percent\r\nexcess steam is actually used than theoretical? Vapor\r\npressure of glycerine at 182°C is 21 mmHg. ',  "options": ['A.  37%', 'B. 21%', 'C. 16%', 'D. 54%'], "correct": 0}, 
+
+    { "text": 'It is planned to feed continuously 100 mol per hour of a solution containing 80 mol of A and 20 mol of B to an externally fired kettle by which there is good agitation due to boiling.\r\nThe residue and vapor will be withdrawn continuously, the vapor condensed, cooled and\r\nsent to storage. There is no return of residue or condensate to kettle, hence, this will be\r\ncontinuous simple distillation. It is planned to regulate the heat supply that D grams of\r\ndistillate per hour will contain 72 mol of the more volatile component A which is five times\r\nmore volatile than B.\r\n Calculate the mols of distillate per hundred moles of feed',  "options": ['A. 85', 'B. 62', 'C. 79', 'D. 90'], "correct": 0}, 
+    { "text": 'It is planned to feed continuously 100 mol per hour of a solution containing 80 mol of A and 20 mol of B to an externally fired kettle by which there is good agitation due to boiling.\r\nThe residue and vapor will be withdrawn continuously, the vapor condensed, cooled and\r\nsent to storage. There is no return of residue or condensate to kettle, hence, this will be\r\ncontinuous simple distillation. It is planned to regulate the heat supply that D grams of\r\ndistillate per hour will contain 72 mol of the more volatile component A which is five times\r\nmore volatile than B.\r\n  What is the mole fraction of A in the distillate?',  "options": ['A. 0.69', 'B.  0.78', 'C. 0.91', 'D. 0.85'], "correct": 3}, 
+    { "text": 'It is planned to feed continuously 100 mol per hour of a solution containing 80 mol of A and 20 mol of B to an externally fired kettle by which there is good agitation due to boiling.\r\nThe residue and vapor will be withdrawn continuously, the vapor condensed, cooled and\r\nsent to storage. There is no return of residue or condensate to kettle, hence, this will be\r\ncontinuous simple distillation. It is planned to regulate the heat supply that D grams of\r\ndistillate per hour will contain 72 mol of the more volatile component A which is five times\r\nmore volatile than B.\r\n What is the mole fraction of A in the residue?',  "options": ['A. 0.53', 'B.  0.37', 'C. 0.26', 'D. 0.42'], "correct": 0}, 
+
+    { "text": 'In a distilling column, the highest pressure\r\nwill be at ',  "options": ['A. the top', 'B. the bottom', 'C. the feed plate', 'D. between the feed plate and the top'], "correct": 1}, 
+
+    { "text": ' In distillation where q is defined as themoles of liquid flow in the stripping section\r\nper mole of feed introduced, for saturatedliquid feed ',  "options": ['A. q > 1', 'B. q = 1', 'C.  q < 1', 'D.  q = 0'], "correct": 1}, 
+
+    { "text": 'When the feed to a distillation column is a\r\nsaturated liquid, slope of the feed line is ',  "options": ['A. zero', 'B. infinity', 'C. unity', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'In a binary distillation column, if the feedcontains 40 mole % vapor, the q line willhave a slope of ',  "options": ['A. 1.5', 'B. -1.5', 'C.  -0.6', 'D. 0.6'], "correct": 1}, 
+
+    { "text": 'A benzene-toluene feed with (40 mol% benzene and60 mol% benzene) to a distillation column is at a\r\ntemperature of 20°C. The molar heat capacity of the\r\nfeed is 159.2 kJ/kmol-K. Molar latent heats of\r\nvaporization of benzene and toluene are 30 813 and 33\r\n325 kJ/kmol, respectively. The bubble point of the\r\nmixture is 95 °C. The slope of the q line is closest to ',  "options": ['A. O', 'B. 1', 'C. 3.7', 'D.  -3.7'], "correct": 2}, 
+
+    { "text": 'At minimum reflux ratio for a givenseparation ',  "options": ['A. number of plates is zero.', 'B. number of plates is infinity.', 'C. minimum number of the theoretical plates is\r\nrequired.', 'D.  separation is most efficient.'], "correct": 1}, 
+
+    { "text": 'A binary mixture with components A and B is to be\r\nseparated in a distillation column to obtain 95 mol% A as\r\nthe top product. The binary mixture has a constant relative volatility aAB = 2. The column feed is a saturated liquidcontaining 50 mol% A. Under the usual simplifyingassumptions such as constant molal overflow, negligible heat\r\nloss, ideal trays, the minimum reflux ratio for this separation\r\nis\r\n ',  "options": ['A. 1.7', 'B. 1.6', 'C. 1.4', 'D. 1.5'], "correct": 0}, 
+
+    { "text": "A binary feed mixture containing equimolar quantities of components S\r\nand T is to be distilled in a fractionating tower at atmospheric pressure.\r\nThe distillate contains 96 mol % S. The q-line (feed line) intersects the equilibrium line at x' = 0.46 and y'= 0.66, where x' and y' are mole\r\nfraction s. Assume that the McCabe-Thiele method is applicable and the\r\nrelative volatility is constant.\r\n The minimum reflux ratio is",  "options": ['A.  1.6', 'B. 1.5', 'C. 0.66', 'D. 0.60'], "correct": 1}, 
+    { "text": "A binary feed mixture containing equimolar quantities of components S\r\nand T is to be distilled in a fractionating tower at atmospheric pressure.\r\nThe distillate contains 96 mol % S. The q-line (feed line) intersects the equilibrium line at x' = 0.46 and y'= 0.66, where x' and y' are mole\r\nfraction s. Assume that the McCabe-Thiele method is applicable and the\r\nrelative volatility is constant. The feed is",  "options": ['A.  at dew point', 'B. superheated vapor', 'C. at bubble point', 'D. partially vapor'], "correct": 3}, 
+
+    { "text": 'One hundred kgmol/hr of 40 mol% benzene-toluene\r\nmixture is fractionated in a plate column at 1 atm. The\r\noverhead product must contain 95 mol% benzene and\r\nthe bottoms must contain 95 mol% toluene. The feed is\r\nsaturated liquid. If the reflux ratio is to be twice the\r\nminimum, determine the kgmol per hour of the\r\noverhead vapor? ',  "options": ['A. 38', 'B. 43', 'C. 61', 'D. 156'], "correct": 3}, 
+
+    { "text": 'As the reflux ratio decreases, the ',  "options": ['A. separation becomes more efficient.', 'B. number of plates increases.', 'C. column diameter increases.', 'D. none of these.'], "correct": 1}, 
+
+    { "text": 'Fenske equation determines the ',  "options": ['A. maximum number of ideal plates.', 'B. height of the distillation column.', 'C. minimum number of theoretical plates.', 'D. optimum reflux ratio.'], "correct": 2}, 
+
+    { "text": 'An ideal mixture of A and B is to be distilled continuously. If the relative volatility is constant at 1.75 and\r\nfeed = saturated liquid with 50 mol% A feed rate = 200 lbmol/hr\r\ndistillation composition = 90% A\r\nbottoms composition = 10% A Find the minimum number of theoretical stages',  "options": ['A. 4.22', 'B. 6.85', 'C. 7.85', 'D.  8.19'], "correct": 2}, 
+    { "text": 'An ideal mixture of A and B is to be distilled continuously. If the relative volatility is constant at 1.75 and\r\nfeed = saturated liquid with 50 mol% A feed rate = 200 lbmol/hr\r\ndistillation composition = 90% A\r\nbottoms composition = 10% A  What is the minimum reflux ratio?',  "options": ['A. 1.93', 'B.  2.10', 'C. 2.50', 'D. 1.55'], "correct": 0}, 
+
+    { "text": 'According to the Fenske equation, what will be\r\nthe minimum number of plates required in a\r\ndistillation column to separate an equimolar binarymixture of components A and B into an overhead\r\nfraction containing 99 mol% A and a bottom fraction\r\ncontaining 98 mol% B. Assume that relative volatility(AAB = 2) does not change appreciably in the column. ',  "options": ['A. 5', 'B. 12', 'C. 9', 'D. 28'], "correct": 1}, 
+
+    { "text": ' In McCabe-Thiele method of theoretical platecalculation for a distillation column, the operatinglines of stripping and rectifying sections coincidewith the diagonal at reflux. ',  "options": ['A. total', 'B. operating', 'C. minimum', 'D. maximum permissible'], "correct": 0}, 
+
+    { "text": 'In a distillation column, with increase in the\r\nreflux ratio, the heat removed in the cooler ',  "options": ['A. increases', 'B. decreases', 'C. remains unaffected.', 'D. and the heat required in reboiler decreases.'], "correct": 0}, 
+
+    { "text": ' In continuous rectification column is used to separate a binary mixture\r\nof A and B. Distillate in produced at 100 kgmol/hr containing 98 mole % А.\r\nThe mole fractions of A in the liquid and in the vapor, x and y respectively,\r\nfrom two adjacent ideal plates in the enriching section are as follows X У\r\n0.65 0.82\r\n0.56 0.76\r\nIf the latent heat of vaporization is the same for all mixtures and if the feed\r\nis a saturated liquid, calculate the rate in the striping section in kg moles\r\nper hour\r\n',  "options": ['A. 300', 'B. 400', 'C. 200', 'D. 500'], "correct": 0}, 
+
+    { "text": "Fenske's equation for determining  the minimum number of theoretical stages in distillation column holds good when the  ",  "options": ['A. relative volatility is reasonably constant', 'B. mixture (to be seperated) shows negative deviation from ideality', 'C. mixture (to be seperated) shows positive deviation from ideality', 'D. multicomponent distillation is involved'], "correct": 0}, 
+
+    { "text": 'For the same feed, feed quality and separation (in a\r\ndistillation column), with the increase of total pressure,\r\nthe number of ideal plates will ',  "options": ['A. increase', 'B. decrease', 'C. remains same', "D. data insufficient, can't be predicted"], "correct": 0}, 
+
+    { "text": 'Inside the distillation column, the ',  "options": ['A.  driving force for the vapor flow is the pressure\r\ndrop.', 'B. liquids are not always at their bubble points.', 'C. pressure increases gradually from bottom to the top\r\nof the column.', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Overall efficiency of the distillation column is ',  "options": ['A. the ratio of number of ideal plates to actual plates', 'B.  the ratio of number of actual plates to ideal plates', 'C. same as the Murphree efficiency', 'D. always more than the point efficiency'], "correct": 0}, 
+
+    { "text": 'Can the efficiency of a plate in the distillation\r\ntower be greater than 100%? ',  "options": ['A. Yes', 'B. Normally not; but is possible if infinite number of\r\nplates are put.', 'C. Never', 'D. Yes; if the reflux ratio is maximum.'], "correct": 2}, 
+
+    { "text": ' When the mixture to be distilled has a very high boiling point\r\nand the product material is heat sensitive, the separation\r\ntechnique to be used is distillation. ',  "options": ['A. continuous', 'B. azeotropіс', 'C. steam', 'D.  none of these'], "correct": 2}, 
+
+    { "text": 'Pick out the correct statement. ',  "options": ['A. Ponchon-Savarit method is more accurate than McCabeThiele method to determine the number of theoretical stages\r\nrequired for the separation of non-ideal binary system by distillation.', 'B. A sharp decrease in pressure drop is an indication of flooding in a distillation column.', 'C. Solvent used in extractive distillation should be of high\r\nvolatility.', 'D.  Flash distillation is suitable for separating components\r\nwhich have very close boiling temperature.'], "correct": 0}, 
+
+    { "text": 'Ponchan-Savarit method analyses thefractional equipment based on ',  "options": ['A.  enthalpy balance only.', 'B. material balance only.', 'C. both enthalpy and material balances.', 'D. the assumption of constant molal overflow'], "correct": 2}, 
+
+    { "text": 'The assumption made in Elis method in\r\ndistillation is that enthalpy concentration lines ofvapor and liquid are ',  "options": ['A. parallel', 'B. straight', 'C. both parallel and straight', 'D.  neither parallel nor straight'], "correct": 2}, 
+
+    { "text": "Smoker's equation for the calculation of number\r\nof equilibrium stages in a continuous binarydistillation column is used, when the ",  "options": ['A. relative volatility is close to one (e.g., separation ofclose boiling isomers).', 'B. feed is not at its bubble point.', 'C. number of equilibrium stages in only stripping\r\nsection is to be calculated.', 'D. number of equilibrium stages required is likely to\r\nbe very small.'], "correct": 0}, 
+
+    { "text": 'Design calculattion for multiple component distillation is done by ',  "options": ['A. Ponchon-Savarit method.', 'B. McCabe-thiele method', 'C. enthalpy concentration method', 'D. tray to tray calculations'], "correct": 3}, 
+
+    { "text": 'Which of the following unit operations makes use\r\nof Thiele-Geddes equation? ',  "options": ['A. Liquid-liquid extraction', 'B. Solid-liquid extraction', 'C. Multicomponent absorption with chemical reaction', 'D. Multicomponent distillation.'], "correct": 3}, 
+
+    { "text": ' In extractive distillation, solvent is ',  "options": ['A. added to alter the relative volatility of the mixture.', 'B. of high volatility.', 'C. present in overhead stream.', 'D. of high viscosity to give high tray efficiency.'], "correct": 0}, 
+
+    { "text": 'Pick out the wrong statement. ',  "options": ['A. Critical moisture content is not a property of the\r\nmaterial itself.', 'B. A sharp increase in pressure drop gives an indication\r\nof the flooding in a distillation column.', 'C. Separation of components is not possible in liquidextraction, if selectivity is unity.\r\n', 'D. Dehydration of ethyl alcohol is most economically done\r\nby molecular distillation at very high vacuum.'], "correct": 3}, 
+
+    { "text": 'Azeotropic distillation is employed to separate ',  "options": ['A. constant boiling mixture', 'B. high boiling mixture', 'C. mixture with very high relative volatility', 'D. heat sensitive materials'], "correct": 0}, 
+
+    { "text": "Positive deviation from Raoult's law means a mixture\r\nwhose total pressure is ",  "options": ['A. greater than that computed for ideality.', 'B.  less than that computed for ideality.', 'C. less than the sum of the vapor pressure of the\r\ncomponents.', 'D. none of these.'], "correct": 0}, 
+
+    { "text": 'The equilibrium liquid composition compared to\r\nthe vapor composition in case of azeotropic mixture is ',  "options": ['A. more', 'B. less', 'C. same', 'D. either more or less; depends on the system'], "correct": 2}, 
+
+    { "text": ' Pick out the wrong statement. ',  "options": ["A. The mole fraction of solute is directly proportional to the\r\nmolality of a 'dilute' solution.\r\n", 'B. For a non-reacting binary mixture of ideal gases, the partialpressure distribution of both components is nonlinear in the\r\ncase of steady state unimolal unidirectional diffusion.', "C. Azeotropes obey Raoult's law at all temperature.", 'D. The relative volatility of a binary mixture at the azeotropic\r\ncomposition is 1'], "correct": 2}, 
+
+    { "text": 'The relative volatility of a binarymixture at the azeotropic composition is ',  "options": ['A. 1', 'B. 0', 'C. ">1"', 'D. ∞'], "correct": 0}, 
+
+    { "text": 'A minimum boiling azeotrope is exemplifiedby ',  "options": ['A. toluene-benzene', 'B. acetone-carbon disulfide', 'C. water-isobutyl alcohol', 'D.  none of these'], "correct": 1}, 
+
+    { "text": 'At what percentage (by volume) ofalcohol composition, it forms an azeotrope\r\nwith water? ',  "options": ['A. 90', 'B. 95', 'C. 91.5', 'D. 99'], "correct": 1}, 
+
+    { "text": 'Which of the following binary systems is an\r\nexample of a maximum boiling azeotrope? ',  "options": ['A. water-hydrochloric acid', 'B. acetone-carbon disulfide', 'C. water-ethyl alcohol', 'D. n-heptane-n-octane'], "correct": 0}, 
+
+    { "text": 'Pick out the system with minimum boilingazeotrope at 1 atm. ',  "options": ['A. benzene-toluene', 'B. ethyl alcohol-water', 'C. hydrochloric acid-water', 'D. all of these'], "correct": 1}, 
+
+    { "text": 'The minimum plate spacing in most of the petroleum refinery\r\ndistillation columns (of diameter > 3 ft) is normally ',  "options": ['A. 6', 'B. 18', 'C. 12', 'D. 34'], "correct": 1}, 
+
+    { "text": 'Back-trapping in a distillation column ',  "options": ['A. increases tray efficiency.', 'B. decreases tray efficiency.', 'C. reduces pressure drop.', 'D. is desirable, as it provides improved vaporliquid contact.'], "correct": 1}
+    
     
 ]
 
