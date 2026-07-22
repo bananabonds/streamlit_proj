@@ -379,3 +379,128 @@ Sepa = [
     
 ]
 
+Thermo = [
+
+    { "text": 'A piece of chocolate cake contains about 400 Calories. A nutritional Calorie is equal to 1000 calories (thermochemical calories). How many 8-inch high steps must a 180-lb man climb to spend 400 Cal from the piece of cake? ',  "options": ['A. 100', 'B. 10300', 'C. 1030', 'D. 103000'], "correct": 1}, 
+
+    { "text": 'A gas is confined in a 0.47 m diameter cylinder by piston, on which rests a weight. The mass of the piston and weight together is 150 kg. The local gravity acceleration is 9.813 m/s², the atmospheric pressure is 101.57 kPa. What is the force exerted on the gas by the atmosphere, the piston and the weight, assuming no friction between the piston and cylinder?',  "options": ['A. 1.91 x104 N', 'B. 2.03 x104 N', 'C. 1.56 x104 N', 'D. 2.28 x104 N'], "correct": 0}, 
+    { "text": 'A gas is confined in a 0.47 m diameter cylinder by piston, on which rests a weight. The mass of the piston and weight together is 150 kg. The local gravity acceleration is 9.813 m/s², the atmospheric pressure is 101.57 kPa. What is the pressure of the gas?',  "options": ['A. 105 kPa', 'B. 128 kPa', 'C. 110 kPa', 'D. 117 kPa'], "correct": 2}, 
+    { "text": 'A gas is confined in a 0.47 m diameter cylinder by piston, on which rests a weight. The mass of the piston and weight together is 150 kg. The local gravity acceleration is 9.813 m/s², the atmospheric pressure is 101.57 kPa. If the gas in the cylinder is heated, it expands, pushingthe piston and the weight upward. If the piston and weightare raised 0.83 m, what is the work done by the gas in kJ?',  "options": ['A. -16 kJ', 'B. -11 kJ', 'C. -18 kJ', 'D. -10 kJ'], "correct": 0}, 
+
+    { "text": 'A gas is confined in a 0.47 m diameter cylinder by piston, on which rests a weight. The mass of the piston and weight together is 150 kg. The local gravity acceleration is 9.813 m/s², the atmospheric pressure is 101.57 kPa. What is the change in potential energy of the piston and weight?',  "options": ['A. 1.8 kJ', 'B. 1.5 kJ', 'C. 1.9 kJ', 'D. 1.2 kJ'], "correct": 3}, 
+
+    { "text": 'Calculate the work (J) done by a sample of 0.10 mol Ne gas that expands isothermally from 0.6 L to 1.2 L at O°C according to the following conditions: against a constant external pressure of 0.9 atm.',  "options": ['A. 7 ', 'B. 55 ', 'C. 151 ', 'D. 157'], "correct": 1}, 
+    { "text": 'Calculate the work (J) done by a sample of 0.10 mol Ne gas that expands isothermally from 0.6 L to 1.2 L at O°C according to the following conditions: reversibly assuming gas is ideal',  "options": ['A. 7 ', 'B. 55 ', 'C. 151 ', 'D. 157'], "correct": 3}, 
+    { "text": 'Calculate the work (J) done by a sample of 0.10 mol Ne gas that expands isothermally from 0.6 L to 1.2 L at O°C according to the following conditions: reversibly assuming gas obeys van der Waals equation of state (a=0.86 Pa-m-mol-2 and b = 3.18x10-5 m³-mol-)',  "options": ['A. 7 ', 'B. 55 ', 'C. 151 ', 'D. 157'], "correct": 2}, 
+    { "text": 'Calculate the work (J) done by a sample of 0.10 mol Ne gas that expands isothermally from 0.6 L to 1.2 L at O°C according to the following conditions: against a variable pressure which varies withvolume according to the expression PVn = k, and withthe given data:Px103 (atm) 194 134 100 70  V (L) 0.60 0.80 1.0 1.2 ',  "options": ['A. 7 ', 'B. 55 ', 'C. 151 ', 'D. 157'], "correct": 0}, 
+
+    { "text": '4 kg moles of an ideal gas expand invacuum spontaneously. The work done is ',  "options": ['A.  4 J', 'B. 0 ', 'C. infinite', 'D. 8 J'], "correct": 1}, 
+
+    { "text": 'Measurement of thermodynamic propertyof temperature is facilitated by_ law ofthermodynamics. ',  "options": ['A. 1st ', 'B. 3rd ', 'C. zeroth ', 'D. none of these'], "correct": 2}, 
+
+    { "text": 'You have a 200 g of coffee at 100°C, too hotto drink. How much will you cool by adding 50g of water at O°C? ',  "options": ['A. 70°C', 'B. 75°C ', 'C. 80°C', 'D. 85°C'], "correct": 2}, 
+
+    { "text": "In Joule's experiment, an insulated container contains 20 kg of water initially at 25°C. It is stirred by an agitator, which is made to turn by a slowly falling body weighing 40 kg through a height of 4 m. The process is repeated 500 times. The acceleration due to gravity is 9.8 m/s². Neglecting the heat capacity of agitator, the temperature of water (in °C) is ",  "options": ['A. 40.5', 'B. 26.8', 'C. 34.4', 'D. 25'], "correct": 2}, 
+
+    { "text": 'How many degrees of freedom has each of the following systems? Liquid water in equilibrium with its vapor',  "options": ['A. one ', 'B. three ', 'C. two ', 'D. four'], "correct": 0}, 
+
+    { "text": 'How many degrees of freedom has each of the following systems? Liquid water in equilibrium with a mixture of water vapor and nitrogen.',  "options": ['A. one ', 'B. three ', 'C. two ', 'D. four'], "correct": 2}, 
+
+    { "text": 'How many degrees of freedom has each of the following systems? A liquid solution of alcohol in water in equilibrium with its vapor.',  "options": ['A. one ', 'B. three ', 'C. two ', 'D. four'], "correct": 2}, 
+
+    { "text": 'Degree of freedom at triple point will be ',  "options": ['A. 0 ', 'B. 2 ', 'C. 1 ', 'D. 3'], "correct": 0}, 
+
+    { "text": 'functions are exemplified by heat andwork. ',  "options": ['A. path ', 'B. state ', 'C. point ', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'During the working stroke of an engine the heattransferred out of the system was 150 kJ/kg of theworking substance. If the work done by the engine is 250kJ/kg, determine the change in internal energy. ',  "options": ['A.  400 kJ ', 'B.  -100 kJ', 'C.  -400 kJ', 'D.  100 kJ'], "correct": 2}, 
+
+    { "text": 'The amount of heat absorbed when CO₂ gas reacts with a solid Ca0 to form solid CaCO3 is measured in a bomb calorimeter at constant volume. The data obtainedgive a direct measure of ',  "options": ['A. dU ', 'B. VdP ', 'C. dH ', 'D. Cp'], "correct": 0}, 
+
+    { "text": 'For a constant pressure reversible process, theenthalpy (AH) change of the system is ',  "options": ['A. C vdT', 'B. integ(CpdT)', 'C. CpdT', 'D. integ(CvdT)'], "correct": 1}, 
+
+    { "text": 'Cv is given by ',  "options": ['A. (ƏU/ ƏT)v', 'B. (ƏU/ƏP)v', 'C. (ƏU/ƏV)T', 'D. (ƏV/ ƏT)P'], "correct": 0}, 
+
+    { "text": 'Air at 27°C receives heat at constant volume until its temperature reaches 927°C. Determine theheat added per kilogram. Assume for air Cv = 0.718kJ/kg-K. ',  "options": ['A. 587 kJ/kg', 'B. 440 kJ/kg', 'C. 646 kJ/kg', 'D. 392 kJ/kg'], "correct": 2}, 
+
+    { "text": 'Oxygen has a molecular weight of 32 and a specificheat at constant pressure of 0.91 kJ/kg-K. Calculate theinternal energy if the gas is heated from 300 to 400 K. ',  "options": ['A. 65 kJ/kg', 'B. 72 kJ/kg', 'C. 93 kJ/kg', 'D.  88 kJ/kg'], "correct": 0}, 
+
+    { "text": 'An insulated, constant-volume system containing1.36 kg of air receives 53 kJ of paddle work. Theinitial temperature is 27°C. Determine the finaltemperature. ',  "options": ['A. 81°C', 'B. 67°C', 'C. 95°C', 'D. 70°C'], "correct": 0}, 
+
+    { "text": 'A gas initially at 15 psia and 2 ft3 undergoes a process to 90 psia and 0.6 ft3, during which the enthalpy increases by 15.5 BTU; Cv=2.44 BTU/lb-R. Determine ДU',  "options": ['A. 12.2 BTU', 'B. 11.1 BTU ', 'C. 13.3 BTU', 'D. 10.0 BTU'], "correct": 1}, 
+
+    { "text": 'A gas initially at 15 psia and 2 ft3 undergoes a process to 90 psia and 0.6 ft3, during which the enthalpy increases by 15.5 BTU; Cv=2.44 BTU/lb-R. Determine Cp in BTU/lb-R',  "options": ['A. 3.42', 'B. 5.56 ', 'C. 4.01', 'D. 2.98'], "correct": 0}, 
+
+    { "text": 'A gas initially at 15 psia and 2 ft3 undergoes a process to 90 psia and 0.6 ft3, during which the enthalpy increases by 15.5 BTU; Cv=2.44 BTU/lb-R. Determine R in in BTU/lb-R',  "options": ['A. 0.54', 'B. 0.61', 'C. 0.98 ', 'D. 0.12'], "correct": 2}, 
+
+    { "text": 'One pound of a gas in a piston cylinder arrangement undergoes expansion from 500 psia to 50 psia. The initial volume of the gas is3 ft³ per lb. The variation of P and V is such that PV1.4 is a constant.Calculate the change in internal energy if the work performed isequal to the amount of heat transferred to the surrounding. ',  "options": ['A. O BTU', 'B.  669 BTU', 'C. -669 BTU', 'D. -776 BTU'], "correct": 2}, 
+
+    { "text": 'A container with an air tight piston is at a pressure of 100 psia and at a temperature of 70°F. The piston moves up when 100 BTU of heat is transferred at a constant pressure and the volume changes from 0.5 ft3 to 2.0 ft3. Assuming perfect gas behavior, calculate the following: The change in internal energy',  "options": ['A. 84 BTU', 'B. 72 BTU', 'C. 60 BTU', 'D. 55 BTU'], "correct": 1}, 
+
+    { "text": 'A container with an air tight piston is at a pressure of 100 psia and at a temperature of 70°F. The piston moves up when 100 BTU of heat is transferred at a constant pressure and the volume changes from 0.5 ft3 to 2.0 ft3. Assuming perfect gas behavior, calculate the following: The final temperature in',  "options": ['A. 1660 ', 'B. 1440 ', 'C. 1220 ', 'D. 1330'], "correct": 0}, 
+
+    { "text": 'A group of 50 persons attended a secret meeting in a room which is12 m by 10 m long and a ceiling of 3 m. The room is completely sealed off and insulated. Each person gives off 150 kcal per hour of heat and occupies a volume of 0.2 m³. The room has an initial pressure of 101.3kPa and temperature of 16°C. Calculate the room temperature after 10minutes in °C ',  "options": ['A. 25 ', 'B. 33 ', 'C. 36 ', 'D. 29'], "correct": 1}, 
+
+    { "text": 'Air flows steadily at a rate of 0.5 kg/s through an air compressor,entering at 7 m/s speed, 100 kPa pressure and. 0.95 m³/kg specificvolume, and leaving at 5 m/s, 700 kPa, and 0.19 m³/kg. The internalenergy of the air leaving is 90 kJ/kg greater than of the air entering.Cooling water in the compressor jackets absorbs heat from the air at rate of 58 kW. Compute the work in kW. ',  "options": ['A. 211 kW', 'B. 112 kW ', 'C. 122 kW ', 'D. 212 kW'], "correct": 2}, 
+
+    { "text": 'Air is expanded isentropically in a nozzle from 13.8 bar and 1500C toa pressure of 6.9 bar. The inlet velocity to the nozzle is very small andthe process occurs under steady-flow, steady-state conditions.Calculate the exit velocity from the nozzle that the nozzle is laid in ahorizontal and that the inlet velocity is 10 m/s.  ',  "options": ['A.  410 m/s ', 'B. 390 m/s', 'C.  280 m/s', 'D. 550 m/s'], "correct": 1}, 
+
+    { "text": 'An ideal centrifugal air compressor takes in air at 1 bar, 15°Cand compresses it reversibly and adiabatically to a pressure of4 bar. If kinetic energy and potential energy changes arenegligible calculate the specific work transfer in thecompression process ',  "options": ['A. 141 kJ/kg', 'B. 307 kJ/kg', 'C.  228 kJ/kg', 'D. 456 kJ/kg'], "correct": 0}, 
+
+    { "text": 'Steams flows at steady state through a converging insulated nozzle, 25 cm long and with an inlet diameter of 5 cm. At the nozzle entrance, the temperature and pressure are 325°C and 700 kPa, and the velocity is 30 m/s. At the nozzle exit, the steam temperature and pressure are 240°C and 350 kPa. Property values are: H₁ = 3112.5 kJ/kg H₂= 2945.7 kJ/kg V₁ = 388.61 cm³/g V₂ = 667.75 cm³/g What is the velocity of the steam at thenozzle exit? ',  "options": ['A. 578 m/s ', 'B. 325 m/s', 'C. 756 m/s', 'D. 149 m/s'], "correct": 0}, 
+
+    { "text": 'Steams flows at steady state through a converging insulated nozzle, 25 cm long and with an inlet diameter of 5 cm. At the nozzle entrance, the temperature and pressure are 325°C and 700 kPa, and the velocity is 30 m/s. At the nozzle exit, the steam temperature and pressure are 240°C and 350 kPa. Property values are: H₁ = 3112.5 kJ/kg H₂= 2945.7 kJ/kg V₁ = 388.61 cm³/g V₂ = 667.75 cm³/g What is the exit diameter?',  "options": ['A. 1.33 cm ', 'B.  1.49 cm', 'C. 1.60 cm', 'D. 1.25 cm'], "correct": 1}, 
+
+    { "text": 'Equation which relates pressure, volume, andtemperature of a gas is called ',  "options": ['A. Equation of state', 'B. ideal gas equation', 'C. Gibbs Duhem equation', 'D. all of these'], "correct": 0}, 
+
+    { "text": 'The equation, PV = nRT is best obeyed by gases at ',  "options": ['A. low pressure and high temperature', 'B. high pressure and low temperature', 'C. low pressure and low temperature', 'D.  none of these'], "correct": 0}, 
+
+    { "text": ' compressibility factor of a gas is ',  "options": ['A. not a function of pressure', 'B. not a function of its nature', 'C. not a function of its temperature', 'D. unity, if it follows PV = nRT'], "correct": 3}, 
+
+    # Correct is actually A but repository is C
+    { "text": 'A solid is transformed into vapor without goingthrough the liquid phase at ',  "options": ['A.  below triple point ', 'B. boiling point', 'C. triple point', 'D. always'], "correct": 2},
+
+    { "text": 'A cylindrical storage tank having an internal volume of 0.465 m³contains methane at 20°C with a pressure of 137 bar. If the tank outletvalved is opened until the pressure in the cylinder is halved, determinethe mass of gas which escapes from the tank assuming the tanktemperature remains constant. ',  "options": ['A. 35.14 kg', 'B. 20.97 kg', 'C. 26.82 kg', 'D. 33.67 kg'], "correct": 1}, 
+
+    { "text": 'Calculate the density of Ethane at 171 bar and 458 K; assumefor Ethane: T = 305 K R = 319.3 J/kg-K Pp = 48.80 bar Assuming it behaves as a perfect gas ',  "options": ['A. 109 kg/m³', 'B.  135 kg/m3', 'C.  128 kg/m³', 'D. 117 kg/m³'], "correct": 3}, 
+
+    { "text": 'Cp - Cv = R is valid for ',  "options": ['A. ideal gases', 'B. all gases', 'C. gases at very high pressure', 'D. gases at a very low temperature'], "correct": 0}, 
+
+    { "text": 'No work is done by the system, when a reactionoccurs at constant ',  "options": ['A. volume ', 'B. pressure ', 'C. temperature ', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Isobaric process means a constant ',  "options": ['A. temperature process', 'B. volume process', 'C. pressure process', 'D. entropy process'], "correct": 2}, 
+
+    { "text": 'Heating of water under atmospheric pressure isan process ',  "options": ['A. isochoric ', 'B. adiabatic ', 'C. isobaric', 'D. isothermal'], "correct": 2}, 
+
+    { "text": ' An ideal gas occupies a volume of 0.5 m³ at atemperature of 340 K and a given pressure. The gasundergoes a constant pressure process until thetemperature decreases to 290 K. Determine the work if thepressure is 120 kPa ',  "options": ['A. -5 kJ', 'B. -6 kJ', 'C. -9 kJ', 'D. -3 kJ'], "correct": 2}, 
+
+    { "text": 'For an isothermal process the internal energy ofa gas ',  "options": ['A. increases ', 'B. decreases ', 'C. remains unchanged', "D. data insufficient can't be predicted"], "correct": 2}, 
+
+    { "text": 'Determine the theoretical work required for theisothermal compression of 800 ft3/min of air from14.7 to 120 psia ',  "options": ['A.  103 hp ', 'B. 108 hp', 'C. 110 hp', 'D.  115 hp'], "correct": 1}, 
+
+    { "text": 'A process consists of two steps: (1) One mole of air at T = 800 K and P = 4 baris cooled at constant volume to T = 350 K. (2) The air is then heated at constantpressure until its temperature reaches 800 K. If this two-step process isreplaced by a single isothermal expansion of air from 800 K and 4 bar to some final pressure P, what is the value of P that makes the work of the twoprocesses the same? Assume mechanical reversibility and treat air as an idealgas with Cp = (7/2)R and Cv = (5/2)R ',  "options": ['A. 2.28 bar', 'B.  3.01 bar', 'C. 2.52 bar', 'D. 1.86 bar'], "correct": 0}, 
+
+    { "text": ' During adiabatic expansion of gas  ',  "options": ['A. pressure remains constant', 'B. pressure is increased', 'C. temperature remains constant', 'D. none of these'], "correct": 3}, 
+
+    { "text": 'From PVn = C, when n = 0, the process is ',  "options": ['A. isochoric ', 'B. isothermal ', 'C. polytropic ', 'D. isobaric'], "correct": 3}, 
+
+    { "text": 'From PVn = C, the process is isochoric if n equals ',  "options": ['A. 0 ', 'B. δ', 'C. 1 ', 'D. ∞'], "correct": 3}, 
+
+    { "text": 'The expression for the work done for a reversible polytropic process can be used to obtain the expressionfor work done for all processes, except reversible process. ',  "options": ['A. isobaric ', 'B. adiabatic ', 'C. isothermal ', 'D. none of these'], "correct": 3}, 
+
+    { "text": 'One mole of an ideal gas undergoes the following sequence ofmechanically reversible processes in a closed system: from an initialstate of 70°C and 1 bar, it is compressed adiabatically to 150°C, it isthen cooled from 150 to 70°C at constant pressure and finally, it isexpanded isothermally to its original state. Calculate W for the entireprocess. Take Cv = 3R/2 and Cp = 5R/2 ',  "options": ['A.  -168 J ', 'B. O J ', 'C. 168 J', 'D. 237 J'], "correct": 2}, 
+    { "text": 'One mole of an ideal gas undergoes the following sequence ofmechanically reversible processes in a closed system: from an initialstate of 70°C and 1 bar, it is compressed adiabatically to 150°C, it isthen cooled from 150 to 70°C at constant pressure and finally, it isexpanded isothermally to its original state. Calculate W for the entireprocess. Take Cv = 3R/2 and Cp = 5R/2. If the processes are carried out irreversibly but so as to accomplish exactly the same changes of state - thesame changes P, T, U and H then different values of Q andW. Calculate W if each step is carried out with anefficiency of 80%',  "options": ['A. 168 J', 'B. 883 J', 'C. 1996 J', 'D. O J'], "correct": 1}, 
+
+    { "text": 'Internal energy change of a system over onecomplete cycle in a cyclic process is ',  "options": ['A. zero ', 'B. -ve', 'C. +ve', 'D. dependent on the path'], "correct": 0}, 
+
+    { "text": 'For a cyclic process, a fixed ratio betweenheat and work ',  "options": ['A. always exists', 'B. never exists', 'C. may exist', 'D.  is difficult to predict'], "correct": 0}, 
+
+    { "text": 'Maximum work that could be secured byexpanding the gas over a given pressure rangeis the work ',  "options": ['A. isothermal ', 'B. isentropic ', 'C. adiabatic ', 'D. none of these'], "correct": 0}, 
+
+    { "text": ' Generation of heat by friction is an example ofa/an_ change. ',  "options": ['A. isothermal ', 'B. adiabatic ', 'C. irreversible ', 'D. reversible'], "correct": 2}, 
+
+    { "text": 'Reported values for the virial coefficients of isopropanol vapor at 200°C are: B = -388 cm³/mol and C = -26000 cm/mol2. Calculate V and Z for isopropanol vapor at 200°C and 10 bar by Ideal Gas',  "options": ['A. 1, 3934 cm³/mol', 'B. 1, 3539 cm³/mol ', 'C. 1, 3488 cm³/mol', 'D. 1. 3495 cm³/mol'], "correct": 0}, 
+
+    { "text": 'Reported values for the virial coefficients of isopropanol vapor at 200°C are: B = -388 cm³/mol and C = -26000 cm/mol2. Calculate V and Z for isopropanol vapor at 200°C and 10 bar by  Virial equation of state',  "options": ['A. 0.91, 3934 cm³/mol', 'B. 0.95, 3539 cm³/mol ', 'C. 0.89, 3488 cm³/mol', 'D. 0.80, 3495 cm³/mol'], "correct": 2}, 
+
+    
+]
