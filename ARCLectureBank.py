@@ -625,8 +625,15 @@ Thermo = [
     
     { "text": 'An ideal Diesel engine uses air initially at 20°C and 90 kPa at the beginning of the compression process. If the compression ratio is 15 and the maximum temperature in the cycle is 2000°C, determine the following: cut-off ratio',  "options": ['A. 1.3 ', 'B. 2.8', 'C. 2.6', 'D. 5.7'], "correct": 2}, 
     
-    { "text": 'A steam turbine inlet state is given by 6 MPa and 500 C. The outlet pressure is 10 kPa. Determine the work output per unit mass if the process is reversible and adiabatic ',  "options": ['A. 1242 kJ/kg', 'B. 2097 kJ/kg', 'C. 1567 kJ/kg', 'D. 2868 kJ/kg'], "correct": 0}, 
+    { "text": 'A steam turbine inlet state is given by 6 MPa and 500 C. The outlet pressure is 10 kPa. Determine the work output per unit mass if the process is reversible and adiabatic ',  "options": ['A. 1242 kJ/kg', 'B. 2097 kJ/kg', 'C. 1567 kJ/kg', 'D. 2868 kJ/kg'], "correct": 0}
     
-      
+]
+
+Momentra = [
+
+    
+
+
+
     
 ]
