@@ -276,7 +276,7 @@ Sepa = [
 
     { "text": 'An equimolal mixture of benzene and toluene\r\nis subjected to flash distillation at a separator\r\npressure of 1 atm. If 40% of the charge isvaporized, at what temperature will the vapor and\r\nliquid separate? ',  "options": ['A. 76.5°С', 'B. 82.10°C', 'C. 95°C', 'D. 106°C'], "correct": 2}, 
 
-    { "text": 'A particle A of diameter 10 microns settles in an oil of specific  gravity 0.9 and viscosity 10 poise under Stokes law. A particle B with diameter 20 microns settling in the same oil will have a settling velocity ',  "options": ['A. same as that of A', 'B. twice as that of A ', 'C. one fourth as that of A ', 'D. four times as that of A'], "correct": 2}, 
+    { "text": 'A particle A of diameter 10 microns settles in an oil of specific  gravity 0.9 and viscosity 10 poise under Stokes law. A particle B with diameter 20 microns settling in the same oil will have a settling velocity ',  "options": ['A. same as that of A', 'B. twice as that of A ', 'C. one fourth as that of A ', 'D. four times as that of A'], "correct": 3}, 
 
     { "text": 'When the mixture to be distilled has a very\r\nhigh boiling point and the product material is\r\nheat sensitive, the separation technique to beused is distillation.\r\n ',  "options": ['A. continuous', 'B. azeotropic', 'C. steam', 'D. none of these'], "correct": 2}, 
 
