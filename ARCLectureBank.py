@@ -615,7 +615,7 @@ Thermo = [
     
     { "text": 'An Otto cycle has a compression ratio of 9.5. The air is at 100 kPa, 17°C, and 600 cm³ prior to the compression stroke. Temperature at the end of isentropic expansion is 800 K. Using constant specific heat, calculate the following: Thermal Efficiency',  "options": ['A. 59.4% ', 'B.  47.1%', 'C. 62.8%', 'D. 36.7%'], "correct": 0}, 
     
-    { "text": 'An Otto cycle has a compression ratio of 9.5. The air is at 100 kPa, 17°C, and 600 cm³ prior to the compression stroke. Temperature at the end of isentropic expansion is 800 K. Using constant specific heat, calculate the following: Mean effective pressure',  "options": ['A. 609 kPa', 'B. 718 kPa ', 'C. 547 kPa', 'D. 425 kPa'], "correct": 1}, .
+    { "text": 'An Otto cycle has a compression ratio of 9.5. The air is at 100 kPa, 17°C, and 600 cm³ prior to the compression stroke. Temperature at the end of isentropic expansion is 800 K. Using constant specific heat, calculate the following: Mean effective pressure',  "options": ['A. 609 kPa', 'B. 718 kPa ', 'C. 547 kPa', 'D. 425 kPa'], "correct": 1},
     
     { "text": 'With increase in compression ratio, the efficiency of the otto engine ',  "options": ['A. increases ', 'B. remains constant', 'C. decreases ', 'D. increases linearly'], "correct": 0}, 
     
