@@ -557,5 +557,76 @@ Thermo = [
 
     { "text": 'Hydrogen, initially at 15 psia and 80°F, is compressed at the rate of 20 cfm in a hot environment to a pressure of 75.3 psig. The details of the process are unknown but it us estimated the heat enters at the rate of 20 BTU/min. For a change of entropy of 0.0268 BTU/min-R. Determine: The work if the system is steady flow.',  "options": ['A. 246 BTU/min ', 'B. 257 BTU/min', 'C. 188 BTU/min', 'D. 135 BTU/min'], "correct": 3}
 
+    { "text": 'A closed system is cooled reversibly from 100°C to 50°C.If no work is done on the system ',  "options": ['A. its internal energy (U) decreases and its entropy (S)increases.', 'B. U and S both decreases', 'C. U decreases but S is constant.', 'D. U is constant but S decreases.'], "correct": 1}, 
+    
+    { "text": 'Melting of wax is accompanied with entropy ',  "options": ['A. increase ', 'B. no change', 'C. decrease ', 'D.  none of these'], "correct": 0}, 
+
+    { "text": 'Melting of ice is an example of an process ',  "options": ['A. adiabatic', 'B. isometric ', 'C. isothermal ', 'D. none of these'], "correct": 2}, 
+    
+    { "text": 'At 90°C, the vapor pressure of acetic acid is 293mmHg and its vapor pressure at 100°C is 417mmHg.Calculate the normal boiling point of acetic acid. ',  "options": ['A. 271.4', 'B. 391.3', 'C. 298.2', 'D. 303.0 K'], "correct": 1}, 
+    
+    { "text": 'An ice skating rink contains ice at -10°C. Calculate thepressure than an ice skate blade must exert to allowsmooth ice skating at this temperature. Assume thatΔΗ fusion 1440 cal/mol. Pliquid 1.0 g/ml and Pice= 0.917 g/ml.  ',  "options": ['A. 10x103 psi', 'B. 15x103 psi', 'C.  20x103 psi', 'D. 25x103 psi'], "correct": 2}, 
+    
+    { "text": 'Calculate the heat required to raise the temperature 1mol of methane from 260 to 600°C in a steady flowprocess at a pressure sufficient low that methane may beconsidered as ideal gas ',  "options": ['A. 19800 J ', 'B. 10100 J', 'C. 22700 J ', 'D. 25400 J'], "correct": 0}, 
+    
+    { "text": 'A reversible compression of 1 mol of an ideal gas in piston/cylinder device results in a pressure increase from 1 bar to P, and a temperature increase from 400 K to 950 K. the path followed by the gas during compression is given by PV1.55 = k, and the molar heat capacity is given by: Cp/R= 3.85 + 0.57x10-3 T [T=K]. Determine the heat transferred duringthe process',  "options": ['A. 5092 J', 'B. 3355 J ', 'C. 6478 J ', 'D.  7216 J'], "correct": 2}, 
+    
+    { "text": 'A reversible compression of 1 mol of an ideal gas in piston/cylinder device results in a pressure increase from 1 bar to P, and a temperature increase from 400 K to 950 K. the path followed by the gas during compression is given by PV1.55 = k, and the molar heat capacity is given by: Cp/R= 3.85 + 0.57x10-3 T [T=K]. Calculate the final pressure',  "options": ['A. 11.45 bar', 'B. 10.05 bar', 'C. 13.66 bar', 'D. 14.43 bar'], "correct": 0}, 
+    
+    { "text": 'Determine whether water is compressed liquid, superheated vapor, saturated liquid, saturated vapor, or a mixture of saturated liquid and saturated vapor, in each case. If the state is determined to be a mixture, determine the quality. (i) At 10 MPa and an entropy of 3.3 kJ/kg-K (ii) At 320 °C and 5.6 MPa (ii) With specific volume of 0.10 m³/kg at 1 MPa  ',  "options": ['A. subcooled, superheated, mixture (0.50)', 'B. mixture (0.40), superheated, subcooled', 'C. superheated, mixture (0.60), subcooled', 'D. subcooled, mixture (0.30), superheated'], "correct": 0}, 
+    
+    { "text": 'Find the specific volume for H₂0 at 1000 kN/m² and 300°Cby using steam tables. ',  "options": ['A. 0.26 m³/kg', 'B. 0.19 m³/kg', 'C. 0.33 m³/kg', 'D. 0.09 m³/kg'], "correct": 0}, 
+    
+    { "text": 'Wet steam at 230°C has a density of 0.025 g/cm³.Determine H. ',  "options": ['A. 2350 kJ/kg', 'B.  3410 kJ/kg', 'C. 1990 kJ/kg', 'D. 4070 kJ/kg'], "correct": 2}, 
+    
+    { "text": 'A steam turbine with rated capacity of 56 400 kWoperates with steam at inlet conditions of 8600 kPa and500°C, and discharges into a condenser ata pressure of 10kPa. Assuming a turbine efficiency of 0.75, determine themass rate of flow of the steam. ',  "options": ['A. 45 kg/s', 'B. 28 kg/s', 'C. 37 kg/s', 'D. 59 kg/s'], "correct": 3}, 
+    
+    { "text": 'Gaseous nitrogen actuates a Carnot  power cycle in which respective volumes  at the four corners of the cycle, starting at the beginning of the isothermal expansion, are V=10.10 L, V2=14.53 L, V3=226.54 L, and V-157.73 L. The cycle receives 21.1 kJ of heat. Calculate the following: Work, W',  "options": ['A. 12 kJ', 'B. 17 kJ', 'C. 8 kJ', 'D. 14 kJ'], "correct": 3}, 
+    
+    { "text": 'Gaseous nitrogen actuates a Carnot  power cycle in which respective volumes  at the four corners of the cycle, starting at the beginning of the isothermal expansion, are V=10.10 L, V2=14.53 L, V3=226.54 L, and V-157.73 L. The cycle receives 21.1 kJ of heat. Calculate the following: Mean effective pressure, MEP',  "options": ['A. 65 kPa', 'B. 88 kPa', 'C. 50 kPa', 'D. 42 kPa'], "correct": 0}, 
+    
+    { "text": 'The efficiency of Carnot cycle is _ the efficiency of Rankine cycle. ',  "options": ['A. less than', 'B. greater than', 'C. equal to', 'D. less than or greater than'], "correct": 1}, 
+    
+    { "text": 'The shape of T-S diagram for Carnot Cycle is a  ',  "options": ['A. rectangle ', 'B. trapezoid ', 'C. rhombus ', 'D. circle'], "correct": 0}, 
+    
+    { "text": 'Which of the following has the least thermal efficiency?  ',  "options": ['A. Steam engine', 'B. Diesel engine', 'C. Carnot engine', 'D. Otto engine'], "correct": 0}, 
+    
+    { "text": 'Fundamental principle of refrigeration is based on thelaw of thermodynamics ',  "options": ['A. zeroth ', 'B. second ', 'C. first ', 'D. third'], "correct": 1}, 
+    
+    { "text": 'Coefficient of Performance (COP) of a refrigerator is the ratio of the ',  "options": ['A. work required to refrigeration obtained', 'B. refrigeration obtained to the work required', 'C. lower to higher temperature', 'D. higher to lower temperature'], "correct": 1}, 
+    
+    { "text": 'A refrigeration cycle is a reversed heat engine. Which Of the following has the maximum value of the coefficient of performance (COP) for a given refrigeration effect? ',  "options": ['A. Vapor compression cycle using expansion valve', 'B.  Air refrigeration cycle', 'C. Vapor compression cycle using expansion engine', 'D. Carnot refrigeration cycle'], "correct": 3}, 
+    
+    { "text": 'One ton of refrigeration is defined as the heat ratecorresponding to melting of one ton of ice in one  ',  "options": ['A. hour ', 'B. minute ', 'C. day ', 'D. second'], "correct": 2}, 
+    
+    { "text": 'In vapor compression refrigeration system, if theevaporator temperature and the condenser temperaturesare -13°C and 37°C respectively, the Carnot COP will be  ',  "options": ['A. 5.2 ', 'B. 6.2 ', 'C. 0.168', "D. data insufficient, can't be found out"], "correct": 0}, 
+    
+    { "text": 'There are removed 500 BTU per min of heat from a body by a refrigerator operating between the limits of 440R and 550 R. If the coefficient of a performance is 3/4 ofthat of a Carnot refrigerator working between the same temperature limits, find the heat rejected. ',  "options": ['A. 245 BTU/min', 'B. 345 BTU/min', 'C. 498 BTU/min', 'D. 667 BTU/min'], "correct": 3}, 
+    
+    { "text": 'The thermal efficiency of a reversible heat engine operatingbetween two given thermal reservoirs is 0.4. The device is used eitheras a refrigerator or as a heat pump between the same reservoirs. Thenthe coefficient of performance as a refrigerator (COP)R and thecoefficient of performance as a heat pump (COP)HP are ',  "options": ['A.  (COP)R = (COP)HP = 0.6 ', 'B. (COP)R = 2.5; (COР)HP = 1.5', 'C.  (COP)R = 1.5; (COР)HP = 2.5', 'D. (COP)R = (COP)HPHP = 2.5'], "correct": 2}, 
+    
+    { "text": 'In a Rankine cycle, steam at 6.89 MPa, 516°C enters the turbine with an initial velocity of 30.48 m/s and leaves at 20.68 kPa with a velocity of 91.44 m/s. Mass flow rate of the steam is 136078 kg/hr. At 6.89 MPa and 516°C: H = 3451.16 kJ/kg S = 6.86 kJ/kg-K 20.68 kPa: Hy = 2610.21 kJ/kg H = 254.43 kJ/kg Sy = 7.9 kJ/kg-K S₁ = 0.841 kJ/kg-K V = 7.41 m³/kg V = 1.02x10-3 m³/kg Compute the thermal efficiency of thecycle',  "options": ['A. 41%', 'B. 37% ', 'C. 22% ', 'D. 53%'], "correct": 1}, 
+    
+    { "text": 'In a Rankine cycle, steam at 6.89 MPa, 516°C enters the turbine with an initial velocity of 30.48 m/s and leaves at 20.68 kPa with a velocity of 91.44 m/s. Mass flow rate of the steam is 136078 kg/hr. At 6.89 MPa and 516°C: H = 3451.16 kJ/kg S = 6.86 kJ/kg-K 20.68 kPa: Hy = 2610.21 kJ/kg H = 254.43 kJ/kg Sy = 7.9 kJ/kg-K S₁ = 0.841 kJ/kg-K V = 7.41 m³/kg V = 1.02x10-3 m³/kg What is the net power produced in hp?',  "options": ['A. 60000 hp', 'B. 40000 hp', 'C. 50000 hp', 'D. 30000 hp'], "correct": 0}, 
+    
+    { "text": 'A nuclear reactor generates 3000 MW of heat. The heat is transferred in a heat exchanger of energy transfer efficiency 75% into steam which isexpanded in a turbine in order to produce a power output. The steam iscondensed in a condenser, releasing 1800 MW of heat, and pumped backthrough the heat exchanger by a feed pump which requires 3% of the power output from the turbine. Determine the power output from the turbine. ',  "options": ['A. 463 MW', 'B. 410 MW', 'C. 490 MW', 'D. 425 MW'], "correct": 0}, 
+    
+    { "text": 'An Otto cycle has a compression ratio of 9.5. The air is at 100 kPa, 17°C, and 600 cm³ prior to the compression stroke. Temperature at the end of isentropic expansion is 800 K. Using constant specific heat, calculate the following: Highest temperature in the cycle',  "options": ['A. 1763 K', 'B. 1654 K ', 'C. 1969 K', 'D. 1892 K'], "correct": 2}, 
+    
+    { "text": 'An Otto cycle has a compression ratio of 9.5. The air is at 100 kPa, 17°C, and 600 cm³ prior to the compression stroke. Temperature at the end of isentropic expansion is 800 K. Using constant specific heat, calculate the following: Thermal Efficiency',  "options": ['A. 59.4% ', 'B.  47.1%', 'C. 62.8%', 'D. 36.7%'], "correct": 0}, 
+    
+    { "text": 'An Otto cycle has a compression ratio of 9.5. The air is at 100 kPa, 17°C, and 600 cm³ prior to the compression stroke. Temperature at the end of isentropic expansion is 800 K. Using constant specific heat, calculate the following: Mean effective pressure',  "options": ['A. 609 kPa', 'B. 718 kPa ', 'C. 547 kPa', 'D. 425 kPa'], "correct": 1}, .
+    
+    { "text": 'With increase in compression ratio, the efficiency of the otto engine ',  "options": ['A. increases ', 'B. remains constant', 'C. decreases ', 'D. increases linearly'], "correct": 0}, 
+    
+    { "text": 'An ideal Diesel engine uses air initially at 20°C and 90 kPa at the beginning of the compression process. If the compression ratio is 15 and the maximum temperature in the cycle is 2000°C, determine the following: net work (kJ/kg) produced',  "options": ['A. 812 ', 'B. 930 ', 'C. 1010', 'D. 1414'], "correct": 0}, 
+    
+    { "text": 'An ideal Diesel engine uses air initially at 20°C and 90 kPa at the beginning of the compression process. If the compression ratio is 15 and the maximum temperature in the cycle is 2000°C, determine the following: mean effective pressure (kPa)',  "options": ['A. 812 ', 'B. 930 ', 'C. 1010', 'D. 1414'], "correct": 1}, 
+    
+    { "text": 'An ideal Diesel engine uses air initially at 20°C and 90 kPa at the beginning of the compression process. If the compression ratio is 15 and the maximum temperature in the cycle is 2000°C, determine the following: cut-off ratio',  "options": ['A. 1.3 ', 'B. 2.8', 'C. 2.6', 'D. 5.7'], "correct": 2}, 
+    
+    { "text": 'A steam turbine inlet state is given by 6 MPa and 500 C. The outlet pressure is 10 kPa. Determine the work output per unit mass if the process is reversible and adiabatic ',  "options": ['A. 1242 kJ/kg', 'B. 2097 kJ/kg', 'C. 1567 kJ/kg', 'D. 2868 kJ/kg'], "correct": 0}, 
+    
+      
     
 ]
