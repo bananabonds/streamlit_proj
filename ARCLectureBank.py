@@ -555,7 +555,7 @@ Thermo = [
 
     { "text": 'Hydrogen, initially at 15 psia and 80°F, is compressed at the rate of 20 cfm in a hot environment to a pressure of 75.3 psig. The details of the process are unknown but it us estimated the heat enters at the rate of 20 BTU/min. For a change of entropy of 0.0268 BTU/min-R. Determine: The work if the system is non-flow',  "options": ['A. 2.14 hp', 'B.  3.33 hp', 'C. 4.69 hp', 'D. 5.02 hp'], "correct": 0}, 
 
-    { "text": 'Hydrogen, initially at 15 psia and 80°F, is compressed at the rate of 20 cfm in a hot environment to a pressure of 75.3 psig. The details of the process are unknown but it us estimated the heat enters at the rate of 20 BTU/min. For a change of entropy of 0.0268 BTU/min-R. Determine: The work if the system is steady flow.',  "options": ['A. 246 BTU/min ', 'B. 257 BTU/min', 'C. 188 BTU/min', 'D. 135 BTU/min'], "correct": 3}
+    { "text": 'Hydrogen, initially at 15 psia and 80°F, is compressed at the rate of 20 cfm in a hot environment to a pressure of 75.3 psig. The details of the process are unknown but it us estimated the heat enters at the rate of 20 BTU/min. For a change of entropy of 0.0268 BTU/min-R. Determine: The work if the system is steady flow.',  "options": ['A. 246 BTU/min ', 'B. 257 BTU/min', 'C. 188 BTU/min', 'D. 135 BTU/min'], "correct": 3},
 
     { "text": 'A closed system is cooled reversibly from 100°C to 50°C.If no work is done on the system ',  "options": ['A. its internal energy (U) decreases and its entropy (S)increases.', 'B. U and S both decreases', 'C. U decreases but S is constant.', 'D. U is constant but S decreases.'], "correct": 1}, 
     
