@@ -749,8 +749,8 @@ Momentra = [
 
     { "text": 'Which of the following is not true? ',  "options": ['A. Potential flow is a flow of compressible fluids with no shear', 'B. Rotameters are variable head meters', 'C. There are 8 schedule numbers in used for standard pipes', 'D. Roughness has no appreciable effect on the friction factor when flow is laminar'], "correct": 2}, 
 
-    { "text": 'A sharp edged circular orifice is to be used to measure the flowrate of water at 20 C p = 1000 kg/m3 , u = 1 mPa s in a pipeline with an internal diameter of 250 mm. The orifice diameter is 50 mm. The reading of a mercury manometer at the throat tap position is 242 mm, Calculate the flowrate in L/s ',  "options": ['A. 5.85 L/s', 'B. 6.64 L/s', 'C. 7.11 L/s', 'D. 9.27 L/s'], "correct": 3}
+    { "text": 'A sharp edged circular orifice is to be used to measure the flowrate of water at 20 C p = 1000 kg/m3 , u = 1 mPa s in a pipeline with an internal diameter of 250 mm. The orifice diameter is 50 mm. The reading of a mercury manometer at the throat tap position is 242 mm, Calculate the flowrate in L/s ',  "options": ['A. 5.85 L/s', 'B. 6.64 L/s', 'C. 7.11 L/s', 'D. 9.27 L/s'], "correct": 3},
 
-    { "text": 'A sharp edged orifice meter is to be fabricated to measure water flowing at a rate not exceed 1200 cfh with a differential head of 30 inHg. What orifice diameter in inches is required if D2/D1 = 1/5 ',  "options": ['A. 1.5', 'B. 1', 'C. 2', 'D. 2.5'], "correct": 0}, 
+    { "text": 'A sharp edged orifice meter is to be fabricated to measure water flowing at a rate not exceed 1200 cfh with a differential head of 30 inHg. What orifice diameter in inches is required if D2/D1 = 1/5 ',  "options": ['A. 1.5', 'B. 1', 'C. 2', 'D. 2.5'], "correct": 0}
     
 ]
