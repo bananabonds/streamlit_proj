@@ -631,9 +631,126 @@ Thermo = [
 
 Momentra = [
 
-    
+    { "text": ' Convert 15.14 poises to kinematic\r\nviscosity in square feet per second if the\r\nliquid has a specific gravity of 0.964. ',  "options": ['A.  0.0169 ft²/s', 'B. 0.0258 ft²/s', 'C. 0.0333 ft²/s', 'D. 0.0421 ft2/s'], "correct": 0}, 
 
+    { "text": 'The viscosity of a gas ',  "options": ['A. decreases with increase in temperature', 'B.  increases with increase in temperature\r\n', 'C.  is independent of temperature', 'D.  is independent of pressure for very highpressure intensities'], "correct": 1}, 
 
+    { "text": ' A piston of diameter 70.00 mm moves inside a cylinder\r\nof diameter 70.10 mm. Determine the percent decrease in\r\nforce necessary to move the piston when the lubricant\r\nwarms from 0 to 120°C. Values of u for the lubricant are\r\n0.01820 Pa-s at 0°C and 0.00206 Pa-s at 120°C. ',  "options": ['A.  72%', 'B.  89%', 'C. 63%', 'D. 55%'], "correct": 1},
 
+    { "text": 'The dimensionless number that\r\ncharacterizes the flows of fluid in a conduit. ',  "options": ['A. Nusselt number', 'B. Peclet number', 'C. Grashof number', 'D.  Reynolds number'], "correct": 3}, 
+
+    { "text": 'Turbulent flow generally occurs for cases\r\ninvolving ',  "options": ['A.  viscous fluid', 'B.  very narrow passages for capillary tube', 'C.  very slow motions', 'D.  none of these'], "correct": 3}, 
+
+    { "text": 'Water at 80°F at 10 ft/s through a 6\r\ninches sch 40 steel pipe with length of\r\n1000 ft. The Reynolds number is ',  "options": ['A. 330 000', 'B. 260 000', 'C.  550 000', 'D. 830 000'], "correct": 2}, 
+
+    { "text": 'In an air pipeline, the flow has\r\nthe following conditions at\r\nsection 1: 25°C, 1.8 bar, 15 m/s\r\nvelocity, and 50 mm inside\r\ndiameter of pipe. At section 2\r\nthe conditions are: 25°C, 1.3\r\nbar, and 75 mm inside\r\ndiameter of pipe.\r\n Calculate the mass flow rate of\r\nair.',  "options": ['A.  0.062 kg/s', 'B. 0.034 kg/s', 'C.  0.051 kg/s', 'D. 0.075 kg/s'], "correct": 0}, 
+
+    { "text": 'In an air pipeline, the flow has\r\nthe following conditions at\r\nsection 1: 25°C, 1.8 bar, 15 m/s\r\nvelocity, and 50 mm inside\r\ndiameter of pipe. At section 2\r\nthe conditions are: 25°C, 1.3\r\nbar, and 75 mm inside\r\ndiameter of pipe.\r\n Determine the velocity at the\r\nsection 2.',  "options": ['A. 6.4 m/s', 'B.  7.5 m/s', 'C.  9.2 m/s', 'D.  3.3 m/s'], "correct": 2}, 
+
+    { "text": 'Water flows through an 8 in (ID=7.981 in) steel pipe at\r\nan average velocity of 6 ft/s. Downstream the pipe splits\r\ninto an 8-in main and a 2 in (ID=2.067 in) bypass pipes. If\r\nthe velocity in the bypass is twice the velocity of the main\r\npipe, calculate the volumetric flowrate in the main pipe in\r\nft3/s. ',  "options": ['A. 1.84', 'B.  2.31', 'C. 3.05', 'D. 4.69'], "correct": 0}, 
+
+    { "text": 'Water at 20°C enters an inclined 1-inch ID where the\r\nupstream point is at 10 psig. The downstream point is 12\r\ninch ID and 40 ft below the upstream point where the water\r\ndischarges at 30 gpm to the atmosphere. What is the\r\nfriction in ft of water? ',  "options": ['A.  10.2', 'B.  8.6', 'C. 28.1', 'D. 45.2'], "correct": 2}, 
+
+    { "text": 'Water at 20°C is pumped at a constant rate of 9 m³/h from a large\r\nreservoir resting on the floor to the open top of an experimental\r\nabsorption tower. The point of discharges is 5 m above the floor, and\r\nthe frictional losses in the 50 mm pipe from the reservoir to the\r\ntower amount to 2.5 J/kg. At what height in the reservoir must the\r\nwater level be kept if the pump can develop only 0.1 kW? ',  "options": ['A. 2.50 m ', 'B. 1.26 m', 'C. 3.84 m', 'D.  0.77 m'], "correct": 1}, 
+
+    { "text": 'A pump draws 69.1 gal/min of a\r\nliquid solution having a density of\r\n114.8 lb/ft³ from an open storage\r\nfeed tank of large cross sectional area\r\nthrough a 3-inch sch 40 suction line.\r\nThe pump discharges its flow\r\nthrough a 2-inch sch40 line to an\r\nopen overhead tank. The end of the\r\ndischarge line is 50 ft above the level\r\nof the liquid in the feed tank. The\r\nfriction losses in the piping system\r\nare 10 ft-lb/lb. What pressure must the pump\r\ndevelop?',  "options": ['A. 35 psi', 'B.  29 psi', 'C.  48 psi', 'D. 10 psi'], "correct": 2}, 
+
+    { "text": 'A pump draws 69.1 gal/min of a\r\nliquid solution having a density of\r\n114.8 lb/ft³ from an open storage\r\nfeed tank of large cross sectional area\r\nthrough a 3-inch sch 40 suction line.\r\nThe pump discharges its flow\r\nthrough a 2-inch sch40 line to an\r\nopen overhead tank. The end of the\r\ndischarge line is 50 ft above the level\r\nof the liquid in the feed tank. The\r\nfriction losses in the piping system\r\nare 10 ft-lb/lb.  What is the horsepower of the\r\npump if the efficiency is 65%? The\r\nflow is turbulent.',  "options": ['A.  3 hp', 'B. 7 hp', 'C.  5 hp', 'D. 2 hp'], "correct": 0}, 
+
+    { "text": 'For an ideal fluid flow, the Reynolds number is ',  "options": ['A. 2100', 'B. 100', 'C. zero', 'D. infinity'], "correct": 3}, 
+
+    { "text": 'In a nozzle flow, the inlet conditions are P₁ = 365 kРа\r\ngage and D₁ = 100 mm and the outlet conditions are P₂ = 0\r\nkPa gage and D₂ = 50 mm. Find the flow rate and neglect\r\nviscous effects. The fluid is water.\r\n ',  "options": ['A.  0.032 m³/s', 'B. 0.055 m³/s', 'C.  0.019 m³/s', 'D. 0.028 m³/s'], "correct": 1}, 
+
+    { "text": ' In a certain chemical plant, the carbonate solution used in the absorption tower is pumped\r\ncontinuously from the bottom of the lye storage tank through a standard 4 in. pipe and then\r\nthrough sprays head at the top of the scrubber. The depth of solution in the storage tank is 10 ft\r\nand the vertical distance from the spray head to the bottom of the tank is 110 ft.\r\nIn a test on this equipment the following data were obtained:\r\nRate of flow\r\nDensity\r\n200 gpm\r\n68.9 lb/ft3\r\nFriction drop from tank to spray head 15 ft-lb/lb Gage pressure on spray head\r\nPower input to pump\r\nCalculate the efficiency of the pump.\r\n5 psi\r\n14 hp\r\n',  "options": ['A.  60%', 'B. 75%', 'C. 50%', 'D. 65%'], "correct": 2}, 
+
+    { "text": ' A water storage tank supplies water into a factory. Water is\r\nsupplied to the tank through a booster pump installed in the water\r\nline. The theoretical pump horsepower required is 3.25 hp. What is\r\nthe monthly operating cost of the pump, if electrical power cost on\r\nthe average is P 3.73/kWh? The pump is 65% efficient and operates\r\nfor 12 hours a day. ',  "options": ['A.  P 3300', 'B. P 7000', 'C.  Р 5000', 'D.  P 9000'], "correct": 2}, 
+
+    { "text": ' Water is stored in an elevated reservoir. To generate power, water flows from\r\nthis reservoir down through a large conduit to a turbine and then through\r\nsimilar-sized conduit. At a point in the conduit 89.5 m above the turbine, the\r\npressure is 172.4 kPa, and a level 5 m below the turbine, the pressure is 89.6 kPа.\r\nThe water flow rate is 0.800 m³/s. The output of the shaft of the turbine is 658\r\nkW. The water density is 1000 kg/m³. If the efficiency of the turbine in converting\r\nthe mechanical energy given up by the fluid to the turbine shaft is 89%,\r\ncalculate the friction loss in the turbine in J/g. ',  "options": ['A. 97 J/kg', 'B. 85 J/kg', 'C. 81 J/kg', 'D. 76 J/kg'], "correct": 1}, 
+
+    { "text": 'A liquid having a density of 801\r\nkg/m³ and a viscosity 1.49x10-3 Pa-s\r\nis flowing through a horizontal\r\nstraight pipe of a velocity of 4.57\r\nm/s. The commercial steel pipe is 1\r\n1/½ in nominal pipe size, schedule 40.\r\nFor a length of a pipe of 61 m, do as\r\nfollows:  Calculate the friction loss.',  "options": ['A.  491 J/kg', 'B. 350 J/kg', 'C. 126 J/kg', 'D.  278 J/kg'], "correct": 1}, 
+
+    { "text": 'A liquid having a density of 801\r\nkg/m³ and a viscosity 1.49x10-3 Pa-s\r\nis flowing through a horizontal\r\nstraight pipe of a velocity of 4.57\r\nm/s. The commercial steel pipe is 1\r\n1/½ in nominal pipe size, schedule 40.\r\nFor a length of a pipe of 61 m, do as\r\nfollows: For smooth tube of the same inside\r\ndiameter, calculate the friction loss.',  "options": ['A. 410 J/kg', 'B. 350 J/kg', 'C. 100 J/kg', 'D. 280 J/kg'], "correct": 3}, 
+
+    { "text": 'A liquid having a density of 801\r\nkg/m³ and a viscosity 1.49x10-3 Pa-s\r\nis flowing through a horizontal\r\nstraight pipe of a velocity of 4.57\r\nm/s. The commercial steel pipe is 1\r\n1/½ in nominal pipe size, schedule 40.\r\nFor a length of a pipe of 61 m, do as\r\nfollows: what is the percent reduction of the Ffor the smooth tube?',  "options": ['A. 21%', 'B. 13%', 'C. 42%', 'D. 34%'], "correct": 0}, 
+
+    { "text": 'A steel pipe having an inside diameter of\r\n13.25 inches is to be designed to carry\r\n48000 bbl of oil per 24 hour day from a\r\nmid-continent field to a refinery 580 miles\r\nfrom the source. The difference in\r\nelevation of the two ends of the line is\r\nnegligible. At an average temperature\r\ninvolved, the oil has an absolute viscosity\r\nof 50 centipoises and a specific gravity of\r\n0.87. Calculate the horsepower required to\r\novercome friction in the pipe line.',  "options": ['A.  5100 hp', 'B. 1600 hp', 'C. 3800 hp', 'D. 4200 hp'], "correct": 3}, 
+
+    { "text": 'A steel pipe having an inside diameter of\r\n13.25 inches is to be designed to carry\r\n48000 bbl of oil per 24 hour day from a\r\nmid-continent field to a refinery 580 miles\r\nfrom the source. The difference in\r\nelevation of the two ends of the line is\r\nnegligible. At an average temperature\r\ninvolved, the oil has an absolute viscosity\r\nof 50 centipoises and a specific gravity of\r\n0.87.  Since the maximum allowable pressure\r\nin any section of the line is 650 psi, it will be\r\nnecessary to insert additional pumping\r\nstations at suitable intervals along the pipe\r\nline. What is the smallest number of\r\npumping stations required?',  "options": ['A. 15', 'B. 10', 'C. 7', 'D. 5'], "correct": 1}, 
+
+    { "text": 'What is the hydraulic diameter of a rectangular\r\nduct with dimensions 6 inches by 12 inches? ',  "options": ['A. 8 inches', 'B. 10 inches', 'C. 10.63 inches', 'D. 11.86 inches'], "correct": 0}, 
+
+    { "text": 'The hydraulic diameter of concentric annular\r\nspace where 1-in OD pipe is located inside a 2-in ID\r\npipe is\r\n ',  "options": ['A.  1 in', 'B. 1.5 in', 'C. pi/4 in', 'D.  2 in'], "correct": 0}, 
+
+    { "text": 'Water is flowing at a rate of 80 gpm through 50 ft of an\r\nannular conduit made of 1½ in and 1 14 in schedule 40 steel\r\npipe. What is the pressure drop in the 50 ft? Assume as\r\naverage properties, a density of 62.3 lb/ft³ and a viscosity of\r\n0.88 centipoise. ',  "options": ['A. 110 psia', 'B. 125 psia', 'C. 115 psia', 'D. 155 psia'], "correct": 3}, 
+
+    { "text": 'A pump discharges ethanol at 38 C into a smooth tube of 50 mm ID at a gage pressure of 280 kPa. This pipe is 40 m long (total equivalent length) and supplies ethanol at a gage pressure of 140 kPa to reactor. What is the volumetric flow rate of ethanol to the reactor? There is negligible change in elevation between the pump and reactor. p = 820 kg/m3 and u = 0.9 cP ',  "options": ['A. 0.01 m3/s', 'B. 0.03 m3/s', 'C. 0.02 m3/s', 'D. 0.04 m3/s'], "correct": 0}, 
+
+    { "text": 'The pressure after the pump in a 6-inch inside diameter\r\nsmooth pipe conducting water is 20 psia. The water is\r\ndischarged at an open tank 100 ft from the pump. Calculate\r\nthe rate of discharge of water in ft³/s.\r\n ',  "options": ['A. 2.5', 'B. 5.8', 'C. 1.6', 'D. 3.6'], "correct": 3}, 
+
+    { "text": ' Water flowing at 2.27 m³/hr at 320 K is pumped through a 40 mm ID pipe,\r\nthrough a length of 150 m in a horizontal direction, and up through a vertical\r\nheight of 10 m. In the pipe there is a control valve, equivalent to 200 pipe\r\ndiameters, and other pipe fittings equivalent to 60 pipe diameters. Also in the\r\nline is a heat exchanger across which the head lost is 1.5 m water. Assume that\r\nthe main pipe has a roughness of 0.2 mm What power must be supplied to the\r\npump if it is 60 percent efficient?\r\n ',  "options": ['A. 97 W', 'B. 188 W', 'C. 136 W', 'D.  205 W'], "correct": 2}, 
+
+    { "text": 'A cooling water pump is operating\r\nat a speed of 2800 rpm. Its flow rate\r\nis 1000 gal/min at a head of 160 ft. What is the power requirement of\r\nthe pump?',  "options": ['A. 10 kW', 'B.  30 kW', 'C.  20 kW', 'D. 40 kW'], "correct": 1},
+
+    { "text": 'A cooling water pump is operating\r\nat a speed of 2800 rpm. Its flow rate\r\nis 1000 gal/min at a head of 160 ft. If the pump speed is increased to\r\n5000 rpm, determine the new power\r\nrequirement.',  "options": ['A. 47 kW', 'B. 133 kW', 'C. 80 kW', 'D. 170 kW'], "correct": 3}, 
+
+    { "text": 'A cooling water pump is operating\r\nat a speed of 2800 rpm. Its flow rate\r\nis 1000 gal/min at a head of 160 ft. When a fluid flows through a reducer\r\nin a piping system, the velocity at the\r\noutlet end is _ the velocity at the inlet.',  "options": ['A.  less than', 'B.  more than', 'C. the same as', 'D.  one-half'], "correct": 1}, 
+
+    { "text": 'For pipes that must be broken at intervals for\r\nmaintenance, the connector used should be a/an ',  "options": ['A. union', 'B. reducer', 'C. tee', 'D. elbow'], "correct": 0}, 
+
+    { "text": 'Which valve is used accurately to regulate\r\nthe flow of liquids and gases at low flow rates? ',  "options": ['A. needle valve', 'B. check valve', 'C. ball valve', 'D. globe valve'], "correct": 0}, 
+
+    { "text": 'Calculate the radius of capillary tube in mm, such that it is a flow\r\nof a viscous fluid Kinematic viscosity\r\nLength of tube\r\n0.000043 m²/s\r\n50.2 cm\r\nMass flow rate 0.003 kg/s\r\nDensity of fluid 955 kg/m³\r\nPressure drop 4.77 atm\r\n',  "options": ['A.  0.32', 'B.  0.18', 'C. 0.75', 'D. 0.45'], "correct": 2},
+
+    { "text": ' Methane at 60°F is flowing at a steady mass rate through a steel\r\nmain having an inside diameter of 12 inches. The absolute pressure\r\ndrops from 40 atm to 20 atm, in a length of 500 miles substantially\r\nhorizontal pipe. Calculate the hourly rate of flow expressed as ft3\r\nmeasured at 60°F and normal barometric pressure.\r\n ',  "options": ['A. 650000 cfh', 'B.  380000 cfh', 'C. 520000 cfh', 'D. 440000 cfh'], "correct": 0}, 
+
+    { "text": ' Nitrogen gas is flowing through a 4" sch 40 steel pipe at\r\n25 °C. The flow rate is 7.4 x10-2 kg/s and the flow is assumed\r\nisothermal. The pipe is 3000 m long and the inlet pressure is\r\n200 kPa abs. What is the outlet pressure?\r\n ',  "options": ['A. 189 kPa', 'B. 155 kPa', 'C. 170 kPa', 'D. 146 kPa'], "correct": 0}, 
+
+    { "text": 'Calculate the theoretical adiabatic horsepower to compress 1 000 cfm of\r\nhelium from standard atmospheric pressure and 80°F to 200 psig.  In a single stage.',  "options": ['A.  308 hp', 'B.  228 hp', 'C. 210 hp', 'D. 546 hp'], "correct": 0}, 
+
+    { "text": 'Calculate the theoretical adiabatic horsepower to compress 1 000 cfm of\r\nhelium from standard atmospheric pressure and 80°F to 200 psig. In 2 stages.',  "options": ['A.  308 hp', 'B.  228 hp', 'C. 210 hp', 'D. 546 hp'], "correct": 1}, 
+
+    { "text": 'Nitrogen is to be compressed in four stages from 14.7 psia\r\n3500 psig. What would be the pressure in the third stage? ',  "options": ['A. 894 psia', 'B. 227 psia', 'C. 753 psia', 'D.  561 psia'], "correct": 0}, 
+
+    { "text": 'The dimension of dynamic viscosity is  ',  "options": ['A. ML^-1 T^-1', 'B. L^2T^-1', 'C. LT^2', 'D. ML^-1 T^-2'], "correct": 0}, 
+
+    { "text": 'dimension of surface tension is (where F = force and L = length) ',  "options": ['A. FL^-1', 'B. F^-1 L', 'C. F L ^-2', 'D. F^2 L'], "correct": 0}, 
+
+    { "text": 'At high reynolds number  ',  "options": ['A. inertial forces control and viscous forces are unimportant', 'B. viscous forces predominate', 'C. inertial forces are unimportant and viscous forces control', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'An ideal fluid is  ',  "options": ['A. frictionless and incompressible', "B. one, which obeys Newton's law of viscosity", 'C. highly viscous', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Power number is the ratio of  ',  "options": ['A. drag stress to inertial stress', 'B. inertial stress to drag stress', 'C. inertial stress to gravitational stress', 'D. gravitational stress to drag stress'], "correct": 0}, 
+
+    { "text": 'Weber number is the ratio of inertial force to _____ force ',  "options": ['A. surface tension', 'B. gravity', 'C. viscous', 'D. elastic'], "correct": 0}, 
+
+    { "text": 'Viscosity of water at 40 C lies in the range of ',  "options": ['A. 1*10^-3 to 2 * 10 ^ -3 kg/ms', 'B. 0.5 *10 ^-3 to 1 * 10 ^ -3 kg/ms', 'C. 1 to 2 kg/ ms', 'D. 0.5 to 1 kg / ms'], "correct": 1}, 
+
+    { "text": 'All pipes of a particular nominal size have the same ',  "options": ['A. inside diameter', 'B. outside diameter', 'C. thickness', 'D. none of these'], "correct": 1}, 
+
+    { "text": ' Pipes having diameter 14 inches or more are designated by their ',  "options": ['A. outside diameter', 'B. inside diameter', 'C. schedule number', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Lower BWG means ___ of the tube ',  "options": ['A. lower thickness', 'B. lower cross section', 'C. outer diameter', 'D. inner diameter'], "correct": 1}, 
+
+    { "text": ' A fluid whose apparent viscosity increases with shear rate is termed as the ____ fluid ',  "options": ['A. Newtonion', 'B. viscous', 'C. dilatant', 'D. on-viscous'], "correct": 2}, 
+
+    { "text": 'Quicksand is an example of a fluid. ',  "options": ['A. bingham plastic', 'B. dilatent', 'C. Newtonion', 'D. pseudoplastic'], "correct": 1}, 
+
+    { "text": 'If blasius or darcy friction factor is f1 then the fanning friction factor is equal to ',  "options": ['A. f1/4', 'B. 4 f2', 'C. 2 f1', 'D. f1/2'], "correct": 0}, 
+
+    { "text": 'The general relationship between speed N, head H, power P and discharge Q for a centrifugal\r\npump is ',  "options": ['A. QN: H&N2 : P&N3', 'B. Q&N2: HN3: PN', 'C. QN:H&N3 : P&N2', 'D. QN3: H*N: P&N2'], "correct": 0}, 
+
+    { "text": 'A centrifugal pump has the following specifications: Power = 4hp, speed = 800 rpm, head - 8 m, flow = 1000 L / min If its speed is halved, the new discharge will be _____ L/min ',  "options": ['A. 500', 'B. 200', 'C. 1000', 'D. 750'], "correct": 0}, 
+
+    { "text": 'Hydraulic radius 6" x 12" cross section, is ____ inches ',  "options": ['A. 2', 'B. 0.5', 'C. 1.5', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'A pitot tube with U-tube water manometer is attached to a\r\nhorizontal pipe of 4 in inside diameter. If the manometer reading is\r\n15 in, determine the volumetric flowrate, in gpm, of oil in the pipe.\r\nThe pitot opening is placed at the center of the pipe. The oil has a\r\nspecific gravity of 0.84 and a viscosity of 0.0336 lb/ft-s.\r\n ',  "options": ['A. 77', 'B. 55', 'C. 32', 'D. 94'], "correct": 0}, 
+
+    { "text": 'Which of the following is not true? ',  "options": ['A. A pump will operate safely if its NPSH is greater than zero.', 'B.  Fans and blowers are used to transport gases.', 'C.  Pumps and blowers increase the mechanical energy of the fluid.', 'D. The power loss due to friction in a venturi meter is greater than\r\nin an orifice meter.'], "correct": 3}, 
+
+    { "text": 'Which of the following is not true? ',  "options": ['A. Potential flow is a flow of compressible fluids with no shear', 'B. Rotameters are variable head meters', 'C. There are 8 schedule numbers in used for standard pipes', 'D. Roughness has no appreciable effect on the friction factor when flow is laminar'], "correct": 2}, 
+
+    { "text": 'A sharp edged circular orifice is to be used to measure the flowrate of water at 20 C p = 1000 kg/m3 , u = 1 mPa s in a pipeline with an internal diameter of 250 mm. The orifice diameter is 50 mm. The reading of a mercury manometer at the throat tap position is 242 mm, Calculate the flowrate in L/s ',  "options": ['A. 5.85 L/s', 'B. 6.64 L/s', 'C. 7.11 L/s', 'D. 9.27 L/s'], "correct": 3}
+
+    { "text": 'A sharp edged orifice meter is to be fabricated to measure water flowing at a rate not exceed 1200 cfh with a differential head of 30 inHg. What orifice diameter in inches is required if D2/D1 = 1/5 ',  "options": ['A. 1.5', 'B. 1', 'C. 2', 'D. 2.5'], "correct": 0}, 
     
 ]
