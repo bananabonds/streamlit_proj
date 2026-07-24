@@ -754,3 +754,57 @@ Momentra = [
     { "text": 'A sharp edged orifice meter is to be fabricated to measure water flowing at a rate not exceed 1200 cfh with a differential head of 30 inHg. What orifice diameter in inches is required if D2/D1 = 1/5 ',  "options": ['A. 1.5', 'B. 1', 'C. 2', 'D. 2.5'], "correct": 0}
     
 ]
+
+HeMaTra = [
+
+    { "text": 'The driving force in heat transfer is ',  "options": ['A. concentration gradient', 'B.  temperature gradient', 'C. viscosity gradient', 'D. thickness of the solid in question'], "correct": 1}, 
+
+    { "text": 'Thermal diffusivity of a material ',  "options": ['A. has the unit m²/sec.', 'B. is defined as k/p x Ср.', 'C. is the ratio of thermal conductivity to thermal capacity.', 'D. all of these'], "correct": 3}, 
+
+    { "text": 'Under the same temperature gradient across various metalplates of the same thickness, the heat conducted per unitof surface area will be largest across ',  "options": ['A. lead', 'B. copper', 'C. iron', 'D. nickel'], "correct": 1}, 
+
+    { "text": 'If a man touches two metals which were kept together at\r\nroom temperature, why would one metal feel colder thanthe other ',  "options": ['A. one has a high heat transfer coefficient', 'B. one has a high thermal conductivity', 'C. one has a lower temperature', 'D.  one has a higher heat capacity'], "correct": 1}, 
+
+    { "text": 'Cork is a good insulator because it has ',  "options": ['A. free electrons', 'B. atoms colliding frequency', 'C.  low density', 'D. porous body'], "correct": 3}, 
+
+    { "text": 'The insulation ability of an insulator with the presence ofmoisture would ',  "options": ['A. increase', 'B. decrease', 'C. remains unaffected', 'D. none of the above'], "correct": 1}, 
+
+    { "text": 'A furnace wall is constructed of firebrick 6 in thick. The\r\ntemperature of the inside of the wall is 1300°F and thetemperature of the outside of the wall is 175°F. If the mean\r\nthermal conductivity under these conditions is 0.17 BTU/hr-ft °F,what is the rate of heat loss through 10 ft2 of wall surface? ',  "options": ['A. 5700 BTU/hr', 'B. 1070 kcal/hr', 'C. 3825 BTU/hr', 'D. 2354 kcal/hr'], "correct": 2}, 
+
+    { "text": 'A furnace wall is constructed of firebrick 6 in thick. The\r\ntemperature of the inside of the wall is 1300°F and thetemperature of the outside of the wall is 175°F. If the mean\r\nthermal conductivity under these conditions is 0.17 BTU/hr-ft °F,what is the rate of heat loss through 10 ft2 of wall surface? T1 = 1200 K, x1 = 0.2 m k = 1.4: x2 = 0.1 m, k = 0.21: x3 = 0.2 m, k = 0.7 : T2 = 330 K The heat loss per unit area is',  "options": ['A.  961 W/m²', 'B.  1248 W/m²', 'C.  1056 W/m²', 'D.  1567 W/m²'], "correct": 0}, 
+
+    { "text": 'A furnace wall is constructed of firebrick 6 in thick. The\r\ntemperature of the inside of the wall is 1300°F and thetemperature of the outside of the wall is 175°F. If the mean\r\nthermal conductivity under these conditions is 0.17 BTU/hr-ft °F,what is the rate of heat loss through 10 ft2 of wall surface? T1 = 1200 K, x1 = 0.2 m k = 1.4: x2 = 0.1 m, k = 0.21: x3 = 0.2 m, k = 0.7 : T2 = 330 K The temperature at the junction of the firebrick and the insulating brick is',  "options": ['A.  983 K', 'B.  1115 K', 'C. 1063 К', 'D.  1472 K'], "correct": 2}, 
+
+    { "text": 'The following data was obtained in a test on a flat-walled furnace the linings of which\r\nconsist of a 4.5 in non-corrosive brick of unknown conductivity and the outer wall of 8 in\r\nclay brick, also of unknown conductivity. The temperature of the inner wall (flame side) was\r\nfound to be 1105°F and that of the outer wall 365°F. This furnace was lagged with 2 in of\r\nmagnesia (k=0.04) thermocouples inserted at various points and the following data taken.\r\nTemperature of inner wall (flame side)\r\nTemperature at the junction of brick layers\r\nTemperature at the junction of ordinary brick and magnesia\r\nTemperature of the outer surface of magnesia\r\nCalculate the % of heat loss that is saved by the lagging.\r\n1355°F\r\n1290°F\r\n890°F\r\n190°F ',  "options": ['A. 50%', 'B.  28%', 'C. 37%', 'D. 44%'], "correct": 2}, 
+
+    { "text": 'A flat wall is to be constructed of firebrick, insulating brick, and building brick in series such that theheat loss will not exceed 250 BTU/hr-ft2 when the hot face of the firebrick is 2000°F and the cold face\r\nof the building is 100°F. What minimum wall thickness is required?\r\nk, BTU/hr-ft-°F brick thickness, in max allow, °F\r\nfireclay brick 0.90 4.5\r\ninsulating brick 0.12 3.0 1800\r\nbuilding brick 0.40 4.0 300\r\n ',  "options": ['A.  22 in', 'B. 9 in', 'C. 3 in', 'D.  18 in'], "correct": 0}, 
+
+    { "text": 'A flat wall is to be constructed of firebrick, insulating brick, and building brick in series such that theheat loss will not exceed 250 BTU/hr-ft2 when the hot face of the firebrick is 2000°F and the cold face\r\nof the building is 100°F. What minimum wall thickness is required?\r\nk, BTU/hr-ft-°F brick thickness, in max allow, °F\r\nfireclay brick 0.90 4.5\r\ninsulating brick 0.12 3.0 1800\r\nbuilding brick 0.40 4.0 300\r\n What actual heat loss will occur in Problem 10?',  "options": ['A. 200 BTU/hr-ft²', 'B. 180 BTU/hr-ft²', 'C. 240 BTU/hr-ft²', 'D.  160 BTU/hr-ft²'], "correct": 2}, 
+
+    { "text": 'A hallow metal sphere is heated so that the inside walltemperature is 300°F. The sphere has an internal diameter of 6inches and is 2 inches thick. What is the heat loss from thesphere if the outer surface is maintained at 212°F? The thermalconductivity of the metal is 8 BTU-ft/hr-ft2-oF? ',  "options": ['A. 7650 BTU/hr', 'B. 4156 BTU/hr', 'C. 1802 BTU/hr', 'D.  5529 BTU/hr'], "correct": 3}, 
+
+    { "text": 'A steel pipeline, 2 in-sch40, contains saturated steam at 121.1 °C. The pipeline isinsulated with 1 inch of asbestos (k=0.182 Sl units). Assuming that the inside surfacetemperature of the pipe wall is at 121.1°C and the outer surface of the insulation is at26.7°C. Calculate the heat loss (in Watts) for L=30.5 m.',  "options": ['A. 5400', 'B. 4375', 'C. 4910', 'D. 3862'], "correct": 0}, 
+
+    { "text": 'A steel pipeline, 2 in-sch40, contains saturated steam at 121.1 °C. The pipeline isinsulated with 1 inch of asbestos (k=0.182 Sl units). Assuming that the inside surfacetemperature of the pipe wall is at 121.1°C and the outer surface of the insulation is at26.7°C. How much steam in kg/hr is condensed due to the heat loss?',  "options": ['A.  10.9', 'B.  8.81', 'C.  8.13', 'D. 9.74'], "correct": 1}, 
+
+    { "text": 'A 50 mm diameter pipe of circular cross section and with walls 3 mm\r\nthick is covered with two concentric layers of lagging, the inner layerhaving a thickness of 25 mm and a thermal conductivity of 0.08 W/m-K,and the outer layer a thickness of 40 mm and a thermal conductivity of\r\n0.04 W/m-K. What is the rate of heat loss per meter length of pipe if the\r\ntemperature inside the pipe is 550 K and the outside surface temperature\r\nis 330 K? ',  "options": ['A. 62.7 W/m', 'B. 48.9 W/m', 'C. 55.3 W/m', 'D.  71.1 W/m'], "correct": 0}, 
+
+    { "text": 'The inner wall of a furnace is at a temperature of 700°C. The compositewall is made of two substances, 10 and 20 cm thick with thermal\r\nconductivities of 0.05 and 0.1 W/m-K respectively. The ambient air is at\r\n30°C and the heat transfer coefficient between the outer surface of wall\r\nand air is 20 W/m²-K. The rate of heat loss from the outer surface in\r\nW/m² is ',  "options": ['A.  165.4', 'B.  167.5', 'C. 172.8', 'D.  175.1'], "correct": 0}, 
+
+    { "text": 'A plane wall that is 20 cm thick and has a constant thermal conductivityk = 3 W/m-K undergoes one-dimensional steady conduction. The surface\r\ntemperature of the left side of the wall is known (TI = 50 deg C) and theright side of the wall is exposed to air (Tair = 10 deg C) and convective\r\nheat transfer (h = 60 W/m²-K). What is the temperature at the interface\r\nbetween the wall and the air on the right-hand side (T2)? ',  "options": ['A. 27°C', 'B.  18°C', 'C. 35°C', 'D. 44°C'], "correct": 1}, 
+
+    { "text": 'Saturated steam at 267°F is flowing inside a 1-in. steel pipe having an IDof 0.824 in. and an OD of 1.050 in. The pipe is insulated with 1.5 in. ofinsulation on the e pipe is estimated as hi = 1000 BTU/h-ft2.°F, and theconvective coefficient on the outside of the lagging is estimated as ho = 2\r\nBTU/h-ft2.°F The mean thermal conductivity of the metal is 26 BTU/hr-ft-°F and 0.037 BTU/hr-ft-°F for the insulation. Calculate the heat loss for\r\nft of pipe using resistances if the surrounding air is at 80°F. ',  "options": ['A. 25 BTu/hr', 'B.  19 BTU/hr', 'C. 48 BTu/hr', 'D.  30 BTu/hr'], "correct": 3}, 
+
+    { "text": "The critical radius 'r' of insulation on a pipe is given\r\nby ",  "options": ['A. r = 2k/h', 'B. r = k/2h', 'C. k/h', 'D. h/k'], "correct": 2}, 
+
+    { "text": 'The critical radius of insulation for a spherical shell is(where k = thermal conductivity of insulatingmaterial and ho = heat transfer coefficient of theouter surface) ',  "options": ['A. k/ho', 'B.  2k/ho', 'C. ho/k', 'D. ho/2k'], "correct": 1}, 
+
+    { "text": 'A current of 250 amperes is passing through a stainless wirewith diameter of 5.08 mm. The wire is 2.44 m long and has an\r\nelectrical resistance of 0.0843 ohms. The outer surface is heldconstant at 154.6 OC. The thermal conductivity of the wire is22.5 W/m-K. The center temperature of the wire is ',  "options": ['A. 435 K', 'B.  380 K', 'C. 256 К', 'D.  621 K'], "correct": 0}, 
+
+    { "text": 'Heat transfer occurs by natural convection because\r\nchange in temperature causes differences in ',  "options": ['A. viscosity', 'B. density', 'C. thermal conductivity', 'D. heat capacity'], "correct": 1}, 
+
+    { "text": 'Carbon tetrachloride, flowing at 19000 kg/hr is to be cooled from 85°C to 40°C in\r\na double pipe heat exchanger using 13500 kg/hr of cooling water at 20°C. The\r\noverall heat transfer coefficient is 1500 W/m²-K. Assume specific heat of CCl is0.88 J/g C. Determine the area (in m²) needed if flow is countercurrent.',  "options": ['A.  5.7', 'B. 1.9', 'C. 4.2', 'D. 3.6'], "correct": 2}, 
+    
+    { "text": 'Carbon tetrachloride, flowing at 19000 kg/hr is to be cooled from 85°C to 40°C in\r\na double pipe heat exchanger using 13500 kg/hr of cooling water at 20°C. The\r\noverall heat transfer coefficient is 1500 W/m²-K. Assume specific heat of CCl is0.88 J/g C. Determine the area (in m²) needed if flow is parallel.',  "options": ['A. 7.8', 'B. 3.9', 'C. 2.6', 'D.  5.4'], "correct": 3}, 
+    
+]
