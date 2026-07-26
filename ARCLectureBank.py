@@ -806,5 +806,157 @@ HeMaTra = [
     { "text": 'Carbon tetrachloride, flowing at 19000 kg/hr is to be cooled from 85°C to 40°C in\r\na double pipe heat exchanger using 13500 kg/hr of cooling water at 20°C. The\r\noverall heat transfer coefficient is 1500 W/m²-K. Assume specific heat of CCl is0.88 J/g C. Determine the area (in m²) needed if flow is countercurrent.',  "options": ['A.  5.7', 'B. 1.9', 'C. 4.2', 'D. 3.6'], "correct": 2}, 
     
     { "text": 'Carbon tetrachloride, flowing at 19000 kg/hr is to be cooled from 85°C to 40°C in\r\na double pipe heat exchanger using 13500 kg/hr of cooling water at 20°C. The\r\noverall heat transfer coefficient is 1500 W/m²-K. Assume specific heat of CCl is0.88 J/g C. Determine the area (in m²) needed if flow is parallel.',  "options": ['A. 7.8', 'B. 3.9', 'C. 2.6', 'D.  5.4'], "correct": 3}, 
+
+    { "text": 'A cooling coil, consisting of a single length of tubing through which water iscirculated, is provided in a reaction vessel, the contents of which are keptuniformly at 360 K by means of a stirrer. The inlet and outlet temperaturesof the cooling water are 280 K and 320 K respectively. What would be theoutlet water temperature if the length of the cooling coil were increased by 5 times? Assume the overall heat transfer coefficient to be constant over thelength of the tube and independent of the water temperature. ',  "options": ['A. 429 K', 'B. 370 K', 'C.  358 K', 'D. 465 K'], "correct": 2}, 
+
+    { "text": 'Stream A with specific heat capacity of 2000 J/kg-K is cooled from 90to 45°C in a concentric double pipe counter current heat exchangerhaving a heat transfer area of 8 m². The cold stream B of specific heatof 1000 J/kg-K enters the exchanger at a flowrate 1 kg/s and 40°C. Theoverall heat transfer coefficient U = 250 W/m²-K. Assume that themean driving force is based on the arithmetic mean difference,calculate the mass flowrate of stream A.\r\n ',  "options": ['A. 0.46', 'B.  0.31', 'C. 0.50', 'D. 0.22'], "correct": 1}, 
+
+    { "text": 'In a double pipe hear exchanger of 10 m length, a hot fluid flowsin the annulus and a cold fluid flows in the inner pipe. Thetemperature profiles of the hot (Th)and the cold (Tc) fluid alongthe length of the heat exchanger, are given by: Th(x)= 80 - 3x\r\nand Tc(x) = 20 + 2x, where Th and Te are in °C, and x is inmeters. The logarithmic mean temperature difference in °C is ',  "options": ['A.  50.0', 'B. 24.6', 'C.  27.9', 'D. 30.0'], "correct": 2}, 
+
+    { "text": 'A heat exchanger is required to cool continuously 20 kg/s of water from 360 K to 335 K\r\nby means of 25 kg/s of cold water, inlet temperature 300 K. Assuming that the water\r\nvelocities are such as to give an overall coefficient of heat transfer of 2 kW/m²-К.,assumed constant, calculate the total area of surface required. In a counterflow heat exchanger',  "options": ['A. 28 m²', 'B.  25 m²', 'C. 32 m²', 'D. 36 m²'], "correct": 0}, 
+
+    { "text": 'A heat exchanger is required to cool continuously 20 kg/s of water from 360 K to 335 K\r\nby means of 25 kg/s of cold water, inlet temperature 300 K. Assuming that the water\r\nvelocities are such as to give an overall coefficient of heat transfer of 2 kW/m²-К.,assumed constant, calculate the total area of surface required. In a multi-pass heat exchanger, with the cold water making two passes through the\r\ntubes, and the hot water making one pass along the outside tubes.',  "options": ['A. 24 m²', 'B. 36 m²', 'C. 33 m²', 'D. 30 m²'], "correct": 3}, 
+
+    { "text": 'In a heat exchanger with steam outside the tubes, a liquid gets heated to\r\n45°C, when its flow velocity in the tubes is 2 m/s. If the flow velocity isreduced to 1 m/s, other things remaining the same, the temperature ofthe exit liquid will be ',  "options": ['A.  less than 45°C', 'B. more than 45°C', 'C. equal to 45°C\r\n', 'D. initially decreases and remains constant thereafter'], "correct": 1}, 
+
+    { "text": 'Heat transfer in turbulent flow may be described byan empirical equation correlating ',  "options": ['A. Nusselt, Peclet, Prandtl numbers', 'B.  Nusselt, Prandtl, Stanton numbers', 'C. Nusselt, Prandtl, Reynolds numbers', 'D. Nusselt, Graetz, Schimdt numbers'], "correct": 2}, 
+
+    { "text": 'Air at 206.8 kPa and an average of 477.6 K is being heated as it flowsthrough a tube of 25.4 mm inside diameter at a velocity of 7.62 m/s. Theheating medium is 488.7 K steam condensing on the outside of the tube.Since the heat transfer coefficient of condensing steam is severalthousand W/m²-K and the resistance of the metal wall is very small, itwill be assumed that the surface wall temperature of the metal in contact\r\nwith air is 488.7 K. Calculate the heat flux for an L/D > 60. ',  "options": ['A. 700 W/m²', 'B.  500 W/m²', 'C. 600 W/m²', 'D. 800 W/m²'], "correct": 0}, 
+
+    { "text": 'Prandtl number for water at 20°C is about ',  "options": ['A. 7', 'B. 0.7', 'C. 70', 'D. 150'], "correct": 0}, 
+
+    { "text": "In a 1-1 shell and tube heat exchanger, steam is condensing on the shell side at Ts °C,and the cold fluid is being heated on the tube side from t °C to t₂ °C. The followingequation relates t₂ to the other variables.  ln (Ts - t1 / Ts - t2) = UA/W Cp Where 'U' is the overall heat transfer coefficient, 'A' is the heat transfer area, W' is the\r\nmass flow rate and 'Cp' is the heat capacity. The tube side coefficient is controlling, andthe tube side fluid is in turbulent flow. T5 = 130°C, t = 30°C, t₂ = 80°C. If the mass flow\r\nrate of the cold fluid is double while keeping all the other conditions it, find the new\r\nvalue of t₂ at steady state.\r\n",  "options": ['A.  80°C', 'B.  54°C', 'C. 66°C', 'D. 75°C'], "correct": 3},
+
+    { "text": 'The Nusselt number for fully developed (boththermally and hydrodynamically) laminar flowthrough a circular pipe whose surfacetemperature remains constant is ',  "options": ['A.  1.66', 'B.  3.66', 'C. 88.66', 'D. dependent on NRe only'], "correct": 1}, 
+
+    { "text": 'For turbulent flow in a tube, the heat transfer coefficientis obtained from the Dittus-Boelter correlation. If the tubediameter is halved and the flow rate is doubled, then theheat transfer coefficient will change by a factor of ',  "options": ['A. 1', 'B. 6.1', 'C. 1.74', 'D. 37'], "correct": 1}, 
+
+    { "text": 'Water is running through a vertical plate withReynolds number of 10. What is the flowrate of waterin gal/ft-hr. ',  "options": ['A. 0.624', 'B. 0.277', 'C. 0.727', 'D.  0.426'], "correct": 2}, 
+
+    { "text": 'When heat is transferred from hot body to cold body,in a straight line, without affecting the interveningmedium, it is referred as heat transfer by ',  "options": ['A. conduction', 'B. convection', 'C. radiation', 'D. convection and radiation'], "correct": 2}, 
+
+    { "text": 'An ideal surface that absorbs all incident radiation,regardless of the wavelengths and direction and isalso considered to be a perfect emitter is referred toas a ',  "options": ['A. gray body', 'B. black hole', 'C. black body', 'D. pin hole'], "correct": 2}, 
+
+    { "text": 'In thermal radiation, for a black body where a is absorptivity and & is emissivity.',  "options": ['A.  α= 1 and & is not equal to 1', 'B.  a is not equal to 1 and ε= 1', 'C.  a and ε are not equal to 1', 'D.  a= 1 and ε= 1'], "correct": 3}, 
+
+    { "text": 'The radiation heat flux from a heating element at a\r\ntemperature of 800°C, in a furnace maintained at 300°C is8 kW/m². The flux, when the element temperature isincreased to 1000°C for the same furnace temperature is ',  "options": ['A.  11.2 kW/m²', 'B.  14.6 kW/m²', 'C. 12.0 kW/m²', 'D. 16.5 kW/m²'], "correct": 3}, 
+
+    { "text": 'A bare horizontal pipe of 50 mm outside diameter is placed in a room where the air\r\ntemperature is 290 K. Saturated steam at 415 K flows through the pipe. Using emissivityof 0.9. Estimate the heat transfer coefficient due to convection from the pipe to the room.',  "options": ['A. 7.4 W/m²-°C', 'B. 9.23 W/m²-°C', 'C.  12.8 W/m²-°C', 'D.  8.5 W/m2-°C'], "correct": 3}, 
+
+    { "text": 'A bare horizontal pipe of 50 mm outside diameter is placed in a room where the air\r\ntemperature is 290 K. Saturated steam at 415 K flows through the pipe. Using emissivityof 0.9. What is the total heat loss per meter length of pipe from the steam to the room?',  "options": ['A. 258', 'B. 345', 'C. 564', 'D. 305'], "correct": 1}, 
+
+    { "text": 'An uninsulated steam pipe passes through a room in which the air and walls are at 25 C. The outside diameter of the pipe is 70 mm, and its surface temperature and emissivity are 200 C and 0.8, respectively. If the coefficient associated with free convection heat transfer from the surface air is 15 W/m2, what is the rate of heat loss from the surface per unit length of pipe ',  "options": ['A. 650 W/m', 'B. 998 W/m', 'C. 835 W/m', 'D. 726 W/m'], "correct": 1}, 
+
+    { "text": 'Two large parallel plates with gray surfaces are\r\nplaced 75 mm apart. One has emissivity of 0.8 andat T=350 K; and the other has emissivity of 0.4 andat T=300 K. Calculate the net heat transfer byradiation in W/m². ',  "options": ['A. 108', 'B. 142', 'C. 255', 'D. 194'], "correct": 1}, 
+
+    { "text": "The Fick's Law of Diffusion gives the rate of diffusion\r\nbased on ",  "options": ['A. pressure driving force', 'B.  temperature driving force', 'C. concentration driving force', 'D. all of these'], "correct": 2}, 
+
+    { "text": 'In steady-state equimolal counterdiffusion, the following\r\nare true: ',  "options": ['A. Ng = 0; N is constant', 'B.  NA = 0; N is nonzero', 'C. NA =- NB; NA + NB  = 0', 'D.  NA + NB = constant'], "correct": 2}, 
+
+    { "text": 'The enrichment of ethyl alcohol in the vapor phase froman aqueous ethyl alcohol solution during rectification is an\r\nexample of ',  "options": ['A. unicomponent diffusion', 'B. equimolal counterdiffusion', 'C. phase drift', 'D. convective diffusion'], "correct": 1}, 
+
+    { "text": 'A\r\n1 mixture of He and N₂ gas is contained in a pipe at 298 K and\r\natm total pressure which is constant throughout. At one end ofthe pipe at point 1 the partial pressure PA of He is 0.6 atm andat the other end 0.2 m PA2 = 0.2 atm. Calculate the flux of He atsteady state if DAB of the He-N₂ mixture is 0.687x10-4 m²/s.\r\n ',  "options": ['A. 5.63x10-6 kmol A /s-m²', 'B. 2.05x10-6 kmol A /s-m²', 'C.  1.94x10-6 kmol A /s-m²', 'D. 7.83x10-6 kmol A /s-m²'], "correct": 0}, 
+
+    { "text": 'Ammonia (A) being absorbed from air (B) into water is an\r\nexample of ',  "options": ['A.  steady-state equimolal diffusion', 'B. steady-state unicomponent', 'C.  steady-state multicomponent diffusion', 'D. unsteady state equimolal diffusion'], "correct": 1}, 
+
+    { "text": 'For a gas phase diffusion, unicomponent diffusion throughgas liquid interface will likely to occur if ',  "options": ['A.  one component is soluble and the other is not', 'B.  both components are soluble in the solvent\r\n', 'C. both components are insoluble in the solvent', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'In a binary gas-liquid system, NAEMD is the molar flux of a gas A\r\nfor equimolar counter diffusion with a liquid B. NA,UMD is themolar flux of A for steady one component diffusion throughstagnant B. Using the mole fraction of A in the bulk of the gasphase as 0.2 and that at the gas-liquid interface as 0.1 for boththe modes of diffusion, the ratio of NAUMD to NAEMD is equal to ',  "options": ['A.  2.3', 'B.  0.8', 'C. 0.4', 'D.  1.2'], "correct": 3}, 
+
+    { "text": 'Water in the bottom of a narrow metal tube is held at a constant\r\ntemperature of 293 K. The total pressure of air (assumed dry) is 1.01325 x\r\n105 Pa (1.0 atm) and the temperature is 293 K (20 °C). Water evaporates\r\nand diffuses through the air in the tube, and the diffusion path z₂ - z, is0.1524 m (0.5 ft) long. Calculate the rate of evaporation at steady state inkg mol/s-m². The diffusivity of water vapor at 293 K and 1 am pressure is0.250 x 10-4 m²/s. Assume that the system is isothermal.\r\n ',  "options": ['A.  3.8x10-7 kmol A /s-m²', 'B. 5.5x10-7 kmol A /s-m²', 'C. 2.0x10-7 kmol A /s-m²', 'D. 1.6x10-7 kmol A /s-m²'], "correct": 3}, 
+
+    { "text": 'Normal butanol is diffusing through air at 1 atm abs. Using Fulleret. al. method, estimate the diffusivity for the following\r\ntemperatures and compare with the experimental data:\r\nFor 0°C ',  "options": ['A. 3.9x10-6 m²/s', 'B. 8.3x10-6 m²/s', 'C.  7.7x10-6 m²/s', 'D. 9.1x10-6 m²/s'], "correct": 2}, 
+
+    { "text": 'Normal butanol is diffusing through air at 1 atm abs. Using Fulleret. al. method, estimate the diffusivity for the following\r\ntemperatures and compare with the experimental data:\r\nFor 0°C For 25.9°C',  "options": ['A. 3.9x10-6 m²/s', 'B. 8.3x10-6 m²/s', 'C.  7.7x10-6 m²/s', 'D. 9.1x10-6 m²/s'], "correct": 3}, 
+
+    { "text": 'Normal butanol is diffusing through air at 1 atm abs. Using Fulleret. al. method, estimate the diffusivity for the following\r\ntemperatures and compare with the experimental data:\r\nFor 0°C For 0°C and 2 atm',  "options": ['A. 3.9x10-6 m²/s', 'B. 8.3x10-6 m²/s', 'C.  7.7x10-6 m²/s', 'D. 9.1x10-6 m²/s'], "correct": 0}, 
+
+    { "text": 'Estimate the diffusivity of benzene vapor in air at 25°Cand 2 atm using the Fuller-Schettler-Giddings correlation. ',  "options": ['A.  0.077 cm²/s', 'B. 0.063 cm²/s', 'C.  0.059 cm²/s', 'D. 0.045 cm²/s'], "correct": 3}, 
+
+    { "text": 'By what percentage would the rate of absorption be increased or decreases by increasing the total\r\npressure from 100 to 200 kPa in the following cases? The absorption of ammonia from a mixture of ammonia and air containing 10% ammonia by\r\nvolume, using pure water as solvent. Assume that all the resistance to the mass transfer lies\r\nwithin the gas phase.',  "options": ['A.  0%', 'B. 50%', 'C. 48%', 'D.  100%'], "correct": 0}, 
+
+    { "text": 'By what percentage would the rate of absorption be increased or decreases by increasing the total\r\npressure from 100 to 200 kPa in the following cases? The same conditions as (58) but the absorbing solution exerts a partial vapor pressure of\r\nammonia of 5 kN/m².',  "options": ['A.  0%', 'B. 50%', 'C. 48%', 'D.  100%'], "correct": 2}, 
+
+    { "text": 'A thick ethanol -water solution in the form of stagnant film 2 mm thickat 293 K in contact at one surface with an organic solvent in whichethanol is soluble and water is insoluble. At point 1 the concentration ofethanol is 16.8 wt% and the solution density is 972.8 kg/m³. At point 2\r\nthe concentration of ethanol is 6.8 wt% and density is 988.1 kg/m³. Thediffusivity of ethanol is 0.740x10-9 m²/s. Calculate the steady state flux,NA ',  "options": ['A.  5x10-7 kmol A /s-m²', 'B.  6x10-7 kmol A /s-m²', 'C. 2x10-7 kmol A /s-m²', 'D. 9x10-7 kmol A /s-m²'], "correct": 3}, 
+
+    { "text": 'It represents the total mass transferred to mass transferred bymolecular diffusion. ',  "options": ['A. Schmidt Number', 'B. Sherwood Number', 'C.  Reynolds Number', 'D. Nusselt Number'], "correct": 1}, 
+
+    { "text": 'Pure aniline is evaporating through a stagnant air film of 1 mm thickness at 300 K and a\r\ntotal pressure of 100 kPa. The vapor pressure of aniline at 300 K is 0.1 kPa. The total molar\r\nconcentration under these conditions is 40.1 mol/m³. The diffusivity of aniline in air is 0.74 x\r\n10-5 m²/s.\r\n The numerical value of the mass transfer coefficient is 7.4 x 10-3, lts units are',  "options": ['A. m/s', 'B. cm/s', 'C.  mol/m²-s-Pa', 'D.  kmol/ m²-s-Pa'], "correct": 0}, 
+
+    { "text": 'Pure aniline is evaporating through a stagnant air film of 1 mm thickness at 300 K and a\r\ntotal pressure of 100 kPa. The vapor pressure of aniline at 300 K is 0.1 kPa. The total molar\r\nconcentration under these conditions is 40.1 mol/m³. The diffusivity of aniline in air is 0.74 x\r\n10-5 m²/s.\r\n The rate of evaporation of aniline is 2.97 x 104. Its units are',  "options": ['A. mol/s', 'B.  mol/cm²-s', 'C. mol/m²', 'D.  kmol/ m²-s'], "correct": 3}, 
+
+    { "text": 'Which of the following is true about  rate of mass transfer in liquid ',  "options": ['A. Na = k_G ( Pab - Pai)', 'B. Na = k_G ( Cab - Cai)', 'C. Na = k_C ( Pab - Pai)', 'D. Na = k_C ( Cab - Cai)'], "correct": 3}, 
+
+    { "text": 'A stream of air at 100 kPa pressure and 300 K is flowing the top surface of a thin flat sheet of solid napthalene vapor in air = 6  ^10^ -6 m^2/s, Kinematic viscosity  of air = 1.5 * 10 ^ -5 m2/s Concentration of napthalene at the air solid napthalene interface = 1*10 ^ -5 kmol/m3 Calculate the following: The average mass transfer coefficient over the flat plate ',  "options": ['A. 5.62 * 10^-6 kmol/m2 s kPa', 'B. 1.58 * 10 -6 kmol/m2 s kPa', 'C. 2.09 *10-6 kmol / m2 s kPa ', 'D. 3.75 * 10 ^-6 kmol/m2 s kPa'], "correct": 0}, 
+
+    { "text": 'A stream of air at 100 kPa pressure and 300 K is flowing the top surface of a thin flat sheet of solid napthalene vapor in air = 6  ^10^ -6 m^2/s, Kinematic viscosity  of air = 1.5 * 10 ^ -5 m2/s Concentration of napthalene at the air solid napthalene interface = 1*10 ^ -5 kmol/m3 Calculate the following: The rate of loss of napthalene from the surface per unit width',  "options": ['A. 1.88*10^-8 kmol/s', 'B. 3.33*10^-8 kmol/s', 'C. 2.65*10^-8 kmol/s', 'D. 6.66*10^-8 kmol/s'], "correct": 2}, 
+
+    { "text": 'A dimensionless number that represents the ratio of the molecular momentum diffusion to the molecular mass diffusivity ',  "options": ['A. Sherwood Number', 'B. Reynolds Number', 'C. Schmidt Number', 'D. Rayleigh Number'], "correct": 2}, 
+
+    { "text": 'For turbulent mass transfer in pipes, the Sherwood number depends upon the Reynolds number Re as  ',  "options": ['A. Re ^ 0.33', 'B. Re ^ 0.83', 'C. Re ^ 0.53', 'D. Re '], "correct": 0}, 
+
+    { "text": 'A thin liquid film of ammonia, which has formed on the inner surface of a tube of diameter D=10 mm and length L = 1m, is removed by passing dry air through the tube at a flow rate of 3 * 10 ^-4 kg/s. The tube and the air are at 25 C. What is the average mass transfer convection coefficient ',  "options": ['A. 0.083 m/s', 'B. 0.012 m/s', 'C. 0.055 m/s', 'D. 0.076 m/s'], "correct": 1}, 
+
+    { "text": 'Water at 25 C is flowing in a covered irrigation ditch below ground. Every 100 m, there is a vent line 30 mm inside diameter and 1 m long to the outside  atmosphere at 25 C There are 10 vents in the 1000 m ditch. The outside air can be assumed to be dry. Calculate the total evaporation loss of water in kg/day ',  "options": ['A. 2.9 * 10 ^ -4', 'B. 1.5* 10 ^ -4', 'C. 4.2* 10 ^ -4', 'D. 3.7* 10 ^ -4'], "correct": 3}, 
+
+    { "text": 'For a mixture of ethanol vapor and methane, predict the diffusivity using the method of Fuller et al. method at 2 atm and 298 K ',  "options": ['A. 1.9* 10 ^ -6 m2/s', 'B. 7.1* 10 ^ -6 m2/s', 'C. 3.3* 10 ^ -6 m2/s', 'D. 4.6* 10 ^ -6 m2/s'], "correct": 1}, 
+
+    { "text": 'In general, operating pressure should be ____ and temperature ____ for an absorber, to minimize stage requirements and / or absorbent flow rate to lower the equipment volume required to accomodate the gas flow ',  "options": ['A. high, low', 'B. maximum, low', 'C. low, high', 'D. minimum, high'], "correct": 0}, 
+
+    { "text": 'In a gas absorption tower, mass transfer occurs primarily ',  "options": ['A. from the liquid phase to the gas phase', 'B. from the liquid phase to the packing', 'C. from the gas phase to the liquid phase', 'D. from the gas phase to the packing'], "correct": 2}, 
+
+    { "text": 'Seperation of a mixture of two gases by absorption in the liquid solvent depends upon the difference in their ',  "options": ['A. viscosity ', 'B. solubility', 'C. density', 'D. relative volatility'], "correct": 1}, 
+
+    { "text": 'In gas absorption, one solute is being absorbed while the rest of the components are assumed to be _____ and the liquid is _____ ',  "options": ['A. inert, volatile', 'B. non-soluble. non-volatile', 'C. non-soluble, volatile', 'D. soluble, volatile'], "correct": 1}, 
+
+    { "text": 'In a CO2 absorber using a carbonate solution as absorbent, 1,000 kmols/h of flue gases containing 50% by volume CO2 and the balance being inert gases, is fed into the column. The lean gas leaves the absorber with a 2% by volume CO2. Calculate the quantity of CO2, in kg/h, that is recovered from the regeneration of the fat liquor.  ',  "options": ['A. 15900 kg/hr', 'B. 27700 kg/hr ', 'C. 18500 kg/hr', 'D. 21600 kg/hr'], "correct": 3}, 
+
+    { "text": 'A gas mixture containing 1% acetone and 99% dry air by volume is contacted with pure water in a plate gas absorber in which 90% of the acetone is recovered. The inlet gas flow rate is 30 kmol/hr and the inlet water flow rate is 90 kmol/hr. The absorber operates at 27 C and 1 atm. The equilibrium curve is given by y* = 2.53x.  What is the concentration of the strong liquor?',  "options": ['A. 0.003', 'B. 0.002', 'C. 0.001', 'D. 0.004 '], "correct": 0}, 
+
+    { "text": 'A gas mixture containing 1% acetone and 99% dry air by volume is contacted with pure water in a plate gas absorber in which 90% of the acetone is recovered. The inlet gas flow rate is 30 kmol/hr and the inlet water flow rate is 90 kmol/hr. The absorber operates at 27 C and 1 atm. The equilibrium curve is given by y* = 2.53x.  What is the number of theoretical plates required?',  "options": ['A. 5.1 ', 'B. 6.2 ', 'C. 7.0 ', 'D. 7.9 '], "correct": 0}, 
+
+    { "text": 'It is desired to absorb 90% of the acetone in a gas containing 1 mol% acetone in air in a countercurrent stage tower. The total inlet gas flow to the tower is 30 kmol/hr, and the total inlet pure water flow to be used to absorb acetone is 90 kmol/hr. The process is to operate isothermally at 300 K and a total pressure of 101.3 kPa. The equilibrium relation for the acetone (A) in the gas - liquid is y = 2.53x. Determine the number of theoretical stages required for this separation. ',  "options": ['A. 4.5 stages', 'B. 3.3 stages', 'C. 5.2 stages', 'D. 2.9 stages '], "correct": 2}, 
+
+    { "text": 'Sulfur dioxide is to be recovered from a dry gas containing (by volume) 13 percent sulfur dioxide and 87% air, using a tower at atmospheric pressure with water as the solvent. By means of lead cooling coils, the temperature is maintained at 40C throughout the operation. The gas entering at the rate of 100 cubic feet per minute at 40C is to be stripped of 99% of its sulfur content. Determine the minimum amount of water that can be used ',  "options": ['A. 230 lbImin', 'B. 490 lb/min ', 'C. 310 lb/min', 'D. 560 lb/min '], "correct": 0}, 
+
+    { "text": 'Acetone is to be removed from an \r\nair/acetone mixture using a plate column at \r\n1 atm. The mixture enters the bottom of \r\nthe absorber containing 2% acetone by \r\nvolume. Pure water is used to remove 95% \r\nof the acetone. lithe actual liquid flow rate is 1.2 times the minimum required and if \r\nis 1.2 times the minimum required and if \r\nthe equilibrium relationship is represented \r\nby = 2.53x,\r\n What is the mole fraction of acetone  \r\nin the lean gas?',  "options": ['A. 0.0015', 'B. 0.0066', 'C.  0.0025\r\n', 'D. 0.0038\r\n'], "correct": 1}, 
+
+    { "text": 'Acetone is to be removed from an \r\nair/acetone mixture using a plate column at \r\n1 atm. The mixture enters the bottom of \r\nthe absorber containing 2% acetone by \r\nvolume. Pure water is used to remove 95% \r\nof the acetone. lithe actual liquid flow rate is 1.2 times the minimum required and if \r\nis 1.2 times the minimum required and if \r\nthe equilibrium relationship is represented \r\nby = 2.53x,\r\n \r\nWhat is the theoretical number of  \r\nstages?\r\n',  "options": ['A. 9.17', 'B. 12.75', 'C. 23.81', 'D. 28.43\r\n'], "correct": 0}, 
+
+    { "text": " Air from a solvent plant contains 2 percent n-pentane. The pentane concentration \r\nis to be reduced to 0.1 percent by contacting the gas, at 80°F and 147 lb per sq. in \r\nabs with 6950 lb per hour of an absorption oil that contains 0.05 percent pentane by \r\nweight; 100000 cu. It of the gas, measures at 60F and 14.7 psia, is handled per \r\nhour. The molecular weight of the oil is 220. The vapor pressure of pentane at 80°F  \r\nis 523 mmHg. Raoult's law and Dalton's law are assumed to be valid at these \r\nconditions. Calculate the number of perfect plates required ",  "options": ['A. 3.6', 'B. 7.8         ', 'C. 4.9\r\n', 'D. 5.1\r\n'], "correct": 0},
+
+    { "text": 'Propane is to be stripped from non-volatile of by steam in a counter-current lower. Four moles of steam will be supplied at the bottom of the tower for every 100 moles of oil-propane feed at the top. The oil originally contains 2.5 mole percent propane and this concentration must be reduced to 0.25 mole percent. The tower is maintained at 280"F and 35 psi. The equilibrium relationship is y = 33.4x, where x and y are mole fraction \r\nunits. How many equilibrium stages are required?\r\n',  "options": ['A. 1', 'B. 3', 'C. 4', 'D. 2'], "correct": 1}, 
+
+    { "text": 'Propane is to be stripped from non-volatile of by steam in a counter-current lower. Four moles of steam will be supplied at the bottom of the tower for every 100 moles of oil-propane feed at the top. The oil originally contains 2.5 mole percent propane and this concentration must be reduced to 0.25 mole percent. The tower is maintained at 280"F and 35 psi. The equilibrium relationship is y = 33.4x, where x and y are mole fraction \r\nunits. If the pressure is increased to 70 psia, how \r\nmany equilibrium stages are required?\r\n',  "options": ['A. 6', 'B. 8', 'C. 4', 'D. 3'], "correct": 1},     
     
+    { "text": ' What could be the effect of lowering the temperature of \r\nstripping? ',  "options": ['A. number of stages increases\r\n', 'B. number of stages decreases', 'C. either a or b\r\n', 'D. cannot be determined\r\n'], "correct": 0}, 
+
+    { "text": 'The reverse is true for stripping. However, the operating pressure should not be too high and the operating temperature should not be too low as to the feed gas. ',  "options": ['A. a.\tvaporize', 'B. b.\tcompress', 'C. condense', 'D. none of these'], "correct": 2},
+
+    { "text": "  A mixture of benzene vapor and flue gas contains 12.7 mole % benzene and is to\r\nbe scrubbed continuously in a packed tower operated at atmospheric pressure at\r\n43°C. The tower is to be designed to treat 36000 ft3 per hour of entering gas and the\r\nexit gas is to contain 1.5 mole % benzene. Pure solvent will be supplied at the rate of\r\n28 lbmol/hr. The solution of benzene in oil may be assumed to follow Raoult's law\r\nand the vapor pressure of pure solvent at 43°C is 0.263 atm. It is agreed that the\r\nmaximum allowable superficial velocity of the gas is 1 ft/sec. Calculate the height of\r\nthe tower required, assuming that the height of a transfer unit is 2 ft.\r\n ",  "options": ['A. 6.5 ft ', 'B.  7.0 ft', 'C. 5.8 ft', 'D. 9.3 ft\r\n\x0c'], "correct": 1}, 
+
+    { "text": "The overall mass transfer coefficient have the following values in a packed tower operated isothermally at a pressure of 3 atm: \r\nGas phase: KGa = 0.396 kmol/hr-m3-Ay\r\nLiquid phase: KLa = 13.9 kmol/hr-m3-Ax\r\nwhere Ax and Ay refers to the driving force in mole fraction. \r\nThe equilibrium compositions of the gaseous and liquid \r\nphases are characterized by the equation of Henry's law. What \r\nis the value of Henry's law constant, H?\r\n ",  "options": ['A. 80000 mmHg   ', 'B. 50000 mmHg   ', 'C. 20000 mmHg\r\nb', 'D. 60000 mmHg\r\n\x0c'], "correct": 0}, 
+
+    { "text": "it is desired to design a packed tower for continously absorbing NH3 from air by countercurrent water flow using the following data: y1 = 0.05, L'/V' = 1.2, y2 = 0.0005, Qv1 = 108000 ft3/hr at 27 C and 1 atm, Qv = 20 lbmol air/hr ft2, equilibrium relationship : y* = 0.8 x kya = 10 lbmol/hr ft3, kxa = 19.2 lbmol/hr ft3 Calculate the following: HoG",  "options": ['A. 1.8 ft', 'B. 0.6 ft', 'C. 3.3 ft', 'D. 2.9 ft'], "correct": 3}, 
+
+    { "text": "it is desired to design a packed tower for continously absorbing NH3 from air by countercurrent water flow using the following data: y1 = 0.05, L'/V' = 1.2, y2 = 0.0005, Qv1 = 108000 ft3/hr at 27 C and 1 atm, Qv = 20 lbmol air/hr ft2, equilibrium relationship : y* = 0.8 x kya = 10 lbmol/hr ft3, kxa = 19.2 lbmol/hr ft3 Calculate the following:  Packed height, Z",  "options": ['A. 32 ft', 'B. 19 ft', 'C. 44 ft', 'D. 27 ft'], "correct": 0}, 
+
+    { "text": 'Operating velocity in a packed tower is usually ',  "options": ['A. half the flooding velocity\r\n', 'B. twice the flooding velocity', 'C. equal to flooding velocity', 'D. more than the flooding velocity\r\n'], "correct": 0}, 
+
+    { "text": 'Flooding in a column results due to\r\n ',  "options": ['A. high pressure drop', 'B. low pressure drop', 'C. low velocity of the liquid', 'D. high temperature'], "correct": 0}, 
+
+    { "text": 'Flooding results in ',  "options": ['A. high tray efficiency', 'B. low tray efficiency\r\n', 'C. high gas velocity\r\n. ', 'D. good contact between the fluid'], "correct": 1}, 
+
+    { "text": 'Which of the following same diameter columns gives lowest\r\npressure drop per unit height? ',  "options": ['A. Bubble-cap column       ', 'B. Packed column (stacked) ', 'C. Sieve-plate column', 'D. Randomly packed column\r\n\x0c'], "correct": 1}, 
+
+    { "text": 'Which of the following provides maximum contact surface for \r\na liquid-vapor system? ',  "options": ['A. Packed tower           ', 'B. Sieve-plate column     ', 'C. Bubble-cap plate ', 'D. Wetted wall column'], "correct": 0}, 
+
+    { "text": 'Which of the following liquid-vapor contacting devices \r\nprovides maximum contact surface area for a particular duty?\r\n ',  "options": ['A. Sieve plate column     ', 'B. Randomly packed column ', 'C. Bubble cap column', 'D. Wetted wall column'], "correct": 3}, 
+
+    { "text": '_________ column is preferred to be used, when a high liquid hold up is required in a reactor for gas-liquid reaction. ',  "options": ['A. Packed', 'B. Bubble', 'C. Spray', 'D. Tray'], "correct": 1}, 
+
+    { "text": 'Very tall packed towers are divided into series of beds to  a. reduce the overall pressure drop\r\n ',  "options": ['A. reduce the overall pressure drop', 'B. avoid channeling', 'C. reduce liquid hold-up', 'D. avoid flooding'], "correct": 1}, 
+
+    { "text": 'Channeling in a packed tower results from ',  "options": ['A. high pressure drop', 'B. non-uniformity of packing', 'C. maldistribution of liquid\r\n', 'D. both b and c'], "correct": 2}, 
+
 ]
