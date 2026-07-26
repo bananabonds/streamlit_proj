@@ -960,3 +960,46 @@ HeMaTra = [
     { "text": 'Channeling in a packed tower results from ',  "options": ['A. high pressure drop', 'B. non-uniformity of packing', 'C. maldistribution of liquid\r\n', 'D. both b and c'], "correct": 2}, 
 
 ]
+
+
+ParTech = [
+
+    { "text": 'In screen analysis, notation 10 mm /5 mm means\r\npassing through ',  "options": ['A. 10 mm screen and retained on 5 mm screen', 'B.  5 mm screen and retained on 10 mm screen', 'C. both 5 mm and 13 mm screens', 'D. neither 5 mm nor 10 mm screens'], "correct": 0}, 
+
+    { "text": ' For sizing of fine materials, the mostsuitable equipment is a ',  "options": ['A. trommel', 'B. shaking screen ', 'C. grizzly', 'D.  vibrating screen'], "correct": 3}, 
+
+    { "text": '200 mesh screen means 200 openingsper ',  "options": ['A. cm²', 'B. inch', 'C. cm', 'D. inch2'], "correct": 1}, 
+
+    { "text": ' Pick out the wrong statement. ',  "options": ['A. Hammer crushers operate by impact action.', 'B. Standard screens have circular opening.', 'C. With increase in mesh number of screens, theirdiameter in microns decreases.\r\n', 'D. 200 mesh screen has 200 openings per linear cm.'], "correct": 3}, 
+
+    { "text": 'The opening of a 200-mesh screen (Tylerseries) is ',  "options": ['A. 0.0074 cm', 'B. 0.0047 cm', 'C.  0.0074 mm', 'D. 74 millimicrons'], "correct": 0}, 
+
+    { "text": 'Pulverized coal passing through 200-meshscreen has a diameter of 0.074 mm (74 micron).The same passing through 50-mesh screen willhave a diameter of ____ mm. ',  "options": ['A. 0.007', 'B. 50', 'C.  0.30', 'D. 0.014'], "correct": 2}, 
+
+    { "text": 'Screen efficiency is ',  "options": ['A. recovery/rejection', 'B. rejection', 'C. recovery', 'D.  none of these'], "correct": 3}, 
+
+    { "text": ' It is desired to separate a mixture of sugar crystals into two fractions, a coarse\r\nfraction retained on an 8-mesh screen, and a fine fraction passing through it.\r\nScreen analysis of the feed, coarse and fine fractions below\r\nMass fraction of +8 particles in feed 0.46\r\nMass fraction of +8 particles in coarse particles 0.88\r\nMass fraction of +8 particles in fine fractions = 0.32\r\nCalculate the overall effectiveness of the screen used for the separation purpose\r\nper 100 kg of feed.\r\n ',  "options": ['A.  45%', 'B. 55%', 'C. 40%', 'D. 50%'], "correct": 0}, 
+
+    { "text": 'A sand mixture was screened through a standard 10-\r\nmesh screen. The mass fraction of the oversize material\r\nin feed, overflow and underflow were found to be 0.38,\r\n0.79 and 0.22 respectively. The screen effectivenessbased on the oversize is ',  "options": ['A.  0.50', 'B.  0.68', 'C. 0.58', 'D.  0.62'], "correct": 0}, 
+
+    { "text": 'A screen is used to separate the product from theoversize. The feed rate is 10 kg/hr with 30% of thedesired product. 80% of the desired product is recoveredin the 6 kg/hr product stream. Determine theeffectiveness of the screen. ',  "options": ['A. 42%', 'B.  50%', 'C. 39%', 'D.  66%'], "correct": 2}, 
+
+    { "text": '1800 lbs of dolomite per hour is produced bycrushing and then screening through a 14-meshscreen. The screen analysis is as follows:  Tyler Mesh 4 on,  8 on, 14 on,  28 on,  48 on,  100 on,  100 through. Feed to Screen 14.34,  20.0,  20.0,  28.5,  8.6,  5.7,  2.86.  Undersize Product  0, 0 ,0,  40,  30, 20, 10.  Screen oversize Circulating Load  24, 28, 24, 24  Calculate the total load to the crusher.',  "options": ['A.  6300 lb/hr', 'B. 5500 lb/hr', 'C.  7100 lb/hr', 'D. 4200 lb/hr'], "correct": 0}, 
+
+    { "text": '1800 lbs of dolomite per hour is produced bycrushing and then screening through a 14-meshscreen. The screen analysis is as follows:  Tyler Mesh 4 on,  8 on, 14 on,  28 on,  48 on,  100 on,  100 through. Feed to Screen 14.34,  20.0,  20.0,  28.5,  8.6,  5.7,  2.86.  Undersize Product  0, 0 ,0,  40,  30, 20, 10.  Screen oversize Circulating Load  24, 28, 24, 24 What is the screen effectiveness?',  "options": ['A. 70%', 'B. 82%', 'C.  58%', 'D. 63%'], "correct": 3}, 
+
+    { "text": 'Increasing the capacity of screen ',  "options": ['A. decreases the screen effectiveness', 'B.  does not affect the screen effectiveness', 'C.  increases the screen effectiveness', 'D. none of these'], "correct": 0}, 
+
+    { "text": ' As particle size is reduced ',  "options": ['A. screening becomes progressively more difficult', 'B. screening becomes progressively easier', 'C.  capacity and effectiveness of the screen is\r\nincreased', 'D.  none of these'], "correct": 0}, 
+
+    { "text": ' Screen capacity is not a function of ',  "options": ['A. its openings size', 'B. screening surface', 'C. screening mechanism', 'D. atmospheric humidity'], "correct": 3}, 
+
+    { "text": 'Sphericity for a cylinder whose lengthequals its diameter ',  "options": ['A. 1.5', 'B. 0.5', 'C. 0.87', 'D. 0.73'], "correct": 2}, 
+
+    { "text": 'Sphericity of Raschig ring (whoselength and diameter are equal) is ',  "options": ['A. ">1"', 'B. 1', 'C. <1', 'D. 2'], "correct": 1}, 
+
+    { "text": 'Reciprocal of sphericity is termed as the ',  "options": ['A.  specific surface ratio', 'B. Sauter diameter', 'C. shape factor', 'D. surface area per unit mass'], "correct": 2}, 
+    
+    
+    
+]
