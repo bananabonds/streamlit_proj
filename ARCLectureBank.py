@@ -755,7 +755,7 @@ Momentra = [
     
 ]
 
-HeMaTra = [
+TransPhen = [
 
     { "text": 'The driving force in heat transfer is ',  "options": ['A. concentration gradient', 'B.  temperature gradient', 'C. viscosity gradient', 'D. thickness of the solid in question'], "correct": 1}, 
 
@@ -1000,6 +1000,266 @@ ParTech = [
 
     { "text": 'Reciprocal of sphericity is termed as the ',  "options": ['A.  specific surface ratio', 'B. Sauter diameter', 'C. shape factor', 'D. surface area per unit mass'], "correct": 2}, 
     
+    { "text": 'The sphericity of a cylinder of 1 mm\r\ndiameter and length 3 mm is ',  "options": ['A. 0.9', 'B.  0.6', 'C. 0.78', 'D. 0.5'], "correct": 0}, 
+
+    { "text": 'Size measurement of ultrafine particlescan be best expressed in terms of ',  "options": ['A. centimeters', 'B. micron', 'C.  screen size', 'D. surface area/unit mass'], "correct": 3}, 
+
+    { "text": 'The hardness of a mineral is a criterion of\r\nits resistance to crushing. Which of thefollowing is an example of a hard material? ',  "options": ['A. talc', 'B. calcite', 'C. sapphire', 'D. feldspar'], "correct": 2}, 
+
+    { "text": ' In a size reduction crushing operation, feed sizeis 300 to 1500 mm while the product size is 100 to\r\n300 mm. This is a case of the crushing. ',  "options": ['A. secondary', 'B. primary', 'C. fine', 'D. ultrafine'], "correct": 1}, 
+
+    { "text": 'In a size reduction crushing operation, feed sizeis 100 to 300 mm. while the product size is 10 to 50mm. This is a case of the crushing ',  "options": ['A. primary', 'B. fine', 'C. secondary', 'D. ultrafine'], "correct": 2}, 
+
+    { "text": ' In a size reduction crushing operation, the feedsize is 10 to 50 mm, while the product size is 2 to 10mm. This is a case of crushing. ',  "options": ['A. primary', 'B. fine', 'C. secondary', 'D. ultrafine'], "correct": 1}, 
+
+    { "text": 'Feed size of ≥ 25 cms can be accepted by ',  "options": ['A.  ball mill', 'B. fluid energy mill', 'C.  rod mill', 'D.  jaw crusher'], "correct": 3}, 
+
+    { "text": ' For the preliminary breaking of hard rock, we\r\nuse ',  "options": ['A. gyratory crusher', 'B.  ball mill', 'C. tube mill', 'D. quirrel-cage disintegrator'], "correct": 0}, 
+
+    { "text": 'The material is crushed in a gyratory crusher bythe action of ',  "options": ['A. impact', 'B. attrition', 'C. compression', 'D. cutting'], "correct": 2}, 
+
+    { "text": 'Size reduction does not occur due to compression in case of ',  "options": ['A. rod mills', 'B.  jaw crushers', 'C.  gyratory crushers', 'D. smooth roll crushers'], "correct": 0}, 
+
+    { "text": 'Gyratory crushers compared to thereciprocating jaw crushers ',  "options": ['A. have greater capacity per unit of discharge area.', 'B. crush intermittently.', 'C. are less suitable for coarse materials.', 'D. have less steady power consumption.'], "correct": 0}, 
+
+    { "text": ' Size reduction of asbestos and mica is done by ',  "options": ['A. hammer mills', 'B.  gyratory crushers', 'C. rod mills', 'D. crushing rolls'], "correct": 0}, 
+
+    { "text": 'To get ultrafine particles, the equipmentused is ',  "options": ['A. ball mill', 'B. rod mill', 'C.  hammer crusher', 'D.  fluid energy mill'], "correct": 3}, 
+
+    { "text": 'Energy requirement (per unit mass of materialcrushed/ground) is highest for ',  "options": ['A.  jaw crusher', 'B.  ball mill', 'C. rod mill', 'D. fluid energy mill'], "correct": 3}, 
+
+    { "text": 'Arrange the following size reduction equipment in the\r\ndecreasing order of the average particle size produced byeach of them. ',  "options": ['A. Jaw crusher, Ball mill, Fluid energy mill', 'B. Ball mill, Jaw crusher, Fluid energy mill', 'C. Fluid energy mill, Jaw crusher, Ball mill', 'D. Fluid energy mill, Ball mill, Jaw crusher'], "correct": 0}, 
+
+    { "text": 'Carbon black is pulverized in a ',  "options": ['A.  hammer crusher', 'B. roll crusher', 'C. ball mill', 'D. gyratory crusher'], "correct": 2}, 
+
+    { "text": ' Maximum size reduction in a ball mill is done by ',  "options": ['A. attrition', 'B. compression', 'C. impact', 'D. cutting'], "correct": 2}, 
+
+    { "text": 'The operating speed of a ball mill should be ',  "options": ['A.  less than the critical speed', 'B.  at least equal to the critical speed', 'C. much more than the critical speed', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'The critical speed of 6 ft diameter ball millwhere the balls are considered small compared tothe diameter of the ball mill is ',  "options": ['A. 17.3 rpm', 'B. 28.5 rpm', 'C. 31.3 rpm', 'D.  40 rpm'], "correct": 2}, 
+
+    { "text": 'What is the critical rotation speed in revolutionsper second, for a ball mill of 1.2 m diametercharged with 70 mm diameter balls? ',  "options": ['A. 0.5', 'B. 2.76', 'C. 1.0', 'D.  0.66'], "correct": 3}, 
+
+    { "text": 'A ball mill 1.2 m in diameter is being run at 0.8 Hz. It is\r\nfound that the mill is not working satisfactorily. Would you\r\nsuggest any modification in the condition of operation?\r\n ',  "options": ['A.  The speed of rotation should be doubled', 'B. The speed of rotation should be halved', 'C. The speed of rotation should be tripled', 'D. No, the speed of rotation should be the same'], "correct": 1}, 
+
+    { "text": 'Power required to drive a ball mill with a\r\nparticular ball load is proportional to (where, D\r\ndiameter of ball mill) ',  "options": ['A. D', 'B. D^2.5', 'C. 1/D', 'D. 1/D^2.5'], "correct": 1}, 
+
+    { "text": ' The optimum moisture content in solids tobe crushed/ground ranges from\r\npercent.\r\n ',  "options": ['A. 3 to 4', 'B.  10 to 15', 'C. 8 to 10', 'D. 15 to 20'], "correct": 0}, 
+
+    { "text": 'As the product becomes finer, the energy required forgrinding ',  "options": ['A.  decreases', 'B.  is same as for coarser grinding', 'C. increases', 'D. is 1.5 times than for coarser grinding'], "correct": 2}, 
+
+    { "text": ' Crushing efficiency is the ratio of the ',  "options": ['A. surface energy created by crushing to the energy absorbed by\r\nthe solid.', 'B.  energy absorbed by the solid to that fed to the machine.', 'C. energy fed to the machine to the surface energy created bycrushing.', 'D.  energy absorbed by the solid to the surface energy created bycrushing.'], "correct": 0}, 
+
+    { "text": " Kick's law relates to ",  "options": ['A. energy consumption', 'B. feed size', 'C. final particle size', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Which of the following gives the crushingenergy required to create new surfacе? ',  "options": ['A.  Taggarts rule', "B. Rittinger's law", "C. Fick's law", 'D. none of these'], "correct": 1}, 
+
+    { "text": 'Which of the following gives the crushingenergy required to create new surfacе? ',  "options": ['A.  Taggarts rule', "B. Rittinger's law", "C. Fick's law", 'D. none of these'], "correct": 1}, 
+
+    { "text": 'The most suitable equipment for the\r\ntransportation of 200 mesh size particles is a ',  "options": ['A.  bucket elevator', 'B. screw conveyor', 'C. pneumatic conveyor', 'D. belt conveyor'], "correct": 2}, 
+
+    { "text": "The energy required per unit mass to grind limestone\r\nparticles of very large size to 100 µm is 12.7 kWh/ton. An\r\nestimate (using Bond's law) of the energy to grind theparticles from a very large size to 50 μm is ",  "options": ['A. 6.35 kWh/ton', 'B. 18 kWh/ton', 'C. 9.0 kWh/ton', 'D. 25.4 kWh/ton'], "correct": 1}, 
+
+    { "text": 'An available crusher has been accepting hard rock with a volume surface\r\nmean diameter of 0.069 m and providing a product with a surface mean\r\ndiameter of 5 x 10-3 m. The power required for crushing 10000 kg/h of this\r\nspecified rock is 6.35 kW. Assume that the mechanical efficiency of the unit\r\nwill remain unchanged. The power consumption if the capacity were reduced\r\nto 9000 kg/h with the same feed characteristics but with a reduction in the\r\nvolume surface mean diameter of the product is 4 x 10-3 m is ',  "options": ['A.  7.35 kW', 'B. 7.00 kW', 'C. 6.64 kW', 'D. 8.64 kW'], "correct": 2}, 
+
+    { "text": 'It is desired to crush 100 ton/h of phosphate rock from a\r\nfeed size where 80% is less than 4 in to a product where 80%\r\nis less than 1/8 in. ',  "options": ['A. 148 kW', 'B. 120 kW', 'C. 156 kW', 'D.  139 kW'], "correct": 0}, 
+
+    { "text": "Particles of an average size of 25 x10-4 m are crushed to an\r\naverage product size of 5 x10-4 m at the rate of 15 tons/hr. At this\r\nrate the crusher consumes 32 kW of power of which 2 kW are\r\nrequired for running the mill empty. What would be the power\r\nconsumptions of 10 tons/hr of this product to further crushed 1x10-4\r\nm size in the same mill? Assume Rittinger's law is applicable ",  "options": ['A. 100 kW', 'B. 150 kW', 'C.  120 kW', 'D. 160 kW'], "correct": 0}, 
+
+    { "text": "A material is crushed in a Blake Jaw Crusher and the average\r\nsize of particles reduced from 50 mm to 10 mm with the\r\nconsumption of energy at the rate of 13 kW/(kg/s). The consumption\r\nof energy needed to crush the same material of an average size 75\r\nmm to an average size 25 mm assuming Kick's Law applies is ",  "options": ['A. 8.88 kW/(kg/s)', 'B.  4.33 kW/(kg/s)', 'C. 8.08 kW/(kg/s)', 'D. 4.66 kW/(kg/s)'], "correct": 0}, 
+
+    { "text": 'The operation by which solids are separatedfrom liquids due to difference in the respectivedensities is ',  "options": ['A. screening', 'B. adsorption', 'C. sedimentation', 'D. absorption'], "correct": 2}, 
+
+    { "text": ' Forces acting on a particle settling in fluid are ',  "options": ['A.  gravitational and buoyant forces', 'B. centrifugal and drag forces', 'C. gravitational or centrifugal, buoyant and dragforces', 'D.  external, drag and viscous forces'], "correct": 2}, 
+
+    { "text": ' Buoyant force ',  "options": ['A. for non-symmetrical bodies is not vertical', 'B. depends on the depth of the submergence of the floatingbody', 'C. depends on the weight of the floating body', 'D. none of these'], "correct": 2}, 
+
+    { "text": 'Drag is defined as the force exerted by the ',  "options": ['A.  fluid on the solid in a direction opposite to flow', 'B. the fluid on the solid in the direction of flow', 'C. the solid on the fluid', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Terminal velocity is ',  "options": ['A. constant velocity with no acceleration', 'B. a fluctuating velocity', 'C. attained after moving one-half of total distance', 'D. none of these'], "correct": 0}, 
+
+    { "text": "Stoke's law is valid when the particle Reynoldsnumber is ",  "options": ['A. <1', 'B. <5', 'C. ">1"', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'The terminal velocity of a small sphere settling in a\r\nviscous fluid varies as the ',  "options": ['A. first power of its diameter', 'B. inverse of the fluid viscosity', 'C. inverse square of the diameter', 'D. square of the difference in specific weights of solid and\r\nfluid'], "correct": 1}, 
+
+    { "text": 'The terminal settling velocity of a 6 mm diameter glasssphere (density: 2500 kg/m³) in a viscous Newtonian liquid(density: 1500 kg/m³) is 100 µm/s. If the particle Reynoldsnumber is small and the value of acceleration due to gravityis 9.81 m/s², then the viscosity of the liquid (in Pa-s) is ',  "options": ['A.  300.5', 'B. 196.2', 'C. 245.3', 'D. 490.5'], "correct": 1}, 
+
+    { "text": 'Determine the terminal settling velocity of dustparticles having a diameter of 60 microns at 294.3 K and\r\n101.32 kРa. The dust particles can be consideredspherical with a density of 1280 kg/m³. ',  "options": ['A. 0.18 m/s', 'B. 0.14 m/s', 'C.  0.2 m/s', 'D. 0.09 m/s'], "correct": 1}, 
+
+    { "text": "A particle A of diameter 10 microns settles in an oil of\r\nspecific gravity 0.9 and viscosity 10 poise under Stoke's law. A\r\nparticle B with diameter 20 microns settling in the same oilwill have a settling velocity ",  "options": ['A. same as that of А', 'B.  twice as that of A.', 'C. one fourth as that of A.', 'D. four times as that of A.'], "correct": 2}, 
+
+    { "text": 'Solid spherical particles of coffee extract from a dryerhaving a diameter of 400 microns are falling through air at a\r\ntemperature of 422 K. The density of the particles is 1030\r\nkg/m³. Calculate the distance of fall in 5 s. The pressure is\r\n101.32 kPa. ',  "options": ['A. 1.4 m', 'B.  4.0 m', 'C. 5.5 m', 'D. 7.3 m'], "correct": 3}, 
+
+    { "text": ' A random handful of silica particles ranging in size from 28 mesh to 200 mesh is\r\nthrown to a very deep body of water (without tides or turbulence)\r\nData:\r\nViscosity of water = 0.01 poise\r\nDensity of silica = 2.65 g/cm3\r\n28 mesh B 0.0589 cm\r\n200 mesh = 0.0074 cm\r\nThe distance between the largest and smallest particles after 10 min is ',  "options": ['A. 4700 cm', 'B. 4900 cm', 'C. 5000 cm', 'D.  4000 cm'], "correct": 0}, 
+
+    { "text": 'In hindered settling, particles are ',  "options": ['A. placed farther from the wall', 'B.  near each other', 'C. not affected by other particles and the wall', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'Traces of solids are removed from, liquid in a ',  "options": ['A. classifier', 'B. sparkler filter', 'C. clarifier', 'D. rotary vacuum filter'], "correct": 2}, 
+
+    { "text": 'A suspension of glass beads in ethylene glycol has a\r\nhindered settling velocity of 1.7 mm/s, while the terminalsettling velocity of a single glass bead in ethylene glycol is 17\r\nmm/s. If the Richardson-Zaki hindered settling index is 4.5,the volume fraction of solids in the suspension is ',  "options": ['A. 0.1', 'B. 0.6', 'C. 0.4', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'A 30% (by volume) suspension of spherical sand particlesin a viscous oil has a hindered settling velocity of 4.44 µm/s.\r\nIf the Richardson Zaki hindered settling index is 4.5, then the\r\nterminal velocity of a sand grain is ',  "options": ['A.  0.90 µm/s', 'B. 22.1 µm/s', 'C.  1 μm/s', 'D. 0.02 µm/s'], "correct": 2}, 
+
+    { "text": 'Solid spherical particles having a diameter of 0.09 mm\r\nand a solid density of 2002 kg/m³ are settling in a solution of\r\nwater at 26.7°C. The volume fraction of the solids in the\r\nsolution is 0.45. The settling velocity is_. For H₂0: p = 994.7\r\nkg/m³ and μ = 0.861x10-3 Pa-s. ',  "options": ['A. 5.3x10-3 m/s', 'B. 3.26 x10-3 m/s', 'C.  2.369х10-4 m/s', 'D.  3x10-5 m/s'], "correct": 2}, 
+
+    { "text": 'Calculate the Reynolds number ',  "options": ['A. 9.89x10-3', 'B. 4.33x10-3', 'C. 5.61х10-3', 'D. 2.05x10-3'], "correct": 0}, 
+
+    { "text": 'Particles of quartz having a diameter of 0.137 mm and a\r\nspecific gravity of 2.65 are settling in water at 293.2 K. The\r\nvolume fraction of the particles in the slurry mixture of\r\nquartz and water is 0.25. Calculate the Reynolds number. ',  "options": ['A. 0.21', 'B. 0.24', 'C. 0.30', 'D. 0.35'], "correct": 2}, 
+
+    { "text": ' If a force greater than that of gravity is used toseparate solids & fluids of different densities, theprocess is termed as the ',  "options": ['A.  sedimentation', 'B. dispersion', 'C.  flocculation', 'D. centrifugation'], "correct": 3}, 
+
+    { "text": ' If the radius of a basket centrifuge is halved and the rpm\r\nis doubled, then ',  "options": ['A. linear speed of the basket is doubled', 'B. linear speed of the basket is halved', 'C.  centrifugal force is doubled', 'D. capacity of centrifuge is increased'], "correct": 2}, 
+
+    { "text": 'A centrifuge having a radius of bowl of 0.1016 m is rotating at N=1000 rev/min. Calculate the centrifugal force developed in terms of gravity forces.',  "options": ['A. 114', 'B. 335', 'C. 227', 'D. 110'], "correct": 0}, 
+
+    { "text": 'A centrifuge having a radius of bowl of 0.1016 m is rotating at N=1000 rev/min.  Compare this force to that for a bowl with a radius of 0.2032 m rotating at the\r\nsame rev/min.',  "options": ['A. 114', 'B. 335', 'C. 227', 'D. 110'], "correct": 2}, 
+
+    { "text": "A centrifuge bowl is spinning at a constant 1500rev/min. What radius bowl is needed for a force of500 g's. ",  "options": ['A. 0.1 m', 'B.  0.2 m', 'C. 0.3 m', 'D. 0.4 m'], "correct": 1}, 
+
+    { "text": ' If a centrifuge is 0.9 m diameter and rotates at20 Hz, at what speed should a laboratory centrifugeof 150 mm diameter be run if it is to duplicate theperformance of the large unit? ',  "options": ['A. 49 Hz', 'B. 36 Hz', 'C. 55 Hz', 'D. 27 Hz'], "correct": 0}, 
+
+    { "text": 'Ultra centrifuges are used for the separation ofsolid particles. ',  "options": ['A. coarse', 'B. colloidal', 'C. fine', 'D. dissolved'], "correct": 1}, 
+
+    { "text": 'Where the density difference of the two liquid phases to be\r\nseparated is very small (as in milk cream separator), the\r\nmost suitable separator is a ',  "options": ['A.  disc bowl centrifuge', 'B. batch basket centrifuge', 'C.  sharpies super centrifuge', 'D. sparkler filter'], "correct": 0}, 
+
+    { "text": 'Ultracentrifuges running at speeds up to 100000 rpm is\r\nnormally used for the ',  "options": ['A. separation of isotopes based on their density or molecular\r\nweights difference.', 'B.  concentration of rubber latex.', 'C. separation of cream from milk.', 'D. dewaxing of lubricating oil.'], "correct": 0}, 
+
+    { "text": 'A gravity decanter is meant for the separation of two\r\ndensity. ',  "options": ['A. immiscible liquids of different', 'B. miscible liquids of different', 'C. immiscible liquids of same', 'D.  miscible liquids of same'], "correct": 0}, 
+
+    { "text": ' For laminar flow of filtrate through the cake deposited on\r\nseptum, which of the following will be valid? ',  "options": ['A.  Kozeney-Karman equation', "B. Leva's equation", 'C.  Blake-Plummer equation', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'In case of a plate and frame filter press, filtrateflow through the cake follows flow. ',  "options": ['A. plug', 'B. laminar', 'C. turbulent', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'In constant pressure filtration, ',  "options": ['A. resistance decreases with time', 'B. rate of filtration is constant\r\n', 'C.  rate of filtration increases with time', 'D. rate of filtration decreases with time'], "correct": 3}, 
+
+    { "text": 'Filtration operation carried out by continuousincrease of the inlet pressure of slurry, is calledthe filtration. ',  "options": ['A. constant rate', 'B. varying rate', 'C. varying pressure', 'D. constant pressure'], "correct": 0}, 
+
+    { "text": 'With increase in the pressure drop across thecake, the specific cake resistance for thecompressible sludge ',  "options": ['A. increases', 'B. remains constant', 'C. decreases', 'D. increases linearly'], "correct": 0}, 
+
+    { "text": ' A filter press is ',  "options": ['A. a batch filter', 'B. not suitable, if the liquid is the main product.', 'C.  having prohibitively high maintenance cost.', 'D. not suitable for wide range of materials under varyingoperating conditions of cake thickness and pressure.'], "correct": 0}, 
+
+    { "text": 'During washing of filter at the end of constant pressure\r\nfiltration, the rate of washing equals the rate of filtration ',  "options": ['A.  at time zero.', 'B. at the end of filtration.', 'C. when half the filtrate has been obtained.', 'D. at the end of filtration but decreases with time\r\nsubsequently.'], "correct": 1}, 
+
+    { "text": ' Which of the following represents the plotof filtrate volume versus time for constantpressure filtration? ',  "options": ['A. Parabola', 'B. Hyperbola', 'C. Straight line', 'D.  Exponential curve'], "correct": 0}, 
+
+    { "text": 'In washing type plate and frame filterpress, the ratio of washing rate to the finalfiltrate rate is ',  "options": ['A. 4', 'B. 1', 'C. 1/4', 'D. 1/2'], "correct": 2}, 
+
+    { "text": ' In  continuous   filtration  (at a   constant  pressure   drop); filtrate flow rate varies inversely as the ',  "options": ['A. square root of the velocity', 'B. square of the viscosity', 'C. filtration time only', 'D. washing time only'], "correct": 0}, 
+
+    { "text": 'Filter aid is used ',  "options": ['A. to increase the rate of filtration', 'B. to decrease the pressure drop', 'C.  to increase the porosity of the cake', 'D.  as a support base for the septum'], "correct": 2}, 
+
+    { "text": " In filtration, the use of 'filter aid' helps in ",  "options": ['A. reducing the filtration pressure.', 'B.  accelerating the rate of filtration.', 'C. deplugging the filter medium.', 'D. enhancing the cake porosity in case of a dense\r\nimpermeable cake.'], "correct": 2}, 
+
+    { "text": 'Which of the following is not used as filter aid? ',  "options": ['A. Asbestos', 'B. Diatomaceous earth', 'C. Purified wood cellulose', 'D. Rice husk'], "correct": 3}, 
+
+    { "text": 'is the most used \'filter aid". ',  "options": ['A. Diatomaceous earth', 'B. Vermiculite', "C. Fuller's earth", 'D. Semi-plastic clay'], "correct": 0}, 
+
+    { "text": 'For removal of very small amounts ofprecipitate from large volume of water, the mostsuitable filter is the filter. ',  "options": ['A.  plate and frame', 'B. sand', 'C.  shell and leaf', 'D.  rotary vacuum'], "correct": 1}, 
+
+    { "text": 'Filtration of water in a paper mill is done bya/an filter. ',  "options": ['A. open sand', 'B. vacuum leaf', 'C. plate and frame', 'D. sparkler'], "correct": 0}, 
+
+    { "text": 'For separation of sugar solution from settledout mud, we use a filter. ',  "options": ['A. sparkler', 'B. centrifugal', 'C. plate and frame', 'D.  rotary drum vacuum'], "correct": 1}, 
+
+    { "text": 'Which of the following is a vacuum filter? ',  "options": ['A. Filter press', 'B. Rotary disc filter', 'C. Batch basket centrifuge', 'D. Tank filter (Nutsch filter)'], "correct": 1}, 
+
+    { "text": 'The unit of specific cake resistance is ',  "options": ['A. gm/cm²', 'B.  cm/gm²', 'C. cm/gm\r\n', 'D. gm/gm'], "correct": 0}, 
+
+    { "text": 'The unit of filter medium resistance is ',  "options": ['A. cm-1', 'B. cm/gm-1', 'C. gm/cm-1', 'D. gm-¹'], "correct": 0}, 
+
+    { "text": 'The porosity of a compressible cake is ',  "options": ['A. minimum at the filter medium', 'B. minimum at the upstream face', 'C. maximum at the filter medium', 'D. same throughout the thickness'], "correct": 0}, 
+
+    { "text": 'Solid particles having a size of 0.12 mm, a shape\r\nfactor of 0.88, and a density of 1000 kg/m³ are to\r\nbe fluidized using air at 2 atm and 25°C. The\r\nvoidage at minimum fluidizing conditions is 0.42. If the cross section of the empty bed is 0.30\r\nm² and the bed contains 300 kg of solid,\r\ncalculate the minimum height of the fluidized\r\nbed.',  "options": ['A. 1.85 m', 'B.  1.72 m', 'C. 1.90 m', 'D.  1.63 m'], "correct": 1}, 
+
+    { "text": 'Solid particles having a size of 0.12 mm, a shape\r\nfactor of 0.88, and a density of 1000 kg/m³ are to\r\nbe fluidized using air at 2 atm and 25°C. The\r\nvoidage at minimum fluidizing conditions is 0.42. Calculate the pressure drop at the minimum\r\nfluidizing conditions.',  "options": ['A. 0.098 x105 Рa', 'B. 0.065 x105 Рa', 'C. 0.076 x105 Pa', 'D. 0.082 x105 Pa'], "correct": 0}, 
+
+    { "text": 'Solid particles having a size of 0.12 mm, a shape\r\nfactor of 0.88, and a density of 1000 kg/m³ are to\r\nbe fluidized using air at 2 atm and 25°C. The\r\nvoidage at minimum fluidizing conditions is 0.42.  Calculate minimum velocity for fluidization.',  "options": ['A.  0.004 m/s', 'B. 0.001 m/s', 'C.  0.005 m/s', 'D. 0.002 m/s'], "correct": 2}, 
     
-    
+    { "text": 'To clean a sand bed filter, it is fluidized at\r\nminimum conditions using water at 24°C.\r\nThe round sand particles have a density of\r\n2550 kg/m³ and an average size of 0.40\r\nmm. sphericity = 0.86 and ε= 0.42. If the bed diameter is 0.4 m and the\r\ndesired height of the bed at these minimum\r\nfluidizing conditions is 1.75 m. Calculate the\r\namount of solids needed.',  "options": ['A. 235.52 kg', 'B. 523.35 kg', 'C. 352.32 kg', 'D. 325.25 kg'], "correct": 3}, 
+
+    { "text": 'To clean a sand bed filter, it is fluidized at\r\nminimum conditions using water at 24°C.\r\nThe round sand particles have a density of\r\n2550 kg/m³ and an average size of 0.40\r\nmm. sphericity = 0.86 and ε= 0.42. What is the minimum velocity for\r\nfluidization?',  "options": ['A.  0.0016', 'B. 0.0028', 'C. 0.0009', 'D. 0.0033'], "correct": 0}, 
+   
 ]
+
+
+HeMaTra = [
+
+    { "text": 'Heat sensitive materials can be concentrated\r\nin an evaporator employing ',  "options": ['A. vacuum', 'B. high residence time', 'C. high pressure', 'D. none of these'], "correct": 0}, 
+
+    { "text": ' kg of liquid evaporated per hour in an\r\nevaporator is defined as its ',  "options": ['A. capacity', 'B.  steam load', 'C. economy', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'The number of kg vaporized per kg of\r\nsteam fed to the evaporator is defined as ',  "options": ['A. capacity', 'B. economy', 'C. rate of evaporation', 'D. rate of vaporization'], "correct": 1}, 
+
+    { "text": 'What is the steam economy in case of a\r\nsingle effect evaporator system? ',  "options": ['A. 1', 'B. <1', 'C. ">1"', 'D.  0.1'], "correct": 1}, 
+
+    { "text": ' kg of liquid evaporated per hour in an\r\nevaporator is defined as its ',  "options": ['A. capacity', 'B. steam load', 'C. economy', 'D.  none of these'], "correct": 0}, 
+
+    { "text": 'The number of kg vaporized per kg of steam\r\nfed to the evaporator is defined as ',  "options": ['A. capacity', 'B. economy', 'C. rate of evaporation', 'D. rate of vaporization'], "correct": 1}, 
+
+    { "text": 'Evaporation of 1kg of water from a\r\nsolution in a single effect evaporator\r\nrequires about kg of steam. ',  "options": ['A. 0.4 - 0.6', 'B. 1.8 - 2', 'C. 1-1.3', 'D.  2 - 2.4'], "correct": 2}, 
+
+    { "text": 'The rate of heat transfer is a product ofoverall heat transfer coefficient, thedifference in temperature and the ',  "options": ['A. heating volume', 'B. Nusselt number', 'C. heat transfer area', 'D. none of these'], "correct": 2}, 
+
+    { "text": '4500 kg/h of a 10% wt sugar solution is\r\nto be concentrated to 30% wt using\r\nsingle effect evaporator. Feed enters\r\nat 21°C. Saturated steam at 110°C is\r\navailable and the temperature in the\r\ncondenser is 43°C. Specific heat of the\r\nsolutions may be taken as constant at\r\n4 J/g-°C. The over-all heat transfer\r\ncoefficient is 2840 W/m2-°C. Determine the steam consumption, in\r\nkg/h.',  "options": ['A. 3400 kg/h', 'B.  4700 kg/h', 'C.  5800 kg/h', 'D. 6500 kg/h'], "correct": 0}, 
+
+    { "text": '4500 kg/h of a 10% wt sugar solution is\r\nto be concentrated to 30% wt using\r\nsingle effect evaporator. Feed enters\r\nat 21°C. Saturated steam at 110°C is\r\navailable and the temperature in the\r\ncondenser is 43°C. Specific heat of the\r\nsolutions may be taken as constant at\r\n4 J/g-°C. The over-all heat transfer\r\ncoefficient is 2840 W/m2-°C.  How many square meters of heating\r\nsurface are required?',  "options": ['A. 15 m²', 'B. 9 m²', 'C. 11 m²', 'D. 13 m²'], "correct": 1}, 
+
+    { "text": '4500 kg/h of a 10% wt sugar solution is\r\nto be concentrated to 30% wt using\r\nsingle effect evaporator. Feed enters\r\nat 21°C. Saturated steam at 110°C is\r\navailable and the temperature in the\r\ncondenser is 43°C. Specific heat of the\r\nsolutions may be taken as constant at\r\n4 J/g-°C. The over-all heat transfer\r\ncoefficient is 2840 W/m2-°C. What is the steam economy?',  "options": ['A.  0.82', 'B. 0.88', 'C. 0.90', 'D. 0.92'], "correct": 1}, 
+
+    { "text": ' An evaporator having an area of 83.6 m² and U = 2270 W/m2-Kis used to produce distilled water for a boiler feed. Tap waterhaving 400 ppm is dissolved solids at 15.6°C is fed to theevaporator operating at 1 atm pressure abs. Saturated steam at115.6°C is available for use. Calculate the amount of distilled waterproduced per hour if the outlet liquid contains 800 ppm solids. ',  "options": ['A. 3595 kg/h', 'B. 7191 kg/h', 'C. 4215 kg/h', 'D. 6543 kg/h'], "correct": 0}, 
+
+    { "text": ' It is not preferable to use superheatedsteam in evaporators, because of its very ',  "options": ['A. high temperature', 'B. low film coefficient', 'C. high pressure', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'Small scale evaporation is done in a ',  "options": ['A. heat exchange', 'B. condenser', 'C. multiple effect evaporator', 'D. steam jacketed kettle'], "correct": 3}, 
+
+    { "text": 'Viscous and heat sensitive liquidsare concentrated in evaporators. ',  "options": ['A. open pan', 'B. agitated film', 'C. long tube', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'A single effect evaporator concentrates 1 MT of 10 wt%\r\nsucrose solution to 50%. The feed enters the evaporator at\r\n200C and has a specific heat of 1.0. The evaporator is\r\nmaintained at a vacuum of 600 mmHg. The heat is provided by\r\nsaturated steam at 8.8 kg/cm² gage. Assuming that no sensible\r\nheat is recovered in the evaporator, calculate the weight of\r\nheating steam, in kg, needed for concentrating the sucrose\r\nsolution.\r\n ',  "options": ['A. 1020 kg', 'B. 2100 kg', 'C.  2860 kg', 'D. 1430 kg'], "correct": 0}, 
+
+    { "text": "Boiling point elevation for a strong and\r\nconcentrated solution is found by Duhring's rule,\r\nwhich states that at the same pressure, the boiling\r\npoint of a solution is a linear function of the of\r\npure water.\r\n ",  "options": ['A. boiling point', 'B.  kinematic viscosity', 'C.  dynamic viscosity', 'D. density'], "correct": 0}, 
+
+    { "text": 'Determine the boiling point rise for the following solutions in water. A 30 wt% solution of citric acid in water boiling at 220°F.',  "options": ['A. 3.4 °F', 'B.  1.8 °F', 'C.  2.2 °F', 'D.  4.5 °F'], "correct": 2}, 
+
+    { "text": 'Determine the boiling point rise for the following solutions in water. What is the boiling point elevation of a 30% NaOH solution boiling in an\r\nevaporator at a pressure of 172.4 kPa?',  "options": ['A. 15 °C', 'B. 13 °C', 'C. 10 °C', 'D.  17 °C'], "correct": 0}, 
+
+    { "text": 'A single effect evaporator is to\r\nconcentrate 20000 lb/hr of a 20%\r\nsolution NaOH to 50% solids.\r\nSaturated steam is available at 20\r\npsig. The absolute vapor pressure in\r\nthe vapor space is to be 100 mmHg.\r\nThe overall coefficient is to be\r\nestimated to be 250 BTU/hr-ft2-0F. The\r\nfeed temperature is 100°F. Calculate\r\nthe following:  The amount of steam consumed',  "options": ['A. 15400 lb/h', 'B. 13500 lb/h', 'C. 12800 lb/h', 'D. 19100 lb/hr'], "correct": 0}, 
+
+    { "text": 'A single effect evaporator is to\r\nconcentrate 20000 lb/hr of a 20%\r\nsolution NaOH to 50% solids.\r\nSaturated steam is available at 20\r\npsig. The absolute vapor pressure in\r\nthe vapor space is to be 100 mmHg.\r\nThe overall coefficient is to be\r\nestimated to be 250 BTU/hr-ft2-0F. The\r\nfeed temperature is 100°F. Calculate\r\nthe following:  The steam economy',  "options": ['A. 0.72', 'B. 0.88', 'C. 0.78', 'D. 0.90'], "correct": 2}, 
+
+    { "text": 'A single effect evaporator is to\r\nconcentrate 20000 lb/hr of a 20%\r\nsolution NaOH to 50% solids.\r\nSaturated steam is available at 20\r\npsig. The absolute vapor pressure in\r\nthe vapor space is to be 100 mmHg.\r\nThe overall coefficient is to be\r\nestimated to be 250 BTU/hr-ft2-0F. The\r\nfeed temperature is 100°F. Calculate\r\nthe following: The heating surface required.',  "options": ['A. 930 ft2', 'B. 670 ft2', 'C. 810 ft2', 'D. 550 ft2'], "correct": 0}, 
+
+    { "text": 'In case of vertical tube evaporator, with\r\nincrease in liquor level, the overall heat transfer\r\ncoefficient ',  "options": ['A. increases', 'B. decreases', 'C.  is not affected', 'D. may increase or decrease; depends on the feed'], "correct": 1}, 
+
+    { "text": 'A dilute aqueous solution is to be concentrated in an evaporator system.\r\nHigh pressure steam is available. Multiple effect evaporator system\r\nemployed, because ',  "options": ['A. total heat transfer area of all the effects is less than that in a single effect\r\nevaporator system.', 'B. total amount of vapor produced per kg of feed steam in a multiple effect\r\nsystem is much higher than in a single effect.', 'C.  boiling point elevation in a single effect system is much higher than that in\r\nany effect in a multi effect system.', 'D. heat transfer coefficient in a single effect is much lower than that in any\r\neffect in a multi-effect system.'], "correct": 1}, 
+
+    { "text": 'In a backward feed multiple effect evaporator ',  "options": ['A. feed is introduced in the first effect.', 'B.  feed flows from low pressure to high pressure.', 'C. no pumps are required between successive\r\neffects.', 'D. none of these.'], "correct": 1}, 
+
+    { "text": 'For evaporation of viscous solution in a\r\nmultiple effect evaporator, the preferred\r\nfeeding scheme is ',  "options": ['A. forward', 'B. parallel', 'C. backward', 'D. none of these'], "correct": 2}, 
+
+    { "text": 'In a forward feed multiple effect, the\r\npressure build up will be ',  "options": ['A. least at the inlet of the first effect.', 'B. least at the outlet of the last effect.', 'C. highest at the inlet of the last effect.', 'D. highest at the outlet of the last effect.'], "correct": 1}, 
+
+    { "text": 'For the same heat transfer area and the\r\nterminal conditions, the ratio of the capacitiesof a single effect evaporator to a triple effect\r\nevaporator is ',  "options": ['A. 3', 'B. 1', 'C. 0.33', 'D. 1.33'], "correct": 1}, 
+
+    { "text": 'A solution with a negligible boiling point\r\nrise is being evaporated in a triple effect\r\nevaporator using saturated steam at\r\n121.1°C. The pressure in the vapor of the\r\nlast effect is 25.6 kPa abs. The heat\r\ntransfer coefficients are U₁ = 2840, U2 =\r\n1988, and U3 = 1420 W/m².K and the areas\r\nare equal. Estimate the boiling point in\r\neach of the evaporators. T1',  "options": ['A.  381.7 K', 'B. 592.3 K', 'C.  286.2 K', 'D. 440.9 K'], "correct": 0}, 
+
+    { "text": 'A solution with a negligible boiling point\r\nrise is being evaporated in a triple effect\r\nevaporator using saturated steam at\r\n121.1°C. The pressure in the vapor of the\r\nlast effect is 25.6 kPa abs. The heat\r\ntransfer coefficients are U₁ = 2840, U2 =\r\n1988, and U3 = 1420 W/m².K and the areas\r\nare equal. Estimate the boiling point in\r\neach of the evaporators. T2',  "options": ['A.  289.1 K', 'B. 501.5 K', 'C. 363.8 K', 'D. 411.1 K'], "correct": 1}, 
+
+    { "text": 'A solution with a negligible boiling point\r\nrise is being evaporated in a triple effect\r\nevaporator using saturated steam at\r\n121.1°C. The pressure in the vapor of the\r\nlast effect is 25.6 kPa abs. The heat\r\ntransfer coefficients are U₁ = 2840, U2 =\r\n1988, and U3 = 1420 W/m².K and the areas\r\nare equal. Estimate the boiling point in\r\neach of the evaporators. T3',  "options": ['A.  210.5 K', 'B.  338.7 K', 'C. 495.2 K', 'D. 526.2 K'], "correct": 1}, 
+
+    { "text": 'Consider a four-effect standard vertical tube, each effect has 140 m²\r\nof heating surface, is to be used to concentrate, from 4% to 35% percent\r\nsolids, the total boiling point elevation is 10°C. Forward feed is to be\r\nused. Saturated steam is available at 120°C, and the vacuum in the las\r\neffect corresponds to a boiling temperature of 40°C. the overall\r\ncoefficients, in W/m²-K are 2950 in I, 2670 in II, 2070 in IIl and 1360 in IV,\r\nall specific heats may be taken as 4.2 J/g-°C and radiation is negligible.\r\nCalculate the boiling point of solution in effect number 1. ',  "options": ['A. 107.7°С', 'B. 112.3°C', 'C.  101.5°С', 'D. 116.4°С'], "correct": 0}, 
+
+    { "text": 'A solution of sodium nitrate in\r\nwater at a temperature of 40°C\r\ncontains 49% NaNO3 by weight. Calculate the percentage\r\nsaturation of this solution.',  "options": ['A. 92%', 'B.  84%', 'C. 96%', 'D.  88%'], "correct": 0}, 
+
+    { "text": 'A solution of sodium nitrate in\r\nwater at a temperature of 40°C\r\ncontains 49% NaNO3 by weight. Calculate the lb of NaNO3 that\r\ncrystallized from 1000 lb of this\r\nsolution by cooling it to 10°C.',  "options": ['A. 94 lb', 'B. 76 lb', 'C. 82 lb', 'D.  63 lb'], "correct": 2}, 
+
+    { "text": 'A solution of sodium nitrate in\r\nwater at a temperature of 40°C\r\ncontains 49% NaNO3 by weight. Calculate the percentage yield\r\nof the process.',  "options": ['A. 15.2%', 'B. 16.7%', 'C. 18.1%', 'D. 17.5%'], "correct": 1}, 
+
+    { "text": 'The driving potential for the crystal growth\r\nduring crystallization is the of the solution. ',  "options": ['A. concentration', 'B. super-saturation', 'C. viscosity', 'D. density'], "correct": 1}, 
+
+    { "text": 'A solution of Na2SO4 in water is saturated at 50°C. When a saturated\r\nsolution of Na2S04 is cooled, crystals of Na2SO, x 10 H20 separate from the\r\nsolution. If 1000 kg of this solution is cooled to 10°C, the percentage yield\r\nobtained is\r\n Temperature, °C 50, 10 ; Solubility of  Na2SO4(g per 100g water) 46.7, 9',  "options": ['A.  91%', 'B. 86%', 'C. 55%', 'D. 73%'], "correct": 0}, 
+
+    { "text": 'A saturated solution containing 1500 kg of potassium chloride at 360 K is cooled in an\r\nopen tank to 290 K. If the specific gravity of the solution is 1.2, the solubility of\r\npotassium chloride per 100 parts water is 53.55 at 360 K and 34.5 at 290 K. What is the capacity of the tank?',  "options": ['A. 4.56 m³', 'B. 3.58 m³', 'C. 2.99 m³', 'D. 5.71 m³'], "correct": 1}, 
+
+    { "text": 'A saturated solution containing 1500 kg of potassium chloride at 360 K is cooled in an\r\nopen tank to 290 K. If the specific gravity of the solution is 1.2, the solubility of\r\npotassium chloride per 100 parts water is 53.55 at 360 K and 34.5 at 290 K.  Calculate the mass of the crystals obtained, neglecting loss of water\r\nevaporation.',  "options": ['A. 489 kg', 'B. 653 kg', 'C. 112 kg', 'D. 534 kg'], "correct": 3}, 
+
+]
+
