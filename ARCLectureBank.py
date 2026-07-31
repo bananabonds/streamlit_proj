@@ -1261,5 +1261,45 @@ HeMaTra = [
 
     { "text": 'A saturated solution containing 1500 kg of potassium chloride at 360 K is cooled in an\r\nopen tank to 290 K. If the specific gravity of the solution is 1.2, the solubility of\r\npotassium chloride per 100 parts water is 53.55 at 360 K and 34.5 at 290 K.  Calculate the mass of the crystals obtained, neglecting loss of water\r\nevaporation.',  "options": ['A. 489 kg', 'B. 653 kg', 'C. 112 kg', 'D. 534 kg'], "correct": 3}, 
 
+    { "text": 'A tank holds 10000 kg of a saturated solution of Na2CO3; at 30C. You want to crystallize from this solution 3000 kg Na2CO3 * 10 H2O without any accompanying water: To what temperature must the solution be cooled? Temperature (C) 0, 10, 20, 30 Solubility  (g Na2CO3: _ 100 g Hzo) 7, 12.5, 21.5, 38.8',  "options": ['A. 26 C', 'B. 18 C', 'C. 10 C', 'D. 15 C'], "correct": 0}, 
+
+    { "text": 'Crystallization of solids from a homogeneous solution is a/an process:  ',  "options": ['A. exothermic ', 'B. highly endothermic', 'C. mildly endothermic', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'Ammonium sulfate is to be crystallized from solution containing 48% (NH 4)2SO4, by cooling it in counter flow crystallizer from 85 to 35"C. During cooling the amount of water that evaporates is 5% of the mass of the feed solution_ Data: Feed rate 1000 kg/h Solubility of (NH4)2SO4 at 35 C = 75 kg /100 kg of water Specific heat of 48% (NH4)2SO4 at solution 2.97 kJ/kg-K Heat of crystallization of (NH4)2SO4 = 75.2 kJ/kg Calculate the rate of formation of crystals. ',  "options": ['A. 127.5 kg/h', 'B.  678.3 kg/h ', 'C.  822.5 kg/h', 'D.  321.7 kg/h'], "correct": 0}, 
+
+    { "text": 'Ammonium sulfate is to be crystallized from solution containing 48% (NH 4)2SO4, by cooling it in counter flow crystallizer from 85 to 35"C. During cooling the amount of water that evaporates is 5% of the mass of the feed solution_ Data: Feed rate 1000 kg/h Solubility of (NH4)2SO4 at 35 C = 75 kg /100 kg of water Specific heat of 48% (NH4)2SO4 at solution 2.97 kJ/kg-K Heat of crystallization of (NH4)2SO4 = 75.2 kJ/kg  What is the cooling water rate, if it is heated from 18 to 29 C?',  "options": ['A. 764 kg/h ', 'B.  505 kg/h', 'C. 810 kg/h ', 'D. 427 kg/h'], "correct": 2}, 
+
+    { "text": 'Ammonium sulfate is to be crystallized from solution containing 48% (NH 4)2SO4, by cooling it in counter flow crystallizer from 85 to 35"C. During cooling the amount of water that evaporates is 5% of the mass of the feed solution_ Data: Feed rate 1000 kg/h Solubility of (NH4)2SO4 at 35 C = 75 kg /100 kg of water Specific heat of 48% (NH4)2SO4 at solution 2.97 kJ/kg-K Heat of crystallization of (NH4)2SO4 = 75.2 kJ/kg Determine the required cooling surface, if the overall heat transfer is 125 W/m2 K ',  "options": ['A. 3.13 m2', 'B. 2.52 m2', 'C. 1.95 m2', 'D. 4.02 m2'], "correct": 1}, 
+
+    { "text": "Glauber's salt , Na2SO4 xlOHzO, is to be produced in a Swenson-Walker crystallizer by cooling to 290 K a solution of anhydrous Na2SO4 which saturates between 300 K and 290 K Cooling water enters and leaves the unit at 280 K and 290 K respectively and evaporation is negligible: The solubilities of anhydrous Na2SO4 in water are 40 and 14 kg/1OO kg water at 300 K and 290 K respectively; the mean heat capacity of the liquor is 3.8 kJ/kg K and the heat of crystallization is 230 kJ/kg: For the crystallizer; the available heat transfer area is 3 m2/m length, the overall coefficient of heat transfer is 0.15 kW/m2 K  Calculate the amount of feed in kg/s ",  "options": ['A.  0.559', 'B. 0.643', 'C.  0.342 ', 'D. 0.488'], "correct": 3}, 
+
+    { "text": "Glauber's salt , Na2SO4 xlOHzO, is to be produced in a Swenson-Walker crystallizer by cooling to 290 K a solution of anhydrous Na2SO4 which saturates between 300 K and 290 K Cooling water enters and leaves the unit at 280 K and 290 K respectively and evaporation is negligible: The solubilities of anhydrous Na2SO4 in water are 40 and 14 kg/1OO kg water at 300 K and 290 K respectively; the mean heat capacity of the liquor is 3.8 kJ/kg K and the heat of crystallization is 230 kJ/kg: For the crystallizer; the available heat transfer area is 3 m2/m length, the overall coefficient of heat transfer is 0.15 kW/m2 K The total heat to be removed is ",  "options": ['A. 76 kW', 'B.  51 kW ', 'C. 92 kW ', 'D. 88 kW'], "correct": 0}, 
+
+    { "text": "Glauber's salt , Na2SO4 xlOHzO, is to be produced in a Swenson-Walker crystallizer by cooling to 290 K a solution of anhydrous Na2SO4 which saturates between 300 K and 290 K Cooling water enters and leaves the unit at 280 K and 290 K respectively and evaporation is negligible: The solubilities of anhydrous Na2SO4 in water are 40 and 14 kg/1OO kg water at 300 K and 290 K respectively; the mean heat capacity of the liquor is 3.8 kJ/kg K and the heat of crystallization is 230 kJ/kg: For the crystallizer; the available heat transfer area is 3 m2/m length, the overall coefficient of heat transfer is 0.15 kW/m2 K  How many sections of crystallizer; each 3 m long; will be required to process 0.25 kg/s of the product? ",  "options": ['A. 4 ', 'B.  1', 'C. 2 ', 'D. 6'], "correct": 3}, 
+
+    { "text": 'What is the yield of sodium acetate crystals (CH3COONa x 3H20) obtainable from a vacuum crystallizer operating at 1.33 kN/m2 when it is supplied with 0.56 kg/s of a 40 percent aqueous solution of the salt at 353 K? The boiling point elevation of the solution is 11.5 K Data: Heat of crystallizatlon, q= 144 kJ/kg trihydrate Heat capacity of the solution, Cp 3.5 kJ/kg Latent heat of water at 1.33 kN/m2, lambda = 2.46 MJ/kg Boiling of water at 1.33 kN/m2 = 290.7k Solubility of sodium acetate product 0.539 kg/kg water. ',  "options": ['A. 0.15 kg/s ', 'B.  0.12 kg/s ', 'C. 0.18 kg/s ', 'D.  0.16 kg/s'], "correct": 2}, 
+
+    { "text": ' At a fixed pressure, the humidity depends upon the partial pressure of vapor in the mixture: Humidity of a vapor free gas is ___percent  ',  "options": ['A.  100 ', 'B. 50', 'C. 0 ', 'D.  between 0 and 100'], "correct": 2}, 
+
+    { "text": 'The vapor pressure of styrene is 100 mmHg at 82"C and 200 mmHg at 100\'C. A gas that consists of 10 mol% styrene and 90 mol% non-condensable contained in tank a 100\'C and 1000 mmHg: Calculate:  dew point of the gas',  "options": ['A.  77 C', 'B.  100 C', 'C. 82 C ', 'D. 96 C'], "correct": 2}, 
+
+    { "text": 'The vapor pressure of styrene is 100 mmHg at 82"C and 200 mmHg at 100\'C. A gas that consists of 10 mol% styrene and 90 mol% non-condensable contained in tank a 100\'C and 1000 mmHg: Calculate: The relative saturation ',  "options": ['A. 20% ', 'B. 40%', 'C. 30% ', 'D.  50%'], "correct": 3}, 
+
+    { "text": 'The vapor pressure of styrene is 100 mmHg at 82"C and 200 mmHg at 100\'C. A gas that consists of 10 mol% styrene and 90 mol% non-condensable contained in tank a 100\'C and 1000 mmHg: Calculate:  The molal saturation',  "options": ['A. 0.111 ', 'B. 0.206', 'C. 0.087 ', 'D. 0.150'], "correct": 0}, 
+
+    { "text": 'The vapor pressure of styrene is 100 mmHg at 82"C and 200 mmHg at 100\'C. A gas that consists of 10 mol% styrene and 90 mol% non-condensable contained in tank a 100\'C and 1000 mmHg: Calculate: percentage saturation ',  "options": ['A. 33.3%', 'B. 55.5%', 'C. 44.4 %', 'D.  66.6%'], "correct": 2}, 
+
+    { "text": '______is the temperature at which a gas-vapor mixture becomes saturated, when cooled at constant total   pressure out of contact with liquid: ',  "options": ['A. Dew point ', 'B. Bubble point', 'C.  Dry bulb temperature', 'D.  Wet bulb temperature'], "correct": 0}, 
+
+    { "text": 'In a vessel at 101.325 kN/m2? and 300K, the percentage relative humidity of the water vapor in the air is 25. If partial pressure of water vapor when air is saturated with vapor at 300K is 3.6 kN/m2, calculate:  The partial pressure of the water vapor in the vessels ',  "options": ['A.  0.2 ', 'B.  0.5 ', 'C. 0.7 ', 'D. 0.9'], "correct": 3}, 
+
+    { "text": 'In a vessel at 101.325 kN/m2? and 300K, the percentage relative humidity of the water vapor in the air is 25. If partial pressure of water vapor when air is saturated with vapor at 300K is 3.6 kN/m2, calculate: The humidity of the air ',  "options": ['A. 0.006', 'B. 0.003 ', 'C.  0.001 ', 'D.  0.008'], "correct": 0}, 
+    
+    
+    
+    
+    
+    
+    
 ]
 
