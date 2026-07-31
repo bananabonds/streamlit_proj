@@ -1,3 +1,4 @@
+# Lecture 2.1
 ChECalc = [
 
     { "text": 'Wine making involves a series of very complex reactions most of which are performed by microorganisms. The starting concentration of sugars determines the final alcohol content and sweetness of the wine. The specific gravity of the starting stock is therefore adjusted to achieve desired quality of wine. A starting stock solution has a specific gravity of 1.075 and contains 12.7 wt% sugar. If all the sugar is assumed to be C₁2H22011, determine kg sugar/ kg H₂0  ',  "options": ['A. 0.286', 'B. 0.039', 'C. 0.145', 'D.  0.327'], "correct": 2}, 
@@ -120,6 +121,7 @@ ChECalc = [
 
 ]
 
+# Lecture 2.2
 Sepa = [
 
     # Leaching
@@ -379,6 +381,7 @@ Sepa = [
     
 ]
 
+# Lecture 2.3
 Thermo = [
 
     { "text": 'A piece of chocolate cake contains about 400 Calories. A nutritional Calorie is equal to 1000 calories (thermochemical calories). How many 8-inch high steps must a 180-lb man climb to spend 400 Cal from the piece of cake? ',  "options": ['A. 100', 'B. 10300', 'C. 1030', 'D. 103000'], "correct": 1}, 
@@ -629,6 +632,7 @@ Thermo = [
     
 ]
 
+# Lecture 2.4
 Momentra = [
 
     { "text": ' Convert 15.14 poises to kinematic\r\nviscosity in square feet per second if the\r\nliquid has a specific gravity of 0.964. ',  "options": ['A.  0.0169 ft²/s', 'B. 0.0258 ft²/s', 'C. 0.0333 ft²/s', 'D. 0.0421 ft2/s'], "correct": 0}, 
@@ -755,6 +759,7 @@ Momentra = [
     
 ]
 
+# Lecture 2.5
 TransPhen = [
 
     { "text": 'The driving force in heat transfer is ',  "options": ['A. concentration gradient', 'B.  temperature gradient', 'C. viscosity gradient', 'D. thickness of the solid in question'], "correct": 1}, 
@@ -961,7 +966,7 @@ TransPhen = [
 
 ]
 
-
+# Lecture 2.6
 ParTech = [
 
     { "text": 'In screen analysis, notation 10 mm /5 mm means\r\npassing through ',  "options": ['A. 10 mm screen and retained on 5 mm screen', 'B.  5 mm screen and retained on 10 mm screen', 'C. both 5 mm and 13 mm screens', 'D. neither 5 mm nor 10 mm screens'], "correct": 0}, 
@@ -1180,7 +1185,7 @@ ParTech = [
    
 ]
 
-
+# Lecture 2.7
 HeMaTra = [
 
     { "text": 'Heat sensitive materials can be concentrated\r\nin an evaporator employing ',  "options": ['A. vacuum', 'B. high residence time', 'C. high pressure', 'D. none of these'], "correct": 0}, 
@@ -1294,12 +1299,137 @@ HeMaTra = [
     { "text": 'In a vessel at 101.325 kN/m2? and 300K, the percentage relative humidity of the water vapor in the air is 25. If partial pressure of water vapor when air is saturated with vapor at 300K is 3.6 kN/m2, calculate:  The partial pressure of the water vapor in the vessels ',  "options": ['A.  0.2 ', 'B.  0.5 ', 'C. 0.7 ', 'D. 0.9'], "correct": 3}, 
 
     { "text": 'In a vessel at 101.325 kN/m2? and 300K, the percentage relative humidity of the water vapor in the air is 25. If partial pressure of water vapor when air is saturated with vapor at 300K is 3.6 kN/m2, calculate: The humidity of the air ',  "options": ['A. 0.006', 'B. 0.003 ', 'C.  0.001 ', 'D.  0.008'], "correct": 0}, 
+
+    { "text": 'In a vessel at 101.325 kN/m2? and 300K, the percentage relative humidity of the water vapor in the air is 25. If partial pressure of water vapor when air is saturated with vapor at 300K is 3.6 kN/m2, calculate:  The percentage humidity',  "options": ['A. 31% ', 'B.  46% ', 'C. 10% ', 'D.  25 %'], "correct": 3}, 
+
+    { "text": ' Weight of 1 m3? of humid air as compared to 1 m3 of dry air; under the same conditions, is ',  "options": ['A. less more ', 'B.  same', 'C. more', 'D. unpredictable'], "correct": 0},
+
+    { "text": 'Condensation of a vapor-gas mixture   just begins, when (where, p = partial pressure of the vapor P = vapor pressure of the liquid) ',  "options": ['A. a. p= P', 'B. p < P ', 'C.  p>>P', 'D.  p<< P'], "correct": 0}, 
+
+    { "text": 'The absolute saturation of a carbon dioxide-water vapor mixture at 310 K and 100 kPa is measured to be 0.022 kg water per kg dry carbon dioxide Calculate the following: The molal saturation',  "options": ['A.   0.0267 ', 'B.  0.0336 ', 'C. 0.0537 ', 'D. d. 0.0011'], "correct": 2}, 
+
+    { "text": 'The absolute saturation of a carbon dioxide-water vapor mixture at 310 K and 100 kPa is measured to be 0.022 kg water per kg dry carbon dioxide Calculate the following: The percent relative saturation ',  "options": ['A. 82.42% ', 'B. 80.36% ', 'C. 81.48% ', 'D. 84.90%'], "correct": 2}, 
+
+    { "text": 'The absolute saturation of a carbon dioxide-water vapor mixture at 310 K and 100 kPa is measured to be 0.022 kg water per kg dry carbon dioxide Calculate the following: The percent saturation',  "options": ['A. 82.42% ', 'B. 80.36% ', 'C. 81.48% ', 'D. 84.90%'], "correct": 1}, 
+
+    { "text": 'The absolute saturation of a carbon dioxide-water vapor mixture at 310 K and 100 kPa is measured to be 0.022 kg water per kg dry carbon dioxide Calculate the following: The temperature to which the gas is to be heated at constant pressure to reduce its percent saturation to 30 percent',  "options": ['A.  337.5 K', 'B. 327.5 K ', 'C.  345.5 K ', 'D. 461.5 K'], "correct": 1}, 
+
+    { "text": ' When an unsaturated air-water mixture is heated at constant pressure, then  ',  "options": ['A. the partial pressure of water vaper increases  ', 'B.  the specific humidity decreases ', 'C. the relative humidity increases ', 'D. the relative humidity decreases'], "correct": 3}, 
+
+    { "text": 'A gas mixture contains 0.0083 mol of water vapor per mol of dry methane at a temperature of 27 C and a total pressure of 200 kPa: Percent relative saturation of the mixture ',  "options": ['A. 46%', 'B. 33% ', 'C.  58 %', 'D. 60%'], "correct": 0}, 
+
+    { "text": 'A gas mixture contains 0.0083 mol of water vapor per mol of dry methane at a temperature of 27 C and a total pressure of 200 kPa: Percent saturation of the mixture ',  "options": ['A. 65% ', 'B. 77%', 'C. 46% ', 'D. 50%'], "correct": 2}, 
+
+    { "text": 'A gas mixture contains 0.0083 mol of water vapor per mol of dry methane at a temperature of 27 C and a total pressure of 200 kPa: Temperature to which the mixture must be heated at 200 kPa in order that the relative saturation will be 0.20. ',  "options": ['A. 53 C', 'B. 64 C ', 'C.  37 C ', 'D.  42 C'], "correct": 3}, 
+
+    { "text": 'A stream of air at 100 C and 5260 mmHg contains 10% water by volume Calculate the dew point: ',  "options": ['A. 90 C', 'B. 72 C ', 'C.  83 C', 'D. 65 C'], "correct": 0}, 
+
+    { "text": 'A stream of air at 100 C and 5260 mmHg contains 10% water by volume  Calculate the percentage of the vapor condenses and the final composition of the gas phase if the air is cooled to 80"C at constant pressure:',  "options": ['A. 20% ', 'B. 30%', 'C. 25% ', 'D. 35%'], "correct": 3}, 
+
+    { "text": 'A stream of air at 100 C and 5260 mmHg contains 10% water by volume Calculate the percent condensation if; instead of being cooled, the air is compressed isothermally to 8500 mmHg: ',  "options": ['A.  12% ', 'B. 18% ', 'C. 15% ', 'D. 13%'], "correct": 0}, 
+
+    { "text": "Air initially at 101. 3 kPa and 4O'C and with a relative humidity of 50%, is cooled at constant pressure to 30'C. The cooled air has a  ",  "options": ['A. higher dew  point;', 'B.  higher absolute (specific) humidity', 'C. higher relative humidity ', 'D. higher wet bulb temperature'], "correct": 2}, 
+
+    { "text": ' In a process in which it is used as a solvent, benzene is removed into nitrogen At 297 K and 101.3 kN/m2, the resulting mixture has a percentage relative humidity of 60. It is required to recover 80 per cent of the benzene present by cooling to 283 K and compressing to a suitable pressure: What should this pressure be? The vapor pressure of benzene is 12.2 kN/m2 at 297 K and 6.0 kN/m2 at 283 K ',  "options": ['A.  392 kPa ', 'B. 353 kPa ', 'C.  345 kPa ', 'D. 386 kPa '], "correct": 0}, 
+
+    { "text": 'Consider air at 1 atm, 35 C and 40% relative humidity: Using: psychrometric chart, determine The specific humidity',  "options": ['A. 0.025', 'B.  0.010 ', 'C.  0.014 ', 'D.  0.029'], "correct": 2}, 
+
+    { "text": 'Consider air at 1 atm, 35 C and 40% relative humidity: Using: psychrometric chart, determine The wet-bulb temperature ',  "options": ['A.  17 C ', 'B.  28 C', 'C.  24 C ', 'D. 19 C'], "correct": 2}, 
     
+    { "text": 'Consider air at 1 atm, 35 C and 40% relative humidity: Using: psychrometric chart, determine The dew-point temperature',  "options": ['A. 17 C', 'B.  28 C', 'C.  24 C ', 'D. 19 C'], "correct": 3}, 
+
+    { "text": 'Consider air at 1 atm, 35 C and 40% relative humidity: Using: psychrometric chart, determine  The humid volume of the air:',  "options": ['A. 0.89 m3/kg ', 'B. 0.75 m3/kg ', 'C. 0.97 m3/kg', 'D. 0.66 m3/kg'], "correct": 0}, 
+
+    { "text": 'The air supply for a dryer has a dry-bulb temperature of 70 F and a wet bulb temperature of 60 F. It is heated to 200 F by coils and blown into the dryer: In the dryer it cools along an adiabatic cooling line and leaves the dryer fully saturated: What is the dew point of the initial air? ',  "options": ['A. 62 F', 'B. 35 F ', 'C.  40 F', 'D. 54 F'], "correct": 3}, 
     
+    { "text": 'The air supply for a dryer has a dry-bulb temperature of 70 F and a wet bulb temperature of 60 F. It is heated to 200 F by coils and blown into the dryer: In the dryer it cools along an adiabatic cooling line and leaves the dryer fully saturated:  What is its humidity? ',  "options": ['A.  0.0066 ', 'B. 0.0090', 'C. 0.0087', 'D. 0.0052'], "correct": 2}, 
+
+    { "text": 'The air supply for a dryer has a dry-bulb temperature of 70 F and a wet bulb temperature of 60 F. It is heated to 200 F by coils and blown into the dryer: In the dryer it cools along an adiabatic cooling line and leaves the dryer fully saturated: What is its percentage relative humidity? ',  "options": ['A. 33%', 'B.  44%', 'C.  55%', 'D. 66%'], "correct": 2}, 
+
+    { "text": 'The air supply for a dryer has a dry-bulb temperature of 70 F and a wet bulb temperature of 60 F. It is heated to 200 F by coils and blown into the dryer: In the dryer it cools along an adiabatic cooling line and leaves the dryer fully saturated:  How much heat is needed to heat 100 ft3 to 200 F?',  "options": ['A.  235 BTU ', 'B.  107 BTU', 'C. 168 BTU ', 'D. 240 BTU'], "correct": 0}, 
+
+    { "text": 'The air supply for a dryer has a dry-bulb temperature of 70 F and a wet bulb temperature of 60 F. It is heated to 200 F by coils and blown into the dryer: In the dryer it cools along an adiabatic cooling line and leaves the dryer fully saturated: How much water will be evaporated per 100 ft3 of entering air? ',  "options": ['A. 0.262 lb', 'B.  0.333 lb ', 'C. 0.185 lb', 'D.  0.497 lb'], "correct": 2}, 
+
+    { "text": 'The air supply for a dryer has a dry-bulb temperature of 70 F and a wet bulb temperature of 60 F. It is heated to 200 F by coils and blown into the dryer: In the dryer it cools along an adiabatic cooling line and leaves the dryer fully saturated: At what temperature does the air leave the dryer? ',  "options": ['A.  86 F', 'B.  93 F ', 'C. 72 F ', 'D. 61 F'], "correct": 1}, 
+
+    { "text": 'Steady state temperature reached by a small amount of liquid   evaporating into a large amount of unsaturated vapor-gas mixture is ',  "options": ['A.  dry-bulb temperature ', 'B. wet bulb temperature', 'C. dew point ', 'D. adiabatic saturation temperature'], "correct": 1}, 
+
+    { "text": 'Which of  the  following remains constant  during evaporative   cooling process with recirculated water supply?  ',  "options": ['A. Relative humidity', 'B. Wet bulb temperature ', 'C.  Partial pressure of vapor ', 'D. None of these'], "correct": 1}, 
+
+    { "text": 'When the temperature and humidity of air is low, we usually use draft cooling tower:  ',  "options": ['A.  natural ', 'B. induced ', 'C. forced ', 'D. none of these'], "correct": 0}, 
+
+    { "text": " The semiconductor plant at the Food  Terminal Export Zone, an adiabatic dryer is used where air enters at 160'F. If the air has a dew of 68'F and it picked up 0.08 lb water per 100 ft3, how saturated is the air coming out of the dryer? ",  "options": ['A.  50% ', 'B. 70% ', 'C. 60%', 'D. 80% '], "correct": 0}, 
+
+    { "text": 'If 100 lb of air at 50\'F db and 50\'F wb is mixed with 300 lb of dry air at 110 F db and 80"F wb, the resulting mixture will have dry bulb temperature of ',  "options": ['A. 80 F', 'B. 90 F ', 'C.  85 F ', 'D. 95 F '], "correct": 3}, 
+
+    { "text": 'If 100 lb of air at 50\'F db and 50\'F wb is mixed with 300 lb of dry air at 110 F db and 80"F wb What is the wet bulb temperature of the resulting mixture for the mixed air? ',  "options": ['A. 85 F ', 'B.  73 F', 'C. 65 F ', 'D.  70 F'], "correct": 1}, 
+
+    { "text": "1000 cfm of air (A) at 95'F dry bulb, 74'F wet bulb is mixed with 2000 cfm of air (B) at 65'F dry bulb, 54'F wet bulb. Determine for the mixed stream: The dry bulb temperature ",  "options": ['A.  83 F ', 'B.  90 F ', 'C. 75 F', 'D.  85 F'], "correct": 2}, 
+
+    { "text": "1000 cfm of air (A) at 95'F dry bulb, 74'F wet bulb is mixed with 2000 cfm of air (B) at 65'F dry bulb, 54'F wet bulb. Determine for the mixed stream: The wet bulb temperature ",  "options": ['A. 61 F', 'B. 55 F ', 'C.  50 F', 'D. 68 F'], "correct": 0}, 
+
+    { "text": "Air in an amount  1000   cfm at 1500 F, 20% RH is passed over refrigerated coil and thereby brought to 60'F, 90% RH with the condensed moisture withdrawn at 55 F. The air is then reheated by means of an electric heating coil to 150'F. Compute the moisture removed in Ib/min: ",  "options": ['A.  1.44', 'B. 2.08 ', 'C. 3.67', 'D. 4.19'], "correct": 0}, 
+
+    { "text": "Air in an amount  1000   cfm at 1500 F, 20% RH is passed over refrigerated coil and thereby brought to 60'F, 90% RH with the condensed moisture withdrawn at 55 F. The air is then reheated by means of an electric heating coil to 150'F. Compute the heat removed by the refrigerated coil, expressed as tons of refrigerated coil, expressed as tons of refrigeration: ",  "options": ['A. 11 ', 'B. 15 ', 'C. 17', 'D. 13'], "correct": 1}, 
+
+    { "text": "Air in an amount  1000   cfm at 1500 F, 20% RH is passed over refrigerated coil and thereby brought to 60'F, 90% RH with the condensed moisture withdrawn at 55 F. The air is then reheated by means of an electric heating coil to 150'F. Calculate the wattage of the heating coil required: ",  "options": ['A.  38 kW ', 'B. 16 kW ', 'C.  25 kW ', 'D. 44 kW'], "correct": 2}, 
+
+    { "text": 'Moisture contained by a substance in excess of the equilibrium moisture is called ',  "options": ['A. unbound moisture ', 'B. critical moisture ', 'C. free moisture', 'D. bound moisture'], "correct": 2}, 
+
+    { "text": 'Moisture in a substance exerting an equilibrium vapor  pressure less than that of pure liquid at the same temperature is called the _____ moisture:  ',  "options": ['A. bound ', 'B. critical ', 'C. unbound', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'A wet solid is dried in a batch drier under constant drying conditions from 25% db to 10% db in 4.17 hours: The critical moisture content is 15% db and its equilibrium moisture content is 5% db. How long will it take to dry the solid from 30% db to 8% db under the same drying conditions?  ',  "options": ['A. 6.66 hours ', 'B. 2.65 hours ', 'C. 4.44 hours ', 'D. 1.44 hours'], "correct": 0}, 
+
+    { "text": ' Wet solid is dried in a batch dryer under constant drying conditions from 35% to 10% in 7 hours: The critical moisture content is 20% and the   equilibrium moisture is 4%. All moisture contents are on dry basis: How long should it take to dry the same solid from 10% to 5% moisture under the same drying conditions ',  "options": ['A. 6.5 hrs', 'B. 3.3 hrs ', 'C.  5.1 hrs', 'D. 4.8 hrs'], "correct": 0}, 
+
+    { "text": 'Wet solid is to be dried from 40 to 10% in 5 hours under constant drying conditions. The critical moisture is 20% and the equilibrium moisture content is 7%. All moisture contents are on a dry basis: The time needed to dry from 15% to 5% free moisture under the same drying conditions is  ',  "options": ['A. 4.28 hrs ', 'B. 2.67 hrs', 'C. 1.85 hrs', 'D. 2.03 hrs '], "correct": 2}, 
     
+    { "text": '200 kg of solids (on dry basis) is subjected to a drying process for a period of 5000 seconds. The drying occurs in the constant rate period with the drying rate as, Nc 0.5x10-3 kg/m2-s. The initial moisture content of the solid is 0.2 kg moisture/kg dry solid, The interfacial area available for drying is 4 m2/100 kg of dry solid: The moisture content at the end of the drying period is (in kg moisture/kg dry solid) ',  "options": ['A. 0.5', 'B.  0.1 ', 'C.  0.05 ', 'D.  0.15'], "correct": 1}, 
     
-    
-    
+    { "text": 'The initial moisture content of a food product is 77% (wet basis) , and the critical moisture content is 30% (wet basis). If the constant drying rate is 0.1 kg H2O 1 m2-s, compute the time required for the product to begin the falling rate drying period  Neglect  equilibrium moisture content: The product has a cube shape with 5 cm sides, and the initial product density is 950 kg/m3:. ',  "options": ['A.  23.4 s', 'B. 48.5 s ', 'C. 34.6 s ', 'D. 53.2 s'], "correct": 3}, 
+
+    { "text": 'A porous material dries in the open air at a rate approximately proportional to its moisture content: If a sheet hangs in the wind losses half its free moisture in the first hour;, when will it have lost 99%, weather conditions remaining the same? ',  "options": ['A. 6.6 hrs ', 'B.  7.5 hrs ', 'C. 4.7 hrs ', 'D.  8.1 hrs'], "correct": 0}, 
+
+    { "text": 'Ipil-ipil leaves will be dried in moving train of trays dryers: The wet leaves containing 75 % water (wet basis) is to be dried to 15% (wet basis) in tray containing 1m x 1.5 m. The wet leaves are spread out in the tray to a uniform thickness of 8 cm: Calculate: The number of   trays needed to produce 1 MT of the dried leaves ',  "options": ['A. 20 ', 'B.  38', 'C. 45', 'D. 17'], "correct": 1}, 
+
+    { "text": 'Ipil-ipil leaves will be dried in moving train of trays dryers: The wet leaves containing 75 % water (wet basis) is to be dried to 15% (wet basis) in tray containing 1m x 1.5 m. The wet leaves are spread out in the tray to a uniform thickness of 8 cm: Calculate: The amount of water removed/MT of product: The density of the leaves is 0.75 g/cc ',  "options": ['A. 2400 kg ', 'B.  5800 kg', 'C. 3300 kg ', 'D. 4700 kg '], "correct": 0}, 
+
+    { "text": 'Ipil-ipil leaves will be dried in moving train of trays dryers: The wet leaves containing 75 % water (wet basis) is to be dried to 15% (wet basis) in tray containing 1m x 1.5 m. The wet leaves are spread out in the tray to a uniform thickness of 8 cm: Calculate:  If hot air at 20% RH and a bulb temperature of 110 F is blown into the dryer and moist air leaves at 105 F dry bulb and 86 F wet bulb temperatures, how many ft3 of hot air will be needed per MT of product? ',  "options": ['A.  8.05x10^6 ft3 ', 'B.  4.98x10^6 ft3 ', 'C. 6.41x10^6 ft3', 'D. 5.22x10^6 ft3'], "correct": 2}, 
+
+    { "text": 'An adiabatic tunnel dryer handles 100 kg of banana chips per batch reducing the moisture content from 50% and 12% wet basis Drying takes 10 hours to complete by flowing air at 82 C and 5% RH. The air leaves the dryer saturated: Assuming that the rate of drying is constant, calculate the volume of air blown in m3/hr: ',  "options": ['A. 222 ', 'B. 267 ', 'C.  250 ', 'D.  208'], "correct": 0}, 
+
+    { "text": 'Milk is dried usually in a _______ dryer:  ',  "options": ['A. freeze ', 'B. tray ', 'C.  spray ', 'D. rotary'], "correct": 2}, 
+
+    { "text": 'Heat sensitive materials like certain pharmaceuticals and food stuff can be dried  ',  "options": ['A.  in indirect tray dryer ', 'B. by freeze drying ', 'C. in spray dryer ', 'D. festoon dryer'], "correct": 1}, 
+
+    { "text": 'Large scale drying of sugar is done in dryer:  ',  "options": ['A. spouted bed ', 'B. rotary ', 'C. tray ', 'D. truck'], "correct": 1}, 
+
+    { "text": 'Free flowing granular materials can be best dried in ______drier: ',  "options": ['A.  rotary ', 'B. drum ', 'C. cylinder', 'D.  freeze'], "correct": 0}, 
+
+    { "text": ' Pick out the wrong statement pertaining to the rotary dryer.  ',  "options": ['A. Flights (located in the inside shell of rotary dryer) lift the material being dried and shower it down through the current of hot airlgases: It extends from the wall to a distance which is about 8-12% of the inside diameter of shell ', 'B. Hold up ofu a rotary drier is defined as the fraction of the volume occupied by the solid at any instant: The best performance for rotary drier is obtained_ when the holdup is in the range of 0.05 to 0.15. ', 'C. Rotary dryer is sitable for drying sticky material; ', 'D. Recommended peripheral speed of a rotary drier is in the range of 10 to 30 meters/minute'], "correct": 2}, 
+
+    { "text": 'Which of the following is not a continuous drier?  ',  "options": ['A.  Drum drier ', 'B.  Tunnel drier ', 'C. Spray drier ', 'D. Tray drier'], "correct": 3}, 
     
 ]
 
+# Lecture 2.8
+PD_EqpDes = [
+    
+]
+
+# Lecture 2.9
+Kinetics = [
+    
+]
+
+#------------------------------------------------------------------------ Day 3
+
+# Lecture 3.1
+ChELaws = [
+    
+]
+
+# Lecture 3.2
+ProcessCont = [
+    
+]
