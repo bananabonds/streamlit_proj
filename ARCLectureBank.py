@@ -1414,7 +1414,30 @@ HeMaTra = [
 
 # Lecture 2.8
 PD_EqpDes = [
-    
+    { "text": '_______tower is the most suitable gas-liquid contacting device involving highly corrosive fluids  ',  "options": ['A. Sieve plate', 'B. Packed ', 'C.  Bubble cap plate ', 'D.  None of these'], "correct": 1}, 
+
+    { "text": 'Liquid redistribution should be done in a packed tower packed with Raschig rings every 6 meters or ____ times the column diameter; whichever is lower: ',  "options": ['A.  2.5-3.0', 'B. 5-7.5 ', 'C. 10-12.5 ', 'D. 15-20'], "correct": 0}, 
+
+    { "text": 'In case of saddle packing (e.g., berl and intralox saddles), the maximum size of the packing should not exceed of the column diameter ',  "options": ['A.  1/5th ', 'B.  1/15th ', 'C.  1/30th ', 'D. 1/50th '], "correct": 1}, 
+
+    { "text": ' Pick out the wrong statement pertaining to the design of the distillation column.  ',  "options": ['A. Generally, a skirt clearance of 0.5"to 1.5\'is recommended to prevent plugging of the slots by residue build up. ', 'B. The purpose of the slot is to disperse the gas into the liquid in the form of small bubbles', 'C. If sufficient slot area is not provided, the gas may pass through the skirt clearance', 'D. None of these'], "correct": 3}, 
+
+    { "text": 'In distillation columns, bubble caps are held in place over trays by  ',  "options": ['A. rivets ', 'B.  a hold down bar', 'C.  bolts ', 'D. both (b) and (c)'], "correct": 3}, 
+
+    { "text": 'Typical static submergence for bubble cap plate column operating at atmospheric pressure may be around  ',  "options": ['A. 2.5" ', 'B. 0.5" ', 'C. 0.5" ', 'D. 50% of the plate spacing'], "correct": 1}, 
+
+    { "text": 'Maximum plate efficiency is achieved in case of _____ flow:  ',  "options": ['A. split', 'B. cross ', 'C. cascade ', 'D. reverse'], "correct": 1}, 
+
+    { "text": 'In the allocated cap area, bubble caps are generally arranged on equilateral triangular pitch: Number of caps fixed on a plate is with a  ',  "options": ['A. clearance of 25-75 mm', 'B.  cap pitch of 1.3-2 times the cap diameter ', "C. either 'a' or 'b'", "D. neither 'a' nor 'b'"], "correct": 2}, 
+
+    { "text": 'The length of straight rectangular weir used on croSS-flow trays is generally _________the column diameter:  ',  "options": ['A. 0.6-0.8 times ', 'B. equal to ', 'C.  twice', 'D. 2ft irrespective of (for column > 3 ft diameter)'], "correct": 0}, 
+
+    { "text": 'What is the slope of the operating line in the rectifying section of a distillation column?  ',  "options": ['A. 0', 'B. infinite', "C. '>1'", 'D. <1'], "correct": 3}, 
+
+    { "text": 'Stage efficiency for packed tower varies with the  ',  "options": ['A. type & size of packing ', 'B. fluid rates and fluid properties ', 'C. operating pressure and column diameter ', 'D. all (a), (b) and (c):'], "correct": 3}, 
+
+    { "text": 'The minimum plate spacing in most of the petroleum refinery distillation columns (of D > 3ft) is normally___ inches  ',  "options": ['A. 6 ', 'B. 12 ', 'C. 18 ', 'D. 34 '], "correct": 2}, 
+
 ]
 
 # Lecture 2.9
