@@ -1438,6 +1438,132 @@ PD_EqpDes = [
 
     { "text": 'The minimum plate spacing in most of the petroleum refinery distillation columns (of D > 3ft) is normally___ inches  ',  "options": ['A. 6 ', 'B. 12 ', 'C. 18 ', 'D. 34 '], "correct": 2}, 
 
+    { "text": 'At equal mass velocities, the values of film coefficients for gases as compared to that for liquids are generally:  ',  "options": ['A. higher', 'B. lower ', 'C. same ', 'D. unpredictable'], "correct": 1}, 
+
+    { "text": 'For a given design of bubble cap, the number of bubble caps to be used per tray is set by the ',  "options": ['A. allowable gas velocity through the slots.', 'B. plate spacing', 'C.  diameter of the column', 'D. all (a), (b) and (c):'], "correct": 0}, 
+
+    { "text": ' The function of manholes provided in the shell of a distillation column is to  ',  "options": ['A.  keep a check on the liquid gradient over the plate by direct visual observation', 'B.  give access to the individual trays for cleaning, maintenance and installation. ', 'C. guard against foaming & entrainment by dumping antifoaming agent through it ', 'D. d.all (a), (b) and (c)'], "correct": 1}, { "text": ' The function of manholes provided in the shell of a distillation column is to  ',  "options": ['A.  keep a check on the liquid gradient over the plate by direct visual observation', 'B.  give access to the individual trays for cleaning, maintenance and installation. ', 'C. guard against foaming & entrainment by dumping antifoaming agent through it ', 'D. d.all (a), (b) and (c)'], "correct": 1}, 
+
+    { "text": 'Back-trapping in a distillation column results due to  ',  "options": ['A. low gas velocity:', 'B. high gas velocity:', 'C. excessive liquid gradient over the tray: ', 'D. low reflux ratio'], "correct": 2}, 
+
+    { "text": 'Diameter of bubble caps used in high pressure columns is ________ as compared to that used in identical vacuum columns:  ',  "options": ['A. less', 'B. more', 'C. Same ', 'D. either (a) or h(b); no generalisation can be made'], "correct": 0}, 
+
+    { "text": 'The ideal size of round bubble caps to be used in industrial distillation column having a diameter of 3-6 meters is_______cm ',  "options": ['A. 5 ', 'B. 15', 'C.  7.5', 'D.  50'], "correct": 1}, 
+
+    { "text": 'In a distillation column, minimum clearance to be maintained between the overflow weir and the last row of the bubble caps is _______cm ',  "options": ['A. 2.5 ', 'B. 7.5 ', 'C. 15', 'D. 20'], "correct": 1}, 
+
+    { "text": "Smoker's equation for the calculation of number of equilibrium stages in a continuous binary distillation column is used, when the  ",  "options": ['A. relative volatility is close to one (e.g-, separation of close boiling isomers) ', 'B.  feed is not atits bubble point', 'C. number of equilibrium stages in only stripping section is to be calculated ', 'D. number of equilibrium stages required is likely to be very small'], "correct": 0}, 
+
+    { "text": 'In a continuous distillation column, the optimum reflux ratio ranges from times the minimum reflux ratio:  ',  "options": ['A. 11 to 1.5 ', 'B. 1.6 to 2 ', 'C. 2.2 to 2.6 ', 'D. 2.7 to 3'], "correct": 0}, 
+
+    { "text": ' Generally; as the length of the liquid path on a trayis increased beyond 5 ft; the overall column efficiency  ',  "options": ['A. increases', 'B. decreases ', 'C. remains same ', 'D. may increase or decrease depending upon the plate spacing'], "correct": 0}, 
+
+    { "text": 'In packed absorption tower; onset of flooding usually occurs at a pressure drop of about_ _________mm of water column per meter height of packing:  ',  "options": ['A. 25-50 ', 'B. 50-75', 'C. 200-250 ', 'D. 750-1000'], "correct": 1}, 
+
+    { "text": 'The minimum tray spacingin distillation column of diameter less than 3 ft is normally  _________inches  ',  "options": ['A. 6 ', 'B.  18 ', 'C. 24 ', 'D. 34'], "correct": 0}, 
+
+    { "text": ' Normally; the ratio of the total riser area to the tower cross sectional area (for bubble cap towers of D>3 ft) is around  ',  "options": ['A. 0.4-0.6 ', 'B. 0.35-0.75 ', 'C. 0.1-0.2', 'D. 0.55-0.85'], "correct": 2}, 
+
+    { "text": 'Pick out the wrong statement about the design of sieve plate column and the bubble cap column:  ',  "options": ['A. The downcomer design and the residence time in the downcomer is almost same for sieve plate and bubble cap columns ', 'B. Weir length for a bubble cap plate is the same as that for the sieve plate:', 'C.  Weir height for a bubble cap plate column is the same as that for a sieve plate column', 'D. Weir height in case of a bubble cap plate ranges from 50 to 150 mm and is higher than the sieve plate'], "correct": 2}, 
+
+    { "text": 'Maximum size of the Raschig rings used in a packed tower is about________of the column diameter  ',  "options": ['A. 1/10th', 'B. 1/20th', 'C. 1/30th ', 'D. 1/50th'], "correct": 1}, 
+
+    { "text": ' Slope of countercurrent flow rotary drier is in the range of ______ meters ',  "options": ['A. 0 to 0.08 ', 'B.  0 to 0.8 ', 'C. 0 to 1.5 ', 'D. 0 to 2.2'], "correct": 0}, 
+
+    { "text": 'Normally; the length to diameter ratio of rotary dryers varies from 4 to 10 and for its economic operation, the number of transfer units (NTU) for such dryers varies from  ',  "options": ['A. 1.5-2.5 ', 'B. 3.5-5.5', 'C. 7.5-10.0', 'D. 10-15'], "correct": 0}, 
+
+    { "text": 'Baffle spacingis generally ______ the ID ofthe shell ',  "options": ['A. more than ', 'B. not greater than', 'C. not less than one fifth of ', 'D. both (b) and (c)'], "correct": 3}, 
+
+    { "text": 'In a vertical short tube evaporator (Calendria type), the  ',  "options": ['A. tube dia of 2.5-7.5 cm, tube length of 75-200 cms and cylindrical drum dia of 1- 6 meters are normally used. ', 'B. area of central downtake is equal to 40 to 100% of total cross-sectional area of the surrounding tube ', 'C. liquor is inside the tube while the steam is outside the tube', 'D. all (a); (b) & (c):'], "correct": 3}, 
+
+    { "text": 'In a multipass shell and tube heat exchanger; the problem of differential expansion between the shell and tube passes is taken care of by using a  ',  "options": ['A. U-bend ', 'B. floating head tube sheet ', 'C. either (a) or (b) ', 'D. neither (a) nor (b) '], "correct": 2}, 
+
+    { "text": ' In a shell and tube heat exchanger; the shortest center to center distance between the adjacent tubes is  ',  "options": ['A. called tube pitch: ', 'B.  called tube clearance ', 'C. always less than the diameter of the tube', 'D. none of these.'], "correct": 0}, 
+
+    { "text": ' The shell side pressure drop in a shell and tube heat exchanger is maximum for _______baffle ',  "options": ['A. disk and ring ', 'B. segmental', 'C. orifice', 'D. independent of the type of '], "correct": 2}, 
+
+    { "text": 'Minimum tube pitch recommended for shell and tube heat exchangers is about _________times the outside diameter of the tube:  ',  "options": ['A. 1.25 ', 'B.  1.75 ', 'C. 2.5 ', 'D. 3.5'], "correct": 0}, 
+
+    { "text": 'Heat transfer co-efficient for a horizontal condenser as compared to a vertical condenser operating under similar conditions is  ',  "options": ['A. same ', 'B. less ', 'C. about 3 times ', 'D. about 0.33 times'], "correct": 2}, 
+
+    { "text": 'When one ofthe fluids is highly corrosive and has fouling tendency; it should  ',  "options": ['A. preferably flow inside the tube for its easier internal cleaning: ', 'B. preferably flow outside the tube', 'C. flow at a very slow velocity: ', 'D.  flow outside the tube; when the flow is counter-current and inside the tube when the flow is co-current'], "correct": 0}, 
+
+    { "text": "The clearance between two tubes in a shell and tube heat exchanger is known as 'ligament; whose minimum value is _______ the outside diameter ofthe tube; but in no case it should be less than 4.5 mm_  ",  "options": ['A. equal to ', 'B. half ', 'C. one fourth', 'D. three fourth'], "correct": 2}, 
+
+    { "text": 'Which of the following lengths of heat exchanger tubes are normally not used practice?  ',  "options": ['A. 2.5 meters', 'B. 6 meters', 'C.  10 meters ', 'D. 0.5 meter '], "correct": 3}, 
+
+    { "text": 'In case of a shell and tube heat exchanger; the effect of L/D on inside film heat transfer co-efficient (hi) vanishes after a Reynold number of  ',  "options": ['A. 1000 ', 'B.  3000 ', 'C. 5000 ', 'D. 10000'], "correct": 3}, 
+
+    { "text": " Equivalent diameter for heat transfer calculation for a duct of square cross section having each side as 'd' will be  ",  "options": ['A. d ', 'B.  sqrt d ', 'C. sqrt 2pid', 'D.  sqrt 2d'], "correct": 0}, 
+
+    { "text": 'In inclined long tube vertical evaporators, the tubes are inclined at an angle of ',  "options": ['A. 15 deg', 'B. 90 deg', 'C. 45 deg', 'D. 60 deg'], "correct": 2}, 
+
+    { "text": 'In the case of a shell and tube heat exchanger; the logarithmic mean temperature difference  ',  "options": ['A. is always less than arithmetic average value', 'B. is always more than arithmetic mean value and the geometric mean value ', 'C. is always less than arithmetic mean value, but more than geometric mean value', 'D.  may be either more or less than geometric mean and arithmetic mean value depending upon whether the flow of stream is CO-current or counter-current:'], "correct": 0}, 
+
+    { "text": 'Pick out the wrong statement pertaining to a shelland tube heat exchanger  ',  "options": ['A. The minimum value of baffle spacing is 50 mm ', 'B. The maximum value of baffle spacing is equalto the I.D. ofthe shell', 'C. The maximum unsupported tube span is generally about 75 times tube diameter; but is reduced to about 60 times for aluminum; copper & alloys of these', 'D. Disk and doughnut baffle is the most commonly used baffle'], "correct": 3}, 
+
+    { "text": ' Baffles are provided in a shell and tube heat exchanger to increase the turbulence and velocity of the shell side fluid. Which of the following shaped baffles does not fall in the category of transverse baffle? ',  "options": ['A. Segmental baffle ', 'B. Flat plate extending across the wall ', 'C. Disk type baffle ', 'D. Helical type baffle '], "correct": 3}, 
+
+    { "text": 'The wall thickness of thin cylindrical shell with hemispherical ends is _______ that of the spherical ends ',  "options": ['A. equal to ', 'B. more than ', 'C. less than ', 'D. either (b) or (c); depends on maximum permissible internal pressure'], "correct": 1}, 
+
+    { "text": 'Any shell opening greater than 5 cms for a storage tank must be reinforced for reason of ',  "options": ['A. preventing the local overstressing of the shell around the opening ', 'B. reduction of discontinuity in shape at the junction. ', 'C. making the joint leak proof', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'A certain pressure vessel manufacturer avoids reinforcements calculations for openings by always providing a reinforcing extending up to double the diameter of the opening and of the same material and thickness as that of the shell wall If area compensation is accepted as a code guideline, his approach leads to safe design ',  "options": ['A. only if the opening is on spherical vessel.', 'B.  only if the opening is on a vertical cylindrical vessel:', 'C. only if the opening is on a horizontal cylindrical vessel ', 'D. irrespective of the shape of the vessel'], "correct": 3}, 
+
+    { "text": " Large process vessels operating under extreme temperature and pressure conditions are normally clad/ lined with materials like stainless steel, aluminum_ nickel & its 'alloys, copper & its alloys and titanium. The cladding thickness is generally about _________percent of the total thickness ",  "options": ['A. 1 to 5 ', 'B. 10 to 20 ', 'C. 30 to 40 ', 'D. 40 to 50'], "correct": 1}, 
+
+    { "text": 'The longitudinal stress induced in a thin-walled cylindrical vessel under internal pressure is  ',  "options": ['A. pd/2t ', 'B. pd/t ', 'C. pd/4t', 'D. pd/8t'], "correct": 2}, 
+
+    { "text": 'Column support for the roof of cylindrical storage tank must be provided for  ',  "options": ['A. small diameter tanks ', 'B. large diameter tanks', 'C. small diameter tall tanks', 'D.  all tanks irrespective of their heights and diameters'], "correct": 1}, 
+
+    { "text": 'For a cylindrical internally pressurized vessel, which ofthe following closure types would withstand highest pressure, if each closure is of the same material and thickness? ',  "options": ['A. hemispherical ', 'B. ellipsoidal (2.1) ', 'C. conical ', 'D. flat plate'], "correct": 0}, 
+
+    { "text": 'Skirt support is the most suitable for supporting ________vessels ',  "options": ['A. small horizontal ', 'B. large horizontal', 'C. tall vertical ', 'D. thick walled'], "correct": 2}, 
+    
+    { "text": "Hoop (circumferential) stress induced in a thin walled 'Horton Sphere' used for the storage of liquid ammonia under pressure is ",  "options": ['A. pD/2t', 'B. pD/4t', 'C. pD/3t', 'D. pD/6t'], "correct": 1}, 
+
+    { "text": 'A cylindrical storage tank can have a self-supported conical roof ',  "options": ['A. if its diameter is less than 15-20 meters. ', 'B. if its diameter is more than 50 meters. ', 'C.  if the thickness ofthe roof is more than that of cylindrical shell ', 'D.  irrespective of its diameter'], "correct": 0}, 
+
+    { "text": ' The minimum baffle height should be  ',  "options": ['A. equal to the impeller diameter ', 'B. twice the impeller diameter ', 'C. twice the tank diameter', 'D. 3/4 of the tank height:'], "correct": 1}, 
+
+    { "text": 'The normal range of velocity of water in pipes is ________ m/s ',  "options": ['A. 0.1-0.5 ', 'B.  1-2 ', 'C.  10-50', 'D. 15-30'], "correct": 1}, 
+
+    { "text": 'The ratio propeller agitator D/tank D is normally taken as  ',  "options": ['A.  0.15-0.30 ', 'B. 0.5-0.65 ', 'C.  0.75-0.85 ', 'D. 0.60-0.90'], "correct": 0}, 
+
+    { "text": 'Value of Peclet number = 0,is the representative of  ',  "options": ['A. laminar flow: ', 'B. complete back mixing:', 'C.   plug flow ', 'D. eddy - diffusivity'], "correct": 1}, 
+
+    { "text": 'A pipe is generally made of circular crosS-section;, because a circular croSS- section has the  ',  "options": ['A. higher structural strength. ', 'B. lowest surface area requirement for a given volume ', 'C. both (a) & (b)', 'D. none of these'], "correct": 2}, 
+
+    { "text": 'Baffles may be eliminated for  ',  "options": ['A. low viscosity liquids (< 200 poise) ', 'B.  high viscosity liquids (> 600 poise)', 'C. large diameter tanks ', 'D. none of these'], "correct": 1}, 
+
+    { "text": ' In a double pipe (concentric) heat exchanger; the hydraulic radius for heat transfer (for a fluid flowing through the annulus) would be ',  "options": ['A. same as that for fluid flow:', 'B. less than that for fluid flow:', 'C. more than that for fluid flow:', 'D. D2 - D1 (D1 and D2 are I.D. of inner and outer pipes)'], "correct": 2}, 
+
+    { "text": 'Friction factor for turbulent flow in a new pipe is given by ',  "options": ['A. f= 16/Nre', 'B. f = 0.04/Nre ^ 0.16', 'C. f = 0.22 Nre ^ 0.5', 'D. f = 25 / Nre'], "correct": 1}, 
+
+    { "text": 'Le/D for couplings and unions would be ',  "options": ['A. 60', 'B. 200 ', 'C. 350', 'D. negligible'], "correct": 3}, 
+
+    { "text": ' The ratio of the largest load in a test to the original cross-sectional area of the test specimen is called the ______stress ',  "options": ['A.  yield point', 'B. breaking ', 'C. ultimate ', 'D. none of these'], "correct": 2}, 
+
+    { "text": "A 'rupture disc' is provided in chemical equipment as an accessory meant for ",  "options": ['A. relieving excess pressure', 'B. creating turbulence ', 'C. enhancing mixing rate', 'D.  avoiding vortex formation'], "correct": 0}, 
+
+    { "text": 'Seamless pipe is made ',  "options": ['A. from rolled strips formed into cylinders and seam-welded ', 'B.  by extrusion & casting into static and centrifugal molds', 'C.  by forging a solid round, piercing it by simultaneously rotating & forcing it over a piercer point and further reducing it by gas drawing ', 'D. both (b) and (c) rolling'], "correct": 3}, 
+
+    { "text": 'The thermal stress in a metallic bar does not depend upon ',  "options": ['A. changes in temperature', 'B. cross-sectional area', 'C.  both (a) and (b)', 'D. neither (a) nor (b)'], "correct": 1}, 
+
+    { "text": ' Lapjoints are preferred for plates having thickness ______ mm  ',  "options": ['A. <12.5 ', "B. '> 3 ", "C. '>5 ", 'D. 5-10'], "correct": 1}, 
+
+    { "text": 'In case of plain carbon steel, butt welded joints are used for shell plate thickness < ___________cm  ',  "options": ['A. 1.2 ', 'B.  0.5', 'C. 3.8', 'D. 6.8'], "correct": 1}, 
+
+    { "text": " Poisson's ratio of a materialis the ratio of unit lateral strain to the unit axial elongation within its elastic limit: The value of Poisson's ratio for structuraland pressure vessel steel may be taken as ",  "options": ['A.  0.01', 'B.  0.3', 'C.  0.75 ', 'D. 0.95'], "correct": 1}, 
+
+    { "text": 'Removable connection of tubes to tube sheet is called ',  "options": ['A. ferrule', 'B.  socket ', 'C. nipple ', 'D. saddle'], "correct": 0}, 
+
+    { "text": 'Joint efficiency (J) for a seamless pipe is ',  "options": ['A. 1 ', 'B. 0.85', 'C.  1.2 ', 'D. < 0.5'], "correct": 0}, 
+
+    { "text": 'For high pressure process equipmentIvessels, the connected nozzle should be ',  "options": ['A. welded ', 'B. screwed ', 'C. flanged ', 'D. brazed'], "correct": 0}, 
+
+    { "text": ' The safe distance of habitation from a hazardous chemical plant (TLV of its product 1000 ppm) should be about___________kms ',  "options": ['A. 1 ', 'B. 5', 'C. 15', 'D. 25'], "correct": 1},   
+    
 ]
 
 # Lecture 2.9
