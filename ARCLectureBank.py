@@ -1568,17 +1568,184 @@ PD_EqpDes = [
 
 # Lecture 2.9
 Kinetics = [
-    
+
+    { "text": ' For the reaction, 2X + Y → Z, the rate of formation of Z is 0.2\r\nmole/liter-hr. what is the rate of disappearance of X in mole/literhr? ',  "options": ['A. 0.4', 'B.  0.2', 'C. 0.1', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'The reaction in which rate equation corresponds to a\r\nstoichiometric equation is called ',  "options": ['A.  elementary reaction', 'B.  parallel reaction', 'C. non-elementary reaction', 'D. autocatalytic reaction'], "correct": 0}, 
+
+    { "text": 'The overall order of the reaction for the elementary reaction A+2B - > С',  "options": ['A. 0', 'B. 1', 'C. 2', 'D. 3'], "correct": 3}, 
+
+    { "text": ' If "n" is the order of reaction, then unit of rate constant is ',  "options": ['A.  1/ (time) (concentration)^n-1', 'B.  (time)^-1(concentration)^n-1', 'C. (time)^n-1 (concentration)', 'D. none of these'], "correct": 0}, 
+
+    { "text": 'A certain reaction has a specific rate constant of 10 L/mol-min.\r\nThe order of the reaction is ',  "options": ['A. ½', 'B. 0', 'C. 1', 'D. 2'], "correct": 3}, 
+
+    { "text": 'On doubling the concentration of reactant, the rate of reaction\r\ntriples, find the reaction order. ',  "options": ['A. 1.36', 'B. 2.01', 'C. 1.59', 'D. 2.88'], "correct": 2}, 
+
+    { "text": "The rate of the reaction, X → Y, quadruples when theconcentration of 'X' is doubled. The rate expression for thereaction is, -r = k Cx^n, the value of 'n' in this case will be ",  "options": ['A. 0', 'B. 2', 'C. 1', 'D. 3'], "correct": 1}, 
+
+    { "text": ' Find the reaction orders with respect to A and B: Ca (4, 1, 1)  Cb (1, 1, 8)  -ra( 2, 1, 4)',  "options": ['A. a = 1/2, b = 2/3', 'B.  a = 2/5, b = 1', 'C.  a = 2/3, b = 1/3', 'D.  a = 1/2, b = 1'], "correct": 0}, 
+
+    { "text": ' Inversion of cane sugar is an example of ',  "options": ['A. unimolecular reaction with first order.', 'B. bimolecular reaction with second order.', 'C.  bimolecular reaction with first order.', 'D. unimolecular reaction with second order.'], "correct": 2}, 
+
+    { "text": '6 gm of carbon is burnt with an amount of air containing 18 gmoxygen. The product contains 16.5 gms CO₂ and 2.8 gms CO besidesother constituents. What is the degree of conversion based on disappearance of limiting reactant? ',  "options": ['A. 100%', 'B. 75%', 'C. 95%', 'D. 20%'], "correct": 2}, 
+
+    { "text": 'If the rate of reaction independent of the concentration of the\r\nreactants, the reaction is said to be? ',  "options": ['A. first order', 'B. third order', 'C.  second order', 'D. zero order'], "correct": 3}, 
+
+    { "text": 'For a ___________order reaction, the units of rate constant andrate of reaction are the same. ',  "options": ['A. zero', 'B. second', 'C. first', 'D. fractional'], "correct": 0}, 
+
+    { "text": ' The reaction A --> B is conducted in an isothermal batchreactor. If the conversion of A increases linearly with holding time,then the order of the reaction is ',  "options": ['A. 0', 'B. 1', 'C.  1.5', 'D. 2'], "correct": 0}, 
+
+    { "text": 'With increase in initial concentration, the fractional conversion\r\nof a first order reaction in each given time ',  "options": ['A. increases', 'B.  remains constant', 'C. decreases', 'D. unpredictable'], "correct": 1}, 
+
+    { "text": 'A polymerization reaction occurs at constant temperature in\r\nhomogeneous phase. For the initial monomer concentrations of 0.3, 0.5\r\nand 0.9 mol/L, 30% of the monomer reacts in 40 minutes. Find the\r\nreaction rate constant. ',  "options": ['A. 0.129/hr', 'B.  0.535 /hr', 'C. 0.451/hr', 'D. 0.964 /hr'], "correct": 1}, 
+
+    { "text": 'The concentration of A in a first order reaction, А → В,\r\ndecreases ',  "options": ['A. linearly with time.', 'B. exponentially with time.', 'C. very abruptly towards the end of the reaction.', 'D.  logarithmically with time.'], "correct": 1}, 
+
+    { "text": 'In a first order reaction the time required to reduce the\r\nconcentration of reactant from 1 mol/L to 0.5 mol/L will be that\r\nrequired to reduce it from 10 mol/L to 5 mol/L in the same volume.\r\n ',  "options": ['A. more than', 'B. less than', 'C.  same as', 'D. data insufficient'], "correct": 2}, 
+
+    { "text": ' If the reaction, 2 A -->C is second order, which of thefollowing plots will give a straight line? ',  "options": ['A.  log C_A vs time', 'B. C_A vs time', 'C. log C_A vs reciprocal time', 'D. 1/C_A vs time'], "correct": 3}, 
+
+    { "text": 'For an isothermal second order aqueous phase reaction, A->B, the ratio of the time required for 90% conversion to the timerequired for 45% conversion is ',  "options": ['A. 2', 'B. 11', 'C. 4', 'D. 22'], "correct": 1}, 
+
+    { "text": ' After 8 minutes in a batch reactor, reactant (CA0 = 1 mol/L) is\r\n80% converted; after 18 minutes, conversion is 90%. What is the\r\norder of the reaction? ',  "options": ['A. 1/2', 'B. 3/2', 'C. 2', 'D. 3'], "correct": 2}, 
+
+    { "text": 'The decomposition of a compound\r\nX gave the rate data shown below.\r\nThe reaction is t, min (0 10 20 30 40)  X_t (0.600 0.472 0.389 0.331 0.288)',  "options": ['A. first order', 'B.  third order', 'C. second order', 'D. zero order'], "correct": 2}, 
+
+    { "text": 'The decomposition of a compoundX gave the rate data shown below. The value of the rate constant is t, min (0 10 20 30 40)  X_t (0.600 0.472 0.389 0.331 0.288)',  "options": ['A.  0.045', 'B.  0.076', 'C.  0.056', 'D. 0.084'], "correct": 0}, 
+
+    { "text": 'Half-life period of a chemical reaction is ',  "options": ['A. the time required to reduce the concentration of the reacting substance to half\r\nits initial value', 'B.  half of the space time of the reaction', 'C.  half of the residence time of the reaction', 'D.  none of these'], "correct": 0}, 
+
+    { "text": 'For which reaction order, the half-life of the reactant is half full of\r\nthe full lifetime (time for 100% conversion) of the reactant? ',  "options": ['A. zero order', 'B. half order', 'C. first order', 'D. second order'], "correct": 0}, 
+
+    { "text": 'If the time required to change the concentration of reactant to halfits original value is independent of the initial concentration, the ____________order of reaction is ',  "options": ['A. zero', 'B. two', 'C. one', 'D. three'], "correct": 2}, 
+
+    { "text": 'The half-life of a material undergoing second order decay is ',  "options": ['A.  proportional to the square ofinitial concentration', 'B. independent of initial concentration', 'C. proportional to initial concentration', 'D.  inversely proportional to initial concentration'], "correct": 3}, 
+
+    { "text": 'The conversion of a reactant, undergoing a first order reaction, at\r\na time equal to three times the half-life of the reaction is ',  "options": ['A. 0.875', 'B. 0.425', 'C. 0.5', 'D. data insufficient to calculate'], "correct": 0}, 
+
+    { "text": 'For the liquid phase reaction A→P, in a series of experiments in\r\na batch reactor, the half-life was found to be inversely proportional to\r\nthe square root of the initial concentration of A. The order of the\r\nreaction is ',  "options": ['A.  3/2', 'B. 1/2', 'C. 1', 'D. 2'], "correct": 0}, 
+
+    { "text": 'The following half-life data areavailable for the irreversible liquid phasereaction,A->P What is the overall order of the reaction? Initial Concentration(kmol/m³) - [2, 8]    (kmol/m³) Half-life (min) [2, 1]',  "options": ['A. 1', 'B.  2.5', 'C. 1.5', 'D. 3'], "correct": 2}, 
+
+    { "text": 'The following is data for the reaction: A→ B: Time (sec) - [0 25 50 75]   [A] (M) - [1.00 0.914 0.829 0.744]  Time (sec) - [100 125 150 200]  [A] (M)-  [0.659 0.573 0.488  ?] The order of the reactant A',  "options": ['A. 0', 'B. 2', 'C. 1', 'D. 3'], "correct": 0}, 
+
+    { "text": 'The following is data for the reaction: A→ B: Time (sec) - [0 25 50 75]   [A] (M) - [1.00 0.914 0.829 0.744]  Time (sec) - [100 125 150 200]  [A] (M)-  [0.659 0.573 0.488  ?]  The value of k is',  "options": ['A. 0.0011', 'B. 0.0034', 'C. 0.00226', 'D. 0.00428'], "correct": 1}, 
+
+    { "text": 'The following is data for the reaction: A→ B: Time (sec) - [0 25 50 75]   [A] (M) - [1.00 0.914 0.829 0.744]  Time (sec) - [100 125 150 200]  [A] (M)-  [0.659 0.573 0.488  ?] The concentration at 200 seconds is',  "options": ['A. 0.12 M', 'B. 0.28 M', 'C. 0.25 M', 'D. 0.32 M'], "correct": 3}, 
+
+    { "text": 'The following is data for the reaction: A→ B: Time (sec) - [0 25 50 75]   [A] (M) - [1.00 0.914 0.829 0.744]  Time (sec) - [100 125 150 200]  [A] (M)-  [0.659 0.573 0.488  ?]  The half-life of the reaction is',  "options": ['A. 62 s', 'B. 125 s', 'C.  85 s', 'D. 147 s'], "correct": 3}, 
+
+    { "text": 'The reaction A +  B + C -> products has equimolar amounts initially, 1 M If the reaction is second order with respect to A and first order with respect to B and C The rate constant k is equal to _______if 30% Cao decomposes after 0.5 hours',  "options": ['A. 0.59 ', 'B. 1.277', 'C. 7.211', 'D. 2.177'], "correct": 1}, 
+
+    { "text": 'The reaction A +  B + C -> products has equimolar amounts initially, 1 M If the reaction is second order with respect to A and first order with respect to B and C The concentration of A after 1 hour',  "options": ['A. 0.59 ', 'B. 1.277', 'C. 7.211', 'D. 2.177'], "correct": 0}, 
+
+    { "text": 'The reaction A +  B + C -> products has equimolar amounts initially, 1 M If the reaction is second order with respect to A and first order with respect to B and C The half-life of the reaction',  "options": ['A. 2.781 hours', 'B. 1.278 hours ', 'C. 1.782 hours ', 'D.  1.827 hours'], "correct": 3}, 
+
+    { "text": 'For every 10°C rise in temperature, the rate of chemical reactiondoubles. When the temperature is increased from 30 to 70°C, the rateof reaction increases____times ',  "options": ['A. 8', 'B. 16', 'C. 12', 'D. 32'], "correct": 1}, 
+
+    { "text": 'With increases in temperature, the rate constant obeying Arrhenius\r\nequation ',  "options": ['A. increases', 'B. decreases', 'C. decreases exponentially with temperature', 'D.  can either increase or decrease, depends on the frequency factor'], "correct": 0}, 
+
+    { "text": 'Which of the statements is wrong? ',  "options": ['A. From Arrhenius Law, the value of the frequency factor, ko does affect the temperature\r\nsensitivity.', 'B. Reactions with high E are very T- sensitive, with low E are relatively T - insensitive', 'C. Any given reaction is much more T- sensitive at a low T than at a high T.', 'D.  From Arrhenius law, a plot of ln k vs 1/T gives a straight line, with large slope for large E\r\nand small slope for small E.'], "correct": 0}, 
+
+    { "text": 'A second order reaction involving reactants initially present at 0.10 mole/L is\r\nfound to be 20% complete in 40 minutes, when the reaction is 25 °C, and 40%\r\ncomplete in 35 minutes, when the reaction is 50 °C. What is the activation energy\r\nfor this reaction in cal/mol. ',  "options": ['A. 2700 cal/mol', 'B. 8500 cal/mol', 'C. 1020 cal/mol', 'D. 5530 cal/mol'], "correct": 1}, 
+
+    { "text": 'At a given value of E/R, the ratio of the rate constants at 500 K\r\nand 400 K is 2 if Arrhenius Law is used. What will be this ratio if\r\ntransition-state theory is used with the same value of E/R? ',  "options": ['A. 1.6', 'B. 2', 'C. 2.24', 'D. 2.5'], "correct": 3}, 
+
+    { "text": ' For the reaction that can be written as A->B->C, the value ofk₁ is 5.65 x10-3 per min and the time necessary to reach themaximum concentration of B is 26 min. What is the value of k2? ',  "options": ['A. 0.3459', 'B. 0.7763', 'C. 0.1246', 'D. 0.1231'], "correct": 2}, 
+
+    { "text": 'For CBо = Cco = 0, find the maximum concentration of CgBfor k1 = 2k2. ',  "options": ['A. Ca0', 'B. 2 Ca0', 'C. Ca0/2', 'D. 0'], "correct": 2}, 
+
+    { "text": ' The following liquid phase reactions are carried out in a plug flow reactor A + C ->2D + P   rp = k1CaCc    A->B rB = k2Ca What is the ratio of moles of P formed to moles of B formed at the reactor exit if the\r\nconversion of C is 50%. No product is present in the feed. Data: CAO = Cco = 2 kmol /m³,\r\nk₁ = 1 m³ / kmol-s and k₂ = 1 /s.',  "options": ['A. 0', 'B.  0.75', 'C. 0.5', 'D. 1'], "correct": 3}, 
+
+    { "text": ' The equilibrium constant of a chemical reaction ',  "options": ['A. increases in the presence of catalyst', 'B.  decreases in the presence of catalyst', 'C.  remains unaffected in the presence of a catalyst', 'D. can either increase or decrease; depends on the type of catalyst'], "correct": 2}, 
+
+    { "text": 'Fractional conversion ______________ for an exothermic reversiblechemical reaction, when the temperature is maximum. ',  "options": ['A. increases', 'B. decreases', 'C. remains unchanged', 'D. unpredictable from the data'], "correct": 1}, 
+
+    { "text": 'If a first order reversible liquid reaction A = B is conducted in a batch\r\nreactor. The initial concentrations are CAo = 0.5 gmol/L and CRo = 0. After 8\r\nminutes, the fractional conversion of A is 1/3 and at equilibrium, the fractional\r\nconversion of A is 2/3. Find the equilibrium constant. ',  "options": ['A. 1', 'B. 3', 'C. 2', 'D. 4'], "correct": 2}, 
+
+    { "text": 'The slow gas - phase reaction A → 2.4 R\r\nwith first - order kinetics takes place\r\nisothermally (25°C) in a constant volume\r\nbomb. Starting with pure A at 1 atm, the\r\npressure in the bomb rises to 1.8 atm in 75\r\nminutes.\r\n The actual conversion of A in the\r\nconstant volume bomb.',  "options": ['A. 0.57', 'B. 0.75', 'C.  0.66', 'D. 0.88'], "correct": 0}, 
+
+    { "text": 'The slow gas - phase reaction A → 2.4 R\r\nwith first - order kinetics takes place\r\nisothermally (25°C) in a constant volume\r\nbomb. Starting with pure A at 1 atm, the\r\npressure in the bomb rises to 1.8 atm in 75\r\nminutes.\r\n The concentration of A (M) after 75\r\nminutes.',  "options": ['A.  0.0411', 'B.  0.0327', 'C. 0.0175', 'D. 0.0972'], "correct": 2}, 
+
+    { "text": 'Nitrogen pentoxide decomposes as follows:N₂05→1/2 O2 + N204  -r N205 = (2.2 x 10 -3/min) C -N2-O5   N2O4 = 2NO2, instantaneous Kp = 45 mmHg The partial pressure of N₂O5 (constantvolume bomb) after 6.5 hours if we start withpure N₂05 at atmospheric pressure.',  "options": ['A. 0.254 atm', 'B. 0.562 atm', 'C.  0.424 atm', 'D. 0.137 atm'], "correct": 2}, 
+
+    { "text": 'Nitrogen pentoxide decomposes as follows:N₂05→1/2 O2 + N204  -r N205 = (2.2 x 10 -3/min) C -N2-O5   N2O4 = 2NO2, instantaneous Kp = 45 mmHg  The partial pressure of NO₂',  "options": ['A.  0.19 atm', 'B.  0.15 atm', 'C.  0.13 atm', 'D. 0.11 atm'], "correct": 0}, 
+
+    { "text": 'The fractional volume change of the system for the isothermal\r\ngas phase reaction, A →3B, between no conversion and\r\ncomplete conversion is ',  "options": ['A. 0.5', 'B. 2', 'C. 1', 'D. 3'], "correct": 1}, 
+
+    { "text": 'he fractional volume change between no conversion andcomplete conversion, for the isothermal gas phase reaction, 2A->R, is ',  "options": ['A. 0.5', 'B. 1', 'C.  -0.5', 'D. 1.5'], "correct": 2}, 
+
+    { "text": ' For the gaseous reaction 2 A → B where the feed consist of\r\n50 mol% A and 50 mol% inert, the expansion factor is ',  "options": ['A. 1', 'B. -0.5', 'C. -0.25', 'D. 0'], "correct": 2}, 
+
+    { "text": 'A gaseous reaction, A ->2 B + C takes place isothermally in aconstant pressure reactor. Starting with gaseous mixture containing 50%A, the ratio of final to initial volume is found to be 1.6. Calculate thepercentage conversion of A. ',  "options": ['A. 30', 'B. 50', 'C. 60', 'D. 74'], "correct": 2}, 
+
+    { "text": 'A first order irreversible reaction; is carried out separately in constant volume as well as variable volume reactor for particular period: It signifies that ______ in the two reactors ',  "options": ['A. both conversion as well as concentration are sameQ', 'B. conversion in both will be the same but concentrations will be different', 'C. both the conversion as well as concentrations will be different', 'D. none of these'], "correct": 1}, 
+
+    { "text": 'For a zero-order reaction A → rR taking placeina constant - volume bomb,pi= 1 when t= 0and π = 1.5 when t = 1. For the same reaction,same feed composition and initial pressure takingplace in a constant pressure setup, find V at t=1if V= 1 at t=0. Find the value of the apparent rate order\r\nconstant k.',  "options": ['A. k = 2/RT(1-r)', 'B. k = 2/RT(r-1)', 'C. k = 0.5/RT(r-1)', 'D. k = 1/2(1-r)RT'], "correct": 2}, 
+
+    { "text": 'For a zero-order reaction A → rR taking placeina constant - volume bomb,pi= 1 when t= 0and π = 1.5 when t = 1. For the same reaction,same feed composition and initial pressure takingplace in a constant pressure setup, find V at t=1if V= 1 at t=0. Find V at t=1 if V= 1 at t=0.',  "options": ['A. 1.5 Vo', 'B.  1.65Vo', 'C. 1.6Vo', 'D. 1.85Vo'], "correct": 1}, 
+
+    { "text": 'A batch reactor is characterized by ',  "options": ['A. constant residence time', 'B. the variation in extent of reaction and properties of the reaction mixture with\r\ntime', 'C. variation in reactor volume', 'D. very low conversion'], "correct": 1}, 
+
+    { "text": 'A plug-flow reactor is characterized by ',  "options": ['A.  high capacity', 'B.  presence of axial mixing', 'C.  presence of lateral mixing', 'D. constant composition and temperature of reaction mixture'], "correct": 2}, 
+
+    { "text": 'A space-time of 3 hours for a flow reactor means that ',  "options": ['A. the time required to process one reactor volume of feed (measured at specified\r\nconditions) is 3 hour', 'B. three reactor volumes of feed can be processed every hour', 'C.  it takes three hours to dump the entire volume of the reaction with feed', 'D. conversion is per cent after three hour'], "correct": 0}, 
+
+    { "text": ' A space velocity of 5/hour means that ',  "options": ['A.  five reactor volumes of feed (at specified conditions) are being fed into the\r\nreactor per hour', 'B.  after five hours, reactor is being filled with the feed', 'C. percent conversion can be achieved in at least 5 hours', 'D. a fixed conversion of a given batch of feed takes 5 hours'], "correct": 0}, 
+
+    { "text": 'A pollutant P degrades according to first order kinetics. An aqueous stream containing\r\nP at 2 kmol/m³ and volumetric flow rate of 1 m³/h requires a mixed flow reactor of volume\r\nV to bring down the pollutant to 0.5 kmol/m³. The inlet concentration of the pollutant is\r\nnow doubled and the volumetric flow rate is tripled. If the pollutant level is to be brought\r\ndown to the same level of 0.5 kmol/m³, the volume of the mixed flow reactor should\r\nincrease by a factor of ',  "options": ['A.  7/3', 'B.  7/2', 'C. 7', 'D. 1/7'], "correct": 2}, 
+
+    { "text": ' For the liquid phase zero order irreversible reaction A →B, the conversion\r\nof A in a CSTR is found to be 0.3 at a space velocity of 0.1 min-¹. What willbe the\r\nconversion for a PFR with a space velocity of0.2 min-¹? Assume that all the other\r\noperating conditions are the same for CSTR and PFR. ',  "options": ['A. 0.15', 'B.  0.30', 'C. 0.60', 'D.  0.90'], "correct": 2}, 
+
+    { "text": 'A homogeneous liquid phase reaction, A →R; -r= kCa^2 takesplace with 50% conversion in a well-mixed reactor operatingisothermally. What will be the conversion if the reactor is replaced bya plug flow type of equal size — all else remaining the same? ',  "options": ['A. 10%', 'B.  50%', 'C. 20%', 'D.  67%'], "correct": 3}, 
+
+    { "text": 'The homogeneous gas phase decomposition ofphosphine 4PH3(g) →P4(g)+ 6H2( g)proceeds at 649 °C with first - order rate [- r(phosphine)=(10/hr) Ca]. The reactor operates at 649 °C and460 kPa can produce 80% conversion of a feedconsisting of 40 mole of pure phosphine perhour.  The initial concentration of A',  "options": ['A.  60 mol/m³', 'B.  40 mol/m³', 'C. 20 mol/m³', 'D. 80 mol/m³'], "correct": 0}, 
+
+    { "text": 'The homogeneous gas phase decomposition ofphosphine 4PH3(g) →P4(g)+ 6H2( g)proceeds at 649 °C with first - order rate [- r(phosphine)=(10/hr) Ca]. The reactor operates at 649 °C and460 kPa can produce 80% conversion of a feedconsisting of 40 mole of pure phosphine perhour. The volume of the plug flow reactor',  "options": ['A. 170 L', 'B. 148 L', 'C. 192 L', 'D. 255 L'], "correct": 1}, 
+
+    { "text": 'A homogeneous gas phase reaction A → 3R has reported at 215°C,-rA=10^-2 Ca^ 0.5 (mol/L-s). Find the space time needed for 80% conversion of50% A-50% inert feed to a plug flow operating at 215°C and 5 atm. ',  "options": ['A. 33 s', 'B. 22 s', 'C.  44 s', 'D. 55 s'], "correct": 0}, 
+
+    { "text": 'In a reactor where the volumetric flow rate is constant\r\nat 12 L/min, the conversion of A is 85% according to\r\nthe reaction A → B. The entering molar composition\r\nis 1.5 mol/L. For the reaction at 25 °C, use k = 0.258\r\nmin-¹. Calculate the reactor volume for a tubular reactor.',  "options": ['A. 41 L', 'B. 75 L', 'C.  58 L', 'D. 88 L'], "correct": 3}, 
+
+    { "text": 'In a reactor where the volumetric flow rate is constant\r\nat 12 L/min, the conversion of A is 85% according to\r\nthe reaction A → B. The entering molar composition\r\nis 1.5 mol/L. For the reaction at 25 °C, use k = 0.258\r\nmin-¹. If the length of the tubular reactor was\r\ndoubled, what would be the new conversion?',  "options": ['A.  90.3%', 'B. 97.8%', 'C. 94.2%', 'D. 99.1%'], "correct": 1}, 
+
+    { "text": 'In a reactor where the volumetric flow rate is constant\r\nat 12 L/min, the conversion of A is 85% according to\r\nthe reaction A → B. The entering molar composition\r\nis 1.5 mol/L. For the reaction at 25 °C, use k = 0.258\r\nmin-¹. Calculate the reactor volume for a backmix\r\nreactor.',  "options": ['A.  196 L', 'B.  293 L', 'C. 264 L', 'D. 350 L'], "correct": 2}, 
+
 ]
 
 #------------------------------------------------------------------------ Day 3
 
 # Lecture 3.1
 ChELaws = [
-    
+
 ]
 
 # Lecture 3.2
-ProcessCont = [
+PDC = [
+    
+]
+
+# Lecture 3.3
+Algebra = [
+    
+]
+
+# Lecture 3.4
+Trig = [
+
+]
+
+# Lecture 3.5
+PlaneSolid = [
+    
+]
+
+# Lecture 3.6
+AnaGeom = [
+    
+]
+
+# Lecture 3.7
+DiffCal = [
     
 ]
