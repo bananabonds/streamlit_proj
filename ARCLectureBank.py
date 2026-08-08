@@ -1718,6 +1718,346 @@ Kinetics = [
 # Lecture 3.1
 ChELaws = [
 
+    { "text": 'PD 223 is also known as ',  "options": ['A. PRC Law', 'B. Chemical Engineering Law', 'C. Pollution Control Law', 'D. Code of Ethics'], "correct": 0}, 
+
+    { "text": 'The following are the powers of the Commission except ',  "options": ['A. to enforce the regulatory policies of the National Government', 'B. Chemical Engineering Law questionnaire', 'C. to recommend to the President of the Philippines nominees for appointment as members of the Boards', 'D. to issue certificate of registration signed by the members of the Board with the affixed official seal of the Board'], "correct": 1}, 
+
+    { "text": 'The following are the powers and functions of the PRC except ',  "options": ['A. regulate the practice of the professionals', 'B. determine and prepare questions for licensure examination', 'C. monitor the performance of schools in licensure examination', 'D. conduct ocular inspection in schools, colleges or universities in coordination with CHED'], "correct": 1}, 
+    
+    { "text": "A person whose name and registration/license no: is in the commission's registry book & computerized database ",  "options": ['A. foreign professional', 'B. professional', 'C. practicing professional', 'D. all of the above'], "correct": 1}, 
+    
+    { "text": ' This document may be issued by the Board of Chemical Engineering to a person for advanced studies and major accomplishments in research in chemical engineering ',  "options": ['A. certificate of registration', 'B. certificate of proficiency', 'C. certificate of recognition', 'D. certificate of exemption'], "correct": 2}, 
+    
+    { "text": ' In order for a person to practice chemical engineering he should be a holder of valid certificate of registration and professional ID: card issued by ',  "options": ['A. Board of ChE', 'B. PRC', 'C. Registrar of school where the person graduated', 'D. both a and b'], "correct": 3}, 
+    
+    { "text": 'An industrial plant may be considered as ',  "options": ['A. a big factory', 'B. a laboratory with pilot scale and industrial equipment', 'C. any entity that utilizes unit processes and unit operations', 'D. a waste treatment plant'], "correct": 2}, 
+    
+    { "text": 'An integrated national professional organization that is accredited and recognized by the corresponding Board and the PRC is referred to as duly ',  "options": ['A. Accredited Professional Organization', 'B. Recognized Professional Association', 'C. Accredited Professional Association', 'D. Accredited and Recognized Professional Organization'], "correct": 0}, 
+    
+    { "text": 'The PRC Modernization Act of 2000 is referred to as ',  "options": ['A. RA 9297', 'B. RA 8081', 'C. RA 8981', 'D. RA 8189'], "correct": 2}, 
+    
+    { "text": ' When a person is given a special permit to practice in their specialty field of endeavor in chemical engineering, the person is given ',  "options": ['A. license to practice', 'B. registration certificate', 'C. certificate of recognition', 'D. professional ID'], "correct": 2}, 
+    
+    { "text": 'The members f the Board of Chemical Engineering are empowered to decide on which of the following cases brought to them ',  "options": ['A. criminal case that involves the practice of ChE', 'B. administrative cases', 'C. Civil case that involves damages to persons and industrial plants', 'D. none of these'], "correct": 1}, 
+    
+    { "text": 'The design of the seal that is required of chemical engineers to order to practice the profession are authorized by dry ',  "options": ['A. PIChE', 'B. DOST', 'C. PRC', 'D. Board of Chemical Engineering'], "correct": 3}, 
+    
+    { "text": 'RA 9297 is known as ',  "options": ['A. Chemical Engineering Law of 2004', 'B. Revised Chemical Engineering Law', 'C. RA 318', 'D. Chemical Engineering Law of 2005'], "correct": 0}, 
+    
+    { "text": ' Which of the following is not included in the practice of chemical engineering? ',  "options": ['A. estimation', 'B. preparation of specifications', 'C. chemical analysis', 'D. teaching professional chemical engineering subjects'], "correct": 2}, 
+    
+    { "text": 'Which of the following is not included in the powers and duties of the Board of Chemical Engineering? ',  "options": ['A. supervise and regulate the practice of chemical engineering profession', 'B. issue warrant of arrest for violators of RA 9297', 'C. prosecute criminal action against violators of RA 9297', 'D. adopt official seal'], "correct": 1}, 
+    
+    { "text": 'Which of the following can practice chemical engineering? ',  "options": ['A. licensed and registered chemical engineers', 'B. industrial plants', 'C. all BSChE graduates', 'D. PIChE'], "correct": 0}, 
+    
+    { "text": 'How many years compromise one term for the members of the ChE Regulatory Board? ',  "options": ['A. 3', 'B. 4', 'C. 5', 'D. 6'], "correct": 0}, 
+    
+    { "text": 'The compensation and/or honorarium provided for the members of the ChE Regulatory Board is provided by this body: ',  "options": ['A. Office of the President of the Philippines', 'B. PRC', 'C. PICHE', 'D. No compensation provided'], "correct": 1}, 
+    
+    { "text": 'According to the Chemical Engineering Law of 2004, who appoints the members of the ChE Regulatory Board? ',  "options": ['A. PRC', 'B. President', 'C. President of PICHE', 'D. none of the above'], "correct": 1}, 
+    
+    { "text": ' The following may be taken as grounds for the revocation of a ChE license except ',  "options": ['A. tax evasion', 'B. acts of misrepresentation', 'C. gross immorality', 'D. Inone of the above'], "correct": 3}, 
+    
+    { "text": 'Foreign chemical engineers may be allowed to practice the profession in the country as long as their country also allows Filipino chemical engineers to practice the protession in their territory by virtue of reciprocity: ',  "options": ['A. this statement is TRUE', 'B. this statement is FALSE', 'C. this statement is TRUE for foreign countries who have active diplomatic ties with the Philippines', 'D. this statement is true for chemical engineers under the age of 60 years'], "correct": 0}, 
+    
+    { "text": 'An act creating a patent office, prescribing its powers and duties, regulating the issuance of patents, and appropriating funds therefore. ',  "options": ['A. RA 165', 'B. RA 5455', 'C. RA 166', 'D. RA 6136'], "correct": 0}, 
+    
+    { "text": 'An act to provide for the registration and protection of trademarks, tradenames, and service marks, defining unfair competition and false marketing and providing remedies against the same: ',  "options": ['A. RA 5455', 'B. RA 6969', 'C. RA 425', 'D. RA 166'], "correct": 3}, 
+    
+    { "text": 'Mark used in the sale and advertising of services to identify the services of one person and distinguish them from the services of others. ',  "options": ['A. trade mark', 'B. birth mark', 'C. service mark', 'D. thumb mark'], "correct": 2}, 
+    
+    { "text": ' An act to provide standards for foods and drugs and to provide penalties for violations of the same: ',  "options": ['A. RA 1655', 'B. RA 5455', 'C. RA 166', 'D. RA 6136'], "correct": 0}, 
+    
+    { "text": 'An act prescribing incentives and guarantees to investment in the Philippines creating the Board of Investment, appropriating funds therefore and for other purposes: ',  "options": ['A. RA 5455', 'B. RA 6969', 'C. RA 5186', 'D. RA 166'], "correct": 2}, 
+    
+    { "text": ' An act which amended some portions of RA 5186. ',  "options": ['A. RA 1655', 'B. RA 5455', 'C. RA 166', 'D. RA 6136'], "correct": 1}, 
+    
+    { "text": ' An act to invigorate the economic growth by grabbing certain incentives and exemptions to registered export producers, export traders and service exporters: ',  "options": ['A. RA 1655', 'B. RA 5455', 'C. RA 166', 'D. RA 6136'], "correct": 3}, 
+    
+    { "text": 'An act providing for the fixing of maximum selling price of essential articles or commodities and creating the control council: price ',  "options": ['A. RA 6124', 'B. RA 6969', 'C. RA 425', 'D. RA 166'], "correct": 0}, 
+    
+    { "text": 'A presidential decree creating the PRC and prescribing its powers and functions: ',  "options": ['A. PD 233', 'B. PD 245', 'C. PD 1081', 'D. PD 223'], "correct": 3}, 
+    
+    { "text": 'It protects the inventor from the illegal use of his invention. ',  "options": ['A. patent', 'B. license', 'C. permit', 'D. insurance'], "correct": 0}, 
+    
+    { "text": "It is copying of one's written research without acknowledging the author: ",  "options": ['A. plagiarism', 'B. cheating', 'C. infringement', 'D. none of these'], "correct": 0}, 
+    
+    { "text": ' It is also known as the Toxic Substances and Hazardous Nuclear Wastes Control Act of 1990 is also known as ',  "options": ['A. RA 6969', 'B. RA 9696', 'C. RA 9669', 'D. RA 6996'], "correct": 0}, 
+    
+    { "text": ' Meeting of minds between two persons whereby one binds himself with respect to the other to give something or to render ',  "options": ['A. contract', 'B. consent', 'C. obligation', 'D. partnership'], "correct": 0}, 
+    
+    { "text": 'A juridical necessity to give, to do or not to do. ',  "options": ['A. permit', 'B. approval', 'C. obligation', 'D. contract'], "correct": 2}, 
+    
+    { "text": 'Initial step in the formation of a contract; ',  "options": ['A. offer', 'B. transaction', 'C. deal', 'D. condition'], "correct": 0}, 
+    
+    { "text": 'An act to integrate, coordinate, and intensify scientific and technological research and development and to foster invention to provide funds therefore: ',  "options": ['A. RA 2068', 'B. RA 2607', 'C. RA 2067', 'D. RA 2670'], "correct": 2}, 
+    
+    { "text": 'The person who uses an invention for profit without the permission of the inventor is known as ',  "options": ['A. infringer', 'B. intruder', 'C. imposter', 'D. inquisitor'], "correct": 0}, 
+    
+    { "text": 'What government agency supervises the Bureau of Patents, Trademarks and Technology transfer ',  "options": ['A. DOST', 'B. DSWD', 'C. DTI', 'D. DPWH'], "correct": 2}, 
+    
+    { "text": 'A chemical engineer shall disclose allknown or potential conflicts of interest to their clients by promptly informing them of any  business association, interest or other circumstances which could influence or appear to influence their judgement of the quality of their services: ',  "options": ['A. absolutely true', 'B. absolutely not true', 'C. will not disclose if the conflict of interest is very minor', 'D. maybe true, depends on you'], "correct": 0}, 
+    
+    { "text": 'A chemical engineer in public service, as a member of a government body or department;  shall not participate in decisions with respect to professional services solicited or provided by them or their organizations in private engineering practices ',  "options": ['A. absolutely true', 'B. absolutely not true', 'C. it is okay to participate in the decision- making if there is no professional fee for the public servvice work', 'D. maybe true, depends on you'], "correct": 0}, 
+    
+    { "text": 'A chemical engineer shall not accept allowances or commissions from suppliers, contractors and other entities dealing with clients or employers of the Chemical in connection with work for Ehgchecendhemoan the Engineer is responsible: ',  "options": ['A. absolutely true', 'B. absolutely not true', 'C. can directly accept', 'D.  can accept if immediate superior approves'], "correct": 0}, 
+    
+    { "text": 'If a chemical engineer provided false and inaccurate information about a process equipment but did not cause any adverse incidents, what may happen? ',  "options": ['A. License may not be revoked due to lack of resulting incident', 'B. Civil lawsuits may be filed against the engineer; however their license will not be revoked', 'C. Certificate of registration may be suspended and or/revoked', 'D. Engineering license must be surrendered to the closest PRC office while investigation is ongoing'], "correct": 2}, 
+    
+    { "text": 'What is an Order or Writ to secure the production of documents in connection with any administrative case before the Board of Chemical Engineering? ',  "options": ['A. search warrant', 'B. subpoena', 'C. warrant of arrest', 'D. subpoena duces tecum'], "correct": 3}, 
+    
+    { "text": 'CPE stands for ',  "options": ['A. college program education', 'B. continuing program education', 'C. commission of professional and educators', 'D. continuing professional education'], "correct": 3}, 
+    
+    { "text": ' Which one does not belong to the set of qualifications of the Board Chairman and Members? ',  "options": ['A. a Filipino citizen', 'B. a resident of the Philippines', 'C. a registered chemical engineer who has been in active practice_for at least ten (10) years', 'D. none of these'], "correct": 3}, 
+    
+    { "text": 'Who prescribes the dates and venues of the Chemical Engineering Licensure Examination? ',  "options": ['A. President', 'B. Board of ChE', 'C. PRC', 'D. Senators and Congressmen'], "correct": 2}, 
+    
+    { "text": 'Who conducts the Chemical Engineering Licensure Examination? ',  "options": ['A. PRC', 'B. PICHE', 'C. Board of Chemical Engineering', 'D. none of these'], "correct": 2}, 
+    
+    { "text": 'Who shall keep a roster of all duly licensed and registered Chemical Engineers? ',  "options": ['A. PICHE', 'B. Board of ChE', 'C. PRC', 'D. Senators and Congressmen'], "correct": 2}, 
+    
+    { "text": 'What is the existing integrated and accredited national organization of registered Chemical Engineers? ',  "options": ['A.  Philippine Institution of Chemical Engineers; Inc:', 'B. Philippine Institute of Chemical Engineers, Inc:', 'C.  Philippine Incorporated of Chemical Engineers, Inc:', 'D. Philippine Integration of Chemical Engineers, Inc:'], "correct": 1}, 
+    
+    { "text": 'The term of a patent from the filling date of application is ',  "options": ['A. 15 years', 'B. 20 years', 'C. 17 years', 'D. 21 years'], "correct": 1}, 
+    
+    { "text": 'To be considered an invention; it must be ',  "options": ['A. new', 'B. new and industrially applicable', 'C. new, industrially applicable and involves inventive step', 'D. none of these'], "correct": 2}, 
+    
+    { "text": ' Copyright is registered and deposited at the ',  "options": ['A. Intellectual Property Office', 'B. National Library and Intellectual Property Office', 'C. National Library and Supreme Court', 'D. all of these'], "correct": 3}, 
+    
+    { "text": 'Intellectual Property Office is under the supervision 0f ',  "options": ['A. DTI', 'B. DOST', 'C. DepEd', 'D. DOH'], "correct": 0}, 
+    
+    { "text": ' Patents approved in the Philippines are protected in the ',  "options": ['A. whole world', 'B. ASEAN Countries', 'C. Philippines', "D. People's Republic of China"], "correct": 2}, 
+    
+    { "text": 'Who can apply for a patent? ',  "options": ['A. parents and relatives', 'B. inventor or authorized representative', 'C. agent', 'D. famous people'], "correct": 1}, 
+    
+    { "text": 'Which is patentable? ',  "options": ['A. perpetual motion machine', 'B. new hybrids', 'C. natural products', 'D. all of these'], "correct": 1}, 
+    
+    { "text": 'Using a patented invention without the permission of the owner is known as ',  "options": ['A. plagiarism', 'B. faking', 'C. infringement', 'D. borrowing'], "correct": 2}, 
+    
+    { "text": ' Copying books, publication, etc without permission from the author is known as ',  "options": ['A. plagiarism', 'B. faking', 'C. infringement', 'D. reprinting'], "correct": 0}, 
+    
+    { "text": 'When does the patent become effective? ',  "options": ['A. upon application of patent', 'B. date of publication of the grant of the patent', 'C. 18 months after publication', 'D. tomorrow'], "correct": 1}, 
+    
+    { "text": 'When can a petition for a compulsory license be applied for? Before the expiration of period of from the date of filing of application ',  "options": ['A. 5 years', 'B. 6 years', 'C. 4 years', 'D. 10 years'], "correct": 2}, 
+    
+    { "text": 'The right to a belongs to the patent ',  "options": ['A. inventor only', 'B. assistants of inventor', 'C. inventor; his heirs or assigns', 'D. everyone who touched the invention'], "correct": 2}, 
+    
+    { "text": ' Innovation of a machine can be applied for registration under ',  "options": ['A. invention', 'B. invention', 'C. utility model', 'D. all of these'], "correct": 2}, 
+    
+    { "text": 'The term of protection for copyright is ',  "options": ['A. 50 years', 'B. lifetime plus 50 years after his death', 'C. 50 years plus another 50 years after his death', 'D. none of these'], "correct": 1}, 
+    
+    { "text": 'Protection of utility model is for a period of ',  "options": ['A. 15 years', 'B. 5 years and renewed for two 5 years', 'C. 7 years, after the filing of application and paid filing fee', 'D. none of these'], "correct": 2}, 
+    
+    { "text": ' An industrial design can be registered for a period of ',  "options": ['A. 5 vears', 'B. 5 years and renewal for two consecutive periods of 5 years', 'C. 5 years and renewed for another 5 years', 'D. none of these'], "correct": 1}, 
+    
+    { "text": 'If there are 2 inventors working in a project who can apply for a patent? ',  "options": ['A. senior inventor', 'B. both of them', 'C. junior inventor', 'D. none of these'], "correct": 1}, 
+    
+    { "text": 'Who are disqualified to apply for a patent? ',  "options": ['A. uninterested individual', 'B. individual who made the research', 'C. inventor', 'D. none of these'], "correct": 0}, 
+    
+    { "text": 'Ethics is a ',  "options": ['A. mood of conduct', 'B. common sense', 'C. norm of conduct', 'D. plural of ethic'], "correct": 2}, 
+    
+    { "text": 'Getting research funds from other agencies without knowledge of the company where one is employed, is ethical? ',  "options": ['A. ethical', 'B. does not matter', 'C. not ethical', 'D. depends on situation'], "correct": 2}, 
+    
+    { "text": 'An employee doing things_other than the mandated activity of the company during hours is considered ',  "options": ['A. ethical', 'B. not ethical', 'C. not concern for the company', 'D. depends on the situation'], "correct": 1}, 
+    
+    { "text": 'This is the exclusive right granted to an inventor for his invention. ',  "options": ['A. intellectual property', 'B. patent', 'C. copyright', 'D. geographic indication'], "correct": 1}, 
+    
+    { "text": 'The specialized agency of the United Nations, WIPO, is formally known as this. ',  "options": ['A. World International Property Organization', 'B. World and International Patent Organization', 'C. World Intellectual Property Organization', 'D. World Intellectual and Patent Organization'], "correct": 2}, 
+    
+    { "text": 'This treaty ensures the protection of Industrial Designs: ',  "options": ['A. Madrid Protocol', 'B. Patent Cooperation treaty', 'C. Montreal Protocol', 'D. Hague Agreement'], "correct": 3}, 
+    
+    { "text": 'This treaty protects the rights associated with trademarks: ',  "options": ['A. Madrid Protocol', 'B. Patent Cooperation treaty', 'C. Montreal Protocol', 'D. Hague Agreement'], "correct": 0}, 
+    
+    { "text": 'The Intellectual Property Code of the Philippines is otherwise known as this ',  "options": ['A. RA 8293', 'B. RA 8297', 'C. RA 8295', 'D. RA 8299'], "correct": 0}, 
+    
+    { "text": 'Which among the following is not included in the list of fundamental canons a professional engineer should follow? ',  "options": ['A.  engineers should nold paramount the safety; health, and welfare of the public', 'B.  engineers should perform services only in areas of their competence', 'C. engineers should avoid issuing public statements', 'D. none of the above'], "correct": 2}, 
+    
+    { "text": 'When an engineer has come upon instances when the Engineering Code of Ethics has been violated, he should ',  "options": ['A. report the violation to the appropriate protessional bodies and also to public authorities as needed', 'B. call the attention of the aggrieved party and allow them to confront the violators themselves', 'C. report the violation to the appropriate whileremaining anonymous to safequard his identity', "D. remain silent since putting his nose in other people's businesses is considered unethical as well"], "correct": 0}, 
+    
+    { "text": ' The Stockholm Convention is a global treaty that aims to protect the environment and human health from these hazards. ',  "options": ['A. greenhouse gases', 'B. hexavalent chromium', 'C. heavy metals', 'D. persistent organic pollutants'], "correct": 3}, 
+    
+    { "text": "This international agreement aims to protect the earth' stratospheric ozone layer from ozone depleting substances: ",  "options": ['A. Madrid Protocol', 'B. Kyoto Protocol', 'C. Montreal Protocol', 'D. Paris Convention'], "correct": 2}, 
+    
+    { "text": 'This international agreement focuses efforts to control and minimize gas emissions to the atmosphere that cause global warming, subsequent to the Earth Summit of 1992.  ',  "options": ['A. Madrid Protocol', 'B. Kyoto Protocol', 'C. Montreal Protocol', 'D. Paris Convention'], "correct": 1}, 
+    
+    { "text": ' Which among these countries have not ratified the Kyoto Protocol and thus: has not made the international agreement binding; although the agreement was symbolically signed by the countrys official representative? ',  "options": ['A. Philippines', 'B. Russia', 'C. USA', 'D. Australia'], "correct": 2}, 
+    
+    { "text": 'The Bureau of Internal Revenue is under the supervision of which government arm? ',  "options": ['A. Department of Finance', 'B. Office of the President', 'C. DTI', 'D. none of the above'], "correct": 0}, 
+    
+    { "text": 'Food, drugs, or cosmetics that contains any substance considered poisonous or detrimental to human health are considered these: ',  "options": ['A. contaminated products', 'B. misbranded products', 'C. adulterated products', 'D. none of the above'], "correct": 2}, 
+    
+    { "text": ' Which body developed the code of ethics for chemical engineers? ',  "options": ['A. PICHE', 'B. Board of Chemical Engineering', 'C. ChEN', 'D. none of the above'], "correct": 1}, 
+    
+    { "text": "If a chemical engineer's professional judgement or work, for which he is responsible, is overruled, he must ",  "options": ['A. keep silent and accept the decision', 'B. insist forcefully that his opinion be followed', 'C. present the consequences or the risk of overruling his opinion', 'D. sue his employer'], "correct": 2}, 
+    
+    { "text": 'The chemical engineer shall report any infraction of any rules of professional conduct to the ',  "options": ['A. supreme court', 'B. PICHE', 'C. IBP', 'D. none of the above'], "correct": 1}, 
+    
+    { "text": 'An act providing for a comprehensive air pollution policy and for other purposes. ',  "options": ['A. clean air act', 'B. pollution control law', 'C. clean water act', 'D. solid waste act'], "correct": 0}, 
+    
+    { "text": 'The Philippine Clean Air Act of 1999 is also known as: ',  "options": ['A. RA 1655', 'B. RA 9003', 'C. RA 8749', 'D. none of the above'], "correct": 2}, 
+    
+    { "text": ' Which is not included in the principles of the Clean Air Act? ',  "options": ['A.  protect the right to have balanced and healthful ecology', 'B. protect the global environment to attain sustainable development', 'C. recognize principles that "polluters" may pay', 'D. none of the above'], "correct": 3}, 
+    
+    { "text": 'Which of the following is not a policy of the clean air act? ',  "options": ['A. formulate holistic national program', 'B. encouragement cooperation and self- regulation', 'C. focus on pollution prevention', 'D. none of the above'], "correct": 3}, 
+    
+    { "text": 'It means any alteration of the physical, chemical and biological properties of the atmospheric air; or any discharge thereto of any liquid, gaseous or solid substances that will or is likely to create or to render the air resources of the country harmful; detrimental or injurious to public health_safety or welare of which willl adversely affect their utilization of domestic, commercial, industrial, agricultural, recreational, or other legitimate purpose: ',  "options": ['A. air polluters', 'B. air freshener', 'C. air pollution', 'D. air pollutants'], "correct": 2}, 
+    
+    { "text": 'The annual national air quality status report which shall be used as the basis in formulating the integrated air quality improvement framework; The following is not included in the report: ',  "options": ['A. analysis and evaluation', 'B. identification and recommendation', 'C. quantitative and qualitative information', 'D. none of the above'], "correct": 3}, 
+    
+    { "text": ' Prescribes emission reduction goals using permissible standards, control strategies and control measures. ',  "options": ['A. national air quality status report', 'B. air quality control action plan', 'C. management of non-attainment areas', 'D. integrated air quality improvement framework'], "correct": 3}, 
+    
+    { "text": 'Refers to the area with common weather or meteorological conditions and sources of air pollution which affect the interchange and diffusion of pollution in the surrounding atmosphere ',  "options": ['A. eco-file', 'B. airshed', 'C. air pollution', 'D. air pollutants'], "correct": 1}, 
+    
+    { "text": 'Defined as the burning of municipal, bio-medical and hazardous wastes, which process emits poisonous and toxic fumes: ',  "options": ['A. eco-file', 'B. eco-file', 'C. incineration', 'D. none of the above'], "correct": 2}, 
+    
+    { "text": 'If your car weighs below 3500 kg, it falls under the category: ',  "options": ['A. Medium and Heavy Duty Motor Vehicle', 'B. Light Duty Motor Vehicle', 'C. Heavy Duty Motorcycle', 'D. Light Duty Motorcycle'], "correct": 1}, 
+    
+    { "text": ' What are the agencies responsible in developing action plan for control and management of clean air act? ',  "options": ['A. DENR', 'B. DTI', 'C. DOTC', 'D. all of the above'], "correct": 3}, 
+    
+    { "text": 'DOTCs power are the following except ',  "options": ['A. inspect and monitor emission', 'B. prohibit or enjoin the use of motor vehicles', 'C. accredit private emission testing centers', 'D. establish procedures of inspection and testing'], "correct": 2}, 
+    
+    { "text": ' AIl motor vehicles and engines shall not be registered unless it complies with emission standards of the clean air act: ',  "options": ['A. true', 'B. insufficient information', 'C. false', 'D. sometimes'], "correct": 0}, 
+    
+    { "text": ' What kind of certificate should one obtain in order to prove that helshe complies with the standard clean air act? ',  "options": ['A. certificate of graduation', 'B. certificate of conformity', 'C. certificate of clean air act', 'D. certificate of participation'], "correct": 1}, 
+    
+    { "text": ' Fuels and additives are registered in DOE: The following should be registered except ',  "options": ['A. product identity and composition', 'B. description of analytical technique', 'C. purpose in the use of fuel and additive', 'D. none of the above'], "correct": 3}, 
+    
+    { "text": ' What kind of gasoline was phased out last December 23, 2000? ',  "options": ['A. Unleaded Gasoline', 'B. Diesel Oil', 'C. Leaded Gasoline', 'D. Bunker Fuel'], "correct": 2}, 
+    
+    { "text": 'The food, drug and cosmetic act is ',  "options": ['A. RA 3180', 'B. RA 3620', 'C. RA 3720', 'D. RA 3820'], "correct": 2}, 
+    
+    { "text": ' The amount which the individual declared as income tax in his final adjusted and annual income tax return: ',  "options": ['A. wages', 'B. excise tax', 'C. estimated tax', 'D. VAT'], "correct": 2}, 
+    
+    { "text": 'Which of the following is not true? ',  "options": ['A. every individual subject to income tax shall make and file a declaration of his estimated income on or before April 15 taxable year', 'B. nonresident Filipino citizens, with respect to income from wlo the Philippines, are not required to render a declaration of estimated income tax', 'C. nonresident aliens not endaqed in trade or business in the Philippines are not required to render & declaration of estimated income tax', 'D. none of these'], "correct": 3}, 
+    
+    { "text": ' Refuse to pay taxes w/o violating the law: ',  "options": ['A. tax evasion', 'B. tax avoidance', 'C. tax declaration', 'D. estimated tax'], "correct": 1}, 
+    
+    { "text": ' Refusal to pay taxes in violation of tax laws: ',  "options": ['A. tax evasion', 'B. tax avoidance', 'C. tax declaration', 'D. estimated tax'], "correct": 0}, 
+    
+    { "text": ' Which of the following is not subject to excise tax? ',  "options": ['A. alcohol products', 'B. petroleum products', 'C. tobacco products', 'D. none of these'], "correct": 3}, 
+    
+    { "text": 'Any person who, in the course of trade or business, sells barters, exchanges, leases goods or properties, renders services, and any person who imports goods shall be subjected to  ',  "options": ['A. excise tax', 'B. estimated tax', 'C. income tax', 'D. VAT'], "correct": 3}, 
+    
+    { "text": 'The number of incorporators should a corporation in the Philippines have? ',  "options": ['A. 2 - 15', 'B. 4-8', 'C. 3 - 10', 'D. 5 - 20'], "correct": 0}, 
+    
+    { "text": 'All incorporators must ',  "options": ['A. be natural born persons', 'B. must be 18 years of age', 'C. have a college degree', 'D. must be religious'], "correct": 0}, 
+    
+    { "text": ' All of these are incorporation documents except? ',  "options": ['A. bank certificate', 'B. by-laws', "C. treasurer's affidavit", 'D. mayors permit'], "correct": 3}, 
+    
+    { "text": ' Applied to goods manufactured or produced in the Philippines for domestic sales or consumption or for any other disposition and to things imported. ',  "options": ['A. excise tax', 'B. estimated tax', 'C. VAT', 'D. income tax'], "correct": 0}, 
+    
+    { "text": ' Where do one submit or file the incorporation documents of an applicant company? ',  "options": ["A. mayor's office", 'B. PRC', 'C. SEC', 'D. DTI'], "correct": 2}, 
+    
+    { "text": ' What is the objective of Presidential Decree No: 856, the Code on Sanitation in the Philippines? ',  "options": ['A. Expansion of industrial hygiene regulations:', 'B. Promotion of environmental pollution.', 'C. Improvement of the way of the Filipinos directing  health services towards the protection of the health of our people. public', 'D. Enhancement of business enterprises and establishments.'], "correct": 2}, 
+    
+    { "text": 'How often should the general systematic chemical examination of water be conducted? ',  "options": ['A. Every 12 months', 'B. Every 18 months', 'C. Every 24 months', 'D. Every month'], "correct": 0}, 
+    
+    { "text": 'What is the responsibility of the local health authority sewage collection and disposal raccoediding to the Sewage Collection and Disposal section? ',  "options": ['A. Maintain drainage systems only', 'B. Enforce penalties for improper sewage disposal', 'C. Collect and transport sewage', 'D. Supervise the construction of approved types of toilets and sewage disposal systems'], "correct": 3}, 
+    
+    { "text": ' What types of examinations are required for drinking water according to the Water Supply section of the Sanitation Code? ',  "options": ['A. Initial and periodic examinations', 'B. Chemical and bacteriological examinations only', 'C. Bacteriological examinations only', 'D. Physical and chemical examinations only'], "correct": 0}, 
+    
+    # Enggman
+    
+    { "text": ' What refers to the activity of incorporating the technical know-how with the ability to organize and coordinate workforce; materials, equipment and all other resources including money? ',  "options": ['A. Engineering management', 'B. Technical manager', 'C. Engineering technology', 'D. General management'], "correct": 0}, 
+    
+    { "text": 'When engineer enters management, what is the most likely problem he finds difficult to acquire? ',  "options": ['A. Learning to trust others', 'B. Learning how to work through others', 'C. Learning how to take satisfaction in the work of others', 'D. All of the above'], "correct": 3}, 
+    
+    { "text": ' In project management, what provides a Simple yet effective means of monitoring and controlling a project at each stage of its development? ',  "options": ['A. R & D model', 'B. Life cycle model', 'C. Project feasibility', 'D. All of the above'], "correct": 1}, 
+    
+    { "text": 'What project life cycle model is the most relevant for information technology project? ',  "options": ['A. Morris model', 'B. Incremental release model', 'C. Waterfall model', 'D. Prototype model'], "correct": 2}, 
+    
+    { "text": ' In project management; "R & D" stands for: ',  "options": ['A. Retail Distribution', 'B. Repair and Develop', 'C. Research and Development', 'D. Reduce and Deduce'], "correct": 2}, 
+    
+    { "text": ' In project management O & M stands for: ',  "options": ['A. Operation & Manpower', 'B. Operation and Maintenance', 'C. Operation & Management', 'D. Operation and Mission'], "correct": 1}, 
+    
+    { "text": 'Project quality management involves all of the following processes except: ',  "options": ['A. Quality planning', 'B. Quality Control', 'C. Quality assurance', 'D. Quality feature'], "correct": 3}, 
+    
+    { "text": 'What is defined as an organized method of providing past, present, and projected information on internal operations and external intelligence for use in decision making? ',  "options": ['A. Electronic Data Processing Systems', 'B. Management Information_System', 'C. Central Processing System', 'D. Data Management System'], "correct": 1}, 
+    
+    { "text": 'The process of partitioning an organization into subunits to improve efficiency is known as ',  "options": ['A. Division of labor', 'B. Departmentalization', 'C. Segmentation', 'D. Territorialization'], "correct": 1}, 
+    
+    { "text": 'What type of committee companies or corporations created for a short-term purpose only? ',  "options": ['A. Interim committee', 'B. Standing committee', 'C. Temporary committee', 'D. Ad hoc committee'], "correct": 3}, 
+    
+    { "text": ' An engineering is required to finish a certain engineering job in 20 days.  He is said to be ___________if he finished the job within the required period of 20 days : ',  "options": ['A. Efficient', 'B. Reliable', 'C. Effective', 'D. Qualified'], "correct": 2}, 
+    
+    { "text": ' If an engineer provides less input (labor and materials) to his project and still come out with the same output, he is said to be more ',  "options": ['A. Managerial skill', 'B. Effective', 'C. Economical', 'D. Efficient'], "correct": 3}, 
+    
+    { "text": 'What refers to the strategic statement, that identifies an organization exists, its philosophy of management, and its purpose as distinguished from other similar organizations in terms of products, services and markets?  ',  "options": ['A. Corporate mission', 'B. Corporate character', 'C. Corporate vision', 'D. Corporate identity'], "correct": 0}, 
+    
+    { "text": " What describes how to determine the number of service units that will minimize both customer's waiting time and cost of service? ",  "options": ['A. Queuing theory', 'B. Sampling theory', 'C. Network model', 'D. Simulation'], "correct": 0}, 
+    
+    { "text": 'What refers to the rational way to conceptualize, analyze and solve problems in situations involving limited or partial information about the decision environment? ',  "options": ['A. Sampling theory', 'B. Decision_ theory', 'C. Linear programming', 'D. Simulation'], "correct": 1}, 
+    
+    { "text": ' What is quantitative technique where samples of populations are statistically determined to be used for & number of processes, such as quality control and marketing research? ',  "options": ['A. Sampling theory', 'B. Statistical decision theory', 'C. Linear programming', 'D. Simulation'], "correct": 0}, 
+    
+    { "text": 'What technique is best suited for projects that contain many repetitions of some standard activities? ',  "options": ['A. Benchmark job technique', 'B. Modular technique', 'C. Parametric technique', 'D. Non- modular technique'], "correct": 0}, 
+    
+    { "text": 'What organizational structure is based on the assumption that each unit should specialize in a specific functional area and perform all of the tasks that require its expertise? ',  "options": ['A. Functional organization', 'B. Process organization', 'C. Territorial organization', 'D. Product organization'], "correct": 0}, 
+    
+    { "text": ' What type of organization structure in which each project is assigned to a single organizational unit and the various functions are performed by personnel within the unit? ',  "options": ['A. Functional organization', 'B. Process organization', 'C. Territorial organization', 'D. Product organization'], "correct": 3}, 
+    
+    { "text": 'What organizational structure provides a sound basis for balancing the use of human resources and skills? ',  "options": ['A. Functional organization', 'B. Process organization', 'C. Matrix organization', 'D. Product organization'], "correct": 2}, 
+    
+    { "text": ' In which type of organization where the structure can lead to a "dual boss" phenomenon? ',  "options": ['A. Functional organization', 'B. Process organization', 'C. Matrix organization', 'D. Product organization'], "correct": 2}, 
+    
+    { "text": 'Who is responsible for running a department so that all his customers are served efficiently and effectively? ',  "options": ['A. Area manager', 'B. Functional manager', 'C. Sales manager', 'D. Project manager'], "correct": 1}, 
+    
+    { "text": 'What network model enables engineer managers to schedule, monitor; and control large and complex projects by using only one time factor per activity? ',  "options": ['A. Forecasting', 'B. Critical path method', 'C. Program evaluation review technique', 'D. Simulation'], "correct": 1}, 
+    
+    { "text": 'What network model enables engineer managers to schedule, monitor; and control large and complex projects by employing three time estimate for each activity? ',  "options": ['A. Forecasting', 'B. Critical path method', 'C. Program evaluation review technique', 'D. Simulation'], "correct": 2}, 
+    
+    { "text": 'Risk management is: ',  "options": ['A. Risk avoidance', 'B. To opportunities gain', 'C. Controlling risk', 'D. All of the above'], "correct": 2}, 
+    
+    { "text": 'Buying insurance is a form of: ',  "options": ['A. Risk elimination', 'B. Risk sharing', 'C. Risk reduction', 'D. Risk absorption'], "correct": 1}, 
+    
+    { "text": ' What refers to any technique used either to minimize the probability of an accident or to mitigate its consequences? ',  "options": ['A. Reliability management', 'B. Risk management', 'C. Quality assurance management', 'D. Project assurance management'], "correct": 1}, 
+    
+    { "text": 'What refers to the techniques that encompass risk assignment and the inclusive evaluation of risk, costs and benefits of alternative projects or policies? ',  "options": ['A. Risk management', 'B. Benefit management', 'C. Risk-benefit analysis', 'D. Uncertainty analysis'], "correct": 2}, 
+    
+    { "text": 'In project management, what is usually the first step underlying in the process of performing a project? ',  "options": ['A. Select appropriate performance measures', 'B. Define the goals of the project and their relative importance', 'C. Identify a need for a product or service', 'D. Develop a technological concept'], "correct": 2}, 
+    
+    { "text": 'In the process of performing a project, after the need for a product or Service is identified, what is usually the next step? ',  "options": ['A. Define the goals f the project and their relative importance', 'B. Develop a budget', 'C. Develop a schedule', 'D. Develop the technological concept'], "correct": 0}, 
+    
+    { "text": 'What is usually the last step in the process of performing a project? ',  "options": ['A. Select appropriate performance measures', 'B. Implement a plan', 'C. Monitor and control the project', 'D. Evaluate project success'], "correct": 2}, 
+    
+    { "text": "What is a diagram of the organization's official positions and formal lines of authority called? ",  "options": ['A. Organization chart', 'B. Policy chart', 'C. Authority chart', 'D. Control chart'], "correct": 0}, 
+    
+    { "text": 'Refers to the process of determining the major goals of the organization and the policies and strategies for obtaining and using resources to achieve those goals. ',  "options": ['A. Operational Planning', 'B. Strategic planning', 'C. Intermediate Planning', 'D. Secondary Planning'], "correct": 1}, 
+    
+    { "text": 'Refers to the process of determining the contributions that subunits can make with allocated resources: ',  "options": ['A. Operational Planning', 'B. Strategic planning', 'C. Intermediate Planning', 'D. Secondary Planning'], "correct": 2}, 
+    
+    { "text": ' Refers to the process of determining how specific tasks can best be accomplished on time with available resources: ',  "options": ['A. Operational Planning', 'B. Strategic planning', 'C. Intermediate Planning', 'D. Secondary Planning'], "correct": 0}, 
+    
+    { "text": 'These are plans intended to cover a period of less than one year First-line supervisors are mostly concerned with these planes: ',  "options": ['A. Short-range plans', 'B. Standing Plans', 'C. Long-range plans', 'D. Single-Use Plans'], "correct": 0}, 
+    
+    { "text": 'These are plans covering a time span of more than one year These are mostly undertaken by middle and top management: ',  "options": ['A. Short-range plans', 'B. Standing Plans', 'C. Long-range plans', 'D. Single-Use Plans'], "correct": 2}, 
+    
+    { "text": 'Plans that are used again and again and focus on managerial situations that recur repeatedly: they ',  "options": ['A. Short-range plans', 'B. Standing Plans', 'C. Long-range plans', 'D. Single-Use Plans'], "correct": 1}, 
+    
+    { "text": ' Specifically developed to implement courses of action that are relatively unique and are unlikely to be repeated. ',  "options": ['A. Short-range plans', 'B. Standing Plans', 'C. Long-range plans', 'D. Single-Use Plans'], "correct": 3}, 
+    
+    { "text": 'These are broad guidelines to aid managers at every level in making decisions about recurring situations or function. ',  "options": ['A. Policies', 'B. Guidelines', 'C. Procedures', 'D. Rules'], "correct": 0}, 
+    
+    { "text": 'These are that describe the exact series of_ actions to be taken in a given situation: plans ',  "options": ['A. Policies', 'B. Guidelines', 'C. Procedures', 'D. Rules'], "correct": 2}, 
+    
+    { "text": ' These are statements that either require or forbid a certain action: ',  "options": ['A. Policies', 'B. Guidelines', 'C. Procedures', 'D. Rules'], "correct": 3}, 
+    
+    { "text": 'A permanent committee that deals with issues on an ongoing basis: ',  "options": ['A. Ad hoc committee', 'B. Sinking committee', 'C. Standing committee', 'D. Midget committee'], "correct": 2}, 
+    
+    { "text": 'Refers to forecasting the future sales of a given product; translating this forecast into the demand it generates for various production facilities, and arranging for the procurement of these facilities: ',  "options": ['A. Product Design', 'B. Product planning', 'C. Blueprinting', 'D. Conceptualizing'], "correct": 1}, 
+    
+    { "text": 'Refers to the approach that seeks efficiency of operation through integration of all material acquisition, movement, and storage activities in the firm: ',  "options": ['A. Work', 'B. Quality Control', 'C. Inventory Control', 'D. Purchasing and Materials Management'], "correct": 3}, 
+    
+    { "text": 'The process of establishing and maintaining appropriate levels of reserve stocks of_goods ',  "options": ['A. Work-Flow Layout', 'B. Quality Control', 'C. Inventory Control', 'D. Purchasing and Materials Management'], "correct": 2}, 
+    
+    { "text": 'The procesS of determining the physical arrangement of the production system ',  "options": ['A. Work-Flow Layout', 'B. Quality Control', 'C. Inventory Control', 'D. Purchasing and Materials Management'], "correct": 0}, 
+    
+    { "text": 'Refers to the measurement of products or services against standards set by the company: ',  "options": ['A. Work-Flow Layout', 'B. Quality Control', 'C. Inventory Control', 'D. Purchasing and Materials Management'], "correct": 1}, 
+    
+    { "text": 'A group of activities designed to facilitate and expedite the selling of goods and services; ',  "options": ['A. Advertisement', 'B. Marketing', 'C. Commercial', 'D. Sales'], "correct": 1}, 
+    
+    { "text": " The four P's of marketing are the following except: ",  "options": ['A. Product', 'B. Promotion', 'C. Price', 'D. Publicity'], "correct": 3}, 
+
 ]
 
 # Lecture 3.2
