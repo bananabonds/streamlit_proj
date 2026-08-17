@@ -2062,7 +2062,7 @@ ChELaws = [
 
 # Lecture 3.2
 PDC = [
-       { "text": 'A system continuously adjusts set points for individual regulatory control loops based on current market prices for crude oil and refined products, running calculations every few hours to several days to determine the most economically profitable operating conditions. Which level of the control hierarchy does this describe? ',  "options": ['A. Regulatory Control', 'B. Multivariable and Constraint Control', 'C. Real-Time Optimization', 'D. Planning and Scheduling'], "correct": 2}, 
+    { "text": 'A system continuously adjusts set points for individual regulatory control loops based on current market prices for crude oil and refined products, running calculations every few hours to several days to determine the most economically profitable operating conditions. Which level of the control hierarchy does this describe? ',  "options": ['A. Regulatory Control', 'B. Multivariable and Constraint Control', 'C. Real-Time Optimization', 'D. Planning and Scheduling'], "correct": 2}, 
 
     { "text": 'Which of the following conservation balancing equations is required for modelling a heater system? ',  "options": ['A. Heat and Energy balance', 'B. Heat and Mass balance', 'C. Mass and matter balance', 'D. Energy and Exergy balance'], "correct": 1}, 
 
@@ -2207,4 +2207,109 @@ AnaGeom = [
 # Lecture 3.7
 DiffCal = [
     
+]
+
+
+# ----------------------------------------CHEMTECH---------------------------
+
+inorgCHEM_CTECH = [
+
+    { "text": ' Protium, the most common isotope of hydrogen has one proton and one electron. What is its mass? ',  "options": ['A. 1.67x10-27 g', 'B. 3.35X 10-27 g', 'C. 1.67X10-27 kg', 'D. 9.11x10-31 kg'], "correct": 2}, 
+
+    { "text": 'What is the value of the universal gas constant in psia-ft3/lbmol-R ',  "options": ['A. 8.314', 'B. 1.986', 'C. 0.0821', 'D. 10.773'], "correct": 3}, 
+
+    { "text": 'Which of the following is not equivalent to 1000 pF ',  "options": ['A. 1x10-9 F', 'B. 0.1x10-10 nF', 'C. 1x10^6 fF', 'D. All are equivalent '], "correct": 1}, 
+
+    { "text": 'How many significant figures are there in 4.20 ',  "options": ['A. 2 ', 'B. 3', 'C. 4', 'D. 5'], "correct": 1}, 
+
+    { "text": 'Arrange the following scenarios according to the scientific method: I. Different solvents are used in trials to process raw material X. II. Raw material X yielded more products than the original material. III. A previous study suggested the usage of a different raw material X. ',  "options": ['A. III, I, II', 'B. I, II, III', 'C. III, II, I', 'D. I, III, II'], "correct": 0}, 
+
+    { "text": 'A colorless liquid and a yellowish liquid is mixed in a test tube. Which of the following is incorrect? ',  "options": ['A. There will be no reaction if the test tube becomes hot', 'B. There will be a reaction if a precipitate is formed', 'C. There will be no reaction if the liquids will be on top of each other:', 'D. There will be a reaction if the yellow color drastically disappears.'], "correct": 0}, 
+
+    { "text": 'Which of the following is true? ',  "options": ['A. Compounds only have type of atom.', 'B. Elements can be chemically decomposed.', 'C. Solutions are considered as pure substances.', 'D. Heterogenous mixtures have phase boundaries'], "correct": 3}, 
+
+    { "text": 'An element has notation Ar: How many neutrons does this element have? ',  "options": ['A. 18', 'B. 22', 'C. 40', 'D. 58'], "correct": 1}, 
+
+    { "text": 'Whose model illustrates that negative charges are scattered around an atom? ',  "options": ['A. Bohr', 'B. Thomson', 'C. Rutherford', 'D. Dalton'], "correct": 1}, 
+
+    { "text": 'What is the wavelength of light (nm) if it has a frequency of 600 THz? ',  "options": ['A. 180', 'B. 500', 'C. 750', 'D. 1000'], "correct": 1}, 
+
+    { "text": ' Which of the following is not a possible set of quantum numbers (n, l, ml; ms)? ',  "options": ['A. 2,1,0,+1/2', 'B. 2,0,0,+1/2', 'C. 3 1, 2, -1/2', 'D. 3, 1,-1,-1/2'], "correct": 2}, 
+
+    { "text": ' Which of the following corresponds to the electron configuration 1s2 2s2 2p62 ',  "options": ['A. Na', 'B. Na+', 'C. Cl', 'D. Cl-'], "correct": 1}, 
+
+    { "text": 'Which of the following has a valence electron configuration of 5s2 5p32 ',  "options": ['A. Silver', 'B. Antimony', 'C. Cesium', 'D. Chlorine'], "correct": 1}, 
+
+    { "text": 'Which of the following is arranged in increasing atomic size? ',  "options": ['A. Cs < Ca < 0 < Ne', 'B. Cs < 0 < Ca < Ne', 'C. Ne < Ca < 0 < Cs', 'D. Ne<0<Ca Cs'], "correct": 3}, 
+
+    { "text": ' Which group in the periodic table reacts with water at a slower rate to form basic hydroxide solutions? ',  "options": ['A. Group 1', 'B. Group 2', 'C. Group 16', 'D. Group 17'], "correct": 1}, 
+
+    { "text": 'Elements or molecules that have more protons than electrons are called ',  "options": ['A. cations', 'B. anions', 'C. isotope', 'D. allotrope'], "correct": 0}, 
+
+    { "text": 'Which of the following is inversely proportional? ',  "options": ['A. Bond length and bond energy', 'B. Bond order and bond energy', 'C. Bond strength and bond energy', 'D. None of the above'], "correct": 0}, 
+
+    { "text": 'What is the molecular geometry of chlorate? ',  "options": ['A. Trigonal bipyramidal', 'B. Tetrahedral', 'C. Trigonal pyramidal,', 'D. Trigonal planar'], "correct": 2}, 
+
+    { "text": 'What is the formal charge of the rightmost oxygen atom? ',  "options": ['A. 0', 'B. 1', 'C. -1', 'D. 1/2'], "correct": 2}, 
+
+    { "text": 'What is the name of BF3? ',  "options": ['A. Boron trifluoride', 'B. Boron fluoride', 'C. Tri-borofluoride', 'D. Boronic fluoride'], "correct": 0}, 
+
+    { "text": 'What is the name of MgH2 ',  "options": ['A. Magnesium dihyride', 'B. Magnesium hydroxide', 'C. Magnesium hydride', 'D. Magnesium (II) hydride'], "correct": 2}, 
+
+    { "text": 'What is the name of (NH4)2C03? ',  "options": ['A. Ammonium carbonate', 'B. Diammonium carbonate', 'C. Ammonium carbon trioxide', 'D. Nitrogen hydride carbonate'], "correct": 0}, 
+
+    { "text": 'What is the name of HIOA ',  "options": ['A. lodous acid', 'B. lodic acid', 'C. Periodous acid', 'D. Periodic acid'], "correct": 3}, 
+
+    { "text": 'What is the chemical formula of hypobromous acid? ',  "options": ['A. HBrO2', 'B. HBrO', 'C. HBrO3', 'D. HBrO 4'], "correct": 1}, 
+
+    { "text": 'What is the chemical formula of cobaltic oxide? ',  "options": ['A. CoO', 'B. CoO2', 'C. Co2O', 'D. Co2O3'], "correct": 3}, 
+
+    { "text": 'What is the chemical formula of mercury(l) chloride? ',  "options": ['A. HgCl', 'B. HgCl2', 'C. Hg2Cl', 'D. Hg2Cl2'], "correct": 3}, 
+
+    { "text": 'Aqua regia is a/an ',  "options": ['A. solution', 'B. colloid', 'C. suspension', 'D. compound'], "correct": 0}, 
+
+    { "text": 'Sodium carbonate is also known as? ',  "options": ['A. Baking soda', 'B. Soda ash', 'C. Washing soda', 'D. Caustic soda'], "correct": 1}, 
+
+    { "text": 'Compounds have been formed from which of the following noble gas elements? ',  "options": ['A. He', 'B. He and Ne', 'C. He, Ne, and Ar', 'D. Kr; Xe; and Rn'], "correct": 3}, 
+
+    { "text": 'What is/are the intermolecular forces present in the molecule CH3COCH3? I. London dispersion forces II. Dipole-dipole forces III. Hydrogen bonding ',  "options": ['A. II', 'B. I and III', 'C. I and II', 'D. I, II, III'], "correct": 2}, 
+
+    { "text": ' Among the following noble gases, which has the strongest intermolecular force? ',  "options": ['A. Kr', 'B. Xe', 'C. Ne', 'D. He'], "correct": 1}, 
+
+    { "text": 'Which of the following is expected to have the highest vapor pressure? ',  "options": ['A. water', 'B. pentane', 'C. butanone', 'D. methylbutane'], "correct": 3}, 
+
+    { "text": 'Which of the following is expected to have the lowest heat of vaporization? ',  "options": ['A. water', 'B. pentane', 'C. butanone', 'D. methylbutane'], "correct": 3}, 
+
+    { "text": 'Which of the following will have the lowest viscosity? ',  "options": ["A. Water at 5'C", 'B. Heptane at 5"C', "C. Water at 30'C", 'D. Heptane at 30 C'], "correct": 3}, 
+
+    { "text": 'Which of the following will require the highest amount of energy to increase its surface area? ',  "options": ['A. Butanol', 'B. Butanal', 'C. Pentane', 'D. Dimethyl ether'], "correct": 0}, 
+
+    { "text": 'When the pressure of a gas is increased and the temperature is lowered, which of the following is applicable? ',  "options": ['A. Ideality is achieved', 'B. Van der Waals forces become evident;', 'C. Molecular motion speeds up', 'D. No change'], "correct": 1}, 
+
+    { "text": 'Which of the following is inversely proportional for an ideal gas? ',  "options": ['A. Concentration and mass', 'B. Pressure and temperature ', 'C. Density and temperature', 'D. Molar mass and temperature'], "correct": 2}, 
+
+    { "text": 'The pressure at STP (standard temperature and pressure) of the atmosphere at sea level is? ',  "options": ['A. 1 atm', 'B. 760 mmHg', 'C. 760 torr', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'What is the molar mass of an unknown gas is 1.60 g of that gas occupies a volume of 2.24 L at STP? ',  "options": ['A. 16.0 g/mol', 'B. 25.1 g/mol', 'C. 50.2 g/mol', 'D. 81.9 g/mol'], "correct": 0}, 
+
+    { "text": ' When the partial pressure of methane in a 100-gram mixture of methane and argon (39.95 glmol) if it is found that argon is 10% by mass and the total pressure is 250 torr? ',  "options": ['A. 225 torr', 'B. 239 torr', 'C. 11 torr', 'D. 25 torr'], "correct": 1}, 
+
+    { "text": 'The following are observed characteristics of gases except ',  "options": ['A. Gases can be compressed by application of pressure', 'B. Gases diffuse and spontaneously mix with each other', 'C. Pressure exerted bya gas decreases with increase in temperature', 'D. There is negligible attraction between particles of an ideal gas'], "correct": 2}, 
+
+    { "text": 'Tin(ll) fluoride (156.7 glmol) is often added to toothpaste as an ingredient to prevent tooth decay: What is the mass of fluoride in 24.6 g of tin(ll) fluoride? ',  "options": ['A. 0.31 g', 'B. 2.98 g', 'C. 5.97', 'D. 10.4 g'], "correct": 2}, 
+
+    { "text": 'Calculate the molecular formula of an organic compound whose percentage composition is C = 70.04%, H = 5.87%, O = 23.52%. The molecular weight of compound is 136 g/mol ',  "options": ['A. C4H4O', 'B. C3HO3', 'C. C8H8O2', 'D. C5H3O2'], "correct": 2}, 
+
+    { "text": 'Consider the combustion of butane C4H10 + O2 → CO2 + H2O. 5 mol of butane are reacted with excess O2. Calculate the mol of CO2 formed. ',  "options": ['A. 1.25 mol', 'B. 2.5 mol', 'C. 12.5 mol', 'D. 20 mol'], "correct": 3}, 
+
+    { "text": 'For the reaction SO2 + O2 → SO3, what is the maximum weight of SO3 (80 g/mol) that can be produced from 40 g of SO2 (64 g/mol) and 8 g of O2 (32 g//mol) ',  "options": ['A. 20 g', 'B. 25 g ', 'C. 32 g', 'D. 40 g'], "correct": 3}, 
+
+    { "text": 'Ammonia is produced in according to the equation N2 + 3H2 → 2NH3. in a particular experiment, 0.25 mol of NH3 is formed when 0.5 mol of N2 is reacted with 0.5 mol of H2. What is the percent yield? ',  "options": ['A. 75%', 'B. 50%', 'C. 33%', 'D. 25%'], "correct": 0}, 
+
+    { "text": 'The total volume of an average adult lungs when expanded is about 6L. Calculate the pressure of oxygen inhaled if 0.05 mol of oxygen is needed to fully fill a pair of average adult lungs at a normal body temperature of 37oC. ',  "options": ['A. 0.024 atm', 'B. 2.586 atm', 'C. 0.212 atm', 'D. 1.214 atm'], "correct": 2}, 
+
+    { "text": 'Heating solid sodium carbonate in a closed vessel establishes the following equilibrium 2𝑁𝑎𝐻𝐶𝑂3 𝑠 ⇄ 𝑁𝑎2𝐶𝑂3 𝑠 + 𝐻2𝑂 𝑔 + 𝐶𝑂2(𝑔) Will the reaction shift to the left, right, or no change if the following changes are done at constant temperature: I. Addition of catalyst II. Some CO2 were removed from the system III. The pressure of the system was increased ',  "options": ['A. Left, right, left', 'B. No change, right; right', 'C. Right, right, no change', 'D. No change, right} left'], "correct": 3}, 
+
+    { "text": 'Which of the following can change the value of the equilibrium constant? ',  "options": ['A. Addition of a catalyst', 'B. Change in temperature', 'C. Change in concentration', 'D. Change in pressure or volume'], "correct": 1}, 
+
 ]
