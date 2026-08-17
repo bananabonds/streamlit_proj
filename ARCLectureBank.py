@@ -2062,6 +2062,125 @@ ChELaws = [
 
 # Lecture 3.2
 PDC = [
+       { "text": 'A system continuously adjusts set points for individual regulatory control loops based on current market prices for crude oil and refined products, running calculations every few hours to several days to determine the most economically profitable operating conditions. Which level of the control hierarchy does this describe? ',  "options": ['A. Regulatory Control', 'B. Multivariable and Constraint Control', 'C. Real-Time Optimization', 'D. Planning and Scheduling'], "correct": 2}, 
+
+    { "text": 'Which of the following conservation balancing equations is required for modelling a heater system? ',  "options": ['A. Heat and Energy balance', 'B. Heat and Mass balance', 'C. Mass and matter balance', 'D. Energy and Exergy balance'], "correct": 1}, 
+
+    { "text": 'Which of the following correctly represent the components of a control system? ',  "options": ['A. Thermocouple; displacer device, heating coil', 'B. Measuring element; thermometer; pressure gauge', 'C. Process, measuring element; controller and final control element', 'D. Process, measuring element;, amplifier and final control element'], "correct": 2}, 
+
+    { "text": 'What variables should we measure to monitor the operational performance of a plant? ',  "options": ['A. Control objectives', 'B. Controller output', 'C. Manipulated variable', 'D. Setpoint'], "correct": 0}, 
+
+    { "text": 'How is the information, taken from the measurements, used to adjust the values of the manipulated variables? ',  "options": ['A. control law', 'B. error', 'C. desired value', 'D. measuring device'], "correct": 0}, 
+
+    { "text": 'The input variables can be classified into ',  "options": ['A. manipulated variable and disturbances', 'B. setpoint and desired variables', 'C. process variables and controlled variables', 'D. Controller output and Control law'], "correct": 0}, 
+
+    { "text": 'The output variables can be classified into ',  "options": ['A. manipulated variable and disturbances', 'B. setpoint and desired variables', 'C. measured and unmeasured variables', 'D. Controller output and Control law'], "correct": 2}, 
+
+    { "text": 'Under what circumstances does an open control loop exist? ',  "options": ['A. Process variable is not measured', 'B. Process variable is measured and compared to a setpoint', 'C. Action is taken regarding process variable conditions', 'D. None of the above'], "correct": 0}, 
+
+    { "text": 'Identify which of the following islare primary elementlsensors in process control? ',  "options": ['A. Resistance Thermometer', 'B. Control Valve', 'C. Converter', 'D. All the above'], "correct": 0}, 
+
+    { "text": 'A _________is a device that translates a mechanical signal into an electrical signal . ',  "options": ['A. Transducer', 'B. Power supply', 'C. Converter', 'D. PID Controller'], "correct": 0}, 
+
+    { "text": 'A _________is a device that converts a reading from a transducer into a standard signal and transmits that signal to a monitor or controller ',  "options": ['A. Transducer', 'B. Transmitter', 'C. Converter', 'D. PID Controller'], "correct": 1}, 
+
+    { "text": ' Which of the these receives input; performs a mathematical function with the input; and produces an output signal? ',  "options": ['A. Actuators', 'B. Transducers', 'C. Transmitters', 'D. Controllers'], "correct": 3}, 
+
+    { "text": 'Which of the following is the most common final control element in process control industries? ',  "options": ['A. Agitator', 'B. Valve', 'C. Pump motor', 'D. Louver'], "correct": 1}, 
+
+    { "text": '___________is a part of final control device that causes a physical change in the final control device when signaled to do so. ',  "options": ['A. Controller', 'B. Transmitter', 'C. Pump motor', 'D. Actuator'], "correct": 3}, 
+
+    { "text": ' Given the ODE 3 dy/dx + 6y = 9 with initial condition y(0) = 2, what is the dt correct Laplace-domain expression? ',  "options": ['A. 3sY(s) + 6Y(s) = 9/s', 'B. 3(sY(s) - 2) + 6Y(s) = 9/s', 'C. 3sY(s) - 2 + 6Y(s) = 9', 'D. 3(sY(s) - 2) + 6Y(s) = 9s'], "correct": 1}, 
+
+    { "text": 'A process engineer is solving an ODE using Laplace transforms and reaches the following expression for the transformed output: Y(s) = (3s + 6 ) / s(2s + 6) Without performing the full inverse Laplace transform or partial fraction expansion, what is the predicted steady-state value of y(t) as t->infinity, using the Final Value Theorem?',  "options": ['A.  0', 'B. 3', 'C. 1', 'D. The limit does not exist'], "correct": 2}, 
+
+    { "text": 'A transfer function for a process is proposed as: G(s) = (4s^2 + 2s + 7)/ (s+3) According to the concept of physical realizability, what is the issue with this transfer function? ',  "options": ['A. The denominator has a positive root (s = -3), making the system unstable', 'B. The order of the numerator (m = 2) exceeds the order of the denominator (n = 1) , so it is not physically realizable', 'C. The transfer function has no steady-state gain because the denominator goes to zero at s = 0', 'D.  The coefficients of the numerator and denominator must be equal in number for a physically realizable system'], "correct": 1}, 
+
+    { "text": 'A transfer function G(s) has a numerator polynomial of degree m = 3 and a denominator polynomial of degree n = 2. Which of the following best describes this system? ',  "options": ['A. It is a stable,overdamped second-order system', 'B. It is not physically realizable because the number of zeros exceeds the number of poles', 'C. It will exhibit an inverse response due to the extra zero', 'D. It behaves as an integrating process because the denominator is lower order'], "correct": 1}, 
+
+    { "text": 'Consider instead the following fourth-order ODE found in the denominator of a transfer function with zero initial conditions: yʺʺ + 9yʺ + 26ÿ+ 24ẏ = 1 Which correctly identifies the qualitative nature of the time-domain solution y(t)? ',  "options": ['A. y(t) oscillates indefinitely because the denominator is 4th order', 'B. y(t) consists of a constant (steady-state) term plus three decaying exponentials; with no oscillation', 'C. y(t) grows unboundedly over time because one of the denominator roots is at s = 0', 'D. y(t) contains a sinusoidal component because the coefficient 26 in the denominator polynomial is even-numbered'], "correct": 1}, 
+
+    { "text": 'A process is known to have a transfer function with a zero located at s = +2 (i.e,, in the right-half plane). A positive step change is applied to its input: Which of the following most accurately describes the initial behavior of the output? ',  "options": ['A. The output immediately rises steeply before settling at its new steady-state value', 'B. The output initially decreases before eventually settling at a positive steady-state value', 'C. The output oscillates symmetrically above and below zero before settling', 'D. The output rises linearly without ever reaching a steady state'], "correct": 1}, 
+
+    { "text": 'A 3-input; 3-output process is being analyzed  It is observed that changing input u1 affects output y1, changing u2 affects output y2 , and changing u3 affects output y3, with no croSS-effects whatsoever: How should this process be classified? ',  "options": ['A. Interacting; because it has multiple inputs and outputs', 'B. Noninteracting; because no input affects more than one output', 'C. Interacting; because the transfer function matrix will always be second order for MIMO systems', 'D. Noninteracting only if all three time constants are equal'], "correct": 1}, 
+
+    { "text": 'Non interacting capacities always result in an __________ Or __________ ',  "options": ['A. Under damped; overdamped', 'B. Undamped, overdamped', 'C. Overdamped, critically damped', 'D. None of the above'], "correct": 2}, 
+
+    { "text": 'The response of interacting capacities is always________ ',  "options": ['A. Undamped', 'B. Critically damped', 'C. Under damped', 'D. Overdamped'], "correct": 3}, 
+
+    { "text": 'Two identical tanks (τ1 = τ2 = 4 min each) are arranged in series. In Case X the tanks are noninteracting; in Case Y the liquid levels interact. What is the effective damping coefficient ζ for Case Y, and how does the speed of response compare between the two cases? ',  "options": ['A. ζ = 0.5 for Case Y; Case Y responds faster than Case X', 'B. ζ = 1.0 for Case Y; both cases respond at exactly the same speed since τ1 = τ2', 'C. ζ = 1.25 for Case Y; Case Y responds more slowly than Case X', 'D. ζ = 0.707 for Case Y; Case Y oscillates while Case X does not'], "correct": 2}, 
+
+    { "text": 'The overall response of interacting capacities are more ______________than the noninteracting capacities ',  "options": ['A. Speed', 'B. Sluggish', 'C. Fast', 'D. Quick'], "correct": 1}, 
+
+    { "text": "A step test yields a process reaction curve for an FOPTD model. Using the slopeintercept (tangent line) method, it is found that the tangent drawn at the inflection point crosses the baseline (y = 0) at t = 3.5 min and crosses the y/KM = 1 line at t = 11.5 min. Additionally, the output's final steady-state change is 6 units in response to a step of magnitude M = 2. What are θ, τ, and K? ",  "options": ['A. θ = 11.5 min, τ = 3.5 min, K = 3', 'B. θ = 3.5 min, τ = 8.0 min, K = 3', 'C. θ = 3.5 min, τ = 8.0 min, K = 12', 'D. θ = 8.0 min, τ = 3.5 min, K = 3'], "correct": 1}, 
+
+    { "text": 'The main purpose of a control valve positioner is to: ',  "options": ['A. Alter the fail-safe status of the valve', 'B. Improve the precision of the valve', 'C. Alter the characterization of the valve', 'D. Increase transmitter accuracy'], "correct": 1}, 
+
+    { "text": 'The purpose of valve packing is to: ',  "options": ['A. Help reduce cavitation in the valve trim', 'B. Increase stiction', 'C. Cushion the valve against harm during shipment', 'D. Seal process fluid from escaping past the stem'], "correct": 3}, 
+
+    { "text": 'The proper "fail safe" status of a valve should be dictated by: ',  "options": ['A. economic savings', 'B. the configuration of the positioner', "C. the controller's action (direct or reverse)", 'D. the nature of the process'], "correct": 3}, 
+
+    { "text": 'A control valve must control the inlet flow of cooling water to a cooling jacket on an exothermic chemical reactor: We should select ',  "options": ['A. Air to close valve', 'B. Globe valve', 'C. Air to open valve', 'D. Butterfly Valve'], "correct": 0}, 
+
+    { "text": ' When a valve is installed in a process with where the differential pressure (drop) across the valve decreases with increasing flow; the best trim characteristic for the valve is:',  "options": ['A. Ported', 'B. Equal percentage', 'C. Quick-opening', 'D. Linear'], "correct": 1}, 
+
+    { "text": 'A fluid flows through an equal percentage valve at a rate of 5 m3/h when the valve is 10% open. When the valve opens to 20%, the flow rate increases to 10 m3/h. What is the flow rate in m3/h when the valve opens to 30%? The pressure drop across the valve remains constant. ',  "options": ['A. 15', 'B. 20', 'C. 30', 'D. 10'], "correct": 1}, 
+
+    { "text": 'A fluid flows through a linear valve at a rate of 15 m3/h when the valve is 15% open. When the valve opens to 30%, the flow rate increases to 30 m3/h. What is the flow rate in m3/h when the valve opens to 45%? The pressure drop across the valve remains constant.',  "options": ['A. 15', 'B. 30', 'C. 45', 'D. 60'], "correct": 2}, 
+
+    { "text": 'A control valve is most likely to experience cavitation when the valve is almost fully __________ because of a relatively __________ pressure drop across the valve seat. ',  "options": ['A. closed; large', 'B. open; small', 'C. open; large', 'D. closed; small'], "correct": 0}, 
+
+    { "text": 'This type of control loop measures the disturbance variables to limit the deviation in the output variables by preemptively adjusting the manipulated variable. ',  "options": ['A. Feedback control', 'B. Computer control', 'C. Feedforward control', 'D. Response control'], "correct": 2}, 
+
+    { "text": 'The startup and shutdown of a cooling water pump as a response to variations in the temperature of cooling water in a jacketed stirred-tank reactor is a type of _____ event. ',  "options": ['A. Continuous', 'B. Discrete', 'C. Abrupt', 'D. Alternating'], "correct": 1}, 
+
+    { "text": 'Proportional elements are typically found in transfer functions where the relationship between two variables is characterized as: ',  "options": ['A. Uninterrupted unstable response', 'B. Time-delayed response', 'C. Lagged dynamic response', 'D. Instantaneous dynamic response'], "correct": 3}, 
+
+    { "text": 'A step input of magnitude M = 3 is applied to a process. The output starts at y = 10 and eventually reaches a new steady state of y = 25. What is the steady-state gain K? ',  "options": ['A. 75', 'B. 5', 'C. 0.2', 'D. 45'], "correct": 1}, 
+
+    { "text": ' This type of controller is preferred when slow cycling is acceptable , meaning the equipment can run and shut alternatively to maintain the manipulated variable within an acceptable range. ',  "options": ['A. Continuous Control', 'B. On/Off Control', 'C. Switch Control', 'D. Alternating Control'], "correct": 1}, 
+
+    { "text": 'This type of controller is the most used type in the industry: ',  "options": ['A. On/Off Control', 'B. Proportional Control', 'C. Proportional-plus-Integral Control', 'D. Proportional-plus-Integral-plus-Derivative Control'], "correct": 2}, 
+
+    { "text": 'A first-order system has gain K = 2 and time constant τ = 5 min. A step input of magnitude M = 4 is applied at t = 0. What is y(t) at t = 15 min? ',  "options": ['A. 8.00', 'B. 6.53', 'C. 3 80', 'D. 7.60'], "correct": 3}, 
+
+    { "text": 'An underdamped second-order process responds to a step input. The final steady-state value (b) is 10 units above the initial value. The output first overshoots to a peak of 14.5 units above the initial value, then undershoots, then reaches a second peak at 10.8 units above the initial value. What are the overshoot (OS) and decay ratio (DR)? ',  "options": ['A. OS = 0.45,DR = 0.18', 'B. OS = 0.31 DR = 0.62', 'C. OS = 4.50,DR = 0.18', 'D. OS = 0.45, DR = 0.09'], "correct": 0}, 
+
+    { "text": 'A second-order process has τ = 3 min and ζ = 0.4. A step input of magnitude M is applied. Which of the following best describes the step response behavior? ',  "options": ['A. The output rises monotonically with no overshoot and settles very slowly', 'B. The output is critically damped and reaches steady state in the minimum possible time without overshoot', 'C. The output overshoots the final steady-state value, oscillates, and eventually settles because ζ < 1', 'D. The output grows without bound because ζ < 1 implies instability'], "correct": 2}, 
+
+    { "text": 'The disadvantage of conventional feedback control is the large time lag between the disturbance and the deviation observed in the set point. This can be resolved by using cascade control, which measures the __________ to anticipate a possible deviation in the main variable. ',  "options": ['A. Primary measurement point', 'B. Secondary measurement point', 'C. Set point', 'D. Forecast point'], "correct": 1}, 
+
+    { "text": 'Time-delays are typical part of process control systems because of delays in fluid flow effects and dead time in composition analysis, among other reasons They limit the effectivity of the PID feedback control system. The most common algorithm used in compensating for time-delay is ',  "options": ['A. Auctioneering', 'B. Smith predictor', 'C. Override', 'D. Adaptive control'], "correct": 1}, 
+
+    { "text": "A liquid with a composition c1(t) enters one end of a plug-flow pipe. The pipe has a volume V = 0.5 m³ and the volumetric flow rate is q = 0.1 m³/min (constant). The velocity profile is flat (turbulent flow, no axial mixing). What is the transfer function C2'(s)/C1'(s) relating outlet to inlet composition, and what is c2(t) if c1(t) is a unit step starting at t = 0? ",  "options": ["A. C2'(s)/C1'(s) = 1/(5s+1); c2(t) = 1 − e^(−t/5)", "B. C2'(s)/C1'(s) = e^(−5s); c2(t) = 0 for t < 5, c2(t) = 1 for t ≥ 5", "C. C2'(s)/C1'(s) = 5s; c2(t) is the derivative of the inlet step", "D. C2'(s)/C1'(s) = e^(+5s); c2(t) predicts the inlet composition 5 min in advance"], "correct": 1}, 
+
+    { "text": ' This type of control system changes multiple manipulated variables to control one output variable. ',  "options": ['A. MIMO control', 'B. Fuzzy logic control', 'C. Adaptive control', 'D. Split-range control'], "correct": 3}, 
+
+    { "text": ' Most industrial facilities require multiple variables to be controlled simultaneously using many manipulated variables. The main variables of concern are typically product quality and product throughput: One way to reduce the number of control schemes is by selecting only the best controller pairings, ie. which controlled variables have the most impact for each manipulated variable The most popular method of determining the best controller pairing is called the: ',  "options": ['A. Process interaction minimization', 'B. Relative gain array method', 'C. Decoupling method', 'D. Model predictive control'], "correct": 1}, 
+
+    { "text": 'What is meant by steady-state optimization? ',  "options": ['A. Achievement of equilibrium conditions on a transient and oscillating svstem', 'B.  Real-time evaluation of process operating conditions and adjustment of controlled variables to attain business objectives', 'C. Reduction of irrelevant controlled variables to construct an effective dynamic control system', 'D.  Adjustment of the process throughput to increase safety and maximize profits'], "correct": 1}, 
+
+    { "text": ' Industrial processes can have tens to hundreds of steps and each step contributes to the final quality of the product: Hence, even a small inaccuracy in each process step can result in large financial losses in the form of waste. This data-driven management philosophy focuses on achieving sustainable and predictable process results by reducing process variations. ',  "options": ['A. Shewhart charts', 'B. Six sigma approach', 'C. Statistical process control', 'D. Lean management'], "correct": 1}, 
+
+    { "text": 'This type of process plant is capable of producing small quantities of a variety of products, particularly found in food, chemicals, and pharmaceuticals industries ',  "options": ['A. Specialty plants', 'B. Semibatch plants', 'C. Commodity plants', 'D. Continuous process plants'], "correct": 0}, 
+
+    { "text": 'Batch plants rely on a specific formula that describes the amount ofraw material for each batch, and a recipe that describes how the raw materials are to be mixed and processed. In which type of batch process does both the formula and recipe change in every batch? ',  "options": ['A. Cyclical', 'B. Flexible batch', 'C. Multigrade', 'D. Multirecipe'], "correct": 1}, 
+
+    { "text": ' In process control, valves have various states wherein each state has a separate process function. Which of the following pertains to a temporary state wherein the valve has been commanded to change state, is not yet consistent with the commanded state, and the time to switch between states has not yet expired? ',  "options": ['A. Open', 'B. Transition', 'C. Closed', 'D. Invalid'], "correct": 1}, 
+
+    { "text": 'An example of this structure found in production facilities is an entire polymerization reactor with the corresponding recirculation pumps, reflux condenser; cooling water pump and jacket; and preheating exchangers. ',  "options": ['A. Item of equipment', 'B. Equipment suite', 'C. Process unit', 'D. Plant'], "correct": 2}, 
+
+    { "text": 'In which of the following instruments are most likely to indicate discrete measurements? ',  "options": ['A. Thermocouple at the top tray of a distillation column', 'B. Level sensor that detects presence of liquid at a specific level', 'C. Industrial sensor that detects excess 02 levels at a furnace effluent', 'D. Venturi meters with a pressure differential that can be translated to flowrate'], "correct": 1}, 
+
+    { "text": ' The accuracy of an instrument indicates how close to the true values its measurement is. Which of the following is not an expression for accuracy? ',  "options": ['A. Absolute difference between measured and actual value', 'B. Percentage of the current reading', 'C. Percentage of the span of the measured variable', 'D.  Number of times the instrument read the exact actual value to 3 decimal places'], "correct": 3}, 
+
+    { "text": 'This type of thermometer takes advantage of the difference in thermal expansion of two metals. Hence, when this composite is heated, its deflection can be translated to a temperature reading. ',  "options": ['A. Thermocouple', 'B. Pyrometers', 'C. Resistance thermometers', 'D. Bimetal thermometers'], "correct": 3}, 
+
+    { "text": ' Manometers are pressure-measuring devices belonging to which of the following classes? ',  "options": ['A. Electrical methods', 'B. Liquid column methods', 'C. Elastic element methods', 'D. None of the above'], "correct": 1}, 
+
+    { "text": 'This type of flowmeter takes advantage of the frequency shift observed in sound waves passed through the fluid flow, which is directly proportional to fluid velocity. ',  "options": ['A. Ultrasonic flowmeters', 'B. Coriolis flowmeters', 'C. Magnetic flowmeters', 'D. Thermal mass flowmeters'], "correct": 0}, 
+
+    { "text": 'The final control element typically receives signals from the controller and executes an action in the process such as allowing or restricting flow in a pipe, typically using devices called valves This type of valve utilizes a rotating disk that can limit flow depending on its rotation angle. ',  "options": ['A. Ball valve', 'B. Plug valve', 'C. Butterfly valve', 'D. Globe valve'], "correct": 2}, 
     
 ]
 
