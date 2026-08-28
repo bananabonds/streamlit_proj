@@ -2313,3 +2313,125 @@ inorgCHEM_CTECH = [
     { "text": 'Which of the following can change the value of the equilibrium constant? ',  "options": ['A. Addition of a catalyst', 'B. Change in temperature', 'C. Change in concentration', 'D. Change in pressure or volume'], "correct": 1}, 
 
 ]
+
+anachem_CTECH = [
+
+    { "text": 'A solution has 3x10-4 M Cu2+, what is the equivalent concentration in ppm? (Cu = 63.55 g/mol) ',  "options": ['A. 3', 'B. 38', 'C.  9', 'D.  19'], "correct": 3}, 
+
+    { "text": 'How many grams of NaOH (40 g/mol) is needed ato prepare 500 mL of 0.500 N solution of NaOH? ',  "options": ['A. 4.00 g', 'B. 5.00 g', 'C. 10.0 g', 'D. 10.3g'], "correct": 2}, 
+
+    { "text": 'An exact amount of 0.8214 g of KMnO4 (158 g/mol) was dissolved in water and made up to volume in a 500 mL volumetric flask. A 2.00 mL portion of this solution was transferred to a 1000 mL flask and diluted. Then 10 mL of this diluted solution was transferred to a 250 mL flask and diluted to volume. What is the molar concentration of the final solution? ',  "options": ['A. 0.104 M', 'B. 2.08x 10-5M', 'C. 8.32x10-7M', 'D. None of these'], "correct": 2}, 
+
+    { "text": 'How would you prepare 500.0 mL of 0.2500 M NaOH solution from a concentration of 1.000 M? ',  "options": ['A. Transfer 125mL of stock solution and dilute with solvent t0 500', 'B. Transfer 250 mL of stock solution and dilute with solvent to 500 mL:', 'C. Transfer 125 mL of stock solution and dilute with solvent to 1000 mL_', 'D. Transfer 250 mL of stock solution and dilute with solvent to 750 mL_'], "correct": 0}, 
+
+    { "text": 'The lining of the stomach contains cells that secrete a solution of HCl. Which drink would best alleviate heartburn (i.e. excess acid in the stomach) ',  "options": ['A. Milk (pH 6.5)', 'B. Wine (pH 3.8)', 'C. Diet soda (pH 4.3)', 'D. Milk of magnesia (pH 10.5)'], "correct": 3}, 
+
+    { "text": 'Which of the following is not an acid-base conjugate pair? ',  "options": ['A. NH3 and NH4+', 'B. H2S and OH-', 'C. H2O and OH-', 'D. HCN and CN-'], "correct": 1}, 
+
+    { "text": 'The acid secreted by the cell of the stomach lining is a hydrochloric acid solution that typically contains 1.2 x 10-3 M. what is the pH of the acid in the stomach? ',  "options": ['A. 1.50', 'B. 2.92', 'C. 3.50', 'D. 6.19'], "correct": 1}, 
+
+    { "text": 'Which of the following conjugate acid/base pairs should be used to prepare a buffer with pH near 7.15? ',  "options": ['A. Formic acid and sodium formate (pKa 3.74)', 'B. Succinic acid and sodium succinate (pKa 5.64)', 'C. Sodium dihydrogen phosphate and sodiumhydrogen phosphate (pKa 7.20)', 'D. Glycylglycine and sodium glycylglycate (pKa 8.35)'], "correct": 2}, 
+
+    { "text": 'What are the product(s) for the reaction between HNO3 and NH4OH? ',  "options": ['A. HNO2 and H2O', 'B. NH2OH and H2O', 'C. NH4NO3 and H2O', 'D. No reaction'], "correct": 2}, 
+
+    { "text": 'A 25.00 mL sample of 0.100 M acetic acid (CH₃COOH) is titrated with 0.100 M NaOH at 25°C. The acid has Ka=1.8×10−5.Determine the pH of the solution at each of the following points during the titration: What is the approximate pH before any NaOH is added?',  "options": ['A. 2.87', 'B. 3.37', 'C. 4.75', 'D. 5.89'], "correct": 0}, 
+
+    { "text": 'A 25.00 mL sample of 0.100 M acetic acid (CH₃COOH) is titrated with 0.100 M NaOH at 25°C. The acid has Ka=1.8×10−5.Determine the pH of the solution at each of the following points during the titration: What is the approximate pH after 10.00 mL of 0.100 M NaOH has been added?',  "options": ['A. 4.15', 'B. 4.56', 'C. 4.74', 'D. 5.26'], "correct": 1}, 
+
+    { "text": 'A 25.00 mL sample of 0.100 M acetic acid (CH₃COOH) is titrated with 0.100 M NaOH at 25°C. The acid has Ka=1.8×10−5.Determine the pH of the solution at each of the following points during the titration: What is the approximate pH after 12.50 mL of 0.100 M NaOH has been added?',  "options": ['A. 4.74', 'B. 5.13', 'C. 5.24', 'D. 6.18'], "correct": 0}, 
+
+    { "text": 'A 25.00 mL sample of 0.100 M acetic acid (CH₃COOH) is titrated with 0.100 M NaOH at 25°C. The acid has Ka=1.8×10−5.Determine the pH of the solution at each of the following points during the titration: What is the approximate pH after 25.0 mL of 0.100 M NaOH has been added?',  "options": ['A. 7.00', 'B. 7.87', 'C. 8.72', 'D. 9.26'], "correct": 2}, 
+
+    { "text": 'A 25.00 mL sample of 0.100 M acetic acid (CH₃COOH) is titrated with 0.100 M NaOH at 25°C. The acid has Ka=1.8×10−5.Determine the pH of the solution at each of the following points during the titration: What is the approximate pH after 30.00 mL of 0.100 M NaOH has been added?',  "options": ['A. 11.00', 'B. 11.50', 'C. 11.96', 'D. 12.13'], "correct": 2}, 
+
+    { "text": 'For this reaction which statement is false? 𝑀𝑔 + 𝐻2𝑂 ⇌ 𝑀𝑔𝑂 + 𝐻2 ',  "options": ['A. H2O is the oxidizing agent', 'B. Mg lost electrons', 'C. Mg is the oxidizing agent', 'D. H2O gained electrons'], "correct": 2}, 
+
+    { "text": 'For this reaction which statement is correct? 𝐹𝑒2+ + 𝑀𝑛𝑂4 − ⇌ 𝐹𝑒3+ + 𝑀𝑛2+ + 𝐻2  ',  "options": ['A. Fe2+ undergoes oxidation', 'B. Fe2+ is the oxidizing agent', 'C. MnO4-undergoes Oxidation', 'D. MnO4-is the reducing agent'], "correct": 0}, 
+
+    { "text": 'All of the following are oxidizing agents except ',  "options": ['A. HNO3', 'B. KMnO4', 'C. K2Cr2O7', 'D. Na2S2O3'], "correct": 3}, 
+
+    { "text": 'The part of an electrochemical cell where oxidation occurs ',  "options": ['A. Anode', 'B. Cathode', 'C. Salt bridge', 'D. Electric wire'], "correct": 0}, 
+
+    { "text": 'The part of an electrochemical cell that maintains electrical neutrality ',  "options": ['A. Anode', 'B. Salt bridge', 'C. Cathode', 'D. Voltmeter'], "correct": 1}, 
+
+    { "text": 'Electrochemical cells where electrical energy is used to drive a nonspontaneous redox reaction. ',  "options": ['A. Daniel cell', 'B. Voltaic cell', 'C. Galvanic cell', 'D. Electrolytic cell'], "correct": 3}, 
+
+    { "text": 'In an electrolytic cell, oxidation occurs ',  "options": ['A. At the anode ', 'B. At the cathode', 'C. At either the cathode or the anode', 'D. Between the cathode and the anode'], "correct": 0}, 
+
+    { "text": 'During the electroplating of silver; silver ions in solution ',  "options": ['A. Are oxidized at the anode', 'B. Are oxidized at the cathode', 'C. Are reduced at the cathode', 'D. Remain in solution unchanged'], "correct": 2}, 
+
+    { "text": 'Consider a molten CaCl2 in an electrolytic cell. Suppose a current of 0.452 A is passed through the cell for 1.50 hr. How much product will be formed at the anode and cathode? ',  "options": ['A. 0.507 g Ca and 0.897 g Cl2', 'B. 0.127 g Ca and 0.242 g Cl₂', 'C. 1.01 g Ca and 1.79 g Cl₂', 'D. 0.253 g Ca and 0.449 g Cl₂'], "correct": 0}, 
+
+    { "text": 'Which of the following statements best describe a primary method? I. Set of instructions about how to carry out a method issued by a national standards body II. It has the highest metrological qualities III. Method that employs the use of materials such as certified reference materials IV. Titration of hydrochloric acid with anhydrous sodium carbonate to determine the concentration of the acid ',  "options": ['A. I only', 'B. Il and III', 'C. II and IV', 'D. I, II, and III'], "correct": 2}, 
+
+    { "text": 'It is the fraction of the named material present in the stated chemical form. ',  "options": ['A. Potency', 'B. Purity', 'C. Stability', 'D. Activity'], "correct": 1}, 
+
+    { "text": 'If you reported that a sample with 9 mg/L of a substance only has 5 mg/L and the acceptable limit according to standard is 7 mg/L, this is ',  "options": ['A. False positive', 'B. False negative', 'C. Accurate', 'D. Precise'], "correct": 1}, 
+
+    { "text": 'It is a performance parameter that could be used to analyze a blank sample matrix. ',  "options": ['A. Bias estimate', 'B. Selectivity', 'C. Limit of quantification', 'D. Limit of detection'], "correct": 3}, 
+
+    { "text": 'Which of the following factors affect the choice of analytical methods? ',  "options": ['A. The type of analysis required', 'B. The accuracy required', 'C. Possible interferences from components of the material other than those of interest', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'Chemical grade commonly used for low-grade applications such as cleaning and qualitative testing ',  "options": ['A. USP grade', 'B. NF grade', 'C. Technical grade', 'D. Laboratory grade'], "correct": 2}, 
+
+    { "text": 'In the determination of sugar concentration in powdered juice dissolved in water, which of the following is the matrix? ',  "options": ['A. Sugar', 'B. Powdered juice', 'C. Water', 'D. B and C'], "correct": 3}, 
+
+    { "text": 'Which of the following is/are true about instrumental background signal? I. Even when no sample is being analyzed, the instrument will generate a background signal, II. LOD for an instrument improves if the S/N can be increased. III. LOD for an instrument is not affected by S/N ',  "options": ['A. I only', 'B. I and II', 'C. I and III', 'D. I, II, and III'], "correct": 1}, 
+
+    { "text": 'The portion of the calibration curve which includes the range of concentrations of analyte that can be determined with demonstrated precision, accuracy, and response function. ',  "options": ['A. Limit of detection', 'B. Limit of quantification', 'C. Working range', 'D. Linear dynamic range'], "correct": 2}, 
+
+    { "text": 'The property of an analytical method to determine simultaneously several components independently from each other. ',  "options": ['A. Selectivity', 'B. Specificity', 'C. Sensitivity', 'D. Ruggedness'], "correct": 0}, 
+
+    # Instrumentation
+
+    { "text": 'The following will cause drift errors in an analytical balance except ',  "options": ['A. Balance door is open', 'B. Balance is not levelled', 'C. Air currents present in the laboratory', 'D. Temperature of the balance and the sample to be weighed is the same.'], "correct": 3}, 
+
+    { "text": 'Objects cannot be weighed when hot or warm. But if you were to take a sample out and wait for it to cool it would pick up moisture so it should be placed in a/an ',  "options": ['A. Oven', 'B. Desiccator', 'C. Room temperature', 'D. Fume hood'], "correct": 1}, 
+
+    { "text": 'It is the nominal volume of water (or mercury) contained, or delivered by an article of volumetric glassware, at its reference temperature ',  "options": ['A. accuracy', 'B. calibration', 'C. capacity', 'D. measurand'], "correct": 2}, 
+
+    { "text": 'A student is tasked to measure 12 mL of a liquid as precisely as possible. Which measuring device should be selected for this task? ',  "options": ['A. 25 mL beaker', 'B. 25 mL graduated cylinder', 'C. 25 mL conical flask', 'D. 25 mL volumetric flask'], "correct": 1}, 
+
+    { "text": 'Determine the volumes of the liquids in the graduated cylinder The Instrument: A clear glass tube with dark brown measurement lines and numbers.The Scale: Numbers increase downward, showing 19, 20, and 21.The Liquid: A bright yellow solution fills the tube from the bottom up to the 20 mark.The Meniscus: A distinct, dark, downward-curving line marks the top of the liquid surface, resting precisely at the 20.00 mL line.The Surface: A few small, clear liquid droplets are scattered on the inner glass wall above the liquid level.',  "options": ['A. 20.1 mL', 'B. 20.2 mL', 'C. 20.0 mL', 'D. 21.0 mL'], "correct": 2}, 
+
+    { "text": 'A student needs to transfer his precipitant from the beaker to the filter paper. Which of the following would be the best procedure in order to ensure a quantitative transfer of precipitate? ',  "options": ['A. Most of the supernatant liquid is decanted then bulk of precipitate is transferred to filter paper through a stirring rod, then the beaker is washed with large volumes of wash solution.', 'B. Most of the supernatant liquid is decanted then bulk of precipitate is transferred to filter paper through a stirring rod, then the beaker is washed several times with small volumes of wash solution.', 'C. Solution is shaken, then immediately filtered; beaker is washed with big volumes of wash solution', 'D. None of the above'], "correct": 1}, 
+
+    { "text": 'Which of the following is true about TC pipets? ',  "options": ['A. TC means “true carry”', 'B. It commonly does not have a colored band', 'C. It is used if the liquid left in the pipet is already accounted.', 'D. None of the above'], "correct": 3}, 
+
+    { "text": 'To determine the density of a liquid, which of the following should be used? ',  "options": ['A. Graduated cylinder', 'B. Volumetric flask', 'C. Pycnometer', 'D. Pipette'], "correct": 2}, 
+
+]
+
+qaqc_CTech = [
+
+    { "text": 'It is part of quality systems that is officially defined by the ISO as the assembly of all planned and systematic actions to provide adequate confidence that a product, process, or service will satisfy the given quality requirements ',  "options": ['A. Quality management', 'B. Quality assurance', 'C. Quality control', 'D. Quality manual'], "correct": 1}, 
+
+    { "text": 'Process in which all of the modifications made into a laboratory activity are documented ',  "options": ['A. Management review', 'B. Audit trail', 'C. Accreditation', 'D. Quality manual'], "correct": 1}, 
+
+    { "text": 'This quality system standard is a general requirement for the competence of testing and calibration laboratories ',  "options": ['A. GLP', 'B. GMP', 'C. ISO9001', 'D. ISO/IEC 17025'], "correct": 3}, 
+
+    { "text": 'If you are going to mass produce vitamin C, which standard should you subscribe in? ',  "options": ['A. GMP', 'B. HACCP', 'C. ISO9001', 'D. All of these'], "correct": 3}, 
+
+    { "text": 'Which of the following is/are true about quality assurance? I. QA is a set of activities for ensuring quality in the process by which products are developed II. QA is a corrective tool and product oriented. ',  "options": ['A. I only', 'B. II only', 'C. Both I and II', 'D. None of these'], "correct": 0}, 
+
+    { "text": 'A drug sample contains 10.0 ug/L of its active ingredient. A 5.0 ug/L of spike was added to replicate a portion of the drug. The spiked sample gave a concentration of 14.6 ug/L. What is the percent recovery of the spike? ',  "options": ['A. 34', 'B. 37', 'C. 92', 'D. 96'], "correct": 2}, 
+
+    { "text": 'A technique used to evaluate the performance of a procedure when testing a specific sample type. ',  "options": ['A. Spiking', 'B. Blank analysis', 'C. System suitability checking', 'D. Reference material analysis'], "correct": 0}, 
+
+    { "text": 'Which of the following observation/s will require a process to stop immediately? I. Results lie outside action limits. II. 3 consecutive measurements on one side of the central limit. III. 7 consecutive measurements create an increasing trend. IV. Values are within warning limits ',  "options": ['A. I only', 'B. I and III', 'C. I, II, and IV', 'D. I, III, and IV'], "correct": 1}, 
+
+    { "text": 'A series of reference standard solutions that have known and accurate pH values at different temperatures and are used for pH meter calibration. ',  "options": ['A. Buffer solutions', 'B. QC solutions', 'C. pH solutions', 'D. None of these'], "correct": 0}, 
+
+    { "text": 'A material, sufficiently homogenous and stable with respect to one or more specified property values, which has been established to be for its intended use in a measurement process ',  "options": ['A. Chemical standards', 'B. Certified Reference Materials (CRM)', 'C. Reference Materials (RM)', 'D. Certified standards'], "correct": 2}, 
+
+    { "text": 'When a deviation from critical limits happens, what should be done? ',  "options": ['A. Documentation of corrective actions', 'B. Stop the process and inform the supervisor', 'C. Reassess the standards being implemented', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'A type of blank that is commonly used with techniques such as spectrophotometry to zero the instrument before measuring test samples and other blanks. ',  "options": ['A. Reagent blank', 'B. Method blank', 'C. Trip blank', 'D. Field blank'], "correct": 0}, 
+
+    { "text": 'Which of the following are characteristics of a QC sample? ',  "options": ['A. Similar in composition to the types of samples normally examined', 'B. Must be stable', 'C. Must be available in large quantities', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'It is a laboratory quality control activity that is used to verify that an instrument works correctly on a day-to-day basis. ',  "options": ['A. Spiking', 'B. Blank analysis', 'C. System suitability checking', 'D. Reference material analysis'], "correct": 2}, 
+
+    { "text": 'A reactive part of the quality management system that is concerned on the quality of the product, especially those materials that are soon to be released to the customer ',  "options": ['A. Quality assurance', 'B. Quality control', 'C. Quality audit', 'D. Quality evaluation'], "correct": 1}, 
+
+]
