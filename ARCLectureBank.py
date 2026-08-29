@@ -2209,6 +2209,41 @@ DiffCal = [
     
 ]
 
+# Lecture 3.8
+IntegCalc = [
+
+    
+]
+
+# Lecture 3.91
+CPI = [
+
+    
+]
+
+# Lecture 3.92
+diffEq1 = [
+
+    
+]
+
+# Lecture 3.10
+processSafety = [
+    
+]
+
+
+# Lecture 1.1
+chem4Eng = [
+
+    
+]
+
+# Lecture 1.2
+enviEng = [
+
+    
+]
 
 # ----------------------------------------CHEMTECH---------------------------
 
