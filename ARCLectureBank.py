@@ -1,5 +1,5 @@
 # Lecture 2.1
-ChECalc = [
+ChE_Calculations = [
 
     { "text": 'Wine making involves a series of very complex reactions most of which are performed by microorganisms. The starting concentration of sugars determines the final alcohol content and sweetness of the wine. The specific gravity of the starting stock is therefore adjusted to achieve desired quality of wine. A starting stock solution has a specific gravity of 1.075 and contains 12.7 wt% sugar. If all the sugar is assumed to be C₁2H22011, determine kg sugar/ kg H₂0  ',  "options": ['A. 0.286', 'B. 0.039', 'C. 0.145', 'D.  0.327'], "correct": 2}, 
     { "text": 'Wine making involves a series of very complex reactions most of which are performed by microorganisms. The starting concentration of sugars determines the final alcohol content and sweetness of the wine. The specific gravity of the starting stock is therefore adjusted to achieve desired quality of wine. A starting stock solution has a specific gravity of 1.075 and contains 12.7 wt% sugar. If all the sugar is assumed to be C₁2H22011, determine  lb solution /ft3 solution',  "options": ['A. 67.1', 'B. 39.2', 'C. 50.5', 'D. 48.6'], "correct": 0}, 
@@ -122,7 +122,7 @@ ChECalc = [
 ]
 
 # Lecture 2.2
-Sepa = [
+Separation_Processes = [
 
     # Leaching
     { "text": 'Which of the following operations does not\r\ninvolve leaching? ',  "options": ['A. Dissolving gold from ores.', 'B. Dissolving pharmaceutical products from bark\r\nor roots', 'C. Dissolving sugar from the cells of the beet.', 'D. Removing nicotine from its water solution by\r\nkerosene.'], "correct": 3}, 
@@ -382,7 +382,7 @@ Sepa = [
 ]
 
 # Lecture 2.3
-Thermo = [
+Thermodynamics = [
 
     { "text": 'A piece of chocolate cake contains about 400 Calories. A nutritional Calorie is equal to 1000 calories (thermochemical calories). How many 8-inch high steps must a 180-lb man climb to spend 400 Cal from the piece of cake? ',  "options": ['A. 100', 'B. 10300', 'C. 1030', 'D. 103000'], "correct": 1}, 
 
@@ -633,7 +633,7 @@ Thermo = [
 ]
 
 # Lecture 2.4
-Momentra = [
+Momentum_Transfer = [
 
     { "text": ' Convert 15.14 poises to kinematic\r\nviscosity in square feet per second if the\r\nliquid has a specific gravity of 0.964. ',  "options": ['A.  0.0169 ft²/s', 'B. 0.0258 ft²/s', 'C. 0.0333 ft²/s', 'D. 0.0421 ft2/s'], "correct": 0}, 
 
@@ -760,7 +760,7 @@ Momentra = [
 ]
 
 # Lecture 2.5
-TransPhen = [
+Transport_Phenomenon = [
 
     { "text": 'The driving force in heat transfer is ',  "options": ['A. concentration gradient', 'B.  temperature gradient', 'C. viscosity gradient', 'D. thickness of the solid in question'], "correct": 1}, 
 
@@ -967,7 +967,7 @@ TransPhen = [
 ]
 
 # Lecture 2.6
-ParTech = [
+Particle_Technology = [
 
     { "text": 'In screen analysis, notation 10 mm /5 mm means\r\npassing through ',  "options": ['A. 10 mm screen and retained on 5 mm screen', 'B.  5 mm screen and retained on 10 mm screen', 'C. both 5 mm and 13 mm screens', 'D. neither 5 mm nor 10 mm screens'], "correct": 0}, 
 
@@ -1186,7 +1186,7 @@ ParTech = [
 ]
 
 # Lecture 2.7
-HeMaTra = [
+Heat_Mass_Transfer = [
 
     { "text": 'Heat sensitive materials can be concentrated\r\nin an evaporator employing ',  "options": ['A. vacuum', 'B. high residence time', 'C. high pressure', 'D. none of these'], "correct": 0}, 
 
@@ -1413,7 +1413,7 @@ HeMaTra = [
 ]
 
 # Lecture 2.8
-PD_EqpDes = [
+Equipment_Plant_Design = [
     { "text": '_______tower is the most suitable gas-liquid contacting device involving highly corrosive fluids  ',  "options": ['A. Sieve plate', 'B. Packed ', 'C.  Bubble cap plate ', 'D.  None of these'], "correct": 1}, 
 
     { "text": 'Liquid redistribution should be done in a packed tower packed with Raschig rings every 6 meters or ____ times the column diameter; whichever is lower: ',  "options": ['A.  2.5-3.0', 'B. 5-7.5 ', 'C. 10-12.5 ', 'D. 15-20'], "correct": 0}, 
@@ -1567,7 +1567,7 @@ PD_EqpDes = [
 ]
 
 # Lecture 2.9
-Kinetics = [
+Chemical_Reaction_Engineering = [
 
     { "text": ' For the reaction, 2X + Y → Z, the rate of formation of Z is 0.2\r\nmole/liter-hr. what is the rate of disappearance of X in mole/literhr? ',  "options": ['A. 0.4', 'B.  0.2', 'C. 0.1', 'D. none of these'], "correct": 0}, 
 
@@ -1716,7 +1716,7 @@ Kinetics = [
 #------------------------------------------------------------------------ Day 3
 
 # Lecture 3.1
-ChELaws = [
+ChE_Laws = [
 
     { "text": 'PD 223 is also known as ',  "options": ['A. PRC Law', 'B. Chemical Engineering Law', 'C. Pollution Control Law', 'D. Code of Ethics'], "correct": 0}, 
 
@@ -2061,7 +2061,7 @@ ChELaws = [
 ]
 
 # Lecture 3.2
-PDC = [
+Process_Control_Analysis = [
     { "text": 'A system continuously adjusts set points for individual regulatory control loops based on current market prices for crude oil and refined products, running calculations every few hours to several days to determine the most economically profitable operating conditions. Which level of the control hierarchy does this describe? ',  "options": ['A. Regulatory Control', 'B. Multivariable and Constraint Control', 'C. Real-Time Optimization', 'D. Planning and Scheduling'], "correct": 2}, 
 
     { "text": 'Which of the following conservation balancing equations is required for modelling a heater system? ',  "options": ['A. Heat and Energy balance', 'B. Heat and Mass balance', 'C. Mass and matter balance', 'D. Energy and Exergy balance'], "correct": 1}, 
@@ -2232,22 +2232,392 @@ processSafety = [
     
 ]
 
-
 # Lecture 1.1
-chem4Eng = [
+Chem_for_Engineers = [
 
-    
+    { "text": 'Which of the following forces is responsible for the rise or drop in potential energy of an object? ',  "options": ['A. Gravitational force', 'B. Attractive magnetism', 'C. Repulsive magnetism', 'D. AIl of the above'], "correct": 3}, 
+
+    { "text": 'This pertains to the amount of energy released by gram of material burned_ ',  "options": ['A. Energy density', 'B. Specific heat', 'C. Joules', 'D. Generation ratio'], "correct": 0}, 
+
+    { "text": 'Which of these fuels has the least energy density? ',  "options": ['A. Gasoline', 'B. Hydrogen', 'C. Anthracite', 'D. Dry wood'], "correct": 3}, 
+
+    { "text": 'What is the primary source of the worlds energy consumption? ',  "options": ['A. Coal', 'B. Oil', 'C. Natural Gas', 'D. Hydropower'], "correct": 1}, 
+
+    { "text": 'What are the reasons for the widespread use of liquid fuels like petroleum as a primary energy source? ',  "options": ['A. It has a high energy density', 'B. Its liquid state makes it easy to store and deliver to customers', 'C. It can be burned into combustion gases which are easily flared or exhausted to the atmosphere', 'D. AIl of the above'], "correct": 3}, 
+
+    { "text": 'How does high energy density contribute to the economical use of a certain fuel? ',  "options": ['A. Burning is more efficient', 'B. Transportation of the fuel becomes easy and cheap', 'C. Combustion primarily results in gaseous products which are easily disposable', 'D. AIl of the above'], "correct": 3}, 
+
+    { "text": 'Despite having the highest energy density, why is hydrogen not yet widely adapted? ',  "options": ['A. It is difficult to transport and store', 'B. It is more difficult to produce than gasoline', 'C. It is less abundant than coal', 'D. It is extremely light'], "correct": 0}, 
+
+    { "text": 'Which fossil fuel has the highest carbon content and is notable for being highly reliable energy source while having pronounced environmental effects? ',  "options": ['A. Methane', 'B. Diesel', 'C. Coal', 'D. Gasoline'], "correct": 2}, 
+
+    { "text": 'Which of these fluids is most likely to be used as heat carriers in electricity generation facilities? ',  "options": ['A. Water', 'B. Methanol', 'C. Pentane', 'D. Acetone'], "correct": 0}, 
+
+    { "text": 'Heating of water in a coal-fired  furnace results in which phase entering the subsequent turbine? ',  "options": ['A. Saturated vapor', 'B. Saturated mixture', 'C. Saturated liquid', 'D. Superheated vapor'], "correct": 3}, 
+
+    { "text": 'Which of the following environmental phenomena is driven by the high molar heat capacity of water? ',  "options": ['A. Forest density', 'B. Genetic mutation', 'C. Volcanological activity', 'D. Land and sea breezes'], "correct": 3}, 
+
+    { "text": 'A higher enthalpy of vaporization (AHvap) results in which of the following trends in the Clausius-Clapeyron plot? ',  "options": ['A. A steeper negative slope', 'B. A shallower negative slope', 'C. A linear increase in vapor pressure', 'D. No change in slope'], "correct": 0}, 
+
+    { "text": 'The Helmholtz free energv is defined as; ',  "options": ['A. A=U-TS', 'B. A=G-PV', 'C. A=H-TS', 'D. A=S-TQ'], "correct": 0}, 
+
+    { "text": 'A copper nail; an iron nail, and a silver nail of same mass and initially at the same room temperature are all into a vessel containing boiling water: Which one would you expect to reach 100 C first?  ',  "options": ['A. Copper nail', 'B. Iron nail', 'C. Silver nail', 'D. All will reach 100 C at the same time'], "correct": 2}, 
+
+    { "text": 'The bond energy in an 02 molecule is 8.22 * 10-19 J. What is the minimum velocity of an 02 molecule that would give a kinetic energy capable of breaking the double bond if it is converted with 100% efficiency? ',  "options": ['A. 2270 m/s', 'B. 4530 m/s', 'C. 5562 m/s', 'D. 3210 m/s'], "correct": 2}, 
+
+    { "text": 'Which state of matter generally has the highest entropy? ',  "options": ['A. Solid', 'B. Liquid', 'C. Gas', 'D. Plasma'], "correct": 3}, 
+
+    { "text": 'What happens  to the entropy of the surroundings when an endothermic reaction occurs at constant pressure?  ',  "options": ['A. It increases', 'B. It decreases', 'C. It remains unchanged', 'D. It depends on the initial entropy'], "correct": 1}, 
+
+    { "text": 'Which of the following can be explained by the Second Law of Thermodynamics? ',  "options": ['A. Combustion of fuel in jet engines', 'B. Temperature of the ocean during the day vs during night', 'C. Conversion of electrical energy to light energy in light bulbs', 'D. Inefficiency of heat engines'], "correct": 3}, 
+
+    { "text": 'A fuel has an energy content of 35 kJ/g: How much energy would be released to the surroundings if a heat engine using 20 kg of the fuel operates at 35% efficiency? ',  "options": ['A. 250 MJ', 'B. 340 MJ', 'C. 450 MJ', 'D. 600 MJ'], "correct": 2}, 
+
+    { "text": 'Which industrial process consumes the most energy in kilowatt- hours? ',  "options": ['A. Steel production', 'B. Aluminum refining', 'C. Chemical manufacturing', 'D. Cement manufacturing'], "correct": 2}, 
+
+    { "text": 'The energy densities of various types of coal are listed below: Anthracite 35 kJ/g Subbituminous 31 kJ/g Bituminous 28 kJ/g Lignite 26 kJ/g An unknown sample of one of these coals is burned in an apparatus with a calorimeter constant of 1.3 kJ/C. When a 0.367-g sample is used, the temperature change is 8.75*C. Which type of coal is the sample? ',  "options": ['A. Anthracite', 'B. Bituminous', 'C. Subbituminous', 'D. Lignite'], "correct": 2}, 
+
+    { "text": 'Which country is the largest producer of nuclear energy, with 95.8 GW produced in 2023 ',  "options": ['A. France', 'B. China', 'C. USA', 'D. Germany'], "correct": 2}, 
+
+    { "text": 'This refers to the waste heat generated by industrial processes which lead to excess heating of water bodies beyond the typical seasonal temperatures? ',  "options": ['A. Thermal pollution', 'B. Excessive heating', 'C. Waste heat', 'D. Throwaway energy'], "correct": 0}, 
+
+    { "text": 'Which of the  following  energy conversion devices is the least effective (with the lowest energy conversion and highest energy waste)? ',  "options": ['A. Steam turbines', 'B. Incandescent bulbs', 'C. Electric motors', 'D. Fluorescent lamps'], "correct": 1}, 
+
+    { "text": 'Batteries   utilize which of the following reactions in transforming chemical energy to electrical energy? ',  "options": ['A. Oxidation', 'B. Reduction', 'C. Electrolysis', 'D. Both A and B'], "correct": 3}, 
+
+    { "text": 'Which of these describes a primary battery cell? ',  "options": ['A. Primary cells have a constant voltage output throughout its lifetime', 'B. Primary cells emply a different kind of reaction compared to secondary cells', 'C. The lifetime of a primary cell is defined by the consumption of its reactants , and the battery becomes useless after depletion_', 'D. Primary cells are typically larger than secondary cells, hence they last longer'], "correct": 2}, 
+
+    { "text": 'How are secondary battery cells recharged? ',  "options": ['A. By heating under sunlight', 'B. By inputting energy, energizing an endothermic reaction that regenerates the reactants of the battery cell', 'C. By excitation of the battery molecules through continuous friction with an external object', 'D. None of the above'], "correct": 1}, 
+
+    { "text": "What is the unit that measures a greenhouse gas' ability to heat in the atmosphere? trap ",  "options": ['A. Global Heating Measure', 'B. GHG Heating Ability', 'C. Metric tons of CO2', 'D. Global Warming Potential'], "correct": 3}, 
+
+    { "text": 'Which greenhouse gas is the basis gas for the global warming potential, generally emitted via the burning of fossil fuels and waste and can be removed from the atmosphere via the carbon cycle? ',  "options": ['A. Carbon dioxide', 'B. Nitrous oxide', 'C. Methane', 'D. Hydrofluorocarbons'], "correct": 0}, 
+
+    { "text": 'Which greenhouse gas is mostly emitted through the production and transport of fossil fuels, agricultural practices, and decay of waste in landfills? This has a GWP of 27-30.  ',  "options": ['A. Carbon dioxide', 'B. Nitrous oxide', 'C. Methane', 'D. Hydrofluorocarbons'], "correct": 2}, 
+
+    { "text": 'Which greenhouse gas is produced from agricultural and industrial activities, combustion of fossil fuels and waste, and wastewater treatment? This greenhouse gas has a GWP of 273. ',  "options": ['A. Carbon dioxide', 'B. Nitrous oxide', 'C. Methane', 'D. Hydrofluorocarbons'], "correct": 1}, 
+
+    { "text": 'Which greenhouse gas has the highest GWP reaching multiple thousand times the warming potential of COz? These are typically used in refrigeration, air conditioning, and aerosols. ',  "options": ['A. Carbon dioxide', 'B. Nitrous oxide', 'C. Methane', 'D. Hydrofluorocarbons'], "correct": 3}, 
+
+    { "text": 'In passive solar heating; the goal is to absorb heat from the Sun during the and release it during the night Which material would be better for this application: one with high heat capacity or one with a low heat capacity? day ',  "options": ['A. Material with high heat capacity', 'B. Material with low heat capacity', 'C. Both materials will perform equally efficiently', 'D. -'], "correct": 0}, 
+
+    { "text": 'OSHAs Hazard  Communication   Standard  provides a guide for hazard recognition and mitigation in the workplace, and it requires employees to be given which of the following rights?  ',  "options": ['A. Right to Know', 'B. Right to Inform', 'C. Right to Comprehend', 'D. Right to Understand'], "correct": 3}, 
+
+    { "text": 'Which  of the following  are required methods of communicating chemical hazards to employees as mandated by the HCS? ',  "options": ['A. Hazard labels', 'B. Safety data sheets', 'C. Hazard communication program', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'Imagine a spill occurs in a confined space  which sections of the SDS would be most helpful in developing an appropriate response plan? ',  "options": ['A. Section 5', 'B. Section 6', 'C. Section 8', 'D. Section 10'], "correct": 1}, 
+
+    { "text": 'A product has a flash point of 258C and emits toxic fumes when heated--what specific SDS sections would you reference to further evaluate these hazards? ',  "options": ['A. Section 1', 'B. Section 2', 'C. Section 3', 'D. Section 4'], "correct": 1}, 
+
+    { "text": 'If you have multiple chemicals that you need to store in a storage cabinet; which SDS section would provide you the required storage container and storage incompatibilities? ',  "options": ['A. Section 5', 'B. Section 6', 'C. Section 7', 'D. Section 8'], "correct": 2}, 
+
+    { "text": 'When performing a risk assessment for transporting a hazardous material,   which part of the SDS would  reference the required transport method and transport laws that you need to abide to?  ',  "options": ['A. Section 9', 'B. Section 10', 'C. Section 13', 'D. Section 14'], "correct": 3}, 
+
+    { "text": 'A worker reports skin irritation after using various chemicals ~which SDS section would you use to confirm which chemical is Ihe cause of the workers symptoms? ',  "options": ['A. Section 2', 'B. Section 9', 'C. Section 10', 'D. Section 15'], "correct": 0}, 
+
+    { "text": 'A fire in the chemical storage facility was determined to have been caused by a chemical that violently reacted wilh water: Which section ofthe SDS would you check to determine which chemical caused the fire? ',  "options": ['A. Section 9', 'B. Section 10', 'C. Section 12', 'D. Section 13'], "correct": 1}, 
+
+    { "text": 'Which of the   following hazard   symbols does not match the description? ',  "options": ['A. Dead tree and fish: causes damage to the environment', 'B. Exploding bomb: for flammable chemicals', 'C. Chemical dripping on a hand: corrosive damage to skin', 'D. Flame over a circle: for oxidizing hazards'], "correct": 1}, 
+
+    { "text": 'What does the "oxidizing" symbol on a chemical container indicate? ',  "options": ['A. The chemical is highly toxic when inhaled', 'B. The chemical can cause severe burns', 'C. The chemical is explosive', 'D. The chemical can cause or enhance combustion of other substances'], "correct": 3}, 
+
+    { "text": 'Recall the pictogram that shows a silhouette of a person with starburst on the chest ~what type of health hazard does this symbol represent? ',  "options": ['A. health hazard', 'B. serious health hazard', 'C. acute toxicity', 'D. hazardous to environment'], "correct": 1}, 
+
+    { "text": 'What type of reaction happens over time after repeated contact with the hazardous chemical? ',  "options": ['A. Chronic', 'B. Acute', 'C. Severe', 'D. Malignant'], "correct": 0}, 
+
+    { "text": 'Which of the following are strategies to safely manage hazardous chemicals: ',  "options": ['A. Properly handle and store all chemicals according to the SDS', 'B. Put chemicals back into storage in their designated place', 'C. Ensure the containers are clean and sealed properly', 'D. All the above'], "correct": 3}, 
+
+    { "text": 'What would immediately be used if your clothing caught fire or if a large chemical spill had occurred on your clothing? ',  "options": ['A. Fire extinguisher', 'B. Safety shower', 'C. Laboratory sinks', 'D. Eye-wash fountain'], "correct": 1}, 
+
+    { "text": 'Describe the procedure for smelling a chemical. ',  "options": ['A. Stick your nose close to the vessel and breathe deeply', 'B. Point vessel away from face while gently fanning vapors toward nose', 'C. Never smell a chemical', 'D. Smell chemical as you would anything else'], "correct": 1}, 
+
+    { "text": 'Which  class  of extinguisher would be  best   used   for  electrical equipment like appliances, power tools, and electrical wiring? ',  "options": ['A. Class A extinguisher', 'B. Class B extinguisher', 'C. Class C extinguisher', 'D. Class D extinguisher'], "correct": 2}, 
+
+    { "text": 'In which class of fire can carbon dioxide extinguishers be used? ',  "options": ['A. Class A extinguisher', 'B. Class B extinguisher', 'C. Class C extinguisher', 'D. Class B and C'], "correct": 3}, 
+
+    { "text": 'Which of the following is a common indicator of chemical instability? ',  "options": ['A. High boiling point', 'B. Violent decomposition when heated', 'C. Low molecular weight', 'D. Odorless nature'], "correct": 1}, 
+
+    { "text": 'Which of the following chemicals should not be stored in glass containers? ',  "options": ['A. Hydrofluoric acid', 'B. NaOH solution', 'C. Ammonia solutions', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'Which of the following chemicals can be disposed in the sink? ',  "options": ['A. Combustible liquids', 'B. Lead compounds', 'C. Organic solvents like ethanol and acetone', 'D. Dilute sodium hydroxide'], "correct": 3}, 
+
+    { "text": 'Which of the following pairs of chemicals should never be stored together due to the risk of explosive reaction? ',  "options": ['A. Sodium hydroxide (NaOH) and water', 'B. Hydrogen peroxide (H2Oz) and iron filings', 'C. Acetone and nitric acid', 'D. Hydrochloric acid (HCI) sodium chloride (NaCi) and'], "correct": 2}, 
+
+    { "text": 'A student is heating an unknown compound, and a green flame appears What element is likely present? ',  "options": ['A. Sodium', 'B. Copper', 'C. Potassium', 'D. Sulfur'], "correct": 1}, 
+
+    { "text": 'Which of the following physical properties pertains to a chemicals ability to combust without aid of an ignition source at a certain temperature? ',  "options": ['A. Pour point', 'B. Flammability limit', 'C. Flash point', 'D. Auto-ignition temperature'], "correct": 3}, 
+
+    { "text": 'Which   of the following  conditions increases the   risk   of  static discharge igniting flammable vapors? ',  "options": ['A. Low humidity', 'B. High humidity', 'C. High atmospheric pressure', 'D. Large container size'], "correct": 0}, 
+
+    { "text": 'What is the main hazard of handling anhydrous ammonia? ',  "options": ['A. Highly explosive', 'B. Severe frostbite and respiratory hazard', 'C. Highly radioactive', 'D. Low toxicity and stable at all conditions'], "correct": 1}, 
+
+    { "text": 'Doses are expressed on a __________basis  ',  "options": ['A. Accuracy', 'B. Body-weight', 'C. Precision', 'D. End point'], "correct": 1}, 
+
+    { "text": 'LDSO in a toxicity test stands for________ ',  "options": ['A. a dose that will kill 50% of an exposed population', 'B. a dose that would not harm 50% of exposed population', 'C. a dose that will kill 25% of an exposed population', 'D. a dose that would not kill 25% of an exposed population'], "correct": 0}, 
+
+    { "text": "Given are the following chemicals' LCSO values. Based on their LC5O, wich of the following is the most toxic? ",  "options": ['A. Arsenic trioxide (20 mg/kg)', 'B. Ethyl alcohol (6.2 g/kg)', 'C. Aspirin (0.2 g/kg)', 'D. Botulinum toxin (2 ng/kg)'], "correct": 3}, 
+
+    { "text": 'Toxicants enter organisms through ',  "options": ['A. Ingestion', 'B. Dermal absorption', 'C. Injection', 'D. Ail of above'], "correct": 3}, 
+
+    { "text": 'What is toxicity equivalence factor? ',  "options": ['A.  Ratio of the toxicity of a chemical to that of another structurally related chemical (or index compound) chosen as a reference', 'B. Ratio of the toxicity of a contaminant to that of another structurally related chemical (or index compound) chosen as a reference', 'C. Ratio of the toxicity of a chemical to that of another chemical pollutant chosen as a reference', 'D. Ratio of the toxicity of a chemical to that of source'], "correct": 0}, 
+
+    { "text": 'What is the most common approach used to assess skin exposure to & contaminant? ',  "options": ['A. Biological monitoring is commonly used to assess total body burden or chemical contaminants', 'B. Critical flux is the does resulting from inhalation exposure combined with demal exposure', 'C. using pad or dosimeters to determine the amount of contaminant deposited on the skin', 'D. there is no recognized approach to assess skin exposure to a contaminant'], "correct": 2}, 
+
+    { "text": 'Which statement about ingestion as a route of entry into the workers body by workplace chemicals is incorrect ',  "options": ['A. ingestion is usually a significant way in which chemicale gain into the body entry _', 'B. food contamination with workplace chemicals can be a way chemicals can enter the body by ingestion', 'C. hand washing is a method of entry of chemicals by ingestion can be reduced', 'D. eating areas should be located in a part of the workplace removed from chemical contamination'], "correct": 0}, 
+
+    { "text": 'The two main   categories of skin   irritation   caused by chemicals are ',  "options": ['A. inflammation and corrosion', 'B. dermatitis and siderosis', 'C. cirrhosis and allergenic response', 'D. melanoma and skin cracking'], "correct": 0}, 
+
+    { "text": 'What are the "Permissible Exposure Limits (PEL)"? ',  "options": ['A.  An arbitrary chemical exposure limit; which is not legally enforced by OSHA', 'B. Allowable time period of chemical exposure for a worker', 'C. Legally-enforced exposure limits for a typical &-hour 5- day a week worker', 'D. The concentration at which a chemical ignites'], "correct": 2}, 
+
+    { "text": 'Lowest value on response vs dose curve is called ',  "options": ['A. Threshold Limit Value', 'B. Highest response', 'C. Average response', 'D. Relative toxicity'], "correct": 0}, 
+
+    { "text": 'A dose response curve illustrating acute toxicity usually has ',  "options": ['A. a s-shaped or sigmoidal curve', 'B. a straight line at about a 45 degree angle', 'C. and elliptical curve', 'D. a bell-shaped curve'], "correct": 0}, 
+
+    { "text": 'If the dose response curves of three chemicals are shown on the same graph, the one which intersects the X-axis (dose) at the lowest dose is ',  "options": ['A. innocuous', 'B. the most poisonous', 'C. lethal', 'D. without a threshold level'], "correct": 1}, 
+
+    { "text": 'Which of the following describes a pyrophoric substance? ',  "options": ['A. Reacts violently with acids', 'B. Spontaneously ignites in air', 'C. Decomposes at room temperature', 'D. Dissolves metals quickly'], "correct": 1}, 
+
+    { "text": 'On the multi-colored chemical label, Blue represents ',  "options": ['A. Health hazard', 'B. Specific hazards', 'C. Fire hazard', 'D. Reactivity hazards'], "correct": 0}, 
+
+    { "text": 'A chemical contains an NFPA diamond, where the yellow quadrant shows a number of 3, which means the chemical: ',  "options": ['A. Has a flash point below 73 F', 'B. Presents an extreme danger to human health', 'C. May detonate upon contact with shock or heat', 'D. Is deadly to humans'], "correct": 2}, 
+
+    { "text": 'You are performing safety audit and encounter pressurized cylinder marked with the following NFPA 704 Diamond: Blue: 4, Red: 0, Yellow: 1, White: W. A small fire has   started on wooden pallet  nearby: The   heat  is beginning to radiate toward the cylinder: Based strictly on the NFPA Diamond provided; which of the following is the most critical safety directive for the response team? ',  "options": ['A.  Use a high-pressure water hose to cool the cylinder immediately to prevent BLEVE', 'B.  Evacuate the area and utilize self-contained breathing apparatus (SCBA):', 'C. Focus on the flammability risk, as a rating of 0 indicates the gas will ignite only if preheated to over 800*C', 'D. Ignore the white quadrant waming if using a "fine mist" spray, as the W symbol only applies t0 immersion in water.'], "correct": 1}, 
+
+    { "text": 'Which GHS hazard category is considered the most dangerous for acute toxicity? ',  "options": ['A. Category 1', 'B. Category 3', 'C. Category 5', 'D. Category 6'], "correct": 0}, 
+
+
 ]
 
 # Lecture 1.2
-enviEng = [
+Environmental_EngSci = [
 
-    
+    { "text": 'It is known as Water Quality Guidelines and General Effluent Standards of 2016.', "options": ['A. DAO 34', 'B. DAO 35', 'C. RA 9275', 'D. DAO No. 2016-08'], "correct": 3 },
+
+    { "text": 'Class of water intended for primary contact recreation such as bathing, swimming, skin diving, etc.', "options": ['A. Class AA', 'B. Class A', 'C. Class B', 'D. Class C'], "correct": 2 },
+
+    { "text": 'Gas responsible for the rotten egg odor of wastewater.', "options": ['A. ammonia', 'B. amines', 'C. mercaptans', 'D. hydrogen sulfide'], "correct": 3 },
+
+    { "text": 'The resistance of water to the passage of light through it is a measure of the', "options": ['A. color', 'B. turbidity', 'C. hardness', 'D. dissolved gases'], "correct": 1 },
+
+    { "text": 'Which of the following apparatus is not used in measuring turbidity?', "options": ['A. Jackson Turbidimeter', 'B. Secchi Disk Depth', 'C. Photoelectric Colorimeter', 'D. none of these'], "correct": 2 },
+
+    { "text": 'The total solids in water are due to the presence of', "options": ['A. suspended and dissolved solids', 'B. suspended and floating solids', 'C. colloidal and settleable solids', 'D. colloidal and bacterial load'], "correct": 0 },
+
+    { "text": 'Sodium ions contribute to which characteristics of water', "options": ['A. pH', 'B. color', 'C. hardness', 'D. total dissolved solids'], "correct": 3 },
+
+    { "text": 'Compute the ThOD of 108.75 mg L\u22121 of glucose.', "options": ['A. 116 mg/L', 'B. 128 mg/L', 'C. 132 mg/L', 'D. 140 mg/L'], "correct": 0 },
+
+    { "text": 'What is the theoretical oxygen demand in liters of air for 50 mg/L solution of acetone, to decompose completely?', "options": ['A. 0.457 L', 'B. 0.224 L', 'C. 0.368 L', 'D. 0.580 L'], "correct": 2 },
+
+    { "text": 'Glutamic acid is used as one of the reagents for a standard to check the BOD test. Determine the theoretical oxygen of 150 ppm of glutamic acid.', "options": ['A. 125 ppm', 'B. 186 ppm', 'C. 212 ppm', 'D. 256 ppm'], "correct": 2 },
+
+    { "text": 'Bacterial cells have been represented by the chemical formula C5H7NO2. Compute the theoretical oxygen demand (in grams O2/mol of cells), assuming the following reactions apply.', "options": ['A. 224', 'B. 359', 'C. 180', 'D. 463'], "correct": 0 },
+
+    { "text": 'In the determination of BOD, the reaction takes place at', "options": ['A. 20\u00b0C', 'B. 30\u00b0C', 'C. 40\u00b0C', 'D. 50\u00b0C'], "correct": 0 },
+
+    { "text": 'In determination of BOD, the reaction takes place in the dark because', "options": ['A. The microorganisms are sensitive to light.', 'B. Oxygen is sensitive to light.', 'C. The reaction is enhanced in the dark.', 'D. Algae may be present and produce oxygen.'], "correct": 3 },
+
+    { "text": 'What volume of wastewater sample is required for a BOD and oxygen consumption of 25 mg/L and 2.46 mg/L, respectively?', "options": ['A. 50 mL', 'B. 20 mL', 'C. 30 mL', 'D. 40 mL'], "correct": 2 },
+
+    { "text": 'In a BOD test, 1.0 mL of raw sewage was diluted to 100 mL, maintained at 20\u00b0C. The dissolved oxygen concentration of diluted sample at the beginning was 6 ppm and it was 4 ppm after 5 days. The BOD of raw sewage in ppm is', "options": ['A. 100', 'B. 200', 'C. 300', 'D. 400'], "correct": 2},
+
+    { "text": 'A test bottle containing just seeded dilution water has its DO level drop by 1 mg/L in a five-day test. A 300 ml BOD bottle filled with 15 ml of wastewater and the rest seeded dilution water experiences a drop of 7.2 mg/L in the same time period. What would be the five-day BOD of the waste?', "options": ['A. 125 mg/L', 'B. 155 mg/L', 'C. 250 mg/L', 'D. 225 mg/L'], "correct": 0 },
+
+    { "text": 'The following data are provided to you: Seeded wastewater: Initial DO = 8.6 mg/L, Final DO (after 5 d) = 2.1 mg/L, Volume of wastewater = 2.5 mL, Total volume in BOD bottle = 300 mL. Seeded dilution water: Initial DO = 8.6 mg/L, Final DO (after 5 d) = 7.3 mg/L. Temperature = 20\u00b0C. Calculate the BOD of the sample in mg/L.', "options": ['A. 598', 'B. 625', 'C. 760', 'D. 832'], "correct": 1 },
+
+    { "text": 'For numbers 18 to 20: The dilution factor P for an unseeded mixture of waste and water is 0.030. The DO of the mixture is initially 9.0 mg/L, and after five days, it has dropped to 3 mg/L. The reaction rate constant k has been found to be 0.22 /day. What is the five-day BOD of the waste?', "options": ['A. 200 mg/L', 'B. 50 mg/L', 'C. 100 mg/L', 'D. 150 mg/L'], "correct": 0 },
+
+    { "text": 'For numbers 18 to 20: The dilution factor P for an unseeded mixture of waste and water is 0.030. The DO of the mixture is initially 9.0 mg/L, and after five days, it has dropped to 3 mg/L. The reaction rate constant k has been found to be 0.22 /day.: What would be the ultimate carbonaceous BOD?', "options": ['A. 300 mg/L', 'B. 400 mg/L', 'C. 500 mg/L', 'D. 200 mg/L'], "correct": 0 },
+
+    { "text": 'For numbers 18 to 20: The dilution factor P for an unseeded mixture of waste and water is 0.030. The DO of the mixture is initially 9.0 mg/L, and after five days, it has dropped to 3 mg/L. The reaction rate constant k has been found to be 0.22 /day.: What would be the remaining oxygen demand after five days?', "options": ['A. 100 mg/L', 'B. 75 mg/L', 'C. 200 mg/L', 'D. 50 mg/L'], "correct": 0 },
+
+    { "text": 'A standard 5-Day BOD test is run using a mix consisting of three parts of distilled water and one-part wastewater. If the initial dissolved oxygen of the mix is 10 mg/L and after 5 days, the dissolved oxygen is 4 mg/L. The dissolved oxygen value after a long period of time is 1 mg/L. Calculate the rate constant k (/day).', "options": ['A. 0.123', 'B. 0.209', 'C. 0.220', 'D. 0.188'], "correct": 2 },
+
+    { "text": 'Determine the BOD2 of a sample wastewater if its BOD5 is 135 mg/L with a rate constant of 0.23/d.', "options": ['A. 197.55 mg/L', 'B. 72.84 mg/L', 'C. 40.6 mg/L', 'D. 60.5 mg/L'], "correct": 1 },
+
+    { "text": 'The BOD5 of a domestic wastewater at 20\u00b0C is 220 mg/L and its ultimate BOD is 320 mg/L. Calculate the rate constant at 15\u00b0C.', "options": ['A. 0.062/d', 'B. 0.124/d', 'C. 0.248/d', 'D. 0.496/d'], "correct": 1 },
+
+    { "text": 'For numbers 24 to 25: The town of Aveta discharges 17,360 m3/day of treated wastewater into the Tefnet Creek. The treated wastewater has a BOD5 of 12 mg/L and a BOD decay constant, k, of 0.12 day\u22121 at 20\u00b0C. Tefnet Creek has a flow rate of 0.43 m3/s and an ultimate BOD, Lo, of 5.0 mg/L. The DO of the river is 6.5 mg/L and the DO of the wastewater is 1.0 mg/L. Compute the DO and initial ultimate BOD, Lo, after mixing.', "options": ['A. 4.75 and 12 mg/L', 'B. 3.36 and 11 mg/L', 'C. 5.22 and 13 mg/L', 'D. 6.07 and 14 mg/L'], "correct": 0 },
+
+    { "text": 'For numbers 24 to 25: The town of Aveta discharges 17,360 m3/day of treated wastewater into the Tefnet Creek. The treated wastewater has a BOD5 of 12 mg/L and a BOD decay constant, k, of 0.12 day\u22121 at 20\u00b0C. Tefnet Creek has a flow rate of 0.43 m3/s and an ultimate BOD, Lo, of 5.0 mg/L. The DO of the river is 6.5 mg/L and the DO of the wastewater is 1.0 mg/L. Calculate the initial deficit of the Tefnet Creek after mixing with the wastewater from the town of Aveta. The stream temperature is 10\u00b0C, and the wastewater temperature is 10\u00b0C. The saturated dissolved oxygen at 10\u00b0C is 11.33 mg/L.', "options": ['A. 7.2 mg/L', 'B. 8.0 mg/L', 'C. 6.6 mg/L', 'D. 4.5 mg/L'], "correct": 2 },
+
+    { "text": 'You learned from your environmental engineering class that the change in dissolve oxygen (DO) concentration with respect to time can be determined from the rate of re-aeration and the rate of decomposition of oxygen demanding material. Rate of re-aeration of DO = -t\u00b2 + 5. Rate of O2 demanding material decomposition = 2t - t\u00b2. Where t is time in days and the rates are in units of mg/L-days. If the DO saturation is 6.25 mg/L and that at t = 0, the DO concentration is also zero, what is the oxygen deficit of the lake, in mg/L after 1 day?', "options": ['A. 1.69 mg/L', 'B. 0.88 mg/L', 'C. 2.25 mg/L', 'D. 3.03 mg/L'], "correct": 2},
+
+    { "text": 'Which of the following is not a physical characteristic of wastewater?', "options": ['A. odor', 'B. turbidity', 'C. color', 'D. hardness'], "correct": 3 },
+
+    { "text": 'It is the phenomenon that results in the overabundance of algae growth in bodies of water. It is also the natural process of nutrient enrichment that occurs over time in a body of water.', "options": ['A. biomagnification', 'B. eutrophication', 'C. anaerobic respiration', 'D. thermal inversion'], "correct": 1 },
+
+    { "text": 'Involves the accumulation of trace metals through each species of the food chain.', "options": ['A. biomagnification', 'B. denitrification', 'C. anaerobic respiration', 'D. eutrophication'], "correct": 0 },
+
+    { "text": 'A trace metal which causes Itai-itai disease is', "options": ['A. cadmium', 'B. silver', 'C. mercury', 'D. chromium'], "correct": 0 },
+
+    { "text": 'A water contains 100.0 mg/L CO3\u00b2\u207b and 75.0 mg/L HCO3\u207b at a pH of 10 (T = 25\u00b0C). Calculate the exact alkalinity in mg/L as CaCO3. Approximate the alkalinity by ignoring the appropriate chemical species.', "options": ['A. 225', 'B. 217', 'C. 233', 'D. 247'], "correct": 2 },
+
+    { "text": 'Hardness of water is usually expressed in parts per million of', "options": ['A. MgSO4', 'B. CaCO3', 'C. Na2CO3', 'D. CaCl2'], "correct": 1 },
+
+    { "text": 'A sample of groundwater has 150 milligrams per liter of Ca\u00b2\u207a and 60 milligrams per liter of Mg\u00b2\u207a, how would this water be classified?', "options": ['A. soft', 'B. moderately hard', 'C. slightly hard', 'D. very hard'], "correct": 3 },
+
+    { "text": 'If a water sample was found to contain 19.2 mg/L of magnesium ion and 44.4 mg/L of calcium ion, express the amount of hardness in mg/L as CaCO3. The sample case is from a Maynilad source.', "options": ['A. 156', 'B. 200', 'C. 189', 'D. 175'], "correct": 2 },
+
+    { "text": 'For numbers 35 to 39: The analysis of a sample of water with pH 7.5 has produced the following concentrations (mg/L). Cations: Ca\u00b2\u207a 80, Mg\u00b2\u207a 30, Na\u207a 72, K\u207a 6. Anions: HCO3\u207b 165, Cl\u207b 100, SO4\u00b2\u207b 201. Find the total hardness.', "options": ['A. 323', 'B. 188', 'C. 135', 'D. 123'], "correct": 0 },
+
+    { "text": 'For numbers 35 to 39: The analysis of a sample of water with pH 7.5 has produced the following concentrations (mg/L). Cations: Ca\u00b2\u207a 80, Mg\u00b2\u207a 30, Na\u207a 72, K\u207a 6. Anions: HCO3\u207b 165, Cl\u207b 100, SO4\u00b2\u207b 201. find the carbonate hardness.', "options": ['A. 323', 'B. 188', 'C. 135', 'D. 123'], "correct": 2 },
+
+    { "text": 'For numbers 35 to 39: The analysis of a sample of water with pH 7.5 has produced the following concentrations (mg/L). Cations: Ca\u00b2\u207a 80, Mg\u00b2\u207a 30, Na\u207a 72, K\u207a 6. Anions: HCO3\u207b 165, Cl\u207b 100, SO4\u00b2\u207b 201, find the noncarbonated hardness.', "options": ['A. 323', 'B. 188', 'C. 135', 'D. 123'], "correct": 1 },
+
+    { "text": 'For numbers 35 to 39: The analysis of a sample of water with pH 7.5 has produced the following concentrations (mg/L). Cations: Ca\u00b2\u207a 80, Mg\u00b2\u207a 30, Na\u207a 72, K\u207a 6. Anions: HCO3\u207b 165, Cl\u207b 100, SO4\u00b2\u207b 201, find the alkalinity, all expressed as CaCO3.', "options": ['A. 323', 'B. 188', 'C. 135', 'D. 123'], "correct": 2 },
+
+    { "text": 'For numbers 35 to 39: The analysis of a sample of water with pH 7.5 has produced the following concentrations (mg/L). Cations: Ca\u00b2\u207a 80, Mg\u00b2\u207a 30, Na\u207a 72, K\u207a 6. Anions: HCO3\u207b 165, Cl\u207b 100, SO4\u00b2\u207b 201, find the total dissolved solids (TDS) in mg/L.', "options": ['A. 650', 'B. 860', 'C. 770', 'D. 590'], "correct": 0 },
+
+    { "text": 'For numbers 40 to 42: The following mineral analysis was reported for a water sample taken from well No. 1 at the Eastwood Manor Subdivision near McHenry Illinois (Woller and Sanderson, 1976a). Iron(2+) 0.2, Manganese 0, Ammonium 0.5, Sodium 4.7, Potassium 0.9, Calcium 67.2, Magnesium 40.0, Barium 0.5, Silica 20.0, Fluoride 0.35, Boron 0.1, Nitrate 0.0, Chloride 4.5, Sulfate 29.0, Alkalinity 284 as CaCO3, pH 7.6 units (all mg/L as the ion unless stated otherwise). Determine the total hardness.', "options": ['A. 284', 'B. 0', 'C. 335', 'D. 51'], "correct": 2 },
+
+    { "text": 'For numbers 40 to 42: The following mineral analysis was reported for a water sample taken from well No. 1 at the Eastwood Manor Subdivision near McHenry Illinois (Woller and Sanderson, 1976a). Iron(2+) 0.2, Manganese 0, Ammonium 0.5, Sodium 4.7, Potassium 0.9, Calcium 67.2, Magnesium 40.0, Barium 0.5, Silica 20.0, Fluoride 0.35, Boron 0.1, Nitrate 0.0, Chloride 4.5, Sulfate 29.0, Alkalinity 284 as CaCO3, pH 7.6 units (all mg/L as the ion unless stated otherwise)., determine the carbonate hardness.', "options": ['A. 284', 'B. 0', 'C. 335', 'D. 51'], "correct": 0 },
+
+    { "text": 'For numbers 40 to 42: The following mineral analysis was reported for a water sample taken from well No. 1 at the Eastwood Manor Subdivision near McHenry Illinois (Woller and Sanderson, 1976a). Iron(2+) 0.2, Manganese 0, Ammonium 0.5, Sodium 4.7, Potassium 0.9, Calcium 67.2, Magnesium 40.0, Barium 0.5, Silica 20.0, Fluoride 0.35, Boron 0.1, Nitrate 0.0, Chloride 4.5, Sulfate 29.0, Alkalinity 284 as CaCO3, pH 7.6 units (all mg/L as the ion unless stated otherwise)., determine the non-carbonate hardness.', "options": ['A. 284', 'B. 0', 'C. 335', 'D. 51'], "correct": 3 },
+
+    { "text": 'The following mineral analysis was reported for a water sample taken from well No. 1 at Magnolia, Illinois (Woller and Sanderson, 1976b). Iron(2+) 0.42, Manganese 0.04, Ammonium 11.0, Sodium 78.0, Potassium 2.6, Calcium 78.0, Magnesium 40.0, Barium 0.5, Copper 0.01, Silica 20.0, Fluoride 0.3, Boron 0.3, Nitrate 0.0, Chloride 9.0, Sulfate 29.0, Zinc 0.01, pH 7.7 units, Alkalinity 494.035 as CaCO3. Determine the noncarbonate hardness (in mg/L as CaCO3), using the predominant polyvalent cation definition of hardness.', "options": ['A. 0', 'B. 494', 'C. 327', 'D. 110'], "correct": 0 },
+
+    { "text": 'Type of wastewater treatment that employs physical and chemical treatment methods to remove or reduce a high percentage of suspended solids and toxic materials.', "options": ['A. Primary Treatment', 'B. Tertiary Treatment', 'C. Secondary Treatment', 'D. Minor Treatment'], "correct": 0 },
+
+    { "text": 'Hard water can be softened by', "options": ['A. letting the calcium or magnesium ions settle out', 'B. passing it through an ion exchanger', 'C. chlorination', 'D. filtration'], "correct": 1 },
+
+    { "text": 'A home water softener has 0.1 m3 of ion-exchange resin with an exchange capacity of 62 kg\u00b7m\u22123. The four home residents each use water at a rate of 400 L\u00b7day\u22121. The well water they are using contains 340.0 mg\u00b7L\u22121 of hardness as CaCO3. It is desirable to soften it to achieve a total hardness of 100 mg\u00b7L\u22121 as CaCO3. What should the bypass flow rate be?', "options": ['A. 471 L/d', 'B. 333 L/d', 'C. 560 L/d', 'D. 600 L/d'], "correct": 0 },
+
+    { "text": 'Removal of all settleable particles rendered settleable under the influence of gravity, basically the theory of gravity under the influence of which all particles heavier than water tend to settle down.', "options": ['A. screening', 'B. flotation', 'C. sedimentation', 'D. flocculation'], "correct": 2 },
+
+    { "text": 'Process whereby coarse matter (suspended or floating) of a certain size can be strained out of flowing water with the aid of bars, fine wires or rocks.', "options": ['A. screening', 'B. sedimentation', 'C. flotation', 'D. flocculation'], "correct": 0 },
+
+    { "text": 'Which of the following is NOT a secondary treatment process?', "options": ['A. Trickling filter', 'B. Chlorination', 'C. Activated sludge process', 'D. Anaerobic digestion'], "correct": 3 },
+
+    { "text": 'Water treatment that destroys disease-causing bacteria, nuisance bacteria, parasites and other organisms and removes soluble irons, manganese and hydrogen sulfide from water.', "options": ['A. disinfection', 'B. flocculation', 'C. chlorination', 'D. coagulation'], "correct": 2 },
+
+    { "text": 'A code for plastics used for food wrapping, trash bags, grocery bags and baby diapers.', "options": ['A. 2', 'B. 3', 'C. 4', 'D. 5'], "correct": 2 },
+
+    { "text": 'It is the international salute that is currently the primary basis of the Philippines in its latest environmental dispute with Canada.', "options": ['A. Kyoto Protocol', 'B. Basel Convention', 'C. Copenhagen Talks', 'D. Montreal Protocol'], "correct": 1 },
+
+    { "text": 'Ecological Solid Waste Act of 2000 is otherwise known as', "options": ['A. RA 6969', 'B. RA 8749', 'C. RA 9003', 'D. RA 9275'], "correct": 2 },
+
+    { "text": '"Smokey Mountain" is a typical example of a facility for solid waste. It is classified as', "options": ['A. open dumping site', 'B. sanitary landfill', 'C. transfer station', 'D. material recovery facility'], "correct": 0 },
+
+    { "text": 'A global treaty that aims to diminish and eventually phase out chlorofluorocarbons.', "options": ['A. Montreal Protocol', 'B. Kyoto Protocol', 'C. Stockholm Convention', 'D. none of these'], "correct": 2 },
+
+    { "text": 'Collective term for the initial POPs identified by the Stockholm Convention', "options": ['A. Dirty 12', 'B. 12 POPs', 'C. Dirty Dozens', 'D. EDCs'], "correct": 2 },
+
+    { "text": 'It is an odorless and colorless gas that is lethal to humans with exposure as short as a few minutes to concentrations exceeding 5000 ppm. It reacts with hemoglobin in the blood rendering the latter incapable of carrying oxygen to the body.', "options": ['A. carbon monoxide', 'B. hydrogen sulfide', 'C. sulfur dioxide', 'D. sulfur trioxide'], "correct": 1 },
+
+    { "text": 'Pick out the wrong statement.', "options": ['A. The concentric atmosphere layer just above troposphere is called stratosphere, which is rich in ozone.', 'B. Mesosphere is characterized by very low atmosphere pressure and low temperature.', 'C. Troposphere is a dusty zone containing water vapor and clouds.', 'D. The radio waves used in long-distance radio communication are reflected to earth by stratosphere.'], "correct": 3 },
+
+    { "text": 'The rate at which temperature in the atmosphere changes with altitude is called', "options": ['A. vertical rate', 'B. lapse rate', 'C. temperature change', 'D. thermal rate'], "correct": 2 },
+
+    { "text": 'Which of the acid combinations is the dominant composition of acid rain?', "options": ['A. nitric acid and carbonic acid', 'B. nitric acid and sulfuric acid', 'C. carbonic acid and sulfuric acid', 'D. none of the above'], "correct": 1 },
+
+    { "text": 'What is the primary purpose of coagulation in water treatment?', "options": ['A. Remove dissolved gases', 'B. Kill bacteria', 'C. Destabilize suspended particles', 'D. Remove dissolved salts'], "correct": 2 },
+
+    { "text": 'Which of the following is a common coagulant used in water treatment?', "options": ['A. Activated carbon', 'B. Aluminum sulfate', 'C. Sodium hypochlorite', 'D. Ozone'], "correct": 1 },
+
+    { "text": 'What is the role of a flocculant in water treatment?', "options": ['A. Reduces pH levels', 'B. Increases microbial activity', 'C. Helps in aggregation of fine particles', 'D. Removes dissolved salts'], "correct": 2 },
+
+    { "text": 'Reverse osmosis (RO) is mainly used to remove:', "options": ['A. Suspended solids', 'B. Bacteria', 'C. Dissolved salts', 'D. Heavy metals'], "correct": 2 },
+
+    { "text": 'The removal of dissolved organic carbon (DOC) in water treatment is typically done using:', "options": ['A. Ozonation', 'B. Sand filtration', 'C. Reverse osmosis', 'D. Activated carbon adsorption'], "correct": 3 },
+
+    { "text": 'What is the main drawback of using activated carbon in water treatment?', "options": ['A. It releases harmful byproducts', 'B. It requires high energy input', 'C. It has a limited adsorption capacity and needs frequent replacement', 'D. It is only effective against suspended solids'], "correct": 2 },
+
+    { "text": 'Which of the following processes is used to remove phosphorus from wastewater?', "options": ['A. biological denitrification', 'B. chemical precipitation with alum or ferric chloride', 'C. membrane filtration', 'D. adsorption onto activated carbon'], "correct": 1 },
+
+    { "text": 'What is the most common method for removing nitrates from water?', "options": ['A. Coagulation', 'B. Flocculation', 'C. Ion exchange', 'D. Chemical precipitation'], "correct": 2 },
+
+    { "text": 'Which of the following is the best method to remove arsenic from water?', "options": ['A. Boiling', 'B. Chlorination', 'C. Reverse osmosis', 'D. Sand filtration'], "correct": 2 },
+
+    { "text": 'What is the purpose of aeration in water treatment?', "options": ['A. Removal of pathogens', 'B. Oxidation of iron and manganese', 'C. Reduction of temperature', 'D. Decreasing pH'], "correct": 1 },
+
+    { "text": 'What is the primary advantage of using ozone for water disinfection?', "options": ['A. It produces no byproducts', 'B. It is more effective than chlorine against viruses', 'C. It has a longer residual effect than chlorine', 'D. It is the cheapest method available'], "correct": 1 },
+
+    { "text": 'The main advantage of trickling filter over activated sludge is:', "options": ['A. lower power requirement', 'B. higher BOD removal efficiency', 'C. smaller footprint', 'D. better pathogen removal'], "correct": 0 },
+
+    { "text": 'Sludge from primary settling tanks is mostly composed of:', "options": ['A. Inorganic salts', 'B. Biologically active microorganisms', 'C. Heavy metals', 'D. Settleable organic solids'], "correct": 3 },
+
+    { "text": 'What is the primary advantage of using anaerobic digestion in wastewater treatment?', "options": ['A. It produces a high-quality effluent for drinking water', 'B. It reduces the volume of sludge generated and produces biogas', 'C. It is cheaper than aerobic processes', 'D. It increases the dissolved oxygen levels in the effluent'], "correct": 1 },
+
+    { "text": 'The final stage of wastewater treatment often involves:', "options": ['A. sedimentation', 'B. disinfection', 'C. coagulation', 'D. aeration'], "correct": 1 },
+
+    { "text": 'If a municipal water treatment plant has a flow rate of 20,000 m\u00b3/day and the required alum dosage is 20 mg/L, how much alum (in kg) is needed per day?', "options": ['A. 200 kg', 'B. 400 kg', 'C. 600 kg', 'D. 800 kg'], "correct": 1 },
+
+    { "text": 'A sludge thickener processes 500 m\u00b3/day of sludge with an initial solid content of 2%. If the thickened sludge has a solid content of 5%, what is the final sludge volume (m\u00b3/day)?', "options": ['A. 100', 'B. 250', 'C. 200', 'D. 400'], "correct": 2 },
+
+    { "text": 'The biochemical oxygen demand (BOD) of a water sample measures:', "options": ['A. Total dissolved solids', 'B. Heavy metal contamination', 'C. Organic pollutants', 'D. Nutrient levels'], "correct": 1 },
+
+    { "text": 'In BOD testing, why is dilution of the sample often required?', "options": ['A. To improve nutrient balance', 'B. To prevent oxygen supersaturation', 'C. To avoid complete oxygen depletion', 'D. To accelerate oxidation'], "correct": 2 },
+
+    { "text": 'COD is preferred over BOD when:', "options": ['A. High accuracy is needed', 'B. Time constraints exist', 'C. Organic matter is highly biodegradable', 'D. Wastewater is free of chemicals'], "correct": 1 },
+
+    { "text": 'Which reagent is used in the standard COD test?', "options": ['A. Ferric chloride', 'B. Sodium hydroxide', 'C. Potassium dichromate', 'D. Calcium carbonate'], "correct": 2 },
+
+    { "text": 'If BOD is greater than COD, it indicates:', "options": ['A. Presence of heavy metals', 'B. Non-biodegradable pollution', 'C. Error in measurement', 'D. Presence of toxic substances'], "correct": 2 },
+
+    { "text": 'What is the typical COD/BOD ratio for domestic wastewater?', "options": ['A. 0.5 \u2013 0.8', 'B. 1.5 \u2013 2.5', 'C. 3.0 \u2013 4.0', 'D. 5.0 \u2013 6.0'], "correct": 1 },
+
+    { "text": 'A wastewater sample contains 250 mg/L COD and 200 mg/L BOD. What is the biodegradability index?', "options": ['A. 0.6', 'B. 0.8', 'C. 0.7', 'D. 0.9'], "correct": 1 },
+
+    { "text": 'A wastewater treatment plant treats 50,000 m\u00b3/day with an influent BOD of 250 mg/L and an effluent BOD of 30 mg/L. What is the daily BOD load removed (kg)?', "options": ['A. 10,500 kg', 'B. 11,000 kg', 'C. 12,000 kg', 'D. 13,500 kg'], "correct": 1 },
+
+    { "text": 'The COD of a wastewater sample is 400 mg/L. If the sample volume is 2 liters, how much oxygen (mg) is required for complete oxidation?', "options": ['A. 600 mg', 'B. 1,200 mg', 'C. 800 mg', 'D. 1,600 mg'], "correct": 2 },
+
+    { "text": 'The term "carbon footprint" refers to:', "options": ['A. Carbon dioxide emissions only', 'B. All greenhouse gas emissions in CO2 equivalent', 'C. Only industrial emissions', 'D. The weight of carbon in a fuel sample'], "correct": 1 },
+
+    { "text": 'Which gas is excluded when calculating carbon dioxide equivalent (CO2e)?', "options": ['A. CH4', 'B. O3', 'C. N2O', 'D. CO2'], "correct": 1 },
+
+    { "text": 'Carbon intensity refers to:', "options": ['A. Energy per unit mass', 'B. CO2 emitted per unit energy produced', 'C. Fuel weight per km traveled', 'D. Thermal conductivity of carbon'], "correct": 1 },
+
+    { "text": 'What is the main source of carbon footprint in cement production?', "options": ['A. Fuel combustion', 'B. Transportation', 'C. Chemical decomposition of limestone', 'D. Electricity consumption'], "correct": 2 },
+
+    { "text": 'Which of the following environmental issues is most directly linked to the increase in CO2 concentration in the atmosphere?', "options": ['A. Loss of biodiversity', 'B. Ocean acidification', 'C. Ozone layer depletion', 'D. Desertification'], "correct": 1 },
+
+    { "text": 'The most significant source of anthropogenic methane is:', "options": ['A. Volcanoes', 'B. Landfills', 'C. Lightning', 'D. Ocean currents'], "correct": 1 },
+
+    { "text": 'The GHG Protocol divides emissions into how many Scopes?', "options": ['A. 2', 'B. 3', 'C. 4', 'D. 5'], "correct": 1 },
+
+    { "text": 'Which sector is classified under Scope 3 emissions?', "options": ['A. Purchased steam', 'B. Company-owned vehicles', 'C. Emissions from upstream transportation', 'D. On-site combustion'], "correct": 2 },
+
+    { "text": 'Which statement about Scope 2 emissions is true?', "options": ['A. They are under direct operational control', 'B. They result from outsourced production', 'C. They arise from purchased energy', 'D. They relate to product use phase'], "correct": 2 },
+
+    { "text": 'Emissions from leased buildings are typically categorized under:', "options": ['A. Scope 1', 'B. Scope 2', 'C. Scope 3', 'D. Not reported'], "correct": 2 },
+
+    { "text": 'What is a typical emission factor used for calculating CO2 from diesel combustion?', "options": ['A. 0.5 kg CO2/L', 'B. 2.68 kg CO2/L', 'C. 4.2 kg CO2/L', 'D. 7.9 kg CO2/L'], "correct": 1 },
+
+    { "text": 'A coal-fired power plant emits 2.2 tons of CO2 per MWh. If it operates at 500 MW for 10 hours, how much CO2 is emitted?', "options": ['A. 1,100 tons', 'B. 2,200 tons', 'C. 3,000 tons', 'D. 5,500 tons'], "correct": 0 },
+
+    { "text": 'The Air Quality Index (AQI) includes which of the following parameters?', "options": ['A. PM, NO2, O3, CO', 'B. VOCs, UV, noise', 'C. Temperature, wind speed, humidity', 'D. Methane, ethane, propane'], "correct": 0 },
+
+    { "text": 'Which gas has the highest global warming potential (GWP)?', "options": ['A. CO2', 'B. N2O', 'C. CH4', 'D. SF6'], "correct": 3 },
+
+    { "text": 'What is the primary reaction mechanism behind the formation of tropospheric ozone?', "options": ['A. CO2 reacting with water vapor', 'B. VOCs and NOx reacting under sunlight', 'C. SO2 and NO2 condensation', 'D. Methane combustion'], "correct": 1 },
+
+    { "text": 'Photochemical smog is typically formed in:', "options": ['A. Forested areas', 'B. Coastal regions', 'C. Urban centers under high sunlight', 'D. Areas with low wind speed and low temperature'], "correct": 2 },
+
+    { "text": 'What is the primary goal of carbon capture and storage (CCS)?', "options": ['A. Reduce air pollution', 'B. Remove carbon dioxide from the atmosphere', 'C. Improve energy efficiency', 'D. Increase fossil fuel production'], "correct": 1 },
+
+    { "text": 'What is the primary environmental concern with hydrofluorocarbons (HFCs)?', "options": ['A. Water pollution', 'B. Toxicity to plants', 'C. High global warming potential', 'D. Ozone layer depletion'], "correct": 2 },
+
+    { "text": 'Which protocol was established to reduce greenhouse gas emissions?', "options": ['A. Montreal Protocol', 'B. Kyoto Protocol', 'C. Basel Convention', 'D. Stockholm Convention'], "correct": 1 },
+
+    { "text": 'Which of the following gases is not included in the Kyoto Protocol\u2019s "basket of six" GHGs?', "options": ['A. CO2', 'B. NH3', 'C. CH4', 'D. SF6'], "correct": 1 },
+
+    { "text": 'What is the goal of the Paris Agreement?', "options": ['A. Eliminate fossil fuel usage', 'B. Keep global warming below 2\u00b0C', 'C. Reduce ozone depletion', 'D. Promote nuclear energy'], "correct": 1 },
+
+    { "text": 'Which of the following best describes "extended producer responsibility" (EPR)?', "options": ['A. Regulations that force consumers to reduce waste', 'B. A program that encourages producers to take responsibility for the entire lifecycle of their products, including disposal', 'C. Requirements for government agencies to manage waste disposal', 'D. A law that mandates waste recycling only in urban areas'], "correct": 1 },
+
+    { "text": 'The primary environmental impact of urban sprawl is:', "options": ['A. Decreased air quality due to increased vehicle emissions', 'B. Increased biodiversity in urban areas', 'C. Improved access to green spaces', 'D. Reduced energy consumption'], "correct": 0 },
+
+    { "text": 'A wind turbine has a capacity factor of 35% and a rated capacity of 2 MW. How much energy (MWh) does it produce annually?', "options": ['A. 5,000', 'B. 6,132', 'C. 7,665', 'D. 8,760'], "correct": 1 },
+
 ]
+
+
 
 # ----------------------------------------CHEMTECH---------------------------
 
-inorgCHEM_CTECH = [
+CT_Inorganic_Chemistry = [
 
     { "text": ' Protium, the most common isotope of hydrogen has one proton and one electron. What is its mass? ',  "options": ['A. 1.67x10-27 g', 'B. 3.35X 10-27 g', 'C. 1.67X10-27 kg', 'D. 9.11x10-31 kg'], "correct": 2}, 
 
@@ -2349,7 +2719,7 @@ inorgCHEM_CTECH = [
 
 ]
 
-anachem_CTECH = [
+CT_Analytic_Chemistry = [
 
     { "text": 'A solution has 3x10-4 M Cu2+, what is the equivalent concentration in ppm? (Cu = 63.55 g/mol) ',  "options": ['A. 3', 'B. 38', 'C.  9', 'D.  19'], "correct": 3}, 
 
@@ -2437,7 +2807,7 @@ anachem_CTECH = [
 
 ]
 
-qaqc_CTech = [
+CT_Quality_Control_Assurance = [
 
     { "text": 'It is part of quality systems that is officially defined by the ISO as the assembly of all planned and systematic actions to provide adequate confidence that a product, process, or service will satisfy the given quality requirements ',  "options": ['A. Quality management', 'B. Quality assurance', 'C. Quality control', 'D. Quality manual'], "correct": 1}, 
 
