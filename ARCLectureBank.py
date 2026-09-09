@@ -2840,3 +2840,209 @@ CT_Quality_Control_Assurance = [
     { "text": 'A reactive part of the quality management system that is concerned on the quality of the product, especially those materials that are soon to be released to the customer ',  "options": ['A. Quality assurance', 'B. Quality control', 'C. Quality audit', 'D. Quality evaluation'], "correct": 1}, 
 
 ]
+
+------------------------- AI GENERATED CT Question Bank --------------------------------
+
+ai_CHEMTECH_SET1 = [
+  { "text": 'A 5.00 g sample of NaCl is dissolved in enough water to make 250.0 mL solution. What is the molarity of NaCl? (M.M. = 58.44 g/mol)', "options": ['A. 0.0855 M', 'B. 0.171 M', 'C. 0.342 M', 'D. 0.855 M'], "correct": 1 },
+
+  { "text": 'What mass of NaOH is required to prepare 500.0 mL of 0.200 M NaOH? (M.M. = 40.00 g/mol)', "options": ['A. 2.00 g', 'B. 4.00 g', 'C. 8.00 g', 'D. 10.0 g'], "correct": 1 },
+
+  { "text": 'A solution contains 10.0 g glucose (C6H12O6, M.M. 180.0 g/mol) in 90.0 g water. What is the molality?', "options": ['A. 0.500 m', 'B. 0.556 m', 'C. 0.617 m', 'D. 1.11 m'], "correct": 1 },
+
+  { "text": 'How many moles of H2SO4 are present in 25.0 mL of 0.500 M H2SO4?', "options": ['A. 0.0125 mol', 'B. 0.0250 mol', 'C. 0.0500 mol', 'D. 0.125 mol'], "correct": 0 },
+
+  { "text": 'A gas occupies 2.50 L at 1.20 atm and 300 K. What volume will it occupy at 1.00 atm and 350 K?', "options": ['A. 2.92 L', 'B. 3.50 L', 'C. 3.72 L', 'D. 4.20 L'], "correct": 2 },
+
+  { "text": 'What is the pH of 0.0100 M HCl?', "options": ['A. 1.00', 'B. 2.00', 'C. 10.00', 'D. 12.00'], "correct": 1 },
+
+  { "text": 'What is the pOH of 0.0010 M NaOH at 25 °C?', "options": ['A. 3.00', 'B. 7.00', 'C. 11.00', 'D. 13.00'], "correct": 0 },
+
+  { "text": 'A buffer contains equal concentrations of a weak acid HA and its conjugate base A−. If pKa = 4.76, what is the pH?', "options": ['A. 2.38', 'B. 4.76', 'C. 7.00', 'D. 9.24'], "correct": 1 },
+
+  { "text": 'What is the oxidation state of Cr in K2Cr2O7?', "options": ['A. +3', 'B. +4', 'C. +6', 'D. +7'], "correct": 2 },
+
+  { "text": 'Which species is the strongest oxidizing agent under standard conditions?', "options": ['A. F2', 'B. Cl2', 'C. Br2', 'D. I2'], "correct": 0 },
+
+  { "text": 'What volume of 1.00 M HCl is needed to completely neutralize 25.0 mL of 0.500 M NaOH?', "options": ['A. 6.25 mL', 'B. 12.5 mL', 'C. 25.0 mL', 'D. 50.0 mL'], "correct": 1 },
+
+  { "text": 'What is the mass percent of oxygen in H2SO4? (H=1, S=32, O=16)', "options": ['A. 32.7%', 'B. 49.0%', 'C. 65.3%', 'D. 98.0%'], "correct": 2 },
+
+  { "text": 'A compound contains 40.0% C, 6.67% H, and 53.33% O by mass. What is its empirical formula?', "options": ['A. CH2O', 'B. C2H4O2', 'C. C3H6O3', 'D. CHO'], "correct": 0 },
+
+  { "text": 'How many molecules are present in 0.250 mol CO2?', "options": ['A. 1.51 × 10^23', 'B. 6.02 × 10^23', 'C. 2.41 × 10^24', 'D. 4.15 × 10^22'], "correct": 0 },
+
+  { "text": 'A reaction has a theoretical yield of 12.0 g and an actual yield of 9.60 g. What is the percent yield?', "options": ['A. 20.0%', 'B. 60.0%', 'C. 80.0%', 'D. 125%'], "correct": 2 },
+
+  { "text": 'What is the limiting reactant when 2.0 mol H2 reacts with 2.0 mol O2 according to 2H2 + O2 → 2H2O?', "options": ['A. H2', 'B. O2', 'C. H2O', 'D. Neither; exact stoichiometric ratio'], "correct": 0 },
+
+  { "text": 'What pressure is exerted by 0.500 mol gas in a 10.0 L vessel at 300 K? (R = 0.08206 L·atm/mol·K)', "options": ['A. 0.410 atm', 'B. 1.23 atm', 'C. 12.3 atm', 'D. 24.6 atm'], "correct": 1 },
+
+  { "text": 'At constant temperature, if the pressure of a gas doubles, its volume will:', "options": ['A. Double', 'B. Halve', 'C. Quadruple', 'D. Remain unchanged'], "correct": 1 },
+
+  { "text": 'The enthalpy change for a reaction is -125 kJ/mol. The reaction is:', "options": ['A. Endothermic', 'B. Exothermic', 'C. Isothermal', 'D. Adiabatic'], "correct": 1 },
+
+  { "text": 'For an equilibrium reaction, Kc = 1.0 × 10^-5. The equilibrium mixture contains:', "options": ['A. Mostly products', 'B. Mostly reactants', 'C. Equal amounts necessarily', 'D. Only products'], "correct": 1 },
+
+  { "text": 'What happens to the equilibrium N2 + 3H2 ⇌ 2NH3 when pressure is increased at constant temperature?', "options": ['A. Shifts left', 'B. Shifts right', 'C. No effect', 'D. Kc increases'], "correct": 1 },
+
+  { "text": 'A catalyst speeds up a reversible reaction by:', "options": ['A. Increasing Kc', 'B. Decreasing ΔG°', 'C. Lowering activation energy', 'D. Increasing product concentration'], "correct": 2 },
+
+  { "text": 'For a first-order reaction, the half-life is:', "options": ['A. Dependent on initial concentration', 'B. Independent of initial concentration', 'C. Inversely proportional to concentration squared', 'D. Zero at equilibrium'], "correct": 1 },
+
+  { "text": 'Which rate law corresponds to a second-order reaction in A?', "options": ['A. Rate = k[A]', 'B. Rate = k[A]^2', 'C. Rate = k', 'D. Rate = k/[A]'], "correct": 1 },
+
+  { "text": 'What is the freezing point of a 1.00 m aqueous glucose solution? (Kf water = 1.86 °C·kg/mol)', "options": ['A. -0.537 °C', 'B. -1.86 °C', 'C. +1.86 °C', 'D. -3.72 °C'], "correct": 1 },
+
+  { "text": 'Which law states that the total pressure of a mixture of gases equals the sum of the partial pressures?', "options": ['A. Boyle’s law', 'B. Dalton’s law', 'C. Charles’s law', 'D. Henry’s law'], "correct": 1 },
+
+  { "text": 'A solution has [H+] = 2.0 × 10^-4 M. What is its pH?', "options": ['A. 2.70', 'B. 3.70', 'C. 4.70', 'D. 10.30'], "correct": 1 },
+
+  { "text": 'What is the conjugate base of H2PO4−?', "options": ['A. H3PO4', 'B. HPO4^2−', 'C. PO4^3−', 'D. OH−'], "correct": 1 },
+
+  { "text": 'Which indicator is most suitable for a strong acid–weak base titration?', "options": ['A. Phenolphthalein', 'B. Methyl orange', 'C. Thymolphthalein', 'D. Alizarin yellow'], "correct": 1 },
+
+  { "text": 'In a titration, the equivalence point is reached when:', "options": ['A. Indicator first changes color', 'B. Stoichiometrically equivalent amounts have reacted', 'C. pH is always 7', 'D. Acid concentration equals base concentration'], "correct": 1 },
+
+  { "text": 'Which glassware is designed to deliver a single, highly accurate volume?', "options": ['A. Beaker', 'B. Erlenmeyer flask', 'C. Volumetric pipette', 'D. Graduated cylinder'], "correct": 2 },
+
+  { "text": 'A burette reading is 12.40 mL initially and 37.85 mL finally. What volume was delivered?', "options": ['A. 24.45 mL', 'B. 25.45 mL', 'C. 26.45 mL', 'D. 50.25 mL'], "correct": 1 },
+
+  { "text": 'What is the best method for separating a mixture of ethanol and water based on differences in boiling points?', "options": ['A. Filtration', 'B. Sublimation', 'C. Fractional distillation', 'D. Decantation'], "correct": 2 },
+
+  { "text": 'A precipitate forms when AgNO3 is added to a solution containing chloride ion. The precipitate is:', "options": ['A. AgCl', 'B. Ag2O', 'C. AgNO2', 'D. Ag2CO3'], "correct": 0 },
+
+  { "text": 'What is the molar mass of Ca(OH)2? (Ca=40.08, O=16.00, H=1.008)', "options": ['A. 57.08 g/mol', 'B. 74.09 g/mol', 'C. 90.08 g/mol', 'D. 98.08 g/mol'], "correct": 1 },
+
+  { "text": 'Which analytical technique measures absorbance of light at a selected wavelength?', "options": ['A. Gravimetry', 'B. UV-Vis spectrophotometry', 'C. Titrimetry', 'D. Conductometry'], "correct": 1 },
+
+  { "text": 'According to Beer–Lambert law, absorbance is directly proportional to:', "options": ['A. Concentration and path length', 'B. Temperature only', 'C. Pressure only', 'D. Wavelength only'], "correct": 0 },
+
+  { "text": 'A sample gives an absorbance of 0.500 in a 1.00 cm cell. If ε = 100 L·mol−1·cm−1, what is the concentration?', "options": ['A. 0.00050 M', 'B. 0.00500 M', 'C. 0.0500 M', 'D. 0.500 M'], "correct": 1 },
+
+  { "text": 'A primary standard should be:', "options": ['A. Highly hygroscopic', 'B. Unstable in air', 'C. Very pure and stable', 'D. Very volatile'], "correct": 2 },
+
+  { "text": 'What is the purpose of rinsing a burette with the titrant before use?', "options": ['A. Sterilize the burette', 'B. Remove traces of water that would dilute the titrant', 'C. Increase burette capacity', 'D. Change the endpoint'], "correct": 1 },
+
+  { "text": 'Which error is most likely reduced by performing multiple replicate measurements?', "options": ['A. Random error', 'B. Systematic calibration error', 'C. Zero offset', 'D. Instrument bias that affects every reading equally'], "correct": 0 },
+
+  { "text": 'If the true value is 10.00 and a measurement is 9.80, what is the percent relative error?', "options": ['A. 0.20%', 'B. 2.0%', 'C. 4.0%', 'D. 20%'], "correct": 1 },
+
+  { "text": 'A solution with pH 5 has how many times greater [H+] than a solution with pH 7?', "options": ['A. 2', 'B. 10', 'C. 100', 'D. 1000'], "correct": 2 },
+
+  { "text": 'Which oxide is amphoteric?', "options": ['A. Na2O', 'B. CO2', 'C. Al2O3', 'D. SO3'], "correct": 2 },
+
+  { "text": 'Which ion produces a brick-red flame test?', "options": ['A. Na+', 'B. K+', 'C. Ca2+', 'D. Cu2+'], "correct": 2 },
+
+  { "text": 'What is the coordination number of Na+ in NaCl crystal structure?', "options": ['A. 4', 'B. 6', 'C. 8', 'D. 12'], "correct": 1 },
+
+  { "text": 'Which element has the highest electronegativity?', "options": ['A. O', 'B. F', 'C. Cl', 'D. N'], "correct": 1 },
+
+  { "text": 'Which element is a transition metal?', "options": ['A. Na', 'B. Mg', 'C. Fe', 'D. Al'], "correct": 2 },
+
+  { "text": 'What is the electron configuration of Na (Z = 11)?', "options": ['A. 1s2 2s2 2p6 3s1', 'B. 1s2 2s2 2p5 3s2', 'C. 1s2 2s2 2p6 3p1', 'D. 1s2 2s2 2p6 4s1'], "correct": 0 },
+
+  { "text": 'Which molecule is linear?', "options": ['A. H2O', 'B. NH3', 'C. CO2', 'D. CH4'], "correct": 2 },
+
+  { "text": 'Which molecule has trigonal planar geometry?', "options": ['A. BF3', 'B. NH3', 'C. CH4', 'D. H2O'], "correct": 0 },
+
+  { "text": 'What is the hybridization of carbon in methane?', "options": ['A. sp', 'B. sp2', 'C. sp3', 'D. dsp2'], "correct": 2 },
+
+  { "text": 'Which functional group is characteristic of alcohols?', "options": ['A. -COOH', 'B. -OH', 'C. -CHO', 'D. -COO−'], "correct": 1 },
+
+  { "text": 'Oxidation of a primary alcohol generally produces first a:', "options": ['A. Ketone', 'B. Aldehyde', 'C. Ether', 'D. Amine'], "correct": 1 },
+
+  { "text": 'What is the major product of hydrogenation of ethene?', "options": ['A. Ethane', 'B. Ethyne', 'C. Ethanol', 'D. Ethanal'], "correct": 0 },
+
+  { "text": 'What type of reaction converts an alkene to an alcohol by addition of water?', "options": ['A. Hydrolysis', 'B. Hydration', 'C. Esterification', 'D. Oxidation'], "correct": 1 },
+
+  { "text": 'Which compound is an aromatic hydrocarbon?', "options": ['A. Cyclohexane', 'B. Benzene', 'C. Hexane', 'D. Propene'], "correct": 1 },
+
+  { "text": 'What is the IUPAC name of CH3CH2OH?', "options": ['A. Methanol', 'B. Ethanol', 'C. Propanol', 'D. Ethanal'], "correct": 1 },
+
+  { "text": 'Esterification of a carboxylic acid with an alcohol commonly produces:', "options": ['A. Ether + water', 'B. Ester + water', 'C. Ketone + water', 'D. Amide + hydrogen'], "correct": 1 },
+
+  { "text": 'Which polymer is formed from ethene monomers?', "options": ['A. PVC', 'B. Polyethylene', 'C. Polystyrene', 'D. Nylon-6,6'], "correct": 1 },
+
+  { "text": 'What is the empirical formula of benzene, C6H6?', "options": ['A. CH', 'B. C2H2', 'C. C3H3', 'D. C6H6'], "correct": 0 },
+
+  { "text": 'A solution contains 2.50 g CH3COOH (M.M. 60.05 g/mol) in 500.0 mL. What is its molarity?', "options": ['A. 0.0416 M', 'B. 0.0833 M', 'C. 0.166 M', 'D. 0.208 M'], "correct": 1 },
+
+  { "text": 'What mass of CaCO3 is required to produce 0.100 mol CO2 in CaCO3 → CaO + CO2?', "options": ['A. 5.00 g', 'B. 10.0 g', 'C. 20.0 g', 'D. 100 g'], "correct": 1 },
+
+  { "text": 'A 250 mL solution contains 0.0250 mol KNO3. What is its molarity?', "options": ['A. 0.0100 M', 'B. 0.100 M', 'C. 0.250 M', 'D. 1.00 M'], "correct": 1 },
+
+  { "text": 'What volume of 0.200 M AgNO3 is required to precipitate all Cl− in 50.0 mL of 0.100 M NaCl?', "options": ['A. 10.0 mL', 'B. 20.0 mL', 'C. 25.0 mL', 'D. 50.0 mL'], "correct": 2 },
+
+  { "text": 'What is the normality of 0.500 M H2SO4 for acid-base neutralization?', "options": ['A. 0.250 N', 'B. 0.500 N', 'C. 1.00 N', 'D. 2.00 N'], "correct": 2 },
+
+  { "text": 'A 10.0 mL aliquot of unknown HCl requires 15.0 mL of 0.100 M NaOH. What is the HCl concentration?', "options": ['A. 0.0667 M', 'B. 0.100 M', 'C. 0.150 M', 'D. 0.667 M'], "correct": 0 },
+
+  { "text": 'What is the oxidation number of Mn in KMnO4?', "options": ['A. +2', 'B. +4', 'C. +6', 'D. +7'], "correct": 3 },
+
+  { "text": 'In the reaction Zn + Cu2+ → Zn2+ + Cu, which species is reduced?', "options": ['A. Zn', 'B. Cu2+', 'C. Zn2+', 'D. Cu'], "correct": 1 },
+
+  { "text": 'In an electrochemical cell, oxidation occurs at the:', "options": ['A. Cathode', 'B. Anode', 'C. Salt bridge', 'D. Voltmeter'], "correct": 1 },
+
+  { "text": 'Which electrode is negative in a galvanic cell?', "options": ['A. Anode', 'B. Cathode', 'C. Both', 'D. Salt bridge'], "correct": 0 },
+
+  { "text": 'What happens to electrode potential when ion concentration changes from standard conditions?', "options": ['A. It is always unchanged', 'B. It may change according to the Nernst equation', 'C. It becomes zero', 'D. It becomes infinite'], "correct": 1 },
+
+  { "text": 'How many grams of O2 are required for complete combustion of 16.0 g CH4? CH4 + 2O2 → CO2 + 2H2O', "options": ['A. 16.0 g', 'B. 32.0 g', 'C. 64.0 g', 'D. 128 g'], "correct": 2 },
+
+  { "text": 'A reaction has ΔG < 0 under given conditions. The reaction is:', "options": ['A. Nonspontaneous', 'B. Spontaneous', 'C. At equilibrium', 'D. Impossible'], "correct": 1 },
+
+  { "text": 'At equilibrium, the Gibbs free-energy change for the reaction is:', "options": ['A. Positive', 'B. Negative', 'C. Zero', 'D. Infinite'], "correct": 2 },
+
+  { "text": 'What is the heat required to raise 100 g water by 10.0 °C? (c = 4.184 J/g·°C)', "options": ['A. 418 J', 'B. 4,184 J', 'C. 41,840 J', 'D. 0.418 J'], "correct": 1 },
+
+  { "text": 'A 50.0 g metal absorbs 500 J and its temperature rises 20.0 °C. What is its specific heat?', "options": ['A. 0.500 J/g·°C', 'B. 1.00 J/g·°C', 'C. 2.00 J/g·°C', 'D. 5.00 J/g·°C'], "correct": 0 },
+
+  { "text": 'Which phase change is endothermic?', "options": ['A. Freezing', 'B. Condensation', 'C. Deposition', 'D. Vaporization'], "correct": 3 },
+
+  { "text": 'What is the density of a liquid with mass 125 g and volume 100 mL?', "options": ['A. 0.800 g/mL', 'B. 1.25 g/mL', 'C. 12.5 g/mL', 'D. 225 g/mL'], "correct": 1 },
+
+  { "text": 'A 10.0% w/w NaOH solution contains how many grams NaOH in 250 g solution?', "options": ['A. 10.0 g', 'B. 20.0 g', 'C. 25.0 g', 'D. 40.0 g'], "correct": 2 },
+
+  { "text": 'To prepare 100 mL of 0.100 M HCl from 1.00 M HCl, what volume of stock is required?', "options": ['A. 1.00 mL', 'B. 5.00 mL', 'C. 10.0 mL', 'D. 100 mL'], "correct": 2 },
+
+  { "text": 'Which method is best for determining chloride concentration by precipitation and weighing AgCl?', "options": ['A. Acid-base titration', 'B. Gravimetric analysis', 'C. Flame photometry', 'D. Refractometry'], "correct": 1 },
+
+  { "text": 'What is the purpose of a desiccator in a gravimetric analysis?', "options": ['A. Dissolve precipitate', 'B. Dry and cool samples while minimizing moisture uptake', 'C. Increase pressure', 'D. Burn organic material'], "correct": 1 },
+
+  { "text": 'In gravimetric analysis, a precipitate should ideally be:', "options": ['A. Highly soluble', 'B. Difficult to filter', 'C. Pure, stable, and easy to filter', 'D. Very colloidal'], "correct": 2 },
+
+  { "text": 'Which process is used to remove dissolved ions from water using ion-exchange resins?', "options": ['A. Distillation', 'B. Ion exchange', 'C. Filtration', 'D. Sedimentation'], "correct": 1 },
+
+  { "text": 'Water hardness is mainly caused by dissolved:', "options": ['A. Na+ and K+', 'B. Ca2+ and Mg2+', 'C. H+ and OH−', 'D. Cl− and NO3−'], "correct": 1 },
+
+  { "text": 'Which reagent is commonly used in EDTA titration of Ca2+ and Mg2+ for water hardness?', "options": ['A. EDTA', 'B. KMnO4', 'C. HCl', 'D. Na2S2O3'], "correct": 0 },
+
+  { "text": 'What is the oxidation state of sulfur in H2SO4?', "options": ['A. +4', 'B. +5', 'C. +6', 'D. -2'], "correct": 2 },
+
+  { "text": 'Which reagent is commonly used to test for sulfate ion by forming a white precipitate?', "options": ['A. AgNO3', 'B. BaCl2', 'C. NaOH', 'D. NH4Cl'], "correct": 1 },
+
+  { "text": 'Which gas turns limewater milky?', "options": ['A. O2', 'B. H2', 'C. CO2', 'D. N2'], "correct": 2 },
+
+  { "text": 'What is the main component of natural gas?', "options": ['A. Ethane', 'B. Methane', 'C. Propane', 'D. Butane'], "correct": 1 },
+
+  { "text": 'Incomplete combustion of a hydrocarbon can produce toxic:', "options": ['A. CO', 'B. CO2 only', 'C. O2', 'D. N2'], "correct": 0 },
+
+  { "text": 'Which is a strong electrolyte in aqueous solution?', "options": ['A. CH3COOH', 'B. NH3', 'C. NaCl', 'D. C6H12O6'], "correct": 2 },
+
+  { "text": 'Which substance is a nonelectrolyte in water?', "options": ['A. HCl', 'B. KOH', 'C. NaNO3', 'D. Glucose'], "correct": 3 },
+
+  { "text": 'What is the approximate molar mass of KMnO4? (K=39.1, Mn=54.9, O=16.0)', "options": ['A. 103.0 g/mol', 'B. 119.0 g/mol', 'C. 158.0 g/mol', 'D. 174.0 g/mol'], "correct": 2 },
+
+  { "text": 'A 2.00 M stock solution is diluted to 0.500 M. What fraction of the final volume must be stock solution?', "options": ['A. 10%', 'B. 25%', 'C. 50%', 'D. 75%'], "correct": 1 },
+
+  { "text": 'Which safety practice is correct when diluting concentrated sulfuric acid?', "options": ['A. Add water to acid rapidly', 'B. Add acid slowly to water', 'C. Heat acid before dilution', 'D. Add acid to a dry beaker only'], "correct": 1 },
+
+  { "text": 'If acid splashes onto the skin in the laboratory, the first action should generally be to:', "options": ['A. Neutralize with concentrated base', 'B. Wipe it off with tissue', 'C. Rinse immediately with plenty of water', 'D. Cover with oil'], "correct": 2 },
+
+  { "text": 'Which PPE provides the best protection against chemical splashes to the eyes?', "options": ['A. Dust mask', 'B. Safety goggles', 'C. Ear plugs', 'D. Lab coat'], "correct": 1 },
+
+  { "text": 'What is the purpose of a fume hood?', "options": ['A. Increase room temperature', 'B. Remove hazardous vapors from the breathing zone', 'C. Sterilize glassware', 'D. Measure gas pressure'], "correct": 1 },
+
+  { "text": 'A pH meter should be calibrated using:', "options": ['A. Distilled water only', 'B. Standard buffer solutions', 'C. Tap water', 'D. Concentrated acid'], "correct": 1 }
+]
