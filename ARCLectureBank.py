@@ -2614,7 +2614,6 @@ Environmental_EngSci = [
 ]
 
 
-
 # ----------------------------------------CHEMTECH---------------------------
 
 CT_Inorganic_Chemistry = [
@@ -2841,7 +2840,7 @@ CT_Quality_Control_Assurance = [
 
 ]
 
-# ------------------------- AI GENERATED CT Question Bank --------------------------------
+# ------------------------- AI GENERATED Question Bank --------------------------------
 
 ai_CHEMTECH_SET1 = [
     
@@ -3048,4 +3047,229 @@ ai_CHEMTECH_SET1 = [
   { "text": 'A pH meter should be calibrated using:', "options": ['A. Distilled water only', 'B. Standard buffer solutions', 'C. Tap water', 'D. Concentrated acid'], "correct": 1 },
 ]
 
+ai_Day1_SET1 = [
+    
+  { "text": 'A gas occupies 4.00 L at 1.50 atm and 300 K. What volume will it occupy at 1.00 atm and 350 K?', "options": ['A. 5.00 L', 'B. 6.00 L', 'C. 7.00 L', 'D. 7.50 L'], "correct": 2 },
 
+  { "text": 'A 10.0 g sample of CaCO3 is heated according to CaCO3 → CaO + CO2. What mass of CO2 can theoretically be produced? (M.M. CaCO3 = 100 g/mol)', "options": ['A. 2.20 g', 'B. 4.40 g', 'C. 5.60 g', 'D. 10.0 g'], "correct": 1 },
+
+  { "text": 'A solution contains 20.0 g NaOH in 180 g water. What is the mole fraction of NaOH? (NaOH = 40.0 g/mol, H2O = 18.0 g/mol)', "options": ['A. 0.0270', 'B. 0.0476', 'C. 0.0912', 'D. 0.500'], "correct": 0 },
+
+  { "text": 'A liquid mixture contains 30 mol% benzene and 70 mol% toluene. If the vapor pressures of pure benzene and pure toluene are 95 and 28 mmHg, respectively, what is the total vapor pressure assuming ideal behavior?', "options": ['A. 28.0 mmHg', 'B. 48.1 mmHg', 'C. 50.1 mmHg', 'D. 123 mmHg'], "correct": 2 },
+
+  { "text": 'According to Raoult’s law, the partial pressure of a component in an ideal liquid solution is:', "options": ['A. yiP', 'B. xiPi°', 'C. yiPi°', 'D. xi/Pi°'], "correct": 1 },
+
+  { "text": 'A 2.00 kg sample of water is heated from 25°C to 75°C. If Cp = 4.18 kJ/kg·K, what heat is required?', "options": ['A. 209 kJ', 'B. 418 kJ', 'C. 836 kJ', 'D. 1254 kJ'], "correct": 1 },
+
+  { "text": 'Which thermodynamic property is a state function?', "options": ['A. Heat', 'B. Work', 'C. Enthalpy', 'D. Path length'], "correct": 2 },
+
+  { "text": 'For an ideal gas undergoing an isothermal expansion, the change in internal energy is:', "options": ['A. Positive', 'B. Negative', 'C. Zero', 'D. Equal to the work'], "correct": 2 },
+
+  { "text": 'Which equation is the ideal-gas equation?', "options": ['A. PV = nRT', 'B. PV = RT/n', 'C. P = nVRT', 'D. PVn = RT'], "correct": 0 },
+
+  { "text": 'A gas mixture contains 2 mol N2 and 3 mol H2. If the total pressure is 10 atm, what is the partial pressure of H2?', "options": ['A. 3 atm', 'B. 5 atm', 'C. 6 atm', 'D. 10 atm'], "correct": 2 },
+
+  { "text": 'What is the compressibility factor Z for an ideal gas?', "options": ['A. 0', 'B. 0.5', 'C. 1', 'D. Dependent only on temperature'], "correct": 2 },
+
+  { "text": 'For a real gas, Z < 1 generally indicates that:', "options": ['A. Repulsive forces dominate', 'B. Attractive forces dominate', 'C. The gas behaves ideally', 'D. The gas is at its critical point'], "correct": 1 },
+
+  { "text": 'Which intermolecular force is generally strongest among the following for comparable molecules?', "options": ['A. London dispersion', 'B. Dipole-dipole', 'C. Hydrogen bonding', 'D. Induced dipole only'], "correct": 2 },
+
+  { "text": 'Which molecule is expected to have the highest normal boiling point?', "options": ['A. CH4', 'B. NH3', 'C. H2O', 'D. Ne'], "correct": 2 },
+
+  { "text": 'At the critical point of a pure substance:', "options": ['A. Solid and liquid coexist', 'B. Liquid and vapor become indistinguishable', 'C. Vapor pressure becomes zero', 'D. The substance necessarily freezes'], "correct": 1 },
+
+  { "text": 'Which condition must be satisfied at phase equilibrium between liquid and vapor?', "options": ['A. Equal densities only', 'B. Equal chemical potentials', 'C. Equal volumes', 'D. Equal enthalpies'], "correct": 1 },
+
+  { "text": 'The boiling point of a liquid generally decreases when:', "options": ['A. External pressure increases', 'B. External pressure decreases', 'C. Molecular weight increases', 'D. Hydrogen bonding increases'], "correct": 1 },
+
+  { "text": 'What is the pH of a 1.0 × 10^-3 M HCl solution?', "options": ['A. 2', 'B. 3', 'C. 10', 'D. 11'], "correct": 1 },
+
+  { "text": 'What is the pH of 0.010 M NaOH at 25°C?', "options": ['A. 2', 'B. 7', 'C. 12', 'D. 14'], "correct": 2 },
+
+  { "text": 'A weak acid HA has Ka = 1.0 × 10^-5. What is its pKa?', "options": ['A. 2', 'B. 5', 'C. 9', 'D. 10'], "correct": 1 },
+
+  { "text": 'Which species is amphiprotic?', "options": ['A. HCl', 'B. NH4+', 'C. HCO3−', 'D. Na+'], "correct": 2 },
+
+  { "text": 'For a buffer containing equal concentrations of HA and A−, the Henderson-Hasselbalch equation gives:', "options": ['A. pH = 0', 'B. pH = pKa', 'C. pH = 7', 'D. pH = pKb'], "correct": 1 },
+
+  { "text": 'At 25°C, Kw for water is:', "options": ['A. 1.0 × 10^-7', 'B. 1.0 × 10^-14', 'C. 1.0 × 10^-10', 'D. 14'], "correct": 1 },
+
+  { "text": 'If [OH−] = 1.0 × 10^-4 M at 25°C, the pH is:', "options": ['A. 4', 'B. 6', 'C. 10', 'D. 14'], "correct": 2 },
+
+  { "text": 'Which titration is most appropriately monitored using phenolphthalein?', "options": ['A. Strong acid–strong base only', 'B. Strong acid–weak base only', 'C. Weak acid–strong base', 'D. Weak acid–weak base exclusively'], "correct": 2 },
+
+  { "text": 'The equivalence point in a titration is the point where:', "options": ['A. Indicator first changes color', 'B. Stoichiometric amounts have reacted', 'C. pH is always exactly 7', 'D. The solution is necessarily neutral'], "correct": 1 },
+
+  { "text": 'Which species acts as a Lewis acid?', "options": ['A. NH3', 'B. OH−', 'C. BF3', 'D. H2O'], "correct": 2 },
+
+  { "text": 'For the reaction N2 + 3H2 ⇌ 2NH3, increasing pressure favors:', "options": ['A. Reactants', 'B. Products', 'C. Neither side', 'D. It decreases Kc and shifts left'], "correct": 1 },
+
+  { "text": 'For an exothermic equilibrium reaction, increasing temperature generally:', "options": ['A. Favors products', 'B. Favors reactants', 'C. Has no effect', 'D. Increases the equilibrium constant necessarily'], "correct": 1 },
+
+  { "text": 'A catalyst at equilibrium:', "options": ['A. Increases K', 'B. Decreases K', 'C. Changes the equilibrium composition', 'D. Speeds forward and reverse reactions equally'], "correct": 3 },
+
+  { "text": 'For the reaction A ⇌ B, if Q < K, the reaction will proceed:', "options": ['A. Toward reactants', 'B. Toward products', 'C. Not at all', 'D. Randomly'], "correct": 1 },
+
+  { "text": 'The standard Gibbs free energy change is related to the equilibrium constant by:', "options": ['A. ΔG° = RT ln K', 'B. ΔG° = -RT ln K', 'C. ΔG° = KRT', 'D. ΔG° = -K/RT'], "correct": 1 },
+
+  { "text": 'If K is much greater than 1, the equilibrium mixture contains predominantly:', "options": ['A. Reactants', 'B. Products', 'C. Catalyst', 'D. Solvent'], "correct": 1 },
+
+  { "text": 'A reaction has ΔH° = -100 kJ/mol and ΔS° = -0.200 kJ/mol·K. At what temperature is ΔG° = 0?', "options": ['A. 100 K', 'B. 200 K', 'C. 500 K', 'D. 1000 K'], "correct": 2 },
+
+  { "text": 'A reaction is spontaneous at a given temperature when:', "options": ['A. ΔG > 0', 'B. ΔG < 0', 'C. ΔH > 0 only', 'D. ΔS < 0 only'], "correct": 1 },
+
+  { "text": 'Which statement about entropy is correct?', "options": ['A. It is always conserved', 'B. It is a path function', 'C. It measures the dispersal of energy/matter in a system', 'D. It is always zero for gases'], "correct": 2 },
+
+  { "text": 'For an isolated system undergoing a spontaneous process, entropy:', "options": ['A. Decreases', 'B. Increases', 'C. Remains exactly constant', 'D. Becomes zero'], "correct": 1 },
+
+  { "text": 'Which change generally results in an increase in entropy?', "options": ['A. Gas → liquid', 'B. Liquid → solid', 'C. Solid → gas', 'D. Gas compression'], "correct": 2 },
+
+  { "text": 'The first law of thermodynamics is fundamentally a statement of conservation of:', "options": ['A. Entropy', 'B. Mass only', 'C. Energy', 'D. Temperature'], "correct": 2 },
+
+  { "text": 'In a closed system, mass:', "options": ['A. Can cross the boundary freely', 'B. Cannot cross the boundary', 'C. Is always destroyed', 'D. Is always created'], "correct": 1 },
+
+  { "text": 'Which quantity is intensive?', "options": ['A. Mass', 'B. Volume', 'C. Total energy', 'D. Temperature'], "correct": 3 },
+
+  { "text": 'Which quantity is extensive?', "options": ['A. Density', 'B. Pressure', 'C. Volume', 'D. Temperature'], "correct": 2 },
+
+  { "text": 'A 2.00 mol sample of ideal gas expands reversibly and isothermally from 5.00 L to 10.0 L at 300 K. What is the work done by the gas? (R = 8.314 J/mol·K)', "options": ['A. 3450 J', 'B. 4980 J', 'C. 10,370 J', 'D. 20,740 J'], "correct": 2 },
+
+  { "text": 'Which analytical technique separates compounds primarily according to differences in volatility?', "options": ['A. UV-Vis spectroscopy', 'B. Gas chromatography', 'C. Gravimetry', 'D. Potentiometry'], "correct": 1 },
+
+  { "text": 'In gas chromatography, the mobile phase is usually:', "options": ['A. A liquid solvent', 'B. A solid adsorbent', 'C. An inert gas', 'D. Water'], "correct": 2 },
+
+  { "text": 'In HPLC, the mobile phase is generally:', "options": ['A. A gas', 'B. A liquid', 'C. A solid', 'D. Plasma'], "correct": 1 },
+
+  { "text": 'According to Beer-Lambert law, absorbance is given by:', "options": ['A. A = bc/ε', 'B. A = εbc', 'C. A = ε/(bc)', 'D. A = b/(εc)'], "correct": 1 },
+
+  { "text": 'A solution has ε = 200 L·mol−1·cm−1, b = 1.00 cm, and c = 0.010 M. What is its absorbance?', "options": ['A. 0.002', 'B. 0.20', 'C. 2.00', 'D. 20.0'], "correct": 1 },
+
+  { "text": 'A calibration curve for an analyte is A = 2.50C + 0.020, where C is in mg/L. If A = 0.520, what is C?', "options": ['A. 0.080 mg/L', 'B. 0.200 mg/L', 'C. 0.500 mg/L', 'D. 1.25 mg/L'], "correct": 2 },
+
+  { "text": 'Which spectroscopy is most directly associated with molecular vibrational transitions?', "options": ['A. IR spectroscopy', 'B. NMR spectroscopy', 'C. Atomic absorption', 'D. Mass spectrometry'], "correct": 0 },
+
+  { "text": 'In proton NMR spectroscopy, chemical shifts are commonly reported in:', "options": ['A. Hz only', 'B. ppm', 'C. atm', 'D. mol/L'], "correct": 1 },
+
+  { "text": 'Mass spectrometry determines the mass-to-charge ratio represented as:', "options": ['A. m+c', 'B. m/c', 'C. m/z', 'D. z/m'], "correct": 2 },
+
+  { "text": 'What is the primary purpose of using an internal standard in instrumental analysis?', "options": ['A. Increase analyte concentration', 'B. Correct for variations in sample preparation and instrument response', 'C. Eliminate all random errors', 'D. Change the analyte chemically'], "correct": 1 },
+
+  { "text": 'A precipitate used in gravimetric analysis should preferably be:', "options": ['A. Highly soluble and gelatinous', 'B. Pure and easily filtered', 'C. Highly volatile', 'D. Extremely fine and colloidal'], "correct": 1 },
+
+  { "text": 'Which error is generally reduced by increasing the number of replicate measurements?', "options": ['A. Random error', 'B. Systematic bias', 'C. Calibration error', 'D. Constant instrumental offset'], "correct": 0 },
+
+  { "text": 'Accuracy refers to:', "options": ['A. Closeness of measurements to one another', 'B. Closeness to the true value', 'C. Number of significant figures', 'D. Repeatability only'], "correct": 1 },
+
+  { "text": 'Precision refers to:', "options": ['A. Closeness to the accepted value', 'B. Closeness of repeated measurements to one another', 'C. Absence of systematic error', 'D. Number of decimal places'], "correct": 1 },
+
+  { "text": 'The standard deviation is primarily a measure of:', "options": ['A. Accuracy', 'B. Precision', 'C. Bias', 'D. Recovery'], "correct": 1 },
+
+  { "text": 'Which compound is an alkene?', "options": ['A. C2H6', 'B. C2H4', 'C. C2H2', 'D. C6H6O'], "correct": 1 },
+
+  { "text": 'The functional group of aldehydes is:', "options": ['A. -OH', 'B. -COOH', 'C. -CHO', 'D. -COO-'], "correct": 2 },
+
+  { "text": 'Which compound is a ketone?', "options": ['A. CH3CH2OH', 'B. CH3CHO', 'C. CH3COCH3', 'D. CH3COOH'], "correct": 2 },
+
+  { "text": 'Which reaction converts a carboxylic acid and an alcohol into an ester?', "options": ['A. Hydrogenation', 'B. Esterification', 'C. Hydrohalogenation', 'D. Polymerization'], "correct": 1 },
+
+  { "text": 'The product of complete combustion of a hydrocarbon consists primarily of:', "options": ['A. CO and H2', 'B. C and H2', 'C. CO2 and H2O', 'D. CH4 and O2'], "correct": 2 },
+
+  { "text": 'Which compound is aromatic?', "options": ['A. Cyclohexane', 'B. Benzene', 'C. Hexane', 'D. Propane'], "correct": 1 },
+
+  { "text": 'The general formula for an acyclic alkane is:', "options": ['A. CnH2n', 'B. CnH2n−2', 'C. CnH2n+2', 'D. CnHn'], "correct": 2 },
+
+  { "text": 'What is the degree of unsaturation of benzene, C6H6?', "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 3 },
+
+  { "text": 'Which polymer is produced from ethene?', "options": ['A. Polyethylene', 'B. PVC', 'C. Nylon', 'D. Bakelite'], "correct": 0 },
+
+  { "text": 'Which monomer is used to produce PVC?', "options": ['A. Ethylene', 'B. Styrene', 'C. Vinyl chloride', 'D. Tetrafluoroethylene'], "correct": 2 },
+
+  { "text": 'Which bond is generally strongest?', "options": ['A. C-C single', 'B. C=C double', 'C. C≡C triple', 'D. C-H single'], "correct": 2 },
+
+  { "text": 'The hybridization of carbon atoms in an alkene is generally:', "options": ['A. sp', 'B. sp2', 'C. sp3', 'D. dsp3'], "correct": 1 },
+
+  { "text": 'The hybridization of carbon in methane is:', "options": ['A. sp', 'B. sp2', 'C. sp3', 'D. dsp2'], "correct": 2 },
+
+  { "text": 'Which material is classified as a ceramic?', "options": ['A. Polyethylene', 'B. Glass', 'C. Copper', 'D. Aluminum'], "correct": 1 },
+
+  { "text": 'Which type of bonding is characteristic of metals?', "options": ['A. Metallic bonding', 'B. Hydrogen bonding', 'C. Purely ionic bonding', 'D. Van der Waals bonding only'], "correct": 0 },
+
+  { "text": 'Increasing the carbon content of plain carbon steel generally:', "options": ['A. Decreases hardness', 'B. Increases hardness and strength', 'C. Eliminates brittleness', 'D. Converts it to a ceramic'], "correct": 1 },
+
+  { "text": 'Stainless steel owes much of its corrosion resistance primarily to the presence of:', "options": ['A. Sodium', 'B. Chromium', 'C. Calcium', 'D. Silicon only'], "correct": 1 },
+
+  { "text": 'What type of material exhibits significant electrical conductivity due to freely moving electrons?', "options": ['A. Metal', 'B. Ceramic', 'C. Glass', 'D. Polymer'], "correct": 0 },
+
+  { "text": 'A material that can undergo large plastic deformation before fracture is described as:', "options": ['A. Brittle', 'B. Ductile', 'C. Refractory', 'D. Elastic only'], "correct": 1 },
+
+  { "text": 'Young’s modulus is a measure of a material’s:', "options": ['A. Toughness', 'B. Stiffness', 'C. Density', 'D. Corrosion resistance'], "correct": 1 },
+
+  { "text": 'Which crystal structure is characteristic of many metals such as aluminum and copper?', "options": ['A. FCC', 'B. Simple cubic only', 'C. Diamond cubic only', 'D. Amorphous'], "correct": 0 },
+
+  { "text": 'Corrosion of iron in moist air requires primarily:', "options": ['A. Only nitrogen', 'B. Water and oxygen', 'C. Carbon dioxide only', 'D. Hydrogen gas'], "correct": 1 },
+
+  { "text": 'A galvanic cell converts:', "options": ['A. Electrical energy to chemical energy spontaneously', 'B. Chemical energy to electrical energy spontaneously', 'C. Heat to mass', 'D. Mechanical energy to chemical energy only'], "correct": 1 },
+
+  { "text": 'Oxidation occurs at the:', "options": ['A. Cathode', 'B. Anode', 'C. Salt bridge', 'D. Electrolyte surface only'], "correct": 1 },
+
+  { "text": 'Reduction occurs at the:', "options": ['A. Anode', 'B. Cathode', 'C. Salt bridge', 'D. External circuit'], "correct": 1 },
+
+  { "text": 'For the cell Zn|Zn2+||Cu2+|Cu, the spontaneous reaction is:', "options": ['A. Cu + Zn2+ → Cu2+ + Zn', 'B. Zn + Cu2+ → Zn2+ + Cu', 'C. Zn2+ + Cu2+ → Zn + Cu', 'D. Zn + Cu → Zn2+ + Cu2+'], "correct": 1 },
+
+  { "text": 'The standard cell potential is calculated as:', "options": ['A. E°anode − E°cathode', 'B. E°cathode − E°anode', 'C. E°cathode + E°anode always using oxidation values', 'D. E°anode/E°cathode'], "correct": 1 },
+
+  { "text": 'A positive standard cell potential indicates that the cell reaction is:', "options": ['A. Nonspontaneous under standard conditions', 'B. Spontaneous under standard conditions', 'C. At equilibrium', 'D. Impossible'], "correct": 1 },
+
+  { "text": 'Which environmental pollutant is most directly associated with acid rain?', "options": ['A. SO2', 'B. He', 'C. N2', 'D. Ar'], "correct": 0 },
+
+  { "text": 'The major anthropogenic greenhouse gas emitted from fossil-fuel combustion is:', "options": ['A. CO2', 'B. O2', 'C. N2', 'D. H2'], "correct": 0 },
+
+  { "text": 'Photochemical smog formation is strongly associated with NOx and:', "options": ['A. Volatile organic compounds', 'B. Sodium chloride', 'C. Water hardness', 'D. Sulfates only'], "correct": 0 },
+
+  { "text": 'Which pollutant is most directly associated with eutrophication of lakes and rivers?', "options": ['A. Nutrient compounds such as nitrates and phosphates', 'B. Helium', 'C. Carbon monoxide only', 'D. Sand'], "correct": 0 },
+
+  { "text": 'Biochemical oxygen demand (BOD) measures:', "options": ['A. Oxygen dissolved at saturation only', 'B. Oxygen required by microorganisms to biodegrade organic matter', 'C. Amount of nitrogen gas in water', 'D. Total dissolved solids'], "correct": 1 },
+
+  { "text": 'A high BOD in wastewater generally indicates:', "options": ['A. Low organic pollution', 'B. High biodegradable organic load', 'C. High dissolved oxygen availability', 'D. Pure water'], "correct": 1 },
+
+  { "text": 'Chemical oxygen demand (COD) is generally:', "options": ['A. Less comprehensive than BOD for oxidizable material', 'B. A measure of oxygen equivalent required to chemically oxidize substances', 'C. The same as pH', 'D. A measure of turbidity'], "correct": 1 },
+
+  { "text": 'Which process is commonly used to remove suspended solids from wastewater?', "options": ['A. Sedimentation', 'B. Nitrification', 'C. Distillation only', 'D. Chlorination only'], "correct": 0 },
+
+  { "text": 'The primary purpose of chlorination in water treatment is:', "options": ['A. Remove hardness', 'B. Disinfect water', 'C. Remove all dissolved salts', 'D. Increase BOD'], "correct": 1 },
+
+  { "text": 'Which atmospheric layer contains most of the ozone that protects Earth from ultraviolet radiation?', "options": ['A. Troposphere', 'B. Stratosphere', 'C. Mesosphere', 'D. Thermosphere'], "correct": 1 },
+
+  { "text": 'Ozone depletion in the stratosphere has historically been strongly associated with:', "options": ['A. CFCs', 'B. CO2 alone', 'C. NaCl', 'D. N2'], "correct": 0 },
+
+  { "text": 'Which wastewater parameter is a direct indicator of hydrogen-ion activity?', "options": ['A. BOD', 'B. COD', 'C. pH', 'D. TSS'], "correct": 2 },
+
+  { "text": 'A wastewater sample has [H+] = 1.0 × 10^-6 M. Its pH is:', "options": ['A. 4', 'B. 5', 'C. 6', 'D. 8'], "correct": 2 },
+
+  { "text": 'Which process converts ammonia to nitrite and nitrate biologically?', "options": ['A. Denitrification', 'B. Nitrification', 'C. Sulfate reduction', 'D. Methanogenesis'], "correct": 1 },
+
+  { "text": 'Denitrification primarily converts nitrate into:', "options": ['A. NH3', 'B. N2 gas', 'C. O2', 'D. NO2 only'], "correct": 1 },
+
+  { "text": 'Which gas is commonly responsible for odor problems in anaerobic wastewater treatment?', "options": ['A. H2S', 'B. O2', 'C. N2', 'D. He'], "correct": 0 },
+
+  { "text": 'If an aqueous solution contains 5.00 g solute in 200.0 g solution, its mass percent is:', "options": ['A. 0.25%', 'B. 2.50%', 'C. 4.00%', 'D. 5.00%'], "correct": 1 },
+
+  { "text": 'A 2.00 M stock solution is diluted to 0.500 M. What fraction of the final solution volume should consist of stock?', "options": ['A. 10%', 'B. 25%', 'C. 50%', 'D. 75%'], "correct": 1 },
+
+  { "text": 'A 500 mL solution contains 0.250 mol solute. Its molarity is:', "options": ['A. 0.125 M', 'B. 0.250 M', 'C. 0.500 M', 'D. 2.00 M'], "correct": 2 },
+
+  { "text": 'What is the molality of a solution containing 0.500 mol solute dissolved in 2.00 kg solvent?', "options": ['A. 0.250 m', 'B. 0.500 m', 'C. 1.00 m', 'D. 2.00 m'], "correct": 0 },
+
+  { "text": 'Which colligative property is most directly used to determine molecular mass by osmometry?', "options": ['A. Boiling point elevation', 'B. Freezing point depression', 'C. Osmotic pressure', 'D. Vapor pressure lowering'], "correct": 2 },
+
+  { "text": 'For an ideal dilute solution, osmotic pressure is described by:', "options": ['A. π = MRT', 'B. π = M/RT', 'C. π = RT/M', 'D. π = nRT only without volume'], "correct": 0 },
+
+  { "text": 'A 0.100 M nonelectrolyte solution at 300 K has an approximate osmotic pressure of:', "options": ['A. 0.246 atm', 'B. 1.23 atm', 'C. 2.46 atm', 'D. 24.6 atm'], "correct": 2 },
+
+  { "text": 'Which statement about colligative properties is correct?', "options": ['A. They depend primarily on the identity of the solute', 'B. They depend on the number of dissolved particles', 'C. They occur only with electrolytes', 'D. They are independent of concentration'], "correct": 1 },
+
+  { "text": 'A strong electrolyte that dissociates into three ions has an ideal van’t Hoff factor of:', "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 2 },
+
+  { "text": 'Which property is NOT a colligative property?', "options": ['A. Osmotic pressure', 'B. Boiling-point elevation', 'C. Freezing-point depression', 'D. Viscosity'], "correct": 3 }
+]
