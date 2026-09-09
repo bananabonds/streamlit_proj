@@ -2841,7 +2841,7 @@ CT_Quality_Control_Assurance = [
 
 ]
 
-------------------------- AI GENERATED CT Question Bank --------------------------------
+# ------------------------- AI GENERATED CT Question Bank --------------------------------
 
 ai_CHEMTECH_SET1 = [
   { "text": 'A 5.00 g sample of NaCl is dissolved in enough water to make 250.0 mL solution. What is the molarity of NaCl? (M.M. = 58.44 g/mol)', "options": ['A. 0.0855 M', 'B. 0.171 M', 'C. 0.342 M', 'D. 0.855 M'], "correct": 1 },
