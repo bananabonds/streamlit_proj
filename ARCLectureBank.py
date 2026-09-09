@@ -2844,6 +2844,7 @@ CT_Quality_Control_Assurance = [
 # ------------------------- AI GENERATED CT Question Bank --------------------------------
 
 ai_CHEMTECH_SET1 = [
+    
   { "text": 'A 5.00 g sample of NaCl is dissolved in enough water to make 250.0 mL solution. What is the molarity of NaCl? (M.M. = 58.44 g/mol)', "options": ['A. 0.0855 M', 'B. 0.171 M', 'C. 0.342 M', 'D. 0.855 M'], "correct": 1 },
 
   { "text": 'What mass of NaOH is required to prepare 500.0 mL of 0.200 M NaOH? (M.M. = 40.00 g/mol)', "options": ['A. 2.00 g', 'B. 4.00 g', 'C. 8.00 g', 'D. 10.0 g'], "correct": 1 },
@@ -3044,5 +3045,7 @@ ai_CHEMTECH_SET1 = [
 
   { "text": 'What is the purpose of a fume hood?', "options": ['A. Increase room temperature', 'B. Remove hazardous vapors from the breathing zone', 'C. Sterilize glassware', 'D. Measure gas pressure'], "correct": 1 },
 
-  { "text": 'A pH meter should be calibrated using:', "options": ['A. Distilled water only', 'B. Standard buffer solutions', 'C. Tap water', 'D. Concentrated acid'], "correct": 1 }
+  { "text": 'A pH meter should be calibrated using:', "options": ['A. Distilled water only', 'B. Standard buffer solutions', 'C. Tap water', 'D. Concentrated acid'], "correct": 1 },
 ]
+
+
