@@ -1,5 +1,5 @@
 # Lecture 2.1
-ChE_Calculations = [
+D2_L1_ChE_Calculations = [
 
     { "text": 'Wine making involves a series of very complex reactions most of which are performed by microorganisms. The starting concentration of sugars determines the final alcohol content and sweetness of the wine. The specific gravity of the starting stock is therefore adjusted to achieve desired quality of wine. A starting stock solution has a specific gravity of 1.075 and contains 12.7 wt% sugar. If all the sugar is assumed to be C₁2H22011, determine kg sugar/ kg H₂0  ',  "options": ['A. 0.286', 'B. 0.039', 'C. 0.145', 'D.  0.327'], "correct": 2}, 
     { "text": 'Wine making involves a series of very complex reactions most of which are performed by microorganisms. The starting concentration of sugars determines the final alcohol content and sweetness of the wine. The specific gravity of the starting stock is therefore adjusted to achieve desired quality of wine. A starting stock solution has a specific gravity of 1.075 and contains 12.7 wt% sugar. If all the sugar is assumed to be C₁2H22011, determine  lb solution /ft3 solution',  "options": ['A. 67.1', 'B. 39.2', 'C. 50.5', 'D. 48.6'], "correct": 0}, 
@@ -122,7 +122,7 @@ ChE_Calculations = [
 ]
 
 # Lecture 2.2
-Separation_Processes = [
+D2_L2_Separation_Processes = [
 
     # Leaching
     { "text": 'Which of the following operations does not\r\ninvolve leaching? ',  "options": ['A. Dissolving gold from ores.', 'B. Dissolving pharmaceutical products from bark\r\nor roots', 'C. Dissolving sugar from the cells of the beet.', 'D. Removing nicotine from its water solution by\r\nkerosene.'], "correct": 3}, 
@@ -382,7 +382,7 @@ Separation_Processes = [
 ]
 
 # Lecture 2.3
-Thermodynamics = [
+D2_L3_Thermodynamics = [
 
     { "text": 'A piece of chocolate cake contains about 400 Calories. A nutritional Calorie is equal to 1000 calories (thermochemical calories). How many 8-inch high steps must a 180-lb man climb to spend 400 Cal from the piece of cake? ',  "options": ['A. 100', 'B. 10300', 'C. 1030', 'D. 103000'], "correct": 1}, 
 
@@ -633,7 +633,7 @@ Thermodynamics = [
 ]
 
 # Lecture 2.4
-Momentum_Transfer = [
+D2_L4_Momentum_Transfer = [
 
     { "text": ' Convert 15.14 poises to kinematic\r\nviscosity in square feet per second if the\r\nliquid has a specific gravity of 0.964. ',  "options": ['A.  0.0169 ft²/s', 'B. 0.0258 ft²/s', 'C. 0.0333 ft²/s', 'D. 0.0421 ft2/s'], "correct": 0}, 
 
@@ -760,7 +760,7 @@ Momentum_Transfer = [
 ]
 
 # Lecture 2.5
-Transport_Phenomenon = [
+D2_L5_Transport_Phenomenon = [
 
     { "text": 'The driving force in heat transfer is ',  "options": ['A. concentration gradient', 'B.  temperature gradient', 'C. viscosity gradient', 'D. thickness of the solid in question'], "correct": 1}, 
 
@@ -967,7 +967,7 @@ Transport_Phenomenon = [
 ]
 
 # Lecture 2.6
-Particle_Technology = [
+D2_L6_Particle_Technology = [
 
     { "text": 'In screen analysis, notation 10 mm /5 mm means\r\npassing through ',  "options": ['A. 10 mm screen and retained on 5 mm screen', 'B.  5 mm screen and retained on 10 mm screen', 'C. both 5 mm and 13 mm screens', 'D. neither 5 mm nor 10 mm screens'], "correct": 0}, 
 
@@ -1186,7 +1186,7 @@ Particle_Technology = [
 ]
 
 # Lecture 2.7
-Heat_Mass_Transfer = [
+D2_L7_Heat_Mass_Transfer = [
 
     { "text": 'Heat sensitive materials can be concentrated\r\nin an evaporator employing ',  "options": ['A. vacuum', 'B. high residence time', 'C. high pressure', 'D. none of these'], "correct": 0}, 
 
@@ -1413,7 +1413,7 @@ Heat_Mass_Transfer = [
 ]
 
 # Lecture 2.8
-Equipment_Plant_Design = [
+D2_L8_Equipment_Plant_Design = [
     { "text": '_______tower is the most suitable gas-liquid contacting device involving highly corrosive fluids  ',  "options": ['A. Sieve plate', 'B. Packed ', 'C.  Bubble cap plate ', 'D.  None of these'], "correct": 1}, 
 
     { "text": 'Liquid redistribution should be done in a packed tower packed with Raschig rings every 6 meters or ____ times the column diameter; whichever is lower: ',  "options": ['A.  2.5-3.0', 'B. 5-7.5 ', 'C. 10-12.5 ', 'D. 15-20'], "correct": 0}, 
@@ -1567,7 +1567,7 @@ Equipment_Plant_Design = [
 ]
 
 # Lecture 2.9
-Chemical_Reaction_Engineering = [
+D2_L9_Chemical_Reaction_Engineering = [
 
     { "text": ' For the reaction, 2X + Y → Z, the rate of formation of Z is 0.2\r\nmole/liter-hr. what is the rate of disappearance of X in mole/literhr? ',  "options": ['A. 0.4', 'B.  0.2', 'C. 0.1', 'D. none of these'], "correct": 0}, 
 
@@ -1716,7 +1716,7 @@ Chemical_Reaction_Engineering = [
 #------------------------------------------------------------------------ Day 3
 
 # Lecture 3.1
-ChE_Laws = [
+D3_L1_ChE_Laws = [
 
     { "text": 'PD 223 is also known as ',  "options": ['A. PRC Law', 'B. Chemical Engineering Law', 'C. Pollution Control Law', 'D. Code of Ethics'], "correct": 0}, 
 
@@ -2061,7 +2061,7 @@ ChE_Laws = [
 ]
 
 # Lecture 3.2
-Process_Control_Analysis = [
+D3_L2_Process_Control_Analysis = [
     { "text": 'A system continuously adjusts set points for individual regulatory control loops based on current market prices for crude oil and refined products, running calculations every few hours to several days to determine the most economically profitable operating conditions. Which level of the control hierarchy does this describe? ',  "options": ['A. Regulatory Control', 'B. Multivariable and Constraint Control', 'C. Real-Time Optimization', 'D. Planning and Scheduling'], "correct": 2}, 
 
     { "text": 'Which of the following conservation balancing equations is required for modelling a heater system? ',  "options": ['A. Heat and Energy balance', 'B. Heat and Mass balance', 'C. Mass and matter balance', 'D. Energy and Exergy balance'], "correct": 1}, 
@@ -2233,7 +2233,7 @@ processSafety = [
 ]
 
 # Lecture 1.1
-Chem_for_Engineers = [
+D1_L1_Chem_for_Engineers = [
 
     { "text": 'Which of the following forces is responsible for the rise or drop in potential energy of an object? ',  "options": ['A. Gravitational force', 'B. Attractive magnetism', 'C. Repulsive magnetism', 'D. AIl of the above'], "correct": 3}, 
 
@@ -2389,7 +2389,7 @@ Chem_for_Engineers = [
 ]
 
 # Lecture 1.2
-Environmental_EngSci = [
+D1_L2_Environmental_EngSci = [
 
     { "text": 'It is known as Water Quality Guidelines and General Effluent Standards of 2016.', "options": ['A. DAO 34', 'B. DAO 35', 'C. RA 9275', 'D. DAO No. 2016-08'], "correct": 3 },
 
