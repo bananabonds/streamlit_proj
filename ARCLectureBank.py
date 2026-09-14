@@ -2186,7 +2186,7 @@ D3_L2_Process_Control_Analysis = [
 
 D3_L3_Algebra = [
 
-    { "text": 'Find all the real values of x such that ((1/5)(x^2 - 10x + 26))^(x^2 - 6x + 5) = 1', "options": ['A. x = 1, 3, 5, 7', 'B. x = 2, 4, 6, 8', 'C. x = 0, 1, 2, 3', 'D. x = 1, 2, 3, 4'], "answer": 'x = 1, 3, 5, 7' },
+    { "text": 'Find all the real values of x such that ((1/5)(x^2 - 10x + 26))^(x^2 - 6x + 5) = 1', "options": ['A. x = 1, 3, 5, 7', 'B. x = 2, 4, 6, 8', 'C. x = 0, 1, 2, 3', 'D. x = 1, 2, 3, 4'], "answer": 0 },
 
     { "text": 'Simplify: [(x^2 y^3 z^-2)^-3 (x^-3 y z^3)^(-1/2)] / (xyz^-3)^(-5/2)', "options": ['A. 1/(x^2 y^7 z^5)', 'B. 1/(x^2 y^7 z^3)', 'C. 1/(x^2 y^5 z^7)', 'D. 1/(x^5 y^7 z^2)'], "correct": 1 },
 
