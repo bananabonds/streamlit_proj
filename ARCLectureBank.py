@@ -4447,8 +4447,8 @@ D3_L13_EngineeringDataAnalysis = [
     # NOTE: The source PDF references a height/weight data table for this question, but the
     # table itself was not present in the extracted document content, so the correct answer
     # cannot be independently verified/computed. "correct" is left as None to flag this.
-   """ {"text": "Given a set of height measurements and corresponding weight measurements sampled from a group of students (data table not available in source), determine the correlation coefficient.",
-     "options": ['A. 0.253', 'B. 0.135', 'C. 0.855', 'D. 0.931'], "correct": None}, """
+    #{"text": "Given a set of height measurements and corresponding weight measurements sampled from a group of students (data table not available in source), determine the correlation coefficient.",
+    # "options": ['A. 0.253', 'B. 0.135', 'C. 0.855', 'D. 0.931'], "correct": None}, """
 ]
 
 
