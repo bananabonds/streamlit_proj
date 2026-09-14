@@ -2186,7 +2186,7 @@ D3_L2_Process_Control_Analysis = [
 
 D3_L3_Algebra = [
 
-    { "text": 'Find all the real values of x such that ((1/5)(x^2 - 10x + 26))^(x^2 - 6x + 5) = 1', "options": ['A. x = 1, 3, 5, 7', 'B. x = 2, 4, 6, 8', 'C. x = 0, 1, 2, 3', 'D. x = 1, 2, 3, 4'], "answer": 0 },
+    { "text": 'Find all the real values of x such that ((1/5)(x^2 - 10x + 26))^(x^2 - 6x + 5) = 1', "options": ['A. x = 1, 3, 5, 7', 'B. x = 2, 4, 6, 8', 'C. x = 0, 1, 2, 3', 'D. x = 1, 2, 3, 4'], "correct": 0 },
 
     { "text": 'Simplify: [(x^2 y^3 z^-2)^-3 (x^-3 y z^3)^(-1/2)] / (xyz^-3)^(-5/2)', "options": ['A. 1/(x^2 y^7 z^5)', 'B. 1/(x^2 y^7 z^3)', 'C. 1/(x^2 y^5 z^7)', 'D. 1/(x^5 y^7 z^2)'], "correct": 1 },
 
@@ -2196,7 +2196,7 @@ D3_L3_Algebra = [
 
     { "text": 'Simplify: sqrt(ab / cbrt(ab))', "options": ['A. cbrt(ab)', 'B. sqrt(ab)', 'C. ab/sqrt(ab)', 'D. ab/cbrt(ab)'], "correct": 0 },
 
-    { "text": 'Solve for the value of x: sqrt(2x+5) - sqrt(x+3) = 2', "options": ['A. 11', 'B. 22', 'C. 33', 'D. 44'], "answer": 1 },
+    { "text": 'Solve for the value of x: sqrt(2x+5) - sqrt(x+3) = 2', "options": ['A. 11', 'B. 22', 'C. 33', 'D. 44'], "correct": 1 },
 
     { "text": 'Solve for x in the following equations: 27^x = 9^y and 81^y * 3^-x = 243', "options": ['A. 1', 'B. 1.5', 'C. 2', 'D. 2.5'], "correct": 0 },
 
@@ -2262,7 +2262,7 @@ D3_L3_Algebra = [
 
 D3_L4_Trigonometry = [ 
 
-    { "text": 'Which of the following is equal to 100 grads?', "options": ['A. 1.5\u03c0 rad', 'B. \u00bd rev', 'C. 1500 mils', 'D. 90\u00b0'], "correc.t": 3 },
+    { "text": 'Which of the following is equal to 100 grads?', "options": ['A. 1.5\u03c0 rad', 'B. \u00bd rev', 'C. 1500 mils', 'D. 90\u00b0'], "correct": 3 },
 
     { "text": 'It is the positive acute angle between the x-axis and the terminal side of an angle', "options": ['A. Co-terminal Angle', 'B. Reference Angle', 'C. Angle of Elevation', 'D. Angle of Depression'], "correct": 1 },
 
