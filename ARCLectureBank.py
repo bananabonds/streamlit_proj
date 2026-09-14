@@ -2184,53 +2184,2273 @@ D3_L2_Process_Control_Analysis = [
     
 ]
 
-# Lecture 3.3
-Algebra = [
-    
+D3_L3_Algebra = [
+
+    { "text": 'Find all the real values of x such that ((1/5)(x^2 - 10x + 26))^(x^2 - 6x + 5) = 1', "options": ['A. x = 1, 3, 5, 7', 'B. x = 2, 4, 6, 8', 'C. x = 0, 1, 2, 3', 'D. x = 1, 2, 3, 4'], "answer": 'x = 1, 3, 5, 7' },
+
+    { "text": 'Simplify: [(x^2 y^3 z^-2)^-3 (x^-3 y z^3)^(-1/2)] / (xyz^-3)^(-5/2)', "options": ['A. 1/(x^2 y^7 z^5)', 'B. 1/(x^2 y^7 z^3)', 'C. 1/(x^2 y^5 z^7)', 'D. 1/(x^5 y^7 z^2)'], "correct": 1 },
+
+    { "text": 'Simplify: {x^(2/3) [x^(-1/3) y^(-1/2) (x^2 y^-2)^(-2/3)]^(1/2)}^6', "options": ['A. y^(5/2)/x', 'B. y^(3/2)/x', 'C. y^(5/2)/x^2', 'D. y^(3/2)/x^2'], "correct": 0 },
+
+    { "text": 'Evaluate: y = [4(5^(2n+1)) - 10(5^(2n-1))] / [2(5^(2n))]', "options": ['A. y = 5^n', 'B. y = 9', 'C. y = 5^(2n)', 'D. y = 18'], "correct": 1 },
+
+    { "text": 'Simplify: sqrt(ab / cbrt(ab))', "options": ['A. cbrt(ab)', 'B. sqrt(ab)', 'C. ab/sqrt(ab)', 'D. ab/cbrt(ab)'], "correct": 0 },
+
+    { "text": 'Solve for the value of x: sqrt(2x+5) - sqrt(x+3) = 2', "options": ['A. 11', 'B. 22', 'C. 33', 'D. 44'], "answer": 1 },
+
+    { "text": 'Solve for x in the following equations: 27^x = 9^y and 81^y * 3^-x = 243', "options": ['A. 1', 'B. 1.5', 'C. 2', 'D. 2.5'], "correct": 0 },
+
+    { "text": 'Given: log_4 7 = n. Find: log_4 (1/7)', "options": ['A. 1/n', 'B. n', 'C. -1/n', 'D. -n'], "correct": 3 },
+
+    { "text": 'If log_a 10 = 0.25, what is the value of log_10 a?', "options": ['A. 2', 'B. 4', 'C. 6', 'D. 8'], "correct": 1 },
+
+    { "text": 'Given: log_b y = 2x + log_b x. Which of the following is true?', "options": ['A. y = b^(2x)', 'B. y = 2xb', 'C. y = 2x/b', 'D. y = x b^(2x)'], "correct": 3 },
+
+    { "text": 'What is the discriminant of the equation 4x^2 = 8x - 5?', "options": ['A. 8', 'B. -16', 'C. 16', 'D. -8'], "correct": 1 },
+
+    { "text": 'Given the equation 3x^2 + Bx + 12 = 0. What is the value of B so that the roots of the equation are equal?', "options": ['A. 4', 'B. 8', 'C. 10', 'D. -12'], "correct": 3 },
+
+    { "text": 'If 1/3 and -3/2 are the roots of a quadratic equation, then the equation is', "options": ['A. 6x^2 + 7x - 3 = 0', 'B. 6x^2 - 7x + 3 = 0', 'C. 6x^2 - 7x - 3 = 0', 'D. 6x^2 - 7x + 1 = 0'], "correct": 0 },
+
+    { "text": 'The equation whose roots are the reciprocal of the roots of 2x^2 - 3x - 5 = 0 is', "options": ['A. 5x^2 + 3x - 2 = 0', 'B. 2x^2 + 3x - 5 = 0', 'C. 3x^2 - 3x + 2 = 0', 'D. 2x^2 + 5x - 3 = 0'], "correct": 0 },
+
+    { "text": 'Given that the roots of the polynomial x^3 - 7x^2 + 13x - 7 = 0 are r, s and t, compute the value of 1/r + 1/s + 1/t.', "options": ['A. 13/7', 'B. 7/13', 'C. 1/7', 'D. 7'], "correct": 0 },
+
+    { "text": 'The arithmetic mean of 80 numbers is 55. If two numbers namely 250 and 850 are removed, what is the arithmetic mean of the remaining numbers?', "options": ['A. 42.31', 'B. 50', 'C. 38.62', 'D. 57.12'], "correct": 0 },
+
+    { "text": 'The arithmetic mean of 6 numbers is 17. If two numbers are added to the progression, the new set of numbers will have an arithmetic mean of 19. What are the two numbers if their difference is 4?', "options": ['A. 21, 25', 'B. 23, 27', 'C. 8, 12', 'D. 16, 20'], "correct": 1 },
+
+    { "text": 'Find the 30th term of the A.P. 4, 7, 10 ...', "options": ['A. 88', 'B. 75', 'C. 91', 'D. 90'], "correct": 2 },
+
+    { "text": 'An arithmetic progression starts with 3, has 9 terms, and the middle term is 19. Determine the sum of the first 9 terms.', "options": ['A. 220', 'B. 57', 'C. 110', 'D. 171'], "correct": 3 },
+
+    { "text": 'Find the sum of all integers between 300 and 800 that are exactly divisible by 14.', "options": ['A. 11,908', 'B. 21,200', 'C. 19,908', 'D. 18,205'], "correct": 2 },
+
+    { "text": 'Find the mean proportional of 4 and 36.', "options": ['A. 72', 'B. 24', 'C. 12', 'D. 20'], "correct": 2 },
+
+    { "text": 'Find the fourth proportional of 7, 12 and 21.', "options": ['A. 36', 'B. 34', 'C. 32', 'D. 40'], "correct": 0 },
+
+    { "text": 'The fourth term of a Geometric Progression is 189 and the sixth term is 1701, the 8th term is:', "options": ['A. 5103', 'B. 45927', 'C. 1240029', 'D. 15309'], "correct": 3 },
+
+    { "text": 'The numbers 28, x+2, 112... form a geometric progression. What is the 15th term of the sequence?', "options": ['A. 143369', 'B. 286721', 'C. 458752', 'D. 573442'], "correct": 2 },
+
+    { "text": 'Find the sum of the first 10 terms of the geometric progression 2, 4, 8, 16, ...', "options": ['A. 1203', 'B. 1225', 'C. 2046', 'D. 1825'], "correct": 2 },
+
+    { "text": 'There are 4 geometric means between 3 and 729. Find the fourth term of the geometric progression.', "options": ['A. 42', 'B. 81', 'C. 27', 'D. 108'], "correct": 1 },
+
+    { "text": 'A rubber ball is made to fall from a height of 50 ft. and is observed to rebound 2/3 of the distance it falls. How far will the ball travel before coming to rest if the ball continues to fall in this manner?', "options": ['A. 420', 'B. 343', 'C. 271', 'D. 250'], "correct": 3 },
+
+    { "text": 'What is the 11th term of the harmonic progression if the first and the third terms are 1/2 and 1/6 respectively?', "options": ['A. 1/20', 'B. 1/4', 'C. 1/12', 'D. 1/22'], "correct": 3 },
+
+    { "text": 'Suppose 4 machines in a machine shop are used to produce the same part. However, each of the 4 machines takes 2.5, 2.0, 1.5 and 6.0 minutes to make one part, respectively. What is the average rate of speed?', "options": ['A. 2', 'B. 2.59', 'C. 2.31', 'D. 3'], "correct": 2 },
+
+    { "text": 'The equation represents y = |x|, with y >= 0, represents', "options": ['A. y as a function of x', 'B. x as a function of y', 'C. y as a function of y', 'D. x as a function of x'], "correct": 0 },
+
+    { "text": 'Which of the following is classified as a function?', "options": ['A. Y = x^2 + 1', 'B. Y^2 = x + 1', 'C. Both A and B', 'D. Neither A nor B'], "correct": 0 },
+
+    { "text": 'Determine which of the following equations does NOT represent y as a function of x', "options": ['A. x^3 + y^2 = 1', 'B. x^2 + y^3 = 1', 'C. x^2 y = 1 - 3y', 'D. All of the above'], "correct": 0 },
+
+    { "text": 'Given f(x) = 3x^2 - 4x + 25, find f(-3).', "options": ['A. -25', 'B. 64', 'C. 32', 'D. 28'], "correct": 1 },
+
+    { "text": 'Given f(x) = -x^2 + 6x - 11, find f(4x - 1).', "options": ['A. 3x^2 - 4x + 25', 'B. -16x^2 + 32x - 18', 'C. 12x^2 - 25x + 8', 'D. -10x^2 - 8x + 14'], "correct": 1 },
+
+    { "text": 'If f(x) = 5x + 2/x and g(x) = x - 3, find (f o g)(x).', "options": ['A. (5x^2 + 30x + 47)/(x - 3)', 'B. (5x^2 - 30x + 47)/(x - 3)', 'C. (5x^2 - 30x - 47)/(x - 3)', 'D. (5x^2 + 30x + 47)/(x - 3)'], "correct": 1 },
+
+    { "text": 'Given f(x) = 3x^2 - x + 10 and g(x) = 1 - 20x, find (f o g)(x).', "options": ['A. 100x - 1200x^2 - 12', 'B. 12x^2 + 100x + 1200', 'C. 12x^2 - 100x + 1200', 'D. 1200x^2 - 100x + 12'], "correct": 3 },
+
 ]
 
-# Lecture 3.4
-Trig = [
+D3_L4_Trigonometry = [ 
+
+    { "text": 'Which of the following is equal to 100 grads?', "options": ['A. 1.5\u03c0 rad', 'B. \u00bd rev', 'C. 1500 mils', 'D. 90\u00b0'], "correc.t": 3 },
+
+    { "text": 'It is the positive acute angle between the x-axis and the terminal side of an angle', "options": ['A. Co-terminal Angle', 'B. Reference Angle', 'C. Angle of Elevation', 'D. Angle of Depression'], "correct": 1 },
+
+    { "text": 'Find the reference angle and the first negative co-terminal angle, respectively, of 135\u00b0.', "options": ['A. 45\u00b0, -45\u00b0', 'B. 45\u00b0, -135\u00b0', 'C. 45\u00b0, -225\u00b0', 'D. 45\u00b0, -315\u00b0'], "correct": 2 },
+
+    { "text": 'If the supplement of an angle is 5/2 of its complement, find the measurement of the angle.', "options": ['A. 45\u00b0', 'B. 135\u00b0', 'C. 30\u00b0', 'D. 60\u00b0'], "correct": 2 },
+
+    { "text": 'A certain angle has explement 5 times the supplement. Find the angle.', "options": ['A. 135\u00b0', 'B. 90\u00b0', 'C. 120\u00b0', 'D. 150\u00b0'], "correct": 0 },
+
+    { "text": 'Which of the following is the triangle inequality for an acute triangle?', "options": ['A. a^2 + b^2 = c^2', 'B. c^2 < a^2 + b^2', 'C. c^2 > a^2 + b^2', 'D. a^2 < b^2 + c^2'], "correct": 1 },
+
+    { "text": 'Simplify the expression: 4 cos y sin y (1 - 2sin^2 y)', "options": ['A. 2 sin y', 'B. cos 4y', 'C. cos 2y', 'D. sin 4y'], "correct": 3 },
+
+    { "text": 'Simplify: cos x / (sin x + 1) + tan x', "options": ['A. cos x', 'B. sec x', 'C. cot x', 'D. tan x'], "correct": 1 },
+
+    { "text": 'Which of the following is equivalent to sin 3A?', "options": ['A. 3sinA \u2013 4sin^3 A', 'B. 4sinA \u2013 3sin^3 A', 'C. 4sin^3 A \u2013 3sinA', 'D. 3sin^3 A \u2013 4sinA'], "correct": 0 },
+
+    { "text": 'Solve for G: tan(11G \u2013 16) = cot(5G + 26). All angles are expressed in degrees.', "options": ['A. 5', 'B. 6', 'C. 7', 'D. 8'], "correct": 0 },
+
+    { "text": 'If sin 3A = cos 6B, then:', "options": ['A. A + B = 180\u00b0', 'B. A + 2B = 30\u00b0', 'C. A + B = 30\u00b0', 'D. A \u2013 2B = 60\u00b0'], "correct": 1 },
+
+    { "text": 'Given that the value of sin x \u2013 cos x = -1/3, find the numerical value of sin 2x.', "options": ['A. 1/9', 'B. 8/9', 'C. 4/9', 'D. 2/9'], "correct": 1 },
+
+    { "text": 'Find the value of sec x + tan x if sec x \u2013 tan x = 3.', "options": ['A. -3', 'B. 2', 'C. 1/2', 'D. 1/3'], "correct": 3 },
+
+    { "text": 'What is the numerical value of versin 60\u00b0?', "options": ['A. 3/2', 'B. 1/2', 'C. 1', 'D. 2'], "correct": 1 },
+
+    { "text": 'If tan x + tan y = 25 and cot x + cot y = 30, what is tan (x + y)?', "options": ['A. 150', 'B. 100', 'C. 200', 'D. 250'], "correct": 0 },
+
+    { "text": 'In triangle ABC, AB = 18m and BC = 6m. Which of the following values can be equal to side AC?', "options": ['A. 10m', 'B. 11m', 'C. 12m', 'D. 13m'], "correct": 3 },
+
+    { "text": 'In which quadrant will angle A terminate if sec A is positive and csc A is negative?', "options": ['A. I', 'B. II', 'C. III', 'D. IV'], "correct": 3 },
+
+    { "text": 'A vertical pole 8 ft tall casts a shadow 5 ft long on level ground. Find the angle which the rays of the sun make with the horizontal.', "options": ['A. 32\u00b0', 'B. 58\u00b0', 'C. 39\u00b0', 'D. 51\u00b0'], "correct": 1 },
+
+    { "text": 'At a certain point, the angle of elevation of the top of a flagpole, which stands on level ground, is 35 deg. Seventy-five feet nearer the pole, the angle of elevation is 50 deg. How high is the pole?', "options": ['A. 127.32ft', 'B. 106.84ft', 'C. 117.85ft', 'D. 96.32ft'], "correct": 0 },
+
+    { "text": 'A man whose eye is 1.5m above his sole stands on a 48.5m high building. The angle of depression of the top and foot of a nearby building are 50 and 80 degrees respectively. Find the height of the 2nd building.', "options": ['A. 35.5m', 'B. 30.5m', 'C. 40.5m', 'D. 39.5m'], "correct": 3 },
+
+    { "text": 'A flagpole 3m high stands on top of a pedestal 2m high above the ground. At a distance \u201cx\u201d meters from the base of the pedestal and on the same horizontal plane as that of the pedestal, the flagpole and the pedestal subtend equal angles. Find the value of x.', "options": ['A. 3\u221a3', 'B. 2\u221a3', 'C. 2\u221a5', 'D. \u221a21'], "correct": 2 },
+
+    { "text": 'If arc tan 2x + arc tan 3x = 45 degrees, what is the numerical value of x?', "options": ['A. 1/6', 'B. \u00bd', 'C. 1/3', 'D. 1/4'], "correct": 0 },
+
+    { "text": 'Find the number of radians in arccot (-5.2418).', "options": ['A. -10.8', 'B. -1.38', 'C. -0.189', 'D. -0.723'], "correct": 2 },
+
+    { "text": 'If sin A = 3/5 and A lies on the 2nd quadrant, while cosine B = 7/25 lies on the first quadrant, find the numerical value of sin (A + B).', "options": ['A. -3/5', 'B. 3/5', 'C. 117/125', 'D. -117/125'], "correct": 0 },
+
+    { "text": 'If A + B + C = 180\u00b0 and tan A + tan B + tan C = 3, find the numerical value of tanA\u00b7tanB\u00b7tanC.', "options": ['A. 1/3', 'B. 2', 'C. 3', 'D. 1/2'], "correct": 2 },
+
+    { "text": 'What do you call the intersection of all the angle bisectors of a triangle?', "options": ['A. Centroid', 'B. Circumcenter', 'C. Incenter', 'D. Orthocenter'], "correct": 2 },
+
+    { "text": 'What is the period of f(t) = 2cos(\u03c0x/3 \u2013 1)?', "options": ['A. 3', 'B. 2', 'C. 6', 'D. 4'], "correct": 2 },
+
+    { "text": 'For what value of C will make f(t) = tan (Ct + 3) have a period of 2\u03c0?', "options": ['A. 1', 'B. 1/2', 'C. 2', 'D. 4'], "correct": 1 },
+
+    { "text": 'A pole cast a shadow 15m long when the angle of elevation of the sun is 61\u00b0. If the pole is leaned 15\u00b0 from the vertical directly towards the sun, determine the length of the pole.', "options": ['A. 46.27m', 'B. 54.23m', 'C. 43.29m', 'D. 52.31m'], "correct": 1 },
+
+    { "text": 'Three circles with centers A, B and C have respective radii 50, 30 and 20 inches and are tangent to each other externally. Find the area (in square inches) of the curvilinear triangle formed by the three circles.', "options": ['A. 142', 'B. 146', 'C. 150', 'D. 154'], "correct": 0 },
+
+    { "text": 'The sides of a triangular lot are 130m, 180m and 190m. This lot is to be divided by a line bisecting the longest side and drawn from the opposite vertex. Find the length of this line.', "options": ['A. 120m', 'B. 130m', 'C. 135m', 'D. 125m'], "correct": 3 },
+
+    { "text": 'Find the area of a circle circumscribing an equilateral triangle having each side measuring 10 cm.', "options": ['A. 154.43', 'B. 159.21', 'C. 104.72', 'D. 115.34'], "correct": 2 },
+
+    { "text": 'Find the area of the largest circular garden which can be made from a triangular lot measuring 5, 7, and 10 m respectively.', "options": ['A. 5.54', 'B. 6.85', 'C. 14.23', 'D. 11.49'], "correct": 1 },
+
+    { "text": 'Find the radius of the circle that can be inscribed in a triangle with sides 7cm, 24cm and 25cm.', "options": ['A. 3cm', 'B. 3.5cm', 'C. 4cm', 'D. 4.5cm'], "correct": 0 },
+
+    { "text": 'The area of a triangle inscribed in a circle having a radius 9cm is equal to 43.23 square cm. If one of the sides of the triangle is 18cm, find one of the other sides.', "options": ['A. 16.42cm', 'B. 18.31cm', 'C. 17.29cm', 'D. 12.42cm'], "correct": 2 },
+
+    { "text": 'In triangle ABC, the side AB = 36cm, BC = 30cm and CA = 48cm. Compute the distance from the intersection of perpendicular bisectors to side BC.', "options": ['A. 24.03cm', 'B. 18.77cm', 'C. 15.92cm', 'D. 17.89cm'], "correct": 1 },
+
+    { "text": 'Find the area of the smallest triangle (in square units) that can be formed from the given parts: b = 28.6, c = 44.3, and B = 23.3\u00b0.', "options": ['A. 554', 'B. 159', 'C. 454', 'D. 115'], "correct": 1 },
 
 ]
 
-# Lecture 3.5
-PlaneSolid = [
-    
+D3_L5_Geometry = [
+
+    { "text": 'What type of polygon has all of its interior angles less than 180 degrees?', "options": ['A. concave', 'B. convex', 'C. irregular', 'D. regular'], "correct": 1 },
+
+    { "text": 'What do you call a polygon with countably infinite number of sides?', "options": ['A. circle', 'B. ellipse', 'C. apeirogon', 'D. oblong'], "correct": 2 },
+
+    { "text": 'Given a polygon, the sum of its exterior angles is:', "options": ['A. 0 degree', 'B. 90 degrees', 'C. 180 degrees', 'D. 360 degrees'], "correct": 3 },
+
+    { "text": 'What is the sum of the interior angles of a convex dodecagon?', "options": ['A. 1680\u00b0', 'B. 1620\u00b0', 'C. 1710\u00b0', 'D. 1800\u00b0'], "correct": 3 },
+
+    { "text": 'If twice the sum of interior angles is equivalent to thrice the sum of exterior angles, what polygon satisfies the statement?', "options": ['A. quadrilateral', 'B. pentagon', 'C. hexagon', 'D. heptagon'], "correct": 1 },
+
+    { "text": 'What is the measure of one interior angle of a regular icosagon?', "options": ['A. 160\u00b0', 'B. 162\u00b0', 'C. 168\u00b0', 'D. 174\u00b0'], "correct": 1 },
+
+    { "text": 'What is the measure of one exterior angle of a regular hectogon?', "options": ['A. 3.6\u00b0', 'B. 1.8\u00b0', 'C. 18\u00b0', 'D. 36\u00b0'], "correct": 0 },
+
+    { "text": 'How many diagonals does a hexacontakaimonogon have?', "options": ['A. 1769', 'B. 1563', 'C. 1438', 'D. 1892'], "correct": 0 },
+
+    { "text": 'What is the measure of the apothem of a regular octagon if one of its sides measures 12m?', "options": ['A. 11.28m', 'B. 12.39m', 'C. 13.42m', 'D. 14.49m'], "correct": 3 },
+
+    { "text": 'What is the measure of the side of a regular dodecagon if the radius of the circumscribing circle is 14in?', "options": ['A. 7.25in', 'B. 6.50in', 'C. 8.75in', 'D. 9.00in'], "correct": 0 },
+
+    { "text": 'What is the radius of circumscribing circle if the measure of the apothem of a regular pentagon is 5cm?', "options": ['A. 5.03cm', 'B. 6.18cm', 'C. 7.24cm', 'D. 8.32cm'], "correct": 1 },
+
+    { "text": 'What is the perimeter of a regular nonagon with one of the apothem measures 20in?', "options": ['A. 129.38in', 'B. 131.03in', 'C. 147.69in', 'D. 156.73in'], "correct": 1 },
+
+    { "text": 'What is the perimeter of a regular decagon if the radius of the circumscribing circle is 32ft?', "options": ['A. 162.49ft', 'B. 178.24ft', 'C. 183.29ft', 'D. 197.77ft'], "correct": 3 },
+
+    { "text": 'What is the area of a regular undecagon if one of its sides measure 4.7m?', "options": ['A. 186.24m^2', 'B. 193.29m^2', 'C. 206.89m^2', 'D. 218.84m^2'], "correct": 2 },
+
+    { "text": 'What is the area of a regular icosagon if the measure of one of its apothems is 2.3cm?', "options": ['A. 13.29cm^2', 'B. 14.49cm^2', 'C. 15.83cm^2', 'D. 16.76cm^2'], "correct": 3 },
+
+    { "text": 'What is the area of a hexagon if the radius of circumscribing circle is 6.2?', "options": ['A. 99.87', 'B. 100.42', 'C. 119.06', 'D. 123.76'], "correct": 0 },
+
+    { "text": 'A piece of wire is shaped to enclose a square whose area is 169 cm^2. It is then reshaped to enclose a rectangle whose length is 15 cm. The area of the rectangle is:', "options": ['A. 165 cm^2', 'B. 175 cm^2', 'C. 170 cm^2', 'D. 156 cm^2'], "correct": 0 },
+
+    { "text": 'A trapezoid has an area of 36 m^2 and an altitude of 2 m. Its two bases have the ratio of 4:5. What are the lengths of the bases?', "options": ['A. 12, 15', 'B. 7, 11', 'C. 8, 10', 'D. 16, 20'], "correct": 3 },
+
+    { "text": 'A rhombus has diagonals of 32 and 20 inches. Determine its area.', "options": ['A. 360 in^2', 'B. 280 in^2', 'C. 320 in^2', 'D. 400 in^2'], "correct": 2 },
+
+    { "text": 'If the sides of a parallelogram and an included angle are 6, 10 and 100\u00b0, respectively, find the length of the shorter diagonal.', "options": ['A. 10.63', 'B. 10.37', 'C. 10.73', 'D. 10.23'], "correct": 2 },
+
+    { "text": 'Find the area of a quadrilateral having sides 12 m, 20 m, 8 m and 16.97 m. If the sum of the opposite angles is equal to 225\u00b0, find the area of the quadrilateral.', "options": ['A. 100 m^2', 'B. 124 m^2', 'C. 168 m^2', 'D. 158 m^2'], "correct": 2 },
+
+    { "text": 'Given a cyclic quadrilateral whose sides are 4 cm, 5 cm, 8 cm, and 11 cm. Its area is:', "options": ['A. 40.25 sq. cm.', 'B. 48.65 sq. cm.', 'C. 50.25 sq. cm.', 'D. 60.25 sq. cm.'], "correct": 0 },
+
+    { "text": 'In triangle ABC we have AB = 7, AC = 8 and BC = 9. Point D is on the circumscribed circle of the triangle so that AD bisects angle BAC. What is the value of AD/CD?', "options": ['A. 9/8', 'B. 5/3', 'C. 2', 'D. 17/7'], "correct": 1 },
+
+    { "text": 'A circle whose area is 452 cm square is cut into two segments by a chord whose distance from the center of the circle is 6 cm. Find the area of the larger segment in cm square.', "options": ['A. 372.5', 'B. 363.6', 'C. 368.4', 'D. 377.6'], "correct": 1 },
+
+    { "text": 'A semi-circle of radius 14 cm is formed from a piece of wire. If it is bent into a rectangle whose length is 1cm more than its width, find the area of the rectangle.', "options": ['A. 256.25 sq. cm.', 'B. 323.57 sq. cm.', 'C. 386.54 sq. cm.', 'D. 452.24 sq. cm.'], "correct": 1 },
+
+    { "text": 'The perimeter of a sector is 9 units and its radius is 3 units. What is the area of the sector?', "options": ['A. 5', 'B. 6.5', 'C. 4.5', 'D. 7'], "correct": 2 },
+
+    { "text": 'A cylinder is circumscribed about a right prism having a square base one meter on an edge. The volume of the cylinder is 6.283 cu. m. Compute its altitude.', "options": ['A. 3', 'B. 4', 'C. 5', 'D. 6'], "correct": 1 },
+
+    { "text": 'The volume of a truncated prism with an equilateral triangle as its horizontal base is equal to 1800 cu. cm. The vertical edges at each corner are 3, 4, and 5 cm., respectively. Find one side of the base.', "options": ['A. 10.39 cm', 'B. 15.87 cm', 'C. 32.23 cm', 'D. 27.17 cm'], "correct": 2 },
+
+    { "text": 'A cone is inscribed in a hemisphere of radius r. If the cone and the hemisphere share bases, find the volume of the region inside the hemisphere but outside the cone.', "options": ['A. 4\u03c0r^3/3', 'B. 2\u03c0r^3/3', 'C. \u03c0r^2h/3', 'D. \u03c0r^3/3'], "correct": 3 },
+
+    { "text": 'A wedge is cut from a cylinder of radius 3 m by two planes, one perpendicular to the axis of the cylinder and the other passing through the diameter of the section made by the first plane and inclined to this plane at an angle of 45 deg. Find the volume of the wedge.', "options": ['A. 16m^3', 'B. 18m^3', 'C. 20m^3', 'D. 22m^3'], "correct": 1 },
+
+    { "text": 'If the edge of the cube is decreased by 12%, by what percent does the surface area decrease?', "options": ['A. 23%', 'B. 77%', 'C. 73%', 'D. 27%'], "correct": 0 },
+
+    { "text": 'A spherical wooden ball 15 cm. in diameter sinks to a depth of 12 cm. in a certain liquid. Find the area exposed above the liquid.', "options": ['A. 50pi', 'B. 25pi', 'C. 45pi', 'D. 15pi'], "correct": 2 },
+
+    { "text": 'What is the area of a lune whose angle is 85 deg on a sphere of radius 30 cm?', "options": ['A. 1832.25cm^2', 'B. 2670.35cm^2', 'C. 1782.45cm^2', 'D. 2812.55cm^2'], "correct": 1 },
+
+    { "text": 'Find the surface area of a regular icosahedron when each edge is of length 5.', "options": ['A. 216.5', 'B. 261.5', 'C. 126.6', 'D. 162.5'], "correct": 0 },
+
+    { "text": 'The slant height of a right circular cone is 5m long. The base diameter is 6m. What is the lateral area in m^2?', "options": ['A. 37.7', 'B. 47', 'C. 44', 'D. 40.8'], "correct": 1 },
+
+    { "text": 'The base areas of a frustum of a cone are 25cm^2 and 16cm^2, respectively. If its altitude is 6cm, find its volume.', "options": ['A. 120 cm^3', 'B. 122 cm^3', 'C. 129 cm^3', 'D. 133 cm^3'], "correct": 1 },
+
+    { "text": 'The volume of a sphere is 904.78m^3. Find the volume of the spherical segment of height 4m.', "options": ['A. 234.57 cm^3', 'B. 256.58 cm^3', 'C. 145.69 cm^3', 'D. 124.58 cm^3'], "correct": 0 },
+
+    { "text": 'A water tank is in the form of a spherical segment whose base radii are 4m and 3m and whose altitude is 6m. The capacity of the tank is', "options": ['A. 100pi m^3', 'B. 101pi m^3', 'C. 110pi m^3', 'D. 111pi m^3'], "correct": 3 },
+
 ]
 
-# Lecture 3.6
-AnaGeom = [
-    
+D3_L6_AnalyticGeometry = [
+
+    { "text": 'Find the coordinate of a point equidistant from (1, -6), (5, -6) and (6, -1).', "options": ['A. (2, -2)', 'B. (3, -2)', 'C. (3, -3)', 'D. (2, -3)'], "correct": 2 },
+
+    { "text": 'The line segment connecting (x, 6) and (9, y) is bisected by the point (7, 3). Find the values of x and y.', "options": ['A. 14, 6', 'B. 33, 12', 'C. 5, 0', 'D. 14, 6'], "correct": 2 },
+
+    { "text": 'Find the coordinates of the point that divides the directed line segment MN with the coordinates of endpoints at M(-4,0) and N(0,4) in the ratio 3:1.', "options": ['A. (-2,0)', 'B. (-1,3)', 'C. (0,2)', 'D. (1,1)'], "correct": 1 },
+
+    { "text": 'The segment from (-1, 4) to (2, -2) is extended three times its own length. The terminal point is', "options": ['A. (11, -18)', 'B. (11, -24)', 'C. (11, -20)', 'D. (-11, -20)'], "correct": 2 },
+
+    { "text": 'If the slope of the line connecting the origin and point P is 3/4, find the abscissa of P if its ordinate is 6.', "options": ['A. 2', 'B. 6', 'C. 7', 'D. 8'], "correct": 3 },
+
+    { "text": 'The points (a, 1), (b, 2) and (c, 3) are collinear. Which of the following is true?', "options": ['A. c \u2013 b = c \u2013 a', 'B. c \u2013 b = b \u2013 a', 'C. c \u2013 a = a \u2013 b', 'D. c \u2013 a = b \u2013 a'], "correct": 1 },
+
+    { "text": 'Find the inclination of the line passing through (-5, 3) and (10, 7).', "options": ['A. 14.73', 'B. 14.93', 'C. 14.83', 'D. 14.63'], "correct": 1 },
+
+    { "text": 'Given three vertices of a triangle whose coordinates are A (1, 1), B (3, -3) and (5, -3). Find the area of the triangle.', "options": ['A. 3', 'B. 4', 'C. 5', 'D. 6'], "correct": 1 },
+
+    { "text": 'In a Cartesian coordinates, the vertices of a quadrilateral are: (1, 1), (0, 8), (4, 5) and (-3, 4). What is the area?', "options": ['A. 20 sq. units', 'B. 30 sq. units', 'C. 25 sq. units', 'D. 35 sq. units'], "correct": 2 },
+
+    { "text": 'Find the equation of the straight line with a slope of 3 and a y-intercept of 1.', "options": ['A. 3x + y \u2013 1 = 0', 'B. 3x \u2013 y + 1 = 0', 'C. x + 3y + 1 = 0', 'D. x \u2013 3y \u2013 1 = 0'], "correct": 1 },
+
+    { "text": 'What is the slope of the line 3x + 2y + 1 = 0?', "options": ['A. 3/2', 'B. 2/3', 'C. -3/2', 'D. -2/3'], "correct": 2 },
+
+    { "text": 'A line passes thru (1, -3) and (-4, 2). Write the equation of the line in slope-intercept form.', "options": ['A. y \u2013 4 = x', 'B. y = -x \u2013 2', 'C. y = x \u2013 4', 'D. y \u2013 2 = x'], "correct": 1 },
+
+    { "text": 'The equation of a line that intercepts the x-axis at x = 4 and the y-axis at y = -6 is,', "options": ['A. 3x + 2y = 12', 'B. 2x \u2013 3y = 12', 'C. 3x \u2013 2y = 12', 'D. 2x \u2013 3y = 12'], "correct": 2 },
+
+    { "text": 'Find the slope of the line having a parametric equation y = 4t + 6 and x = t + 1.', "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 3 },
+
+    { "text": 'Which of the following lines is parallel to the line 3x \u2013 2y + 6 = 0?', "options": ['A. 3x + 2y \u2013 12 = 0', 'B. 4x \u2013 9y = 6', 'C. 12x + 18y = 15', 'D. 15x \u2013 10y \u2013 9 = 0'], "correct": 3 },
+
+    { "text": 'The equation of the line through (-3, -5) parallel to 7x + 2y \u2013 4 = 0 is', "options": ['A. 7x + 2y + 31 = 0', 'B. 7x \u2013 2y + 30 = 0', 'C. 7x \u2013 2y \u2013 4 = 0', 'D. 2x + 7y + 30 = 0'], "correct": 0 },
+
+    { "text": 'The line 2x \u2013 3y + 2 = 0 is perpendicular to another line L1 of unknown equation. Find the slope of L1.', "options": ['A. 3/2', 'B. -3/2', 'C. 2/3', 'D. -2/3'], "correct": 1 },
+
+    { "text": 'A line through (-5, 2) and (1, -4) is perpendicular to the line through (x, -7) and (8, 7). Find the x.', "options": ['A. -4', 'B. -5', 'C. -6', 'D. -19/3'], "correct": 2 },
+
+    { "text": 'Find the equation of the line through point (3, 1) and is perpendicular to the line x + 5y + 5 = 0.', "options": ['A. 5x \u2013 2y = 14', 'B. 5x \u2013 y = 14', 'C. 2x \u2013 5y = 14', 'D. 2x + 5y = 14'], "correct": 1 },
+
+    { "text": 'The distance from a point (1, 3) to the line 4x + 3y + 12 = 0 is', "options": ['A. 4 units', 'B. 5 units', 'C. 6 units', 'D. 7 units'], "correct": 1 },
+
+    { "text": 'Find the distance between the given lines 4x \u2013 3y = 12 and 4x \u2013 3y = -8.', "options": ['A. 3', 'B. 4', 'C. 5', 'D. 6'], "correct": 1 },
+
+    { "text": 'Find the centroid of a triangle whose vertices are (2, 3), (-4, 6) and (2, -6).', "options": ['A. (0, 1)', 'B. (0, -1)', 'C. (1, 0)', 'D. (-1, 0)'], "correct": 0 },
+
+    { "text": 'Find the angle between the lines 3x + 2y = 6 and x + y = 6.', "options": ['A. 12\u00b0 20\u2019', 'B. 11\u00b0 19\u2019', 'C. 14\u00b0 25\u2019', 'D. 13\u00b0 06\u2019'], "correct": 1 },
+
+    { "text": 'A line with an inclination of 45\u00ba passes through (-5/2, -9/2). What is the x-coordinate of a point on the line if its corresponding y-coordinate is 6?', "options": ['A. 6', 'B. 7', 'C. 8', 'D. 9'], "correct": 2 },
+
+    { "text": 'The equation of the circle with center at (-2, 3) and which is tangent to the line 20x \u2013 21y \u2013 42 = 0.', "options": ['A. x^2 + y^2 + 4x \u2013 6y \u2013 12 = 0', 'B. x^2 + y^2 + 4x \u2013 6y + 12 = 0', 'C. x^2 + y^2 + 4x + 6y \u2013 12 = 0', 'D. x^2 + y^2 \u2013 4x \u2013 6y \u2013 12 = 0'], "correct": 0 },
+
+    { "text": 'Find the center of the circle x^2 + y^2 \u2013 6x + 4y \u2013 23 = 0.', "options": ['A. (3, -2)', 'B. (3, 2)', 'C. (-3, 2)', 'D. (-3, -2)'], "correct": 0 },
+
+    { "text": 'Find the shortest distance from the point (1, 2) to a point on the circumference of the circle defined by the equation x^2 + y^2 + 10x + 6y + 30 = 0.', "options": ['A. 5.61', 'B. 5.71', 'C. 5.81', 'D. 5.91'], "correct": 2 },
+
+    { "text": 'Determine the length of the chord common to the circles x^2 + y^2 = 64 and x^2 + y^2 \u2013 16x = 0.', "options": ['A. 13.86', 'B. 12.82', 'C. 13.25', 'D. 12.28'], "correct": 0 },
+
+    { "text": 'A circle has a diameter whose ends are at (-3, 2) and (12, -6). Its equation is:', "options": ['A. 4x^2 + 4y^2 \u2013 36x + 16y + 192 = 0', 'B. 4x^2 + 4y^2 \u2013 36x + 16y \u2013 192 = 0', 'C. 4x^2 + 4y^2 \u2013 36x \u2013 16y \u2013 192 = 0', 'D. 4x^2 + 4y^2 \u2013 36x \u2013 16y + 192 = 0'], "correct": 1 },
+
+    { "text": '3x^2 + 2x \u2013 5y + 7 = 0. Determine the curve.', "options": ['A. Parabola', 'B. Ellipse', 'C. Circle', 'D. Hyperbola'], "correct": 0 },
+
+    { "text": 'Given the equation of the parabola: y^2 \u2013 8x \u2013 4y \u2013 20 = 0. The length of its latus rectum is:', "options": ['A. 2', 'B. 4', 'C. 6', 'D. 8'], "correct": 3 },
+
+    { "text": 'The curve y = \u2013x^2 + x + 1 opens:', "options": ['A. Upward', 'B. To the left', 'C. To the right', 'D. Downward'], "correct": 3 },
+
+    { "text": 'The general equation of a conic section is given by the following equation: Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0. A curve may be identified as an ellipse by which of the following conditions?', "options": ['A. B^2 \u2013 4AC < 0', 'B. B^2 \u2013 4AC = 0', 'C. B^2 \u2013 4AC > 0', 'D. B^2 \u2013 4AC = 1'], "correct": 0 },
+
+    { "text": 'The lengths of the major and minor axes of an ellipse are 10 m and 8 m, respectively. Find the distance between the foci.', "options": ['A. 3', 'B. 4', 'C. 5', 'D. 6'], "correct": 3 },
+
+    { "text": 'The equation 25x^2 + 16y^2 \u2013 150x + 128y + 81 = 0 has its center at?', "options": ['A. (3, -4)', 'B. (3, 4)', 'C. (4, -3)', 'D. (3, 5)'], "correct": 0 },
+
+    { "text": 'An earth satellite has an apogee of 40,000 km and a perigee of 6,600 km. Assuming the radius of the earth as 6,400 km, what will be the eccentricity of the elliptical path described by the satellite with the center of the earth at one of the foci?', "options": ['A. 0.46', 'B. 0.49', 'C. 0.52', 'D. 0.56'], "correct": 3 },
+
+    { "text": 'The earth\u2019s orbit is an ellipse with the sun at one of the foci. If the farthest distance of the sun from the earth is 105.5 million km and the nearest distance of the sun from the earth is 78.25 million km, find the eccentricity of the ellipse.', "options": ['A. 0.15', 'B. 0.25', 'C. 0.35', 'D. 0.45'], "correct": 0 },
+
+    { "text": '4x^2 \u2013 y^2 = 16 is the equation of a/an?', "options": ['A. parabola', 'B. hyperbola', 'C. circle', 'D. ellipse'], "correct": 1 },
+
+    { "text": 'Find the eccentricity of the curve 9x^2 \u2013 4y^2 \u2013 36x + 8y = 4.', "options": ['A. 1.80', 'B. 1.86', 'C. 1.92', 'D. 1.76'], "correct": 0 },
+
+    { "text": 'Find the equation of the tangent to the curve x^2 + y^2 + 4x + 16y \u2013 32 = 0 through (4, 0).', "options": ['A. 3x \u2013 4y + 12 = 0', 'B. 3x \u2013 4y \u2013 12 = 0', 'C. 3x + 4y + 12 = 0', 'D. 3x + 4y \u2013 12 = 0'], "correct": 3 },
+
+    { "text": 'Find the equation of the normal to the curve y^2 + 2x + 3y = 0 through point (-5,2).', "options": ['A. 7x + 2y + 39 = 0', 'B. 7x \u2013 2y + 39 = 0', 'C. 2x \u2013 7y \u2013 39 = 0', 'D. 2x + 7y \u2013 39 = 0'], "correct": 1 },
+
 ]
 
-# Lecture 3.7
-DiffCal = [
-    
+D3_L7_Differential_Calculus = [
+    # 1
+    {"text": "Evaluate: lim(x→1) [(x-3)(x²-2)] / (x²+1)",
+     "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 0},
+    # 2
+    {"text": "Evaluate: lim(x→∞) x·e^(-x)",
+     "options": ['A. 0', 'B. 1', 'C. ∞', 'D. -∞'], "correct": 0},
+    # 3
+    {"text": "Evaluate: lim(x→4) (x²-16)/(2-√x)",
+     "options": ['A. 8', 'B. -16', 'C. 24', 'D. -32'], "correct": 3},
+    # 4
+    {"text": "Evaluate: lim(x→+∞) √(x²-3)/(x+2)",
+     "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 0},
+    # 5
+    {"text": "Evaluate: lim(x→-∞) [√(9x²-x) + 3x]",
+     "options": ['A. 1/2', 'B. 1/4', 'C. 1/6', 'D. 1/8'], "correct": 2},
+    # 6
+    {"text": "Evaluate: lim(x→∞) (1 + 1/x)^x",
+     "options": ['A. 0', 'B. 1', 'C. e', 'D. limit does not exist'], "correct": 2},
+    # 7
+    {"text": "Evaluate: lim(m→∞) (1 + r/m)^m",
+     "options": ['A. e', 'B. e^r', 'C. e^(-r)', 'D. e^(1/r)'], "correct": 1},
+    # 8
+    {"text": "Evaluate: lim(x→0+) x·ln(x)",
+     "options": ['A. 0', 'B. 1', 'C. ∞', 'D. -∞'], "correct": 0},
+    # 9
+    {"text": "Evaluate: lim(x→∞) x^(1/x)",
+     "options": ['A. 0', 'B. 1', 'C. e', 'D. ∞'], "correct": 1},
+    # 10
+    {"text": "Evaluate: lim(x→0) x²·cos(1/x)",
+     "options": ['A. -1', 'B. 0', 'C. 1', 'D. limit does not exist'], "correct": 1},
+    # 11
+    {"text": "The limit of function f(x) as x approaches a (a is finite or else x is said to increase without bound) is the number N. This statement is termed as:",
+     "options": ['A. Heaviside Definition of Limit', 'B. Leibniz Definition of Limit',
+                 'C. Newton Definition of Limit', 'D. Epsilon-Delta Definition of Limit'], "correct": 3},
+    # 12
+    {"text": "Consider the function: f(x) = x² for x≥2, f(x) = -x for x<2. The lim(x→2) f(x) does not exist and produces what type of discontinuity?",
+     "options": ['A. Infinite Discontinuity', 'B. Jump Discontinuity',
+                 'C. Removable Discontinuity', 'D. The function is continuous'], "correct": 1},
+    # 13
+    {"text": "Consider the function: f(x) = 1/(2x-4). The lim(x→2) f(x) does not exist and produces what type of discontinuity?",
+     "options": ['A. Infinite Discontinuity', 'B. Jump Discontinuity',
+                 'C. Removable Discontinuity', 'D. The function is continuous'], "correct": 0},
+    # 14
+    {"text": "Essential Discontinuity is also known as",
+     "options": ['A. Infinite Discontinuity', 'B. Jump Discontinuity',
+                 'C. Removable Discontinuity', 'D. The function is continuous'], "correct": 0},
+    # 15
+    {"text": "Consider the function f(x) = (x²-4)/(x-2). The lim(x→2) f(x) exists but produces what type of discontinuity?",
+     "options": ['A. Infinite Discontinuity', 'B. Jump Discontinuity',
+                 'C. Removable Discontinuity', 'D. The function is continuous'], "correct": 2},
+    # 16 (unnumbered in PDF - appears between Q15 and Q16, likely intended as Q19)
+    {"text": "Differentiate (x² + 2)^(1/2)",
+     "options": ['A. (x²+2)^(1/2)/2', 'B. x/(x²+2)^(1/2)', 'C. 2x/(x²+2)^(1/2)', 'D. (x²+2)^(3/2)'], "correct": 1},
+    # 17 (printed as 16)
+    {"text": "Find the derivative with respect to x of e^(cos x)",
+     "options": ['A. e^(cos x)·sin(x)', 'B. e^(cos x)·cos(x)', 'C. -e^(cos x)·sin(x)', 'D. -e^(cos x)·cos(x)'], "correct": 2},
+    # 18 (printed as 17)
+    {"text": "Differentiate ln(x³ - 4)",
+     "options": ['A. (x³-4)/(3x²)', 'B. 3x²/(x³-4)', 'C. (x³-4)/(x²)', 'D. x²/(x³-4)'], "correct": 1},
+    # 19 (printed as 18)
+    {"text": "What is the derivative of arcsin(x) with respect to x?",
+     "options": ['A. -1/(1+x²)', 'B. 1/(1+x²)', 'C. -1/√(1-x²)', 'D. 1/√(1-x²)'], "correct": 3},
+    # 20
+    {"text": "What is the derivative of arctanh(x) with respect to x?",
+     "options": ['A. -1/(1-x²)', 'B. 1/(1-x²)', 'C. -1/√(1+x²)', 'D. 1/√(1+x²)'], "correct": 1},
+    # 21
+    {"text": "Differentiate y = e^x·cos(x²)",
+     "options": ['A. -e^x·sin(x²)', 'B. e^x·(cos(x²) - 2x·sin(x²))',
+                 'C. e^x·cos(x²) - 2x·sin(x²)', 'D. -2x·e^x·sin(x)'], "correct": 1},
+    # 22
+    {"text": "Find the derivative of (x+1)³/x",
+     "options": ['A. ((x+1)²/x) - ((x+1)³/x)', 'B. (4(x+1)²/x) - (2(x+1)³/x)',
+                 'C. (2(x+1)³/x) - ((x+1)³/x³)', 'D. (3(x+1)²/x) - ((x+1)³/x²)'], "correct": 3},
+    # 23
+    {"text": "Find the second derivative of x³ - 5x² + x",
+     "options": ['A. 10x - 5', 'B. 6x - 10', 'C. 3x + 10', 'D. 3x² - 5x'], "correct": 1},
+    # 24
+    {"text": "Find the 999th derivative of -cos(x) + sin(x)",
+     "options": ['A. -cos(x) + sin(x)', 'B. sin(x) + cos(x)', 'C. -sin(x) - cos(x)', 'D. cos(x) - sin(x)'], "correct": 2},
+    # 25
+    {"text": "What is the 1st derivative y' of the expression (xy)^x = e?",
+     "options": ['A. 0', 'B. x/y', 'C. -y[(1 + ln(xy))/x]', 'D. -y[(1 - ln(xy))/x²]'], "correct": 2},
+    # 26
+    {"text": "Find the 2nd derivative of y by implicit differentiation from the equation 4x² + 8y² = 36",
+     "options": ['A. 64x²', 'B. -9/(4y³)', 'C. 32xy', 'D. -16/(9y³)'], "correct": 1},
+    # 27
+    {"text": "For the function f(x) = 4x³ - 3x² + 2x + 1, find the linear approximation around x = 3",
+     "options": ['A. y = 35x - 163', 'B. y = 92x + 187', 'C. y = 29x + 143', 'D. y = 92x - 188'], "correct": 3},
+    # 28
+    {"text": "Let g be a function such that g'(x) ≥ -6 for all x ∈ [0,2]. If g(0) = 0, determine the least possible value of g(2).",
+     "options": ['A. -12', 'B. -11', 'C. -10', 'D. -9'], "correct": 0},
+    # 29
+    {"text": "Determine the value of c that will satisfy Rolle's theorem for f(x) = x² - 4x + 3 on the interval [1, 3].",
+     "options": ['A. 1/2', 'B. 2', 'C. 5/2', 'D. 7/3'], "correct": 1},
+    # 30
+    {"text": "Which of the following is/are the critical value(s) of the function f(x) = x²/(9-x²)?",
+     "options": ['A. 0', 'B. -3', 'C. 3', 'D. All of the above'], "correct": 0},
+    # 31
+    {"text": "At x = 0, which of the following is true of the function f defined by f(x) = x² + e^(-2x)?",
+     "options": ['A. f is increasing', 'B. f is decreasing', 'C. f is discontinuous', 'D. f has a relative minimum'], "correct": 1},
+    # 32
+    {"text": "The graph of y = 5x⁴ - x⁵ has a point(s) of inflection at",
+     "options": ['A. (0, 0) only', 'B. (3, 162) only', 'C. (4, 256) only', 'D. (0, 0) and (3, 162)'], "correct": 1},
+    # 33
+    {"text": "The location in which the graph changes its concavity is called the:",
+     "options": ['A. critical points', 'B. relative extrema', 'C. inflection point', 'D. global extrema'], "correct": 2},
+    # 34 - SITUATION 1: f(x) = x³/9 - 3x
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] At what interval will the function be decreasing?",
+     "options": ['A. (-∞, -3]', 'B. [-3, 3]', 'C. [3, +∞)', 'D. both A and C'], "correct": 1},
+    # 35
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] At what interval will the function be increasing?",
+     "options": ['A. (-∞, -3]', 'B. [-3, 3]', 'C. [3, +∞)', 'D. both A and C'], "correct": 3},
+    # 36
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] What is the relative minimum point of the function?",
+     "options": ['A. (-3, -6)', 'B. (3, -6)', 'C. (-3, 6)', 'D. (3, 6)'], "correct": 1},
+    # 37
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] What is the relative maximum point of the function?",
+     "options": ['A. (-3, -6)', 'B. (3, -6)', 'C. (-3, 6)', 'D. (3, 6)'], "correct": 2},
+    # 38
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] What is the point of inflection of the given function?",
+     "options": ['A. (0, 0)', 'B. (-3, 6)', 'C. (3, -6)', 'D. (6, 6)'], "correct": 0},
+    # 39
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] At what interval will the graph have concavity in a downward manner?",
+     "options": ['A. (-∞, 0)', 'B. [-3, 3]', 'C. (0, +∞)', 'D. (0, 3)'], "correct": 0},
+    # 40
+    {"text": "[Situation 1: f(x) = x³/9 - 3x] At what interval will the graph have concavity in an upward manner?",
+     "options": ['A. (-∞, 0)', 'B. [-3, 3]', 'C. (0, +∞)', 'D. (0, 3)'], "correct": 2},
+    # 41
+    {"text": "If y = 4cos(x) + sin(2x), what is the slope of the curve when x = 2 radians?",
+     "options": ['A. -2.21', 'B. -4.94', 'C. -3.95', 'D. 2.21'], "correct": 1},
+    # 42
+    {"text": "Find the slope of the curve x² + y² - 6x + 10y + 5 = 0 at point (1, 0).",
+     "options": ['A. 1/5', 'B. 2/5', 'C. 1/4', 'D. 2'], "correct": 1},
+    # 43
+    {"text": "Find the radius of curvature of the parabola y² - 4x = 0 at point (4, 4).",
+     "options": ['A. 22.36 units', 'B. 25.78 units', 'C. 20.33 units', 'D. 15.42 units'], "correct": 0},
+    # 44
+    {"text": "Consider the curve given by the equation y² + x³ = 0. Find its curvature at the point (-1, 1).",
+     "options": ['A. 0.082', 'B. 0.128', 'C. -0.324', 'D. -0.526'], "correct": 1},
+    # 45
+    {"text": "Find the minimum distance from the point (4, 2) to the parabola y² = 8x.",
+     "options": ['A. 4√3', 'B. 2√2', 'C. √3', 'D. 2√3'], "correct": 1},
+    # 46
+    {"text": "Find the minimum amount of tin sheet that can be made into a closed cylinder having a volume of 108 cu. inches, in square inches.",
+     "options": ['A. 125.50', 'B. 127.50', 'C. 129.50', 'D. 123.50'], "correct": 0},
+    # 47
+    {"text": "A poster is to contain 300 cm² of printed matter with margins of 10 cm at the top and bottom and 5 cm at each side. Find the overall dimensions if the total area of the poster is minimum.",
+     "options": ['A. 27.76 cm, 47.8 cm', 'B. 20.45 cm, 35.6 cm', 'C. 22.24 cm, 44.5 cm', 'D. 25.55 cm, 46.7 cm'], "correct": 2},
+    # 48
+    {"text": "A normal window is in the shape of a rectangle surmounted by a semi-circle. What is the ratio of the width of the rectangle to the total height so that it will yield a window admitting the most light for a given perimeter?",
+     "options": ['A. 1', 'B. 1/2', 'C. 2', 'D. 2/3'], "correct": 0},
+    # 49
+    {"text": "A boatman is at A which is 4.5 km from the nearest point B on a straight shore BM. He wishes to reach in minimum time point C situated on the shore 9 km from B. How far from C should he land if he can row at the rate of 6 kph and can walk at the rate of 7.5 kph?",
+     "options": ['A. 4.15 km', 'B. 3.0 km', 'C. 3.25 km', 'D. 4.0 km'], "correct": 1},
+    # 50
+    {"text": "Given a cone of diameter x and altitude h. What percent is the volume of the largest cylinder which can be inscribed in the cone to the volume of the cone?",
+     "options": ['A. 44%', 'B. 46%', 'C. 56%', 'D. 65%'], "correct": 0},
+    # 51
+    {"text": "A wall 'h' meters high is 2 m away from the building. The shortest ladder that can reach the building with one end resting on the ground outside the wall is 6 m. How high is the wall in meters?",
+     "options": ['A. 2.34', 'B. 2.24', 'C. 2.44', 'D. 2.14'], "correct": 1},
+    # 52
+    {"text": "A statue 3 m high is standing on a base 4 m high. If an observer's eye is 1.5 m above the ground, how far should he stand from the base in order that the angle subtended by the statue is a maximum?",
+     "options": ['A. 3.41 m', 'B. 3.51 m', 'C. 3.71 m', 'D. 4.41 m'], "correct": 2},
+    # 53
+    {"text": "Divide 120 into two parts so that the product of one and the square of the other is maximum. Find the numbers.",
+     "options": ['A. 60 & 60', 'B. 100 & 20', 'C. 70 & 50', 'D. 80 & 40'], "correct": 3},
+    # 54
+    {"text": "A certain travel agency offered a tour that will cost each person P1500.00 if not more than 150 persons will join, however the cost per person will be reduced by P5.00 per person in excess of 150. How many persons will make the profit a maximum?",
+     "options": ['A. 75', 'B. 150', 'C. 225', 'D. 250'], "correct": 2},
+    # 55 - SITUATION 2: cone altitude 12m, base radius 15m, inscribed cylinder of max volume
+    {"text": "[Situation 2: Cone with altitude 12 m and base radius 15 m; cylinder inscribed with maximum volume] What is the height of the cylinder?",
+     "options": ['A. 4m', 'B. 5m', 'C. 6m', 'D. 7m'], "correct": 0},
+    # 56
+    {"text": "[Situation 2: Cone with altitude 12 m and base radius 15 m; cylinder inscribed with maximum volume] What is the base radius of the cylinder?",
+     "options": ['A. 5m', 'B. 10m', 'C. 15m', 'D. 20m'], "correct": 1},
+    # 57
+    {"text": "[Situation 2: Cone with altitude 12 m and base radius 15 m; cylinder inscribed with maximum volume] What is the volume of the cylinder?",
+     "options": ['A. 100pi m³', 'B. 200pi m³', 'C. 300pi m³', 'D. 400pi m³'], "correct": 3},
+    # 58 - SITUATION 3: sphere radius 12in, inscribed cylinder of max volume
+    {"text": "[Situation 3: Sphere with radius 12 in; cylinder inscribed with maximum volume] What is the height of the cylinder?",
+     "options": ['A. 4√3 in', 'B. 6√3 in', 'C. 8√3 in', 'D. 10√3 in'], "correct": 2},
+    # 59
+    {"text": "[Situation 3: Sphere with radius 12 in; cylinder inscribed with maximum volume] What is the base radius of the cylinder?",
+     "options": ['A. √6 in', 'B. 2√6 in', 'C. 3√6 in', 'D. 4√6 in'], "correct": 3},
+    # 60
+    {"text": "[Situation 3] What is the volume of the cylinder?",
+     "options": ['A. 4179 in³', 'B. 4238 in³', 'C. 4337 in³', 'D. 4460 in³'], "correct": 0},
+    # 61 - SITUATION 4: sphere radius 12in, inscribed cone of max volume
+    {"text": "[Situation 4: Sphere with radius 12 in; cone inscribed with maximum volume] What is the height of the cone?",
+     "options": ['A. 8in', 'B. 12in', 'C. 16in', 'D. 20in'], "correct": 2},
+    # 62
+    {"text": "[Situation 4: Sphere with radius 12 in; cone inscribed with maximum volume] What is the base radius of the cone?",
+     "options": ['A. 4√3 in', 'B. 8√3 in', 'C. 12√3 in', 'D. 16√3 in'], "correct": 1},
+    # 63
+    {"text": "[Situation 4: Sphere with radius 12 in; cone inscribed with maximum volume] What is the volume of the cone?",
+     "options": ['A. 2144.66 in³', 'B. 2233.55 in³', 'C. 2351.78 in³', 'D. 2490.12 in³'], "correct": 0},
+    # 64
+    {"text": "A balloon is released from the ground 100 meters from an observer. The balloon rises directly upward at the rate of 4 meters per second. How fast is the balloon receding from the observer 10 seconds later?",
+     "options": ['A. 1.68 m/sec', 'B. 1.36 m/sec', 'C. 1.55 m/sec', 'D. 1.49 m/sec'], "correct": 3},
+    # 65
+    {"text": "A man walks across a bridge at the rate of 5 fps as a boat passes directly beneath him at 10 fps. If the bridge is 10 feet above the boat, how fast are the man and the boat separating 1 second later?",
+     "options": ['A. 8 fps', 'B. 8.25 fps', 'C. 8.33 fps', 'D. 8.67 fps'], "correct": 2},
+    # 66
+    {"text": "A helicopter is rising vertically from the ground at a constant rate of 4.5 meters per second. When it is 75 m off the ground, a jeep passes beneath the helicopter traveling in a straight line at a constant rate of 80 kph. Determine how fast the distance between them is changing after 1 second.",
+     "options": ['A. 12.34 m/sec', 'B. 11.10 m/sec', 'C. 10.32 m/sec', 'D. 9.85 m/sec'], "correct": 2},
+    # 67
+    {"text": "Water is flowing into a conical cistern at the rate of 8 m³/min. If the height of the inverted cone is 12 m and the radius of its circular opening is 6 m, how fast is the water level rising when the water is 4 m deep?",
+     "options": ['A. 0.64 m/min', 'B. 0.56 m/min', 'C. 0.75 m/min', 'D. 0.45 m/min'], "correct": 0},
+    # 68
+    {"text": "Water is pouring into a swimming pool. After t hours, there are t + √t gallons in the pool. At what rate is the water pouring into the pool when t = 9 hours?",
+     "options": ['A. 7/6 gph', 'B. 8/7 gph', 'C. 6/5 gph', 'D. 5/4 gph'], "correct": 0},
+    # 69
+    {"text": "Water is running into a hemispherical bowl having a radius of 10 cm at a constant rate of 3 cm³/min. When the water is x cm deep, the water level is rising at the rate of 0.0149 cm/min. What is the value of x?",
+     "options": ['A. 3', 'B. 2', 'C. 4', 'D. 5'], "correct": 2},
+    # 70
+    {"text": "Sand is falling off a conveyor onto a conical pile at the rate of 15 cm³/min. The base of the cone is approximately twice the altitude. Find the height of the pile if the height of the pile is changing at the rate 0.047746 cm/min.",
+     "options": ['A. 12 cm', 'B. 10 cm', 'C. 8 cm', 'D. 6 cm'], "correct": 1},
+    # 71
+    {"text": "A machine is rolling a metal cylinder under pressure. The radius of the cylinder is decreasing at the rate of 0.05 cm per second and the volume V is 128pi cu.cm. At what rate is the length 'h' changing when the radius is 2.5 cm?",
+     "options": ['A. 0.8192 cm/sec', 'B. 0.7652 cm/sec', 'C. 0.6178 cm/sec', 'D. 0.5214 cm/sec'], "correct": 0},
+    # 72
+    {"text": "Two sides of a triangle are 15 cm and 20 cm long respectively. How fast is the third side increasing if the angle between the given sides is 60° and is increasing at the rate of 2°/sec?",
+     "options": ['A. 3.60 cm/sec', 'B. 2.70 cm/sec', 'C. 1.20 cm/sec', 'D. 0.05 cm/sec'], "correct": 3},
+    # 73
+    {"text": "A man 6 ft. tall is walking toward a building at the rate of 5 ft/sec. If there is a light on the ground 50 ft. from the building, how fast is the man's shadow on the building growing shorter when he is 30 ft. from the building?",
+     "options": ['A. -3.75 fps', 'B. -7.35 fps', 'C. -5.37 fps', 'D. -4.86 fps'], "correct": 0},
+    # 74
+    {"text": "Using linearization, what is the estimated value of √15.96?",
+     "options": ['A. 3.995', 'B. 3.996', 'C. 3.997', 'D. 3.998'], "correct": 0},
+    # 75 - SITUATION 5: P(x) = 0.0002x³ + 10x
+    {"text": "[Situation 5: P(x) = 0.0002x³ + 10x] Find the marginal profit for a production level of 50 units.",
+     "options": ['A. 11.50', 'B. 11.51', 'C. 11.52', 'D. 11.53'], "correct": 0},
+    # 76
+    {"text": "[Situation 5: P(x) = 0.0002x³ + 10x] What is the actual profit obtained by increasing the production level from 50 units to 51 units?",
+     "options": ['A. 11.50', 'B. 11.51', 'C. 11.52', 'D. 11.53'], "correct": 3},
+    # 77 - SITUATION 6: C(x) = 10000 + 90x - 0.05x²
+    {"text": "[Situation 6: C(x) = 10000 + 90x - 0.05x²] What is the marginal cost of 500 tanks?",
+     "options": ['A. $39.95', 'B. $40', 'C. $40.05', 'D. $40.10'], "correct": 1},
+    # 78
+    {"text": "[Situation 6: C(x) = 10000 + 90x - 0.05x²] What is the actual additional cost of producing the 501st tank?",
+     "options": ['A. $39.95', 'B. $40', 'C. $40.05', 'D. $40.10'], "correct": 0},
+    # 79
+    {"text": "A fastfood restaurant has determined that the monthly price-demand function for their hamburgers is p(x) = (60,000 - x)/20,000, where x is the number of hamburgers sold. Find the marginal revenue per hamburger for monthly sales of 20,000 hamburgers.",
+     "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 0},
+    # 80
+    {"text": "Find the limit: lim(x,y)→(0,0) (x² + y²)·ln(x² + y²)",
+     "options": ['A. -1', 'B. 0', 'C. 1', 'D. limit does not exist'], "correct": 1},
+    # 81
+    {"text": "Find the limit: lim(x,y)→(0,0) sin(x² + y²)/(x² + y²)",
+     "options": ['A. -1', 'B. 0', 'C. 1', 'D. limit does not exist'], "correct": 2},
+    # 82 - SITUATION 7: f(x,y,z) = x³y⁵z⁷ + xy² + y³z
+    {"text": "[Situation 7: f(x,y,z) = x³y⁵z⁷ + xy² + y³z] Find f_xxy",
+     "options": ['A. 6y⁵z⁷', 'B. 30xy⁴z⁷', 'C. 42xy⁵z⁶', 'D. 105x²y⁴z⁶'], "correct": 1},
+    # 83
+    {"text": "[Situation 7: f(x,y,z) = x³y⁵z⁷ + xy² + y³z] Find f_zyx",
+     "options": ['A. 6y⁵z⁷', 'B. 30xy⁴z⁷', 'C. 42xy⁵z⁶', 'D. 105x²y⁴z⁶'], "correct": 3},
+    # 84
+    {"text": "Find ∂⁴f/∂y∂z∂²x of f(x,y,z) = 5x³y + 20zyx + 2x²yz²",
+     "options": ['A. 2z', 'B. 4z', 'C. 6z', 'D. 8z'], "correct": 3},
+    # 85
+    {"text": "[Situation 8: f(x,y,z) = xy²z²] Find all points on the portion of the plane x + y + z = 5 in the first octant at which f(x,y,z) has a maximum value.",
+     "options": ['A. (1, 2, 2)', 'B. (3, 1, 1)', 'C. (1, 3, 1)', 'D. (2, 2, 1)'], "correct": 0},
 ]
 
-# Lecture 3.8
-IntegCalc = [
-
-    
+D3_L8_Integral_Calculus = [
+    # 1
+    {"text": "Evaluate: ∫ x²√(x³+3) dx",
+     "options": ['A. (2/9)(x³+3)^(3/2) + c', 'B. (1/3)(x³+3)^(2/3) + c',
+                 'C. (1/3)(x³+3)^(-1/2) + c', 'D. (x/3)(x³+3)^(3/2) + c'], "correct": 0},
+    # 2
+    {"text": "Evaluate: ∫ y³√(2y²+1) dy",
+     "options": ['A. (1/30)(2y³-1)^(3/2)(3y³+1) + c', 'B. (1/30)(2y²-1)^(1/2)(3y³+1) + c',
+                 'C. (1/30)(2y+1)^(1/2)(3y²+1) + c', 'D. (1/30)(2y²+1)^(3/2)(3y²-1) + c'], "correct": 3},
+    # 3
+    {"text": "Integrate: sin(1/x)/x² dx",
+     "options": ['A. sec(1/x) - cot²(1/x) + c', 'B. tan(1/x) - x + c',
+                 'C. cos(1/x) + c', 'D. sin(1/x) - csc²(1/x) + c'], "correct": 2},
+    # 4
+    {"text": "Integrate: sin(2θ)/cos²(θ) dθ",
+     "options": ['A. -2 ln|sec θ| + c', 'B. -2 ln|cos θ| + c',
+                 'C. 2 ln|cos θ| + c', 'D. 2 ln|sin θ| + c'], "correct": 1},
+    # 5
+    {"text": "Integrate: e^(y⁴)·4y³ dy",
+     "options": ['A. 4y·e^(y⁴) + c', 'B. e^(y⁴) + 4y + c',
+                 'C. e^(y⁴) + y³ + c', 'D. e^(y⁴) + c'], "correct": 3},
+    # 6
+    {"text": "Integrate: (2 + tan θ)/cos θ dθ",
+     "options": ['A. 2 log(sec θ + tan θ) + sec θ - 1 + c', 'B. 2 ln(sec θ + tan θ) + sec θ - 1 + c',
+                 'C. 2 ln(cos θ + tan θ) + cos θ - 1 + c', 'D. 2 log(sec θ + cos θ) + sec θ - 1 + c'], "correct": 1},
+    # 7
+    {"text": "Integrate: x²e^x dx",
+     "options": ['A. xe^x(x² + 2x + 2) + c', 'B. e^x(x² - 2x + 2) + c',
+                 'C. xe^x(x² + 2) + c', 'D. e^x(x - 1) + c'], "correct": 1},
+    # 8
+    {"text": "Integrate: x³cos(x) dx",
+     "options": ['A. x³cos(x) + 3x²sin(x) - 6xcos(x) - 6sin(x) + c',
+                 'B. x³cos(x) - 3x²sin(x) + 6xcos(x) + 6sin(x) + c',
+                 'C. x³sin(x) + 3x²cos(x) + 6xsin(x) - 6cos(x) + c',
+                 'D. x³sin(x) + 3x²cos(x) - 6xsin(x) - 6cos(x) + c'], "correct": 3},
+    # 9
+    {"text": "Integrate: e^(2x)sin(3x) dx",
+     "options": ['A. e^(2x)[(1/13)sin3x - (2/13)cos3x] + c', 'B. e^(2x)[(2/13)sin3x - (1/13)cos3x] + c',
+                 'C. e^(2x)[(2/13)sin3x - (3/13)cos3x] + c', 'D. e^(2x)[(3/13)sin3x - (2/13)cos3x] + c'], "correct": 2},
+    # 10
+    {"text": "Evaluate: ∫ ln(x) dx",
+     "options": ['A. 1/x + c', 'B. x·ln(x) - x + c', 'C. e^x + ln(x) + c', 'D. 1/e^x + c'], "correct": 1},
+    # 11
+    {"text": "Integrate: sec⁴(x)tan⁶(x) dx",
+     "options": ['A. tan⁹x/9 + tan⁷x/7 + c', 'B. tan⁹x/7 + tan⁷x/9 + c',
+                 'C. tan⁹x/7 - tan⁷x/9 + c', 'D. tan⁹x/9 - tan⁷x/7 + c'], "correct": 0},
+    # 12
+    {"text": "Evaluate: ∫ x²/√(1-x⁶) dx",
+     "options": ['A. (1/6)arcsin(x²) + c', 'B. (1/3)arcsin(x⁶) + c',
+                 'C. (1/3)arcsin(x³) + c', 'D. (1/2)arcsin(x³) + c'], "correct": 2},
+    # 13
+    {"text": "Evaluate: ∫ 1/(9-x²)^(3/2) dx",
+     "options": ['A. x/(9√(9-x²)) + c', 'B. -x/√(9-x²) + c',
+                 'C. x/√(9-x²) + c', 'D. 9x/√(9-x²) + c'], "correct": 0},
+    # 14
+    {"text": "Evaluate: ∫ 8/(3x³+7x²+4x) dx",
+     "options": ['A. 2ln|x| + 6ln|3x+4| - 8ln|x+1| + c', 'B. ln|x| + 7ln|3x+4| - 5ln|x+1| + c',
+                 'C. 2ln|x| - 6ln|3x+4| + 8ln|x+1| + c', 'D. ln|x| - 7ln|3x+4| + 5ln|x+1| + c'], "correct": 0},
+    # 15
+    {"text": "Evaluate: ∫ (z²+2z+3)/[(z-6)(z²+4)] dz",
+     "options": ['A. (51/40)ln|z-6| + (11/80)ln|z²+4| - (7/40)tan⁻¹(z/2) + c',
+                 'B. (51/40)ln|z-6| - (11/80)ln|z²+4| - (7/40)tan⁻¹(z/2) + c',
+                 'C. (51/40)ln|z-6| - (11/80)ln|z²+4| + (7/40)tan⁻¹(z/2) + c',
+                 'D. (51/40)ln|z-6| + (11/80)ln|z²+4| + (7/40)tan⁻¹(z/2) + c'], "correct": 2},
+    # 16
+    {"text": "Evaluate: ∫[0.5 to 2.2] (t²+1)/(t³+3t)² dt",
+     "options": ['A. 2.1416', 'B. -3.2818', 'C. 0.1858', 'D. 5.8172'], "correct": 2},
+    # 17
+    {"text": "Evaluate: ∫[0 to 1] sec²(t)·e^(tan t) dt",
+     "options": ['A. 0.147', 'B. 4.737', 'C. 7.343', 'D. 3.747'], "correct": 3},
+    # 18
+    {"text": "Evaluate: ∫[0 to π/2] sin²¹(x)cos³³(x) dx",
+     "options": ['A. 6.973×10⁻⁹', 'B. 3.486×10⁻⁹', 'C. 2.789×10⁻⁸', 'D. 1.673×10⁻⁷'], "correct": 1},
+    # 19
+    {"text": "Evaluate: ∫[1 to 2] ∫[y to y³] e^(x/y) dx dy",
+     "options": ['A. 32.16', 'B. 11.09', 'C. 15.78', 'D. 21.86'], "correct": 3},
+    # 20
+    {"text": "Solve: ∫[0 to 2π] ∫[π/4 to 3π/4] ∫[0 to √2] ρ²sin(Φ) dρ dΦ dθ",
+     "options": ['A. 4π/3', 'B. 8π/3', 'C. 16π/3', 'D. 16π/9'], "correct": 1},
+    # 21
+    {"text": "Find the area bounded by the parabola y²=4x, the x-axis, and the lines x=1 and x=3.",
+     "options": ['A. 7.677', 'B. 5.595', 'C. 4.454', 'D. 8.3'], "correct": 1},
+    # 22
+    {"text": "Find the area bounded by the curves y²=4x and y+2x=12.",
+     "options": ['A. 25.67', 'B. 41.67', 'C. 56.17', 'D. 37.71'], "correct": 1},
+    # 23
+    {"text": "Find the area of the region above the x-axis bounded by the function y=4x-x²-3.",
+     "options": ['A. 0.25', 'B. 1.33', 'C. 3.11', 'D. 2.1'], "correct": 1},
+    # 24
+    {"text": "Find the area bounded by the line x-2y+10=0, the coordinate axis in the first quadrant, and the line x=10.",
+     "options": ['A. 45', 'B. 36', 'C. 75', 'D. 18'], "correct": 2},
+    # 25
+    {"text": "What is the area of the region bounded by the curve x²+2x=8-y and the x-axis?",
+     "options": ['A. 25', 'B. 36', 'C. 15', 'D. 26'], "correct": 1},
+    # 26
+    {"text": "Find the area bounded by the parabolas y²=4x and x²=4y.",
+     "options": ['A. 5.33', 'B. 5.71', 'C. 5.88', 'D. 5.11'], "correct": 0},
+    # 27
+    {"text": "Find the area bounded by the curves x²+y²=9 and 4x²+9y²=36 on the first quadrant.",
+     "options": ['A. 2.09', 'B. 1.57', 'C. 2.36', 'D. 1.17'], "correct": 2},
+    # 28
+    {"text": "Find the area of one leaf of the four-leaved clover r=4sin(2θ).",
+     "options": ['A. π', 'B. 2π', 'C. 4π', 'D. 8π'], "correct": 1},
+    # 29
+    {"text": "Find the area inside the cardioid r=4(1+cosθ) but outside the circle r=4.",
+     "options": ['A. 22.28 sq. units', 'B. 44.57 sq. units', 'C. 11.14 sq. units', 'D. 66.71 sq. units'], "correct": 1},
+    # 30
+    {"text": "Determine the area under the parametric curve x=6(θ-sinθ), y=6(1-cosθ), for 0≤θ≤2π.",
+     "options": ['A. 100pi', 'B. 108pi', 'C. 116pi', 'D. 124pi'], "correct": 1},
+    # 31
+    {"text": "Find the length of arc of a circle x²+y²=25 from x=4 to x=-2.",
+     "options": ['A. 6.58', 'B. 5.68', 'C. 8.65', 'D. 6.85'], "correct": 3},
+    # 32
+    {"text": "Find the length of the arc of circle x²+y²=16 from x=1 to x=3.",
+     "options": ['A. 2.38', 'B. 4.76', 'C. 3.75', 'D. 1.23'], "correct": 0},
+    # 33
+    {"text": "Find the length of the curve given its parametric equations x=t³-3t and y=3t² from t=0 to t=1.",
+     "options": ['A. 2', 'B. 3', 'C. 4', 'D. 5'], "correct": 2},
+    # 34
+    {"text": "Determine the centroid of the area bounded by the curve x²=-y+4, the line x=1, and the coordinate axis.",
+     "options": ['A. 0.48, 1.85', 'B. 0.23, 2.3', 'C. 0.34, 1.45', 'D. 0.84, 5.18'], "correct": 0},
+    # 35
+    {"text": "Find the centroid of the plane area bounded by y²=4x, the line x=1, and the x-axis on the 1st quadrant.",
+     "options": ['A. 1/3, 4/3', 'B. 3/5, 3/4', 'C. -1, 2/3', 'D. 3/4, -2/3'], "correct": 1},
+    # 36
+    {"text": "Determine the distance of the centroid from the y-axis of the plane area bounded by the curve x²=16y, the line x=12, and the x-axis.",
+     "options": ['A. 6', 'B. 5', 'C. 9', 'D. 7'], "correct": 2},
+    # 37
+    {"text": "Find the moment of inertia of the area bounded by the curve x²=4y, the line y=1, and the y-axis on the first quadrant with respect to the y-axis.",
+     "options": ['A. 1.07', 'B. 1.70', 'C. 1.10', 'D. 1.01'], "correct": 0},
+    # 38
+    {"text": "Find the moment of inertia with respect to the y-axis of the area bounded by the parabola x²=8y, the line x=4, and the x-axis on the first quadrant.",
+     "options": ['A. 65.2', 'B. 25.6', 'C. 26.5', 'D. 56.2'], "correct": 1},
+    # 39
+    {"text": "Given the area bounded by the curve y²=x, the line x=4, and the x-axis. What is the volume generated when this area is revolved about the y-axis?",
+     "options": ['A. 98.4 u³', 'B. 80.4 u³', 'C. 72.3 u³', 'D. 50.5 u³'], "correct": 1},
+    # 40
+    {"text": "What is the volume generated when the area in the first quadrant bounded by the curve x²=8y, the line x=4, and the x-axis is revolved about the y-axis?",
+     "options": ['A. 40.13', 'B. 45.78', 'C. 50.26', 'D. 30.56'], "correct": 2},
+    # 41
+    {"text": "Find the volume obtained if the region bounded by y=x² and y=2x is rotated about the x-axis.",
+     "options": ['A. 64pi/15', 'B. 45pi/4', 'C. 54pi/8', 'D. 36pi/27'], "correct": 0},
+    # 42
+    {"text": "The parabolic reflector of an automobile headlight is 12 cm in diameter and 4 cm in depth. What is the surface area in cm²?",
+     "options": ['A. 153.94', 'B. 135.97', 'C. 127.82', 'D. 156.35'], "correct": 0},
+    # 43
+    {"text": "Determine the surface area generated if the line segment intercepted by the coordinate axis is revolved about the y-axis. The equation of the line is 3x + 4y - 12 = 0.",
+     "options": ['A. 10pi', 'B. 20pi', 'C. 15pi', 'D. 25pi'], "correct": 1},
+    # 44
+    {"text": "Determine the volume generated by rotating the curve 9x² + 4y² = 36 about the line 3x + 4y = 20.",
+     "options": ['A. 274.8', 'B. 413.8', 'C. 374.5', 'D. 473.7'], "correct": 3},
+    # 45
+    {"text": "A 5 N monkey is attached to a 20 m hanging rope that weighs 0.3 N/m. The monkey climbs the rope up to the top. How much work has it done?",
+     "options": ['A. 130J', 'B. 150J', 'C. 160J', 'D. 20J'], "correct": 2},
+    # 46
+    {"text": "Calculate the work done in pumping out the water filling a hemispherical reservoir 3 m deep.",
+     "options": ['A. 623.58 kN-m', 'B. 274.48 kN-m', 'C. 420.23 kN-m', 'D. 374.45 kN-m'], "correct": 0},
+    # 47
+    {"text": "A conical tank, 10 m deep and radius 4 meters, is filled with water to a depth of 5 m. The tank is emptied by pumping the water over the top edge. Find the work done in the process.",
+     "options": ['A. 1382 kJ', 'B. 1283 kJ', 'C. 1832 kJ', 'D. 1328 kJ'], "correct": 1},
+    # 48
+    {"text": "Which of the following is considered as the Volterra equation of the first kind?",
+     "options": ['A. u(x) = λ∫[a,x] K(x,t)u(t)dt', 'B. u(x) = f(x) + λ∫[a,x] K(x,t)u(t)dt',
+                 'C. u(x) = λ∫[a,b] K(x,t)u(t)dt', 'D. u(x) = f(x) + λ∫[a,b] K(x,t)u(t)dt'], "correct": 0},
+    # 49
+    {"text": "Which of the following is considered as the Volterra equation of the second kind?",
+     "options": ['A. u(x) = λ∫[a,x] K(x,t)u(t)dt', 'B. u(x) = f(x) + λ∫[a,x] K(x,t)u(t)dt',
+                 'C. u(x) = λ∫[a,b] K(x,t)u(t)dt', 'D. u(x) = f(x) + λ∫[a,b] K(x,t)u(t)dt'], "correct": 1},
+    # 50
+    {"text": "Which of the following is considered as the Fredholm equation of the first kind?",
+     "options": ['A. u(x) = λ∫[a,x] K(x,t)u(t)dt', 'B. u(x) = f(x) + λ∫[a,x] K(x,t)u(t)dt',
+                 'C. u(x) = λ∫[a,b] K(x,t)u(t)dt', 'D. u(x) = f(x) + λ∫[a,b] K(x,t)u(t)dt'], "correct": 2},
+    # 51
+    {"text": "Which of the following is considered as the Fredholm equation of the second kind?",
+     "options": ['A. u(x) = λ∫[a,x] K(x,t)u(t)dt', 'B. u(x) = f(x) + λ∫[a,x] K(x,t)u(t)dt',
+                 'C. u(x) = λ∫[a,b] K(x,t)u(t)dt', 'D. u(x) = f(x) + λ∫[a,b] K(x,t)u(t)dt'], "correct": 3},
+    # 52
+    {"text": "Evaluate the Laplace transform of 2t⁵/5.",
+     "options": ['A. 2s⁵/5', 'B. 2/(5s⁵)', 'C. 2/(5s⁶)', 'D. 48/s⁶'], "correct": 3},
+    # 53
+    {"text": "What is the Laplace transform of cos(2t)?",
+     "options": ['A. 2/(s²+2)', 'B. 2/(s²+4)', 'C. s/(s²+2)', 'D. s/(s²+4)'], "correct": 3},
+    # 54
+    {"text": "What is the Laplace transform of sin(2t)?",
+     "options": ['A. 2/(s²+2)', 'B. 2/(s²+4)', 'C. s/(s²+2)', 'D. s/(s²+4)'], "correct": 1},
+    # 55
+    {"text": "What is the Laplace transform of cosh(2t)?",
+     "options": ['A. 2/(s²-2)', 'B. 2/(s²-4)', 'C. s/(s²-2)', 'D. s/(s²-4)'], "correct": 3},
+    # 56
+    {"text": "What is the Laplace transform of sinh(2t)?",
+     "options": ['A. 2/(s²-2)', 'B. 2/(s²-4)', 'C. s/(s²-2)', 'D. s/(s²-4)'], "correct": 1},
+    # 57
+    {"text": "What is the Laplace transform of e^(3t)?",
+     "options": ['A. 1/(s+3)', 'B. 1/(s-3)', 'C. 1/(s+9)', 'D. 1/(s-9)'], "correct": 1},
+    # 58
+    {"text": "What is the Laplace transform of e^(2t)cos(3t)?",
+     "options": ['A. (s-3)/((s-3)²+4)', 'B. (s-3)/((s-3)²-4)',
+                 'C. (s-2)/((s-2)²+9)', 'D. (s-2)/((s-2)²-9)'], "correct": 2},
+    # 59
+    {"text": "What is the Laplace transform of the error function erfc(3/(2√t))?",
+     "options": ['A. e^(-3√(s/2))/s', 'B. e^(3√(s/2))/s', 'C. e^(3√s)/s', 'D. e^(-3√s)/s'], "correct": 3},
+    # 60
+    {"text": "What is the Laplace transform of sin(t)sinh(t)?",
+     "options": ['A. 2s/(s⁴+4)', 'B. s³/(s⁴+4)', 'C. 2/(s⁴+4)', 'D. s³/(s⁴+1)'], "correct": 0},
+    # 61
+    {"text": "What is the Laplace transform of cos(t)cosh(t)?",
+     "options": ['A. 2s/(s²+4)', 'B. s³/(s²+4)', 'C. 2/(s²+4)', 'D. s³/(s²+1)'], "correct": 1},
+    # 62
+    {"text": "What is the Laplace transform of sin(2t) + sinh(2t)?",
+     "options": ['A. s²/(s⁴-16)', 'B. 4s²/(s⁴-16)', 'C. s³/(s⁴-16)', 'D. 2s³/(s⁴-16)'], "correct": 1},
+    # 63
+    {"text": "What is the Laplace transform of cos(2t) + cosh(2t)?",
+     "options": ['A. s²/(s⁴-16)', 'B. 4s²/(s⁴-16)', 'C. s³/(s⁴-16)', 'D. 2s³/(s⁴-16)'], "correct": 3},
+    # 64
+    {"text": "What is the Laplace transform of sin(2t)/t?",
+     "options": ['A. arcsin(a/s)', 'B. arcsin(s/a)', 'C. arctan(a/s)', 'D. arctan(s/a)'], "correct": 2},
+    # 65
+    {"text": "What is the Laplace transform of t·sin(2t)?",
+     "options": ['A. s/(s²+4)²', 'B. 2s/(s²+4)²', 'C. 3s/(s²+4)²', 'D. 4s/(s²+4)²'], "correct": 3},
 ]
 
-# Lecture 3.91
-CPI = [
-
-    
+D3_L9_CPI = [
+    # 1
+    {"text": "The \"lead chamber process,\" initiated by John Roebuck, was used to produce which major industrial chemical?",
+     "options": ['A. Sodium carbonate', 'B. Ammonia', 'C. Sulfuric acid', 'D. Chlorine'], "correct": 2},
+    # 2
+    {"text": "Which process, developed by Nicholas LeBlanc, is often credited with beginning the modern chemical industry?",
+     "options": ['A. The Haber process', 'B. The contact process', 'C. Converting sodium chloride into sodium carbonate', 'D. The synthesis of aniline dyes'], "correct": 2},
+    # 3
+    {"text": "What was historically significant about Peregrine Phillips' patent for the \"contact process\"?",
+     "options": ['A. It was the first mention of heterogeneous catalysis for a large-scale process.', 'B. It introduced the use of coal tar for dyes.',
+                 'C. It was the first process to use electrical power.', 'D. It replaced the need for sulfuric acid entirely.'], "correct": 0},
+    # 4
+    {"text": "While attempting to synthesize quinine, William Henry Perkin created \"mauveine.\" What industry did this launch?",
+     "options": ['A. The plastic industry', 'B. The fertilizer industry', 'C. The synthetic dye industry', 'D. The petroleum refining industry'], "correct": 2},
+    # 5
+    {"text": "The \"Alkali Works Act\" of 1864 in Britain is historically important as the first example of what?",
+     "options": ['A. Patent law protection', 'B. Government-funded research', 'C. Environmental regulation', 'D. Global trade agreements'], "correct": 2},
+    # 6
+    {"text": "The Deacon process was specifically designed to recycle a byproduct of the LeBlanc process by converting HCl into:",
+     "options": ['A. Sodium carbonate', 'B. Chlorine', 'C. Sulfur dioxide', 'D. Ammonia'], "correct": 1},
+    # 7
+    {"text": "What technological advancement allowed for the birth of the \"chlor-alkali\" industry around 1900?",
+     "options": ['A. The discovery of natural gas', 'B. Large-scale electrical power generation',
+                 'C. The development of high-pressure vessels', 'D. The invention of the lead chamber'], "correct": 1},
+    # 8
+    {"text": "The Haber-Bosch process is considered a milestone because it allowed for the production of ammonia from:",
+     "options": ['A. Coal tar', 'B. Nitrogen and hydrogen', 'C. Animal fats', 'D. Sodium chloride'], "correct": 1},
+    # 9
+    {"text": "Wilhelm Normann's introduction of the hydrogenation of fats is commonly referred to as:",
+     "options": ['A. Fat hardening', 'B. Polymerization', 'C. Saponification', 'D. Distillation'], "correct": 0},
+    # 10
+    {"text": "What distinguishes Bakelite, patented by Leo Baekeland, in the history of materials?",
+     "options": ['A. It was the first synthetic aniline dye.', 'B. It was the first commercially important plastic.',
+                 'C. It was the first catalyst used in the contact process.', 'D. It was the first byproduct of the Solvay process.'], "correct": 1},
+    # 11
+    {"text": "What was the historical significance of Standard Oil Company's production of isopropanol in 1920?",
+     "options": ['A. It was the first time coal gas was used as a fuel.', 'B. It was the first large-scale industrial process to use oil as a feedstock.',
+                 'C. It introduced the concept of catalytic cracking.', 'D. It was the first synthesis of a plastic material.'], "correct": 1},
+    # 12
+    {"text": "The Fischer–Tropsch process, developed by Franz Fischer and Hans Tropsch, is primarily used to produce:",
+     "options": ['A. Synthetic liquid fuels from coal gas', 'B. Methanol from high-pressure reactors',
+                 'C. Polystyrene for consumer goods', 'D. Ammonia for agricultural fertilizers'], "correct": 0},
+    # 13
+    {"text": "Which major material discovery is credited to Wallace Carothers at DuPont, eventually becoming the most famous synthetic fiber?",
+     "options": ['A. Neoprene', 'B. Nylon', 'C. Polystyrene', 'D. Polyethene'], "correct": 1},
+    # 14
+    {"text": "How was polyethene (polyethylene) first discovered at ICI in 1933?",
+     "options": ['A. Through the introduction of a chromium catalyst.', 'B. By applying extremely high pressure to a mixture of ethene and benzaldehyde.',
+                 'C. By distilling oil fractions at low temperatures.', 'D. Through the oxidation of ethene at sea level.'], "correct": 1},
+    # 15
+    {"text": "What industrial advancement did Eugene Houdry develop that led to the creation of the first modern oil refinery?",
+     "options": ['A. Steam reforming', 'B. Fluidized-bed coal gasification', 'C. Industrial-scale catalytic cracking', 'D. Synthesis of neoprene'], "correct": 2},
+    # 16
+    {"text": "The first American car tire made from synthetic rubber used which material?",
+     "options": ['A. Polyethene', 'B. Polystyrene', 'C. Neoprene', 'D. Isopropanol'], "correct": 2},
+    # 17
+    {"text": "Which process, introduced by Fritz Winkler in 1926, was used for commercial coal gasification?",
+     "options": ['A. Steam reforming', 'B. Fluidized-bed process', 'C. High-pressure methanol synthesis', 'D. Ethene epoxidation'], "correct": 1},
+    # 18
+    {"text": "The alkylation process, commercialized in the late 1930s, is primarily used in the petroleum industry to produce what?",
+     "options": ['A. Low-density polyethene', 'B. Acetic acid', 'C. High-octane alkylate', 'D. Carbon nanotubes'], "correct": 2},
+    # 19
+    {"text": "Otto Roelen is credited with discovering which reaction that converts alkenes into aldehydes?",
+     "options": ['A. Catalytic cracking', 'B. Hydroformylation', 'C. Methanol carbonylation', 'D. Metathesis'], "correct": 1},
+    # 20
+    {"text": "What is the primary structural difference between the polyethene produced by ICI in 1939 and the version enabled by Karl Ziegler's catalyst?",
+     "options": ['A. The ICI version is High-Density (HDPE), while Ziegler\'s is Low-Density (LDPE).',
+                 'B. The ICI version is Low-Density (LDPE), while Ziegler\'s is High-Density (HDPE).',
+                 'C. Ziegler\'s catalyst produced PVC, not polyethene.', 'D. There is no structural difference; only the catalyst changed.'], "correct": 1},
+    # 21
+    {"text": "The Phillips petroleum process became a massive source of polyethene by utilizing which type of catalyst?",
+     "options": ['A. Homogeneous rhodium catalysts', 'B. Cobalt-based catalysts', 'C. Chromium-based catalysts', 'D. Zeolite catalysts'], "correct": 2},
+    # 22
+    {"text": "The development of the Ziegler catalyst was instrumental in the first commercial production of which specific polymer?",
+     "options": ['A. Poly(ethene terephthalate) (PET)', 'B. Poly(vinyl chloride) (PVC)', 'C. Isotactic polypropene', 'D. Acrylonitrile'], "correct": 2},
+    # 23
+    {"text": "Which two major industrial chemicals saw new commercial production processes in 1960 via the Wacker and SOHIO processes, respectively?",
+     "options": ['A. Acetaldehyde and Acrylonitrile', 'B. Acetic acid and Methanol', 'C. LDPE and HDPE', 'D. Ethanol and Benzene'], "correct": 0},
+    # 24
+    {"text": "How did the Monsanto process for acetic acid production improve upon the earlier BASF process?",
+     "options": ['A. It switched from homogeneous to heterogeneous catalyst.', 'B. It used a rhodium-based catalyst instead of cobalt-based.',
+                 'C. It eliminated the need for methanol.', 'D. It was used for high-pressure synthesis only.'], "correct": 1},
+    # 25
+    {"text": "Mobil Oil introduced a revolutionary catalyst for \"catalytic cracking\" in the 1960s. What was this material?",
+     "options": ['A. Carbon nanotubes', 'B. Chromium oxide', 'C. Zeolite', 'D. Silver nitrate'], "correct": 2},
+    # 26
+    {"text": "What major shift occurred in catalysis during the 1970s, exemplified by the development of the catalytic converter?",
+     "options": ['A. A shift toward producing only bioethanol.', 'B. The total abandonment of metal-based catalysts.',
+                 'C. The birth of environmental catalysis to control emissions.', 'D. A focus purely on carbon nanotube production.'], "correct": 2},
+    # 27
+    {"text": "Which one mentioned below is not a major industrial chemical produced by chloro-alkali industry?",
+     "options": ['A. Soda ash', 'B. Chlorine', 'C. Caustic soda', 'D. Ammonium carbonate'], "correct": 3},
+    # 28
+    {"text": "Concentration of NaOH solution produced by mercury electrolytic cell is about __________ percent.",
+     "options": ['A. 10', 'B. 50', 'C. 25', 'D. 98'], "correct": 1},
+    # 29
+    {"text": "Which material is traditionally used to construct the porous diaphragm in an industrial diaphragm cell?",
+     "options": ['A. Titanium', 'B. Asbestos fibers', 'C. Polytetrafluoroethylene (PTFE)', 'D. Graphite'], "correct": 1},
+    # 30
+    {"text": "What is the primary material used as the separator in a membrane cell process?",
+     "options": ['A. Asbestos diaphragm', 'B. Ion-exchange membrane', 'C. Liquid mercury', 'D. Porous carbon'], "correct": 1},
+    # 31
+    {"text": "Major production of caustic soda is through ___________",
+     "options": ['A. Mercury cell process', 'B. Chemical process', 'C. Diaphragm cell process', 'D. Membrane cell process'], "correct": 3},
+    # 32
+    {"text": "Which of the following is the most adverse factor challenging the choice of mercury electrolytic cell process for the production of caustic soda?",
+     "options": ['A. High cost of mercury', 'B. High specific gravity of mercury', 'C. Non-availability of high purity mercury', 'D. Pollution of water stream by mercury'], "correct": 3},
+    # 33
+    {"text": "__________ process is used for the manufacture of sodium carbonate by ammonia soda process.",
+     "options": ['A. Ostwald\'s', 'B. Solvay', 'C. Bosch', 'D. Haber\'s'], "correct": 1},
+    # 34
+    {"text": "The raw materials for the Solvay process for manufacture of the soda ash are",
+     "options": ['A. Salt, limestone and coke or gas', 'B. Ammonia, salt and limestone', 'C. Ammonia limestone and coke', 'D. None of these'], "correct": 0},
+    # 35
+    {"text": "Which of the following has sodium bicarbonate as its main constituent?",
+     "options": ['A. Baking soda', 'B. Washing soda', 'C. Baking powder', 'D. None of these'], "correct": 0},
+    # 36
+    {"text": "In primitive days, __________ was manufactured by Leblanc Process.",
+     "options": ['A. Alum', 'B. Soda ash', 'C. Washing soda', 'D. Calcium carbide'], "correct": 1},
+    # 37
+    {"text": "Which unit operation is not involved in the Solvay process?",
+     "options": ['A. Saturation', 'B. Liquefaction', 'C. Clarification', 'D. Precipitation'], "correct": 1},
+    # 38
+    {"text": "Deacon's method is used for the manufacture of",
+     "options": ['A. Glauber\'s salt', 'B. Chlorine', 'C. Common salt', 'D. Graphite electrode'], "correct": 1},
+    # 39
+    {"text": "Reagent used for drying of Cl2 is ______________",
+     "options": ['A. H3PO4', 'B. HCl', 'C. H2SO4', 'D. HNO3'], "correct": 2},
+    # 40
+    {"text": "Which of the following is not produced on commercial scale from sea water?",
+     "options": ['A. Bromine', 'B. Potassium compounds', 'C. Magnesium compounds', 'D. Sodium sulphate'], "correct": 3},
+    # 41
+    {"text": "Which process is adopted in manufacture of magnesium compounds from sea?",
+     "options": ['A. Calcium treatment', 'B. Caustic soda treatment', 'C. Lime treatment', 'D. Chlorine treatment'], "correct": 2},
+    # 42
+    {"text": "Which by-product acids are used in the production of bromine from seawater?",
+     "options": ['A. HCl and H2SO4', 'B. HCl and H2PO3', 'C. HCl and HNO3', 'D. Only HCl'], "correct": 0},
+    # 43
+    {"text": "What is used for bromine concentration?",
+     "options": ['A. Seawater with air', 'B. Seawater with HCl', 'C. Chlorinated seawater with air', 'D. Chlorinated seawater with HCl'], "correct": 2},
+    # 44
+    {"text": "Bromides contained in hot mother liquor is treated with __________ during manufacture of bromine from sea water.",
+     "options": ['A. SO3', 'B. NH3', 'C. Cl2', 'D. SO2'], "correct": 3},
+    # 45
+    {"text": "What is the catalyst used in manufacture of Ammonia by Haber's process?",
+     "options": ['A. Fe', 'B. Silica', 'C. Molybdenum', 'D. Aluminum'], "correct": 0},
+    # 46
+    {"text": "What is the promoter used in the manufacture of ammonia by Haber's process?",
+     "options": ['A. Fe', 'B. Silica', 'C. Molybdenum', 'D. Aluminum'], "correct": 2},
+    # 47
+    {"text": "Synthesis of ammonia by Haber's process is what kind of reaction?",
+     "options": ['A. Exothermic', 'B. Endothermic', 'C. No change is energy', 'D. None of the mentioned'], "correct": 0},
+    # 48
+    {"text": "Which of the mentioned conditions will favor synthesis of Ammonia by Haber's process?",
+     "options": ['A. High temperature and High pressure', 'B. Low temperature and High pressure',
+                 'C. High temperature and Low pressure', 'D. Low temperature and Low pressure'], "correct": 1},
+    # 49
+    {"text": "Which of the following mentioned is a source of H2 to produce ammonia by Haber's process?",
+     "options": ['A. Producer gas', 'B. Synthesis gas', 'C. Water gas', 'D. None of the mentioned'], "correct": 1},
+    # 50
+    {"text": "In which process of ammonia production higher amount of conversion can be obtained?",
+     "options": ['A. Claude process', 'B. Haber', 'C. Casale', 'D. Kellogg'], "correct": 0},
+    # 51
+    {"text": "__________ process is used for the commercial production of nitric acid by the catalytic oxidation of ammonia.",
+     "options": ['A. Solvay', 'B. Haber\'s', 'C. Ostwald\'s', 'D. None of these'], "correct": 2},
+    # 52
+    {"text": "Nickel is not used as a catalyst in the",
+     "options": ['A. Fischer-Tropsch process', 'B. Shift conversion', 'C. Hydrogenation of oil', 'D. Ostwald\'s process of HNO3 manufacture'], "correct": 3},
+    # 53
+    {"text": "Which are the factors favored in the reaction kinetics in the NH3 oxidation stage?",
+     "options": ['A. High temperature, low pressure', 'B. Low temperature, high pressure',
+                 'C. Low temperature, low pressure', 'D. High temperature, high pressure'], "correct": 0},
+    # 54
+    {"text": "Which promoter used in the platinum catalyst in production of nitric acid?",
+     "options": ['A. Alkali promoter', 'B. Rh promoter', 'C. Metallic compounds promoter', 'D. Arsenic promoter'], "correct": 1},
+    # 55
+    {"text": "In nitric acid concentration by H2SO4 which equipment is used for concentrating purpose?",
+     "options": ['A. Stoneware towers', 'B. cooling towers', 'C. Dehydrating tray towers', 'D. Chilling towers'], "correct": 2},
+    # 56
+    {"text": "Into which of the mentioned equipment are compressed NH3 and CO2 added for production of urea by Ammonia carbamate decomposition?",
+     "options": ['A. CSTR', 'B. Autoclave', 'C. Parr Reactor', 'D. Plug type reactor'], "correct": 1},
+    # 57
+    {"text": "What is the undesirable product in urea production?",
+     "options": ['A. Ammonium carbonate', 'B. Liquid NH3', 'C. Biuret formation', 'D. Flakes formation'], "correct": 2},
+    # 58
+    {"text": "Which commercial product is produced by Frasch Process?",
+     "options": ['A. Sulfur', 'B. Nitric acid', 'C. Ammonia', 'D. Sulfuric acid'], "correct": 0},
+    # 59
+    {"text": "The catalyst used in the production of elemental sulfur from H2S (by oxidation-reduction) is",
+     "options": ['A. Alumina', 'B. Platinum', 'C. Silica gel', 'D. Nickel'], "correct": 0},
+    # 60
+    {"text": "Which of the following is used as a catalyst in the lead chamber process?",
+     "options": ['A. Vanadium pentoxide (V2O5)', 'B. Nitrogen oxides (NO / NO2)', 'C. Finely divided iron', 'D. Platinum (Pt)'], "correct": 1},
+    # 61
+    {"text": "In the chamber process, the oxidation of SO2 to SO3 is an example of what type of reaction?",
+     "options": ['A. Catalytic heterogeneous', 'B. Non-catalytic heterogeneous', 'C. Catalytic homogeneous', 'D. Non-catalytic homogeneous'], "correct": 2},
+    # 62
+    {"text": "In the manufacture of sulfuric acid from elemental sulfur, the following sequence of major operations is followed",
+     "options": ['A. Furnace → converter → absorber', 'B. Furnace → evaporator → absorber',
+                 'C. Furnace → converter → evaporator', 'D. Converter → furnace → absorber'], "correct": 0},
+    # 63
+    {"text": "Which promoter mentioned below is used in the contact process?",
+     "options": ['A. Iron', 'B. Acid', 'C. Alkali', 'D. Air'], "correct": 2},
+    # 64
+    {"text": "Which catalyst is used in the Contact Process to convert SO2 into SO3?",
+     "options": ['A. Iron (Fe)', 'B. Vanadium oxide (V2O5)', 'C. Platinum (Pt)', 'D. Nickel (Ni)'], "correct": 1},
+    # 65
+    {"text": "Why is sulfur trioxide (SO3) not directly dissolved in water to make sulfuric acid?",
+     "options": ['A. The reaction is too slow', 'B. It produces a highly corrosive and dangerous acid fog',
+                 'C. It causes the catalyst to decompose', 'D. Water acts as a reducing agent in this case'], "correct": 1},
+    # 66
+    {"text": "In the purification stage of the Contact Process, which impurity is notoriously known for \"poisoning\" the catalyst?",
+     "options": ['A. Arsenic compounds', 'B. Hydrogen sulfide', 'C. Nitrogen oxides', 'D. Carbon dioxide'], "correct": 0},
+    # 67
+    {"text": "If the sulfur contains Arsenic which attacks the Vanadium or Platinum catalyst during contact process. Using which of the following can the Arsenic be removed.",
+     "options": ['A. Milk of lime', 'B. CaO', 'C. Milk of magnesia', 'D. Salts of Sodium'], "correct": 0},
+    # 68
+    {"text": "Mannheim furnace is used in the manufacture of",
+     "options": ['A. hydrochloric acid.', 'B. calcium carbide.', 'C. H2SO4 by Chamber process.', 'D. corundum.'], "correct": 0},
+    # 69
+    {"text": "Transportation of 35% oleum during winter suffers from the problem of freezing, which can be overcome by the addition of small quantity of",
+     "options": ['A. Nitric acid', 'B. Methyl alcohol', 'C. Hydrochloric acid', 'D. Formic acid'], "correct": 0},
+    # 70
+    {"text": "Refrigeration by Joule-Thomson cooling is termed as which of the mentioned cycles?",
+     "options": ['A. Linde', 'B. Newton', 'C. Claude', 'D. None of the mentioned'], "correct": 0},
+    # 71
+    {"text": "Claude process of gas liquefaction employs",
+     "options": ['A. Merely compression of gas beyond its critical pressure', 'B. Joule-Thomson expansion cooling',
+                 'C. Heat exchange with colder stream', 'D. Adiabatic expansion against a piston or in a turbine'], "correct": 3},
+    # 72
+    {"text": "In Claude's process, roughly what percentage of the total air volume is bypassed directly into the expansion engine?",
+     "options": ['A. 10% to 15%', 'B. 70% to 80%', 'C. 40% to 50%', 'D. 95% to 100%'], "correct": 1},
+    # 73
+    {"text": "What role does the expansion engine play in the overall energy efficiency of Claude's system?",
+     "options": ['A. It increases the electrical load of the main compressor.', 'B. The external work produced assists the compressor.',
+                 'C. It serves purely as a heat sink without generating mechanical energy.', 'D. It increases the total enthalpy of the gas stream.'], "correct": 1},
+    # 74
+    {"text": "What is the typical operating pressure range to which air is initially compressed in Claude's process?",
+     "options": ['A. 1 to 5 atm', 'B. 200 to 220 atm', 'C. 40 to 50 atm', 'D. Above 1000 atm'], "correct": 2},
+    # 75
+    {"text": "Favorable conditions for liquefaction of gases in general are",
+     "options": ['A. High pressure & low temperature', 'B. Low pressure & high temperature',
+                 'C. High pressure & high temperature', 'D. Low pressure & low temperature'], "correct": 0},
+    # 76
+    {"text": "Helium is produced on commercial scale from",
+     "options": ['A. Air', 'B. Coke oven gas', 'C. Natural gas', 'D. None of these'], "correct": 2},
+    # 77
+    {"text": "What is the typical concentration range of helium in natural gas fields required for extraction to be economically viable?",
+     "options": ['A. 0.01 to 0.03 percent', 'B. 1.50 to 5.00 percent', 'C. 0.04 to 0.65 percent', 'D. 10.00 to 12.50 percent'], "correct": 2},
+    # 78
+    {"text": "In the first stage of processing, what is the typical helium concentration by volume of \"crude helium\"?",
+     "options": ['A. 5 to 15 percent', 'B. 50 to 70 percent', 'C. 25 to 40 percent', 'D. 90 to 95 percent'], "correct": 1},
+    # 79
+    {"text": "What technology is used in the final stages of helium purification to ultimately yield a commercial helium purity of better than 99.99 percent?",
+     "options": ['A. Fractional centrifugal separation', 'B. Pressure swing adsorption (PSA)',
+                 'C. Reverse osmosis filtration', 'D. High-temperature thermal cracking'], "correct": 1},
+    # 80
+    {"text": "Conversion of CO to CO2 by steam in presence of a catalyst is called",
+     "options": ['A. Steam reforming', 'B. Steam gasification', 'C. Shift conversion', 'D. None of these'], "correct": 2},
+    # 81
+    {"text": "The main use of HCl is in the",
+     "options": ['A. Drilling of petroleum wells and pickling of steel sheets', 'B. Manufacture of cationic detergent',
+                 'C. Treatment of spent fuel of nuclear reactor', 'D. None of these'], "correct": 0},
+    # 82
+    {"text": "In the synthesis of hydrochloric acid from hydrogen chloride gas, what is the final step required to create liquid HCl?",
+     "options": ['A. Combining the hydrogen chloride gas with sodium hydroxide', 'B. Dissolving the generated hydrogen chloride gas in water',
+                 'C. Fractional distillation under extreme cryogenic pressure', 'D. Passing the gas through a high-temperature activated carbon bed'], "correct": 1},
+    # 83
+    {"text": "Viscose rayon is chemically",
+     "options": ['A. Cellulose nitrate', 'B. Cellulose acetate', 'C. Regenerated cellulose nitrate', 'D. Regenerated cellulose acetate'], "correct": 3},
+    # 84
+    {"text": "What do you call the monomer of Nylon-6?",
+     "options": ['A. Adipic acid', 'B. ε-Caprolactam', 'C. Hexamethylenediamine', 'D. Caprylic acid'], "correct": 1},
+    # 85
+    {"text": "What are the monomers of Nylon-6,6?",
+     "options": ['A. ε-Caprolactam + Adipic acid', 'B. Hexamethylenediamine + Adipic acid',
+                 'C. Hexamethylenediamine + ε-Caprolactam', 'D. Glycine + Sebacic acid'], "correct": 1},
+    # 86
+    {"text": "Styrene is produced from ethyl benzene by the process of",
+     "options": ['A. Dehydrogenation', 'B. Alkylation', 'C. Oxidation', 'D. Dehydration'], "correct": 0},
+    # 87
+    {"text": "Co-efficient of thermal expansion of glass is decreased by the addition of __________ during its manufacture.",
+     "options": ['A. CaO', 'B. ZnO', 'C. MnO2', 'D. FeS'], "correct": 1},
+    # 88
+    {"text": "Which of the following is not a raw material used for the manufacture of ordinary glass?",
+     "options": ['A. Iron oxide', 'B. Limestone', 'C. Soda ash', 'D. Silica'], "correct": 0},
+    # 89
+    {"text": "The type of high refractive index glass used in optical instruments is __________ glass.",
+     "options": ['A. Pyrex', 'B. Flint', 'C. Crookes', 'D. None of these'], "correct": 1},
+    # 90
+    {"text": "Laboratory glass wares which reacts with hydrofluoric acid, are made of the __________ glass.",
+     "options": ['A. Lead', 'B. Soda lime', 'C. Borosilicate', 'D. Alkali silicate'], "correct": 2},
+    # 91
+    {"text": "__________ glass has the lowest co-efficient of thermal expansion and hence is more heat resistant.",
+     "options": ['A. Pyrex', 'B. Lead', 'C. Soda lime', 'D. High silica'], "correct": 0},
+    # 92
+    {"text": "Which of the following compounds was used extensively as a gasoline additive?",
+     "options": ['A. Isopropyl alcohol', 'B. Zeolite', 'C. Tetra-ethyl lead', 'D. Cumene'], "correct": 2},
+    # 93
+    {"text": "Which commercially economical by product is obtained from the refinery catalytic reforming process?",
+     "options": ['A. CH4', 'B. H2', 'C. Cl2', 'D. CO and H2'], "correct": 1},
+    # 94
+    {"text": "Which of the following is not an intermediate distillate product in petroleum refining?",
+     "options": ['A. Heavy fuel oils', 'B. Lubricating oil', 'C. Diesel oils', 'D. Gas oil'], "correct": 0},
+    # 95
+    {"text": "Residue formed in the petroleum refining is ___________",
+     "options": ['A. Waxes', 'B. Ammonia', 'C. Asphalt', 'D. Gas oil'], "correct": 2},
+    # 96
+    {"text": "Which of the following is a by-product of petroleum refining process?",
+     "options": ['A. Fuel oil', 'B. Ammonia', 'C. Diesel oil', 'D. Lubricating oil'], "correct": 1},
+    # 97
+    {"text": "Which one of the following is a wrong statement?",
+     "options": ['A. Pressure and temperature requirements are higher for catalytic cracking vs. thermal cracking',
+                 'B. Thermal pyrolysis of methane and ethane require quenching',
+                 'C. Rate of polymerization is increased by increasing pressure',
+                 'D. Higher the molecular weight, higher is the coking tendency'], "correct": 0},
+    # 98
+    {"text": "Liquefied Petroleum gas contains propane which can be cracked. Is the statement true/false?",
+     "options": ['A. True', 'B. Maybe', 'C. False', 'D. Depending on conformation'], "correct": 0},
+    # 99
+    {"text": "Hydroforming of petrochemical stocks doesn't produce ___",
+     "options": ['A. Benzene', 'B. Xylene', 'C. Toluene', 'D. Ethyl Benzene'], "correct": 3},
+    # 100
+    {"text": "Ethylene can be produced from ethane by _______",
+     "options": ['A. Catalytic cracking', 'B. Thermal cracking', 'C. Catalytic reforming', 'D. Hydro forming'], "correct": 1},
+    # 101
+    {"text": "The most commonly used substance to speed up the sedimentation of sewage is",
+     "options": ['A. Lime', 'B. Chlorine', 'C. Sulfuric acid', 'D. Sodium bisulfite'], "correct": 0},
+    # 102
+    {"text": "Fusion of bauxite and ____ produces high alumina cement.",
+     "options": ['A. Alum', 'B. Coke', 'C. Limestone', 'D. Quartz'], "correct": 2},
+    # 103
+    {"text": "Main constituent of dolomite is",
+     "options": ['A. CaCO3', 'B. K2CO3', 'C. MgCO3', 'D. Na2CO3'], "correct": 0},
+    # 104
+    {"text": "What is the purpose of cement beneficiation?",
+     "options": ['A. To remove silica and iron content', 'B. To remove silica and aluminum content',
+                 'C. To remove silica and sulfur content', 'D. To remove silica and magnesium content'], "correct": 0},
+    # 105
+    {"text": "Which lime fulfills this criterion: Calcium > 90%CaO?",
+     "options": ['A. Slaked lime', 'B. Quicklime', 'C. Hydraulic lime', 'D. Only lime'], "correct": 1},
+    # 106
+    {"text": "CaO(s) + H2O -> Ca(OH)2, where does this chemical reaction occur?",
+     "options": ['A. Calcination limestone', 'B. Cement beneficiation', 'C. Portland cement production', 'D. Hydrated lime'], "correct": 3},
+    # 107
+    {"text": "Which one mentioned below is not a raw material used in the Portland cement production?",
+     "options": ['A. Clay', 'B. Gypsum', 'C. Limestone', 'D. Quicklime'], "correct": 3},
+    # 108
+    {"text": "Portland cement consists mainly of",
+     "options": ['A. CaO & SiO2', 'B. CaO & Al2O3', 'C. SiO2 & Al2O3', 'D. CaO & Fe2O3'], "correct": 0},
+    # 109
+    {"text": "Cumene is the starting material for the production of",
+     "options": ['A. Benzoic acid', 'B. Isoprene', 'C. Phenol and acetone', 'D. Styrene'], "correct": 2},
+    # 110
+    {"text": "Cumene (isopropyl benzene) is made by",
+     "options": ['A. Oxidation of napthalene', 'B. Propylene alkylation of benzene',
+                 'C. Polymerisation of a mixture of benzene & propylene', 'D. None of these'], "correct": 1},
+    # 111
+    {"text": "Phenol is mainly used",
+     "options": ['A. To produce benzene', 'B. To produce phenol formaldehyde', 'C. To produce polyester resin', 'D. As a plasticiser for unsaturated polyester'], "correct": 1},
+    # 112
+    {"text": "Phenol formaldehyde",
+     "options": ['A. Employs addition polymerisation', 'B. Employs condensation polymerisation', 'C. Is a monomer', 'D. Is an abrasive material'], "correct": 1},
+    # 113
+    {"text": "Bisphenol A is produced by the condensation of acetone with",
+     "options": ['A. Formaldehyde', 'B. Diethyl ether', 'C. Ethyl alcohol', 'D. Phenol'], "correct": 3},
+    # 114
+    {"text": "Which of the following is a detergent?",
+     "options": ['A. Fatty alcohol', 'B. Fatty acids', 'C. Alkyl benzene sulphonate', 'D. Methylene chloride'], "correct": 2},
+    # 115
+    {"text": "Industrial production of chloroform requires acetone and",
+     "options": ['A. Phosgene', 'B. Chlorine', 'C. Calcium hypochlorite', 'D. Ammonium chloride'], "correct": 2},
+    # 116
+    {"text": "Dehydrogenation of isopropanol produces",
+     "options": ['A. Propyl alcohol', 'B. Trichloroethylene', 'C. Acetone', 'D. Formaldehyde'], "correct": 2},
+    # 117
+    {"text": "Which process is used in the production of acetylene?",
+     "options": ['A. Reforming', 'B. Partial combustion', 'C. Arc process', 'D. Regenerative process'], "correct": 2},
+    # 118
+    {"text": "Composition of ideal fiber required for paper making has",
+     "options": ['A. High cellulose content, high lignin content', 'B. High cellulose content, low lignin content',
+                 'C. Low cellulose content, high lignin content', 'D. Low cellulose content, low lignin content'], "correct": 1},
+    # 119
+    {"text": "Most easily and cheaply available fibrous raw material for paper manufacture available in India is bamboo. The yield of pulp produced from fibrous raw material by mechanical process is about __________ percent.",
+     "options": ['A. 75', 'B. > 30', 'C. < 10', 'D. 50'], "correct": 0},
+    # 120
+    {"text": "Black liquor is converted into white liquor by",
+     "options": ['A. Evaporation and burning the concentrate followed by causticization of products', 'B. Multi-effect evaporation only',
+                 'C. Selective liquid extraction', 'D. Extractive distillation'], "correct": 0},
+    # 121
+    {"text": "In Kraft process of paper manufacture, white cooking liquor consists of caustic soda",
+     "options": ['A. Sodium hydroxide & sodium carbonate', 'B. Sodium sulfite & sodium carbonate',
+                 'C. Sodium sulfite & sodium hydroxide', 'D. None of these'], "correct": 3},
+    # 122
+    {"text": "The manufacture of Kraft pulp is done by a/an ________ process.",
+     "options": ['A. Alkaline', 'B. Neutral', 'C. Acidic', 'D. None of these'], "correct": 0},
+    # 123
+    {"text": "Rancidity of the fatty oil can be reduced by its",
+     "options": ['A. Decoloration', 'B. Oxidation', 'C. Hydrogenation', 'D. Purification'], "correct": 2},
+    # 124
+    {"text": "Hydrogenation of oil takes place in a/an ______ reactor.",
+     "options": ['A. Autothermal', 'B. Plug flow', 'C. Trickle bed', 'D. None of these'], "correct": 2},
+    # 125
+    {"text": "Which catalyst is used in the hydrogenation of oils?",
+     "options": ['A. Activated platinum', 'B. Activated palladium', 'C. Activated rhodium', 'D. Activated nickel'], "correct": 3},
+    # 126
+    {"text": "Fatty material used in soap making is",
+     "options": ['A. Fatty acid', 'B. Tallow', 'C. Fatty alcohols', 'D. Detergents'], "correct": 1},
+    # 127
+    {"text": "Which of these indicates continuous process for soaps?",
+     "options": ['A. Hydrolysis tower, mixer, blender, vacuum still', 'B. Vacuum still, hydrolysis tower, mixer and blender',
+                 'C. Hydrolysis tower, blender, mixer, vacuum still', 'D. Hydrolysis tower, vacuum still, mixer, blender'], "correct": 3},
+    # 128
+    {"text": "Fat splitting reaction of soap manufacture takes place in",
+     "options": ['A. blender', 'B. mixer', 'C. hydrolysis tower', 'D. high vacuum still'], "correct": 2},
+    # 129
+    {"text": "What are the operating conditions of hydrolysis tower?",
+     "options": ['A. 230-250°C and 40-45 atm', 'B. 200-220°C and 40-45 atm', 'C. 180-230°C and 20-30 atm', 'D. 230-250°C and 20-30 atm'], "correct": 0},
+    # 130
+    {"text": "Where does saponification occur in continuous process?",
+     "options": ['A. Hydrolysis tower', 'B. Vacuum still', 'C. Blender', 'D. Mixer'], "correct": 3},
+    # 131
+    {"text": "What is the important byproduct of soap manufacture?",
+     "options": ['A. Fatty acid product', 'B. Glycosides', 'C. Glycerin', 'D. Caustic soda'], "correct": 2},
+    # 132
+    {"text": "Manufacturing of paints involves unit processes. Is the statement true/false?",
+     "options": ['A. True', 'B. False'], "correct": 0},
+    # 133
+    {"text": "Solvent used in varnishes is ________",
+     "options": ['A. Water', 'B. Oil', 'C. Alcohols', 'D. Ethers'], "correct": 2},
+    # 134
+    {"text": "Plasticisers are added to paints to",
+     "options": ['A. Make it corrosion resistant', 'B. Make glossy surface', 'C. Give elasticity & prevent cracking of the film', 'D. Increase atmospheric oxidation'], "correct": 2},
+    # 135
+    {"text": "Function of thinner in a paint is to",
+     "options": ['A. Accelerate the oxidation of oil', 'B. Prevent gelling of the paint',
+                 'C. Suspend pigments & dissolve film forming materials', 'D. Form a protective film'], "correct": 2},
+    # 136
+    {"text": "Enamels' purpose is which of the following?",
+     "options": ['A. Give good glossy finish', 'B. Are same as varnish', 'C. Are prepared from non-drying oil', 'D. Do not contain pigment'], "correct": 0},
+    # 137
+    {"text": "Varnish does not contain",
+     "options": ['A. Pigment', 'B. Dryer', 'C. Thinner', 'D. Anti-skimming agent'], "correct": 0},
+    # 138
+    {"text": "Which of the following is a colored pigment?",
+     "options": ['A. Zinc oxide', 'B. Lead chromate', 'C. Lithopone', 'D. Titanium dioxide'], "correct": 1},
+    # 139
+    {"text": "Which of the following pigment is anti-corrosive?",
+     "options": ['A. Prussian blue', 'B. Titanium dioxide', 'C. Zinc chrome', 'D. Carbon black'], "correct": 2},
+    # 140
+    {"text": "Pulp expelled from the last pressure mill is called _____",
+     "options": ['A. Bagasse', 'B. Molasses', 'C. Clarified juice', 'D. Massecuite'], "correct": 0},
+    # 141
+    {"text": "Which evaporator is used to concentrate the clarified juice obtained in extraction of sugarcane to produce white crystalline sugar?",
+     "options": ['A. Open pan evaporators', 'B. Vacuum evaporators', 'C. Multiple effect evaporators', 'D. Agitating film evaporators'], "correct": 2},
+    # 142
+    {"text": "Which of the following is not a major byproduct of sugar industry?",
+     "options": ['A. Molasses', 'B. Press mud', 'C. Bagasse', 'D. Massecuite'], "correct": 3},
+    # 143
+    {"text": "Ore concentration by froth floatation utilizes the _______ of ore particles",
+     "options": ['A. Density difference', 'B. Terminal velocities', 'C. Wetting characteristics', 'D. None of these'], "correct": 2},
+    # 144
+    {"text": "Which among the following is a major source of aluminum oxide?",
+     "options": ['A. Hematite', 'B. Magnetite', 'C. Siderite', 'D. Bauxite'], "correct": 3},
+    # 145
+    {"text": "Which of the following compounds is widely used as a flavoring agent but has no flavor by itself?",
+     "options": ['A. l-tryptophan', 'B. Sodium citrate', 'C. l-glutamate', 'D. Calcium propionate'], "correct": 2},
 ]
 
-# Lecture 3.92
-diffEq1 = [
-
-    
+D3_L10_ProcessSafety = [
+    # 1
+    {"text": "This entity shall set and enforce mandatory occupational safety and health standards to eliminate or reduce occupational safety and health hazards in all workplaces.",
+     "options": ['A. DOLE Department Order no. 198, s. 2018', 'B. DOLE Department Order no. 13, s. 1998',
+                 'C. Republic Act no. 11058', 'D. Republic Act no. 11508'], "correct": 2},
+    # 2
+    {"text": "Which agency is responsible for enforcing occupational safety and health standards in the Philippines?",
+     "options": ['A. Department of Health (DOH)', 'B. Department of Public Works and Highways (DPWH)',
+                 'C. Department of Labor and Employment (DOLE)', 'D. Bureau of Fire Protection (BFP)'], "correct": 2},
+    # 3
+    {"text": "Any person trained and duly certified to administer first aid by the Philippine Red Cross or any organization authorized by DOLE Secretary.",
+     "options": ['A. OSH consultant', 'B. OSH personnel', 'C. OSH practitioner', 'D. First-Aider'], "correct": 3},
+    # 4
+    {"text": "A qualified first-aider, nurse, dentist, or physician engaged by the employer to provide occupational health services in the establishment, project, site, or workplace.",
+     "options": ['A. OSH consultant', 'B. OSH personnel', 'C. OSH practitioner', 'D. First-Aider'], "correct": 1},
+    # 5
+    {"text": "A qualified Safety Officer 4 or its equivalent, duly certified by DOLE to perform and/or render consultative services on Occupational Safety and health in at least two (2) fields of specialization as determined by DOLE.",
+     "options": ['A. OSH consultant', 'B. OSH personnel', 'C. OSH practitioner', 'D. First-Aider'], "correct": 0},
+    # 6
+    {"text": "A set of rules issued by DOLE which mandates the adoption and use of appropriate practices, means, methods operations or processes, and working conditions reasonably necessary to ensure safe and healthful employment.",
+     "options": ['A. Safety and health program', 'B. Safety and health committee', 'C. Safety and health audit', 'D. OSH standards'], "correct": 3},
+    # 7
+    {"text": "A regular and critical examination of project sites, safety programs, records, and management performance on program standards on safety and health conducted by the safety officer.",
+     "options": ['A. Safety and health program', 'B. Safety and health committee', 'C. Safety and health audit', 'D. OSH standards'], "correct": 2},
+    # 8
+    {"text": "What color should be used to direct traffic in the workplace?",
+     "options": ['A. Red', 'B. White', 'C. Green', 'D. Orange'], "correct": 1},
+    # 9
+    {"text": "What color alerts to dangerous parts of machines or energized equipment which may cause injury/hazard?",
+     "options": ['A. Red', 'B. White', 'C. Green', 'D. Orange'], "correct": 3},
+    # 10
+    {"text": "What do the 5S of good housekeeping mean?",
+     "options": ['A. Seiri, Seiton, Seiso, Seiketsu, Shitsuke', 'B. Seiri, Seiton, Seiso, Sensei, Senpai',
+                 'C. Siri, Seiton, Sanyo, Saiko, Shinsuke', 'D. Seiri, Seiton, Seiso, Sasadango, Shitsuke'], "correct": 0},
+    # 11
+    {"text": "What phase of 5S involves identifying unnecessary items with a red tag system and organizing the remaining items, possibly through color-coding, for efficient use and access?",
+     "options": ['A. Sort', 'B. Shine', 'C. Set-In-Order', 'D. Standardize'], "correct": 0},
+    # 12
+    {"text": "Labeling storage areas and arranging tools for easy access improves:",
+     "options": ['A. Worker morale only', 'B. Productivity, efficiency, and reduced search time',
+                 'C. Compliance with environmental regulations only', 'D. Employee discipline exclusively'], "correct": 1},
+    # 13
+    {"text": "Which one is NOT a benefit of Shine?",
+     "options": ['A. Less downtime', 'B. Improved quality', 'C. Happier employees', 'D. Inventory reduction'], "correct": 3},
+    # 14
+    {"text": "Creating standard checklists for cleaning and tool placement supports:",
+     "options": ['A. Faster hiring processes', 'B. Maintaining a consistent and organized workplace',
+                 'C. Reducing payroll costs', 'D. Eliminating all workplace hazards permanently'], "correct": 1},
+    # 15
+    {"text": "Training employees to follow 5S rules daily ensures:",
+     "options": ['A. Immediate increase in profit', 'B. Continuous improvement and workplace discipline',
+                 'C. Elimination of the need for supervisors', 'D. Reduced need for tools'], "correct": 1},
+    # 16
+    {"text": "An incident can be called hazardous only when?",
+     "options": ['A. Has potential to cause harm to humans and surroundings', 'B. Poses threat to surroundings in terms of damage',
+                 'C. Monitoring is failed and possible damage can\'t be quantified', 'D. Outburst of chemicals'], "correct": 0},
+    # 17
+    {"text": "PHA stands for",
+     "options": ['A. Process Hazard Analysis', 'B. Public Housing Authority', 'C. Public Health Association', 'D. Personal Health Assessment'], "correct": 0},
+    # 18
+    {"text": "Who is responsible for ensuring the workers are provided with safe working environment?",
+     "options": ['A. HAZAN', 'B. AICHE', 'C. HAZOP', 'D. OSHA'], "correct": 3},
+    # 19
+    {"text": "What is the correct order of the risk management process?",
+     "options": ['A. Evaluate, Control, Identify', 'B. Identify, Evaluate, Control', 'C. Identify, Control, Evaluate', 'D. Control, Evaluate, Identify'], "correct": 1},
+    # 20
+    {"text": "Why does site history have to be considered for hazard identification?",
+     "options": ['A. To estimate the risk', 'B. To calculate carcinogenic exposure',
+                 'C. To know source and cause of contamination', 'D. For determination of remedial actions'], "correct": 2},
+    # 21
+    {"text": "During the _________ phase, the various types of existing control measures and their effectiveness are also studied.",
+     "options": ['A. Identification', 'B. Control', 'C. Evaluation', 'D. Hygiene'], "correct": 2},
+    # 22
+    {"text": "Hazard evaluation consist of the elements:",
+     "options": ['A. Safety Inspection', 'B. HAZOP', 'C. HAZAN', 'D. All of the above'], "correct": 3},
+    # 23
+    {"text": "HAZAN study includes",
+     "options": ['A. Estimate how often an incident will occur.', 'B. Steps can be taken to either eliminate risks or reduce risk to an acceptable level.',
+                 'C. Hazard analysis and functional based safety', 'D. All of the above'], "correct": 3},
+    # 24
+    {"text": "Which of the following is not a guide word of HAZOP?",
+     "options": ['A. NO', 'B. MORE', 'C. LESS', 'D. NAND'], "correct": 3},
+    # 25
+    {"text": "Which of the following is an example of a lagging indicator in safety management?",
+     "options": ['A. Number of completed safety audits', 'B. Frequency of hazard reporting',
+                 'C. Number of workplace injuries in the past year', 'D. Percentage of employees trained'], "correct": 2},
+    # 26
+    {"text": "The _____ reports the number of fatalities based on 1000 employees working their entire lifetime. The employees are assumed to work a total of 50 years.",
+     "options": ['A. FAR', 'B. OSHA incident rate', 'C. Fatality Rate', 'D. None of above'], "correct": 0},
+    # 27
+    {"text": "What violations are most commonly cited by OSHA?",
+     "options": ['A. Hazard communications', 'B. Fall protection', 'C. Scaffolding', 'D. Respiratory protection'], "correct": 1},
+    # 28
+    {"text": "What is the leading cause of death on construction sites?",
+     "options": ['A. Struck by object', 'B. Caught-in or -between', 'C. Falls', 'D. Electrocutions'], "correct": 2},
+    # 29
+    {"text": "During a routine draining operation, an operator is called away to assist with an urgent equipment alarm in another area. The drain valve is open and the tank contains hydrocarbons. What should the operator do first?",
+     "options": ['A. Ask a colleague to keep watch while walking to the alarm', 'B. Stop the draining process before leaving the drain',
+                 'C. Quickly check the drain level and return within 5 minutes', 'D. Leave open since the valve can be closed remotely'], "correct": 1},
+    # 30
+    {"text": "A maintenance technician is about to open a flange on a pipeline. He checks the pressure gauge and it reads zero. The isolation plan shows one valve closed upstream. What is the most critical concern before proceeding?",
+     "options": ['A. Whether the correct PPE is available nearby', 'B. Whether the flange bolts are the right specification',
+                 'C. Whether a second isolation barrier is in place', 'D. Whether permit to work was signed by the shift supervisor'], "correct": 2},
+    # 31
+    {"text": "An operator is about to start a product transfer between two tanks after a maintenance shutdown. She has done this transfer dozens of times and knows the line well. What is the most appropriate action?",
+     "options": ['A. Proceed with the transfer since she has strong experience with the facility', 'B. Do a quick visual check of the pump and nearest valves before starting',
+                 'C. Physically walk the entire modified line and validate the complete valve lineup before starting the pump', 'D. Ask the maintenance team to confirm verbally that the line is ready'], "correct": 2},
+    # 32
+    {"text": "During startup of a furnace after an overnight trip, the operations team is under pressure to restore production quickly. A junior operator suggests skipping the full purge cycle due to the short downtime. What is the correct response?",
+     "options": ['A. Accept the suggestion if a gas detector reading at the firebox door shows no reading', 'B. Shorten the purge time to half the standard duration as a compromise',
+                 'C. Refuse as a full purge must be completed regardless of the shutdown duration', 'D. Allow it if a senior operator is present during ignition'], "correct": 2},
+    # 33
+    {"text": "A safety interlock on a reactor cooling system keeps tripping and preventing startup. The production manager suggests overriding it temporarily so the batch can be completed, with a technician watching the temperature manually. What is the most critical step before any override is considered?",
+     "options": ['A. Confirm the technician has experience monitoring reactor temperature', 'B. Ensure the bypass is registered in a log and formally authorized based on a risk assessment',
+                 'C. Override the interlock briefly and restore it once the reaction passes its peak temperature', 'D. Check if the same interlock was overridden before without incident'], "correct": 1},
+    # 34
+    {"text": "After completing flange maintenance on a heat exchanger, the maintenance crew re-bolts the flange and informs the operator the job is done. The operator is ready to reintroduce the process fluid. What must happen before this step?",
+     "options": ['A. A visual inspection of the flange by the operator is sufficient', 'B. Test the heat exchanger using a different fluid like water',
+                 'C. Reintroduction can proceed since the maintenance crew is certified', 'D. The flange only needs re-checking if the process fluid is above 100°C'], "correct": 1},
+    # 35
+    {"text": "An operator notices that a pressure safety valve (PSV) on a vessel has recently been tested and returned to service, but its outlet pipe discharges directly above a main walkway. Production is running normally. What should the operator do?",
+     "options": ['A. Only report it if the PSV activates during operation and if an accident occurs', 'B. Accept as a design feature since it passed its functional test',
+                 'C. Report it as a process safety concern and ensure personnel stay out of the discharge path', 'D. Place a warning sign on the walkway and continue regular operations'], "correct": 2},
+    # 36
+    {"text": "A tanker arrives to deliver a chemical. The driver presents documentation showing the correct chemical name. The operator, who is running behind schedule, connects the hose and is about to begin unloading. What critical step is being skipped?",
+     "options": ['A. Checking that the hose pressure rating matches the tanker specification', 'B. Confirming the receiving tank has enough volume',
+                 'C. Performing a positive identification of the chemical', 'D. Ensuring the driver has site safety induction paperwork'], "correct": 2},
+    # 37
+    {"text": "A flexible hose used for a chemical transfer was last used three months ago and stored coiled in a rack outdoors. A shift operator picks it up for a new transfer without inspection. What is the primary risk being overlooked?",
+     "options": ['A. The hose may not be the correct length for the connection', 'B. The hose may have suffered corrosion, wear, or damage',
+                 'C. The hose may need recertification if more than 6 months old', 'D. The hose coupling may have loosened due to temperature changes'], "correct": 1},
+    # 38
+    {"text": "A process unit is running slightly above its maximum operating temperature due to a high ambient temperature and a heavier-than-usual feedstock. The deviation is relatively small. What should be done?",
+     "options": ['A. Continue operating and notify the next shift during handover', 'B. Increase cooling flow to compensate. Documentation is not needed as it is part of operation procedures.',
+                 'C. Report and investigate the cause and take action to bring it back within limits', 'D. Accept the deviation since the temperature is still within equipment design limits'], "correct": 2},
+    # 39
+    {"text": "An operator is using a nitrogen utility hose connected to a process vessel to purge the system before maintenance. The operator finishes and leaves the hose connected while attending to other tasks nearby. What is the hazard?",
+     "options": ['A. The hose may kink and restrict the nitrogen supply', 'B. Process material at higher pressure could flow back into the nitrogen utility system',
+                 'C. Nitrogen is heavier than air and could create an asphyxiation hazard at ground level', 'D. The hose coupling could vibrate due to pressure cycling'], "correct": 1},
+    # 40
+    {"text": "Equipment has been blocked for two days due to polymer buildup. An experienced operator decides to connect a high-pressure nitrogen line directly to the blocked section to force the blockage clear, without a formal plan. What is the most significant risk?",
+     "options": ['A. The nitrogen could react with the polymer residue', 'B. The operation could violate permit-to-work procedures for nitrogen use',
+                 'C. The nitrogen pressure may be insufficient to clear blockage', 'D. Trapped material behind the plug could be released violently'], "correct": 3},
+    # 41
+    {"text": "During a loading operation of kerosene into a tank, the dip pipe does not reach the bottom of the tank. The operator increases the pump speed to speed up the transfer and meet a schedule. What hazard is being created?",
+     "options": ['A. Increased flow will cause the tank vent to be overwhelmed', 'B. High-velocity kerosene droplets can generate static charge',
+                 'C. The dip pipe could vibrate and damage internal fittings at high flow', 'D. Higher flow rates increase the risk of pump seal failure'], "correct": 1},
+    # 42
+    {"text": "A small but persistent drip from a flange on a non-critical cooling water line has been known for weeks. The maintenance team is busy and an operator decides it can wait until the next planned shutdown. What safety concern does this raise?",
+     "options": ['A. Cooling water leaks are relatively safe and can be deferred', 'B. The leak could indicate flange degradation and should be formally reported',
+                 'C. The leak becomes a concern if it worsens/affects operations', 'D. Since it is cooling water, there is no loss of containment of hazardous chemicals'], "correct": 1},
+    # 43
+    {"text": "An exothermic batch reaction is running when the primary cooling system shows a sudden drop in cooling water flow. The operator increases the setpoint on the backup cooling but notices the reactor temperature is still rising faster than expected. What should the operator do?",
+     "options": ['A. Backup cooling may stabilize temperature before escalating', 'B. Increase the reaction inhibitor dose and continue monitoring',
+                 'C. Immediately follow the emergency runaway procedure', 'D. Reduce feedstock addition and notify the shift supervisor'], "correct": 2},
+    # 44
+    {"text": "The essential elements for _______ are fuel, an oxidizer, and an ignition source",
+     "options": ['A. Fire triangle', 'B. Flammability limits', 'C. explosion', 'D. toxicity'], "correct": 0},
+    # 45
+    {"text": "_____________ is the lowest temperature that the vapors of a material will ignite when exposed to an ignition source.",
+     "options": ['A. Flash point', 'B. Autoignition temp.', 'C. Fire point', 'D. Inerting'], "correct": 0},
+    # 46
+    {"text": "Process of adding inert gas to combustible mixture to reduce concentration of oxygen below limiting oxygen concentration",
+     "options": ['A. Fire Point', 'B. Inerting', 'C. Flash point', 'D. Toxicity'], "correct": 1},
+    # 47
+    {"text": "The MIE depends on",
+     "options": ['A. the specific mixture', 'B. the concentration', 'C. pressure and temperature', 'D. all of above'], "correct": 3},
+    # 48
+    {"text": "Static electricity is generated when",
+     "options": ['A. mists or sprays pass through process', 'B. mists or sprays pass through orifices', 'C. air pass through pipe', 'D. water pass through pipe'], "correct": 1},
+    # 49
+    {"text": "________ is a rapid increase in volume and release of energy in an extreme manner, usually with the generation of high temperatures and the release of gases",
+     "options": ['A. Fire', 'B. Explosion', 'C. Flammability', 'D. Toxicity'], "correct": 1},
+    # 50
+    {"text": "An explosion occurring within a vessel or building",
+     "options": ['A. Confined Explosion', 'B. BLEVE', 'C. Unconfined Explosion', 'D. None of above'], "correct": 0},
+    # 51
+    {"text": "An explosion resulting from the sudden failure of a vessel containing high-pressure nonreactive gas",
+     "options": ['A. Deflagration', 'B. Flammability limits', 'C. Mechanical explosion', 'D. Firepoint'], "correct": 2},
+    # 52
+    {"text": "________ occurs when a tank containing a liquid held above its atmospheric pressure boiling point ruptures, resulting in the explosive vaporization of a large fraction of the tank contents.",
+     "options": ['A. Boiling-Liquid Expanding-Vapor Explosion', 'B. Vapor Cloud Explosions', 'C. Missile Damage', 'D. Blast Damage to People'], "correct": 0},
+    # 53
+    {"text": "Which of the following chemical is responsible for acute lung disease from Bhopal gas tragedy?",
+     "options": ['A. Methylisocyanate', 'B. Methyl', 'C. Methylisocyanade', 'D. Methylcyanate'], "correct": 0},
+    # 54
+    {"text": "The Bhopal Gas Disaster occurred at a plant owned by which company?",
+     "options": ['A. Dow Chemical Company', 'B. ICI (Imperial Chemical Industries)', 'C. Union Carbide India Limited (UCIL)', 'D. BASF'], "correct": 2},
+    # 55
+    {"text": "The Benxihu Colliery disaster of 1942 holds a grim record. What is that record?",
+     "options": ['A. The largest chemical spill in peacetime history', 'B. The deadliest industrial accident ever recorded',
+                 'C. The first underground mine disaster involving toxic gas', 'D. The deadliest nuclear-related accident in history'], "correct": 1},
+    # 56
+    {"text": "In the Benxihu Colliery disaster, what was the primary cause of death for most of the 1,549 miners?",
+     "options": ['A. Burns from the initial explosion', 'B. Structural collapse of the mine shafts', 'C. Carbon monoxide poisoning', 'D. Flooding of the underground tunnels'], "correct": 2},
+    # 57
+    {"text": "What mixture caused the 1921 Oppau explosion wherein fertilizer detonated at a BASF plant?",
+     "options": ['A. Ammonium nitrate and fuel oil (ANFO)', 'B. Ammonium sulfate and ammonium nitrate',
+                 'C. Potassium nitrate and ammonium chloride', 'D. Urea and ammonium phosphate'], "correct": 1},
+    # 58
+    {"text": "The 1947 Texas City Disaster triggered a chain of explosions originating from a fire aboard one ship. What was the name of that ship?",
+     "options": ['A. SS High Flyer', 'B. SS Grandcamp', 'C. SS Wilson B. Keene', 'D. SS Benjamin R. Curtis'], "correct": 1},
+    # 59
+    {"text": "The Texas City Disaster (1947) holds which specific distinction in U.S. history.",
+     "options": ['A. The first industrial accident to result in a class-action lawsuit', 'B. The deadliest industrial accident in U.S. history',
+                 'C. The first maritime disaster to involve ammonium nitrate', 'D. The largest peacetime explosion in the Western Hemisphere'], "correct": 1},
+    # 60
+    {"text": "The 1976 Seveso disaster released a highly toxic dioxin compound known as TCDD. What does TCDD stand for?",
+     "options": ['A. Trichlorodibenzofuran dioxin', 'B. Tetrachlorodibenzo-p-dioxin', 'C. Trichlorophenol dibenzo-dioxin', 'D. Tetrachlorophenol dioxin derivative'], "correct": 1},
+    # 61
+    {"text": "The _________ process determines whether exposure to a chemical can increase the incidence of adverse health effect.",
+     "options": ['A. Hazard identification', 'B. Toxicity assessment', 'C. Exposure assessment', 'D. Risk characterization'], "correct": 1},
+    # 62
+    {"text": "___________ establishes the relationship between the contaminant/s of concern and the receptor.",
+     "options": ['A. Hazard identification', 'B. Risk characterization', 'C. Toxicity assessment', 'D. Exposure assessment'], "correct": 3},
+    # 63
+    {"text": "Which of the following risk assessment tool is used for the determination of spatial distribution of contaminants at the site?",
+     "options": ['A. Hazard identification', 'B. Toxicity assessment', 'C. Exposure assessment', 'D. Risk characterisation'], "correct": 2},
+    # 64
+    {"text": "What is the final stage of risk assessment?",
+     "options": ['A. Hazard identification', 'B. Exposure assessment', 'C. Risk characterisation', 'D. Toxicity assessment'], "correct": 2},
+    # 65
+    {"text": "What is the primary purpose of a Safety Management System (SMS)?",
+     "options": ['A. To reduce workplace costs', 'B. To enhance productivity', 'C. To identify, assess, and manage workplace risks', 'D. To eliminate the need for employee training'], "correct": 2},
+    # 66
+    {"text": "What does the \"Plan-Do-Check-Act\" (PDCA) cycle represent in an SMS?",
+     "options": ['A. A method for implementing safety protocols', 'B. A continuous improvement process for safety management',
+                 'C. A training module for employees', 'D. A one-time evaluation of safety performance'], "correct": 1},
+    # 67
+    {"text": "At the middle- and upper- management level we usually concentrate on",
+     "options": ['A. outcomes evaluations', 'B. performance measures', 'C. results measures', 'D. behavioral measures'], "correct": 2},
+    # 68
+    {"text": "Which of the following failures would MOST likely be attributed to upper management?",
+     "options": ['A. A worker bypasses a machine guard during a task', 'B. A supervisor fails to enforce a lockout procedure',
+                 'C. Safety is treated as a priority only when incidents occur', 'D. A hazard is not corrected during a routine inspection'], "correct": 2},
+    # 69
+    {"text": "The primary focus of lower management levels in a safety management system is to:",
+     "options": ['A. Develop safety policies', 'B. Allocate safety budgets', 'C. Control hazards at the job level', 'D. Review safety legislation'], "correct": 2},
+    # 70
+    {"text": "Which activity would NOT typically be the responsibility of lower management?",
+     "options": ['A. Correcting unsafe acts', 'B. Supervising workers', 'C. Enforcing safety rules', 'D. Establishing safety policy'], "correct": 3},
+    # 71
+    {"text": "Failures at the lower management level are MOST likely to result in:",
+     "options": ['A. Poorly written safety policies', 'B. Inadequate safety budgets', 'C. Unsafe acts and hazards during operations', 'D. Non-compliance with national legislation'], "correct": 2},
+    # 72
+    {"text": "The purpose of an audit is to:",
+     "options": ['A. look at leadership and how well it achieves results', 'B. challenge underlying concepts and principles',
+                 'C. challenge existing policies, procedures, and practices', 'D. all of the above'], "correct": 3},
+    # 73
+    {"text": "What is a major weakness in the walk-around safety inspection process?",
+     "options": ['A. Takes too much time', 'B. Does not adequately identify unsafe behaviors',
+                 'C. Does not adequately identify hazardous conditions', 'D. Requires both employee and management participation'], "correct": 1},
+    # 74
+    {"text": "Which safety audit technique is MOST effective for identifying gaps between documented procedures and actual work practices?",
+     "options": ['A. Document review', 'B. Workplace inspection', 'C. Observational audit', 'D. Performance data review'], "correct": 2},
+    # 75
+    {"text": "An auditor wants to assess whether a safety management system is formally established and compliant with legal requirements. Which technique should be the primary focus?",
+     "options": ['A. Interviews', 'B. Document review', 'C. Sampling', 'D. Workplace inspections'], "correct": 1},
+    # 76
+    {"text": "During an audit, workers state they are trained but are unable to explain safe work procedures when questioned. Which audit technique BEST revealed this weakness?",
+     "options": ['A. Sampling', 'B. Observational audit', 'C. Interviews', 'D. Document review'], "correct": 2},
+    # 77
+    {"text": "An organization uses injury statistics and near-miss trends to determine which departments require targeted audits. Which technique is being applied?",
+     "options": ['A. Sampling', 'B. Performance data review', 'C. Workplace inspection', 'D. Checklist auditing'], "correct": 1},
+    # 78
+    {"text": "Traditionally, there have been two figures or variables used to measure company-wide safety performance. Which of the following describe these two measures?",
+     "options": ['A. duration, frequency', 'B. frequency, severity', 'C. probability, duration', 'D. frequency, duration'], "correct": 1},
+    # 79
+    {"text": "Which of the following best describes \"leading indicators\" in safety management?",
+     "options": ['A. Metrics that measure the outcomes of incidents', 'B. Proactive measures that predict and prevent safety incidents',
+                 'C. Metrics that evaluate financial performance', 'D. Indicators used only after accidents occur'], "correct": 1},
+    # 80
+    {"text": "Which of the following is a reactive safety measure in SMS?",
+     "options": ['A. Conducting safety training', 'B. Investigating incidents after they occur', 'C. Performing regular safety inspections', 'D. Identifying potential hazards'], "correct": 1},
+    # 81
+    {"text": "How often should an SMS be reviewed and updated?",
+     "options": ['A. Once every five years', 'B. Only when incidents occur', 'C. When significant changes occur in the workplace', 'D. When an external audit is scheduled'], "correct": 2},
+    # 82
+    {"text": "What is the main purpose of Good Manufacturing Practices (GMP)?",
+     "options": ['A. To reduce production costs and increase profitability', 'B. To ensure products are consistently safe, effective, and of high quality',
+                 'C. To speed up manufacturing processes and reduce waste', 'D. To comply with local tax regulations and accounting practices'], "correct": 1},
+    # 83
+    {"text": "Which GMP practice ensures that errors or deviations during production can be identified and traced?",
+     "options": ['A. Continuous operation without record-keeping', 'B. Comprehensive record-keeping and batch documentation',
+                 'C. Allowing operators to make decisions without documentation', 'D. Random production without oversight'], "correct": 1},
+    # 84
+    {"text": "Which of the following is considered a GMP requirement for equipment?",
+     "options": ['A. Equipment must be fast and automated', 'B. Equipment must be regularly cleaned, maintained, and calibrated',
+                 'C. Equipment can be used without inspection', 'D. Equipment must be replaced every month regardless of condition'], "correct": 1},
+    # 85
+    {"text": "A GMP audit finds that cleaning procedures are written and plastered across the factory floor, but supervisors do not call out deviations from procedure. Which principle of GMP is MOST directly violated?",
+     "options": ['A. Documentation and records', 'B. Production and process controls', 'C. Equipment calibration', 'D. Quality testing'], "correct": 1},
+    # 86
+    {"text": "What is the full form of HACCP?",
+     "options": ['A. Health Analysis and Critical Control Points', 'B. Health Analysis and Critical Criteria for Production',
+                 'C. Hazard Analysis and Critical Control Points', 'D. Hazard Analysis and Critical Criteria for Production'], "correct": 2},
+    # 87
+    {"text": "What engineering system is HACCP based on?",
+     "options": ['A. Failure Modes Analysis Scheme', 'B. Success Modes Analysis Scheme', 'C. Safe Modes Analysis Scheme', 'D. Unsafe Modes Analysis Scheme'], "correct": 0},
+    # 88
+    {"text": "The first step in HACCP involves analyzing food production to identify potential hazards. Which HACCP principle does this represent?",
+     "options": ['A. Establish Critical Limits', 'B. Conduct a Hazard Analysis', 'C. Establish Monitoring Procedures', 'D. Establish Corrective Actions'], "correct": 1},
+    # 89
+    {"text": "A ______ is a step at which a hazard can be controlled or eliminated.",
+     "options": ['A. HAC', 'B. ACC', 'C. CCP', 'D. FCC'], "correct": 2},
+    # 90
+    {"text": "A processing plant identifies a cooking step where insufficient heating could leave pathogens alive. Deciding the temperature and time required to eliminate the risk corresponds to which HACCP principle?",
+     "options": ['A. Determine Critical Control Points', 'B. Establish Critical Limits', 'C. Establish Corrective Actions', 'D. Verification'], "correct": 1},
+    # 91
+    {"text": "During monitoring, a food safety team records time, temperature, and pH at CCPs. Which HACCP principle does this reflect?",
+     "options": ['A. Hazard Analysis', 'B. CCP Identification', 'C. Establish Monitoring Procedures', 'D. Verification'], "correct": 2},
+    # 92
+    {"text": "In a scenario where a batch of milk fails pasteurization, which HACCP principle is applied to decide the action to take (e.g., reprocess or discard)?",
+     "options": ['A. Establish Monitoring Procedures', 'B. Establish Corrective Actions', 'C. Record-Keeping and Documentation', 'D. Critical Limits'], "correct": 1},
+    # 93
+    {"text": "During verification, an auditor finds that monitoring logs were falsified. Which principles are being compromised?",
+     "options": ['A. Documentation and Verification', 'B. Critical Limits and Monitoring', 'C. Hazard Analysis and CCPs', 'D. Corrective Actions and Verification'], "correct": 0},
+    # 94
+    {"text": "_______________ is the CCP for the processing of milk.",
+     "options": ['A. Removal of fat', 'B. Evaporation', 'C. Milking', 'D. Pasteurization'], "correct": 3},
+    # 95
+    {"text": "An example of sensory information for CCP criteria is",
+     "options": ['A. pH', 'B. Texture', 'C. Temperature', 'D. Water Activity'], "correct": 1},
+    # 96
+    {"text": "What is the type of hazard when the process does not contain a step to destroy harmful microbes.",
+     "options": ['A. Hazard A', 'B. Hazard C', 'C. Hazard B', 'D. Hazard D'], "correct": 0},
+    # 97
+    {"text": "What is the full form of ICMSF?",
+     "options": ['A. International Commission on Microbial Specifications for Food', 'B. International Committee on Microbial Specifications for Food',
+                 'C. International Commission on Microbial Safety for Food', 'D. International Committee on Microbial Safety for Food'], "correct": 0},
+    # 98
+    {"text": "Which of these statements is true? A workplace emergency does not _______________.",
+     "options": ['A. Always happen during business hours', 'B. Cause physical or environmental damage',
+                 'C. Disrupt or shut down operations', 'D. Threaten workers, customers, or the public'], "correct": 0},
+    # 99
+    {"text": "To be prepared for emergencies that occur in the workplace, each employer should have a(n) ________.",
+     "options": ['A. Employee Assistance Plan', 'B. Employee Safety and Health Plan', 'C. Emergency Action Plan', 'D. Standard Operating Procedure'], "correct": 2},
+    # 100
+    {"text": "Which of the following does not need to be included in an Emergency Action Plan?",
+     "options": ['A. Evacuation procedures and identification of all exit routes', 'B. Methods of reporting emergencies by any employee',
+                 'C. Procedures for accounting of all employees after evacuation, or upon a shelter-in-place emergency', 'D. Procedures for electrical safety'], "correct": 3},
+    # 101
+    {"text": "For which of these emergencies may shelter-in-place be the best course of action?",
+     "options": ['A. Chemical release outside the facility', 'B. Fire in the facility', 'C. Severe hailstorm', 'D. Flash flood in the facility'], "correct": 0},
+    # 102
+    {"text": "An emergency kit should include the following except:",
+     "options": ['A. Non-perishable foods', 'B. Electric can opener', 'C. Water', 'D. Flashlight'], "correct": 1},
+    # 103
+    {"text": "What must you decide before using a fire extinguisher?",
+     "options": ['A. if the fire is small enough to be extinguished with one fire extinguisher', 'B. if there is a safe exit should the fire get out of control',
+                 'C. if the fire extinguisher has already passed its most recent inspection', 'D. both answers a and b'], "correct": 3},
+    # 104
+    {"text": "Typically, the best course of action to take during a medical emergency is to _________________.",
+     "options": ['A. begin first aid immediately', 'B. activate the emergency plan for reporting injuries',
+                 'C. notify the person\'s family about the situation', 'D. report the emergency to the CEO'], "correct": 0},
+    # 105
+    {"text": "What should you do if a chemical spill poses an immediate risk to you and your co-workers?",
+     "options": ['A. mark it with a sign or barricade', 'B. clean it up immediately', 'C. leave the area immediately',
+                 'D. wipe the area with tissues, being careful to not touch the chemical'], "correct": 2},
 ]
 
-# Lecture 3.10
-processSafety = [
-    
+D3_L11_Differential_Equations = [
+    # 1
+    {"text": "What is the order and degree of the differential equation below? (dr/dθ)^(4/3) + r = 2",
+     "options": ['A. 1st order, 4/3 degree', 'B. 1st order, 4th degree', 'C. 1st order, 3rd degree', 'D. 4th order, 3rd degree'], "correct": 1},
+    # 2
+    {"text": "What is the order and degree of the differential equation below? [2(d²y/dx²) + (dy/dx)²]^(3/2) = d³y/dx³",
+     "options": ['A. 3rd order, 1st degree', 'B. 3rd order, 2/3 degree', 'C. 3rd order, 2nd degree', 'D. 1st order, 6th degree'], "correct": 2},
+    # 3
+    {"text": "Eliminate the arbitrary constant of the general solution below: y = e^(2x)(C1 cos x + C2 sin x)",
+     "options": ["A. y'' - 4y' + 5y = 0", "B. y'' - 5y' + 4y = 0", "C. y'' - 4y' - 5y = 0", "D. y'' + 4y' + 5y = 0"], "correct": 0},
+    # 4
+    {"text": "Eliminate the arbitrary constants of the general solution below: y = x(C1 + C2 ln x + C3(ln x)²)",
+     "options": ["A. x³y''' + x²y'' + xy' + y = 0", "B. y''' - 3y'' + 3y' - y = 0", "C. y''' + y' - y = 0", "D. x³y''' + xy' - y = 0"], "correct": 3},
+    # 5
+    {"text": "Find the differential equations of the family of lines passing through the origin.",
+     "options": ['A. y dx – x dy = 0', 'B. x dy – y dx = 0', 'C. x dx + y dy = 0', 'D. y dx + x dy = 0'], "correct": 1},
+    # 6
+    {"text": "What is the differential equation of the family of parabolas having their vertices at the origin and their foci on the x-axis.",
+     "options": ['A. 2x dy – y dx = 0', 'B. x dy + y dx = 0', 'C. 2y dx – x dy = 0', 'D. dy/dx – x = 0'], "correct": 0},
+    # 7
+    {"text": "Determine the differential equation of the family of circles with center on the y-axis.",
+     "options": ["A. (y'')³ – xy'' + y' = 0", "B. y'' – xyy'' + y' = 0", "C. xy'' – (y')³ – y' = 0", "D. (y')³ + (y'')² + xy = 0"], "correct": 2},
+    # 8
+    {"text": "Which of the following equations is a variable separable DE?",
+     "options": ['A. (x + x²y)dy = (2x + xy²)dx', 'B. (x + y)dx – 2ydy = 0', 'C. 2ydx = (x² + 1)dy', 'D. y²dx + (2x – 3y)dy = 0'], "correct": 2},
+    # 9
+    {"text": "Find the general solution of y' = y sec x",
+     "options": ['A. y = C (sec x + tan x)', 'B. y = C (sec x – tan x)', 'C. y = C (sec x tan x)', 'D. y = C (sec2 x + tan x)'], "correct": 0},
+    # 10
+    {"text": "Solve (y – √(x² + y²)) dx – x dy = 0",
+     "options": ['A. √(x² + y²) + y = C', 'B. √(x² + y² + y) = C', 'C. √(x + y) + y = C', 'D. √(x² – y) + y = C'], "correct": 0},
+    # 11
+    {"text": "Solve (x + y) dy = (x – y) dx",
+     "options": ['A. x² + y² = C', 'B. x² + 2xy + y² = C', 'C. x² – 2xy – y² = C', 'D. x² – 2xy + y² = C'], "correct": 2},
+    # 12
+    {"text": "Which of the following equations is an exact DE?",
+     "options": ['A. (x² + 1) dx – xy dy = 0', 'B. x dy + (3x – 2y) dx = 0', 'C. 2xy dx + (2 + x²) dy = 0', 'D. x²y dy – y dx = 0'], "correct": 2},
+    # 13
+    {"text": "Solve the general solution of the differential equation 2xydx + (x² + 3y²)dy = 0.",
+     "options": ['A. x²y + y³ = c', 'B. xy² + y³ = c', 'C. x²y + x³ = c', 'D. xy² + x³ = c'], "correct": 0},
+    # 14
+    {"text": "Evaluate the integrating factor of (x² + y² + 3)dx − 2xydy = 0",
+     "options": ['A. x', 'B. -2/x', 'C. x^2', 'D. 1/x^2'], "correct": 3},
+    # 15
+    {"text": "Evaluate the general solution of (x² + y² + 3)dx − 2xydy = 0",
+     "options": ['A. y − x²/y − 3/y = c', 'B. x − y²/x − 3/x = c', 'C. y + x²/y + 3/y = c', 'D. x + y²/x + 3/x = c'], "correct": 1},
+    # 16
+    {"text": "Evaluate the integrating factor of the differential equation: (y⁴ + 2y)dx + (xy³ + 2y⁴ − 4x)dy = 0",
+     "options": ['A. y', 'B. -3/y', 'C. y^3', 'D. 1/y^3'], "correct": 3},
+    # 17
+    {"text": "Evaluate the general solution of the differential equation: (y⁴ + 2y)dx + (xy³ + 2y⁴ − 4x)dy = 0",
+     "options": ['A. xy + 2y/x² + x² = c', 'B. xy − 2y/x² − x² = c', 'C. xy + 2x/y² + y² = c', 'D. xy − 2x/y² − y² = c'], "correct": 2},
+    # 18
+    {"text": "Evaluate the integrating factor of the differential equation: x²ydx − (x³ + xy²)dy = 0",
+     "options": ['A. 1/(xy^3)', 'B. -1/(xy^3)', 'C. xy^3', 'D. -xy^3'], "correct": 1},
+    # 19
+    {"text": "Evaluate the general solution of the differential equation: x²ydx − (x³ + xy²)dy = 0",
+     "options": ['A. x²/(2y²) + ln x = c', 'B. −y²/(2x²) + ln y = c', 'C. y²/(2x²) + ln x = c', 'D. −x²/(2y²) + ln y = c'], "correct": 3},
+    # 20
+    {"text": "Evaluate the integrating factor of the differential equation: (x²y² + 2)ydx + (2 − x²y²)xdy = 0",
+     "options": ['A. x^3y^3', 'B. 2x^3y^3', 'C. 2/(x^3y^3)', 'D. 1/(2x^3y^3)'], "correct": 3},
+    # 21
+    {"text": "Evaluate the general solution of the differential equation: (x²y² + 2)ydx + (2 − x²y²)xdy = 0",
+     "options": ['A. (1/2)ln(y/x) + 1/(2x²y²) = c', 'B. (1/2)ln(x/y) − 1/(2x²y²) = c', 'C. (1/2)ln(x/y) − (1/2)x²y² = c', 'D. (1/2)ln(xy) + (1/2)x²y² = c'], "correct": 1},
+    # 22
+    {"text": "Evaluate the integrating factor of the differential equation: y' − y tan x = sin x",
+     "options": ['A. cos(x)', 'B. sin(x)', 'C. -cos(x)', 'D. -sin(x)'], "correct": 0},
+    # 23
+    {"text": "Evaluate the general solution of the differential equation: y' − y tan x = sin x",
+     "options": ['A. y = (c-cos2x)/(4cos(x))', 'B. y = (c+cos2x)/(4sinx)', 'C. y = (c-sin2x)/(4sinx)', 'D. y = (c+sin2x)/(4cosx)'], "correct": 0},
+    # 24
+    {"text": "Evaluate the particular solution of the differential equation: y' − y tan x = sin x, y(0) = 1",
+     "options": ['A. y = (5-cos(2x))/(4cosx)', 'B. y = (5-sin(2x))/(4sinx)', 'C. y = (5+cos(2x))/(4cosx)', 'D. y = (5+sin(2x))/(4sinx)'], "correct": 0},
+    # 25
+    {"text": "Evaluate the integrating factor of the differential equation: y' + (4/x)y = x³y²",
+     "options": ['A. 1/x', 'B. 1/x^2', 'C. 1/x^3', 'D. 1/x^4'], "correct": 3},
+    # 26
+    {"text": "Evaluate the particular solution of the differential equation: y' + (4/x)y = x³y², y(2) = -1",
+     "options": ['A. y = 16/(x^4(1+16 ln(x/2)))', 'B. y = x^4(1+16 ln(x/2))/16', 'C. y = -16/(x^4(1-16 ln(x/2)))', 'D. y = -16/(x^4(1+16 ln(x/2)))'], "correct": 3},
+    # 27
+    {"text": "Evaluate the general solution of the differential equation: x³y' + x²y − y² = 2x⁴",
+     "options": ['A. y = x² + x²/(Cx+1)', 'B. y = x³ + x/(Cx²+1)', 'C. y = x² + x³/(Cx+1)', 'D. y = x³ + x²/(Cx+1)'], "correct": 0},
+    # 28
+    {"text": "Evaluate the general solution of the differential equation: y'' + 3y' − 4y = 0",
+     "options": ['A. y = C1e^(4x) + C2e^(-x)', 'B. y = C1e^(3x) + C2e^(-4x)', 'C. y = C1e^(-4x) + C2e^(x)', 'D. y = C1e^(-3x) + C2e^(4x)'], "correct": 2},
+    # 29
+    {"text": "Evaluate the general solution of the differential equation: d²x/dt² − 6(dx/dt) + 9x = 0",
+     "options": ['A. y = e^x(C1 + C2x)', 'B. x = e^t(C1 + C2t)', 'C. y = e^(3x)(C1 + C2x)', 'D. x = e^(3t)(C1 + C2t)'], "correct": 3},
+    # 30
+    {"text": "Evaluate the general solution of the differential equation: (D² + 64)y = 0",
+     "options": ['A. y = C1 sin 8x + C2 cos 8x', 'B. y = C1e^(8x) + C2e^(-8x)', 'C. y = C1 sin 32x + C2 cos 32x', 'D. y = C1 sin 6x + C2 cos 4x'], "correct": 0},
+    # 31
+    {"text": "Evaluate the general solution of the differential equation: ÿ − 6ẏ + 13y = 0",
+     "options": ['A. y = e^(-2x)(C1 sin 3x + C2 cos 3x)', 'B. y = e^(2x)(C1 sin 3x + C2 cos 3x)', 'C. y = e^(3x)(C1 sin 2x + C2 cos 2x)', 'D. y = e^(-3x)(C1 sin 2x + C2 cos 2x)'], "correct": 2},
+    # 32
+    {"text": "Evaluate the general solution of the differential equation: y^(4) + 32y'' + 256y = 0",
+     "options": ['A. y = C1e^(4x) + C2e^(-4x) + x(C3e^(4x) + C4e^(-4x))', 'B. y = C1e^(4x) + C2e^(4x) + C3 cos 4x + C4 sin 4x',
+                 'C. y = e^(4x)(C1 + C2x + C3x² + C4x³)', 'D. y = C1 cos 4x + C2 sin 4x + x(C3 cos 4x + C4 sin 4x)'], "correct": 3},
+    # 33
+    {"text": "Evaluate the general solution of the differential equation: x²y'' − 4xy' + 6y = 0",
+     "options": ['A. y = C1e^(3x) + C2e^(2x)', 'B. y = C1x³ + C2x²', 'C. y = C1e^(-3x) + C2e^(-2x)', 'D. y = C1x^(-3) + C2x^(-2)'], "correct": 1},
+    # 34
+    {"text": "Evaluate the general solution of the differential equation: x²y'' + 9xy' + 16y = 0",
+     "options": ['A. y = x^8(C1 + C2 ln x)', 'B. y = x^6(C1 + C2 ln x)', 'C. y = x^4(C1 + C2 ln x)', 'D. y = x^2(C1 + C2 ln x)'], "correct": 2},
+    # 35
+    {"text": "Evaluate the general solution of the differential equation: (x²D² + xD + 4)y = 0",
+     "options": ['A. y = C1 sin(2 ln x) + C2 cos(2 ln x)', 'B. y = C1 sin(ln x) + C2 cos(ln x)', 'C. y = C1 sin(ln 2x) + C2 cos(ln 2x)', 'D. y = C1 sin 2x + C2 cos 2x'], "correct": 0},
+    # 36
+    {"text": "Evaluate the general solution of the differential equation: x²(d²y/dx²) − 7x(dy/dx) + 25y = 0",
+     "options": ['A. y = e^(4x)(C1 sin 3x + C2 cos 3x)', 'B. y = e^(3x)(C1 sin 4x + C2 cos 4x)',
+                 'C. y = x^4(C1 sin(3 ln x) + C2 cos(3 ln x))', 'D. y = x^3(C1 sin(4 ln x) + C2 cos(4 ln x))'], "correct": 2},
+    # 37
+    {"text": "Evaluate the general solution of the differential equation: x³(d³y/dx³) + 5x²(d²y/dx²) − 2x(dy/dx) − 6y = 0",
+     "options": ['A. y = C1/x + C2x² + C3/x³', 'B. y = C1x + C2x² + C3x³', 'C. y = C1x + C2/x² + C3x³', 'D. y = C1/x + C2/x² + C3/x³'], "correct": 0},
+    # 38
+    {"text": "Determine the particular solution of the differential equation: y'' − 4y' − 12y = 3e^(5t)",
+     "options": ['A. (7/3)e^5t', 'B. (-7/3)e^5t', 'C. (3/7)e^5t', 'D. (-3/7)e^5t'], "correct": 3},
+    # 39
+    {"text": "Determine the particular solution of the differential equation: y'' − 4y' − 12y = sin(2t)",
+     "options": ['A. (1/40)cos(2t) + (1/20)sin(2t)', 'B. (1/40)cos(2t) - (1/20)sin(2t)', 'C. (1/20)cos(2t) + (1/40)sin(2t)', 'D. (1/20)cos(2t) - (1/40)sin(2t)'], "correct": 1},
+    # 40
+    {"text": "Find a particular solution for the differential equation: y'' − 4y' − 12y = 2t³ − t + 3",
+     "options": ['A. (-1/6)t³ + (1/6)t² – (1/9)t – (5/27)', 'B. (-1/5)t³ + (1/5)t² – (1/8)t – (5/26)',
+                 'C. (-1/4)t³ + (1/4)t² – (1/7)t – (5/24)', 'D. (-1/3)t³ + (1/3)t² – (1/6)t – (5/23)'], "correct": 0},
+    # 41
+    {"text": "Radium decomposes at a rate proportional to the amount at any instant. In 100 years, 100 mg of radium decomposes to 96 mg. How many mg will be left after another 100 years?",
+     "options": ['A. 88.60', 'B. 95.32', 'C. 92.16', 'D. 90.72'], "correct": 2},
+    # 42
+    {"text": "The population of a country doubles in 50 years. How many years will it be five times as much? Assume that the rate of increase is proportional to the number inhabitants.",
+     "options": ['A. 100 years', 'B. 116 years', 'C. 120 years', 'D. 98 years'], "correct": 1},
+    # 43
+    {"text": "Radium decomposes at a rate proportional to the amount present. If the half of the original amount disappears after 1000 years, what is the percentage lost in 100 years?",
+     "options": ['A. 6.70%', 'B. 4.50%', 'C. 5.35%', 'D. 4.30%'], "correct": 0},
+    # 44
+    {"text": "According to Newton's law of cooling, the rate at which a substance cools in air is directly proportional to the difference between the temperatures of the substance and that of air. If the temperature of the air is 30° and the substance cools from 100° to 70° in 15 minutes, how long will it take to cool 100° to 50°?",
+     "options": ['A. 33.59 min', 'B. 43.60 min', 'C. 35.39 min', 'D. 45.30 min'], "correct": 0},
+    # 45
+    {"text": "Suppose that an object initially having a temperature of 20° is placed in a large temperature controlled room of 80° and one hour later the object has a temperature of 35°. What will its temperature be after three hours?",
+     "options": ['A. 51.93°', 'B. 52.64°', 'C. 53.76°', 'D. 54.69°'], "correct": 3},
+    # 46
+    {"text": "An object falls from rest in a medium offering a resistance. The velocity of the object before the object reaches the ground is given by the differential equation dV/dt + V/10 = 32, ft/sec. What is the velocity of the object one second after if falls?",
+     "options": ['A. 40.54 ft/sec', 'B. 38.65 ft/sec', 'C. 30.45 ft/sec', 'D. 34.12 ft/sec'], "correct": 2},
+    # 47
+    {"text": "A tank has pure water flowing into it at 10 L/min. The contents of the tank are kept thoroughly mixed, and the contents flow out at 10 L/min. Initially, the tank contains 10 kg of salt in 100 L of water. How much salt will there be in the tank after 30 minutes?",
+     "options": ['A. 412.39g', 'B. 457.82g', 'C. 478.09g', 'D. 497.87g'], "correct": 3},
+    # 48
+    {"text": "In a tank are 100 liters of brine containing 50 kg total of dissolved salt. Pure water is allowed to run into the tank at the rate of 3 liters a minute. Brine runs out of the tank at the rate of 2 liters a minute. The instantaneous concentration in the tank is kept uniform by stirring. How much salt is in the tank at the end of one hour?",
+     "options": ['A. 15.45 kg', 'B. 19.53 kg', 'C. 12.62 kg', 'D. 20.62 kg'], "correct": 1},
+    # 49
+    {"text": "A tank has 40L of sewage runoff. It initially consists of 60% water and 40% pollutants. Another sewage runoff with 70% water and 30% pollutant is being added to the tank at a rate of 3L/min. As the tank is being filled, the solution is also being drained at a rate of 4L/min. How much pollutant is in the tank after 7 mins?",
+     "options": ['A. 10.75L', 'B. 11.75L', 'C. 12.75L', 'D. 13.75L'], "correct": 1},
+    # 50
+    {"text": "Find the equation of the family of orthogonal trajectories of the system of parabolas y² = 2x + C.",
+     "options": ['A. y = Ce^(-x)', 'B. y = Ce^(2x)', 'C. y = Ce^x', 'D. y = Ce^(-2x)'], "correct": 0},
+    # 51
+    {"text": "Consider the third-order differential equation: y''' + 4y'' − 5y' + y = 0. Reduce this differential equation to a system of first-order differential equations.",
+     "options": ["A. y1'=y1, y2'=y2, y3'=y1+5y2-4y3", "B. y1'=y2, y2'=y3, y3'=-y1+5y2-4y3",
+                 "C. y1'=y2, y2'=y3, y3'=2y1-5y2+4y3", "D. y1'=y1, y2'=y2, y3'=2y1-5y2+4y3"], "correct": 1},
+    # 52
+    {"text": "Consider the third-order differential equation: y''' + 4y'' − 5y' + y = 0. Write the system in matrix form.",
+     "options": ['A. Y\' = [[1,0,0],[0,1,0],[2,-5,4]] Y', 'B. Y\' = [[0,1,0],[0,0,1],[2,-5,4]] Y',
+                 'C. Y\' = [[0,1,0],[0,0,1],[-1,5,-4]] Y', 'D. Y\' = [[1,0,0],[0,1,0],[1,5,-4]] Y'], "correct": 2},
+    # 53
+    {"text": "(Torricelli's law) A cylindrical keg with radius 10cm and height 25cm has a drain hole at the bottom with an area of 2cm². How fast is the height dropping when there are 4L of beverage remaining?",
+     "options": ['A. 0.2 cm/s', 'B. 0.4 cm/s', 'C. 0.6 cm/s', 'D. 0.8 cm/s'], "correct": 2},
+    # 54
+    {"text": "(Torricelli's law) A cylindrical keg with radius 10cm and height 25cm has a drain hole at the bottom with an area of 2cm². How long does it take for the keg to drain?",
+     "options": ['A. 56.1s', 'B. 57.1s', 'C. 58.1s', 'D. 59.1s'], "correct": 3},
+    # 55
+    {"text": "A conical funnel has a radius 4cm and a height 8cm. Use Torricelli's law for the rate at which the liquid is draining. Assume the area of the hole in the funnel is 2mm². How long does it take for the funnel to drain?",
+     "options": ['A. 102.5s', 'B. 104.5s', 'C. 106.5s', 'D. 108.5s'], "correct": 2},
+    # 56
+    {"text": "A hemispherical bowl has top radius 4ft and at time t = 0 is full of water. At 1pm, a circular hole of unknown radius is opened, and at 1:30pm, the depth of the water in the tank is 2ft. Using Torricelli's law and g = 32ft/s², what is the radius of the bottom hole?",
+     "options": ['A. 0.33in', 'B. 0.53in', 'C. 0.73in', 'D. 0.93in'], "correct": 1},
+    # 57
+    {"text": "A hemispherical bowl has top radius 4ft and at time t = 0 is full of water. At 1pm, a circular hole of unknown radius is opened, and at 1:30pm, the depth of the water in the tank is 2ft. Using Torricelli's law and g = 32ft/s², determine when the tank will be empty.",
+     "options": ['A. 3158s', 'B. 3267s', 'C. 3316s', 'D. 3491s'], "correct": 0},
 ]
+
+D3_L12_EngineeringEconomics = [
+    # ===== Definitions: Engineering Economy 1 =====
+    {"text": "It is the analysis and evaluation of the factors that will affect the success of engineering projects to the end that a recommendation be made which will ensure the best use of capital.",
+     "options": ['A. Engineering Economy', 'B. Economics', 'C. Financial Management', 'D. Cost Accounting'], "correct": 0},
+    {"text": "It is an economic or a market situation in which only a single seller or producer supplies a commodity or a service.",
+     "options": ['A. Oligopoly', 'B. Monopoly', 'C. Monopsony', 'D. Perfect Competition'], "correct": 1},
+    {"text": "It is a market situation in which there are so few suppliers of a particular product that one supplier's actions significantly impact prices and supply.",
+     "options": ['A. Monopoly', 'B. Oligopsony', 'C. Oligopoly', 'D. Perfect Competition'], "correct": 2},
+    {"text": "It is a market condition in which a product is traded freely by buyers and sellers in large numbers without any individual transaction affecting the price.",
+     "options": ['A. Monopoly', 'B. Perfect Competition', 'C. Oligopoly', 'D. Monopsony'], "correct": 1},
+    {"text": "It is an economic or market situation in which a single consumer or buyer buys a commodity or a service from suppliers.",
+     "options": ['A. Monopsony', 'B. Oligopsony', 'C. Monopoly', 'D. Oligopoly'], "correct": 0},
+    {"text": "It is an economic or market situation in which there are many sellers or producers that supplies a commodity or a service to very few consumers.",
+     "options": ['A. Monopsony', 'B. Oligopoly', 'C. Oligopsony', 'D. Monopoly'], "correct": 2},
+    {"text": "It is an economic system based on the private ownership of the means of production and distribution of goods, characterized by a free competitive market and motivation by profit.",
+     "options": ['A. Socialism', 'B. Communism', 'C. Capitalism', 'D. Mercantilism'], "correct": 2},
+    {"text": "These are tangible things – things that you can touch – that satisfy human wants.",
+     "options": ['A. Services', 'B. Goods', 'C. Commodities', 'D. Necessities'], "correct": 1},
+    {"text": "These are activities that people do for themselves or for other people to satisfy their wants.",
+     "options": ['A. Goods', 'B. Labor', 'C. Services', 'D. Utilities'], "correct": 2},
+    {"text": "Products or services that are required to support human life and activities, which will be purchased in somewhat the same quantity even though the price varies considerably.",
+     "options": ['A. Luxuries', 'B. Necessities', 'C. Commodities', 'D. Goods'], "correct": 1},
+    {"text": "Products or services that are desired by humans and will be purchased if money is available after the required necessities have been obtained.",
+     "options": ['A. Necessities', 'B. Goods', 'C. Luxuries', 'D. Services'], "correct": 2},
+    {"text": "The quantity of a certain commodity that is bought at a certain price at a given place and time.",
+     "options": ['A. Supply', 'B. Demand', 'C. Consumption', 'D. Equilibrium'], "correct": 1},
+    {"text": "The quantity of a certain commodity that is offered for sale at a certain price at a given place and time.",
+     "options": ['A. Demand', 'B. Production', 'C. Supply', 'D. Inventory'], "correct": 2},
+    {"text": "Under conditions of perfect competition the price at which a given product will be supplied and purchased is the price that will result in the supply and the demand being equal.",
+     "options": ['A. Equilibrium Price', 'B. Break-even Price', 'C. Market Value', 'D. Fixed Price'], "correct": 0},
+    {"text": "When the use of one of the factors of production is limited, either in increasing cost or by absolute quantity, a point will be reached beyond which an increase in the variable factors will result in a less than proportionate increase in output.",
+     "options": ['A. Law of Supply and Demand', 'B. Law of Diminishing Returns', 'C. Law of Diminishing Marginal Utility', 'D. Law of Economies of Scale'], "correct": 1},
+    {"text": "A type of simple interest in which interest is calculated as though each month had 30 days.",
+     "options": ['A. Exact Simple Interest', 'B. Ordinary Simple Interest', 'C. Compound Interest', 'D. Nominal Interest'], "correct": 1},
+    {"text": "A type of simple interest in which interest is calculated on the basis of a year with 365 days rather than the conventional 360 days.",
+     "options": ['A. Ordinary Simple Interest', 'B. Compound Interest', 'C. Exact Simple Interest', 'D. Effective Interest'], "correct": 2},
+    {"text": "Is defined as a series of equal payments occurring at equal interval of time.",
+     "options": ['A. Annuity', 'B. Gradient', 'C. Perpetuity', 'D. Amortization'], "correct": 0},
+    {"text": "Is a type of annuity where the payments are made at the end of each period beginning from the 1st period.",
+     "options": ['A. Annuity Due', 'B. Deferred Annuity', 'C. Ordinary Annuity', 'D. Perpetuity'], "correct": 2},
+    {"text": "Is a type of annuity where the payments are made at the beginning of each period starting from the 1st period.",
+     "options": ['A. Ordinary Annuity', 'B. Annuity Due', 'C. Deferred Annuity', 'D. Perpetuity'], "correct": 1},
+    {"text": "Is the type of annuity where the first payment is made later than the first or is made several periods after the beginning of the annuity.",
+     "options": ['A. Annuity Due', 'B. Ordinary Annuity', 'C. Perpetuity', 'D. Deferred Annuity'], "correct": 3},
+    {"text": "Is a series of disbursements or receipts that increases or decreases in each succeeding period by constant amount.",
+     "options": ['A. Geometric Gradient', 'B. Arithmetic Gradient', 'C. Perpetuity', 'D. Sinking Fund'], "correct": 1},
+    {"text": "Refers to the present worth of a property that is assumed to last forever. The capitalized cost of any property is the sum of the first cost and the present costs of perpetual replacement, operation and maintenance.",
+     "options": ['A. Capitalized Cost', 'B. Sunk Cost', 'C. Book Value', 'D. Salvage Value'], "correct": 0},
+    {"text": "Is the decrease in the value of physical property due to passage of time.",
+     "options": ['A. Amortization', 'B. Depreciation', 'C. Inflation', 'D. Obsolescence'], "correct": 1},
+    {"text": "This depreciation method assumes the loss in value is directly proportional to the age of the property, giving equal annual depreciation charges: d = (C0 − SV)/L.",
+     "options": ['A. Sinking Fund Method', 'B. Straight Line Method', 'C. Declining Balance Method', "D. Sum-of-the-Years'-Digits Method"], "correct": 1},
+    {"text": "This depreciation method assumes a sinking fund is established in which funds accumulate for replacement, with the deposits earning compound interest: d = (C0 − SV)i / ((1+i)^n − 1).",
+     "options": ['A. Straight Line Method', 'B. Declining Balance Method', 'C. Sinking Fund Method', "D. Sum-of-the-Years'-Digits Method"], "correct": 2},
+    {"text": "This depreciation method applies a constant rate, twice the straight-line rate, to the declining book value of the asset each year: BVn = C0(1 − 2/L)^n.",
+     "options": ['A. Sinking Fund Method', 'B. Double Declining Balance Method', 'C. Straight Line Method', "D. Sum-of-the-Years'-Digits Method"], "correct": 1},
+    {"text": "This depreciation method uses a decreasing fraction each year, based on the sum of the years' digits of the asset's useful life, to calculate depreciation charges: dn = (C0 − SV)(L − n + 1)/SYD.",
+     "options": ['A. Declining Balance Method', 'B. Straight Line Method', 'C. Sinking Fund Method', "D. Sum-of-the-Years'-Digits Method"], "correct": 3},
+    {"text": "Is a certificate of indebtedness of a corporation usually for a period not less than ten years and guaranteed by a mortgage on certain assets of the corporation or its subsidiaries.",
+     "options": ['A. Stock', 'B. Bond', 'C. Debenture', 'D. Note'], "correct": 1},
+
+    # ===== Engineering Economy 1: Problems =====
+    {"text": "Determine the ordinary simple interest on P5000 for 9 months and 10 days if the rate of interest is 12%.",
+     "options": ['A. P466.67', 'B. P500.00', 'C. P450.00', 'D. P480.00'], "correct": 0},
+    {"text": "Determine the future worth of P5000 invested for 9 months and 10 days at 12% ordinary simple interest.",
+     "options": ['A. P5466.67', 'B. P5500.00', 'C. P5450.00', 'D. P5480.00'], "correct": 0},
+    {"text": "If P1000 accumulates to P1500 when invested at a simple interest for 3 years, what is the rate of interest?",
+     "options": ['A. 16.67%', 'B. 15.00%', 'C. 20.00%', 'D. 12.50%'], "correct": 0},
+    {"text": "Jojo bought a 2nd hand DVD player and then sold it to Rowace at a profit of 40%. Rowace then sold the DVD player to Kat at a profit of 20%. If Kat paid 2856 more than it cost Jojo, how much did Jojo pay for the unit?",
+     "options": ['A. P4200', 'B. P4000', 'C. P4500', 'D. P3900'], "correct": 0},
+    {"text": "The exact simple interest of P5000 invested from June 21, 1995 to December 25, 1995 is P100. What is the rate of interest?",
+     "options": ['A. 3.90%', 'B. 4.00%', 'C. 3.50%', 'D. 4.20%'], "correct": 0},
+    {"text": "Calculate for the exact simple interest on P15,000 for the period from February 12, to August 15, 2004 if the rate of simple interest is 12%.",
+     "options": ['A. P909.84', 'B. P900.00', 'C. P915.00', 'D. P895.00'], "correct": 0},
+    {"text": "A college freshman borrowed P2000 from a bank for his tuition fee and promised to pay the amount for one year. He received only the amount of P1920 after the bank collected an advance interest of P80. What was the rate of discount?",
+     "options": ['A. 4.00%', 'B. 4.17%', 'C. 3.85%', 'D. 4.35%'], "correct": 0},
+    {"text": "Ms. Evilla borrowed money from a bank. She receives from the bank P1340 and promised to pay P1500 at the end of 9 months. Determine the corresponding discount rate or often referred to as the banker's discount.",
+     "options": ['A. 10.67%', 'B. 11.85%', 'C. 9.33%', 'D. 12.00%'], "correct": 0},
+    {"text": "What is the effective rate of interest corresponding to 18% compounded daily? Take 1 year = 360 days.",
+     "options": ['A. 19.72%', 'B. 18.00%', 'C. 20.00%', 'D. 19.25%'], "correct": 0},
+    {"text": "What rate of interest compounded annually is the same as the rate of interest of 8% compounded quarterly?",
+     "options": ['A. 8.24%', 'B. 8.00%', 'C. 8.50%', 'D. 8.16%'], "correct": 0},
+    {"text": "Which of these gives the lowest effective rate of interest?",
+     "options": ['A. 12.35% compounded annually', 'B. 11.90% compounded semi-annually', 'C. 12.20% compounded quarterly', 'D. 11.60% compounded monthly'], "correct": 3},
+    {"text": "A loan for P50000 is to be paid in 3 years at the amount of P65000. What is the effective rate of money?",
+     "options": ['A. 9.14%', 'B. 10.00%', 'C. 8.50%', 'D. 9.50%'], "correct": 0},
+    {"text": "An amount of P1000 becomes P1608.44 after 4 years compounded bimonthly. Find the nominal interest.",
+     "options": ['A. 12.00%', 'B. 11.50%', 'C. 12.50%', 'D. 13.00%'], "correct": 0},
+    {"text": "How long will it take money to double itself if invested at 5% compounded annually?",
+     "options": ['A. 14.21 years', 'B. 14.00 years', 'C. 15.21 years', 'D. 13.86 years'], "correct": 0},
+    {"text": "By the condition of a will, the sum of P20000 is left to a girl to be held in trust fund by her guardian until it amounts to P50000. When will the girl receive the money if the fund is invested at 8% compounded quarterly?",
+     "options": ['A. 11.57 years', 'B. 12.00 years', 'C. 10.57 years', 'D. 11.00 years'], "correct": 0},
+    {"text": "If the nominal interest rate is 5% percent, how much is P3000 worth in 15 years in a continuously compounded account?",
+     "options": ['A. P6351.00', 'B. P6300.00', 'C. P6400.00', 'D. P6250.00'], "correct": 0},
+    {"text": "What annuity is required over 12 years to equate with a future amount of P20000? Assume i = 6% annually.",
+     "options": ['A. P1185.44', 'B. P1200.00', 'C. P1150.00', 'D. P1220.00'], "correct": 0},
+    {"text": "How much money must you invest today in order to withdraw P2000 annually for 10 years if the interest rate is 9%?",
+     "options": ['A. P12,835.31', 'B. P12,800.00', 'C. P12,900.00', 'D. P12,750.00'], "correct": 0},
+    {"text": "Mr. Ayala borrows P100,000 at 10% effective annual interest. He must pay back the loan over 30 years with uniform monthly payments due on the first day of each month. What does Mr. Ayala pay each month?",
+     "options": ['A. P839.06', 'B. P850.00', 'C. P825.00', 'D. P860.00'], "correct": 0},
+    {"text": "A person buys a piece of lot for P100,000 down payment and 10 deferred semi-annual payments of P8,000 each, starting three years from now. What is the present value of the investment if the rate of interest is 12% compounded semi-annually?",
+     "options": ['A. P143,992.83', 'B. P140,000.00', 'C. P145,000.00', 'D. P142,000.00'], "correct": 0},
+    {"text": "The Texas Highway Department expects the cost of maintenance for a particular piece of heavy equipment to be P5000 in year 1, P5500 in year 2 and amounts increasing by P500 through year 10. At an interest rate of 10% per year, what is the present worth of the maintenance cost?",
+     "options": ['A. P42,168.52', 'B. P42,000.00', 'C. P41,500.00', 'D. P42,500.00'], "correct": 0},
+    {"text": "The first year maintenance cost for a new automobile is estimated to be P10,000 and it increases at a uniform rate of 10% per year. Using an 8% interest rate, calculate the present worth of cost of the first 5 years of maintenance.",
+     "options": ['A. P48,044.00', 'B. P47,500.00', 'C. P48,500.00', 'D. P47,000.00'], "correct": 0},
+    {"text": "At 6%, find the capitalized cost of a bridge whose cost is P250M and life is 20 years, if the bridge must be partially rebuilt at a cost of P100M at the end of each 20 years.",
+     "options": ['A. P295.31M', 'B. P290.00M', 'C. P300.00M', 'D. P285.00M'], "correct": 0},
+    {"text": "An equipment is purchased for P50,000. If the annual maintenance cost is P1500, determine the capitalized cost of perpetual service with an interest rate of 6%.",
+     "options": ['A. P75,000', 'B. P70,000', 'C. P80,000', 'D. P72,000'], "correct": 0},
+    {"text": "An engineer bought a machine for P500,000. Other expenses including installation amounted to P30,000. At the end of its estimated useful life of 10 years, the salvage value will be 10% of the first cost. Using straight line method of depreciation, what is the annual depreciation?",
+     "options": ['A. P47,700', 'B. P47,000', 'C. P48,000', 'D. P46,500'], "correct": 0},
+    {"text": "An engineer bought a machine for P500,000. Other expenses including installation amounted to P30,000. At the end of its estimated useful life of 10 years, the salvage value will be 10% of the first cost. Using straight line method of depreciation, what is the book value after 5 years?",
+     "options": ['A. P291,500', 'B. P290,000', 'C. P295,000', 'D. P288,000'], "correct": 0},
+    {"text": "A printing equipment costs P73,500 has a life expectancy of 8 yrs. and has a salvage value of P3500 at the end of its life. The book value at the end of \"x\" years is equal to P38,500. Using straight line method of depreciation, solve for the value of \"x\".",
+     "options": ['A. 4 years', 'B. 3 years', 'C. 5 years', 'D. 6 years'], "correct": 0},
+    {"text": "A broadcasting corporation purchased equipment for P53,000 and paid P1,500 for freight and delivery charges to the job site. The equipment has a normal life of 10 years with a trade-in value of P5,000 against the purchase of new equipment at the end of the life. Using sinking fund method (assume annual interest of 6%), determine the annual depreciation.",
+     "options": ['A. P3755.61', 'B. P3700.00', 'C. P3800.00', 'D. P3650.00'], "correct": 0},
+    {"text": "A broadcasting corporation purchased equipment for P53,000 and paid P1,500 for freight and delivery charges to the job site. The equipment has a normal life of 10 years with a trade-in value of P5,000 against the purchase of new equipment at the end of the life. Using sinking fund method (assume annual interest of 6%), determine the total depreciation after 5 years.",
+     "options": ['A. P21,170.00', 'B. P21,000.00', 'C. P21,500.00', 'D. P20,800.00'], "correct": 0},
+    {"text": "A VOM has a current selling price of P400. If the selling price is expected to decline at a rate of 10% per annum due to obsolescence, what will be its selling price after 5 years?",
+     "options": ['A. P236.20', 'B. P240.00', 'C. P230.00', 'D. P245.00'], "correct": 0},
+    {"text": "A VOM has a current selling price of P400. If the selling price is expected to decline at a rate of 10% per annum due to obsolescence, what will be the salvage value if the life expectancy is 10 years?",
+     "options": ['A. P139.47', 'B. P140.00', 'C. P135.00', 'D. P145.00'], "correct": 0},
+    {"text": "A machine worth P250,000 has an estimated life of 15 years with a book value of P30,000 at the end of the period. Using the constant percentage (declining balance) method, determine the rate of depreciation.",
+     "options": ['A. 13.18%', 'B. 12.50%', 'C. 14.00%', 'D. 13.50%'], "correct": 0},
+    {"text": "A machine worth P250,000 has an estimated life of 15 years with a book value of P30,000 at the end of the period. Using the constant percentage (declining balance) method, determine the book value after 10 years.",
+     "options": ['A. P60,821.75', 'B. P61,000.00', 'C. P60,000.00', 'D. P62,000.00'], "correct": 0},
+    {"text": "A machine worth P250,000 has an estimated life of 15 years with a book value of P30,000 at the end of the period. Using the constant percentage (declining balance) method, determine the depreciation charge during the 10th year.",
+     "options": ['A. P9234.75', 'B. P9200.00', 'C. P9300.00', 'D. P9100.00'], "correct": 0},
+    {"text": "An asset has a 1st cost of P22,000, an estimated life of 30 years. Using the double declining balance method, determine the book value after 6 years.",
+     "options": ['A. P14,542.44', 'B. P14,500.00', 'C. P14,600.00', 'D. P14,400.00'], "correct": 0},
+    {"text": "An asset has a 1st cost of P22,000, an estimated life of 30 years. Using the double declining balance method, determine the depreciation charge during the 6th year.",
+     "options": ['A. P1038.75', 'B. P1050.00', 'C. P1020.00', 'D. P1060.00'], "correct": 0},
+    {"text": "An asset has a 1st cost of P22,000, an estimated life of 30 years. Using the double declining balance method, what is the salvage value (book value at the end of the 30-year life)?",
+     "options": ['A. P2776.42', 'B. P2800.00', 'C. P2750.00', 'D. P2820.00'], "correct": 0},
+    {"text": "An asset is purchased for P120,000. Its estimated economic life is 10 years, after which it will be sold for P12,000. Using SOYD, find the depreciation charge during the 3rd year.",
+     "options": ['A. P15,709.09', 'B. P15,700.00', 'C. P15,750.00', 'D. P15,650.00'], "correct": 0},
+    {"text": "An asset is purchased for P120,000. Its estimated economic life is 10 years, after which it will be sold for P12,000. Using SOYD, find the total depreciation after 3 years.",
+     "options": ['A. P53,018.18', 'B. P53,000.00', 'C. P53,100.00', 'D. P52,900.00'], "correct": 0},
+    {"text": "A man wants to make 14% nominal interest compounded semi-annually on a bond investment. How much should he be willing to pay now for a 12%, P10,000 bond that will mature in 10 years and pays interest semi-annually?",
+     "options": ['A. P8940.23', 'B. P9000.00', 'C. P8850.00', 'D. P9050.00'], "correct": 0},
+
+    # ===== Engineering Economy 2: Problems =====
+    {"text": "An item presently costs P1000. If inflation is at the rate of 8% per year, what will be the cost of the item in two years?",
+     "options": ['A. P1166.40', 'B. P1160.00', 'C. P1170.00', 'D. P1150.00'], "correct": 0},
+    {"text": "An economy is experiencing inflation at an annual rate of 8%. If this continues, what will P1000 be worth two years from now in terms of today's pesos?",
+     "options": ['A. P857.34', 'B. P860.00', 'C. P850.00', 'D. P865.00'], "correct": 0},
+    {"text": "A man invested P10,000 at an interest rate of 10% compounded annually. What will be the final amount of his investment in terms of today's pesos after five years if inflation remains the same at the rate of 8% per year?",
+     "options": ['A. P10,961.03', 'B. P11,000.00', 'C. P10,900.00', 'D. P11,050.00'], "correct": 0},
+    {"text": "A businessman needs P50,000 for his operations. One financial institution is willing to lend him the money for one year at 12.5% interest per annum (discounted). Another lender is charging 14%, with the principal and interest payable at the end of one year. A third financier is willing to lend him P50,000 payable in 12 equal monthly installments of P4,600. Which offer is best for him?",
+     "options": ['A. Option 1 (12.5% discounted, effective rate ≈14.29%)', 'B. Option 2 (14% simple interest, payable at end of year)',
+                 'C. Option 3 (12 monthly installments of P4,600, effective rate ≈20.36%)', 'D. All three offers are equivalent'], "correct": 1},
+    {"text": "A debt of P5,000 with interest of 12% compounded semiannually is to be amortized by equal semiannual payments over the next 3 years, the first due in 6 months. Find the semiannual payment.",
+     "options": ['A. P1016.82', 'B. P1000.00', 'C. P1030.00', 'D. P990.00'], "correct": 0},
+    {"text": "A debt of P10,000 with interest at the rate of 20% compounded semiannually is to be amortized by 5 equal payments at the end of each 6 months, the first payment is to be made after 3 years. Find the semiannual payment.",
+     "options": ['A. P4248.20', 'B. P4200.00', 'C. P4300.00', 'D. P4150.00'], "correct": 0},
+    {"text": "First Benchmark Publishing's gross margin is 50% of sales. The operating costs of the publishing are estimated at 15% of sales. If the company is within the 40% tax bracket, determine the percent of sales of their profit after taxes.",
+     "options": ['A. 21%', 'B. 20%', 'C. 19%', 'D. 18%'], "correct": 0},
+    {"text": "A farmer selling eggs at P50 a dozen gains 20%. If he sells the eggs at the same price after the costs of the eggs rises 12.5%, how much will be his new gain in percent?",
+     "options": ['A. 6.89%', 'B. 6.67%', 'C. 6.58%', 'D. 6.12%'], "correct": 1},
+    {"text": "A feasibility study shows that a fixed capital investment of P10,000,000 for a proposed construction firm and an estimated working capital of P2,000,000. Annual depreciation is estimated to be 10% of the fixed capital investment. Determine the rate of return on the total investment if the annual profit is P3,500,000.",
+     "options": ['A. 38.33%', 'B. 29.17%', 'C. 30.12%', 'D. 30.78%'], "correct": 1},
+    {"text": "The monthly demand for ice cans being manufactured by Mr. Camus is 3200 pieces. With a manual operated guillotine, the unit cutting cost is P25.00. An electrically operated hydraulic guillotine was offered to Mr. Camus at a price of P275,000.00 and which cuts the unit cutting cost by 30%. Disregarding the cost of money, how many months will Mr. Camus be able to recover the cost of the machine if he decides to buy now?",
+     "options": ['A. 10', 'B. 11', 'C. 12', 'D. 13'], "correct": 2},
+    {"text": "The nominal rate of return on the bonds of Steve's boat is 7.75%. The real rate of return is 4.4%. What is the rate of inflation?",
+     "options": ['A. 3.35%', 'B. 3.28%', 'C. 3.21%', 'D. 3.17%'], "correct": 2},
+    {"text": "For problems 12 and 13: A company purchases a machine for $100,000, which is expected to have a salvage value of $10,000 after producing 50,000 units over its useful life. In the first year, the machine produces 12,000 units. What is the depreciation expense for the machine in the first year using the Units of Production method?",
+     "options": ['A. $15,000', 'B. $18,000', 'C. $21,600', 'D. $25,200'], "correct": 2},
+    {"text": "A company purchases a machine for $100,000, which is expected to have a salvage value of $10,000 after producing 50,000 units over its useful life. If the machine produces 10,000 units in the second year, what is the depreciation expense for that year using the Units of Production method?",
+     "options": ['A. $15,000', 'B. $18,000', 'C. $21,600', 'D. $25,200'], "correct": 1},
+    {"text": "A firm procures canned peas and adds to accumulate inventory as follows: January: 55pcs @ P50/can, February: 125pcs @ P55/can, March: 100pcs @ P75/can. What is the cost of goods sold for the 60 units that left the stock using First In First Out (FIFO)?",
+     "options": ['A. P3025', 'B. P3000', 'C. P4500', 'D. P3300'], "correct": 0},
+    {"text": "A firm procures canned peas and adds to accumulate inventory as follows: January: 55pcs @ P50/can, February: 125pcs @ P55/can, March: 100pcs @ P75/can. What is the cost of goods sold for the 60 units that left the stock using Last In First Out (LIFO)?",
+     "options": ['A. P3025', 'B. P3000', 'C. P4500', 'D. P3300'], "correct": 2},
+    {"text": "A firm procures canned peas and adds to accumulate inventory as follows: January: 55pcs @ P50/can, February: 125pcs @ P55/can, March: 100pcs @ P75/can. What is the cost of goods sold for the 60 units that left the stock using average costs?",
+     "options": ['A. P3600.00', 'B. P3669.64', 'C. P3750.00', 'D. P3350.75'], "correct": 1},
+    {"text": "A businessman invests in a medium scale business which cost him P100,000. The net annual return is estimated at P30,000 for each of the next 10 years. Compute the benefit cost ratio if the annual rate of interest is 20%.",
+     "options": ['A. 1.06', 'B. 1.16', 'C. 1.26', 'D. 1.36'], "correct": 2},
+    {"text": "Compute the benefit cost ratio of the following project: Project cost = P120,000, Gross income = P35,000/year, Operating cost = P8,000/year, Salvage value = 0, Life of Project = 10 years, Rate of interest = 15%.",
+     "options": ['A. 1.03', 'B. 1.13', 'C. 1.23', 'D. 1.33'], "correct": 1},
+    {"text": "The first cost of a permanent road that will improve access to a rural area is P1,000,000. The annual maintenance cost is expected to be P20,000 per year. Improved accessibility will result in benefits of P70,000 per year. At an interest rate of 6% per year, the conventional B/C ratio is nearest to:",
+     "options": ['A. 0.58', 'B. 0.68', 'C. 0.78', 'D. 0.88'], "correct": 3},
+    {"text": "A company, InnovateTech Inc., reports the following financial information for the end of the fiscal year: Cash and cash equivalents: $150,000, Marketable securities: $80,000, Accounts receivable: $120,000, Inventory: $200,000, Current liabilities: $300,000. Calculate the company's acid-test ratio.",
+     "options": ['A. 1.07', 'B. 1.17', 'C. 1.27', 'D. 1.37'], "correct": 1},
+    {"text": "TechSolutions Ltd. has the following financial details at the end of Q1: Current assets: $450,000, Inventory: $180,000, Current liabilities: $320,000. Calculate the acid test ratio of TechSolutions Ltd.",
+     "options": ['A. 0.54', 'B. 0.64', 'C. 0.74', 'D. 0.84'], "correct": 3},
+    {"text": "The cost of producing a small transistor radio set consists of P23 for labor and P37 for materials. The fixed charges in operating the plant are P100,000 per month. The variable cost is P1 per set. The radio set can be sold for P75 each. Determine how many sets must be produced per month to breakeven.",
+     "options": ['A. 7143 sets', 'B. 7000 sets', 'C. 7200 sets', 'D. 6900 sets'], "correct": 0},
+    {"text": "A company is considering two alternatives with regards to an equipment which it needs. Alternative A: cost of equipment = P700,000, salvage value = P100,000, daily operating cost = P500, economic life = 10 years. Alternative B: rental at P1,500 per day. At 18% interest, how many days per year must the equipment be used if Alternative A is to be chosen?",
+     "options": ['A. more than 151.51 days/year', 'B. more than 150.00 days/year', 'C. more than 155.00 days/year', 'D. more than 145.00 days/year'], "correct": 0},
+    {"text": "A steel drum manufacturer incurs a yearly fixed operating cost of $200,000. Each drum manufactured costs $160 to produce and sells for $200. What is the manufacturer's breakeven sales volume in drums per year?",
+     "options": ['A. 5000 drums', 'B. 4800 drums', 'C. 5200 drums', 'D. 4900 drums'], "correct": 0},
+    {"text": "A manufacturer of sports equipment produces tennis rackets for which there is a demand of 200 per month. The production setup cost for each batch of rackets is $300. In addition, the inventory carrying cost for each racket is $24 per year. Using the EOQ model, which is most nearly the best production batch size for the rackets?",
+     "options": ['A. 245 units', 'B. 240 units', 'C. 250 units', 'D. 235 units'], "correct": 0},
+]
+
+D3_L13_EngineeringDataAnalysis = [
+    # ===== ENGINEERING DATA ANALYSIS 1 =====
+    # 1
+    {"text": "Combo meals come in three dishes: pizza, spaghetti, and a burger. If there are 4 types of pizza, 3 types of spaghetti, and 2 types of burger, how many combo meals are there?",
+     "options": ['A. 24', 'B. 44', 'C. 9', 'D. 13'], "correct": 0},
+    # 2
+    {"text": "A, B, C and D are going to ride in A's car to go to the mall. Only A and C know how to drive, and D does not want to sit in front. How many ways can the four sit in the car if it has two front seats and two back seats?",
+     "options": ['A. 10', 'B. 6', 'C. 12', 'D. 8'], "correct": 3},
+    # 3
+    {"text": "In a press conference before the All-Star Game, eight All-Stars will be taking questions: three are Cubs, three are Red Sox, and two are Yankees. If teammates insist on sitting together, how many ways can the eight All-Stars be seated in a row?",
+     "options": ['A. 342', 'B. 363', 'C. 432', 'D. 636'], "correct": 2},
+    # 4
+    {"text": "A university student wants to take exactly one elective course this semester. The university offers 4 unique history courses, 5 unique philosophy courses, and 3 unique art courses, none of which overlap in content or scheduling. In how many different ways can the student select their elective course?",
+     "options": ['A. 12', 'B. 20', 'C. 60', 'D. 15'], "correct": 0},
+    # 5
+    {"text": "In how many ways can one hang 10 different paintings on 5 empty spaces on the wall?",
+     "options": ['A. 30240', 'B. 30420', 'C. 32040', 'D. 34020'], "correct": 0},
+    # 6
+    {"text": "In how many ways can you arrange 5 identical black balls, 3 identical green balls, and 4 identical white balls in a straight line?",
+     "options": ['A. 22770', 'B. 20727', 'C. 72720', 'D. 27720'], "correct": 3},
+    # 7
+    {"text": "How many distinct permutations does the word ENGINEERING have?",
+     "options": ['A. 277200', 'B. 272700', 'C. 727200', 'D. 277020'], "correct": 0},
+    # 8
+    {"text": "There are 5 positions on a flagstaff and 4 different colors of flags, with at least 5 flags of each color available. How many different signals are possible by displaying 5 flags simultaneously? Note that arrangement and order is important.",
+     "options": ['A. 120', 'B. 625', 'C. 1024', 'D. 20'], "correct": 2},
+    # 9
+    {"text": "If there are 6 persons, in how many ways can they sit at a round table if two of them always want to be next to each other, while another 2 of them don't want to be next to one another?",
+     "options": ['A. 72', 'B. 144', 'C. 12', 'D. 24'], "correct": 3},
+    # 10
+    {"text": "In how many ways can you arrange 3 different keys on a keychain?",
+     "options": ['A. 6', 'B. 1', 'C. 2', 'D. 12'], "correct": 1},
+    # 11
+    {"text": "My school's ECE club has 6 boys and 8 girls. I need to select a team of 6 people to send to the IECEP competition. In how many ways can I select the team to have 4 girls and 2 boys?",
+     "options": ['A. 1414', 'B. 1050', 'C. 28', 'D. 56'], "correct": 1},
+    # 12
+    {"text": "In how many ways can you invite one or more of your five friends to your birthday party?",
+     "options": ['A. 25', 'B. 32', 'C. 31', 'D. 10'], "correct": 2},
+    # 13
+    {"text": "Find the number of ordered triples of positive integers (a, b, c) such that a + b + c = 8.",
+     "options": ['A. 20', 'B. 21', 'C. 22', 'D. 23'], "correct": 1},
+    # 14
+    {"text": "Find the number of ordered quadruples of non-negative integers (a, b, c, d) such that a + b + c + d = 12.",
+     "options": ['A. 445', 'B. 450', 'C. 455', 'D. 460'], "correct": 2},
+    # 15
+    {"text": "Which of the following is equivalent to 15C15 + 16C15 + 17C15 + ... + 2023C15?",
+     "options": ['A. 2024C15', 'B. 2023C16', 'C. 2024C16', 'D. 2023C15'], "correct": 2},
+    # 16
+    {"text": "A survey of 500 television viewers produced the following results: 285 watch football games, 195 watch hockey games, 115 watch basketball games, 45 watch football and basketball games, 70 watch football and hockey games, 50 watch hockey and basketball games, and 50 do not watch any of these games. How many watch all three games?",
+     "options": ['A. 95', 'B. 85', 'C. 110', 'D. 20'], "correct": 3},
+    # 17
+    {"text": "Bay Area rapid food sells chicken nuggets. You can buy packages of 11 or 7. What is the largest integer n such that there is no way to buy exactly n nuggets?",
+     "options": ['A. 56', 'B. 57', 'C. 58', 'D. 59'], "correct": 3},
+    # 18
+    {"text": "Persons A, B, C and D sit in four seats 1, 2, 3, 4 in this order. How many sitting arrangements are there in which none of the four persons sits in his original chair?",
+     "options": ['A. 7', 'B. 8', 'C. 9', 'D. 10'], "correct": 2},
+    # 19
+    {"text": "I have 7 pairs of socks in my drawer, one pair of each color of the rainbow. How many socks do I have to draw out to guarantee that I have grabbed at least one matching pair?",
+     "options": ['A. 3', 'B. 7', 'C. 8', 'D. 13'], "correct": 2},
+    # 20
+    {"text": "A bag has 4 red marbles, 5 white marbles, and 6 blue marbles. Three marbles are drawn from the bag without replacement. What is the probability that they are all the same color?",
+     "options": ['A. 34/455', 'B. 17/455', 'C. 43/455', 'D. 71/455'], "correct": 0},
+    # 21
+    {"text": "Pikachu tries to solve a hard problem once each day. He has a 1/4 probability of solving it each day. What is the probability that he will solve it before his sixth try?",
+     "options": ['A. 0.763', 'B. 0.367', 'C. 0.237', 'D. 0.732'], "correct": 0},
+    # 22
+    {"text": "Pikachu, Mudkip and Cyndaquil have different chances of hitting a target. Pikachu hits the target 3/4 of the time, Mudkip hits it 2/3 of the time, and Cyndaquil hits it 1/2 of the time. They all go for the target simultaneously. What is the probability that at least one of them will hit the target?",
+     "options": ['A. 23/24', 'B. 1/4', 'C. 1/24', 'D. 3/4'], "correct": 0},
+    # 23
+    {"text": "What is the probability of drawing either an ace or a king in a single draw from a deck of 52 playing cards?",
+     "options": ['A. 1/13', 'B. 7/52', 'C. 2/13', 'D. 1/6'], "correct": 2},
+    # 24
+    {"text": "Two people are chosen randomly from 4 married couples. What is the probability that they are husband and wife?",
+     "options": ['A. 1/28', 'B. 3/28', 'C. 1/14', 'D. 1/7'], "correct": 3},
+    # 25
+    {"text": "A point is selected at random inside a circle. Find the probability that the point is closer to the center than to the circumference.",
+     "options": ['A. 1/4', 'B. 1/2', 'C. 1/3', 'D. 1'], "correct": 0},
+    # 26
+    {"text": "Both the bus and you arrive at the bus stop at random times between 12pm and 1pm. When the bus arrives, it waits 5 minutes before leaving. When you arrive, you wait 20 minutes before leaving if the bus hasn't come. What is the probability that you catch the bus?",
+     "options": ['A. 103/288', 'B. 1/4', 'C. 47/144', 'D. 15/16'], "correct": 0},
+    # 27
+    {"text": "Two red books and 4 blue books are placed at random on a shelf. What is the probability that the blue books will be together?",
+     "options": ['A. 0.1', 'B. 0.143', 'C. 0.2', 'D. 0.341'], "correct": 2},
+    # 28
+    {"text": "Suppose all 6 men at a party throw their hats into the center of the room. Each man then randomly selects a hat. Find the probability that none of the 6 men selects his own hat.",
+     "options": ['A. 25/72', 'B. 17/48', 'C. 13/36', 'D. 53/144'], "correct": 3},
+    # 29
+    {"text": "What is the probability of getting a sum of 9 exactly once in three throws of a pair of dice?",
+     "options": ['A. 0.561', 'B. 0.263', 'C. 0.862', 'D. 0.751'], "correct": 1},
+    # 30
+    {"text": "What is the probability that exactly 2 out of 3 tosses of a fair coin will be heads?",
+     "options": ['A. 1/4', 'B. 1/2', 'C. 3/8', 'D. 5/8'], "correct": 2},
+    # 31
+    {"text": "Four light bulbs are chosen at random from 20 bulbs, of which 5 are defective. Find the probability that exactly one is defective.",
+     "options": ['A. 0.2787', 'B. 0.0493', 'C. 0.1897', 'D. 0.4696'], "correct": 3},
+    # 32
+    {"text": "What is the probability that of 5 cards dealt from a well-shuffled deck, 3 will be hearts and two spades?",
+     "options": ['A. 143/16660', 'B. 29/4560', 'C. 253/16660', 'D. 43/4560'], "correct": 0},
+    # 33
+    {"text": "Most graduate schools of business require applicants for admission to take the Graduate Management Admission Council's GMAT examination. Scores on the GMAT are roughly normally distributed with a mean of 527 and a standard deviation of 112. What is the probability of an individual scoring above 500 on the GMAT?",
+     "options": ['A. 0.5714', 'B. 0.5803', 'C. 0.5953', 'D. 0.6006'], "correct": 2},
+    # 34
+    {"text": "The average number of acres burned by forest and range fires in a large New Mexico county is 4,300 acres per year, with a standard deviation of 750 acres. The distribution of the number of acres burned is normal. What is the probability that between 2,500 and 4,200 acres will be burned in any given year?",
+     "options": ['A. 0.4388', 'B. 0.4499', 'C. 0.4545', 'D. 0.4662'], "correct": 0},
+    # 35
+    {"text": "The Edwards's Theater chain has studied its movie customers to determine how much money they spend on concessions. The study revealed that the spending distribution is approximately normally distributed with a mean of $4.11 and a standard deviation of $1.37. What percentage of customers will spend less than $3.00 on concessions?",
+     "options": ['A. 19.73%', 'B. 20.89%', 'C. 21.18%', 'D. 22.56%'], "correct": 1},
+    # 36
+    {"text": "[Questions 36-37: The number of cars passing a point on a road may be modelled by a Poisson distribution. On average, 4 cars enter the Caibaan Diversion Road in Tacloban City every 5 minutes.] Find the probability that in a 5-minute period, exactly two cars go past.",
+     "options": ['A. 0.038', 'B. 0.146', 'C. 0.238', 'D. 0.382'], "correct": 1},
+    # 37
+    {"text": "[Questions 36-37: The number of cars passing a point on a road may be modelled by a Poisson distribution. On average, 4 cars enter the Caibaan Diversion Road in Tacloban City every 5 minutes.] Find the probability that in a 5-minute period, fewer than 3 cars go past.",
+     "options": ['A. 0.038', 'B. 0.146', 'C. 0.238', 'D. 0.382'], "correct": 2},
+    # 38
+    {"text": "In a class of 28 students, the teacher selects four people at random to participate in a geography contest. What is the probability that this group of four students includes at least two of the top three geography students in the class? Express your answer as a common fraction.",
+     "options": ['A. 37/819', 'B. 73/918', 'C. 73/819', 'D. 37/918'], "correct": 0},
+    # 39
+    {"text": "A couple has two children. Find the probability p that both children are boys, given that at least one of the children is a boy.",
+     "options": ['A. 1/2', 'B. 1/3', 'C. 1/4', 'D. 1/5'], "correct": 1},
+    # 40
+    {"text": "A pair of fair dice is thrown. Find the probability that the sum is 10 or greater, given that a 5 appears on at least one of the dice.",
+     "options": ['A. 1/3', 'B. 1/12', 'C. 1/2', 'D. 3/11'], "correct": 3},
+    # 41
+    {"text": "In a certain college, 4% of the men and 1% of the women are taller than 6 feet. Furthermore, 60% of the students are women. If a student is selected at random and is taller than 6 feet, what is the probability that the student is a woman?",
+     "options": ['A. 2/11', 'B. 3/11', 'C. 4/11', 'D. 1/11'], "correct": 1},
+    # 42
+    {"text": "Suppose a voter poll is taken in three states. In state A, 50% of voters support the liberal candidate; in state B, 60% support the liberal candidate; and in state C, 35% support the liberal candidate. Of the total population of the three states, 40% live in state A, 25% live in state B, and 35% live in state C. Given that a voter supports the liberal candidate, what is the probability that she lives in state B?",
+     "options": ['A. 20/63', 'B. 10/31', 'C. 10/21', 'D. 22/63'], "correct": 0},
+    # 43
+    {"text": "You draw one card from a standard deck of playing cards. If you pick a heart, you win $10. If you pick a face card that is not a heart, you win $8. If you pick any other card, you lose $6. How much is your expected earnings?",
+     "options": ['A. $0.42', 'B. -$0.42', 'C. $0.24', 'D. -$0.24'], "correct": 0},
+    # 44
+    {"text": "A detective figures that he has a one in nine chance of recovering stolen property. His out-of-pocket expenses for the investigation are $9,000. If he is paid his fee only if he recovers the stolen property, what should he charge clients to break even?",
+     "options": ['A. $108,000', 'B. $90,000', 'C. $81,000', 'D. $117,000'], "correct": 2},
+
+    # ===== ENGINEERING DATA ANALYSIS 2 =====
+    # 45 (EDA2 #1)
+    {"text": "Which of the following refers to a numerical quantity that takes on different values based on the outcome of a random experiment?",
+     "options": ['A. Probability Density Function', 'B. Random Variable', 'C. Cumulative Distribution Function', 'D. Expected Value'], "correct": 1},
+    # 46 (EDA2 #2)
+    {"text": "Which of the following types of random variables can take only a finite or countable number of values?",
+     "options": ['A. Continuous random variable', 'B. Discrete random variable', 'C. Deterministic variable', 'D. Analog variable'], "correct": 1},
+    # 47 (EDA2 #3)
+    {"text": "Which of the following is an example of a discrete random variable?",
+     "options": ['A. The time it takes for a computer to boot up', 'B. The number of defective items in a batch of 50',
+                 'C. The temperature measured at noon in a city', 'D. The length of a metal rod produced by a machine'], "correct": 1},
+    # 48 (EDA2 #4)
+    {"text": "Given the probability mass function of a discrete random variable X: P(X=1)=0.1, P(X=2)=0.2, P(X=3)=0.3, P(X=4)=0.15, P(X=5)=0.1, P(X=6)=0.15, and 0 otherwise. What is the value of P(2 < X ≤ 6)?",
+     "options": ['A. 0.9', 'B. 0.4', 'C. 0.7', 'D. 0.25'], "correct": 2},
+    # 49 (EDA2 #5)
+    {"text": "Given the PMF of a discrete random variable X: P(X=x) = 3kx + 1 for x ∈ {1, 2, 3}, and 0 otherwise. Find the value of k.",
+     "options": ['A. 1/6', 'B. -1/2', 'C. -1/9', 'D. 1/12'], "correct": 2},
+    # 50 (EDA2 #6)
+    {"text": "Given the probability density function (PDF) of a continuous random variable X: fx(x) = k(1 - x²) for -1 < x < 1, and 0 otherwise. Find the value of k.",
+     "options": ['A. 1/4', 'B. 1/2', 'C. 3/4', 'D. 1'], "correct": 2},
+    # 51 (EDA2 #7)
+    {"text": "Consider a probability density function whose graph is a straight line given by f(x) = (2k/3)(x-1), for 1 ≤ x ≤ 3. Find the value of k.",
+     "options": ['A. 4/3', 'B. 3/4', 'C. 3/2', 'D. 2/3'], "correct": 1},
+    # 52 (EDA2 #8)
+    {"text": "Given the PMF of a discrete random variable X: P(X=1)=0.2, P(X=2)=0.3, P(X=3)=0.5, and 0 otherwise. What is the mean (μ) of the random variable X?",
+     "options": ['A. 2.3', 'B. 2', 'C. 2.2', 'D. 2.1'], "correct": 0},
+    # 53 (EDA2 #9)
+    {"text": "Given the PMF of a discrete random variable X: P(X=1)=0.2, P(X=2)=0.3, P(X=3)=0.5, and 0 otherwise. What is the variance (σ²) of the random variable X?",
+     "options": ['A. 0.56', 'B. 0.7', 'C. 0.58', 'D. 0.61'], "correct": 3},
+    # 54 (EDA2 #10)
+    {"text": "A food inspector examined a random sample of 7 cans of a certain brand of tuna to determine the percent of foreign impurities. The following data were recorded: 1.8, 2.1, 1.7, 1.6, 0.9, 2.7, and 1.8. Compute the sample mean.",
+     "options": ['A. 1.5', 'B. 1.8', 'C. 1.6', 'D. 2.0'], "correct": 1},
+    # 55 (EDA2 #11)
+    {"text": "Two-thirds of the people in a meeting have an IQ of 120. The rest are engineers, whose IQ is 180. What is the average IQ of all the persons in the room?",
+     "options": ['A. 130', 'B. 140', 'C. 150', 'D. 160'], "correct": 1},
+    # 56 (EDA2 #12)
+    {"text": "Find the median of the following scores: 73, 62, 60, 58, 70, 60, 90, 66, 51, 85.",
+     "options": ['A. 66', 'B. 62', 'C. 60', 'D. 64'], "correct": 3},
+    # 57 (EDA2 #13)
+    {"text": "During a given month, ten farmers sold 13, 17, 10, 18, 18, 9, 17, 13, 15, 14 sacks of rice respectively. What is the mode of this group of data?",
+     "options": ['A. 13', 'B. 18', 'C. 17', 'D. all of the above'], "correct": 3},
+    # 58 (EDA2 #14)
+    {"text": "The IQs of 5 members of a family are 108, 112, 127, 118, and 113. Find the range.",
+     "options": ['A. 20', 'B. 19', 'C. 18', 'D. 17'], "correct": 1},
+    # 59 (EDA2 #15)
+    {"text": "Find the midrange for the following set of numbers: 2, 4, 7, 10, 14, 35.",
+     "options": ['A. 14.5', 'B. 15.5', 'C. 18.5', 'D. 16.5'], "correct": 2},
+    # 60 (EDA2 #16)
+    {"text": "The following scores were given by 6 judges for a gymnast's performance in the vault of an international meet: 7, 5, 9, 7, 8, and 6. Find the population variance and the population standard deviation.",
+     "options": ['A. 1.67 and 1.29', 'B. 2.00 and 1.29', 'C. 1.67 and 3.25', 'D. 2.00 and 3.25'], "correct": 0},
+    # 61 (EDA2 #17)
+    {"text": "A comparison of coffee prices at 4 randomly selected grocery stores in Sampaloc showed increases from the previous month of P2.00, P5.00, P7.00, and P12.00. Find the variance of this random sample of price increases.",
+     "options": ['A. P17.67', 'B. P25.32', 'C. P10.25', 'D. P13.40'], "correct": 0},
+    # 62 (EDA2 #18)
+    {"text": "Calculate the 1st Quartile from the following data: 3, 13, 11, 11, 5, 4, 2.",
+     "options": ['A. 3', 'B. 4', 'C. 2', 'D. 3.5'], "correct": 0},
+    # 63 (EDA2 #19)
+    {"text": "Calculate the 20th Percentile from the following data: 3, 13, 11, 11, 5, 4, 2.",
+     "options": ['A. 3.1', 'B. 4.8', 'C. 2.6', 'D. 3.5'], "correct": 2},
+    # 64 (EDA2 #20)
+    {"text": "Which sampling method ensures representation from each subgroup within the population?",
+     "options": ['A. Simple random sampling', 'B. Systematic sampling', 'C. Stratified sampling', 'D. Cluster sampling'], "correct": 2},
+    # 65 (EDA2 #21)
+    {"text": "In which sampling method is the population divided into clusters, and then all members from randomly selected clusters are sampled?",
+     "options": ['A. Simple random sampling', 'B. Systematic sampling', 'C. Stratified sampling', 'D. Cluster sampling'], "correct": 3},
+    # 66 (EDA2 #22)
+    {"text": "According to the central limit theorem, what will the sampling distribution of the mean look like if the sample size is large enough?",
+     "options": ['A. Skewed', 'B. Uniform', 'C. Bimodal', 'D. Normal distributed'], "correct": 3},
+    # 67 (EDA2 #23)
+    {"text": "We measure the heights of 40 randomly chosen students and get a mean height of 175 cm with a population standard deviation of 20 cm. Find the confidence interval at the 95% confidence level.",
+     "options": ['A. 175 ± 3.56', 'B. 175 ± 6.19', 'C. 175 ± 4.51', 'D. 175 ± 7.54'], "correct": 1},
+    # 68 (EDA2 #24)
+    {"text": "Suppose you have a sample of 30 students' test scores with a sample mean of 70 and a sample standard deviation of 10. Construct a 95% confidence interval for the population mean. (The critical value from the t-distribution with 29 degrees of freedom, t0.025,29, is 2.045.)",
+     "options": ['A. 70 ± 5.73', 'B. 70 ± 4.73', 'C. 70 ± 3.73', 'D. 70 ± 2.73'], "correct": 2},
+    # 69 (EDA2 #25)
+    {"text": "A principal at a school claims that the students in his school are above average intelligence. A random sample of thirty students' IQ scores have a mean score of 112.5. The mean population IQ is 100 with a standard deviation of 15. Calculate the z-statistic.",
+     "options": ['A. 5.56', 'B. 4.56', 'C. 3.56', 'D. 2.56'], "correct": 1},
+    # 70 (EDA2 #26)
+    {"text": "In a certain school, 25 random students received in-person instruction, and 25 random students received online instruction. The mean test score for the in-person group is 80 with a standard deviation of 5, and for the online group is 75 with a standard deviation of 7. Calculate the t-statistic.",
+     "options": ['A. 1.91', 'B. 2.91', 'C. 3.91', 'D. 4.91'], "correct": 1},
+    # 71 (EDA2 #27)
+    {"text": "A researcher wants to know if there is a significant difference in the weight of newborn babies between two hospitals in a city. The researcher randomly selects 20 newborns from Hospital A and 20 newborns from Hospital B and records their weights: Hospital A has n=20, mean=7.5 lb, standard deviation=0.8; Hospital B has n=20, mean=7.1 lb, standard deviation=1.2. If the critical t-value is 2.024, calculate the t-value.",
+     "options": ['A. 1.24', 'B. 2.24', 'C. 3.24', 'D. 4.24'], "correct": 0},
+    # NOTE: The source PDF's numbering jumps from question 27 straight to 31 on this page
+    # (questions 28-30 do not appear in the original document).
+    # 72 (EDA2 #31)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the sum of squares between treatments.",
+     "options": ['A. 2.8', 'B. 2', 'C. 12', 'D. 10.8'], "correct": 0},
+    # 73 (EDA2 #32)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the sum of squares error.",
+     "options": ['A. 2.8', 'B. 2', 'C. 12', 'D. 10.8'], "correct": 3},
+    # 74 (EDA2 #33)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the degrees of freedom for treatments.",
+     "options": ['A. 2.8', 'B. 2', 'C. 12', 'D. 10.8'], "correct": 1},
+    # 75 (EDA2 #34)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the degrees of freedom error.",
+     "options": ['A. 2.8', 'B. 2', 'C. 12', 'D. 10.8'], "correct": 2},
+    # 76 (EDA2 #35)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the degrees of freedom total.",
+     "options": ['A. 2.8', 'B. 2', 'C. 12', 'D. 14'], "correct": 3},
+    # 77 (EDA2 #36)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the sum of squares total.",
+     "options": ['A. 13.6', 'B. 2.8', 'C. 10.8', 'D. 1.4'], "correct": 0},
+    # 78 (EDA2 #37)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the mean squares between treatments.",
+     "options": ['A. 1.4', 'B. 0.9', 'C. 1.56', 'D. 2.8'], "correct": 0},
+    # 79 (EDA2 #38)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the mean square error.",
+     "options": ['A. 1.4', 'B. 0.9', 'C. 1.56', 'D. 2.8'], "correct": 1},
+    # 80 (EDA2 #39)
+    {"text": "[Questions 31-39 refer to the following: The times required by three workers to perform an assembly-line task were recorded on five randomly selected occasions. Worker 1: 8, 10, 9, 11, 10. Worker 2: 8, 9, 9, 8, 10. Worker 3: 10, 9, 10, 11, 9.] Compute the F-statistic.",
+     "options": ['A. 1.4', 'B. 0.9', 'C. 1.56', 'D. 2.8'], "correct": 2},
+    # 81 (EDA2 #40)
+    # NOTE: The source PDF references a height/weight data table for this question, but the
+    # table itself was not present in the extracted document content, so the correct answer
+    # cannot be independently verified/computed. "correct" is left as None to flag this.
+   """ {"text": "Given a set of height measurements and corresponding weight measurements sampled from a group of students (data table not available in source), determine the correlation coefficient.",
+     "options": ['A. 0.253', 'B. 0.135', 'C. 0.855', 'D. 0.931'], "correct": None}, """
+]
+
 
 # Lecture 1.1
 D1_L1_Chem_for_Engineers = [
@@ -2662,7 +4882,7 @@ CT_Inorganic_Chemistry = [
 
     { "text": 'What is the name of (NH4)2C03? ',  "options": ['A. Ammonium carbonate', 'B. Diammonium carbonate', 'C. Ammonium carbon trioxide', 'D. Nitrogen hydride carbonate'], "correct": 0}, 
 
-    { "text": 'What is the name of HIOA ',  "options": ['A. lodous acid', 'B. lodic acid', 'C. Periodous acid', 'D. Periodic acid'], "correct": 3}, 
+    { "text": 'What is the name of HIO4 ',  "options": ['A. lodous acid', 'B. lodic acid', 'C. Periodous acid', 'D. Periodic acid'], "correct": 3}, 
 
     { "text": 'What is the chemical formula of hypobromous acid? ',  "options": ['A. HBrO2', 'B. HBrO', 'C. HBrO3', 'D. HBrO 4'], "correct": 1}, 
 
