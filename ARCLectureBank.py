@@ -4452,6 +4452,999 @@ D3_L13_EngineeringDataAnalysis = [
 ]
 
 
+D3_L14_Physics = [
+
+    # Q1
+    {
+        "text": "A cylinder made of platinum-iridium alloy is used to define a certain SI base unit. What is the name of this cylinder?",
+        "options": ["A. Le Grand K", "B. Pti Alloy", "C. Standard Kilogram", "D. Standard Mass"],
+        "correct": 0
+    },
+
+    # Q2
+    {
+        "text": "What is the cgs unit of force?",
+        "options": ["A. Newton", "B. Erg", "C. Dyne", "D. Poise"],
+        "correct": 2
+    },
+
+    # Q3
+    {
+        "text": "In the measurement 29.4 cm, what number(s) is the uncertain digit?",
+        "options": ["A. 9 and 4 are both uncertain.", "B. 4 is uncertain.", "C. All numbers in this measurement are uncertain.", "D. 2 and 9 are both uncertain."],
+        "correct": 1
+    },
+
+    # Q4
+    {
+        "text": "Which measurement has higher uncertainty?",
+        "options": ["A. 123.4", "B. 120", "C. 123", "D. 123.45"],
+        "correct": 1
+    },
+
+    # Q5
+    {
+        "text": "How many significant figures are in the number 0.220?",
+        "options": ["A. None. Any number less than one is not significant.", "B. Two, only the non-zeros are significant.", "C. Three, the leading zero is not significant, but the rest are.", "D. Four, every digit is significant."],
+        "correct": 2
+    },
+
+    # Q6
+    {
+        "text": "How many significant figures should the product of 1.2 x 1.4592 contain?",
+        "options": ["A. 6", "B. 2", "C. 3", "D. 5"],
+        "correct": 1
+    },
+
+    # Q7 (Context: roller coaster cart problem, used for Q7-Q9)
+    {
+        "text": "A cart travels along a frictionless roller coaster track. At point A, the cart is 10 m above the ground and traveling at 2 m/s. The track dips down to the ground (point B), then rises again to point C, which is at a height of 3 m, before continuing on toward point D. What is the velocity of the cart at point B when it reaches the ground?",
+        "options": ["A. 13.13 m/s", "B. 14.15 m/s", "C. 15.16 m/s", "D. 16.16 m/s"],
+        "correct": 1
+    },
+
+    # Q8 (same roller coaster cart scenario as Q7)
+    {
+        "text": "A cart travels along a frictionless roller coaster track. At point A, the cart is 10 m above the ground and traveling at 2 m/s. The track dips down to the ground at point B, then rises again to point C. What is the velocity of the cart at point C when the cart reaches a height of 3 m?",
+        "options": ["A. 8.89 m/s", "B. 9.98 m/s", "C. 10.03 m/s", "D. 11.89 m/s"],
+        "correct": 3
+    },
+
+    # Q9 (same roller coaster cart scenario as Q7)
+    {
+        "text": "A cart travels along a frictionless roller coaster track. At point A, the cart is 10 m above the ground and traveling at 2 m/s. What is the maximum height the cart can reach before it stops?",
+        "options": ["A. 10.2 m", "B. 11.3 m", "C. 12.4 m", "D. 13.5 m"],
+        "correct": 0
+    },
+
+    # Q10
+    {
+        "text": "An object is being pulled along the ground by a 75 N force directed 28 degrees above the horizontal. How much work is done in pulling the object a distance of 8 m?",
+        "options": ["A. 420 J", "B. 530 J", "C. 380 J", "D. 250 J"],
+        "correct": 1
+    },
+
+    # Q11
+    {
+        "text": "Calculate the work done against gravity by a pump that discharges 600 liters of fuel oil into a tank 20 m above the pump's intake, if one liter of fuel oil has a mass of 0.82 grams/L.",
+        "options": ["A. 46.9 J", "B. 96.4 J", "C. 84.6 J", "D. 64.7 J"],
+        "correct": 1
+    },
+
+    # Q12
+    {
+        "text": "An advertisement claims that a certain 1200 kg car can accelerate from rest to a speed of 25 m/s in a time of 8.0 s. What average power must the motor produce to cause this acceleration?",
+        "options": ["A. 52.3 hp", "B. 48.6 hp", "C. 62.8 hp", "D. 70.2 hp"],
+        "correct": 2
+    },
+
+    # Q13
+    {
+        "text": "A 0.25 hp motor is used to lift a load at a constant rate of 5.00 cm/s. How great a load (mass) can it lift at this constant speed?",
+        "options": ["A. 381 kg", "B. 350 kg", "C. 421 kg", "D. 400 kg"],
+        "correct": 0
+    },
+
+    # Q14
+    {
+        "text": "A 200 N force is applied to an object that moves in the direction of the force. If the object travels with a constant velocity of 10 m/s, calculate the power expended on the object.",
+        "options": ["A. 20 W", "B. 2000 W", "C. 200 W", "D. 2,200 W"],
+        "correct": 1
+    },
+
+    # Q15
+    {
+        "text": "A 2 kg brick is moving at a speed of 6 m/s. How large a force F is needed to stop the brick in a time of 0.0007 s?",
+        "options": ["A. 1.87x10^4 N", "B. -1.71x10^4 N", "C. -1.87x10^4 N", "D. 1.71x10^4 N"],
+        "correct": 1
+    },
+
+    # Q16
+    {
+        "text": "An 8 g bullet is fired horizontally into a 9 kg block of wood and sticks in it. The block, which is free to move, has a velocity of 40 cm/s after impact. Find the velocity of the bullet.",
+        "options": ["A. 550 m/s", "B. 450 m/s", "C. 380 m/s", "D. 250 m/s"],
+        "correct": 1
+    },
+
+    # Q17
+    {
+        "text": "A 15 g bullet is fired horizontally into a 3 kg block of wood suspended by a long cord. The bullet sticks in the block. Compute the velocity of the bullet if the impact causes the block to swing 10 cm above its initial level.",
+        "options": ["A. 281 m/s", "B. 381 m/s", "C. 331 m/s", "D. 140 m/s"],
+        "correct": 0
+    },
+
+    # Q18
+    {
+        "text": "An inelastic collision is a collision in which the total kinetic energy after the collision is _____ before the collision.",
+        "options": ["A. equal to zero", "B. less than", "C. Equal", "D. greater than"],
+        "correct": 1
+    },
+
+    # Q19
+    {
+        "text": "A ball is dropped from a height h above a tile floor and rebounds to a height of 0.65h. Find the coefficient of restitution between the ball and the floor.",
+        "options": ["A. 0.91", "B. 0.53", "C. 0.81", "D. 0.75"],
+        "correct": 2
+    },
+
+    # Q20
+    {
+        "text": "A rubber ball of mass 0.25 kg is dropped from a height of 10 m. If the coefficient of restitution is 0.56, how high is the ball's second rebound?",
+        "options": ["A. 1.97 m", "B. 3.13 m", "C. 0.98 m", "D. 5.60 m"],
+        "correct": 2
+    },
+
+    # Q21a (Simple pendulum, L = 1.5 m; options generated since original was fill-in)
+    {
+        "text": "A simple pendulum has a length of 1.5 m. Find its period of oscillation. (Use T = 2π√(L/g))",
+        "options": ["A. 1.23 s", "B. 2.46 s", "C. 3.69 s", "D. 4.92 s"],
+        "correct": 1
+    },
+
+    # Q21b (same pendulum as Q21a; options generated)
+    {
+        "text": "A simple pendulum has a length of 1.5 m. Find its frequency of oscillation. (Use f = (1/2π)√(g/L))",
+        "options": ["A. 0.20 Hz", "B. 0.41 Hz", "C. 0.61 Hz", "D. 0.81 Hz"],
+        "correct": 1
+    },
+
+    # Q22a (Mass-spring system, m = 0.5 kg, k = 200 N/m; options generated)
+    {
+        "text": "A mass of 0.5 kg is attached to a spring of force constant 200 N/m. Find the period of oscillation. (Use T = 2π√(m/k))",
+        "options": ["A. 0.157 s", "B. 0.314 s", "C. 0.471 s", "D. 0.628 s"],
+        "correct": 1
+    },
+
+    # Q22b (same mass-spring system as Q22a; options generated)
+    {
+        "text": "A mass of 0.5 kg is attached to a spring of force constant 200 N/m. Find the frequency of oscillation. (Use f = (1/2π)√(k/m))",
+        "options": ["A. 1.59 Hz", "B. 2.39 Hz", "C. 3.18 Hz", "D. 4.77 Hz"],
+        "correct": 2
+    },
+
+    # Q23 (Context: organ pipes, used for Q23-Q24)
+    {
+        "text": "The fundamental frequency of an open-end organ pipe is 392 Hz. The third harmonic of a closed-end organ pipe has the same frequency. The speed of sound in air is 346 m/s. Determine the length of the open-end pipe.",
+        "options": ["A. 11.13 cm", "B. 22.07 cm", "C. 44.13 cm", "D. 88.27 cm"],
+        "correct": 2
+    },
+
+    # Q24 (same organ pipe scenario as Q23)
+    {
+        "text": "The fundamental frequency of an open-end organ pipe is 392 Hz. The third harmonic of a closed-end organ pipe has the same frequency. The speed of sound in air is 346 m/s. Determine the length of the closed-end pipe.",
+        "options": ["A. 22.1 cm", "B. 44.4 cm", "C. 66.2 cm", "D. 88.6 cm"],
+        "correct": 2
+    },
+
+    # Q25
+    {
+        "text": "A 2.29-m long organ pipe acts as a closed-end resonator that produces several different harmonic frequencies in the audible range from 20 Hz to 20,000 Hz. Assuming a speed of sound of 343 m/s, determine the 5th lowest (5th harmonic present) frequency that the pipe can produce.",
+        "options": ["A. 187 Hz", "B. 276 Hz", "C. 337 Hz", "D. 409 Hz"],
+        "correct": 2
+    },
+
+    # Q26 (Speed of sound in solid; options generated since original was fill-in)
+    {
+        "text": "A steel rod has a Young's modulus Y = 2 x 10^11 Pa and density ρ = 8000 kg/m³. Find the speed of sound in the steel. (Use v = √(Y/ρ))",
+        "options": ["A. 3000 m/s", "B. 4000 m/s", "C. 5000 m/s", "D. 6000 m/s"],
+        "correct": 2
+    },
+
+    # Q27 (Speed of sound in liquid; options generated since original was fill-in)
+    {
+        "text": "The bulk modulus of water is K = 2.2 x 10^9 Pa and density ρ = 1000 kg/m³. Find the speed of sound in the water. (Use v = √(K/ρ))",
+        "options": ["A. 1200 m/s", "B. 1483 m/s", "C. 1600 m/s", "D. 1750 m/s"],
+        "correct": 1
+    },
+
+    # Q28
+    {
+        "text": "Find the speed of sound in air at T = 20°C. The mean molar mass for air (a mixture of mostly nitrogen and oxygen) is M = 28.8 g/mol and the ratio of heat capacities is 1.40.",
+        "options": ["A. 344 m/s", "B. 340 m/s", "C. 350 m/s", "D. 330 m/s"],
+        "correct": 0
+    },
+
+    # Q29 (Doppler effect; options generated since original was fill-in)
+    {
+        "text": "A police car moves toward an observer at 25 m/s, and the observer moves toward the car at 5 m/s. The siren frequency is 600 Hz. Find the observed frequency. (Assume the speed of sound as 350 m/s)",
+        "options": ["A. 600 Hz", "B. 630 Hz", "C. 655 Hz", "D. 680 Hz"],
+        "correct": 2
+    },
+
+    # Q30 (Doppler effect; options generated since original was fill-in)
+    {
+        "text": "A police car moves away from an observer at 25 m/s, and the observer moves away from the car at 5 m/s. The siren frequency is 600 Hz. Find the observed frequency. (Assume the speed of sound as 350 m/s)",
+        "options": ["A. 500 Hz", "B. 552 Hz", "C. 600 Hz", "D. 620 Hz"],
+        "correct": 1
+    },
+
+    # Q31
+    {
+        "text": "What is the speed of light in diamond whose index of refraction is 2.42? It is _______ x 10^8 m/s",
+        "options": ["A. 7.26", "B. 1.24", "C. 2.98", "D. 2.63"],
+        "correct": 1
+    },
+
+    # Q32
+    {
+        "text": "The Sun is about 1.5 x 10^11 m away. The time for light to travel this distance is about:",
+        "options": ["A. 7 min", "B. 2 min", "C. 5 min", "D. 8 min"],
+        "correct": 3
+    },
+
+    # Unnumbered fill-in-the-blank before Q33 (law relating angles of incidence/refraction)
+    {
+        "text": "What is the name of the law stating that the ratio of the sines of the angles of incidence and refraction of a wave are constant when it passes between two given media (n1 sin θi = n2 sin θr)?",
+        "options": ["A. Snell's Law", "B. Newton's Law", "C. Coulomb's Law", "D. Hooke's Law"],
+        "correct": 0
+    },
+
+    # Unnumbered fill-in-the-blank before Q33 (light bending so it never crosses the boundary)
+    {
+        "text": "What is the term for the case of refraction where the light ray bends so much that it never goes beyond the boundary between two media (θc = sin⁻¹(n2/n1))?",
+        "options": ["A. Diffraction", "B. Total internal reflection", "C. Polarization", "D. Dispersion"],
+        "correct": 1
+    },
+
+    # Q33
+    {
+        "text": "Light traveling through an optical fiber (n = 1.44) reaches the end of the fiber and exits into air. If the angle of incidence on the end of the fiber is 30°, what is the angle of refraction outside the fiber?",
+        "options": ["A. 42 deg", "B. 44 deg", "C. 46 deg", "D. 48 deg"],
+        "correct": 2
+    },
+
+    # Q34
+    {
+        "text": "The index of refraction of benzene is 1.80. The critical angle for total internal reflection, at a benzene-air interface, is about:",
+        "options": ["A. 20 deg", "B. 14 deg", "C. 34 deg", "D. 90 deg"],
+        "correct": 2
+    },
+
+    # Q35
+    {
+        "text": "Material a is water and material b is a glass with index of refraction 1.52. If the incident ray makes an angle of 60° with the normal, find the direction of the reflected ray.",
+        "options": ["A. 49.3 deg", "B. 91.3 deg", "C. 60 deg", "D. 34.7 deg"],
+        "correct": 2
+    },
+
+    # Q36
+    {
+        "text": "An insect, trapped and preserved within amber (index of refraction ≈ 1.54), appears to be 2.78 cm beneath the surface, when viewed directly from above. How far below the surface is the insect actually located?",
+        "options": ["A. 4.29 cm", "B. 3.19 cm", "C. 1.54 cm", "D. 1.16 cm"],
+        "correct": 0
+    },
+
+    # Unnumbered fill-in-the-blank before the Mirrors section
+    {
+        "text": "What is the term for the scientific study of sight and the behavior of light, or the properties of transmission and deflection of other forms of radiation?",
+        "options": ["A. Optics", "B. Acoustics", "C. Thermodynamics", "D. Kinematics"],
+        "correct": 0
+    },
+
+    # Q37
+    {
+        "text": "The image produced by a convex mirror of an erect object in front of the mirror is always:",
+        "options": ["A. virtual, erect and larger than the object", "B. virtual, erect and smaller than the object", "C. real, erect and larger than the object", "D. real, erect and smaller than the object"],
+        "correct": 1
+    },
+
+    # Q38
+    {
+        "text": "A concave mirror forms a real image that is twice the size of the object. If the object is 20 cm from the mirror, the radius of curvature of the mirror must be about:",
+        "options": ["A. 13 cm", "B. 27 cm", "C. 20 cm", "D. 40 cm"],
+        "correct": 1
+    },
+
+    # Q39
+    {
+        "text": "A concave spherical mirror has a focal length of 12 cm. If an object is placed 6 cm in front of it, the image position is:",
+        "options": ["A. 4 cm behind the mirror", "B. 4 cm in front of the mirror", "C. 12 cm behind the mirror", "D. 12 cm in front of the mirror"],
+        "correct": 2
+    },
+
+    # Q40
+    {
+        "text": "The image would be _______, if the concave mirror had a focal length of 6 cm and the object was 4 cm from the mirror.",
+        "options": ["A. Erect and virtual", "B. Erect and real", "C. Inverted and real", "D. Inverted and virtual"],
+        "correct": 0
+    },
+
+    # Q41
+    {
+        "text": "The moon is 3476 km in diameter. What radius of curvature should a concave mirror have if it is to produce a lunar image 10 mm in diameter when the moon is 3.84 x 10^5 km away?",
+        "options": ["A. 2.2 m", "B. 1.1 m", "C. 2.2 cm", "D. 1.1 cm"],
+        "correct": 0
+    },
+
+    # Q42
+    {
+        "text": "The type of lens used to cure farsightedness is ______________ lens.",
+        "options": ["A. Concave", "B. Convex", "C. Biconcave", "D. Plano-convex"],
+        "correct": 1
+    },
+
+    # Q43
+    {
+        "text": "An object is 30 cm in front of a converging lens of focal length 10 cm. The image is:",
+        "options": ["A. real and larger than the object", "B. real and the same size as the object", "C. real and smaller than the object", "D. virtual and the same size as the object"],
+        "correct": 2
+    },
+
+    # Q44
+    {
+        "text": "A lens has a convex surface of radius 17 cm and a concave surface of radius 38 cm and is made of glass of refractive index of 1.55. Calculate the focal length of the lens and classify the type of the lens whether it's diverging or converging.",
+        "options": ["A. 55.93 cm, converging", "B. 57.45 cm, converging", "C. 55.93 cm, diverging", "D. 57.45 cm, diverging"],
+        "correct": 0
+    },
+
+    # Q45
+    {
+        "text": "The focal length of two lenses are 10 ft and 20 ft. What is the focal length of the combined lenses when they are in contact?",
+        "options": ["A. 15 ft", "B. 30 ft", "C. 12 ft", "D. 6.67 ft"],
+        "correct": 3
+    },
+
+    # Q46 (Ohm's Law; options generated since original was fill-in)
+    {
+        "text": "A resistor of 10 Ω is connected across a 12 V battery. Find the current flowing through the resistor.",
+        "options": ["A. 0.8 A", "B. 1.0 A", "C. 1.2 A", "D. 1.5 A"],
+        "correct": 2
+    },
+
+    # Q47a (Context: series resistor circuit, options generated since original was fill-in)
+    {
+        "text": "Three resistors R1 = 5 Ω, R2 = 10 Ω, and R3 = 15 Ω are connected in series across a 12 V battery. Find the total resistance.",
+        "options": ["A. 20 Ω", "B. 25 Ω", "C. 30 Ω", "D. 35 Ω"],
+        "correct": 2
+    },
+
+    # Q47b (same series circuit as Q47a)
+    {
+        "text": "Three resistors R1 = 5 Ω, R2 = 10 Ω, and R3 = 15 Ω are connected in series across a 12 V battery. Find the current through the circuit.",
+        "options": ["A. 0.2 A", "B. 0.3 A", "C. 0.4 A", "D. 0.5 A"],
+        "correct": 2
+    },
+
+    # Q47c (same series circuit as Q47a)
+    {
+        "text": "Three resistors R1 = 5 Ω, R2 = 10 Ω, and R3 = 15 Ω are connected in series across a 12 V battery. Find the voltage across each resistor (V1, V2, V3 respectively).",
+        "options": ["A. 1V, 2V, 3V", "B. 2V, 4V, 6V", "C. 3V, 6V, 9V", "D. 4V, 8V, 12V"],
+        "correct": 1
+    },
+
+    # Q48a (Context: parallel resistor circuit, options generated since original was fill-in)
+    {
+        "text": "Three resistors R1 = 4 Ω, R2 = 6 Ω, R3 = 12 Ω are connected in parallel to a 24 V battery. Find the equivalent resistance.",
+        "options": ["A. 1 Ω", "B. 2 Ω", "C. 3 Ω", "D. 4 Ω"],
+        "correct": 1
+    },
+
+    # Q48b (same parallel circuit as Q48a)
+    {
+        "text": "Three resistors R1 = 4 Ω, R2 = 6 Ω, R3 = 12 Ω are connected in parallel to a 24 V battery. Find the current through each resistor (I1, I2, I3 respectively).",
+        "options": ["A. 6A, 4A, 2A", "B. 4A, 3A, 2A", "C. 8A, 6A, 4A", "D. 5A, 4A, 3A"],
+        "correct": 0
+    },
+
+    # Q49
+    {
+        "text": "Find the total capacitance for three capacitors connected in series, given their individual capacitances are 1, 5 and 8 μF.",
+        "options": ["A. 0.667 μF", "B. 0.755 μF", "C. 0.845 μF", "D. 0.903 μF"],
+        "correct": 1
+    },
+
+    # Q50
+    {
+        "text": "Find the total capacitance for three capacitors connected in parallel, given their individual capacitances are 1, 5 and 8 μF.",
+        "options": ["A. 11 μF", "B. 12 μF", "C. 13 μF", "D. 14 μF"],
+        "correct": 3
+    },
+
+    # Q51
+    {
+        "text": "A loop of area 200 cm² is positioned perpendicular to a uniform magnetic field. Without changing the direction of the magnetic field, its magnitude is reduced by 0.08 T in the time interval 0.02 s. Find the average induced emf in the loop.",
+        "options": ["A. 0.02 V", "B. 0.04 V", "C. 0.06 V", "D. 0.08 V"],
+        "correct": 3
+    },
+
+    # Q52
+    {
+        "text": "Compute the magnetic field at a point a distance of 0.05 m from a long straight wire carrying a current of 2 A.",
+        "options": ["A. 2 uT", "B. 4 uT", "C. 6 uT", "D. 8 uT"],
+        "correct": 3
+    },
+
+    # Q53
+    {
+        "text": "Determine the electric flux for a Gaussian surface that contains 100 million (1 x 10^8) electrons.",
+        "options": ["A. 1.8 Nm²/C²", "B. 2.8 Nm²/C²", "C. 3.8 Nm²/C²", "D. 4.8 Nm²/C²"],
+        "correct": 0
+    },
+
+    # Q54 (Linear expansion; options generated since original was fill-in)
+    {
+        "text": "A copper bar is 80 cm long at 15°C. What is the increase in length when it is heated to 35°C? (For copper, α = 1.7 x 10^-5/°C). Express your answer in meters.",
+        "options": ["A. 1.36 x 10^-4 m", "B. 2.72 x 10^-4 m", "C. 4.08 x 10^-4 m", "D. 5.44 x 10^-4 m"],
+        "correct": 1
+    },
+
+    # Q55 (Area expansion; options generated since original was fill-in)
+    {
+        "text": "The coefficient of linear expansion of iron is 1.0 x 10^-5 per °C. The total surface area of an iron cube, with an edge length of 5.0 cm, will increase by what amount if it is heated from 10°C to 60°C?",
+        "options": ["A. 0.075 cm²", "B. 0.15 cm²", "C. 0.225 cm²", "D. 0.30 cm²"],
+        "correct": 1
+    },
+
+    # Q56 (Volume expansion; options generated since original was fill-in)
+    {
+        "text": "The coefficient of linear expansion of steel is 11 x 10^-6 per °C. A steel ball has a volume of exactly 100 cm³ at 0°C. When heated to 100°C, its volume becomes:",
+        "options": ["A. 100.11 cm³", "B. 100.33 cm³", "C. 100.55 cm³", "D. 100.77 cm³"],
+        "correct": 1
+    },
+
+    # Q57 (Latent/sensible heat; options generated since original was fill-in)
+    {
+        "text": "How much heat (in calories) is required to change 10 g of ice at 0°C to steam at 100°C? (Latent heat of fusion for ice = 80 cal/g; specific heat of water = 1 cal/g°C; latent heat of vaporization for water = 540 cal/g)",
+        "options": ["A. 6200 cal", "B. 7200 cal", "C. 8200 cal", "D. 9200 cal"],
+        "correct": 1
+    },
+
+    # Q58
+    {
+        "text": "Which one of the following statements is true?",
+        "options": [
+            "A. Temperatures differing by 25° on the Fahrenheit scale must differ by 45° on the Celsius scale",
+            "B. 40K corresponds to -40°C",
+            "C. Temperatures which differ by 10° on the Celsius scale must differ by 18° on the Fahrenheit scale",
+            "D. Water at 90°C is warmer than water at 202°F"
+        ],
+        "correct": 2
+    },
+
+    # Q59
+    {
+        "text": "A Kelvin thermometer and a Fahrenheit thermometer both give the same numerical reading for a certain sample. The corresponding Celsius temperature is:",
+        "options": ["A. 574°C", "B. 232°C", "C. 301°C", "D. 614°C"],
+        "correct": 2
+    },
+
+    # Q60
+    {
+        "text": "If a star's surface temperature is 30,000 K, how much power does a square meter of its surface radiate? (Use the Stefan-Boltzmann Law, P = σT⁴A)",
+        "options": ["A. 4.6 x 10^10 W", "B. 4.6 x 10^11 W", "C. 4.6 x 10^12 W", "D. 4.6 x 10^13 W"],
+        "correct": 0
+    },
+
+    # Q61
+    {
+        "text": "How many milliliters of water at 23°C with a density of 1 g/mL must be mixed with 180 mL of coffee at 95°C so that the resulting combination will have a temperature of 60°C? Assume that the coffee and water have the same density and the same specific heat.",
+        "options": ["A. 167.27 mL", "B. 168.27 mL", "C. 169.27 mL", "D. 170.27 mL"],
+        "correct": 3
+    },
+
+    # Q62
+    {
+        "text": "A barber raises his customer's chair by applying a force of 150 N to a hydraulic piston of area 0.01 m². If the chair is attached to a piston of area 0.1 m², how massive a customer can the chair raise? Assume the chair itself has a mass of 5 kg.",
+        "options": ["A. 146 kg", "B. 147 kg", "C. 148 kg", "D. 149 kg"],
+        "correct": 2
+    },
+
+    # Q63
+    {
+        "text": "Water is flowing in a fire hose with a velocity of 1 m/s and a pressure of 200 kPa. At the nozzle, the pressure decreases to atmospheric pressure, and there is no change in height. Use the Bernoulli equation to calculate the velocity of the water exiting the nozzle.",
+        "options": ["A. 13 m/s", "B. 14 m/s", "C. 15 m/s", "D. 16 m/s"],
+        "correct": 1
+    },
+
+    # Q64
+    {
+        "text": "Through a refinery, fuel ethanol is flowing in a pipe at a velocity of 1 m/s and at atmospheric pressure. The refinery needs the ethanol to be at a pressure of 2 atm on a lower level. How far must the pipe drop in height in order to achieve this pressure? Assume the velocity does not change. Use density of ethanol as 789 kg/m³.",
+        "options": ["A. -10.09 m", "B. -11.09 m", "C. -12.09 m", "D. -13.09 m"],
+        "correct": 3
+    },
+
+]
+
+D3_L15_Engineering_Mechanics = [
+
+    # Q1
+    {
+        "text": "A boat can travel 8 mi/hr in still water. What is the velocity with respect to the shore if it heads 35° E of N?",
+        "options": ["A. 6.743", "B. 8.963", "C. 5.400", "D. 4.588"],
+        "correct": 1
+    },
+
+    # Q2
+    {
+        "text": "Find the length (magnitude) of the vector (2, 4, 4).",
+        "options": ["A. 7.00", "B. 8.75", "C. 6.00", "D. 5.18"],
+        "correct": 2
+    },
+
+    # Q3
+    {
+        "text": "Three forces of 20N, 30N and 40N are in equilibrium (they form a closed force triangle). Find the angle between the 30N and 40N force vectors.",
+        "options": ["A. 28.96°", "B. 40°", "C. 25.97°", "D. 30°15'25\""],
+        "correct": 0
+    },
+
+    # Q4
+    {
+        "text": "Two forces of 30N at 90° and 40N at 180° act at the origin. Determine the magnitude and direction of the equilibrant force (the force that balances their resultant).",
+        "options": ["A. 50N @ 143°", "B. 50N @ 53°", "C. 50N @ 323°", "D. 50N @ 470°"],
+        "correct": 2
+    },
+
+    # Q5
+    {
+        "text": "A laser beam is aimed 15.95° above the horizontal at a mirror 11,648 m away. It glances off the mirror and continues for an additional 8570 m at 11.44° above the horizon until it hits its target. What is the resultant displacement of the beam to the target?",
+        "options": ["A. 18,030 m at 12.87°", "B. 20,200 m at 14.04°", "C. 21,380 m at 15.15°", "D. 22,200 m at 16.78°"],
+        "correct": 0
+    },
+
+    # Q6
+    {
+        "text": "Three forces act on a point: 3 N at 0°, 4 N at 90°, and 5 N at 217°. What is the net force?",
+        "options": ["A. 1.1N at 108°", "B. 1.3N at 120°", "C. 1.2N at 90°", "D. 1.4N at 135°"],
+        "correct": 3
+    },
+
+    # Q7
+    {
+        "text": "A load of 100 lbs is hung from the middle of a rope which is stretched between two rigid walls 30 ft apart. Due to the load, the rope sags 4 ft in the middle. Determine the tension in the rope.",
+        "options": ["A. 165 lbs", "B. 173 lbs", "C. 194 lbs", "D. 149 lbs"],
+        "correct": 2
+    },
+
+    # Q8
+    {
+        "text": "A block weighing 500 kN rests on a ramp inclined at 25° with the horizontal. What is the force tending to move the block down the ramp?",
+        "options": ["A. 121 kN", "B. 265 kN", "C. 211 kN", "D. 450 kN"],
+        "correct": 2
+    },
+
+    # Q9 (Context: truss figure, used for Q9-Q11)
+    {
+        "text": "A truss frame is supported by a pin support at joint A (bottom-left) and a roller support at joint B (bottom-right). Three downward vertical loads of 10 kN, 10 kN, and 15 kN are applied along the top chord of the truss (left to right), and a horizontal load of 5 kN is applied at the top-right joint, pointing to the right. What is the horizontal component of the reaction at A?",
+        "options": ["A. 5kN", "B. 10kN", "C. 12.5kN", "D. 22.5kN"],
+        "correct": 0
+    },
+
+    # Q10 (same truss as Q9)
+    {
+        "text": "A truss frame is supported by a pin support at joint A (bottom-left) and a roller support at joint B (bottom-right). Three downward vertical loads of 10 kN, 10 kN, and 15 kN are applied along the top chord of the truss (left to right), and a horizontal load of 5 kN is applied at the top-right joint, pointing to the right. What is the vertical component of the reaction at A?",
+        "options": ["A. 5kN", "B. 10kN", "C. 12.5kN", "D. 22.5kN"],
+        "correct": 2
+    },
+
+    # Q11 (same truss as Q9)
+    {
+        "text": "A truss frame is supported by a pin support at joint A (bottom-left) and a roller support at joint B (bottom-right). Three downward vertical loads of 10 kN, 10 kN, and 15 kN are applied along the top chord of the truss (left to right), and a horizontal load of 5 kN is applied at the top-right joint, pointing to the right. What is the vertical component of the reaction at B?",
+        "options": ["A. 5kN", "B. 10kN", "C. 12.5kN", "D. 22.5kN"],
+        "correct": 3
+    },
+
+    # Q12 (Context: crane figure, used for Q12-Q14)
+    {
+        "text": "A fixed crane has a mass of 1000 kg and is used to lift a 2400 kg crate. The crane's vertical post is 1.5 m tall and is held by a pin support at A (top of the post) and a rocker support at B (bottom of the post, which provides only a horizontal reaction). The boom extends horizontally 2 m from the post to point C, then continues 4 m further to where the crate hangs. The center of gravity of the crane is located at G. What is the vertical component of the reaction at A?",
+        "options": ["A. 18.39kN", "B. 26.74kN", "C. 30.02kN", "D. 33.35kN"],
+        "correct": 3
+    },
+
+    # Q13 (same crane as Q12)
+    {
+        "text": "A fixed crane has a mass of 1000 kg and is used to lift a 2400 kg crate. The crane's vertical post is 1.5 m tall and is held by a pin support at A (top of the post) and a rocker support at B (bottom of the post, which provides only a horizontal reaction). The boom extends horizontally 2 m from the post to point C, then continues 4 m further to where the crate hangs. The center of gravity of the crane is located at G. What is the horizontal component of the reaction at B?",
+        "options": ["A. 107.26kN", "B. 120.28kN", "C. 116.78kN", "D. 112.29kN"],
+        "correct": 3
+    },
+
+    # Q14 (same crane as Q12)
+    {
+        "text": "A fixed crane has a mass of 1000 kg and is used to lift a 2400 kg crate. The crane's vertical post is 1.5 m tall and is held by a pin support at A (top of the post) and a rocker support at B (bottom of the post, which provides only a horizontal reaction). The boom extends horizontally 2 m from the post to point C, then continues 4 m further to where the crate hangs. The center of gravity of the crane is located at G. What is the horizontal component of the reaction at A?",
+        "options": ["A. 107.26kN", "B. 120.28kN", "C. 116.78kN", "D. 112.29kN"],
+        "correct": 3
+    },
+
+    # Q15 (Context: parallelogram plate with two couples, used for Q15-Q17)
+    {
+        "text": "A plate in the shape of a parallelogram ABCD is acted upon by two couples. A pair of 84 N forces act horizontally along the top and bottom edges of the parallelogram (opposite directions), separated by a vertical (perpendicular) distance of 16 cm. A pair of 48 N forces act along the slanted left and right edges (AD and BC), which make an angle α with the horizontal at vertex A; the horizontal base length is d. Determine the moment of the couple formed by the two 84 N forces.",
+        "options": ["A. 11.22 N-m", "B. 12.33 N-m", "C. 13.44 N-m", "D. 14.55 N-m"],
+        "correct": 2
+    },
+
+    # Q16 (same parallelogram as Q15)
+    {
+        "text": "A plate in the shape of a parallelogram ABCD is acted upon by two couples. A pair of 84 N forces act horizontally along the top and bottom edges of the parallelogram (opposite directions), separated by a vertical (perpendicular) distance of 16 cm. A pair of 48 N forces act along the slanted left and right edges (AD and BC), which make an angle α with the horizontal at vertex A; the horizontal base length is d. Determine the perpendicular distance between the 48 N forces if the resultant of the two couples is zero.",
+        "options": ["A. 22cm", "B. 24cm", "C. 26cm", "D. 28cm"],
+        "correct": 3
+    },
+
+    # Q17 (same parallelogram as Q15)
+    {
+        "text": "A plate in the shape of a parallelogram ABCD is acted upon by two couples. A pair of 84 N forces act horizontally along the top and bottom edges of the parallelogram (opposite directions), separated by a vertical (perpendicular) distance of 16 cm. A pair of 48 N forces act along the slanted left and right edges (AD and BC), which make an angle α with the horizontal at vertex A; the horizontal base length is d. Determine the value of α if the resultant couple is 2.88 N-m clockwise and the base length d is 42 cm.",
+        "options": ["A. 50deg", "B. 54deg", "C. 58deg", "D. 62deg"],
+        "correct": 1
+    },
+
+    # Q18
+    {
+        "text": "A 6.0 kg box is at rest on a table. The static friction coefficient between the box and table is 0.40 and the kinetic friction coefficient is 0.20. A 30N horizontal force is applied to the box. What is the best estimate of the magnitude of the box's acceleration?",
+        "options": ["A. 1 m/s²", "B. 2 m/s²", "C. 3 m/s²", "D. 4 m/s²"],
+        "correct": 2
+    },
+
+    # Q19
+    {
+        "text": "A 3.0 kg box is at rest on a table. The static friction coefficient between the box and table is 0.40 and the kinetic friction coefficient is 0.10. A 10N horizontal force is applied to the box. What is the best estimate of the magnitude of the box's acceleration?",
+        "options": ["A. 2.7 m/s²", "B. 0 m/s²", "C. 9.8 m/s²", "D. 5.7 m/s²"],
+        "correct": 1
+    },
+
+    # Q20 (Context: block on incline, used for Q20-Q21)
+    {
+        "text": "A block of mass M = 10 kg is sitting on a surface inclined at angle θ = 45°. The coefficient of static friction is μs = 0.5 between the block and surface. A force F is applied parallel to the incline surface, directed up the slope. What is the minimum force F necessary to prevent the block from slipping (sliding down)?",
+        "options": ["A. 10.76N", "B. 28.97N", "C. 32.56N", "D. 34.65N"],
+        "correct": 3
+    },
+
+    # Q21 (same incline as Q20)
+    {
+        "text": "A block of mass M = 10 kg is sitting on a surface inclined at angle θ = 45°. The coefficient of static friction is μs = 0.5 between the block and surface. A force F is applied parallel to the incline surface, directed up the slope. What is the maximum force F that can be exerted without causing the block to slip (slide up)?",
+        "options": ["A. 103.94N", "B. 112.78N", "C. 129.03N", "D. 130.28N"],
+        "correct": 0
+    },
+
+    # Q22
+    {
+        "text": "The tension in a belt-driven pulley system is 110 N when stationary (this is the initial/average tension, T0 = (T1+T2)/2). Calculate the tension in each side of the belt and the power transmitted when the belt is on the point of slipping on the smaller wheel. The wheel is 240 mm in diameter, the coefficient of friction is 0.32, the angle of lap is 165°, and the wheel speed is 1500 rev/min.",
+        "options": ["A. F1 = 140 N, F2 = 60 N, P = 1,500 W", "B. F1 = 157 N, F2 = 62 N, P = 1,786 W", "C. F1 = 130 N, F2 = 70 N, P = 1,632 W", "D. F1 = 120 N, F2 = 50 N, P = 1,720 W"],
+        "correct": 1
+    },
+
+    # Q23 (truss figure with joints A-I, loads 45kN and 80kN)
+    {
+        "text": "A truss has joints labeled A (bottom-left, pin support, hatched wall), B (top-left), C, D, E, F, G, H, I arranged along the truss, with a pin support also at A (bottom, hatched). A horizontal 45 kN load is applied at joint F, and an 80 kN downward load is applied at joint I (bottom-right). For the truss shown, what would be a possible starting joint for a method of joints analysis (assuming the reaction forces have already been calculated)?",
+        "options": ["A. A or B", "B. I", "C. A or I", "D. A or B or I"],
+        "correct": 2
+    },
+
+    # Q24 (simple truss AB, 3kN horizontal load at pin B)
+    {
+        "text": "A simple triangular truss has a pinned support at joint A (bottom-left) and a roller support at the bottom (directly below apex B), with member AB rising from A at an angle of 40° from the horizontal base, and another member rising from the roller support at an angle of 65° from the horizontal, meeting AB at apex B, which is 3 m above the base. The horizontal base spans 2 m from A to the roller support. The truss is subjected to a 3 kN horizontal force applied at pin B. Neglecting the truss weight, what is the force in member AB?",
+        "options": ["A. 7kN, compression", "B. 7kN, tension", "C. 5.87kN, compression", "D. 5.87kN, tension"],
+        "correct": 2
+    },
+
+    # Q25 (Context: truss with 60kN, 80kN loads, used for Q25-Q27)
+    {
+        "text": "A horizontal truss spans three 10 m panels (total 30 m) between a pin support at A (far left) and a roller support at F (far right), with top-chord joints A, B, D, F and bottom-chord joints C, E. A diagonal member near B makes a 20° angle with the horizontal. A 60 kN downward load is applied at joint B and an 80 kN downward load is applied at joint D (both on the top chord). What is the force acting on member BD?",
+        "options": ["A. 201.48kN, compression", "B. 201.48kN, tension", "C. 94.56kN, compression", "D. 94.56kN, tension"],
+        "correct": 1
+    },
+
+    # Q26 (same truss as Q25)
+    {
+        "text": "A horizontal truss spans three 10 m panels (total 30 m) between a pin support at A (far left) and a roller support at F (far right), with top-chord joints A, B, D, F and bottom-chord joints C, E. A diagonal member near B makes a 20° angle with the horizontal. A 60 kN downward load is applied at joint B and an 80 kN downward load is applied at joint D (both on the top chord). What is the force acting on member BE?",
+        "options": ["A. 19.5kN, compression", "B. 19.5kN, tension", "C. 183.15kN, compression", "D. 183.15kN, tension"],
+        "correct": 1
+    },
+
+    # Q27 (same truss as Q25)
+    {
+        "text": "A horizontal truss spans three 10 m panels (total 30 m) between a pin support at A (far left) and a roller support at F (far right), with top-chord joints A, B, D, F and bottom-chord joints C, E. A diagonal member near B makes a 20° angle with the horizontal. A 60 kN downward load is applied at joint B and an 80 kN downward load is applied at joint D (both on the top chord). What is the force acting on member CE?",
+        "options": ["A. 19.5kN, compression", "B. 19.5kN, tension", "C. 183.15kN, compression", "D. 183.15kN, tension"],
+        "correct": 2
+    },
+
+    # Q28 (rod + two spheres figure)
+    {
+        "text": "A structure consists of one thin rod connecting two similar solid spheres, one of mass 3 kg and one of mass 5 kg, each with a radius of 10 cm. The geometric center of the structure lies at the midpoint of the rod, with each sphere's center located 40 cm from this geometric center. Find the moment of inertia about the geometric center of the structure.",
+        "options": ["A. 1.35 kg-m²", "B. 1.5 kg-m²", "C. 2.7 kg-m²", "D. 3 kg-m²"],
+        "correct": 0
+    },
+
+    # Q29
+    {
+        "text": "A 10-kg solid cylinder has a radius of 0.1 m. The axis of rotation is located at the center of the solid cylinder (along its central longitudinal axis). What is the moment of inertia of the cylinder?",
+        "options": ["A. 0.05 kg-m²", "B. 0.10 kg-m²", "C. 0.15 kg-m²", "D. 0.20 kg-m²"],
+        "correct": 0
+    },
+
+    # Q30
+    {
+        "text": "What is the moment of inertia of a 2-kg long uniform rod with a length of 2 m, if the axis of rotation is located at one end of the rod?",
+        "options": ["A. 2.33 kg-m²", "B. 2.67 kg-m²", "C. 3.33 kg-m²", "D. 3.67 kg-m²"],
+        "correct": 1
+    },
+
+    # Q31
+    {
+        "text": "A 2-kg rectangular thin plate has a length of 0.5 m and a width of 0.2 m. The axis of rotation is located at the center of the plate, perpendicular to its face. What is the moment of inertia of the rectangular plate?",
+        "options": ["A. 0.012 kg-m²", "B. 0.024 kg-m²", "C. 0.036 kg-m²", "D. 0.048 kg-m²"],
+        "correct": 3
+    },
+
+    # Q32 (Context: I-beam cross-section, used for Q32-Q35)
+    {
+        "text": "An I-beam cross-section is oriented with its web vertical (along the y-axis) and centroid at the origin. The top flange has a total width of 48 mm (24 mm on each side of the y-axis) and a thickness of 6 mm. The bottom flange has the same dimensions (48 mm wide, 6 mm thick), symmetric about the x-axis. The web connecting the flanges has a thickness of 8 mm and extends 24 mm above and 24 mm below the x-axis (centroidal axis) to meet the inner faces of the flanges. Determine the moment of inertia with respect to the x-axis.",
+        "options": ["A. 389.95 × 10³ mm⁴", "B. 392.36 × 10³ mm⁴", "C. 395.68 × 10³ mm⁴", "D. 408.92 × 10³ mm⁴"],
+        "correct": 1
+    },
+
+    # Q33 (same I-beam as Q32)
+    {
+        "text": "An I-beam cross-section is oriented with its web vertical (along the y-axis) and centroid at the origin. The top flange has a total width of 48 mm (24 mm on each side of the y-axis) and a thickness of 6 mm. The bottom flange has the same dimensions (48 mm wide, 6 mm thick), symmetric about the x-axis. The web connecting the flanges has a thickness of 8 mm and extends 24 mm above and 24 mm below the x-axis (centroidal axis) to meet the inner faces of the flanges. Determine the radius of gyration with respect to the x-axis.",
+        "options": ["A. 19.26mm", "B. 20.04mm", "C. 21.86mm", "D. 22.26mm"],
+        "correct": 1
+    },
+
+    # Q34 (same I-beam as Q32)
+    {
+        "text": "An I-beam cross-section is oriented with its web vertical (along the y-axis) and centroid at the origin. The top flange has a total width of 48 mm (24 mm on each side of the y-axis) and a thickness of 6 mm. The bottom flange has the same dimensions (48 mm wide, 6 mm thick), symmetric about the x-axis. The web connecting the flanges has a thickness of 8 mm and extends 24 mm above and 24 mm below the x-axis (centroidal axis) to meet the inner faces of the flanges. Determine the moment of inertia with respect to the y-axis.",
+        "options": ["A. 61.18 × 10³ mm⁴", "B. 62.48 × 10³ mm⁴", "C. 63.25 × 10³ mm⁴", "D. 64.26 × 10³ mm⁴"],
+        "correct": 0
+    },
+
+    # Q35 (same I-beam as Q32)
+    {
+        "text": "An I-beam cross-section is oriented with its web vertical (along the y-axis) and centroid at the origin. The top flange has a total width of 48 mm (24 mm on each side of the y-axis) and a thickness of 6 mm. The bottom flange has the same dimensions (48 mm wide, 6 mm thick), symmetric about the x-axis. The web connecting the flanges has a thickness of 8 mm and extends 24 mm above and 24 mm below the x-axis (centroidal axis) to meet the inner faces of the flanges. Determine the radius of gyration with respect to the y-axis.",
+        "options": ["A. 2.21mm", "B. 4.43mm", "C. 6.65mm", "D. 8.87mm"],
+        "correct": 3
+    },
+
+    # Q36
+    {
+        "text": "What is the moment of inertia of a circle with radius of 5 m with respect to its centroidal axis?",
+        "options": ["A. 329.83 m⁴", "B. 374.28 m⁴", "C. 432.06 m⁴", "D. 490.87 m⁴"],
+        "correct": 3
+    },
+
+    # Q37
+    {
+        "text": "What is the moment of inertia of a right triangle with base and height measuring 6 cm and 11 cm, respectively, with respect to the x-axis if the centroid is on the origin?",
+        "options": ["A. 66 cm⁴", "B. 221.83 cm⁴", "C. 183.21 cm⁴", "D. 338.72 cm⁴"],
+        "correct": 1
+    },
+
+    # Q38
+    {
+        "text": "What is the moment of inertia of a right triangle with base and height measuring 6 cm and 11 cm, respectively, with respect to the y-axis if the centroid is on the origin?",
+        "options": ["A. 66 cm⁴", "B. 221.83 cm⁴", "C. 183.21 cm⁴", "D. 338.72 cm⁴"],
+        "correct": 0
+    },
+
+    # Q39 (Context: car in circular motion, used for Q39-Q40)
+    {
+        "text": "A 900-kg car moving at 10 m/s takes a turn around a circle with a radius of 25.0 m. Determine the (centripetal) acceleration.",
+        "options": ["A. 1 m/s²", "B. 2 m/s²", "C. 3 m/s²", "D. 4 m/s²"],
+        "correct": 3
+    },
+
+    # Q40 (same car as Q39)
+    {
+        "text": "A 900-kg car moving at 10 m/s takes a turn around a circle with a radius of 25.0 m. Determine the net force acting upon the car.",
+        "options": ["A. 1200N", "B. 2400N", "C. 3600N", "D. 4800N"],
+        "correct": 2
+    },
+
+    # Q41 (Context: banked road track, used for Q41-Q42)
+    {
+        "text": "A circular road course track has a radius of 500 m and is banked at 10°. The coefficient of friction between the road and tire is 0.25. Compute the maximum speed to avoid slipping.",
+        "options": ["A. 29.39 m/s", "B. 36.36 m/s", "C. 46.77 m/s", "D. 51.12 m/s"],
+        "correct": 2
+    },
+
+    # Q42 (same banked track as Q41)
+    {
+        "text": "A circular road course track has a radius of 500 m and is banked at 10°. The coefficient of friction between the road and tire is 0.25. Compute the optimum speed to avoid wear and tear of the tires (i.e., the speed requiring no friction).",
+        "options": ["A. 29.39 m/s", "B. 36.36 m/s", "C. 46.77 m/s", "D. 51.12 m/s"],
+        "correct": 0
+    },
+
+    # Q43 (fill-in; options generated)
+    {
+        "text": "A train covers a distance of 1.2 km in 2 minutes with uniform motion. Find its speed in m/s.",
+        "options": ["A. 8 m/s", "B. 10 m/s", "C. 12 m/s", "D. 14 m/s"],
+        "correct": 1
+    },
+
+    # Q44a (fill-in; options generated)
+    {
+        "text": "A motorcycle moving at 5 m/s accelerates uniformly at 3 m/s² for 4 s. Find its final velocity.",
+        "options": ["A. 15 m/s", "B. 17 m/s", "C. 19 m/s", "D. 21 m/s"],
+        "correct": 1
+    },
+
+    # Q44b (same motorcycle as Q44a; options generated)
+    {
+        "text": "A motorcycle moving at 5 m/s accelerates uniformly at 3 m/s² for 4 s. Find the total distance traveled.",
+        "options": ["A. 36 m", "B. 40 m", "C. 44 m", "D. 48 m"],
+        "correct": 2
+    },
+
+    # Q45a (fill-in; options generated)
+    {
+        "text": "A train moving at 20 m/s is uniformly decelerated at 2 m/s². Find the total time traveled before coming to rest.",
+        "options": ["A. 5 s", "B. 8 s", "C. 10 s", "D. 12 s"],
+        "correct": 2
+    },
+
+    # Q45b (same train as Q45a; options generated)
+    {
+        "text": "A train moving at 20 m/s is uniformly decelerated at 2 m/s². Find the total distance traveled before coming to rest.",
+        "options": ["A. 80 m", "B. 90 m", "C. 100 m", "D. 110 m"],
+        "correct": 2
+    },
+
+    # Q46a (fill-in; options generated)
+    {
+        "text": "A stone is dropped from rest from the top of a building. Find its velocity after 5 seconds.",
+        "options": ["A. 39.24 m/s", "B. 44.15 m/s", "C. 49.05 m/s", "D. 53.90 m/s"],
+        "correct": 2
+    },
+
+    # Q46b (same stone as Q46a; options generated)
+    {
+        "text": "A stone is dropped from rest from the top of a building. How far does the stone fall in 5 seconds?",
+        "options": ["A. 98.1 m", "B. 110.3 m", "C. 122.6 m", "D. 135.9 m"],
+        "correct": 2
+    },
+
+    # Q47a (fill-in; options generated)
+    {
+        "text": "A stone is dropped from a height of 80 m. Find the time it takes to reach the ground.",
+        "options": ["A. 3.04 s", "B. 3.54 s", "C. 4.04 s", "D. 4.54 s"],
+        "correct": 2
+    },
+
+    # Q47b (same stone as Q47a; options generated)
+    {
+        "text": "A stone is dropped from a height of 80 m. Find the final velocity after it reaches the ground.",
+        "options": ["A. 29.62 m/s", "B. 34.62 m/s", "C. 39.62 m/s", "D. 44.62 m/s"],
+        "correct": 2
+    },
+
+    # Q48a (fill-in; options generated)
+    {
+        "text": "A ball is thrown vertically upward with an initial velocity of 15 m/s. Find the maximum height reached.",
+        "options": ["A. 9.47 m", "B. 10.47 m", "C. 11.47 m", "D. 12.47 m"],
+        "correct": 2
+    },
+
+    # Q48b (same ball as Q48a; options generated)
+    {
+        "text": "A ball is thrown vertically upward with an initial velocity of 15 m/s. Find the time to reach maximum height.",
+        "options": ["A. 1.03 s", "B. 1.53 s", "C. 2.03 s", "D. 2.53 s"],
+        "correct": 1
+    },
+
+    # Q49 (fill-in; options generated)
+    {
+        "text": "A wheel rotates at a constant angular velocity of 6 rad/s. Find the angular displacement in 10 s.",
+        "options": ["A. 40 rad", "B. 50 rad", "C. 60 rad", "D. 70 rad"],
+        "correct": 2
+    },
+
+    # Q50a (fill-in; options generated)
+    {
+        "text": "A wheel rotates through 50 rad while accelerating uniformly from 10 rad/s to 20 rad/s. Find the angular acceleration.",
+        "options": ["A. 2 rad/s²", "B. 3 rad/s²", "C. 4 rad/s²", "D. 5 rad/s²"],
+        "correct": 1
+    },
+
+    # Q50b (same wheel as Q50a; options generated)
+    {
+        "text": "A wheel rotates through 50 rad while accelerating uniformly from 10 rad/s to 20 rad/s. How long does it take for this to happen?",
+        "options": ["A. 2.33 s", "B. 2.83 s", "C. 3.33 s", "D. 3.83 s"],
+        "correct": 2
+    },
+
+    # Q51a (fill-in; options generated)
+    {
+        "text": "A wheel has an initial angular velocity of 5 rad/s and accelerates uniformly at 1.5 rad/s². Find the time needed to reach 11 rad/s.",
+        "options": ["A. 3 s", "B. 4 s", "C. 5 s", "D. 6 s"],
+        "correct": 1
+    },
+
+    # Q51b (same wheel as Q51a; options generated)
+    {
+        "text": "A wheel has an initial angular velocity of 5 rad/s and accelerates uniformly at 1.5 rad/s². Find the total angular displacement after the wheel reaches a velocity of 11 rad/s.",
+        "options": ["A. 24 rad", "B. 28 rad", "C. 32 rad", "D. 36 rad"],
+        "correct": 2
+    },
+
+    # Q52a (Context: projectile motion, used for Q52a-d; fill-in, options generated)
+    {
+        "text": "A ball is thrown with an initial velocity of 20 m/s at an angle of 30° above the horizontal. Find the time it takes to reach the maximum height.",
+        "options": ["A. 0.52 s", "B. 0.77 s", "C. 1.02 s", "D. 1.27 s"],
+        "correct": 2
+    },
+
+    # Q52b (same projectile as Q52a)
+    {
+        "text": "A ball is thrown with an initial velocity of 20 m/s at an angle of 30° above the horizontal. Find the maximum height reached.",
+        "options": ["A. 3.10 m", "B. 4.10 m", "C. 5.10 m", "D. 6.10 m"],
+        "correct": 2
+    },
+
+    # Q52c (same projectile as Q52a)
+    {
+        "text": "A ball is thrown with an initial velocity of 20 m/s at an angle of 30° above the horizontal. Find the time it takes to reach the maximum horizontal range.",
+        "options": ["A. 1.54 s", "B. 2.04 s", "C. 2.54 s", "D. 3.04 s"],
+        "correct": 1
+    },
+
+    # Q52d (same projectile as Q52a)
+    {
+        "text": "A ball is thrown with an initial velocity of 20 m/s at an angle of 30° above the horizontal. Find the maximum horizontal range.",
+        "options": ["A. 25.3 m", "B. 30.3 m", "C. 35.3 m", "D. 40.3 m"],
+        "correct": 2
+    },
+
+    # Q53
+    {
+        "text": "A solid disk with a mass of 2 kg and radius of 0.5 m spins with an angular velocity of 10 rad/s. Find the rotational kinetic energy.",
+        "options": ["A. 2.5J", "B. 7.5J", "C. 12.5J", "D. 17.5J"],
+        "correct": 2
+    },
+
+    # Unnumbered fill-in-the-blank before Q54
+    {
+        "text": "What law states that every particle attracts every other particle in the universe with a force which is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers?",
+        "options": ["A. Newton's Law of Universal Gravitation", "B. Kepler's Third Law", "C. Coulomb's Law", "D. Hooke's Law"],
+        "correct": 0
+    },
+
+    # Q54
+    {
+        "text": "The distance between Earth and Moon (r) is 3.84 x 10⁸ m. What is the magnitude of gravitational force each exerts on the other? (Note: mass of earth = 5.97 x 10²⁴ kg; mass of moon = 7.35 x 10²² kg)",
+        "options": ["A. 1.764 x 10²⁰ N", "B. 1.789 x 10²⁰ N", "C. 1.809 x 10²⁰ N", "D. 1.986 x 10²⁰ N"],
+        "correct": 3
+    },
+
+    # Q55
+    {
+        "text": "At the surface of the earth, g = 9.806 m/s². Assume the earth to be a sphere of radius 6,371 km. Compute the mass of the earth.",
+        "options": ["A. 5.12 x 10²³ kg", "B. 5.12 x 10²⁴ kg", "C. 5.96 x 10²³ kg", "D. 5.96 x 10²⁴ kg"],
+        "correct": 3
+    },
+
+    # Q56
+    {
+        "text": "A spaceship orbits the moon at a height of 20 km. Assuming it to be subject only to the gravitational pull of the moon, find the time it takes for one orbit. (Note: radius of moon = 1.738 x 10⁶ m; mass of moon = 7.35 x 10²² kg)",
+        "options": ["A. 110 min", "B. 90 min", "C. 120 min", "D. 100 min"],
+        "correct": 0
+    },
+
+    # Q57
+    {
+        "text": "The escape speed at the surface of Earth is approximately 11 km/s. What is the mass, in units of Earth's mass, of a planet with twice the radius of Earth for which the escape speed is twice that for Earth?",
+        "options": ["A. 2", "B. 4", "C. 8", "D. ½"],
+        "correct": 2
+    },
+
+]
+
 # Lecture 1.1
 D1_L1_Chem_for_Engineers = [
 
@@ -5024,6 +6017,30 @@ CT_Analytic_Chemistry = [
 
     { "text": 'To determine the density of a liquid, which of the following should be used? ',  "options": ['A. Graduated cylinder', 'B. Volumetric flask', 'C. Pycnometer', 'D. Pipette'], "correct": 2}, 
 
+    { "text": 'Which of the following is true for a 19/22 stopper? ',  "options": ['A. Radius = 19 mm, height = 22 mm', 'B. Radius = 22 mm, height = 19 mm', 'C. Diameter = 19 mm, height = 22 mm', 'D. Diameter = 22 mm, height = 19 mm'], "correct": 2}, 
+
+    { "text": 'Which technique is recommended for determining the odor of an unknown liquid in the laboratory? ',  "options": ['A. Hold a test tube of the liquid under the nose and inhale the vapor', 'B. Transfer a few drops of the liquid to the bench top and inhale the vapor from there', 'C. Use a dropper to collect a small quantity of the vapor and squirt this under the nose while inhaling.', 'D. Use a hand to fan some of the vapor from the test tube to the nose and inhale.'], "correct": 3}, 
+
+    { "text": 'The size of the sample taken for analysis depends on? ',  "options": ['A. Concentration of analyte', 'B. Equipment to be used', 'C. Specific chemical tests', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'Possible sources of contamination during sample preparation include ',  "options": ['A. Reagents', 'B. Glassware from previous experiment', 'C. Equipment from previous experiment', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'Which of the following can cause errors during sample preparation? I. Loss of sample during weighting or dissolution II. Contamination by impurities in reagents and in the environment III. Changes in mass due to varying humidity and temperature IV. Obtaining nonhomogeneous sample from the bulk. ',  "options": ['A. I and II', 'B. II and III', 'C. I, II, and III', 'D. I, II, III, and IV'], "correct": 3}, 
+
+    { "text": 'Method of passing the sample through a metal or plastic mesh of a uniform cross-sectional area to separate particles into uniform sizes. ',  "options": ['A. Sieving', 'B. Milling', 'C. Pulverizing', 'D. Macerating'], "correct": 0}, 
+
+    { "text": 'Which of the following can remove a fairly large amount of water from a sample that contains thermally labile material ',  "options": ['A. Hotplate', 'B. Freeze dryer', 'C. Convection oven', 'D. Microwave equipment'], "correct": 1}, 
+
+    { "text": 'In an experiment to determine the percentage of water in a solid hydrate by heating, what is the best indication that all the water has been removed? ',  "options": ['A. The solid melts', 'B. The solid changes color', 'C. Water vapor no longer appears', 'D. Successive weighing give the same mass'], "correct": 3}, 
+
+    { "text": 'Sample preparation technique used prior to instrumental analysis of metals. ',  "options": ['A. Sieving', 'B. Clean-up', 'C. Acid digestion', 'D. Liquid-liquid extraction'], "correct": 2}, 
+
+    { "text": 'Which of the following should not be used during dry ashing? ',  "options": ['A. Zirconium', 'B. Platinum', 'C. Porcelain', 'D. Glass'], "correct": 3}, 
+
+    { "text": 'Which of the following statements is/are true? I. Dry ashing is primarily for proximate composition and for some types of specific mineral analyses. II. Wet ashing is done as a preparation for the analysis of certain minerals III. Microwave systems are now available for both dry and wet ashing to speed the process ',  "options": ['A. I only', 'B. I and II', 'C. II and III', 'D. I, II, and III'], "correct": 3}, 
+
+    { "text": 'In the decomposition and dissolution of solids during sample preparation, which of the following is expensive and often the last resort? ',  "options": ['A. Fusion technique', 'B. Simple dissolution', 'C. Acid treatment using oxidation', 'D. Dissolution using ultrasound and solvent'], "correct": 0}, 
+
 ]
 
 CT_Quality_Control_Assurance = [
@@ -5057,6 +6074,215 @@ CT_Quality_Control_Assurance = [
     { "text": 'It is a laboratory quality control activity that is used to verify that an instrument works correctly on a day-to-day basis. ',  "options": ['A. Spiking', 'B. Blank analysis', 'C. System suitability checking', 'D. Reference material analysis'], "correct": 2}, 
 
     { "text": 'A reactive part of the quality management system that is concerned on the quality of the product, especially those materials that are soon to be released to the customer ',  "options": ['A. Quality assurance', 'B. Quality control', 'C. Quality audit', 'D. Quality evaluation'], "correct": 1}, 
+
+]
+
+CT_Chemical_Safety = [
+
+    { "text": 'Which of the following is a primary safety concern when handling chemicals in the laboratory? ',  "options": ['A. Proper storage', 'B. Labeling of containers', 'C. Personal protective equipment', 'D. All of the above'], "correct": 3},
+
+    { "text": 'When exposure to hazards cannot be engineered completely out of normal operations, this supplementary method of control can be used. ',  "options": ['A. Elimination', 'B. Substitution', 'C. Administrative control', 'D. Use of PPE'], "correct": 3}, 
+
+    { "text": 'For safety, long hair needs to ',  "options": ['A. Be cut short', 'B. Be tied back', 'C. Hang over your face', 'D. Hang loosely'], "correct": 1}, 
+
+    { "text": 'A researcher working in the lab where hazardous liquid chemicals are present. Which of the following is not considered appropriate PPE for this situation? ',  "options": ['A. Wire mesh gloves', 'B. Lab coat', 'C. Chemical resistant gloves', 'D. Chemical splash goggles'], "correct": 0}, 
+
+    { "text": 'Examples of activities that require appropriate eye protection include ',  "options": ['A. Working with lasers', 'B. Working with UV light', 'C. Working in an area where there are flying particles', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'The area surrounding a safety shower or eyewash ',  "options": ['A. Can be used to store boxes if they can be removed quickly', 'B. Must remain clear of all items at all costs', 'C. Is typically marked with yellow and black floor tape to keep it clear', 'D. Both b and c'], "correct": 3}, 
+
+    { "text": 'Which of the following is not suitable safety attire when handling large volume of corrosive liquid? ',  "options": ['A. Lab coat', 'B. Chemical resistant gloves', 'C. General safety glasses', 'D. Closed toe shoes'], "correct": 2}, 
+
+    { "text": 'Laboratory chemical hoods are best placed in a location that is ',  "options": ['A. Near the aisle for ease of access', 'B. Near the windows and doors', 'C. Away from air diffuser', 'D. None of the above'], "correct": 2}, 
+
+    { "text": 'Which of the following is/are good practice/s when using lab chemical hood? I. Place chemical sources and apparatus at least 6 cm behind the face II. Scrubbers must be installed especially when the lab is dealing with highly toxic vapors. III. Avoid opening and closing the sash rapidly IV. Store odoriferous materials inside the chemical hood to prevent personnel from inhaling toxic vapors ',  "options": ['A. I and II', 'B. I, II, and III', 'C. II, III, and IV', 'D. II and III'], "correct": 3}, 
+
+    { "text": 'Which of the following safety practices implements the substitution method according to the hierarchy of control principle? ',  "options": ['A. Physically removing of the hazards', 'B. Use of mercury thermometer alternatives', 'C. Use of glove box', 'D. Establishing rotations among workers to reduce exposure'], "correct": 1}, 
+
+    { "text": 'The white section of the NFPA diagram corresponds to the special hazard of the material. Which of the following is not considered as special hazard? ',  "options": ['A. ACID', 'B. COR', 'C. EXP', 'D. Trefoil Symbol'], "correct": 2}, 
+
+    { "text": 'Concentrated hydrochloric acid is a highly corrosive material. It is expected that its container contains which of the following GHS label/s? I. a flame over a circle II.  an exclamation mark  III. liquid spilling from test tubes onto a hand and metal IV.  a skull and crossbones ',  "options": ['A. I', 'B. II', 'C. II and III', 'D. II and IV '], "correct": 2}, 
+
+    { "text": 'Which of the following is not a GHS pictogram ',  "options": ['A. Exploding bomb', 'B. Gas tank', 'C. Skull and crossbones', 'D. Health hazard'], "correct": 1}, 
+
+    { "text": 'The following information can be found in a safety data sheet except ',  "options": ['A. Manufacturer name', 'B. Manufacturer contact details', 'C. Require PPEs', 'D. None of the above'], "correct": 3}, 
+
+    { "text": 'The SDS of a certain chemical contains the given pictogram. Determine the corresponding hazards related to the material Blue: 1, Red: 4, Yellow: 2, White: W with strikethrough',  "options": ['A. Normal material > 200oF Violent chemical change Alkaline', 'B. Slightly hazardous < 100oF Unstable is heated Oxidizer', 'C. Slightly hazardous < 73oF Violent chemical change Reacts violently with water', 'D. Hazardous < 100oF Unstable if heated Reacts violently with water'], "correct": 2}, 
+
+    { "text": 'How long should you rinse in an eyewash during accidental chemical splashes on the eyes? ',  "options": ['A. 5 mins', 'B. 1 min', 'C. 15 mins', 'D. 30 secs'], "correct": 2}, 
+
+    { "text": 'In an experiment to determine the percentage of water in a solid hydrate by heating, what is the best indication that all the water has been removed? ',  "options": ['A. The solid melts', 'B. The solid changes color', 'C. Water vapor no longer appears', 'D. Successive weighing give the same mass'], "correct": 3}, 
+
+    { "text": 'Sample preparation technique used prior to instrumental analysis of metals. ',  "options": ['A. Sieving', 'B. Clean-up', 'C. Acid digestion', 'D. Liquid-liquid extraction'], "correct": 2}, 
+
+    { "text": 'Which of the following should not be used during dry ashing? ',  "options": ['A. Zirconium', 'B. Platinum', 'C. Porcelain', 'D. Glass'], "correct": 3}, 
+
+    { "text": 'Which of the following statements is/are true? I. Dry ashing is primarily for proximate composition and for some types of specific mineral analyses. II. Wet ashing is done as a preparation for the analysis of certain minerals III. Microwave systems are now available for both dry and wet ashing to speed the process ',  "options": ['A. I only', 'B. I and II', 'C. II and III', 'D. I, II, and III'], "correct": 3}, 
+
+    { "text": 'In the decomposition and dissolution of solids during sample preparation, which of the following is expensive and often the last resort? ',  "options": ['A. Fusion technique', 'B. Simple dissolution', 'C. Acid treatment using oxidation', 'D. Dissolution using ultrasound and solvent'], "correct": 0}, 
+
+    # Chemical Safety 2
+
+    { "text": 'Common hazards posed by different chemicals in the laboratories can be found at ___. ',  "options": ['A. CHP', 'B. SDS', 'C. GHS labels', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'At this concentration, the mixture of flammable liquids is considered too lean to burn ',  "options": ['A. At lower explosion limit', 'B. Below lower explosion limit', 'C. Above upper explosion limit', 'D. Between upper and lower explosion limit'], "correct": 1}, 
+
+    { "text": 'According to the Department of Trade and Industry-Bureau of Philippine Standards (DTI-BPS), what color designations correspond to a foam-type fire extinguisher? ',  "options": ['A. Red body, white band', 'B. Red body, black band', 'C. Red body, blue band', 'D. Light green body, white band'], "correct": 2}, 
+
+    { "text": 'The foam-type extinguishers is most appropriately used for which type of fire? ',  "options": ['A. Fires involving ordinary combustible materials', 'B. Surface fire', 'C. Electrical fire', 'D. Both A and B'], "correct": 3}, 
+
+    { "text": 'This general type of reaction results in sudden rapid rise in temperature upon heating of the material that usually becomes violent ',  "options": ['A. Vigorous reaction', 'B. Combustion reaction', 'C. Runaway reaction', 'D. Reaction under pressure'], "correct": 2}, 
+
+    { "text": 'Which of the following functional groups pose explosion hazards? I. Azide II. Peroxide III. Sulfide IV. Hydrocarbons ',  "options": ['A. I and II', 'B. II and III', 'C. III and IV', 'D. I, II, and III'], "correct": 0}, 
+
+    { "text": 'During a mercury spillage in the laboratory, what is the most appropriate action to do? ',  "options": ['A. Wipe mercury spill with dry cloth', 'B. Clean spill with an aspirator bulb', 'C. Smother the spill with powdered graphite', 'D. Use calcinated absorbent product such as Oil-Dri or Zorball'], "correct": 1}, 
+
+    { "text": 'What are the components of the fire triangle? ',  "options": ['A. Oxygen, heat, material', 'B. Oxygen, fuel, heat', 'C. Air, fuel, spark', 'D. Air, fuel, fire'], "correct": 1}, 
+
+    { "text": 'What hazards are presented by the given GHS pictogram? Flame over fire',  "options": ['A. Flammable and self-reactive substances', 'B. Oxidizers, organic peroxides', 'C. Carcinogens', 'D. Explosives'], "correct": 1}, 
+
+    { "text": 'These materials ignite due to rapid oxidation by oxygen or moisture in the air. ',  "options": ['A. Water reactive substances', 'B. Pyrophoric substances', 'C. Explosives', 'D. Flammables'], "correct": 1}, 
+
+    { "text": 'The following are gases under pressure except ',  "options": ['A. Aerosols', 'B. Liquefied gases', 'C. Compressed gases', 'D. All are gases under pressure'], "correct": 0}, 
+
+    { "text": 'It refers to the production of reversible damage to the skin occurring after exposure to a substance of mixture ',  "options": ['A. Skin allergy', 'B. Skin corrosion', 'C. Skin irritation', 'D. Skin damage'], "correct": 2}, 
+
+    { "text": 'These are solid particles of a substance or mixture suspended in a gas ',  "options": ['A. Fog', 'B. Dusts', 'C. Mists', 'D. Vapor'], "correct": 1}, 
+
+    { "text": 'It refers to the production of irreversible damage to the skin namely, visible necrosis through the epidermis and into the dermis occurring after exposure to a substance or mixture ',  "options": ['A. Skin allergy', 'B. Skin corrosion', 'C. Skin irritation', 'D. Skin damage'], "correct": 1}, 
+
+    { "text": 'This type of toxins in the chemical laboratory may potentially cause allergies or allergic-like reactions ',  "options": ['A. Allergen', 'B. Corrosive substances', 'C. Sensitizer', 'D. Asphyxiants'], "correct": 2}, 
+
+]
+
+CT_Organic_Chemistry = [
+
+    { "text": 'What is the bond angle and molecular geometry around a carbon atom with 4 single bonds? ',  "options": ['A. 120o, tetrahedral', 'B. 109.5o, tetrahedral', 'C. 120o , planar', 'D. 109.5o , planar'], "correct": 1}, 
+
+    { "text": 'What is the hybridization of the central atom in NH3 ',  "options": ['A. sp3', 'B. sp2', 'C. sp', 'D. No hybridization'], "correct": 0}, 
+
+    { "text": 'Which of the following compounds has the shortest CN bond length? ',  "options": ['A. Ethanamine', 'B. Acetamide', 'C. Benzonitrile', 'D. Benzyl amine'], "correct": 2}, 
+
+    { "text": 'What is the correct molecular formula for the given hydrocarbon? --=-=-=',  "options": ['A. C7H8', 'B. C7H14', 'C. C8H14', 'D. C8H12'], "correct": 3}, 
+
+    { "text": 'What is the name for the alkane? -|---|\\-|--',  "options": ['A. 2-isopropyl-3-butylpentane', 'B. 2-isopropyl-3-ethylheptane', 'C. 4-ethyl-2,3-dimethyloctane', 'D. 5-ethyl-2,6-dimethyloctane'], "correct": 3}, 
+
+    { "text": 'How many constitutional isomers are possible for C5H12? ',  "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 2}, 
+
+    { "text": 'Given the molecular formula C4H10O, it could possibly be a/an? ',  "options": ['A. Phenol or ether', 'B. Ether or ester', 'C. Carboxylic acid or ester', 'D. Alcohol or ether'], "correct": 3}, 
+
+    { "text": 'Which of the following is true for an optically active compound? ',  "options": ['A. The molecular configuration is chiral', 'B. The molecular configuration is achiral', 'C. The compound is a racemic mixture of enantiomers', 'D. The molecular configuration must have 2 or more stereogenic centers'], "correct": 0}, 
+
+    { "text": 'Which of these may be separated by ordinary physical methods? ',  "options": ['A. (R)-2-bromobutane and (S)-2-bromobutane', 'B. (R)-3-bromo-1-butene and (S)-3-bromo-1-butene', 'C. cis-2-bromo-2-butene and trans-2-bromo-2-butene', 'D. (2R,3S)-1,2-dibromobutane and (2S,3R)-1,2-dibromobutane'], "correct": 2}, 
+
+    { "text": 'In this type of reaction, one sigma bond breaks and another forms at the same carbon atom ',  "options": ['A. addition', 'B. substitution', 'C. elimination', 'D. rearrangement'], "correct": 1}, 
+
+    { "text": 'The hydrocarbon with the lowest boiling point is? ',  "options": ['A. Methane', 'B. Ethene', 'C. Butane', 'D. Benzene'], "correct": 0}, 
+
+    { "text": 'Compared to ionic compounds of similar molar mass, hydrocarbons typically have I. Higher water solubility II. Higher melting points ',  "options": ['A. I only', 'B. II only', 'C. Both I and II', 'D. None of the above'], "correct": 3}, 
+
+    { "text": 'Alkanes react with halogens via ',  "options": ['A. Free radical substitution', 'B. Electrophilic substitution', 'C. Electrophilic addition', 'D. Nucleophilic addition'], "correct": 0}, 
+
+    { "text": 'Alkenes and alkynes, because they contain 𝜋 bonds, undergo this type of reaction ',  "options": ['A. Electrophilic addition', 'B. Nucleophilic addition', 'C. Electrophilic substitution', 'D. Nucleophilic substitution'], "correct": 0}, 
+
+    { "text": 'Which of the following reactions can reduce an alkene yielding an alkane? ',  "options": ['A. Oxidation', 'B. Bromination', 'C. Hydrogenation', 'D. Polymerization'], "correct": 2}, 
+
+    { "text": 'Which of the following is produced from addition of Cl2 to 1-butene? ',  "options": ['A. CH3CH3CCl2CH3', 'B. CH3CH2CH2CHCl2', 'C. CH3CH2CHClCH2Cl', 'D. ClCH2CH2CH2CH2Cl'], "correct": 2}, 
+
+    { "text": 'Which of the following reagents can perform the given reaction? ',  "options": ['A. Br2, H2O', 'B. Br2, CH2Cl2', 'C. O3, DMS', 'D. KMnO4, H3O+'], "correct": 2}, 
+
+    { "text": 'All of the following reactions convert alkenes to alcohols except? ',  "options": ['A. Halohydrin formation', 'B. Hydroboration-oxidation', 'C. Addition polymerization', 'D. Oxymercuration-demercuration'], "correct": 2}, 
+
+    { "text": 'Which of the following is produced when calcium carbide reacts with water? ',  "options": ['A. methane', 'B. ethylene', 'C. benzene', 'D. acetylene'], "correct": 3}, 
+
+    { "text": 'All of the following hydrocarbons will readily react with bromine except ',  "options": ['A. Hexane', 'B. Acetylene', 'C. Ethylene', 'D. Cyclohexene'], "correct": 0}, 
+
+
+    # Orgchem 3
+
+    { "text": 'Among the ortho, meta, and para isomers of xylene, which has the highest boiling point? ',  "options": ['A. o-xylene', 'B. p-xylene', 'C. m-xylene', 'D. All have the same boiling point'], "correct": 0}, 
+
+    { "text": 'Aromatic compounds undergo substitution reactions instead of addition reactions because ',  "options": ['A. The benzene ring is electron rich', 'B. The hydrogens of benzene are relatively loosely bound', 'C. The benzene ring is sterically crowded hence only substitution can occur', 'D. The integrity of the benzene ring and the stable aromatic 𝜋 system remains intact'], "correct": 3}, 
+
+    { "text": 'Which of the following substituents is not an ortho, para director in an EAS reaction? ',  "options": ['A. -Cl', 'B. -OH', 'C. -NO2', 'D. -CH3'], "correct": 2}, 
+
+    { "text": 'AlCl3 is a catalyst used in the alkylation and acylation of aromatic compounds. It is a/an __? ',  "options": ['A. Arrhenius acid', 'B. Bronsted-Lowry acid', 'C. Lewis acid', 'D. Lewis base'], "correct": 2}, 
+
+    { "text": 'What is the product from the Friedel-Crafts alkylation of nitrobenzene? ',  "options": ['A. o-nitrotoluene', 'B. m-nitrotoluene', 'C. p-nitrotoluene', 'D. o-nitrotoluene and p-nitrotoluene'], "correct": 1}, 
+
+    { "text": 'Freon is an example of a/an __? ',  "options": ['A. Hydrocarbon', 'B. Alkyl halide', 'C. Alcohol', 'D. Aldehyde'], "correct": 1}, 
+
+    { "text": 'What is the role of the hydroxide ion in the given reaction? 𝐶𝐻3𝐶𝐻2𝐶𝐻2𝐶𝐻2𝐵𝑟 + 𝑂𝐻− → 𝐶𝐻3𝐶𝐻2𝐶𝐻2𝐶𝐻2𝑂𝐻 + 𝐵𝑟− ',  "options": ['A. Lewis acid', 'B. Electrophile', 'C. Nucleophile', 'D. Oxidizing agent'], "correct": 2}, 
+
+    { "text": 'Which reaction mechanism applies to the given reaction? ',  "options": ['A. SN1', 'B. SN2', 'C. E1', 'D. E2'], "correct": 1}, 
+
+    { "text": 'Which chloroalkane undergoes with OH- exclusively by an SN1 mechanism? ',  "options": ['A. 2-chloro-2-methylpropane', 'B. 1-chloro-2-methylpropane', 'C. 2-chlorobutane', 'D. 1-chlorobutane'], "correct": 0}, 
+
+    { "text": 'Which reagent would be best in order to have an E2 elimination reaction of 3-chloropentane ',  "options": ['A. NaI', 'B. NaHCO3', 'C. NaOC2H5 ', 'D. NaCH3COO'], "correct": 2}, 
+
+    { "text": 'Among the following group of compounds, which will have the highest boiling point? ',  "options": ['A. Alkenes', 'B. Alkynes', 'C. Alcohols', 'D. Haloalkanes'], "correct": 2}, 
+
+    { "text": 'An industrial source of alcohol is ',  "options": ['A. coal', 'B. fats', 'C. sugar', 'D. ether'], "correct": 2}, 
+
+    { "text": 'Which of the following will react faster with HBr ',  "options": ['A. 1-butanol', 'B. 2-butanol', 'C. 2-methyl-1-propanol', 'D. 2-methyl-2-propanob'], "correct": 3}, 
+
+    { "text": 'Dehydration of an alcohol yields alan ',  "options": ['A. Alkene', 'B. Alkyne', 'C. Aldehyde', 'D. Ketone'], "correct": 0}, 
+
+    { "text": 'What is produced when a primary alcoholreacts with the given reagent? Pyridinium chlorochromate',  "options": ['A. Ketone', 'B. Acetaldehyde', 'C. Carboxylic acid', 'D. Carbon dioxide'], "correct": 1}, 
+
+    { "text": ' What is the product of the reaction of benzyl alcohol with acidified potassium permanganate? ',  "options": ['A. Benzoic acid', 'B. Benzaldehyde', 'C. Benzyl chloride', 'D. Benzophenone'], "correct": 0}, 
+
+    { "text": 'Which of the following will be oxidized by Tollen reagent? ',  "options": ['A. Ethanol', 'B. 2-butanol', 'C. Tert-butanol', 'D. Phenol'], "correct": 3}, 
+
+    { "text": 'Which of the following can react with NaOH? ',  "options": ['A. Phenol', 'B. Ethanol', 'C. Ethylene', 'D. Dimethyl ether'], "correct": 0}, 
+
+    { "text": 'Which of the following reactions is specific for phenols? ',  "options": ['A. Reaction with FeCl3', 'B. Reaction with KMnO4', 'C. Reaction with Jones reagent', 'D. Reaction with Lucas reagent'], "correct": 0}, 
+
+    { "text": 'Ethers undergo which of the following reactions? ',  "options": ['A. Oxidation', 'B. Substitution', 'C. Rearrangement', 'D. Acid-base reaction'], "correct": 1}, 
+
+    { "text": 'Which of the following is arranged in order of increasing boiling point? ',  "options": ['A. 2-methylbutane < n-pentane < butanone < butanol', 'B. n-pentane < 2-methylbutane < butanone < butanol', 'C. 2-methylbutane < n-pentane < butanol < butanone', 'D. n-pentane < 2-methylbutane < butanol < butanone'], "correct": 0}, 
+
+    { "text": 'Methanal is used as ? ',  "options": ['A. Fuel', 'B. Antiseptic', 'C. Preservative', 'D. Refrigerant'], "correct": 2}, 
+
+    { "text": 'The simplest ketone? ',  "options": ['A. Acetone', 'B. Lactone', 'C. Cyclohexanone', 'D. Ethyl methyl ketone'], "correct": 0}, 
+
+    { "text": 'Carbonyl compounds undergo this type of reaction ? ',  "options": ['A. Electrophilic addition', 'B. Nucleophilic addition', 'C. Electrophilic substitution', 'D. Nucleophilic substitution'], "correct": 1}, 
+
+    { "text": 'Ketones react with LiAlH4 to form? ',  "options": ['A. Phenols', 'B. Primary alcohols', 'C. Secondary alcohols', 'D. Tertiary alcohols'], "correct": 2}, 
+
+    { "text": 'Give the identity of the product Xin the reaction given below Acetaldehyde + CH3MgBr -> (Ether, H3O+/H2O) = X + Mg(OH)Br',  "options": ['A. 2-propanol', 'B. Propanone', 'C. Propanal', 'D. Propene'], "correct": 0}, 
+
+    { "text": 'Which of the following will have the highest boiling point? ',  "options": ['A. Butane (58 g/mol)', 'B. Propanal (58 g/mol)', 'C. 1-butanol (60 g/mol)', 'D. Acetic acid (60 g/mol) }'], "correct": 3}, 
+
+    { "text": 'Carboxylic acids are more acidic than alcohols because? ',  "options": ['A. Increased polarity of the 0-H bond due to the carbonyl group', 'B. Stability of the carboxylate anion formed upon ionization', 'C. Higher Ka value', 'D. All of the above'], "correct": 3}, 
+
+    { "text": 'Which of the following compounds below will react most rapidly with water? ',  "options": ['A. Acetonitrile', 'B. Acetyl chloride', 'C. Acetamide', 'D. Methyl acetate'], "correct": 1}, 
+
+    { "text": 'What is formed when an alcohol reacts with a carboxylic acid in the presence of an acid catalyst? ',  "options": ['A. Anhydride', 'B. Acid chloride', 'C. Ester', 'D. Ether'], "correct": 2}, 
+
+    # Orchem Laboratory
+
+    { "text": 'Which of the following is not a common laboratory technique used in organic chemistry? ',  "options": ['A. Recrystallization', 'B. Distillation', 'C. Chromatography', 'D. Titration'], "correct": 3},
+
+    { "text": ' All of the following are properties of an organic solvent for extraction except ',  "options": ['A. Dissolve the desired substance', 'B. React with the desired substance', 'C. Not react or be miscible with water', 'D. Have a low boiling point so that it can be easily removed later'], "correct": 1}, 
+
+    { "text": ' All of the following are properties of an organic solvent for extraction except ',  "options": ['A. Stirring', 'B. Venting', 'C. Drawing', 'D. Salting out'], "correct": 1}, 
+
+    { "text": ' Which of the following should not be done when an emulsion is formed during extraction ',  "options": ['A. Stirring the emulsion gently using a stirring rod', 'B. Adding salt crystals to the mixture and then stirring it gently', 'C. Adding a salt solution to the mixture and then stirring it gently', 'D. Shaking the separatory funnel containing the mixture very vigorously '], "correct": 3}, 
+
+    { "text": 'In liquid-liquid extraction, it is often necessary to determine the aqueous and organic layers. To test the layers, a drop of water can be added to the top layer. If the drop of water dissolves in the top layer, then the top layer is? ',  "options": ['A. organic', 'B. aqueous', 'C. denser', 'D. nonaqueous'], "correct": 1}, 
+
+    { "text": 'This is used to remove trace amounts of water in organic solutions. This can be added to the pooled organic layers before the removal of the organic solvent ',  "options": ['A. Drying agent', 'B. Boiling stone', 'C. Seed crystal', 'D. None of the above'], "correct": 0}, 
+
+    { "text": 'A 5-g organic solid is dissolved in 100 mL of distilled water. What is the best way to recover the most of the organic solid? ',  "options": ['A. Single extraction using 150 mL ether', 'B. Single extraction using 150 mL acetic acid', 'C. Multiple extractions using three 50-ml portions of ether', 'D. Multiple extractions using three 50 mL portions of acetic acid'], "correct": 2}, 
+
+    { "text": 'Which of the following is/are considered in purification using crystallization? I. Polarity II. Solubility III. Vapor pressure ',  "options": ['A. I only', 'B. Il only', 'C. I and Il only', 'D. I, Il, and III'], "correct": 2}, 
+
+    { "text": 'Which of the following funnels should be used to filter hot mother liquor during recrystallization? ',  "options": ['A. Hirsch funnel', 'B. Buchner funnel', 'C. Long stem funnel', 'D. Short stem funneb'], "correct": 3}, 
+
+    { "text": 'In crystallization, crystal phases can be interconverted by varying ',  "options": ['A. Temperature', 'B. Pressure', 'C. Viscosity', 'D. Size'], "correct": 0}, 
+
+    { "text": 'All of the following statements are true except ',  "options": ['A. Two different pure substances have similar melting points', 'B. An impure sample of a substance has a wider melting point range', 'C. Melting point serves as an index of purity of a solid crystalline substance', 'D. Every pure solid crystalline substance has a characteristic and unique melting point'], "correct": 0}, 
 
 ]
 
