@@ -7317,6 +7317,1302 @@ CT_Organic_Chemistry = [
 
 ]
 
+CT_PT_Inorganic_Chemistry = [
+
+    # 1
+    {"text": 'What is the usual relationship between temperature and the solubility of a solid in a liquid?',
+     "options": ['A. Inversely proportional', 'B. Directly proportional', 'C. No relationship', 'D. Geometric'], "correct": 1},
+
+    # 2
+    {"text": 'Tin(II) fluoride, SnF₂, has a molar mass of 156.7 g/mol and is added to toothpaste to prevent tooth decay. What is the mass of fluoride in 24.6 g of SnF₂? Atomic mass of F = 19 g/mol.',
+     "options": ['A. 0.31 g', 'B. 2.98 g', 'C. 5.97 g', 'D. 101.4 g'], "correct": 2},
+
+    # 3
+    {"text": 'Which process is a chemical change?',
+     "options": ['A. Melting ice', 'B. Crushing glass', 'C. Boiling water', 'D. Rusting iron'], "correct": 3},
+
+    # 4
+    {"text": 'Which substance will require the greatest amount of work to increase its surface area?',
+     "options": ['A. Butanol', 'B. Butanal', 'C. Pentane', 'D. Diethyl ether'], "correct": 0},
+
+    # 5 (Cl has the highest electron affinity; Ar has essentially none, so it comes first)
+    {"text": 'Along the third period, which arrangement shows increasing affinity for electrons?',
+     "options": ['A. Na < Mg < Cl < Ar', 'B. Ar < Na < Mg < Cl', 'C. Cl < Mg < Na < Ar', 'D. Ar < Cl < Mg < Na'], "correct": 1},
+
+    # 6
+    {"text": 'A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen. What is its empirical formula?',
+     "options": ['A. CHO', 'B. CH₂O', 'C. C₂H₄O', 'D. C₂H₄O₂'], "correct": 1},
+
+    # 7
+    {"text": 'What is the name of Fe(NO₃)₃?',
+     "options": ['A. Iron nitrate', 'B. Iron(II) nitrate', 'C. Iron(III) nitrate', 'D. Ferric nitrite'], "correct": 2},
+
+    # 8
+    {"text": 'What is the molecular geometry of NH₃?',
+     "options": ['A. Trigonal planar', 'B. Trigonal pyramidal', 'C. Tetrahedral', 'D. Bent'], "correct": 1},
+
+    # 9
+    {"text": 'What is the molecular geometry of the chlorate ion, ClO₃⁻?',
+     "options": ['A. Trigonal pyramidal', 'B. T-shaped', 'C. Tetrahedral', 'D. Trigonal planar'], "correct": 0},
+
+    # 10 (ANSWER UNVERIFIED: the notation image was not included in the source; assumed to be argon-40, atomic number 18 and mass number 40, giving 22 neutrons)
+    {"text": 'An element has the notation shown in the image. How many neutrons does it have? (Notation image not included in the source; assumed to be ⁴⁰₁₈Ar, with mass number 40 and atomic number 18.)',
+     "options": ['A. 18', 'B. 22', 'C. 40', 'D. 58'], "correct": 1},
+
+    # 11
+    {"text": 'What is the chemical formula of cobaltous oxide?',
+     "options": ['A. CoO', 'B. CoO₂', 'C. Co₂O', 'D. Co₂O₃'], "correct": 0},
+
+    # 12
+    {"text": 'Which chemical may be used to neutralize waste containing phosphoric acid?',
+     "options": ['A. Hydrochloric acid', 'B. Sodium hydroxide', 'C. Distilled water', 'D. Acetone'], "correct": 1},
+
+    # 13
+    {"text": 'Elements or groups of elements that have more protons than electrons are called:',
+     "options": ['A. Anions', 'B. Cations', 'C. Isotopes', 'D. Isobars'], "correct": 1},
+
+    # 14
+    {"text": 'Whose atomic model illustrates negative charges scattered throughout an atom?',
+     "options": ['A. Dalton', 'B. Rutherford', 'C. Bohr', 'D. Thomson'], "correct": 3},
+
+    # 15
+    {"text": 'Which compound is primarily covalent?',
+     "options": ['A. NaCl', 'B. MgO', 'C. CO₂', 'D. CaF₂'], "correct": 2},
+
+    # 16
+    {"text": 'Which condition produces the greatest deviation from ideal-gas behavior?',
+     "options": ['A. High pressure and low temperature', 'B. Low pressure and high temperature', 'C. Low pressure and low temperature', 'D. High pressure and high temperature'], "correct": 0},
+
+    # 17
+    {"text": 'Among the following noble gases, which has the strongest intermolecular forces?',
+     "options": ['A. Kr', 'B. Xe', 'C. Ne', 'D. He'], "correct": 1},
+
+    # 18
+    {"text": 'What is the partial pressure of methane in a 100 g mixture of methane and argon if argon constitutes 10% by mass and the total pressure is 250 torr? Molar mass of Ar = 39.95 g/mol.',
+     "options": ['A. 225 torr', 'B. 239 torr', 'C. 111 torr', 'D. 250 torr'], "correct": 1},
+
+    # 19
+    {"text": 'What is the name of BF₃?',
+     "options": ['A. Boron fluoride', 'B. Boron trifluoride', 'C. Boronic fluoride', 'D. Boronous fluoride'], "correct": 1},
+
+    # 20
+    {"text": 'The empirical formula of a compound is CH. If its molar mass is approximately 78 g/mol, what is its molecular formula?',
+     "options": ['A. C₂H₂', 'B. C₆H₆', 'C. C₈H₈', 'D. None of the above'], "correct": 1},
+
+    # 21
+    {"text": 'What is the value of the universal gas constant in cal/mol·K?',
+     "options": ['A. 4.184', 'B. 3.973', 'C. 1.986', 'D. 8.314'], "correct": 2},
+
+    # 22
+    {"text": 'A colorless liquid and a yellowish liquid were mixed in a test tube. Which statement is incorrect?',
+     "options": ['A. There will be no reaction if the test tube becomes hot.', 'B. There will be a reaction if a precipitate forms.', 'C. There will be no reaction if the liquids remain on top of each other.', 'D. There will be a reaction if the yellow color drastically disappears.'], "correct": 0},
+
+    # 23
+    {"text": 'Aqua regia is a/an',
+     "options": ['A. Solution', 'B. Colloid', 'C. Element', 'D. Alloy'], "correct": 0},
+
+    # 24
+    {"text": 'The addition of potassium chloride, a nonvolatile solute, to water:',
+     "options": ['A. Increases the boiling point of water', 'B. Decreases the boiling point of water', 'C. Increases the freezing point of water', 'D. Increases the vapor pressure of water'], "correct": 0},
+
+    # 25
+    {"text": 'How many significant figures are there in 4.200 g?',
+     "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 3},
+
+    # 26
+    {"text": 'Which species corresponds to the electron configuration 1s²2s²2p⁶?',
+     "options": ['A. Na', 'B. Na⁺', 'C. Cl', 'D. Cl⁻'], "correct": 1},
+
+    # 27
+    {"text": 'The standard atmospheric pressure at sea level is:',
+     "options": ['A. 1 atm', 'B. 760 mmHg', 'C. 760 torr', 'D. All of the choices'], "correct": 3},
+
+    # 28
+    {"text": 'The substance that performs the dissolving and constitutes more than 50% of a solution is the:',
+     "options": ['A. Solvent', 'B. Solute', 'C. Mixture', 'D. Solution'], "correct": 0},
+
+    # 29
+    {"text": 'The following are characteristics of gases EXCEPT',
+     "options": ['A. Pressure exerted by a gas decreases as temperature increases.', 'B. Attractions between particles of an ideal gas are negligible.', 'C. Gases can be compressed by applying pressure.', 'D. Gases diffuse and spontaneously mix.'], "correct": 0},
+
+    # 30 (figure not included in the source; assumes the standard chlorate Lewis structure with one Cl=O double bond and two Cl–O⁻ single bonds, so each singly bonded O has a formal charge of −1)
+    {"text": 'In the chlorate (ClO₃⁻) Lewis structure shown (one Cl=O double bond and two Cl–O single bonds, each singly bonded oxygen carrying three lone pairs), what is the formal charge of the rightmost singly bonded oxygen atom?',
+     "options": ['A. 0', 'B. +1', 'C. -1', 'D. -2'], "correct": 2},
+
+    # 31
+    {"text": 'Compounds have been prepared from which noble-gas elements?',
+     "options": ['A. He only', 'B. He and Ne only', 'C. He, Ne, and Ar', 'D. Kr, Xe, and Rn'], "correct": 3},
+
+    # 32
+    {"text": 'Convert 250 μL to milliliters.',
+     "options": ['A. 250,000 mL', 'B. 0.0250 mL', 'C. 0.250 mL', 'D. 2.50 mL'], "correct": 2},
+
+    # 33
+    {"text": 'What is the formal charge of nitrogen in NH₄⁺?',
+     "options": ['A. −1', 'B. 0', 'C. +1', 'D. +4'], "correct": 2},
+
+    # 34
+    {"text": 'A reaction has a theoretical yield of 10.0 g and an actual yield of 8.00 g. What is the percent yield?',
+     "options": ['A. 20.0%', 'B. 80.0%', 'C. 100%', 'D. 180%'], "correct": 1},
+
+    # 35
+    {"text": 'What is the mass percent of oxygen in H₂O?',
+     "options": ['A. 11.1%', 'B. 50.0%', 'C. 88.9%', 'D. 94.1%'], "correct": 2},
+
+    # 36
+    {"text": 'A student has stock solutions of A at 2000 ppm, B at 1500 ppm, and C at 1000 ppm. The student transfers 10 mL of each solution into a 200 mL volumetric flask and dilutes to volume. What are the final concentrations?',
+     "options": ['A. 50 ppm A, 32 ppm B, 25 ppm C', 'B. 100 ppm A, 75 ppm B, 50 ppm C', 'C. 75 ppm A, 75 ppm B, 50 ppm C', 'D. 100 ppm A, 25 ppm B, 25 ppm C'], "correct": 1},
+
+    # 37
+    {"text": 'What is the molar mass of an unknown gas if 1.60 g occupies 2.24 L at STP? Assume the gas is ideal.',
+     "options": ['A. 160 g/mol', 'B. 81.0 g/mol', 'C. 16.0 g/mol', 'D. 35.8 g/mol'], "correct": 2},
+
+    # 38
+    {"text": 'Arrange the following scenarios according to the scientific method. I. Different solvents are used in trials to process raw material X. II. Raw material X yielded more products than the original material. III. A previous study suggested the use of a different raw material X.',
+     "options": ['A. I, II, III', 'B. III, II, I', 'C. III, I, II', 'D. I, III, II'], "correct": 2},
+
+    # 39
+    {"text": 'Which property represents the energy required to increase a liquid’s surface area?',
+     "options": ['A. Vapor pressure', 'B. Surface tension', 'C. Compressibility', 'D. Density'], "correct": 1},
+
+    # 40
+    {"text": 'Which element has a valence-electron configuration of 5s² 5p³?',
+     "options": ['A. Silver', 'B. Antimony', 'C. Cesium', 'D. Chlorine'], "correct": 1},
+
+    # 41
+    {"text": 'What is the formula of aluminum sulfate?',
+     "options": ['A. Al₂(SO₄)₃', 'B. AlSO₄', 'C. Al₂SO₄', 'D. Al(SO₄)₃'], "correct": 0},
+
+    # 42
+    {"text": 'What intermolecular forces are present in acetone? I. London dispersion forces II. Dipole-dipole forces III. Hydrogen bonding between acetone molecules',
+     "options": ['A. II', 'B. III', 'C. I and II', 'D. I, II, III'], "correct": 2},
+
+    # 43
+    {"text": 'Which is NOT a possible set of quantum numbers (n, l, mₗ, mₛ)?',
+     "options": ['A. 2, 1, 0, +1/2', 'B. 2, 0, 0, +1/2', 'C. 3, 1, 2, -1/2', 'D. 3, 1, -1, -1/2'], "correct": 2},
+
+    # 44
+    {"text": 'What are the smallest whole-number coefficients for the following reaction? Al + O₂ → Al₂O₃',
+     "options": ['A. 1, 1, 1', 'B. 2, 1, 1', 'C. 2, 3, 2', 'D. 4, 3, 2'], "correct": 3},
+
+    # 45
+    {"text": 'What is the wavelength of light in nanometers if its frequency is 600 THz?',
+     "options": ['A. 500 nm', 'B. 1800 nm', 'C. 180 nm', 'D. 5000 nm'], "correct": 0},
+
+    # 46
+    {"text": 'Which is the most ideal gas element?',
+     "options": ['A. Helium', 'B. Neon', 'C. Nitrogen', 'D. Oxygen'], "correct": 0},
+
+    # 47
+    {"text": 'What is the name of HIO₄?',
+     "options": ['A. Periodic acid', 'B. Iodous acid', 'C. Iodic acid', 'D. Periodous acid'], "correct": 0},
+
+    # 48
+    {"text": 'Which pair is inversely proportional?',
+     "options": ['A. Bond order and bond energy', 'B. Bond strength and bond order', 'C. Bond length and bond energy', 'D. None of these'], "correct": 2},
+
+    # 49
+    {"text": 'Which group reacts with water at a slower rate to form basic hydroxide solutions?',
+     "options": ['A. Group 1', 'B. Group 2', 'C. Group 16', 'D. Group 7'], "correct": 1},
+
+    # 50
+    {"text": 'The following chemical formulas are correctly named EXCEPT:',
+     "options": ['A. BaCl₂, barium chloride', 'B. CsNO₂, cesium nitrate', 'C. Fe₂O₃, ferric oxide', 'D. Mg(HCO₃)₂, magnesium bicarbonate'], "correct": 1},
+
+    # 51 (methylbutane is the most volatile; branching lowers its boiling point relative to pentane)
+    {"text": 'Which substance is expected to have the highest vapor pressure?',
+     "options": ['A. Water', 'B. Pentane', 'C. Butanone', 'D. Methylbutane'], "correct": 3},
+
+    # 52
+    {"text": 'What is the name of MgH₂?',
+     "options": ['A. Magnesium hydroxide', 'B. Magnesium dihydride', 'C. Magnesium(II) hydride', 'D. Magnesium hydride'], "correct": 3},
+
+    # 53
+    {"text": 'A gas occupies 2.00 L at 300 K. What volume will it occupy at 450 K under constant pressure?',
+     "options": ['A. 1.33 L', 'B. 2.00 L', 'C. 3.00 L', 'D. 4.50 L'], "correct": 2},
+
+    # 54
+    {"text": 'When the pressure of a gas is increased and its temperature is lowered, which becomes applicable?',
+     "options": ['A. Van der Waals forces become evident.', 'B. Molecular motion speeds up.', 'C. No change occurs.', 'D. Ideality is achieved.'], "correct": 0},
+
+    # 55
+    {"text": 'A metal sample has a mass of 54.0 g and occupies 20.0 mL. What is its density?',
+     "options": ['A. 2.70 g/mL', 'B. 34.0 g/mL', 'C. 74.0 g/mL', 'D. 0.370 g/mL'], "correct": 0},
+
+    # 56
+    {"text": 'What is boiling-point elevation?',
+     "options": ['A. The boiling point of a solution', 'B. The difference between the boiling points of a pure solute and a pure solvent', 'C. The sum of the boiling points of a pure solvent and a solution', 'D. The difference between the boiling point of a solution and that of the pure solvent'], "correct": 3},
+
+    # 57
+    {"text": 'Which species is isoelectronic with neon?',
+     "options": ['A. F⁻', 'B. Cl⁻', 'C. Na', 'D. Mg'], "correct": 0},
+
+    # 58
+    {"text": 'Consider the reaction: 2H₂ + O₂ → 2H₂O. If 3.0 mol H₂ reacts with 2.0 mol O₂, which reactant is limiting and how much H₂O forms?',
+     "options": ['A. H₂ is limiting; 3.0 mol H₂O forms.', 'B. H₂ is limiting; 1.5 mol H₂O forms.', 'C. O₂ is limiting; 4.0 mol H₂O forms.', 'D. O₂ is limiting; 2.0 mol H₂O forms.'], "correct": 0},
+
+    # 59
+    {"text": 'Sodium carbonate is also known as',
+     "options": ['A. Baking soda', 'B. Soda ash', 'C. Caustic potash', 'D. Caustic soda'], "correct": 1},
+
+    # 60
+    {"text": 'It is the measure of hydrogen-ion activity in aqueous solutions.',
+     "options": ['A. Conductivity', 'B. Viscosity', 'C. pH', 'D. Solubility'], "correct": 2},
+
+    # 61
+    {"text": 'If the absolute temperature of a confined gas is doubled while volume is held constant, what happens to the pressure?',
+     "options": ['A. It doubles.', 'B. It becomes half as large.', 'C. It becomes four times as large.', 'D. It cannot be determined.'], "correct": 0},
+
+    # 62
+    {"text": 'Which of the following is true?',
+     "options": ['A. Heterogeneous mixtures have phase boundaries.', 'B. Compounds have only one type of atom.', 'C. Elements can be chemically decomposed.', 'D. Solutions are considered pure substances.'], "correct": 0},
+
+    # 63
+    {"text": 'The total volume of an average adult’s expanded lungs is approximately 6 L. Calculate the pressure of 0.05 mol oxygen at 37°C.',
+     "options": ['A. 0.0253 atm', 'B. 0.308 atm', 'C. 2.58 atm', 'D. 0.212 atm'], "correct": 3},
+
+    # 64
+    {"text": 'What normally happens to the viscosity of a liquid as its temperature increases?',
+     "options": ['A. It decreases.', 'B. It remains constant.', 'C. It becomes infinite.', 'D. It increases.'], "correct": 0},
+
+    # 65
+    {"text": 'A solution was prepared by transferring 60 mL of 85% v/v H₃PO₄ and diluting it to 1.0 L. What is the concentration of the new solution?',
+     "options": ['A. 10.10%', 'B. 9.25%', 'C. 12.2%', 'D. 5.10%'], "correct": 3},
+
+    # 66
+    {"text": 'Which molecule is polar?',
+     "options": ['A. CO₂', 'B. BF₃', 'C. CH₄', 'D. H₂O'], "correct": 3},
+
+    # 67
+    {"text": 'A liquid with strong intermolecular forces generally has',
+     "options": ['A. High vapor pressure', 'B. Low boiling point', 'C. Low vapor pressure', 'D. Low surface tension'], "correct": 2},
+
+    # 68
+    {"text": 'Which arrangement shows increasing atomic size?',
+     "options": ['A. Cs < Ca < O < Ne', 'B. Cs < O < Ca < Ne', 'C. Ne < Ca < O < Cs', 'D. Ne < O < Ca < Cs'], "correct": 3},
+
+    # 69
+    {"text": 'Predict the product of the following acid-base reaction: NH₃(aq) + HNO₃(aq) →',
+     "options": ['A. NH₂OH(aq) + HNO₂(aq)', 'B. NH₄NO₃(aq)', 'C. NH₄OH(aq)', 'D. No reaction'], "correct": 1},
+
+    # 70
+    {"text": 'Which chemical may be used to neutralize waste containing caustic soda?',
+     "options": ['A. Potassium hydroxide', 'B. Ammonia', 'C. Hydrochloric acid', 'D. Buffer 10 solution'], "correct": 2},
+
+]
+
+CT_PT_Analytical_Chemistry = [
+
+    # 1
+    {"text": 'All are common carrier gases for gas chromatography EXCEPT',
+     "options": ['A. Helium', 'B. Argon', 'C. Oxygen', 'D. Nitrogen'], "correct": 2},
+
+    # 2
+    {"text": 'This is used to remove trace amounts of water from organic solutions and can be added to pooled organic layers before removal of the organic solvent.',
+     "options": ['A. Drying agent', 'B. Boiling stone', 'C. Seed crystal', 'D. None of the above'], "correct": 0},
+
+    # 3
+    {"text": 'It is the property of an analytical method that allows the simultaneous determination of several components independently from one another.',
+     "options": ['A. Selectivity', 'B. Specificity', 'C. Sensitivity', 'D. Ruggedness'], "correct": 0},
+
+    # 4
+    {"text": 'All of the following are properties of an organic solvent for extraction EXCEPT',
+     "options": ['A. Dissolve the desired substance', 'B. React with the desired substance', 'C. Not react or be miscible with water', 'D. Have a low boiling point so it can be easily removed during a later purification step'], "correct": 1},
+
+    # 5
+    {"text": 'Which is the reducing agent in the following reaction? Ce⁴⁺ + Fe²⁺ ⇌ Ce³⁺ + Fe³⁺',
+     "options": ['A. Ce⁴⁺', 'B. Fe²⁺', 'C. Ce³⁺', 'D. Fe³⁺'], "correct": 1},
+
+    # 6
+    {"text": 'Which technique is used to reduce a bulk solid sample while maintaining representativeness?',
+     "options": ['A. Coning and quartering', 'B. Titration', 'C. Distillation', 'D. Reflux'], "correct": 0},
+
+    # 7
+    {"text": 'When Cr³⁺ changes from an oxidation state of +3 to +6, Cr³⁺ will',
+     "options": ['A. Gain 6 electrons', 'B. Lose 6 electrons', 'C. Lose 3 electrons', 'D. Gain 3 electrons'], "correct": 2},
+
+    # 8
+    {"text": 'The hydrochloric acid secreted by the stomach lining typically has a concentration of 1.2 × 10⁻³ M. What is its pH?',
+     "options": ['A. 1.50', 'B. 2.92', 'C. 3.50', 'D. 6.19'], "correct": 1},
+
+    # 9
+    {"text": 'It is the nominal volume of water or mercury contained or delivered by an article of volumetric glassware at its reference temperature.',
+     "options": ['A. Accuracy', 'B. Calibration', 'C. Capacity', 'D. Measurand'], "correct": 2},
+
+    # 10
+    {"text": 'Which should NOT be done when an emulsion forms during extraction?',
+     "options": ['A. Stir the emulsion gently using a stirring rod.', 'B. Add salt crystals and stir gently.', 'C. Add a salt solution and stir gently.', 'D. Shake the separatory funnel very vigorously.'], "correct": 3},
+
+    # 11
+    {"text": 'The boiling point of a liquid is the temperature at which its vapor pressure is:',
+     "options": ['A. Less than internal pressure', 'B. Equal to internal pressure', 'C. Equal to external pressure', 'D. Greater than internal pressure'], "correct": 2},
+
+    # 12
+    {"text": 'Which statements are TRUE? I. Dry ashing is primarily for proximate composition and some types of specific mineral analyses. II. Wet ashing is done as preparation for the analysis of certain minerals. III. Microwave systems are available for both dry and wet ashing to speed the processes.',
+     "options": ['A. I only', 'B. II only', 'C. I and II only', 'D. I, II, and III'], "correct": 3},
+
+    # 13
+    {"text": 'A liquid mixture that has a constant boiling point and whose vapor has the same composition as the liquid is a/an:',
+     "options": ['A. Azeotrope', 'B. Ideal solution', 'C. Nonideal solution', 'D. Eutectic mixture'], "correct": 0},
+
+    # 14
+    {"text": 'Reversed-phase chromatography refers to',
+     "options": ['A. Nonpolar stationary phase and polar mobile phase', 'B. Polar stationary phase and nonpolar mobile phase', 'C. Stationary and mobile phases with similar polarities', 'D. Nonpolar stationary phase and nonpolar mobile phase'], "correct": 0},
+
+    # 15
+    {"text": 'It is the fraction of the named material present in the stated chemical form.',
+     "options": ['A. Potency', 'B. Purity', 'C. Stability', 'D. Activity'], "correct": 1},
+
+    # 16
+    {"text": 'Adding NaCl to a saturated AgCl solution will generally:',
+     "options": ['A. Increase the solubility of AgCl', 'B. Decrease the solubility of AgCl', 'C. Have no effect', 'D. Completely ionize AgCl'], "correct": 1},
+
+    # 17
+    {"text": 'It allows many successive distillations to take place at once and contains indentations or packing material with a large surface area.',
+     "options": ['A. Adapter', 'B. Condenser', 'C. Round-bottom flask', 'D. Fractionating column'], "correct": 3},
+
+    # 18
+    {"text": 'An exact amount of 0.8214 g of KMnO₄, with a molar mass of 158 g/mol, was dissolved in water and diluted to volume in a 500 mL volumetric flask. A 2.00 mL portion was transferred to a 1000 mL flask and diluted to volume. Then, 10.00 mL of the diluted solution was transferred to a 250 mL flask and diluted to volume. What is the molar concentration of the final solution?',
+     "options": ['A. 0.104 M', 'B. 2.08 × 10⁻⁵ M', 'C. 8.32 × 10⁻⁷ M', 'D. None of the above'], "correct": 2},
+
+    # 19
+    {"text": 'Which can remove a fairly large amount of water from a sample containing thermally labile material?',
+     "options": ['A. Hotplate', 'B. Freeze dryer', 'C. Convection oven', 'D. Microwave equipment'], "correct": 1},
+
+    # 20 (solubility is the deciding property for crystallization; vapor pressure applies to distillation)
+    {"text": 'Which of the following are considered in purification using crystallization? I. Polarity II. Solubility III. Vapor pressure',
+     "options": ['A. I only', 'B. II only', 'C. I and II only', 'D. I, II, and III'], "correct": 1},
+
+    # 21
+    {"text": 'A reaction mixture needs to be cooled to −77°C after refluxing. What is the best method?',
+     "options": ['A. Ice bath', 'B. Freezer', 'C. Salt and crushed-ice mixture', 'D. Dry ice–acetone mixture'], "correct": 3},
+
+    # 22
+    {"text": 'Which electrochemical cell uses electrical energy to drive a nonspontaneous redox reaction?',
+     "options": ['A. Daniell cell', 'B. Voltaic cell', 'C. Galvanic cell', 'D. Electrolytic cell'], "correct": 3},
+
+    # 23
+    {"text": 'What is [OH⁻] in a solution having pOH = 3.00?',
+     "options": ['A. 1.0 × 10⁻¹¹ M', 'B. 1.0 × 10⁻⁷ M', 'C. 1.0 × 10⁻³ M', 'D. 3.0 M'], "correct": 2},
+
+    # 24
+    {"text": 'Possible sources of contamination during sample preparation include:',
+     "options": ['A. All of the choices', 'B. Reagents', 'C. Glassware from previous experiments', 'D. Equipment from previous experiments'], "correct": 0},
+
+    # 25
+    {"text": 'A student needs to transfer a precipitate from a beaker to filter paper. Which procedure best ensures quantitative transfer?',
+     "options": ['A. Decant most of the supernatant liquid, transfer the bulk of the precipitate through a stirring rod, then wash the beaker with large volumes of wash solution.', 'B. Decant most of the supernatant liquid, transfer the bulk of the precipitate through a stirring rod, then wash the beaker several times with small volumes of wash solution.', 'C. Shake the solution, immediately filter it, then wash the beaker with large volumes of wash solution.', 'D. None of the above.'], "correct": 1},
+
+    # 26 (two different pure substances can share a melting point, so "unique" is the false claim)
+    {"text": 'All of the following statements are true EXCEPT',
+     "options": ['A. Two different pure substances can have similar melting points.', 'B. An impure sample has a wider melting-point range.', 'C. Melting point serves as an index of purity of a solid crystalline substance.', 'D. Every pure solid crystalline substance has a characteristic and unique melting point.'], "correct": 3},
+
+    # 27
+    {"text": 'For the following reaction, which statement is FALSE? Mg + H₂O ⇌ MgO + H₂',
+     "options": ['A. H₂O is the oxidizing agent.', 'B. Mg loses electrons.', 'C. Mg is the oxidizing agent.', 'D. H₂O gains electrons.'], "correct": 2},
+
+    # 28
+    {"text": 'Which part of an electrochemical cell maintains electrical neutrality?',
+     "options": ['A. Anode', 'B. Salt bridge', 'C. Cathode', 'D. Voltmeter'], "correct": 1},
+
+    # 29
+    {"text": 'How many grams of NaCl, 58.44 g/mol, are required to prepare 250.0 mL of 0.200 M NaCl?',
+     "options": ['A. 1.46 g', 'B. 2.92 g', 'C. 5.84 g', 'D. 11.69 g'], "correct": 1},
+
+    # 30
+    {"text": 'Dry ashing is primarily used to',
+     "options": ['A. Increase organic content', 'B. Remove organic material and leave inorganic residue', 'C. Separate two liquids', 'D. Determine vapor pressure'], "correct": 1},
+
+    # 31
+    {"text": 'The end point of a titration is',
+     "options": ['A. Always identical to the equivalence point', 'B. Determined by experimental observation', 'C. The point at which no titrant has been added', 'D. Independent of the indicator used'], "correct": 1},
+
+    # 32 (a heating mantle and a sand bath can both reach 200°C; mantle chosen because it is the standard controlled heater with stirring)
+    {"text": 'Which technique can be used to heat a reaction to 200°C?',
+     "options": ['A. Use a Bunsen burner to heat the reaction vessel.', 'B. Use a heating mantle with stirring.', 'C. Place the reaction vessel in a sand bath with stirring.', 'D. Place the reaction vessel in a water bath with stirring.'], "correct": 1},
+
+    # 33
+    {"text": 'Which of the following can cause ERRORS during sample preparation? I. Loss of sample during weighing or dissolution II. Contamination by impurities in reagents and in the environment III. Changes in mass due to varying humidity and temperature IV. Obtaining a nonhomogeneous sample from the bulk',
+     "options": ['A. I and II only', 'B. I, III, and IV', 'C. I, II, and III', 'D. I, II, III, and IV'], "correct": 3},
+
+    # 34
+    {"text": 'Which statements are true about instrumental background signals? I. Even when no sample is being analyzed, the instrument generates a background signal. II. The instrument’s limit of detection improves when the signal-to-noise ratio increases. III. The instrument’s limit of detection is not affected by its signal-to-noise ratio.',
+     "options": ['A. I only', 'B. I and II', 'C. I and III', 'D. I, II, and III'], "correct": 1},
+
+    # 35
+    {"text": 'A sample actually contains 9 mg/L of a substance, but the reported result is only 5 mg/L. The acceptable limit is 7 mg/L. This is an example of:',
+     "options": ['A. False positive', 'B. False negative', 'C. Accurate result', 'D. Precise result'], "correct": 1},
+
+    # 36
+    {"text": 'Which funnel should be used to filter hot mother liquor during recrystallization?',
+     "options": ['A. Hirsch funnel', 'B. Büchner funnel', 'C. Long-stem funnel', 'D. Short-stem funnel'], "correct": 3},
+
+    # 37
+    {"text": 'Which of the following is NOT an acid–base conjugate pair?',
+     "options": ['A. NH₃ and NH₄⁺', 'B. H₂S and OH⁻', 'C. H₂O and OH⁻', 'D. HCN and CN⁻'], "correct": 1},
+
+    # 38
+    {"text": 'Before filling a buret with titrant, it should preferably be rinsed with',
+     "options": ['A. Tap water only', 'B. Distilled water only', 'C. A small portion of the titrant', 'D. Concentrated acid'], "correct": 2},
+
+    # 39
+    {"text": 'Which factors affect the choice of an analytical method?',
+     "options": ['A. The type of analysis required', 'B. The required accuracy', 'C. Possible interference from components other than the analyte', 'D. All of the choices'], "correct": 3},
+
+    # 40
+    {"text": 'A student is tasked to measure 12 mL of a liquid as precisely as possible. Which measuring device should be selected?',
+     "options": ['A. 25 mL beaker', 'B. 25 mL graduated cylinder', 'C. 25 mL conical flask', 'D. 25 mL volumetric flask'], "correct": 1},
+
+    # 41
+    {"text": 'What is the main purpose of heating under reflux?',
+     "options": ['A. To provide a very high temperature so slow reactions occur faster', 'B. To increase solvent evaporation and increase product yield', 'C. To heat a reaction mixture in a solvent at constant temperature without loss of reagents', 'D. None of the above'], "correct": 2},
+
+    # 42
+    {"text": 'In liquid-liquid extraction, a drop of water is added to the top layer. If the water dissolves in the top layer, then the top layer is:',
+     "options": ['A. Organic', 'B. Aqueous', 'C. Denser', 'D. Nonaqueous'], "correct": 1},
+
+    # 43 (ANSWER UNVERIFIED: the figure of the two graduated cylinders was not included in the pasted text, so "correct" is a placeholder)
+    {"text": 'Determine the volumes of the liquids in the graduated cylinders shown. (Figure of two graduated cylinders not included in the source.)',
+     "options": ['A. 6.60 mL and 2.00 mL', 'B. 6.60 mL and 2.30 mL', 'C. 6.70 mL and 2.00 mL', 'D. 6.70 mL and 2.30 mL'], "correct": 0},
+
+    # 44
+    {"text": 'What is the normality of 0.250 M H₂SO₄ in a complete acid–base neutralization?',
+     "options": ['A. 0.125 N', 'B. 0.250 N', 'C. 0.500 N', 'D. 1.00 N'], "correct": 2},
+
+    # 45
+    {"text": 'How would you prepare 500.0 mL of 0.2500 M NaOH from a 1.000 M NaOH stock solution?',
+     "options": ['A. Transfer 125 mL of the stock solution and dilute to 500.0 mL.', 'B. Transfer 121 mL of the stock solution and dilute to 500.0 mL.', 'C. Transfer 122 mL of the stock solution and dilute to 500.0 mL.', 'D. Transfer 112 mL of the stock solution and dilute to 500.0 mL.'], "correct": 0},
+
+    # 46
+    {"text": 'The size of the sample taken for analysis depends on the __________.',
+     "options": ['A. Concentration of analyte', 'B. Equipment to be used', 'C. Specific chemical tests', 'D. All of the choices'], "correct": 3},
+
+    # 47
+    {"text": 'This is done during liquid-liquid extraction to release pressure that builds up inside the separatory funnel during shaking.',
+     "options": ['A. Stirring', 'B. Venting', 'C. Drawing', 'D. Salting out'], "correct": 1},
+
+    # 48
+    {"text": 'What is the concentration in ppm of 0.0150 g Pb²⁺ dissolved in 2.00 L of solution?',
+     "options": ['A. 3.75 ppm', 'B. 7.50 ppm', 'C. 15.0 ppm', 'D. 30.0 ppm'], "correct": 1},
+
+    # 49
+    {"text": 'All of the following are oxidizing agents EXCEPT',
+     "options": ['A. Na₂S₂O₃', 'B. HNO₃', 'C. KMnO₄', 'D. K₂Cr₂O₇'], "correct": 0},
+
+    # 50
+    {"text": 'Which conjugate acid–base pair should be used to prepare a buffer with a pH near 7.15?',
+     "options": ['A. Formic acid and sodium formate, pKₐ = 3.74', 'B. Succinic acid and sodium succinate, pKₐ = 5.64', 'C. Sodium dihydrogen phosphate and sodium hydrogen phosphate, pKₐ₂ = 7.20', 'D. Glycylglycine and sodium glycylglycinate, pKₐ = 8.35'], "correct": 2},
+
+    # 51
+    {"text": 'Which substance is commonly used as a primary standard for standardizing NaOH?',
+     "options": ['A. NaCl', 'B. KHP', 'C. HCl', 'D. NH₄OH'], "correct": 1},
+
+    # 52
+    {"text": 'When solid and liquid phases are in equilibrium, the temperature of the system:',
+     "options": ['A. Decreases gradually', 'B. None of the given answers', 'C. Increases gradually', 'D. Remains constant'], "correct": 3},
+
+    # 53
+    {"text": 'At the equivalence point of an acid–base titration',
+     "options": ['A. The indicator must always be colorless.', 'B. The volume of acid must equal the volume of base.', 'C. Stoichiometrically equivalent amounts of acid and base have reacted.', 'D. The pH must always equal 7.'], "correct": 2},
+
+    # 54
+    {"text": 'What are the products of the reaction between HNO₃ and NH₄OH?',
+     "options": ['A. HNO₂ + H₂O', 'B. NH₂OH + H₂O', 'C. NH₄NO₃ + H₂O', 'D. No reaction occurs'], "correct": 2},
+
+    # 55
+    {"text": 'In the decomposition and dissolution of solids during sample preparation, which is expensive and often the last resort?',
+     "options": ['A. Fusion technique', 'B. Simple dissolution', 'C. Acid treatment using oxidation', 'D. Dissolution using ultrasound and solvent'], "correct": 0},
+
+    # 56
+    {"text": 'In determining the sugar concentration of powdered juice dissolved in water, which constitutes the matrix?',
+     "options": ['A. Sugar', 'B. Powdered juice', 'C. Water', 'D. Powdered juice and water'], "correct": 3},
+
+    # 57
+    {"text": 'A solution has 3 × 10⁻⁴ M Cu²⁺. Convert this concentration into ppm. Atomic mass of Cu = 63.55 g/mol.',
+     "options": ['A. 3 ppm', 'B. 38 ppm', 'C. 9 ppm', 'D. 19 ppm'], "correct": 3},
+
+    # 58
+    {"text": 'Which can promote even boiling?',
+     "options": ['A. Stones', 'B. All of the choices', 'C. Chips', 'D. Stir bars'], "correct": 1},
+
+    # 59
+    {"text": 'In which part of an electrochemical cell does oxidation occur?',
+     "options": ['A. Anode', 'B. Cathode', 'C. Salt bridge', 'D. Electric wire'], "correct": 0},
+
+    # 60 (a blank sample matrix is used to estimate the limit of detection: mean blank + 3s)
+    {"text": 'Which performance parameter may be determined by analyzing a blank sample matrix?',
+     "options": ['A. Bias estimate', 'B. Selectivity', 'C. Limit of quantification', 'D. Limit of detection'], "correct": 3},
+
+    # 61
+    {"text": 'What is the pH of 2.5 × 10⁻³ M HNO₃?',
+     "options": ['A. 2.40', 'B. 2.60', 'C. 3.40', 'D. 11.40'], "correct": 1},
+
+    # 62
+    {"text": 'When ammonium chloride hydrolyzes, the resulting solution will have a pH _____.',
+     "options": ['A. Less than 7', 'B. Equal to 7', 'C. Greater than 7', 'D. Equal to 14'], "correct": 0},
+
+    # 63
+    {"text": 'How many grams of NaOH, with a molar mass of 40 g/mol, are needed to prepare 500 mL of a 0.500 N NaOH solution?',
+     "options": ['A. 4.00 g', 'B. 5.00 g', 'C. 10.00 g', 'D. 10.3 g'], "correct": 2},
+
+    # 64
+    {"text": 'Which chemical grade is commonly used for low-grade applications such as cleaning and qualitative testing?',
+     "options": ['A. USP grade', 'B. NF grade', 'C. Technical grade', 'D. Laboratory grade'], "correct": 2},
+
+    # 65
+    {"text": 'For the following reaction, which statement is correct? Fe²⁺ + MnO₄⁻ ⇌ Fe³⁺ + Mn²⁺ + H₂O',
+     "options": ['A. Fe²⁺ is the oxidizing agent.', 'B. Fe²⁺ undergoes oxidation.', 'C. MnO₄⁻ undergoes oxidation.', 'D. MnO₄⁻ is the reducing agent.'], "correct": 1},
+
+    # 66
+    {"text": 'Which statements BEST describe a primary method? I. It is a set of instructions on how to carry out a method issued by a national standards body. II. It has the highest metrological qualities. III. It employs materials such as certified reference materials. IV. Titrating hydrochloric acid with anhydrous sodium carbonate to determine the acid concentration is an example.',
+     "options": ['A. I only', 'B. II only', 'C. II and IV', 'D. I and IV'], "correct": 2},
+
+    # 67
+    {"text": 'Objects cannot be weighed when hot or warm. But if you were to take a sample out and wait for it to cool, it would pick up moisture, so it should be placed in a/an:',
+     "options": ['A. Oven', 'B. Desiccator', 'C. Room temperature', 'D. Fume hood'], "correct": 1},
+
+    # 68
+    {"text": 'Which is TRUE for a 19/22 stopper?',
+     "options": ['A. Radius = 19 mm, height = 22 mm', 'B. Radius = 22 mm, height = 19 mm', 'C. Diameter = 19 mm, height = 22 mm', 'D. Diameter = 22 mm, height = 19 mm'], "correct": 2},
+
+    # 69
+    {"text": 'The following will cause drift errors in an analytical balance EXCEPT',
+     "options": ['A. Balance door is open.', 'B. Balance is not levelled.', 'C. Air currents are present in the laboratory.', 'D. Temperature of the balance and the sample to be weighed is the same.'], "correct": 3},
+
+    # 70
+    {"text": 'Which mixture produces a buffer solution?',
+     "options": ['A. HCl and NaCl', 'B. NaOH and KOH', 'C. CH₃COOH and CH₃COONa', 'D. HNO₃ and KNO₃'], "correct": 2},
+
+    # 71
+    {"text": 'For an effective buffer, the pKₐ of the weak acid should preferably be',
+     "options": ['A. Very different from the desired pH', 'B. Approximately equal to the desired pH', 'C. Equal to 0', 'D. Equal to 14'], "correct": 1},
+
+    # 72
+    {"text": 'An organic compound decomposes at its boiling point. What is the most appropriate method for recovery of the solid organic compound?',
+     "options": ['A. Steam distillation', 'B. Vacuum distillation', 'C. Fractional distillation', 'D. Liquid-liquid extraction'], "correct": 1},
+
+    # 73 (low confidence: "TC" means "to contain", so A is false; C describes TD pipets)
+    {"text": 'Which of the following is TRUE about TC pipets?',
+     "options": ['A. TC means “to carry.”', 'B. It commonly does not have a colored band.', 'C. It is used if the liquid left in the pipet is already accounted.', 'D. None of the choices.'], "correct": 3},
+
+    # 74
+    {"text": 'When reading the volume of a colorless liquid in a buret, the eye should be',
+     "options": ['A. Above the meniscus', 'B. Below the meniscus', 'C. Level with the meniscus', 'D. At any convenient position'], "correct": 2},
+
+    # 75
+    {"text": 'In an experiment to determine the percentage of water in a solid hydrate by heating, what is the best indication that all water has been removed?',
+     "options": ['A. The solid melts.', 'B. The solid changes color.', 'C. Water vapor no longer appears.', 'D. Successive weighings give the same mass.'], "correct": 3},
+
+    # 76
+    {"text": 'Why should a hot crucible not be weighed directly on an analytical balance?',
+     "options": ['A. Its mass becomes zero.', 'B. Convection currents can cause unstable readings.', 'C. It permanently increases the balance capacity.', 'D. The sample immediately dissolves.'], "correct": 1},
+
+    # 77
+    {"text": 'It is the portion of the calibration curve that includes the concentration range in which the analyte can be determined with demonstrated precision, accuracy, and response function.',
+     "options": ['A. Limit of detection', 'B. Limit of quantification', 'C. Working range', 'D. Linear dynamic range'], "correct": 2},
+
+    # 78
+    {"text": 'Method of passing the sample through a metal or plastic mesh of uniform cross-sectional area to separate particles into uniform sizes.',
+     "options": ['A. Sieving', 'B. Milling', 'C. Pulverizing', 'D. Macerating'], "correct": 0},
+
+    # 79
+    {"text": 'The lining of the stomach contains cells that secrete an HCl solution. Which drink would best alleviate heartburn caused by excess stomach acid?',
+     "options": ['A. Milk, pH 6.5', 'B. Wine, pH 3.8', 'C. Diet soda, pH 4.3', 'D. Milk of magnesia, pH 10.5'], "correct": 3},
+
+    # 80
+    {"text": 'A 25.0 mL aliquot of 2.00 M HCl is diluted to 500.0 mL. What is the final concentration?',
+     "options": ['A. 0.0500 M', 'B. 0.100 M', 'C. 0.250 M', 'D. 1.000 M'], "correct": 1},
+
+    # 81
+    {"text": 'Sample preparation technique used prior to instrumental analysis of metals:',
+     "options": ['A. Sieving', 'B. Clean-up', 'C. Acid digestion', 'D. Liquid-liquid extraction'], "correct": 2},
+
+    # 82
+    {"text": 'Where should a thermometer be placed to determine the boiling point of the distillate?',
+     "options": ['A. Inside the distilling flask, just below the side arm', 'B. Immersed in the liquid mixture being distilled', 'C. Inside the receiver', 'D. Inside the adapter'], "correct": 0},
+
+    # 83
+    {"text": 'In an electrolytic cell, oxidation occurs',
+     "options": ['A. At the anode', 'B. At the cathode', 'C. At either the cathode or anode', 'D. Between the cathode and anode'], "correct": 0},
+
+    # 84
+    {"text": 'Which technique is recommended for determining the odor of an unknown liquid in the laboratory?',
+     "options": ['A. Hold the test tube directly under the nose and inhale.', 'B. Transfer a few drops to the bench top and inhale the vapor.', 'C. Use a dropper to squirt vapor under the nose while inhaling.', 'D. Use a hand to fan some vapor from the test tube toward the nose and inhale.'], "correct": 3},
+
+    # 85
+    {"text": 'During the electroplating of silver, silver ions in the solution',
+     "options": ['A. Are oxidized at the anode', 'B. Are oxidized at the cathode', 'C. Are reduced at the cathode', 'D. Remain unchanged in the solution'], "correct": 2},
+
+    # 86
+    {"text": 'To determine the density of a liquid, which should be used?',
+     "options": ['A. Graduated cylinder', 'B. Volumetric flask', 'C. Pycnometer', 'D. Pipette'], "correct": 2},
+
+    # 87
+    {"text": 'In crystallization, crystal phases can be interconverted by varying:',
+     "options": ['A. Temperature', 'B. Pressure', 'C. Viscosity', 'D. Size'], "correct": 0},
+
+    # 88
+    {"text": 'The elution power of a mobile phase is determined by',
+     "options": ['A. Its overall polarity', 'B. The polarity of the stationary phase', 'C. All of the choices', 'D. The nature of the sample components'], "correct": 2},
+
+    # 89
+    {"text": 'Which should NOT be used during dry ashing?',
+     "options": ['A. Zirconium', 'B. Platinum', 'C. Porcelain', 'D. Glass'], "correct": 3},
+
+    # 90
+    {"text": 'A 5 g organic solid is dissolved in 100 mL of distilled water. What is the best way to recover most of the organic solid?',
+     "options": ['A. Single extraction using 150 mL ether', 'B. Single extraction using 150 mL acetic acid', 'C. Multiple extraction using three 50 mL portions of ether', 'D. Multiple extraction using three 50 mL portions of acetic acid'], "correct": 2},
+
+]
+
+CT_PT_Quality_Assurance_Control = [
+
+    # 1
+    {"text": 'Which of the following correctly describes Quality Control?',
+     "options": ['A. Proactive and process-oriented', 'B. Reactive and product-oriented', 'C. Preventive and management-oriented', 'D. Proactive and customer-oriented'], "correct": 1},
+
+    # 2
+    {"text": 'An audit conducted by an individual not directly related to the organization is classified as',
+     "options": ['A. Internal audit', 'B. External audit', 'C. Process audit', 'D. Management review'], "correct": 1},
+
+    # 3 (GLP is generally treated as a subsection of GMP)
+    {"text": 'Good Laboratory Practices are considered a subsection of',
+     "options": ['A. ISO 15189', 'B. GMP', 'C. CPA', 'D. ISO/IEC 17025'], "correct": 1},
+
+    # 4
+    {"text": 'What is the primary purpose of a quality audit?',
+     "options": ['A. To calculate analytical uncertainty', 'B. To determine compliance with quality management plans', 'C. To calibrate laboratory instruments', 'D. To prepare reference materials'], "correct": 1},
+
+    # 5
+    {"text": 'Quality Assurance is primarily intended to assure clients that laboratory-generated data are',
+     "options": ['A. Obtained as quickly as possible', 'B. Of good quality and compliant with applicable protocols and regulations', 'C. Always identical between laboratories', 'D. Produced using automated equipment and systems'], "correct": 1},
+
+    # 6
+    {"text": 'It is a part of quality systems that is officially defined by the ISO as the assembly of all planned and systematic actions to provide adequate confidence that a product, process or service will satisfy the given quality requirements.',
+     "options": ['A. Quality Management', 'B. Quality Assurance', 'C. Quality Control', 'D. Quality Manual'], "correct": 1},
+
+    # 7
+    {"text": 'An analyst knows that special test samples have been inserted into a batch but does not know which samples they are. These are',
+     "options": ['A. Repeat samples', 'B. Blind samples', 'C. Method blanks', 'D. Calibration standards'], "correct": 1},
+
+    # 8
+    {"text": 'Which of the following is NOT listed as a use of chemical standards?',
+     "options": ['A. Checking metrological traceability', 'B. Validating analytical methods', 'C. Calibrating analytical methods', 'D. Increasing sample stability'], "correct": 3},
+
+    # 9
+    {"text": 'What is the primary goal of managing quality in analytical laboratories?',
+     "options": ['A. Eliminate all laboratory errors', 'B. Incorporate standard protocols into all laboratory activities', 'C. Increase the number of samples analyzed', 'D. Reduce laboratory operating costs'], "correct": 1},
+
+    # 10
+    {"text": 'Which quality system standard is specifically intended for medical laboratories?',
+     "options": ['A. ISO 15189', 'B. ISO 9000', 'C. ISO/IEC 17025', 'D. GLP'], "correct": 0},
+
+    # 11
+    {"text": 'Which blank contains all components except the analyte and is taken through all steps of the analytical procedure?',
+     "options": ['A. Reagent blank', 'B. Field blank', 'C. Method blank', 'D. Calibration blank'], "correct": 2},
+
+    # 12
+    {"text": 'External Quality Assurance primarily ensures quality for',
+     "options": ['A. Clients', 'B. Laboratory analysts', 'C. Equipment suppliers', 'D. Internal auditors'], "correct": 0},
+
+    # 13
+    {"text": 'Which activity is most closely associated with Quality Assurance?',
+     "options": ['A. Identification of defects', 'B. Verification of finished products', 'C. Prevention of defects', 'D. Rejection of defective products'], "correct": 2},
+
+    # 14
+    {"text": 'An internal audit is conducted by',
+     "options": ['A. A client', 'B. An accreditation representative', 'C. A member of the audited area', 'D. An external regulatory agency'], "correct": 2},
+
+    # 15
+    {"text": 'Which blank is exposed to the actual site of sampling?',
+     "options": ['A. Method blank', 'B. Reagent blank', 'C. Field blank', 'D. Calibration blank'], "correct": 2},
+
+    # 16
+    {"text": 'This quality system standard is a general requirement for the competence of testing and calibration laboratories.',
+     "options": ['A. GLP', 'B. GMP', 'C. ISO 9001', 'D. ISO/IEC 17025'], "correct": 3},
+
+    # 17
+    {"text": 'A laboratory result is located beyond the warning limit but remains within the control limit. What does this indicate?',
+     "options": ['A. The process is automatically considered acceptable with no monitoring required', 'B. The process may be heading out of control and should be monitored closely', 'C. The process must always be permanently terminated', 'D. The analytical result must automatically be deleted'], "correct": 1},
+
+    # 18
+    {"text": 'Which statement best describes quality according to the presentation?',
+     "options": ['A. Production of a completely defect-free product', 'B. Meeting minimum specifications set by the customer in a timely manner', 'C. Obtaining exactly the same result in every analysis', 'D. Following only government regulations'], "correct": 1},
+
+    # 19 (out-of-action-limit results and a seven-point trend stop the process; three points on one side of the central line do not)
+    {"text": 'Which of the following observation(s) will require a process to stop immediately? I. Results lie outside action limits. II. Three consecutive measurements on one side of the central limit. III. Seven consecutive measurements create an increasing trend. IV. Values are within warning limits.',
+     "options": ['A. I only', 'B. I and III', 'C. I, II, and IV', 'D. I, III, and IV'], "correct": 1},
+
+    # 20
+    {"text": 'Why should QC samples be available in large quantities?',
+     "options": ['A. To allow their repeated use for routine quality monitoring', 'B. To increase the concentration of the analyte', 'C. To replace all unknown samples', 'D. To eliminate the need for calibration'], "correct": 0},
+
+    # 21
+    {"text": 'Which of the following is NOT a characteristic of a Quality Control sample?',
+     "options": ['A. Similar in composition to normal samples', 'B. Stable and homogeneous', 'C. Available in large quantities', 'D. Completely unknown in composition'], "correct": 3},
+
+    # 22
+    {"text": 'A sample originally contains 20.0 mg/L of an analyte. After adding a 10.0 mg/L spike, the measured concentration is 29.5 mg/L. What is the percent recovery?',
+     "options": ['A. 90%', 'B. 95%', 'C. 97.5%', 'D. 105%'], "correct": 1},
+
+    # 23
+    {"text": 'Certification is generally specific to a',
+     "options": ['A. Country only', 'B. Laboratory employee', 'C. Product, process, or service', 'D. Type of laboratory glassware'], "correct": 2},
+
+    # 24
+    {"text": 'Which standard is also called a working standard?',
+     "options": ['A. Primary standard', 'B. Secondary standard', 'C. Analytical standard', 'D. Calibration standard'], "correct": 1},
+
+    # 25
+    {"text": 'Process in which all of the modifications made into a laboratory activity are documented.',
+     "options": ['A. Management review', 'B. Audit trail', 'C. Accreditation', 'D. Quality manual'], "correct": 1},
+
+    # 26
+    {"text": 'What is added to a sample during a spiking procedure?',
+     "options": ['A. An unknown amount of solvent', 'B. A known quantity of analyte', 'C. A field blank', 'D. A secondary standard with unknown concentration'], "correct": 1},
+
+    # 27
+    {"text": 'Which standard promotes the adoption of a process approach in developing, implementing, and improving a quality management system?',
+     "options": ['A. ISO 15189', 'B. ISO 9000 Quality Management System', 'C. GLP', 'D. CPA'], "correct": 1},
+
+    # 28
+    {"text": 'A type of blank that is commonly used with techniques such as spectrophotometry to zero the instrument before measuring test samples and other blanks.',
+     "options": ['A. Reagent blank', 'B. Method blank', 'C. Trip blank', 'D. Field blank'], "correct": 0},
+
+    # 29
+    {"text": 'In a quality control chart, the upper and lower warning limits are commonly positioned at',
+     "options": ['A. ±1 standard deviation from the central line', 'B. ±2 standard deviations from the central line', 'C. ±3 standard deviations from the central line', 'D. ±4 standard deviations from the central line'], "correct": 1},
+
+    # 30
+    {"text": 'Which of the following correctly describes Quality Assurance?',
+     "options": ['A. Reactive and defect-oriented', 'B. Reactive and product-oriented', 'C. Proactive and process-oriented', 'D. Product-oriented and corrective'], "correct": 2},
+
+    # 31
+    {"text": 'A series of reference standard solutions that have known and accurate pH values at different temperatures, and used for pH meter calibration.',
+     "options": ['A. Buffer solutions', 'B. QC solutions', 'C. pH solutions', 'D. None of these'], "correct": 0},
+
+    # 32
+    {"text": 'A drug sample contains 10.0 µg/L of its active ingredient. A 5.0 µg/L of spike was added to a replicate portion of the drug. The spiked sample gave a concentration of 14.6 µg/L. What is the % recovery of the spike?',
+     "options": ['A. 34', 'B. 96', 'C. 37', 'D. 92'], "correct": 3},
+
+    # 33
+    {"text": 'A standard whose value is assigned through comparison with a primary standard is known as a',
+     "options": ['A. Secondary standard', 'B. Certified Reference Material', 'C. Method blank', 'D. Quality Control sample'], "correct": 0},
+
+    # 34
+    {"text": 'A sample is analyzed again later in the same batch or in another batch to provide a less formal quality check. This is called a',
+     "options": ['A. Blind sample', 'B. Repeat sample', 'C. Field blank', 'D. Primary standard'], "correct": 1},
+
+    # 35 (80–120% is the commonly cited acceptance window for spike recovery)
+    {"text": 'What is the acceptable range for spiking recovery?',
+     "options": ['A. 80%–120%', 'B. 90%–110%', 'C. 95%–105%', 'D. 98%–102%'], "correct": 0},
+
+    # 36
+    {"text": 'Clinical Pathology Accreditation is a quality system standard specifically employed in',
+     "options": ['A. Calibration laboratories', 'B. Pathology laboratories', 'C. Manufacturing plants', 'D. Environmental laboratories'], "correct": 1},
+
+    # 37
+    {"text": 'Good Laboratory Practices are concerned with laboratory activities from',
+     "options": ['A. Sampling to calibration only', 'B. Planning through reporting and archiving of results', 'C. Manufacturing to product distribution', 'D. Instrument installation to maintenance only'], "correct": 1},
+
+    # 38
+    {"text": 'Which document provides guidelines and procedures for managing quality systems?',
+     "options": ['A. Quality certificate', 'B. Quality manual', 'C. Audit trail', 'D. Calibration certificate'], "correct": 1},
+
+    # 39 (this is the ISO Guide 30 definition of a reference material; CRMs add certified values with traceability)
+    {"text": 'A material, sufficiently homogeneous and stable with respect to one or more specified property values, which has been established to be fit for its intended use in a measurement process.',
+     "options": ['A. Chemical standards', 'B. Certified Reference Materials (CRM)', 'C. Reference Materials (RM)', 'D. Certified standards'], "correct": 2},
+
+    # 40
+    {"text": 'Internal Quality Assurance primarily ensures quality for',
+     "options": ['A. Clients', 'B. Regulatory agencies', 'C. Laboratory management', 'D. Equipment manufacturers'], "correct": 2},
+
+    # 41
+    {"text": 'A reactive part of the quality management system that is concerned on the quality of the product, especially those materials that are soon to be released to the customer.',
+     "options": ['A. Quality Assurance', 'B. Quality Control', 'C. Quality Audit', 'D. Quality Evaluation'], "correct": 1},
+
+    # 42
+    {"text": 'Which quality control sample provides a less formal check than a conventional QC sample?',
+     "options": ['A. Blind sample', 'B. Repeat sample', 'C. Field blank', 'D. Primary standard'], "correct": 1},
+
+    # 43
+    {"text": 'It is a laboratory quality control activity that is used to verify that an instrument works correctly on a day-to-day basis.',
+     "options": ['A. Spiking', 'B. Blank analysis', 'C. System suitability checking', 'D. Reference material analysis'], "correct": 2},
+
+    # 44
+    {"text": 'Which of the following are characteristics of a QC sample?',
+     "options": ['A. Similar in composition to the types of samples normally examined.', 'B. Must be stable.', 'C. Must be available in large quantities.', 'D. All of the above.'], "correct": 3},
+
+    # 45
+    {"text": 'Which activity is most closely associated with Quality Control?',
+     "options": ['A. Defining standards', 'B. Preventing defects', 'C. Verification of products before release', 'D. Developing quality procedures'], "correct": 2},
+
+    # 46
+    {"text": 'A quality system is a combination of which three components?',
+     "options": ['A. Quality Management, Quality Assurance, and Quality Control', 'B. Quality Audit, Quality Manual, and Quality Control', 'C. Accreditation, Certification, and Quality Assurance', 'D. Management Review, Audit Trail, and Certification'], "correct": 0},
+
+    # 47
+    {"text": 'Certification confirms that a laboratory’s quality management system is',
+     "options": ['A. Fully implemented and compliant with the standard', 'B. Free from all analytical errors', 'C. Recognized as competent for every possible test', 'D. Exempt from future audits'], "correct": 0},
+
+    # 48
+    {"text": 'What is another term for spiking?',
+     "options": ['A. Fortification', 'B. Calibration', 'C. Certification', 'D. Accreditation'], "correct": 0},
+
+    # 49
+    {"text": 'When a deviation from critical limits happens, what should be done?',
+     "options": ['A. Documentation of corrective actions.', 'B. Stop the process and inform the supervisor.', 'C. Reassess the standards being implemented.', 'D. All of the above.'], "correct": 3},
+
+    # 50
+    {"text": 'A sample inserted into an analytical batch without the analyst knowing its identity is called a',
+     "options": ['A. Blind sample', 'B. Method blank', 'C. Calibration standard', 'D. Reagent blank'], "correct": 0},
+
+    # 51
+    {"text": 'Which chemical standard has the highest metrological qualities and whose value is accepted without reference to another standard of the same quantity?',
+     "options": ['A. Secondary standard', 'B. Analytical standard', 'C. Calibration standard', 'D. Primary standard'], "correct": 3},
+
+    # 52
+    {"text": 'Which of the following is/are TRUE about quality assurance? I. QA is a set of activities for ensuring quality in the process by which products are developed. II. QA is a corrective tool and product oriented.',
+     "options": ['A. I only', 'B. II only', 'C. Both I and II', 'D. None of these'], "correct": 0},
+
+    # 53
+    {"text": 'Which statement best describes a Quality Control sample?',
+     "options": ['A. A sample with completely unknown composition', 'B. A sample with known composition and a matrix similar to the samples being analyzed', 'C. A sample containing only the solvent', 'D. A sample used only for instrument cleaning'], "correct": 1},
+
+    # 54
+    {"text": 'Accreditation gives formal recognition that a laboratory is',
+     "options": ['A. Profitable', 'B. Competent to carry out certain tasks', 'C. Producing only certified products', 'D. Completely free of systematic error'], "correct": 1},
+
+    # 55
+    {"text": 'Good Manufacturing Practice requires products intended for human consumption to be',
+     "options": ['A. Economical, available, and standardized', 'B. Safe, pure, and effective', 'C. Certified, accredited, and validated', 'D. Stable, homogeneous, and inexpensive'], "correct": 1},
+
+    # 56
+    {"text": 'Which blank is similar to a method blank but is not subjected to all sample preparation procedures?',
+     "options": ['A. Reagent blank', 'B. Field blank', 'C. Method blank', 'D. QC sample'], "correct": 0},
+
+    # 57 (GMP is the standard that applies to products for human consumption; "All of these" is the alternative if your key counts every listed standard)
+    {"text": 'If you are going to mass produce vitamin C, which standard should you subscribe in?',
+     "options": ['A. GMP', 'B. HACCP', 'C. ISO 9001', 'D. All of these'], "correct": 0},
+
+    # 58
+    {"text": 'Which of the following is a required characteristic of a QC sample?',
+     "options": ['A. It must be unstable', 'B. It must be heterogeneous', 'C. It must be fully characterized', 'D. It must contain no analyte'], "correct": 2},
+
+    # 59
+    {"text": 'What additional element distinguishes accreditation from certification?',
+     "options": ['A. Financial evaluation', 'B. Peer review for the intended purpose', 'C. Product packaging inspection', 'D. Customer satisfaction surveys'], "correct": 1},
+
+    # 60
+    {"text": 'A technique used to evaluate the performance of a procedure when testing a specific sample type.',
+     "options": ['A. Spiking', 'B. Blank analysis', 'C. System suitability checking', 'D. Reference material analysis'], "correct": 0},
+
+]
+
+CT_PT_Laboratory_Instrumentation = [
+
+    # 1
+    {"text": 'A strong, broad IR absorption at 3600–3200 cm⁻¹ most strongly suggests the presence of a',
+     "options": ['A. C=O bond', 'B. O–H bond', 'C. C≡N bond', 'D. C=C bond'], "correct": 1},
+
+    # 2
+    {"text": 'Which of the following is a line source of radiation?',
+     "options": ['A. tungsten lamp', 'B. D₂ lamp', 'C. hollow cathode lamp', 'D. H₂ lamp'], "correct": 2},
+
+    # 3
+    {"text": 'Which condition is required for ideal application of Beer’s Law?',
+     "options": ['A. concentrated solutions must be used', 'B. light should be monochromatic', 'C. several absorbing species must always be present', 'D. scattered light must reach the detector'], "correct": 1},
+
+    # 4
+    {"text": 'Which of the following is the correct order in which light passes through a UV-Vis spectrophotometer?',
+     "options": ['A. detector, sample, source, monochromator', 'B. source, monochromator, sample, detector', 'C. source, sample, monochromator, detector', 'D. monochromator, source, sample, detector'], "correct": 1},
+
+    # 5
+    {"text": 'What is a major advantage of a photomultiplier tube?',
+     "options": ['A. internal amplification', 'B. absence of electrical signals', 'C. production of monochromatic radiation', 'D. elimination of the need for a radiation source'], "correct": 0},
+
+    # 6
+    {"text": 'Which of the following has the correct order of elution (first to last) from an HPLC column containing a reversed-phase packing?',
+     "options": ['A. acetone, dichloroethane, acetamide', 'B. acetamide, acetone, dichloroethane', 'C. dichloroethane, acetone, acetamide', 'D. dichloroethane, acetamide, acetone'], "correct": 1},
+
+    # 7
+    {"text": 'What is the primary function of a guard column in HPLC?',
+     "options": ['A. increase detector sensitivity', 'B. protect the analytical column from contamination', 'C. increase sample concentration', 'D. control mobile-phase temperature'], "correct": 1},
+
+    # 8
+    {"text": 'Liquid-liquid chromatography separates compounds primarily by',
+     "options": ['A. partition between immiscible liquids', 'B. magnetic attraction', 'C. sublimation', 'D. filtration'], "correct": 0},
+
+    # 9
+    {"text": 'A soft ionization method in mass spectrometry that is typically applied to biomolecules that involves a laser striking a solid matrix to ionize the analyte without fragmentation or decomposition.',
+     "options": ['A. EI', 'B. CI', 'C. ESI', 'D. MALDI'], "correct": 3},
+
+    # 10
+    {"text": 'Spectroscopy is defined as the study of the interaction between',
+     "options": ['A. heat and pressure', 'B. electromagnetic radiation and matter', 'C. acids and bases', 'D. solids and liquids'], "correct": 1},
+
+    # 11
+    {"text": 'A solution containing 4.48 ppm KMnO₄ (158.04 g/mol) exhibits 85.9% transmittance in a 1.00-cm cell at 520 nm. Calculate the molar absorptivity of KMnO₄ at this wavelength.',
+     "options": ['A. 1.47 × 10³ L/mol·cm', 'B. 2.33 × 10³ L/mol·cm', 'C. 4.29 × 10⁻⁴ L/mol·cm', 'D. 2.24 × 10⁻⁵ L/mol·cm'], "correct": 1},
+
+    # 12
+    {"text": 'A hollow cathode tube lamp is necessary in AAS because',
+     "options": ['A. The width of an atom’s absorption band is narrow.', 'B. Cathode lamps are cheaper to operate and maintain.', 'C. Continuous spectrum lamps do not emit at the proper intensity.', 'D. Continuous spectrum lamps cause ionization of the molecules.'], "correct": 0},
+
+    # 13
+    {"text": 'In atomic spectroscopy, converting a sample into gas-phase atoms or elementary ions is called',
+     "options": ['A. derivatization', 'B. atomization', 'C. elution', 'D. ion exchange'], "correct": 1},
+
+    # 14
+    {"text": 'A volumetric pipet is designed primarily to',
+     "options": ['A. deliver a single fixed volume', 'B. measure several variable volumes', 'C. determine liquid density', 'D. contain a standard solution permanently'], "correct": 0},
+
+    # 15
+    {"text": 'Which GC detector is particularly sensitive to compounds containing electronegative atoms?',
+     "options": ['A. FID', 'B. TCD', 'C. ECD', 'D. NPD'], "correct": 2},
+
+    # 16
+    {"text": 'In atomic spectroscopy, atomization refers to converting the sample into',
+     "options": ['A. solid crystals', 'B. gas-phase atoms or elementary ions', 'C. an aqueous precipitate', 'D. a polymeric film'], "correct": 1},
+
+    # 17
+    {"text": 'The peaks of the following bonds can be found at ≥3000 cm⁻¹ in an IR spectrum EXCEPT',
+     "options": ['A. O–H bond', 'B. N–H bond', 'C. C–H bond', 'D. C–C bond'], "correct": 3},
+
+    # 18
+    {"text": 'The guard column in HPLC is positioned primarily to',
+     "options": ['A. protect the analytical column from contamination', 'B. increase sample concentration', 'C. generate UV radiation', 'D. measure pressure directly'], "correct": 0},
+
+    # 19
+    {"text": 'The selectivity factor, α, compares the',
+     "options": ['A. widths of two chromatographic peaks', 'B. retention of two solutes', 'C. detector responses of two solutes', 'D. lengths of two columns'], "correct": 1},
+
+    # 20
+    {"text": 'A compound has tᵣ = 10 min and tₘ = 2 min. What is its retention factor, k?',
+     "options": ['A. 2', 'B. 4', 'C. 5', 'D. 8'], "correct": 1},
+
+    # 21
+    {"text": 'An analytical balance should have a precision of at least',
+     "options": ['A. 1 part in 10²', 'B. 1 part in 10³', 'C. 1 part in 10⁴', 'D. 1 part in 10⁵'], "correct": 3},
+
+    # 22
+    {"text": 'Which may serve as a mobile phase in column chromatography?',
+     "options": ['A. gas or liquid', 'B. solid only', 'C. plasma only', 'D. precipitate only'], "correct": 0},
+
+    # 23
+    {"text": 'Volumetric flasks are particularly useful for',
+     "options": ['A. heating organic liquids', 'B. preparing standard solutions', 'C. measuring density', 'D. filtering precipitates'], "correct": 1},
+
+    # 24
+    {"text": 'In gradient elution, the mobile-phase composition',
+     "options": ['A. remains constant', 'B. is varied during the separation', 'C. contains only one solvent', 'D. is removed completely during analysis'], "correct": 1},
+
+    # 25 (plate height H = L/N, so N = L/H; "H × L = N" is the false statement)
+    {"text": 'The height equivalent of a theoretical plate (HETP) has all of the following characteristics EXCEPT',
+     "options": ['A. It is defined by the van Deemter equation.', 'B. Equilibrium is attained at each height equivalent.', 'C. The smaller the value is, the better the separation attainable.', 'D. This quantity times the column length is equal to the number of theoretical plates in the column.'], "correct": 3},
+
+    # 26
+    {"text": 'Which approximate IR range is associated with the carbonyl C=O group?',
+     "options": ['A. 3600–3200 cm⁻¹', 'B. 2500–2200 cm⁻¹', 'C. 1800–1650 cm⁻¹', 'D. 1200–800 cm⁻¹'], "correct": 2},
+
+    # 27
+    {"text": 'Which bond typically produces a medium IR absorption at 3500–3200 cm⁻¹?',
+     "options": ['A. N–H', 'B. C=C', 'C. C≡C', 'D. C=O'], "correct": 0},
+
+    # 28
+    {"text": 'Which volumetric equipment is normally calibrated to contain a specified volume rather than deliver it?',
+     "options": ['A. buret', 'B. measuring pipet', 'C. volumetric flask', 'D. volumetric pipet'], "correct": 2},
+
+    # 29
+    {"text": 'The primary function of the analytical column in HPLC is to',
+     "options": ['A. protect the detector', 'B. separate sample components', 'C. store the mobile phase', 'D. inject the sample'], "correct": 1},
+
+    # 30
+    {"text": 'Which sequence correctly represents the basic path of radiation in a UV-Vis spectrophotometer?',
+     "options": ['A. source → sample → detector → monochromator', 'B. detector → monochromator → sample → source', 'C. source → monochromator → sample → detector', 'D. monochromator → detector → source → sample'], "correct": 2},
+
+    # 31
+    {"text": 'Fractional distillation is appropriate when the boiling points of two miscible liquids differ by',
+     "options": ['A. less than 25 °C', 'B. more than 100 °C', 'C. exactly 50 °C', 'D. more than 200 °C'], "correct": 0},
+
+    # 32
+    {"text": 'Widely used continuous atomization method in AAS. It is also the most reproducible of all liquid-sample introduction methods that have been developed for AAS to date.',
+     "options": ['A. Flame', 'B. Electrothermal', 'C. Direct-current plasma', 'D. Inductively coupled plasma'], "correct": 0},
+
+    # 33
+    {"text": 'Select the correct statement from the following options.',
+     "options": ['A. The lesser the polarity of solute, more strongly it will be adsorbed on a polar surface.', 'B. The greater the polarity of solute, more weakly it will be adsorbed on a polar surface.', 'C. The greater the polarity of solute, more strongly it will be adsorbed on a polar surface.', 'D. All of the mentioned option.'], "correct": 2},
+
+    # 34
+    {"text": 'Which substance is commonly used as the external standard in ¹H NMR spectroscopy and assigned δ = 0 ppm?',
+     "options": ['A. benzene', 'B. tetramethylsilane', 'C. methanol', 'D. chloroform'], "correct": 1},
+
+    # 35
+    {"text": 'Simple distillation is described as suitable for separating liquids boiling below approximately',
+     "options": ['A. 50 °C', 'B. 100 °C', 'C. 150 °C', 'D. 300 °C'], "correct": 2},
+
+    # 36
+    {"text": 'In chromatography, the time required for a nonretained solute to pass through the column is called the',
+     "options": ['A. retention time', 'B. dead or void time', 'C. resolution time', 'D. equilibration time'], "correct": 1},
+
+    # 37
+    {"text": 'During coning and quartering, which portions are discarded after the flattened sample is divided into four quarters?',
+     "options": ['A. two adjacent quarters', 'B. three quarters', 'C. two diagonally opposed quarters', 'D. only the smallest quarter'], "correct": 2},
+
+    # 38
+    {"text": 'Inorganic solid samples are commonly dried before weighing at approximately',
+     "options": ['A. 25 to 30 °C', 'B. 50 to 60 °C', 'C. 105 to 110 °C', 'D. 200 to 300 °C'], "correct": 2},
+
+    # 39
+    {"text": 'Which apparatus can hasten the drying of a thermally unstable sample without subjecting it to high temperature?',
+     "options": ['A. vacuum desiccator', 'B. Bunsen burner', 'C. sand bath', 'D. muffle furnace'], "correct": 0},
+
+    # 40
+    {"text": 'The following are properties of an open tubular or capillary column EXCEPT',
+     "options": ['A. Poor resolution can be obtained.', 'B. Only small samples can be applied.', 'C. It has a long column length with small inner diameter.', 'D. It contains an enormous number of plates that permit rapid separations of closely related species.'], "correct": 0},
+
+    # 41
+    {"text": 'For a chromatographic column, plate height is calculated using',
+     "options": ['A. H = N/L', 'B. H = L/N', 'C. H = tᵣ/tₘ', 'D. H = N × L'], "correct": 1},
+
+    # 42
+    {"text": 'An advantage of HPLC over GC for the separation and measurement of high molecular weight compounds is that',
+     "options": ['A. HPLC columns and detectors are simpler and less expensive.', 'B. The preparation of volatile derivatives is not necessary in HPLC.', 'C. HPLC systems are always operated under constant conditions of eluant temperature and composition.', 'D. The sensitivity of HPLC detectors increases as the molecular weights of the compounds increase.'], "correct": 1},
+
+    # 43
+    {"text": 'Which bath can commonly be used at temperatures greater than 250 °C?',
+     "options": ['A. ice bath', 'B. water bath', 'C. sand bath', 'D. salt-water bath'], "correct": 2},
+
+    # 44
+    {"text": 'Which parameter quantitatively describes how well two chromatographic peaks are separated?',
+     "options": ['A. plate height', 'B. resolution', 'C. dead time', 'D. baseline width'], "correct": 1},
+
+    # 45
+    {"text": 'A solute has a retention time of 8.0 min and the column dead time is 2.0 min. What is its retention factor, k?',
+     "options": ['A. 2.0', 'B. 3.0', 'C. 4.0', 'D. 6.0'], "correct": 1},
+
+    # 46
+    {"text": 'Reversed-phase HPLC generally employs',
+     "options": ['A. polar stationary phase and nonpolar mobile phase', 'B. nonpolar stationary phase and polar mobile phase', 'C. nonpolar stationary and mobile phases', 'D. polar stationary and mobile phases'], "correct": 1},
+
+    # 47
+    {"text": 'Which GC detector is considered a universal detector that responds to essentially all substances?',
+     "options": ['A. ECD', 'B. TCD', 'C. NPD', 'D. FID'], "correct": 1},
+
+    # 48
+    {"text": 'Which combination indicates better chromatographic column efficiency?',
+     "options": ['A. lower plate count and higher plate height', 'B. lower plate count and lower plate height', 'C. higher plate count and smaller plate height', 'D. higher plate count and larger plate height'], "correct": 2},
+
+    # 49
+    {"text": 'The ideal range for the retention factor, k, is approximately',
+     "options": ['A. 0 to 0.5', 'B. 1 to 5', 'C. 10 to 20', 'D. 50 to 100'], "correct": 1},
+
+    # 50
+    {"text": 'In the van Deemter equation, the B term represents',
+     "options": ['A. multiple path effects', 'B. longitudinal diffusion', 'C. mass transfer', 'D. detector noise'], "correct": 1},
+
+    # 51
+    {"text": 'In anion-exchange chromatography,',
+     "options": ['A. The column has (+) resin where (+) species bind.', 'B. The column has (+) resin where (−) species bind.', 'C. Column contains (+) and (−) beads where species bind depending on their net charge.', 'D. None of the above.'], "correct": 1},
+
+    # 52
+    {"text": 'Which analytical balance typically has a maximum capacity of approximately 180 to 200 g and a precision of ±0.1 mg?',
+     "options": ['A. micro balance', 'B. semi-micro balance', 'C. macro balance', 'D. precision balance'], "correct": 2},
+
+    # 53
+    {"text": 'Which IR absorption is expected to be broad rather than relatively sharp?',
+     "options": ['A. C≡N', 'B. C=O', 'C. O–H', 'D. C=C'], "correct": 2},
+
+    # 54
+    {"text": 'The mobile phase that exits a chromatographic column is called the',
+     "options": ['A. eluate', 'B. adsorbate', 'C. stationary phase', 'D. precipitate'], "correct": 0},
+
+    # 55
+    {"text": 'In HPLC, an elution using a mobile phase of constant composition is called',
+     "options": ['A. gradient elution', 'B. isocratic elution', 'C. affinity elution', 'D. programmed elution'], "correct": 1},
+
+    # 56
+    {"text": 'In gas-solid chromatography, separation occurs primarily through',
+     "options": ['A. precipitation', 'B. ionization', 'C. adsorption', 'D. crystallization'], "correct": 2},
+
+    # 57
+    {"text": 'Which reagent dissolves silicates by forming volatile SiF₄?',
+     "options": ['A. HCl', 'B. HNO₃', 'C. HF', 'D. H₂SO₄'], "correct": 2},
+
+    # 58
+    {"text": 'During dry ashing, carbon present in the sample is primarily oxidized to',
+     "options": ['A. CO', 'B. CO₂', 'C. CH₄', 'D. C₂H₆'], "correct": 1},
+
+    # 59
+    {"text": 'Which light source should be used in the wavelength range of 340 to 1000 nm?',
+     "options": ['A. Deuterium', 'B. Tungsten', 'C. Mercury vapor lamp', 'D. Nernst glower'], "correct": 1},
+
+    # 60
+    {"text": 'The primary purpose of proper sampling is to obtain a sample that',
+     "options": ['A. has the largest possible mass', 'B. accurately represents the target population', 'C. contains the highest analyte concentration', 'D. requires no sample preparation'], "correct": 1},
+
+    # 61
+    {"text": 'Recrystallization is particularly important for purifying',
+     "options": ['A. volatile gases', 'B. nonvolatile organic solids', 'C. inorganic gases', 'D. highly volatile liquids'], "correct": 1},
+
+    # 62
+    {"text": 'Which condition may cause deviation from ideal Beer’s Law behavior?',
+     "options": ['A. dilute analyte solution', 'B. monochromatic radiation', 'C. high analyte concentration', 'D. one absorbing species'], "correct": 2},
+
+    # 63
+    {"text": 'Which flux is listed for fusion of silicates and oxides using a platinum crucible?',
+     "options": ['A. Na₂CO₃', 'B. NaOH', 'C. KOH', 'D. Na₂O₂'], "correct": 0},
+
+    # 64
+    {"text": 'An air sample is subjected to gas chromatography for the analysis of Freon-11 (CCl₃F). The detector that is most suitable for this analysis is',
+     "options": ['A. TCD', 'B. ECD', 'C. FID', 'D. TSD'], "correct": 1},
+
+    # 65
+    {"text": 'What is the purpose of a monochromator?',
+     "options": ['A. To remove stray light from the room.', 'B. To serve as a polychromatic light source.', 'C. To focus light from the sample onto the detector.', 'D. To allow only light of a certain wavelength to pass from the source to the sample.'], "correct": 3},
+
+    # 66
+    {"text": 'Why must solutions with high concentrations be diluted prior to analysis via Beer’s Law?',
+     "options": ['A. The photon source is too weak to provide accurate results.', 'B. The molar absorptivity of a compound is dependent on its concentration.', 'C. There is no need to work with dilute concentrations; any concentration will work.', 'D. The relationship between absorbance and concentration is not linear at high concentration.'], "correct": 3},
+
+    # 67
+    {"text": 'Aqua regia is prepared using HCl and HNO₃ in what volume ratio?',
+     "options": ['A. 1:1', 'B. 1:3', 'C. 2:1', 'D. 3:1'], "correct": 3},
+
+    # 68
+    {"text": 'A strong-to-medium absorption near 3000 cm⁻¹ is characteristic of',
+     "options": ['A. C–H', 'B. C=O', 'C. C≡N', 'D. C=C'], "correct": 0},
+
+    # 69
+    {"text": 'During the “draw” step in liquid-liquid extraction, the analyst initially',
+     "options": ['A. drains the lower layer', 'B. adds a drying agent', 'C. shakes the funnel vigorously', 'D. heats the funnel'], "correct": 0},
+
+    # 70
+    {"text": 'A desirable organic solvent for liquid-liquid extraction should',
+     "options": ['A. react readily with the desired product', 'B. be completely miscible with water', 'C. readily dissolve the desired substance', 'D. have an extremely high boiling point'], "correct": 2},
+
+    # 71
+    {"text": 'In a mass spectrum, the tallest peak is known as the',
+     "options": ['A. solvent peak', 'B. molecular background', 'C. base peak', 'D. isotope limit'], "correct": 2},
+
+    # 72
+    {"text": 'Which retention factor is within the ideal range?',
+     "options": ['A. 0.2', 'B. 0.5', 'C. 3.0', 'D. 12.0'], "correct": 2},
+
+    # 73
+    {"text": 'An unknown compound shows a strong absorption near 1700 cm⁻¹. Which functional feature should be suspected first?',
+     "options": ['A. carbonyl group', 'B. nitrile group', 'C. hydroxyl group', 'D. carbon-carbon triple bond'], "correct": 0},
+
+    # 74
+    {"text": 'After washing laboratory glassware with detergent and rinsing with tap water, the final rinse should use:',
+     "options": ['A. acetone', 'B. ethanol', 'C. deionized water', 'D. concentrated acid'], "correct": 2},
+
+    # 75
+    {"text": 'If T = 0.01, what is the absorbance?',
+     "options": ['A. 0.01', 'B. 1', 'C. 2', 'D. 100'], "correct": 2},
+
+    # 76
+    {"text": 'Reversed-phase chromatography refers to which of the following?',
+     "options": ['A. A nonpolar stationary phase and a polar mobile phase', 'B. A polar stationary phase and a nonpolar mobile phase', 'C. A stationary phase and mobile phase of similar polarities', 'D. A nonpolar stationary phase and a nonpolar mobile phase'], "correct": 0},
+
+    # 77
+    {"text": 'According to the file, measuring pipets commonly have maximum capacities ranging from',
+     "options": ['A. 0.01 to 5 mL', 'B. 0.1 to 25 mL', 'C. 0.5 to 200 mL', 'D. 25 to 500 mL'], "correct": 1},
+
+    # 78
+    {"text": 'One microliter (μL) is equivalent to:',
+     "options": ['A. 10⁻³ L', 'B. 10⁻⁴ L', 'C. 10⁻⁵ L', 'D. 10⁻⁶ L'], "correct": 3},
+
+    # 79
+    {"text": 'Which is a disadvantage of microwave digestion?',
+     "options": ['A. very long digestion time', 'B. inability to add reagents during digestion', 'C. unavoidable loss of volatile gases', 'D. operation only at atmospheric pressure'], "correct": 1},
+
+    # 80
+    {"text": 'In using a separatory funnel, the “stand” step allows the',
+     "options": ['A. solvent to boil', 'B. mixture to separate into layers', 'C. analyte to crystallize', 'D. solvent to evaporate completely'], "correct": 1},
+
+    # 81
+    {"text": 'Boiling stones or chips are commonly made of porous',
+     "options": ['A. sodium chloride', 'B. silicon carbide', 'C. calcium carbonate', 'D. aluminum oxide'], "correct": 1},
+
+    # 82
+    {"text": 'Which of the following statements about columns containing more theoretical plates is TRUE?',
+     "options": ['A. Columns containing more theoretical plates make separations impossible.', 'B. Columns containing more theoretical plates interact irreversibly with the analyte.', 'C. Columns containing more theoretical plates take a long time to perform separations.', 'D. Columns containing more theoretical plates are better suited to separate a complex mixture.'], "correct": 3},
+
+    # 83
+    {"text": 'A strong absorption around 1700 cm⁻¹ is most characteristic of',
+     "options": ['A. C=C', 'B. C–H', 'C. C=O', 'D. C≡C'], "correct": 2},
+
+    # 84
+    {"text": 'Which pair of bonds both absorb at approximately 2250 cm⁻¹ according to the file?',
+     "options": ['A. C≡C and C≡N', 'B. C=O and C=C', 'C. O–H and N–H', 'D. C–H and C=C'], "correct": 0},
+
+    # 85
+    {"text": 'Retention time, tᵣ, is defined as the time between',
+     "options": ['A. column preparation and sample injection', 'B. sample injection and appearance of the solute peak at the detector', 'C. detector activation and shutdown', 'D. two consecutive blank runs'], "correct": 1},
+
+    # 86
+    {"text": 'According to Beer’s Law, absorbance is directly proportional to',
+     "options": ['A. concentration and path length', 'B. wavelength only', 'C. transmittance only', 'D. detector voltage only'], "correct": 0},
+
+    # 87
+    {"text": 'What is the typical precision of a semi-micro balance?',
+     "options": ['A. ±1 mg', 'B. ±0.1 mg', 'C. ±0.01 mg', 'D. ±0.001 mg'], "correct": 2},
+
+    # 88
+    {"text": 'Emission that follows the absorption of a photon is called',
+     "options": ['A. chemiluminescence', 'B. photoluminescence', 'C. atomization', 'D. transmittance'], "correct": 1},
+
+    # 89
+    {"text": 'Which wavelength selector is used when continuous variation of wavelength is required?',
+     "options": ['A. monochromator', 'B. cuvette', 'C. detector', 'D. transducer'], "correct": 0},
+
+    # 90 (elution power depends on the solvent's polarity, the stationary phase, and the sample components together)
+    {"text": 'The elution power of a solvent is determined by __________.',
+     "options": ['A. Its overall polarity', 'B. The polarity of the stationary phase', 'C. The nature of the sample components', 'D. All of the mentioned'], "correct": 3},
+
+    # 91
+    {"text": 'If the transmittance of a sample is 0.10, what is its absorbance? Given: A = −log T',
+     "options": ['A. 0.10', 'B. 0.50', 'C. 1.00', 'D. 10.0'], "correct": 2},
+
+    # 92
+    {"text": 'Why are heating mantles preferred over open flames for many organic liquids?',
+     "options": ['A. They cool the flask rapidly.', 'B. They provide an enclosed heating system that reduces ignition hazards.', 'C. They prevent all solvent evaporation.', 'D. They operate only below room temperature.'], "correct": 1},
+
+    # 93
+    {"text": 'The mass of an empty sample container is called the',
+     "options": ['A. aliquot', 'B. tare', 'C. capacity', 'D. calibration mass'], "correct": 1},
+
+    # 94
+    {"text": 'An IR absorption near 1650 cm⁻¹ of medium intensity is associated with',
+     "options": ['A. C=C', 'B. C≡N', 'C. O–H', 'D. N–H'], "correct": 0},
+
+    # 95
+    {"text": 'A mass spectrum plots the intensity of each ion versus its',
+     "options": ['A. m/z ratio', 'B. absorbance', 'C. wavenumber', 'D. chemical shift'], "correct": 0},
+
+    # 96
+    {"text": 'Which type of fractionating column has the least surface area but the highest recovery?',
+     "options": ['A. glass bead column', 'B. steel wool column', 'C. Vigreux column', 'D. packed silica column'], "correct": 2},
+
+    # 97
+    {"text": 'A typical microwave digestion system can operate at temperatures of approximately',
+     "options": ['A. 50 to 100 °C', 'B. 100 to 150 °C', 'C. 200 to 300 °C', 'D. 500 to 700 °C'], "correct": 2},
+
+    # 98
+    {"text": 'An important requirement for compounds analyzed directly by GC is that they should be',
+     "options": ['A. nonvolatile and thermally unstable', 'B. volatile and thermally stable', 'C. ionic and nonvolatile', 'D. insoluble in all solvents'], "correct": 1},
+
+    # 99
+    {"text": 'An absorption near 2250 cm⁻¹ may indicate the presence of which bond?',
+     "options": ['A. O–H', 'B. C≡N', 'C. C=O', 'D. N–H'], "correct": 1},
+
+    # 100
+    {"text": 'Chromatographic separation is based primarily on differences in the',
+     "options": ['A. atomic numbers of the analytes', 'B. rates at which components move through a stationary phase', 'C. color of the analytes', 'D. boiling point of the stationary phase only'], "correct": 1},
+
+]
+
 # ------------------------- AI GENERATED Question Bank --------------------------------
 
 ai_CHEMTECH_SET1 = [
