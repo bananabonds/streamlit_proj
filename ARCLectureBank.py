@@ -5826,6 +5826,1037 @@ D1_L2_Environmental_EngSci = [
 
 ]
 
+D1_L3_Analytical_Chemistry = [
+
+    # 1
+    {"text": 'Determine the molarity of a solution prepared in the laboratory by dissolving 12.7 g of HCl in sufficient water to make 1 L of solution.',
+     "options": ['A. 0.1277 M', 'B. 0.3484 M', 'C. 0.5221 M', 'D. 0.4231 M'], "correct": 1},
+
+    # 2
+    {"text": 'How many grams of B(OH)₃ (61.83) should be used to make 2 L of 0.05 M solution?',
+     "options": ['A. 5.21 g', 'B. 6.18 g', 'C. 3.44 g', 'D. 8.32 g'], "correct": 1},
+
+    # 3
+    {"text": 'A 30% solution of phosphoric acid (97.9956) has a specific gravity of 1.18. What is its normality as an acid assuming partial neutralization to HPO₄²⁻?',
+     "options": ['A. 3.61 N', 'B. 7.22 N', 'C. 4.82 N', 'D. 9.63 N'], "correct": 1},
+
+    # 4
+    {"text": 'How many mL of 1 N AgNO₃ would be required to precipitate the chloride from 20 mL of 0.55 N SrCl₂•6H₂O?',
+     "options": ['A. 11 mL', 'B. 5.5 mL', 'C. 3.5 mL', 'D. 14 mL'], "correct": 0},
+
+    # 5
+    {"text": 'How much water must be added to 50 mL of a 0.4 N solution of Cr₂(SO₄)₃•18H₂O in order to make it 0.05 M? The solution is to be used in the precipitation of chromium as the hydroxide.',
+     "options": ['A. 40 mL', 'B. 62.2 mL', 'C. 16.7 mL', 'D. 25.5 mL'], "correct": 2},
+
+    # 6
+    {"text": 'What is the density of 53.4% NaOH (40) if 16.7 mL of the solution diluted to 2 L gave 0.169 M NaOH?',
+     "options": ['A. 1.52 g/mL', 'B. 1.32 g/mL', 'C. 0.97 g/mL', 'D. 1.21 g/mL'], "correct": 0},
+
+    # 7
+    {"text": 'If one gallon of blood was added in three gallons of water, and one ounce of that dilution was added to 9 ounces of water, what is the final dilution when 7 mL of that dilution was added to 563 mL of water?',
+     "options": ['A. 5.65x10⁻³', 'B. 2.24x10⁻⁴', 'C. 1.72x10⁻²', 'D. 3.07x10⁻⁴'], "correct": 3},
+
+    # 8
+    {"text": 'Marie Curie dissolved 0.09192 g of RaCl₂ and treated with excess AgNO₃ to precipitate 0.0889 g of AgCl. In her time, the atomic mass of Ag was known to be 107.8 and that of Cl was 35.4. Find the atomic mass of Ra from these values.',
+     "options": ['A. 225.6', 'B. 225.8', 'C. 225.3', 'D. 225.1'], "correct": 2},
+
+    # 9
+    {"text": 'A method to measure soluble organic carbon in seawater includes oxidation of the organic materials to CO₂ with K₂S₂O₈, followed by a gravimetric determination of the CO₂ trapped by a column of ascarite. A water sample weighing 6.234 g produced 2.378 mg CO₂ (44.009). Determine the ppm C in the seawater.',
+     "options": ['A. 442.05', 'B. 104.01', 'C. 612.07', 'D. 242.01'], "correct": 1},
+
+    # 10
+    {"text": 'The amount of calcium present in milk can be determined by adding oxalate to a sample and measuring the mass of calcium oxalate precipitated. What is the mass percent of calcium, if 0.429 g of calcium oxalate forms in a 125 g sample of milk when excess aqueous sodium oxalate is added.',
+     "options": ['A. 0.11%', 'B. 0.22%', 'C. 0.33%', 'D. 0.44%'], "correct": 0},
+
+    # 11
+    {"text": 'Twenty dietary iron tablets with a total mass of 22.131 g were ground and mixed thoroughly. Then, 2.998 g of the powder were dissolved in HNO₃ and treated to convert all iron to Fe³⁺. Addition of NH₃ precipitated Fe₂O₃·xH₂O, which was ignited to give 0.264 g of Fe₂O₃ (159.69). What is the average mass of FeSO₄•7H₂O (278.01) in each tablet?',
+     "options": ['A. 0.512 g', 'B. 0.339 g', 'C. 0.155 g', 'D. 0.659 g'], "correct": 1},
+
+    # 12 (answer is very sensitive to the atomic masses used; computed ratio is ~2.05-2.1, closest option is A)
+    {"text": 'One pound of a mixture of NaCl and KCl was treated with sulfuric acid and 1.2 lb of potassium and sodium sulfate were recovered. What is the mass ratio of NaCl to KCl in the original mixture?',
+     "options": ['A. 2.14', 'B. 2.41', 'C. 4.12', 'D. 4.21'], "correct": 0},
+
+    # 13
+    {"text": 'When benzoic acid dissolves in water, it partially reacts with water and ionizes to form benzoate and hydronium ions. In this reaction, what is the conjugate acid?',
+     "options": ['A. Benzoate ions', 'B. Hydronium ions', 'C. Water', 'D. Benzoic acid'], "correct": 1},
+
+    # 14
+    {"text": 'When a can of soda is opened and CO₂ is released to the atmosphere, what is the resultant pH of the soda?',
+     "options": ['A. Decreases', 'B. Increases', 'C. The same', 'D. All of these'], "correct": 1},
+
+    # 15
+    {"text": 'What is the pH of a 0.035 M KOH solution?',
+     "options": ['A. 12.54', 'B. 11.46', 'C. 9.97', 'D. 10.1'], "correct": 0},
+
+    # 16 (in the source, the third option is mislabeled "c." a second time; treated here as option B)
+    {"text": 'A 0.1 M solution of a base has pH = 9.28. Find K_b.',
+     "options": ['A. 5.2x10⁻⁸', 'B. 3.6x10⁻⁹', 'C. 4.4x10⁻⁶', 'D. 1.7x10⁻⁵'], "correct": 1},
+
+    # 17
+    {"text": 'A 0.045 M solution of benzoic acid has a pH of 2.78. Calculate its pKa.',
+     "options": ['A. 6.75', 'B. 2.15', 'C. 5.77', 'D. 4.2'], "correct": 3},
+
+    # 18
+    {"text": 'A 0.1 M solution of a base is 2% hydrolyzed. Find K_b.',
+     "options": ['A. 2.4x10⁻⁸', 'B. 5.5x10⁻⁹', 'C. 3.1x10⁻⁷', 'D. 4.1x10⁻⁵'], "correct": 3},
+
+    # 19
+    {"text": 'Which of the following pairs will form a buffer solution in the course of a titration?',
+     "options": ['A. Nitric acid, sodium hydroxide', 'B. Sulfuric acid, potassium hydroxide', 'C. Acetic acid, sodium hydroxide', 'D. Hydrochloric acid, potassium hydroxide'], "correct": 2},
+
+    # 20
+    {"text": 'Which of the following acids would be most suitable for preparing a buffer of pH 3.1?',
+     "options": ['A. Hydrogen peroxide, pKa = 11.65', 'B. Propanoic acid, pKa = 4.874', 'C. Cyanoacetic acid, pKa = 2.472', 'D. Sulfanilic acid, pKa = 3.232'], "correct": 3},
+
+    # 21
+    {"text": 'How many grams of Na₂CO₃ (105.99) should be mixed with 5 g of NaHCO₃ (84.01) to produce 100 mL of buffer with pH 10? pKa₁ = 6.351, pKa₂ = 10.329.',
+     "options": ['A. 2.96 g', 'B. 2.02 g', 'C. 2.56 g', 'D. 2.34 g'], "correct": 0},
+
+    # 22
+    {"text": 'Given that K_sp for AgCl is 1.8x10⁻¹⁰, what is the molar solubility of AgCl in pure water?',
+     "options": ['A. 1.3x10⁻⁵ M', 'B. 1.8x10⁻⁵ M', 'C. 3.6x10⁻⁵ M', 'D. 1.8x10⁻¹⁰ M'], "correct": 0},
+
+    # 23
+    {"text": 'Given that K_sp for AgCl is 1.8x10⁻¹⁰, what is the molar solubility of AgCl in 0.1 M NaCl?',
+     "options": ['A. 1.8x10⁻⁹ M', 'B. 1.8x10⁻¹⁰ M', 'C. 1.8x10⁻⁸ M', 'D. 1.3x10⁻⁵ M'], "correct": 0},
+
+    # 24
+    {"text": 'In a titration experiment, 15.02 mL of an HCl solution required 26.1 mL of 0.32 M sodium hydroxide. Determine the concentration of HCl.',
+     "options": ['A. 2.15 M', 'B. 0.56 M', 'C. 1.12 M', 'D. 0.64 M'], "correct": 1},
+
+    # 25
+    {"text": 'A 10.231 g sample of window cleaner containing ammonia was diluted with 39.466 g of water. Then 4.373 g of solution were titrated with 14.22 mL of 0.1063 M HCl to reach a bromocresol green endpoint. Find the weight % of NH₃ (17.031) in the cleaner.',
+     "options": ['A. 10.9%', 'B. 2.85%', 'C. 5.33%', 'D. 16.3%'], "correct": 1},
+
+    # 26
+    {"text": 'Find the pH at the following points in the titration of 30 mL of 0.05 M HClO₄ with 0.1 M KOH. What is the pH at the initial point?',
+     "options": ['A. 1.3', 'B. 2.4', 'C. 3.1', 'D. 4.2'], "correct": 0},
+
+    # 27
+    {"text": 'Find the pH at the following points in the titration of 30 mL of 0.05 M HClO₄ with 0.1 M KOH. What is the pH when 5 mL of 0.1 M KOH is added?',
+     "options": ['A. 1.54', 'B. 2.54', 'C. 3.54', 'D. 4.54'], "correct": 0},
+
+    # 28
+    {"text": 'Find the pH at the following points in the titration of 30 mL of 0.05 M HClO₄ with 0.1 M KOH. What is the pH when 15 mL of 0.1 M KOH is added?',
+     "options": ['A. 5', 'B. 6', 'C. 7', 'D. 8'], "correct": 2},
+
+    # 29
+    {"text": 'Find the pH at the following points in the titration of 50 mL of 0.02 M KOH with 0.1 M HBr. What is the pH at the initial point?',
+     "options": ['A. 2.31', 'B. 3.21', 'C. 12.3', 'D. 13.2'], "correct": 2},
+
+    # 30 (computed pH = 12.12; the printed options skip 12.12 and list 12.3 in that slot, so C is the closest/intended choice)
+    {"text": 'Find the pH at the following points in the titration of 50 mL of 0.02 M KOH with 0.1 M HBr. What is the pH when 3 mL of 0.1 M HBr is added?',
+     "options": ['A. 10.12', 'B. 11.12', 'C. 12.3', 'D. 13.12'], "correct": 2},
+
+    # 31
+    {"text": 'Find the pH at the following points in the titration of 50 mL of 0.02 M KOH with 0.1 M HBr. What is the pH when 10 mL of 0.1 M HBr is added?',
+     "options": ['A. 6', 'B. 7', 'C. 8', 'D. 9'], "correct": 1},
+
+    # 32
+    {"text": 'Find the pH at the following points in the titration of 25 mL of 0.3 M HF with 0.3 M NaOH. The K_a value is 6.6x10⁻⁴. What is the pH at the initial point?',
+     "options": ['A. 1.862', 'B. 2.681', 'C. 6.218', 'D. 8.126'], "correct": 0},
+
+    # 33
+    {"text": 'Find the pH at the following points in the titration of 25 mL of 0.3 M HF with 0.3 M NaOH. The K_a value is 6.6x10⁻⁴. What is the pH after adding 10 mL of 0.3 M NaOH?',
+     "options": ['A. 2', 'B. 3', 'C. 4', 'D. 5'], "correct": 1},
+
+    # 34
+    {"text": 'Find the pH at the following points in the titration of 25 mL of 0.3 M HF with 0.3 M NaOH. The K_a value is 6.6x10⁻⁴. What is the pH after adding 25 mL of 0.3 M NaOH?',
+     "options": ['A. 7.18', 'B. 9.18', 'C. 8.18', 'D. 10.18'], "correct": 2},
+
+    # 35
+    {"text": 'You are given 90 mL of 0.6 M of the weak base NH₃ (K_b = 1.8×10⁻⁵), and 1 M of the strong acid titrant HCl. What is the pH prior to titration?',
+     "options": ['A. 11.25', 'B. 11.52', 'C. 12.15', 'D. 12.51'], "correct": 1},
+
+    # 36
+    {"text": 'You are given 90 mL of 0.6 M of the weak base NH₃ (K_b = 1.8×10⁻⁵), and 1 M of the strong acid titrant HCl. What is the pH after 50 mL of acid is added?',
+     "options": ['A. 6.16', 'B. 7.16', 'C. 8.16', 'D. 9.16'], "correct": 2},
+
+    # 37
+    {"text": 'You are given 90 mL of 0.6 M of the weak base NH₃ (K_b = 1.8×10⁻⁵), and 1 M of the strong acid titrant HCl. What is the pH at the equivalence point?',
+     "options": ['A. 3.84', 'B. 4.84', 'C. 5.84', 'D. 6.84'], "correct": 1},
+
+    # 38
+    {"text": 'How many mL of 0.246 M HNO₃ should be added to 213 mL of 0.00666 M 2,2’-bipyridine (pKa = 4.34) to give a pH of 4.19?',
+     "options": ['A. 2.25 mL', 'B. 6.44 mL', 'C. 3.38 mL', 'D. 8.1 mL'], "correct": 2},
+
+    # 39
+    {"text": 'What is the pH at the equivalence point when 0.1 M hydroxyacetic acid (pKa = 3.832) is titrated with 0.05 M KOH?',
+     "options": ['A. 2.56', 'B. 10.2', 'C. 4.75', 'D. 8.18'], "correct": 3},
+
+    # 40
+    {"text": 'The Kjeldahl procedure was used to analyze 256 microliters of a solution containing 37.9 mg/mL protein. The liberated NH₃ (17.031) was collected in 5 mL of 0.0336 M HCl, and the remaining acid required 6.34 mL of 0.01 M NaOH for complete titration. What is the weight % of nitrogen (14.007) in the protein?',
+     "options": ['A. 55.2%', 'B. 15.1%', 'C. 95.6%', 'D. 67.2%'], "correct": 1},
+
+    # 41
+    {"text": 'The formaldehyde content of a pesticide preparation was determined by weighing 0.2985 g of the liquid sample into a flask containing 50 mL of 0.0959 M NaOH and 50 mL of 3% H₂O₂. Upon heating, the formaldehyde was oxidized to acetate, consuming the base in a 1:1 ratio. After cooling, the excess base was titrated with 22.71 mL of 0.0537 M H₂SO₄. Calculate the percentage of formaldehyde (30.026) in the sample.',
+     "options": ['A. 11.5%', 'B. 45.6%', 'C. 75.2%', 'D. 23.7%'], "correct": 3},
+
+    # 42
+    {"text": 'A 30 mL solution of HBr was treated with 5 mL of freshly boiled and cooled 8 M HNO₃, and then with 50 mL of 0.365 M AgNO₃ with rigorous stirring. Then, 1 mL of saturated ferric alum was added and the solution was titrated with 0.287 M KSCN. When 3.6 mL had been added, the solution turned red. What was the molar concentration of HBr in the original solution?',
+     "options": ['A. 0.5739 M', 'B. 0.3395 M', 'C. 0.2724 M', 'D. 0.6788 M'], "correct": 0},
+
+    # 43
+    {"text": 'A mixture of pure LiCl (42.394) and BaI₂ (391.136) weighing 0.6 g is treated with 45.15 mL of 0.2 M AgNO₃ solution, and the excess silver is then titrated with 25 mL of KSCN at 0.1 M with ferric alum as an indicator. Find the percentage of iodine (126.904) in the mixture.',
+     "options": ['A. 54.1%', 'B. 23.5%', 'C. 88.5%', 'D. 44.6%'], "correct": 3},
+
+    # 44
+    {"text": 'A 50 mL sample of Ni²⁺ was treated with 25 mL of 0.05 M EDTA to complex all the Ni²⁺ and leave excess EDTA in solution. The excess EDTA was then back-titrated, requiring 5 mL of 0.05 M Zn²⁺. What was the concentration of Ni²⁺ in the original solution?',
+     "options": ['A. 0.0125 M', 'B. 0.05 M', 'C. 0.02 M', 'D. 0.01 M'], "correct": 2},
+
+    # 45
+    {"text": 'Cyanide solution (12.73 mL) was treated with 25 mL of Ni²⁺ solution in excess to convert the cyanide to tetracyanonickelate(II). Excess Ni²⁺ was then titrated with 10.15 mL of 0.01307 M EDTA. If 39.35 mL of EDTA were required to reach equilibrium with 30.1 mL of the original Ni²⁺ solution, calculate the molarity of CN⁻ in the 12.73 mL sample.',
+     "options": ['A. 0.09254 M', 'B. 0.04415 M', 'C. 0.03256 M', 'D. 0.02313 M'], "correct": 0},
+
+    # 46
+    {"text": 'Calculate the weight of primary standard Na₂C₂O₄ (134 g/mol) necessary to react with 25 mL of 0.2005 M KMnO₄ in acidic medium.',
+     "options": ['A. 0.671 g', 'B. 1.679 g', 'C. 1.313 g', 'D. 2.687 g'], "correct": 1},
+
+    # 47
+    {"text": 'Aqueous glycerol (C₃H₈O₃, 92.095) solution weighing 100 mg was treated with 50 mL of 0.0837 M Ce⁴⁺ in 4 M HClO₄ at 60 °C for 15 min to oxidize glycerol to formic acid, H₂CO₂. The excess Ce⁴⁺ required 12.11 mL of 0.0448 M Fe²⁺ to reach a ferroin endpoint. Find the weight % glycerol in the unknown.',
+     "options": ['A. 86.2%', 'B. 41.9%', 'C. 33.1%', 'D. 68.4%'], "correct": 1},
+
+    # 48
+    {"text": 'A compound with a molecular mass of 292.16 g/mol was dissolved in a 5 mL volumetric flask. A 1 mL aliquot was withdrawn, placed in a 10 mL volumetric flask, and diluted to the mark. The absorbance at 340 nm was 0.427 in a 1 cm cuvet. The molar absorptivity at 340 nm is ε = 6130/M-cm. How many mg of compound were used to make the 5 mL solution?',
+     "options": ['A. 1.02 mg', 'B. 3.12 mg', 'C. 0.91 mg', 'D. 2.09 mg'], "correct": 0},
+
+    # 49
+    {"text": 'If the transmittance of a sample is 10%, what is the absorbance of the sample?',
+     "options": ['A. 1', 'B. 0.5', 'C. 2', 'D. 0.1'], "correct": 0},
+
+    # 50
+    {"text": 'If the incident light is 100 units and the transmitted light is 30 units, what is the absorbance?',
+     "options": ['A. 0.52', 'B. 1.15', 'C. 1.52', 'D. 0.15'], "correct": 0},
+
+]
+
+D1_L4_Organic_Chemistry = [
+
+    # 1
+    {"text": 'Which carbon(s) in the following molecule is (are) sp hybridized? The molecule is CH₃–C(=O)–CH₂–C≡C–H, with the carbons numbered left to right: carbon 1 = CH₃, carbon 2 = C=O (carbonyl carbon), carbon 3 = CH₂, carbon 4 and carbon 5 = the two carbons of the C≡C triple bond (carbon 5 is the terminal C–H).',
+     "options": ['A. carbon 1', 'B. carbon 2', 'C. carbon 1, 3', 'D. carbon 4, 5'], "correct": 3},
+
+    # 2 (VSEPR/textbook answer: lone pair compresses the CNC angle)
+    {"text": 'Triethylamine, (CH₃CH₂)₃N is a molecule in which the nitrogen atom is __________ hybridized and the CNC bond angle is __________.',
+     "options": ['A. sp², >109.5°', 'B. sp², <109.5°', 'C. sp³, >109.5°', 'D. sp³, <109.5°'], "correct": 3},
+
+    # 3
+    {"text": 'Which of the following is the strongest acid?',
+     "options": ['A. CH₃CH₂OH', 'B. CH₃OCH₃', 'C. CH₃NHCH₃', 'D. CH₃CH=CH₂'], "correct": 0},
+
+    # 4 (structures read from the figure)
+    {"text": 'Which of the following substituted benzoic acids is the strongest acid? Structures (all are benzoic acids, ring–COOH): I = benzoic acid (no other substituent); II = 2-chlorobenzoic acid (one Cl ortho to COOH); III = 2,4-dichlorobenzoic acid (Cl ortho and Cl para to COOH); IV = 3,4,5-trichlorobenzoic acid (Cl at both meta positions and para); V = 2,3,4,5,6-pentachlorobenzoic acid (all five remaining ring positions bear Cl).',
+     "options": ['A. I', 'B. II', 'C. III', 'D. IV', 'E. V'], "correct": 4},
+
+    # 5
+    {"text": 'Alcohols, phenols, and carboxylic acids all contain an OH group. Which are the strongest acids? Which are the weakest acids? (Structures shown: acetic acid, CH₃COOH; phenol, C₆H₅OH; ethanol, CH₃CH₂OH.)',
+     "options": ['A. carboxylic acid – strongest, phenol – weaker, alcohol – weakest', 'B. carboxylic acid – weaker, phenol – weakest, alcohol – strongest', 'C. carboxylic acid – weakest, phenol – strongest, alcohol – weaker', 'D. carboxylic acid – strongest, phenol – weakest, alcohol – weaker'], "correct": 0},
+
+    # 6
+    {"text": 'Which is the correct order of decreasing acidity of alkanes, alkenes and alkynes?',
+     "options": ['A. alkyne > alkene > alkane', 'B. alkane > alkene > alkyne', 'C. alkyne > alkane > alkene', 'D. alkane > alkyne > alkene'], "correct": 0},
+
+    # 7 (structure read from the figure)
+    {"text": 'How many degrees of unsaturation does the following structure have? Structure: a benzene ring fused to a saturated six-membered ring that contains an N–H; one carbon of the saturated ring bears both an OH group and an ethynyl group (–C≡C–H). Molecular formula C₁₁H₁₁NO.',
+     "options": ['A. 4', 'B. 5', 'C. 6', 'D. 7'], "correct": 3},
+
+    # 8
+    {"text": 'Based on the degree of unsaturation, the compound C₁₁H₉NO₃ can have which of the following structural features?',
+     "options": ['A. 2 double bonds and 2 triple bonds', 'B. 1 rings and 5 double bonds', 'C. 2 triple bonds and 4 double bonds', 'D. 3 triple bonds and 1 ring'], "correct": 2},
+
+    # 9
+    {"text": 'What is the functional group of CH₃CH₂CHO?',
+     "options": ['A. aldehyde', 'B. ketone', 'C. carboxylic acid', 'D. ether'], "correct": 0},
+
+    # 10
+    {"text": 'What is the functional group of CH₃CH₂COOH?',
+     "options": ['A. aldehyde', 'B. ketone', 'C. carboxylic acid', 'D. ether'], "correct": 2},
+
+    # 11
+    {"text": 'What is the functional group of CH₃CH₂COCH₃?',
+     "options": ['A. aldehyde', 'B. ketone', 'C. carboxylic acid', 'D. ether'], "correct": 1},
+
+    # 12
+    {"text": 'What is the functional group of CH₃CH₂CH₂OCH₃?',
+     "options": ['A. aldehyde', 'B. ketone', 'C. carboxylic acid', 'D. ether'], "correct": 3},
+
+    # 13
+    {"text": 'Predict which of the following compounds will have a lower boiling point than 1-butanal.',
+     "options": ['A. 1-butanol', 'B. 2-butanol', 'C. 1-butene', 'D. butanoic acid'], "correct": 2},
+
+    # 14 (structures are skeletal drawings; identified from the figure)
+    {"text": 'Which of the following alkanes will have the lowest boiling point? Skeletal structures: a = 2-methylbutane (isopentane, a 4-carbon chain with one methyl branch); b = pentane (unbranched 5-carbon zigzag chain); c = 2,2-dimethylpropane (neopentane, a central carbon with four single-bond arms); d = hexane (unbranched 6-carbon zigzag chain).',
+     "options": ['A. 2-methylbutane (isopentane)', 'B. pentane', 'C. 2,2-dimethylpropane (neopentane)', 'D. hexane'], "correct": 2},
+
+    # 15
+    {"text": 'Which of the following is the most soluble in H₂O?',
+     "options": ['A. CH₃OCH₃', 'B. CH₃CH₂OH', 'C. CH₃CH₂Cl', 'D. CH₃CHO'], "correct": 1},
+
+    # 16 (structure read from the figure)
+    {"text": 'Give the IUPAC name for the following structure. Skeletal (line-angle) drawing of an alkane: a straight seven-carbon chain, with an isopropyl-type fork (two CH₃ groups on one carbon) at one end and a two-carbon (ethyl) branch on the carbon next to that fork carbon; i.e. (CH₃)₂CH–CH(CH₂CH₃)–CH₂CH₂CH₂CH₃.',
+     "options": ['A. 2-methyl-3-ethylheptane', 'B. 3-ethyl-2-methylheptane', 'C. 5-isopropyloctane', 'D. 4-isopropyloctane'], "correct": 1},
+
+    # 17
+    {"text": 'Give the IUPAC name for the following compound: a cyclohexane ring bearing a CH₃ group on one ring carbon and a Cl atom on the adjacent ring carbon.',
+     "options": ['A. 1-chloro-2-methylcyclohexane', 'B. 1-methyl-2-chlorocyclohexane', 'C. 1-chloro-5-methylcyclohexane', 'D. 1-methyl-5-chlorocyclohexane'], "correct": 0},
+
+    # 18
+    {"text": 'What is the IUPAC name for the following compound? Structure: CH₂=C(CH₃)–CH₂–CH₃ (a four-carbon chain with a terminal C=C and a CH₃ branch on the second carbon).',
+     "options": ['A. 2-methyl-1-butene', 'B. Isopentene', 'C. 2-methylbutene', 'D. 2-Ethylpropene'], "correct": 0},
+
+    # 19 (structure read from the figure)
+    {"text": 'What is the IUPAC name for the following compound? Structure: a cyclohexene ring with a CH₃ substituent on the sp³ ring carbon that is separated from one alkene carbon by one CH₂ and from the other alkene carbon by two CH₂ groups.',
+     "options": ['A. 5-methylcyclohexene', 'B. 4-methylcyclohexene', 'C. 1-methyl-3-cyclohexene', 'D. 1-methyl-4-cyclohexene'], "correct": 1},
+
+    # 20
+    {"text": 'What is the IUPAC name for the following alkyne? Structure: CH₃–C≡C–CH₂–C(Br)(CH₃)–CH₃ (the carbon bearing Br also carries two CH₃ groups).',
+     "options": ['A. 3-Bromo-5-heptyne', 'B. 2-Bromo-2-methyl-4-hexyne', 'C. 5-Bromo-5,5-dimethylhexyne', 'D. 5-Bromo-5-methyl-2-hexyne'], "correct": 3},
+
+    # 21 (structure read from the figure)
+    {"text": 'What is the IUPAC name for the following structure: a zigzag carbon chain CH₃CH₂CH(OH)–CH(CH(CH₃)₂)–CH(CH₂CH₃)–CH₂CH₂CH₃, i.e. a chain bearing an OH group, an isopropyl group on the adjacent carbon, and an ethyl branch on the next carbon.',
+     "options": ['A. 4-sec-hexyl-5-methyl-3-hexanol', 'B. 3-hydroxy-4-isobutyl-5-ethyloctane', 'C. 5-ethyl-4-isopropyl-3-octanol', 'D. 3-hydorxy-4-isobutyl-5-propylheptane'], "correct": 2},
+
+    # 22 (structure read from the figure)
+    {"text": 'Give the IUPAC name for the following structure: a cyclohexane ring with an OH group on one ring carbon, a CH₃ group on the adjacent ring carbon, and a Cl atom on the ring carbon that is directly across the ring (1,4-related) from the CH₃-bearing carbon.',
+     "options": ['A. 3-chloro-2-methylcyclohexanol', 'B. 2-methyl-5-chlorocyclhexanol', 'C. 1-chloro-4-methylcyclohexanol', 'D. 5-chloro-2-methylcyclohexanol'], "correct": 3},
+
+    # 23 (structure read from the figure)
+    {"text": 'What is a correct name for the following compound? Structure: a cyclohexene ring in which one ring carbon bears an OH group and is directly attached to one carbon of the C=C double bond; the ring carbon across the ring (para) from the OH-bearing carbon, which is attached to the other alkene carbon, bears two CH₃ groups.',
+     "options": ['A. 1,1-dimethyl-2-cyclohexenol', 'B. 3,3-dimethyl-1-cyclohexen-6-ol', 'C. 6,6-dimethyl-1-cyclohexen-3-ol', 'D. 4,4-dimethyl-2-cyclohexenol'], "correct": 3},
+
+    # 24
+    {"text": 'What is the name of (CH₃)₂CHCH₂OCH₂CH₃?',
+     "options": ['A. ethyl isobutyl ether', 'B. isobutyl ethyl ether', 'C. ethyl butyl ether', 'D. butyl ethyl ether'], "correct": 0},
+
+    # 25
+    {"text": 'What is the name of a compound CH₃CH(Br)COCH(CH₃)₂?',
+     "options": ['A. 4-bromo-2-methylpentan-3-one', 'B. 2-bromo-4-methylpentan-3-one', 'C. 2-bromo-4-methylbutanone', 'D. Isopropyl bromoethyl ketone'], "correct": 1},
+
+    # 26
+    {"text": 'Which of the following is 3,3-diphenylpropanal?',
+     "options": ['A. C₆H₅CH₂CH(C₆H₅)CHO', 'B. (C₆H₅)₂CHCH₂CHO', 'C. C₆H₅CH₂CH₂COC₆H₅', 'D. (C₆H₅)₂CHCH₂COC₆H₅'], "correct": 1},
+
+    # 27
+    {"text": 'What is the name of CH₃CH=CHCHO?',
+     "options": ['A. butanal', 'B. 2-buten-4-al', 'C. 2-butenal', 'D. 2-butenealdehyde'], "correct": 2},
+
+    # 28
+    {"text": 'Determine whether TRUE or FALSE about the constitutional isomer. I. They have the same molecular formula. II. They have the same molecular weight. III. They have the same connectivity to their atoms. IV. They have the same physical properties.',
+     "options": ['A. T; F; F; F', 'B. T; T; F; F', 'C. F; T; T; T', 'D. F; F; T; T'], "correct": 1},
+
+    # 29
+    {"text": 'Which of the following best explains the relative stabilities of the eclipsed and staggered forms of ethane? The __________ form has the most __________ strain.',
+     "options": ['A. eclipsed; steric', 'B. eclipsed; torsional', 'C. staggered; steric', 'D. staggered; torsional'], "correct": 1},
+
+    # 30 (Newman projections read from small figures; treat descriptions as best-effort)
+    {"text": 'Which of the following is the staggered conformation for rotation about the C1–C2 bond in the following structure? Structure: 2-methylbutane, CH₃–CH(CH₃)–CH₂–CH₃, with the carbons numbered C1 (the CH₃ at the left end), C2 (the CH bearing the CH₃ branch), C3 (CH₂), C4 (CH₃). Newman projections shown (substituents as labeled in the figure): I = staggered; CH₃, H, CH₂CH₃ across the top and H, H, H across the bottom (front carbon: three H; rear carbon: CH₃, CH₂CH₃, H). II = groups labeled CH₃, CH₃, CH₂CH₃, CH₃, H, H. III = CH₃, H, CH₃ on one side and H, H, H on the other. IV = C₂H₅ with H, H, H, H (no CH₃ labeled). V = eclipsed; two H atoms drawn overlapping at the top, with CH₃ and C₂H₅ at the lower left and lower right.',
+     "options": ['A. I', 'B. II', 'C. III', 'D. IV', 'E. V'], "correct": 0},
+
+    # 31
+    {"text": 'Which of the following correctly ranks the cycloalkanes in order of increasing ring strain per methylene?',
+     "options": ['A. cyclopropane < cyclobutane < cyclohexane < cycloheptane', 'B. cyclohexane < cyclopentane < cyclobutane < cyclopropane', 'C. cyclopentane < cyclobutane < cyclopentane < cyclopropane', 'D. cyclopentane < cyclopropane < cyclobutane < cyclohexane'], "correct": 1},
+
+    # 32
+    {"text": 'Which of the following compounds is achiral?',
+     "options": ['A. 2,3-dibromobutane', 'B. 1,3-dibromobutane', 'C. 1,2-dichlorobutane', 'D. 1,4-dibromobutane'], "correct": 3},
+
+    # 33 (structure read from the figure; both stereocenters drawn with H on hashed bonds)
+    {"text": 'Refer to the compound below. The compound is certainly a/an ___ isomer. Structure: a zigzag drawing of 3,4-dimethylpentan-2-ol, (CH₃)₂CH–CH(CH₃)–CH(OH)–CH₃. The H atom on each of the two stereocenters (C2, bearing the OH, and C3, bearing a CH₃) is drawn on a hashed bond (pointing away from the viewer); all other substituents are on plain bonds. Both stereocenters work out to the same CIP descriptor.',
+     "options": ['A. R', 'B. S', 'C. D', 'D. L'], "correct": 1},
+
+    # 34 (interpreted as up to 4 stereocenters: 2^4 = 16)
+    {"text": 'What is the maximum number of stereoisomers of an organic compound that contains 4 carbons?',
+     "options": ['A. 2', 'B. 4', 'C. 8', 'D. 16'], "correct": 3},
+
+    # 35
+    {"text": 'How many stereoisomers exist with the following basic connectivity? BrCH₂CH(CH₃)CH₂CH₃',
+     "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 1},
+
+    # 36 (source prints CH3CH2ClCH2ClCH3, which is not a valid formula; read as 2,4-dichloropentane)
+    {"text": 'How many stereoisomers exist with the following basic connectivity? CH₃CHClCH₂CHClCH₃',
+     "options": ['A. 1', 'B. 2', 'C. 3', 'D. 4'], "correct": 2},
+
+    # 37
+    {"text": '(2R,3S)-1,2,3-butanetriol and (2S,3S)-1,2,3-butanetriol are:',
+     "options": ['A. enantiomers', 'B. diastereomers', 'C. identical', 'D. meso compounds'], "correct": 1},
+
+    # 38
+    {"text": 'Which of the following can exist as diastereomers?',
+     "options": ['A. Lactic acid', 'B. 1-Butene', 'C. 2-Butene', 'D. Ethane'], "correct": 2},
+
+    # 39
+    {"text": 'Which of the following are enantiomers?',
+     "options": ['A. configurational isomers', 'B. conformational isomers', 'C. optical isomers', 'D. geometric isomers'], "correct": 2},
+
+    # 40
+    {"text": '(R)-2-pentanol and (S)-2-pentanol are different with respect to their:',
+     "options": ['A. boiling point', 'B. direction of rotation of plane-polarized light.', 'C. number of degrees of rotation of plane-polarized light', 'D. Choices C and D are both correct'], "correct": 1},
+
+    # 41
+    {"text": 'Which of the following may be separated by ordinary physical methods?',
+     "options": ['A. (R)-3-bromo-1-butene and (S)-3-bromo-1-butene', 'B. cis-2-bromo-2-butene and trans-2-bromo-2-butene', 'C. (2R,3S)-1,2-dibromobutane and (2S,3R)-1,2-dibromobutane', 'D. (R)-2-bromobutane and (S)-2-bromobutane'], "correct": 1},
+
+    # 42
+    {"text": 'A chemist dissolves 0.50 g of a pure chiral compound into enough solvent to make a total volume of 10 mL of solution. The observed rotation in a 10 cm cell is α = +4.0°. What is the specific rotation [α] of this compound?',
+     "options": ['A. +8°', 'B. +40°', 'C. +80°', 'D. +400°'], "correct": 2},
+
+    # 43
+    {"text": 'An enantiomeric mixture of a chiral drug has an enantiomeric excess (ee) of 60% in favor of the (S)-enantiomer. What is the percentage of the (S)-enantiomer in the mixture?',
+     "options": ['A. 60%', 'B. 30%', 'C. 70%', 'D. 80%'], "correct": 3},
+
+    # 44
+    {"text": 'The pure (+) enantiomer of a compound has a specific rotation of +50°. A solution with a concentration of 0.04 g/mL in a 1-dm cell has a specific rotation of +40°. What is the observed rotation α of the solution?',
+     "options": ['A. +0.4°', 'B. +40°', 'C. +2.0°', 'D. +1.6°'], "correct": 3},
+
+    # 45
+    {"text": 'The pure (+) enantiomer of a compound has a specific rotation of +50°. A solution with a concentration of 0.04 g/mL in a 1-dm cell has a specific rotation of +40°. What is the enantiomeric excess?',
+     "options": ['A. 50%', 'B. 60%', 'C. 70%', 'D. 80%'], "correct": 3},
+
+    # 46
+    {"text": 'Which of the following is/are optically inactive?',
+     "options": ['A. a meso compound', 'B. every achiral compound', 'C. a racemic mixture', 'D. all the above'], "correct": 3},
+
+    # 47 (low-confidence reading of the small skeletal drawings)
+    {"text": 'Determine the double bond stereochemistry (E or Z) for the following molecules. Molecule A: a trisubstituted alkene drawn with a vertical C=C bond, with two alkyl chains on the upper alkene carbon and a single ethyl group on the lower alkene carbon. Molecule B: a disubstituted alkene in a zigzag chain, with the C=C near the left end and its two chain substituents drawn on the same side (cis-type arrangement).',
+     "options": ['A. A: E; B: E', 'B. A: Z; B: Z', 'C. A: E; B: Z', 'D. A: Z; B: E'], "correct": 2},
+
+    # 48
+    {"text": 'A nucleophile acts as a ________ when it reacts with an electrophile.',
+     "options": ['A. Bronsted-Lowry acid', 'B. Arrhenius base', 'C. Lewis acid', 'D. Lewis base'], "correct": 3},
+
+    # 49
+    {"text": 'Which of the following is not a nucleophile?',
+     "options": ['A. FeBr₃', 'B. Br⁻', 'C. NH₃', 'D. benzene'], "correct": 0},
+
+    # 50
+    {"text": 'Which of the following statements is (are) true about an SN2 reaction? A. The reaction is fastest with 1° halides. B. The reaction follows second-order kinetics. C. Changing the identity of the leaving group changes the rate of the reaction.',
+     "options": ['A. The reaction is fastest with 1° halides.', 'B. The reaction follows second-order kinetics.', 'C. Changing the identity of the leaving group changes the rate of the reaction.', 'D. Statements A, B, and C are all true.'], "correct": 3},
+
+    # 51
+    {"text": 'Rank each of the following halides in order of increasing reactivity in an SN2 displacement reaction. 1. (CH₃)₂CHCl 2. CH₃CH₂Br 3. CH₃CH₂Cl',
+     "options": ['A. 1; 2; 3', 'B. 3; 2; 1', 'C. 1; 3; 2', 'D. 2; 1; 3'], "correct": 2},
+
+    # 52
+    {"text": 'Which of the following statements about an SN1 mechanism is (are) true?',
+     "options": ['A. The reaction is fastest with 3° halides.', 'B. The rate of the reaction increases when the solvent is changed from (CH₃)₂C=O to CH₃CH₂OH.', 'C. The identity of the leaving group does not affect the reaction rate.', 'D. Only Statements A and B are true.'], "correct": 3},
+
+    # 53
+    {"text": 'What is the reaction mechanism of the reaction shown below? (CH₃)₃CBr + OH⁻ → (CH₃)₃C–OH + Br⁻',
+     "options": ['A. SN2', 'B. SN1', 'C. any of these', 'D. none of these'], "correct": 1},
+
+    # 54
+    {"text": 'Which of the following are the elimination products of the reaction shown below? CH₃CH₂Br + ⁻OH → ?',
+     "options": ['A. HOCH₂CH₂Br', 'B. CH₃CH₂OH + Br⁻', 'C. CH₂=CH₂ + Br⁻ + H₂O', 'D. CH₂=CHBr + H₂O'], "correct": 2},
+
+    # 55 (structure read from the figure)
+    {"text": 'What is the major organic product of the following reaction? Reactant: 3-bromo-2,3-dimethylhexane, (CH₃)₂CH–C(CH₃)(Br)–CH₂CH₂CH₃ (skeletal drawing with an isopropyl group and a Br on the tertiary carbon), treated with NaOCH₂CH₃ (sodium ethoxide).',
+     "options": ['A. 2,3-dimethyl-1-hexene', 'B. 2,3-dimethyl-2-hexene', 'C. (Z)-2,3-dimethyl-3-hexene', 'D. (E)-2,3-dimethyl-3-hexene'], "correct": 1},
+
+    # 56
+    {"text": 'What is the reaction mechanism of the following reaction? Reaction: 3-bromo-2,3-dimethylhexane, (CH₃)₂CH–C(CH₃)(Br)–CH₂CH₂CH₃, treated with NaOCH₂CH₃ (sodium ethoxide), giving an alkene.',
+     "options": ['A. E2', 'B. E1', 'C. any of these', 'D. none of these'], "correct": 0},
+
+    # 57
+    {"text": 'Which of the alkyl chlorides listed below undergoes dehydrohalogenation in the presence of ethanol to give 2-pentene as the only alkene product?',
+     "options": ['A. 2-chloropentane', 'B. 3-chloropentane', 'C. 1-chloro-2-methylbutane', 'D. 1-chloro-3-methylbutane'], "correct": 1},
+
+    # 58
+    {"text": 'What is the elimination reaction mechanism of the following reaction? CH₃CH₂O⁻ + (CH₃)₃CBr → ? (ethoxide ion reacting with tert-butyl bromide)',
+     "options": ['A. E2', 'B. E1', 'C. any of these', 'D. none of these'], "correct": 0},
+
+    # 59
+    {"text": 'Predict the two most likely mechanisms for the reaction of 2-iodohexane with sodium ethoxide',
+     "options": ['A. SN2 and SN1', 'B. E1 and SN1', 'C. E1 and E2', 'D. SN2 and E2'], "correct": 3},
+
+    # 60
+    {"text": 'When 2-bromobutane undergoes an E2 elimination reaction using potassium tert-butoxide (t-BuOK) as the base, what is the major organic product formed?',
+     "options": ['A. 2-butanol', 'B. 2-butene', 'C. butane', 'D. 1-butene'], "correct": 3},
+
+    # 61
+    {"text": 'Williamson synthesis is a procedure for the production of:',
+     "options": ['A. Esters from acid chlorides', 'B. Alkanes using sodium metal', 'C. Ethers from alkyl iodide', 'D. Salicylic acid from phenol'], "correct": 2},
+
+    # 62
+    {"text": 'Which reaction conditions would be best for the synthesis of isobutyl sec-butyl ether CH₃CH₂CH(CH₃)–O–CH₂CH(CH₃)₂',
+     "options": ['A. (CH₃)₂CHCH₂OH + H₂SO₄ + heat', 'B. CH₃CH₂CH(CH₃)OH + H₂SO₄ + heat', 'C. CH₃CH₂CH(CH₃)ONa + (CH₃)₂CHCH₂Br', 'D. (CH₃)₂CHCH₂ONa + CH₃CH₂CH₂Br'], "correct": 2},
+
+    # 63
+    {"text": 'The Lucas test is used to determine the types of',
+     "options": ['A. alcohols', 'B. amines', 'C. carboxylic acids', 'D. phenols'], "correct": 0},
+
+    # 64
+    {"text": 'When an alcohol is dehydrated it forms',
+     "options": ['A. an aldehyde', 'B. an acid', 'C. an alkene', 'D. a ketone'], "correct": 2},
+
+    # 65
+    {"text": 'Which of the following reagents can be used to oxidize 1° alcohols to aldehydes?',
+     "options": ['A. KMnO₄', 'B. MnO₂', 'C. K₂Cr₂O₇', 'D. PCC'], "correct": 3},
+
+    # 66
+    {"text": 'Secondary alcohol when undergoes oxidation forms',
+     "options": ['A. aldehydes', 'B. acid', 'C. ketone', 'D. ester'], "correct": 2},
+
+    # 67 (structures read from the figure)
+    {"text": 'Which of the following alcohols dehydrates with the fastest rate? Structures: a = 4-methylcyclohexanol (CH₃ and OH on opposite ring carbons, 1,4); b = 1-methylcyclohexanol (CH₃ and OH on the same ring carbon, a tertiary alcohol); c = 2-methylcyclohexanol (CH₃ and OH on adjacent ring carbons); d = 3-methylcyclohexanol (CH₃ and OH 1,3 on the ring); e = cyclohexylmethanol (cyclohexane ring–CH₂OH, a primary alcohol).',
+     "options": ['A. 4-methylcyclohexanol', 'B. 1-methylcyclohexanol', 'C. 2-methylcyclohexanol', 'D. 3-methylcyclohexanol', 'E. cyclohexylmethanol'], "correct": 1},
+
+    # 68 (option structures read from the figure; option D is the clear one)
+    {"text": 'What is the major product of the following reaction? Reactant: a benzene ring bearing a CH₃ group and an isopropyl group [–CH(CH₃)₂] meta to each other, treated with Br₂ and light. Products drawn: a = primary side-chain bromide, 3-CH₃-C₆H₄–CH(CH₃)CH₂Br; b = dibromide with Br on the ring CH₃ carbon and on a CH₃ of the isopropyl group, BrCH₂–C₆H₄–CH(CH₃)CH₂Br; c = a non-benzylic side-chain monobromide isomer (ring CH₃ unchanged); d = tertiary benzylic bromide, 3-CH₃-C₆H₄–C(CH₃)₂Br.',
+     "options": ['A. 3-CH₃-C₆H₄–CH(CH₃)CH₂Br', 'B. BrCH₂–C₆H₄–CH(CH₃)CH₂Br', 'C. non-benzylic side-chain monobromide isomer', 'D. 3-CH₃-C₆H₄–C(CH₃)₂Br'], "correct": 3},
+
+    # 69
+    {"text": 'A hydrocarbon, C₅H₁₂, was allowed to react with bromine in the presence of light. Only one monobromoproduct was formed, C₅H₁₁Br was formed. What is the structure of the hydrocarbon?',
+     "options": ['A. pentane', 'B. methylbutane', 'C. 2-methylbutane', 'D. 2,2-dimethylpropane'], "correct": 3},
+
+    # 70
+    {"text": 'Which of the following is the most stable alkene?',
+     "options": ['A. trans-3-hexene', 'B. cis-3-hexene', 'C. 1-hexene', 'D. cis-2,2,5,5-tetramethyl-3-hexene'], "correct": 0},
+
+    # 71
+    {"text": 'What is the major product from the acid-catalyzed hydration of 2-methyl-2-pentene?',
+     "options": ['A. 2-methylpentane', 'B. 2-methyl-1-pentanol', 'C. 2-methyl-2-pentanol', 'D. 2-methyl-3-pentanol'], "correct": 2},
+
+    # 72
+    {"text": 'Isobutyl alcohol can be produced from isobutene through what reaction?',
+     "options": ['A. acid catalyzed hydration', 'B. oxymercuration/demercuration', 'C. hydroboration/oxidation', 'D. all of these'], "correct": 2},
+
+    # 73
+    {"text": 'If we add HCl to 1-butene, what is the product?',
+     "options": ['A. CH₃CH₂CHClCH₃', 'B. CH₃CH₂CCH₂Cl', 'C. CH₃CH₂CH₂CHCl₂', 'D. CH₃CH₂CHClCH₂Cl'], "correct": 0},
+
+    # 74 (option structures read from the figure)
+    {"text": 'What is the product of the following reaction? Reactant: allylbenzene, C₆H₅–CH₂–CH=CH₂, treated with HBr in the presence of peroxides (ROOR). Products drawn: A = C₆H₅CH₂CH₂CH₂Br (Br on the terminal carbon); B = C₆H₅CH₂CH(Br)CH₃ (Br on the middle side-chain carbon); C = C₆H₅CH=CHCH₂Br; D = C₆H₅CH(Br)CH₂CH₃ (Br on the benzylic carbon).',
+     "options": ['A. C₆H₅CH₂CH₂CH₂Br', 'B. C₆H₅CH₂CH(Br)CH₃', 'C. C₆H₅CH=CHCH₂Br', 'D. C₆H₅CH(Br)CH₂CH₃'], "correct": 0},
+
+    # 75
+    {"text": 'If we add Cl₂ to 1-butene, what is the product?',
+     "options": ['A. CH₃CH₂CCl₂CH₃', 'B. CH₃CH₂CCl₂CHCl₂', 'C. CH₃CH₂CH₂CHCl₂', 'D. CH₃CH₂CHClCH₂Cl'], "correct": 3},
+
+    # 76
+    {"text": 'Which of the following reagents will not yield an alcohol from an alkene?',
+     "options": ['A. OsO₄/NaHSO₃', 'B. Br₂/H₂O', 'C. H⁺/heat', 'D. KOH/CH₃CH₂OH'], "correct": 3},
+
+    # 77 (source prints "heptane"; ozonolysis requires alkenes, so read as heptene isomers)
+    {"text": 'The ozonolysis product/s obtained from all the unbranched and unsymmetrical isomers of heptene is/are',
+     "options": ['A. a single aldehyde', 'B. an aldehyde and a ketone', 'C. two different ketones', 'D. two different aldehydes'], "correct": 3},
+
+    # 78
+    {"text": 'Ozonolysis (O₃ in CH₂Cl₂) of compound A under reducing conditions (Zn/acetic acid) gives formaldehyde, 2-butanone, and compound B. Catalytic hydrogenation (H₂/Pd) of A gives 2,7-dimethylnonane. What is a possible structure for compound A?',
+     "options": ['A. 2,7-dimethyl-2,8-nonadiene', 'B. 2,7-dimethyl-1,8-nonadiene', 'C. 2,7-dimethyl-1,6-nonadiene', 'D. 2,7-dimethyl-1,7-nonadiene'], "correct": 2},
+
+    # 79
+    {"text": 'Reaction of 1,1-dibromopentane with three equivalents of NaNH₂ in ether is followed by treatment with 0.1 M HCl at 0 °C. What is the product?',
+     "options": ['A. cyclopentene', 'B. 1,2-pentadiene', 'C. 2-pentyne', 'D. 1-pentyne'], "correct": 3},
+
+    # 80
+    {"text": 'Which of the following compounds is the major product when 1-hexyne is treated with excess HBr?',
+     "options": ['A. 1,1-dibromohexene', 'B. 1,2-dibromohexene', 'C. 1,2-dibromohexane', 'D. 2,2-dibromohexane'], "correct": 3},
+
+    # 81
+    {"text": 'Hydration of alkynes yields',
+     "options": ['A. epoxide', 'B. ketone', 'C. alcohol', 'D. ether'], "correct": 1},
+
+    # 82 (option structures read from the figure)
+    {"text": 'Which of the following is the final and major product of this reaction? Reaction: phenylacetylene (C₆H₅–C≡CH) + H₂O with H₂SO₄/HgSO₄. Products drawn: a = C₆H₅–C(=O)–CH₃ (acetophenone); b = C₆H₅–C(OH)=CH₂ (enol); c = C₆H₅–CH₂–CHO (phenylacetaldehyde); d = C₆H₅–CH=CH–OH (enol); e = C₆H₅–CH(OH)–CH₂OH (diol).',
+     "options": ['A. C₆H₅–C(=O)–CH₃', 'B. C₆H₅–C(OH)=CH₂', 'C. C₆H₅–CH₂–CHO', 'D. C₆H₅–CH=CH–OH', 'E. C₆H₅–CH(OH)–CH₂OH'], "correct": 0},
+
+    # 83
+    {"text": "The reagent needed to convert 2-butyne to cis-2-butene is:",
+     "options": ['A. H₂/Pt', "B. H₂/Lindlar's catalyst", 'C. Li/NH₃', 'D. Na/NH₃'], "correct": 1},
+
+    # 84
+    {"text": 'When 2,4-dimethyl-3-pentanone is reacted with NaBH₄ in acidic solution, the product is:',
+     "options": ['A. 2,4-dimethylpentane', 'B. 2-methylpropanone', 'C. 2-methylpropanoic acid', 'D. 2,4-dimethyl-3-pentanol'], "correct": 3},
+
+    # 85
+    {"text": 'The following is required to synthesize Grignard reagent except:',
+     "options": ['A. alkyl halide', 'B. magnesium metal', 'C. ether', 'D. mild acid'], "correct": 3},
+
+    # 86
+    {"text": 'Acetone is converted to 2-methyl-2-pentanol using what Grignard reagent?',
+     "options": ['A. methylmagnesium bromide', 'B. ethylmagnesium bromide', 'C. propylmagnesium bromide', 'D. phenylmagnesium bromide'], "correct": 2},
+
+    # 87
+    {"text": 'When a ketone is reacted with primary amine, the product is:',
+     "options": ['A. alcohol', 'B. acetal', 'C. enamine', 'D. imine'], "correct": 3},
+
+    # 88 (as printed the question is not answerable literally: none of the options come from butanal alone; the odd one out is C, and this reads like a crossed aldol of butanal with ethanal)
+    {"text": 'Which of the following compounds would not be a possible product from the mixed aldol reaction of two butanal molecules?',
+     "options": ['A. 3-hydroxybutanal', 'B. 2-ethyl-3-hydroxybutanal', 'C. 3-ethyl-2-hydroxyhexanal', 'D. 3-hydroxyhexanal'], "correct": 2},
+
+    # 89
+    {"text": 'What is the carboxylic acid derivative given by CH₃CH₂CH₂COCl?',
+     "options": ['A. butyl chloride', 'B. butanoyl chloride', 'C. chlorobutanal', 'D. propanoyl chloride'], "correct": 1},
+
+    # 90
+    {"text": 'What is the carboxylic acid derivative given by CH₃COOCOCH₂CH₂CH₃?',
+     "options": ['A. butanoic ethanoic anhydride', 'B. ethanoic butanoic anhydride', 'C. pentanoic anhydride', 'D. acetyl butyryl oxide'], "correct": 0},
+
+    # 91
+    {"text": 'What is the carboxylic acid derivative given by CH₃CONHCH₂CH₃?',
+     "options": ['A. ethyl acetamide', 'B. N-ethylethanamide', 'C. N-methylpropanamide', 'D. diethylamide'], "correct": 1},
+
+    # 92
+    {"text": 'What is a proper name for the following ester? Structure: CH₃CH₂CH(CH₃)–C(=O)–O–CH₂CH₃ (skeletal drawing: a butanoyl chain with a CH₃ branch on the carbon next to the C=O, esterified with an ethyl group).',
+     "options": ['A. 2-butyl ethylester', 'B. ethyl 2-pentanoate', 'C. ethyl 2-methylbutanoate', 'D. methylbutanoicethyl ester'], "correct": 2},
+
+    # 93 (structures read from the figure; C is the one whose name does not match its drawing)
+    {"text": 'Which of the following compounds is not named correctly? A = a cyclopentane ring bearing a COOH group and, on the ring carbon 1,3 to it, two CH₃ groups, named "3,3-dimethylcyclopentanecarboxylic acid". B = a benzene ring bearing an ethyl ester group (–C(=O)OC₂H₅) and a Br meta to it, named "ethyl meta-bromobenzoate". C = (CH₃)₂C=CH–CH₂–C(=O)NH₂ (an amide with a C=C bearing two CH₃ groups at the far end of the chain), named "2-methyl-2-pentenamide". D = a chain carrying three COOH groups (at the left end, at a middle carbon, and at the right end), named "1,2,4-pentanetricarboxylic acid".',
+     "options": ['A. 3,3-dimethylcyclopentanecarboxylic acid', 'B. ethyl meta-bromobenzoate', 'C. 2-methyl-2-pentenamide', 'D. 1,2,4-pentanetricarboxylic acid'], "correct": 2},
+
+    # 94
+    {"text": 'When alcohol is added to carboxylic acid in the presence of catalyst, it becomes:',
+     "options": ['A. acid anhydride', 'B. ester', 'C. amide', 'D. no reaction'], "correct": 1},
+
+    # 95
+    {"text": 'What organic product is formed when C₆H₅CH₂COOH is treated with CH₃OH + H₂SO₄?',
+     "options": ['A. C₆H₅CH₂CH₂OH', 'B. C₆H₅CH₂COO⁻Na⁺ + CO₂ + H₂O', 'C. C₆H₅CH₂COO⁻NH₄⁺', 'D. C₆H₅CH₂COOCH₃ + H₂O'], "correct": 3},
+
+    # 96
+    {"text": 'Which compound does not react with ammonia to form propanamide under mild conditions?',
+     "options": ['A. propanoic acid', 'B. ethyl propanoate', 'C. propanoyl chloride', 'D. propanoic anhydride'], "correct": 0},
+
+    # 97 (acetic anhydride formula is garbled in the source; written here as (CH₃CO)₂O)
+    {"text": 'What compound can be used to convert alcohol or a phenol into an ester?',
+     "options": ['A. Acetic anhydride: CH₃–CO–O–CO–CH₃', 'B. Benzamide', 'C. Maleic anhydrate: CH₃–CH₂–COO–CH₃', 'D. Aqueous bromine solution'], "correct": 0},
+
+    # 98
+    {"text": 'An unknown ester, C₆H₁₂O₂ was hydrolyzed with water and acid to produce acid X and alcohol Y. Oxidation of Y with chromic acid produced X. What was the structure of the ester?',
+     "options": ['A. ethyl ethanoate', 'B. propyl propanoate', 'C. butyl ethanoate', 'D. ethyl butanoate'], "correct": 1},
+
+    # 99
+    {"text": 'Which of the following reagents will reduce a carboxylic acid to a 1°-alcohol under mild conditions? I: BH₃ in ether; II: NaBH₄ in ethanol; III: H₂ & Pt catalyst; IV: LiAlH₄ in ether.',
+     "options": ['A. I & IV', 'B. II & III', 'C. only III', 'D. all of them'], "correct": 0},
+
+    # 100
+    {"text": 'Which of the following reagents would be best for reducing an ester to an aldehyde?',
+     "options": ['A. LiAlH₄ in ether', 'B. B₂H₆ in ether', 'C. NaBH₄ in aqueous ethanol', 'D. diisobutylaluminum hydride (DIBAH) in toluene at -78 °C'], "correct": 3},
+
+    # 101 (as printed, the target amine has one carbon fewer than a simple amide reduction would give; LiAlH₄ is the only amide-to-amine reagent listed)
+    {"text": 'What reagent must be used for converting the amide of (R)-2-phenylpropanoic acid, C₆H₅CH(CH₃)CONH₂, into (R)-1-phenylethylamine?',
+     "options": ['A. H₂SO₄', 'B. KMnO₄', 'C. H₂O/H⁺', 'D. LiAlH₄ in ether.'], "correct": 3},
+
+    # 102 (structures read from the figure)
+    {"text": 'Which of the following is aromatic? Structures: a = an open-chain conjugated triene (hexa-1,3,5-triene); b = a six-membered ring with two C=C bonds and a carbanion (lone pair, negative charge) on a ring carbon (cyclohexadienyl anion); c = a three-membered ring containing one C=C and a positively charged carbon (cyclopropenyl cation); d = a five-membered ring with two C=C bonds and a positively charged carbon (cyclopentadienyl cation); e = a four-membered ring with two C=C bonds (cyclobutadiene).',
+     "options": ['A. hexa-1,3,5-triene', 'B. cyclohexadienyl anion', 'C. cyclopropenyl cation', 'D. cyclopentadienyl cation', 'E. cyclobutadiene'], "correct": 2},
+
+    # 103
+    {"text": 'What is the proper name of the compound below? Structure: a benzene ring bearing an OH group and an unbranched butyl group (–CH₂CH₂CH₂CH₃) meta (1,3) to each other.',
+     "options": ['A. ethyl phenyl ether', 'B. m-sec-butylhydroxybenzene', 'C. o-butylhydroxybenzene', 'D. m-butylphenol'], "correct": 3},
+
+    # 104
+    {"text": 'What is the name of the following compound? Structure: a toluene ring (benzene bearing CH₃) with an NO₂ group on the adjacent (ortho) carbon and a Br on the ring carbon that is meta to the CH₃ and para to the NO₂.',
+     "options": ['A. o-nitro-m-bromotoluene', 'B. 3-bromo-6-nitrotoluene', 'C. m-bromo-o-nitrotoluene', 'D. 5-bromo-2-nitrotoluene'], "correct": 3},
+
+    # 105
+    {"text": 'Which of the following compounds is not named correctly?',
+     "options": ['A. 2-methyl-3-heptanone, (CH₃)₂CHCOCH₂CH₂CH₂CH₃', 'B. phenylacetaldehyde, C₆H₅CH₂CHO', 'C. 4-hexyn-2-one, CH₃COCH₂C≡CCH₃', 'D. para-bromoacetophenone, p-BrC₆H₄CH₂COCH₃'], "correct": 3},
+
+    # 106
+    {"text": 'Which of the following is the electrophile that attacks the aromatic ring during nitration?',
+     "options": ['A. NO₂', 'B. HNO₃', 'C. NO₂⁻', 'D. NO₂⁺'], "correct": 3},
+
+    # 107
+    {"text": 'What is the major organic product of the reaction between benzene and isobutyl chloride in the presence of AlCl₃?',
+     "options": ['A. tert-butylbenzene', 'B. isobutylbenzene', 'C. n-butylbenzene', 'D. sec-butylbenzene'], "correct": 0},
+
+    # 108
+    {"text": 'In electrophilic aromatic substitution reactions a chlorine substituent:',
+     "options": ['A. is a deactivator and a m-director.', 'B. is a deactivator and an o,p-director.', 'C. is an activator and a m-director.', 'D. is an activator and an o,p-director.'], "correct": 1},
+
+    # 109
+    {"text": 'Which of the following compounds reacts most rapidly with HNO₃/H₂SO₄?',
+     "options": ['A. toluene', 'B. anisole', 'C. nitrobenzene', 'D. benzonitrile', 'E. fluorobenzene'], "correct": 1},
+
+    # 110 (product structures read from the figure; V is the para isomer)
+    {"text": 'What is the major product of the following reaction? Reaction: ethylbenzene (C₆H₅CH₂CH₃) + Br₂ with FeBr₃. Products drawn: I = (2-bromoethyl)benzene, C₆H₅CH₂CH₂Br; II = (1-bromoethyl)benzene, C₆H₅CH(Br)CH₃; III = a ring-brominated ethylbenzene with Br at the lower left relative to the ethyl group (meta isomer); IV = a dibrominated ethylbenzene (2,4-dibromo); V = 1-bromo-4-ethylbenzene (Br para to the ethyl group).',
+     "options": ['A. I', 'B. II', 'C. III', 'D. IV', 'E. V'], "correct": 4},
+
+    # 111
+    {"text": 'Starting with benzene, the best method for preparing p-nitrobenzoic acid is:',
+     "options": ['A. HNO₃/H₂SO₄; then CH₃Cl/AlCl₃; then separation of isomers; then KMnO₄/OH⁻/heat, followed by H₃O⁺.', 'B. CH₃Cl/AlCl₃; then HNO₃/H₂SO₄; then separation of isomers; then KMnO₄/OH⁻/heat, followed by H₃O⁺.', 'C. CH₃Cl/AlCl₃; then KMnO₄/OH⁻/heat, followed by H₃O⁺; then HNO₃/H₂SO₄.', 'D. HNO₃/H₂SO₄; then KMnO₄/OH⁻/heat, followed by H₃O⁺; then CH₃Cl/AlCl₃.'], "correct": 1},
+
+    # 112
+    {"text": 'Which of the following cannot be digested by humans?',
+     "options": ['A. D-amino acids', 'B. L-sugars', 'C. both a and b', 'D. L-carnitine'], "correct": 2},
+
+    # 113
+    {"text": 'This is a [4+2] concerted cycloaddition between a conjugated diene and a substituted alkene to form substituted cyclohexene ring.',
+     "options": ['A. Diels-Alder reaction', 'B. Wittig reaction', 'C. Cannizzaro reaction', 'D. Wurtz reaction'], "correct": 0},
+
+    # 114
+    {"text": 'This reaction converts aldehydes/ketones to alkenes using a phosphorus ylide reagent.',
+     "options": ['A. Diels-Alder reaction', 'B. Wittig reaction', 'C. Cannizzaro reaction', 'D. Wurtz reaction'], "correct": 1},
+
+    # 115 (the fourth option is mislabeled "c." a second time in the source; treated here as D)
+    {"text": 'What is the difference between NMR and IR spectroscopy?',
+     "options": ['A. NMR determines the functional groups present, IR determines the chemical structure and molecular weight.', 'B. NMR determines the chemical structure and molecular weight, IR determines the functional groups present.', 'C. NMR and IR can determine both the chemical structure, molecular weight, and functional groups present.', 'D. NMR and IR cannot determine both the chemical structure, molecular weight, and functional groups present.'], "correct": 1},
+
+]
+
+D1_L5_Material_Science_Engineering = [
+
+    # 1
+    {"text": 'What is electronegativity?',
+     "options": ['A. The ability of an atom to lose electrons', 'B. The ability of an atom to attract electrons toward itself in a bond', 'C. The number of electrons in an atom', 'D. The energy required to remove an electron'], "correct": 1},
+
+    # 2
+    {"text": 'What are primary bonds?',
+     "options": ['A. Weak forces between molecules', 'B. Bonds formed due to temporary dipoles', 'C. Strong bonds involving the sharing or transfer of electrons', 'D. Bonds only found in gases'], "correct": 2},
+
+    # 3
+    {"text": 'What are secondary bonds?',
+     "options": ['A. Strong bonds within molecules', 'B. Bonds formed by electron transfer', 'C. Weak intermolecular forces between molecules', 'D. Bonds found only in metals'], "correct": 2},
+
+    # 4
+    {"text": 'Which type of bonding involves the transfer of electrons from one atom to another?',
+     "options": ['A. Covalent', 'B. Ionic', 'C. Metallic', 'D. Hydrogen'], "correct": 1},
+
+    # 5 (uses Pauling electronegativities Mg = 1.2, O = 3.5: %IC = [1 - exp(-0.25(ΔX)²)] × 100 ≈ 73.4%)
+    {"text": 'Calculate the percentage ionic character of the bond in MgO.',
+     "options": ['A. 48.60%', 'B. 73.35%', 'C. 52.79%', 'D. 61.28%'], "correct": 1},
+
+    # 6
+    {"text": 'Which type of bonding involves the sharing of electron pairs between atoms?',
+     "options": ['A. Ionic', 'B. Covalent', 'C. Metallic', 'D. Van der Waals'], "correct": 1},
+
+    # 7
+    {"text": 'Which type of bonding explains the conductivity of metals?',
+     "options": ['A. Ionic', 'B. Metallic', 'C. Covalent', 'D. Hydrogen'], "correct": 1},
+
+    # 8
+    {"text": 'Which of the following is a type of secondary bond?',
+     "options": ['A. Ionic bond', 'B. Metallic bond', 'C. Covalent bond', 'D. Hydrogen bond'], "correct": 3},
+
+    # 9
+    {"text": 'What is the main cause of van der Waals forces?',
+     "options": ['A. Permanent electron transfer', 'B. Temporary dipoles in atoms or molecules', 'C. Sharing of electrons', 'D. Metallic electron sea'], "correct": 1},
+
+    # 10
+    {"text": 'Which of the following best defines a crystal?',
+     "options": ['A. A solid with a random arrangement of atoms', 'B. A solid in which atoms are arranged in a periodic, repeating pattern', 'C. A liquid that has solidified', 'D. A gas in a rigid container'], "correct": 1},
+
+    # 11
+    {"text": 'Which type of solid lacks long-range order?',
+     "options": ['A. amorphous solid', 'B. crystalline solid', 'C. ionic solid', 'D. metallic solid'], "correct": 0},
+
+    # 12
+    {"text": 'The arrangement of points in space representing atomic positions is called:',
+     "options": ['A. Unit cell', 'B. Lattice', 'C. Bravais lattice', 'D. Crystal defect'], "correct": 1},
+
+    # 13
+    {"text": 'It is defined as the smallest repeating structure in a crystal.',
+     "options": ['A. molecule', 'B. lattice plane', 'C. crystal grain', 'D. unit cell'], "correct": 3},
+
+    # 14
+    {"text": 'The unique three-dimensional arrangement of lattice points are known as ______, the combination of crystal structure and crystal system.',
+     "options": ['A. primitive cell', 'B. Bravais lattice', 'C. unit cell', 'D. crystal lattice'], "correct": 1},
+
+    # 15
+    {"text": 'Which crystal system has all sides equal and all angles 90°?',
+     "options": ['A. Tetragonal', 'B. Orthorhombic', 'C. Cubic', 'D. Hexagonal'], "correct": 2},
+
+    # 16
+    {"text": 'The tetragonal crystal system is characterized by:',
+     "options": ['A. a = b ≠ c, α = β = γ = 90°', 'B. a = b = c, α = β = γ = 90°', 'C. a ≠ b ≠ c, α = β = γ = 90°', 'D. a = b ≠ c, α = β = 90°, γ = 120°'], "correct": 0},
+
+    # 17 (figure: rectangular unit cell drawn with x, y, z axes)
+    {"text": 'Below is a unit cell for a hypothetical metal. Figure: a rectangular box-shaped unit cell drawn with x, y, and z axes. The two base edges (along x and y) are each 0.35 nm long, the vertical edge (along z) is 0.45 nm long, and all angles between the axes are marked as 90°. Atoms sit at the eight corners and there is one atom at the center of the cell. What is the crystal system of this unit cell?',
+     "options": ['A. cubic', 'B. tetragonal', 'C. orthorhombic', 'D. hexagonal'], "correct": 1},
+
+    # 18
+    {"text": 'Which crystal system has the lowest symmetry?',
+     "options": ['A. Cubic', 'B. Triclinic', 'C. Monoclinic', 'D. Hexagonal'], "correct": 1},
+
+    # 19
+    {"text": 'The number of atoms per unit cell in a body-centered cubic structure is:',
+     "options": ['A. 1', 'B. 4', 'C. 2', 'D. 3'], "correct": 2},
+
+    # 20
+    {"text": 'What kind of cubic is diamond?',
+     "options": ['A. SC', 'B. HCP', 'C. FCC', 'D. BCC'], "correct": 2},
+
+    # 21
+    {"text": 'What is the coordination number of atoms in a simple cubic structure?',
+     "options": ['A. 6', 'B. 2', 'C. 4', 'D. 8'], "correct": 0},
+
+    # 22
+    {"text": 'Calculate the Atomic Packing Factor (APF) of body-centered cubic structure.',
+     "options": ['A. 0.50', 'B. 0.72', 'C. 0.44', 'D. 0.68'], "correct": 3},
+
+    # 23 (lead is FCC: a = 2R√2 = 0.495 nm, V = a³)
+    {"text": 'If the atomic radius of lead is 0.175 nm, calculate the volume of its unit cell in cubic meters.',
+     "options": ['A. 1.21x10⁻²⁸ m³', 'B. 2.67x10⁻²⁸ m³', 'C. 2.30x10⁻²⁸ m³', 'D. 1.59x10⁻²⁸ m³'], "correct": 0},
+
+    # 24
+    {"text": 'Calculate the radius of a palladium atom, given that Pd has an FCC crystal structure, a density of 12.0 g/cm³, and an atomic weight of 106.4 g/mol.',
+     "options": ['A. 0.36 nm', 'B. 0.14 nm', 'C. 0.25 nm', 'D. 0.59 nm'], "correct": 1},
+
+    # 25
+    {"text": 'Miller indices are used to describe:',
+     "options": ['A. The type of atoms in a crystal', 'B. The orientation of crystallographic planes and directions', 'C. The mass of a unit cell', 'D. The color of a crystal'], "correct": 1},
+
+    # 26
+    {"text": 'The direction [111] in a cubic crystal is along:',
+     "options": ['A. x-axis', 'B. y-axis', 'C. z-axis', 'D. Body diagonal of the cube'], "correct": 3},
+
+    # 27
+    {"text": 'The crystallographic direction [1 0 0] in a cubic crystal points along:',
+     "options": ['A. The x-axis', 'B. The z-axis', 'C. The y-axis', 'D. The body diagonal'], "correct": 0},
+
+    # 28 (printed with square brackets; the plane intercepting 1, 1, 1 is (111))
+    {"text": 'The Miller index of a plane that cuts the x, y, and z axes at 1, 1, 1 units respectively is:',
+     "options": ['A. [1 1 1]', 'B. [0 0 1]', 'C. [1 0 0]', 'D. [1 1 0]'], "correct": 0},
+
+    # 29
+    {"text": 'Which of the following is an example of allotropy, where an element exists in different structural forms?',
+     "options": ['A. Calcite and Aragonite', 'B. Diamond and Graphite', 'C. Rutile and Anatase', 'D. Monazite and Apatite'], "correct": 1},
+
+    # 30
+    {"text": 'Polymorphism refers to:',
+     "options": ['A. Different elements forming the same compound', 'B. Different crystal structures of the same compound', 'C. Different isotopes of an element', 'D. Different oxidation states of an element'], "correct": 1},
+
+    # 31
+    {"text": 'A material is isotropic if:',
+     "options": ['A. Its properties vary with direction', 'B. Its properties are the same in all directions', 'C. It has multiple crystal forms', 'D. It is amorphous'], "correct": 1},
+
+    # 32
+    {"text": 'The defect which takes place due to imperfect packing of atoms during crystallization is known as',
+     "options": ['A. point', 'B. linear', 'C. volume', 'D. surface'], "correct": 0},
+
+    # 33
+    {"text": 'The formation of cation/anion vacancy clusters such that the crystal remains electrically neutral is called:',
+     "options": ['A. Frenkel', 'B. Schottky', 'C. interstitial', 'D. substitutional'], "correct": 1},
+
+    # 34
+    {"text": 'The energy for vacancy formation in copper is 0.9 eV/atom. The atomic weight and density at 1000 °C are 63.5 g/mol and 8.4 g/cm³, respectively. Determine the equilibrium number of vacancies per cubic meter for Cu at the given temperature.',
+     "options": ['A. 3.5x10²⁶ atoms/m³', 'B. 4.9x10²³ atoms/m³', 'C. 2.2x10²⁵ atoms/m³', 'D. 1.6x10²⁴ atoms/m³'], "correct": 2},
+
+    # 35
+    {"text": 'Calculate the energy for vacancy formation in silver, given that the equilibrium number of vacancies at 800 °C is 3.6x10²³ m⁻³. The atomic weight and density (at 800 °C) for silver are 107.9 g/mol and 9.5 g/cm³, respectively.',
+     "options": ['A. 1.9 eV/atom', 'B. 0.5 eV/atom', 'C. 0.7 eV/atom', 'D. 1.1 eV/atom'], "correct": 3},
+
+    # 36
+    {"text": 'The presence of a vacancy defect in a crystal:',
+     "options": ['A. Increases density', 'B. Decreases density', 'C. Does not affect density', 'D. Converts the crystal into an amorphous solid'], "correct": 1},
+
+    # 37
+    {"text": 'A vacancy defect increases with:',
+     "options": ['A. Decreasing temperature', 'B. Increasing temperature', 'C. Increasing atomic mass', 'D. Increasing external pressure'], "correct": 1},
+
+    # 38
+    {"text": 'The line defect that represents a row of misplaced atoms in a crystal lattice is known as a:',
+     "options": ['A. Grain boundary', 'B. Vacancy', 'C. Dislocation', 'D. Interstitial'], "correct": 2},
+
+    # 39
+    {"text": 'A piece of titanium originally 250 mm long is pulled in tension with a stress of 315 MPa. If the deformation is entirely elastic, what will be the elongation of the material? Modulus of elasticity = 107 GPa.',
+     "options": ['A. 0.74 mm', 'B. 0.55 mm', 'C. 0.98 mm', 'D. 0.36 mm'], "correct": 0},
+
+    # 40
+    {"text": 'What is the ratio of lateral strain to axial strain called?',
+     "options": ['A. Modulus of elasticity', 'B. Yield ratio', "C. Poisson's ratio", 'D. Strain hardening coefficient'], "correct": 2},
+
+    # 41
+    {"text": 'Consider a cylindrical specimen of some hypothetical metal alloy that has a diameter of 10.0 mm. A tensile force of 1500 N produces an elastic reduction in diameter of 6.7 x 10⁻⁴ mm. Compute the elastic modulus of this alloy, given that Poisson’s ratio is 0.35.',
+     "options": ['A. 150 GPa', 'B. 200 GPa', 'C. 250 GPa', 'D. 100 GPa'], "correct": 3},
+
+    # 42
+    {"text": 'The maximum stress that can be sustained by a structure in tension. This is the maximum point in the engineering stress-strain diagram.',
+     "options": ['A. yield strength', 'B. fracture strength', 'C. tensile strength', 'D. elastic limit'], "correct": 2},
+
+    # 43
+    {"text": 'The ability of a material to absorb energy in the plastic and elastic range.',
+     "options": ['A. toughness', 'B. strength', 'C. ductility', 'D. hardness'], "correct": 0},
+
+    # 44
+    {"text": 'The ability of material to absorb energy in the elastic range.',
+     "options": ['A. ductility', 'B. resilience', 'C. elasticity', 'D. toughness'], "correct": 1},
+
+    # 45
+    {"text": 'The ability of a material to be drawn into a wire is known as:',
+     "options": ['A. Ductility', 'B. Hardness', 'C. Brittleness', 'D. Toughness'], "correct": 0},
+
+    # 46
+    {"text": 'This mechanical property may be expressed as either percent elongation or percent reduction in area.',
+     "options": ['A. ductility', 'B. strength', 'C. toughness', 'D. resilience'], "correct": 0},
+
+    # 47
+    {"text": 'The main reason ceramics are brittle is because of their:',
+     "options": ['A. High thermal conductivity', 'B. Ionic and covalent bonding', 'C. Low density', 'D. Crystalline grain boundaries'], "correct": 1},
+
+    # 48
+    {"text": 'What type of chemical bond is primarily found in polymers like polyethylene?',
+     "options": ['A. covalent', 'B. hydrogen', 'C. metallic', 'D. ionic'], "correct": 0},
+
+    # 49
+    {"text": 'Thermoplastics can be described as polymers that:',
+     "options": ['A. Harden permanently when heated', 'B. Cannot be reshaped once formed', 'C. Soften when heated and harden when cooled, repeatedly', 'D. Are always biodegradable'], "correct": 2},
+
+    # 50
+    {"text": 'Stainless steel resists corrosion mainly because of the presence of:',
+     "options": ['A. nickel', 'B. carbon', 'C. chromium', 'D. manganese'], "correct": 2},
+
+    # 51
+    {"text": 'Which factor directly affects the thermal conductivity of a metal?',
+     "options": ['A. Number of valence electrons', 'B. Grain size', 'C. Free electron density', 'D. Atomic weight'], "correct": 2},
+
+    # 52
+    {"text": 'Which of the following materials typically exhibits high hardness and low ductility?',
+     "options": ['A. polymers', 'B. ceramics', 'C. metals', 'D. elastomers'], "correct": 1},
+
+    # 53
+    {"text": 'Which structure type is generally stronger in a fiber-reinforced composite?',
+     "options": ['A. isotropic', 'B. amorphous', 'C. anisotropic', 'D. crystalline'], "correct": 2},
+
+    # 54
+    {"text": 'What is the primary reinforcement material in carbon fiber composites?',
+     "options": ['A. graphite', 'B. carbon fibers', 'C. epoxy resin', 'D. Kevlar threads'], "correct": 1},
+
+    # 55
+    {"text": 'Which metal is most commonly used as a matrix in metal matrix composites?',
+     "options": ['A. copper', 'B. aluminum', 'C. titanium', 'D. steel'], "correct": 1},
+
+    # 56
+    {"text": 'Which process is used to improve the mechanical properties of metals through controlled heating and slow cooling, typically to reduce hardness and increase ductility?',
+     "options": ['A. quenching', 'B. forging', 'C. annealing', 'D. tempering'], "correct": 2},
+
+    # 57
+    {"text": 'In stir casting, what is added into the molten metal matrix?',
+     "options": ['A. binder', 'B. flux', 'C. solvent', 'D. reinforcement'], "correct": 3},
+
+    # 58
+    {"text": 'The main advantage of resin transfer molding over hand lay-up is:',
+     "options": ['A. lower tooling cost', 'B. better control of fiber volume fraction', 'C. shorter cycle time for small parts', 'D. simpler mold design'], "correct": 1},
+
+    # 59
+    {"text": 'Which of the following statements about filament winding is true?',
+     "options": ['A. It is suitable for producing flat plates and panels', 'B. It uses pre-impregnated fibers only', 'C. It is commonly used for cylindrical structures', 'D. It produces non-uniform fiber orientation'], "correct": 2},
+
+    # 60
+    {"text": 'Pultrusion is primarily used to produce:',
+     "options": ['A. Flat composite sheets', 'B. Complex 3D components', 'C. Continuous constant cross-section profiles', 'D. Laminated panels with variable thickness'], "correct": 2},
+
+    # 61
+    {"text": 'The unit of energy in the SI system is:',
+     "options": ['A. Joule', 'B. Calorie', 'C. Watt', 'D. Pascal'], "correct": 0},
+
+    # 62
+    {"text": 'Which gas is commonly found in coal mines and is known as "firedamp" due to its flammability?',
+     "options": ['A. Carbon dioxide (CO₂)', 'B. Nitrogen (N₂)', 'C. Methane (CH₄)', 'D. Hydrogen sulfide (H₂S)'], "correct": 2},
+
+    # 63
+    {"text": 'What is the air fuel volume ratio when methane is burned with ideal air?',
+     "options": ['A. 2:1', 'B. 9.52:1', 'C. 4.76:1', 'D. 5:1'], "correct": 1},
+
+    # 64
+    {"text": 'How many sections are included in a standard Safety Data Sheet (SDS) according to the Globally Harmonized System (GHS)?',
+     "options": ['A. 8', 'B. 16', 'C. 12', 'D. 20'], "correct": 1},
+
+    # 65 (figure: hazard pictogram)
+    {"text": 'Identify the symbol. Figure: a GHS hazard pictogram, a red-bordered diamond containing a black flame above a circle (a flame over a circle).',
+     "options": ['A. flammable', 'B. corrosive', 'C. oxidizing', 'D. toxic'], "correct": 2},
+
+    # 66
+    {"text": 'A gas mixture contains 3 moles of O₂ and 2 moles of N₂ in a 10 L container at 27°C. What is the partial pressure of O₂ in the mixture?',
+     "options": ['A. 2.46 atm', 'B. 7.38 atm', 'C. 4.92 atm', 'D. 6.15 atm'], "correct": 1},
+
+    # 67
+    {"text": 'If the compressibility factor (Z) > 1 for a gas, what does this indicate about the gas behavior?',
+     "options": ['A. The gas behaves exactly like an ideal gas.', 'B. The gas experiences more repulsive forces and occupies a larger volume than an ideal gas.', 'C. The gas experiences strong attractive forces and compresses more than an ideal gas.', 'D. The gas liquefies immediately.'], "correct": 1},
+
+    # 68 (Rb-87 was the first BEC, Cornell/Wieman, June 1995; sodium followed a few months later)
+    {"text": 'Which element was first used in the experimental discovery of the Bose-Einstein Condensate (BEC) in 1995?',
+     "options": ['A. Helium (He)', 'B. Sodium (Na)', 'C. Rubidium (Rb)', 'D. Cesium (Cs)'], "correct": 2},
+
+    # 69
+    {"text": 'Which hydrocarbon has a vapor density of 29 relative to hydrogen?',
+     "options": ['A. Butene', 'B. Pentane', 'C. Pentene', 'D. Butane'], "correct": 3},
+
+    # 70
+    {"text": 'An ideal gas undergoes isothermal expansion at a temperature of 350 K. The gas expands from an initial volume of 2.0 L to a final volume of 5.0 L. The heat absorbed by the gas during this process is 500 J. What is the change in entropy (ΔS) of the system?',
+     "options": ['A. 1.25 J/K', 'B. 1.67 J/K', 'C. 1.43 J/K', 'D. 1.89 J/K'], "correct": 2},
+
+    # 71
+    {"text": 'What is the change in internal energy of a closed system after completing a cyclic process?',
+     "options": ['A. Equal to the heat added to the system', 'B. Equal to the work done by the system', 'C. Zero', 'D. Depends on the efficiency of the cycle'], "correct": 2},
+
+    # 72 (q = mcΔT = 100 g × 4.18 × 6.2 = 2592 J released by 0.05 mol, i.e. about -51.8 kJ per mol; the option is -51800, read as J/mol)
+    {"text": 'A 50 mL solution of 1 M HCl is mixed with 50 mL of 1 M NaOH. The initial temperature of both solutions is 25.0°C, and the final temperature after mixing is 31.2°C. Given that the density of the solution is 1 g/mL and specific heat capacity is 4.18 J/g-°C, calculate the heat of mixing.',
+     "options": ['A. -20880 J', 'B. -10440 J', 'C. -51800 J', 'D. -26040 J'], "correct": 2},
+
+    # 73 (Gibbs free energy G is at a minimum at equilibrium; ΔG = 0 is asked in the next item)
+    {"text": 'When a system is at equilibrium, what is the value of Gibbs free energy?',
+     "options": ['A. Maximum', 'B. Minimum', 'C. Zero', 'D. Undefined'], "correct": 1},
+
+    # 74
+    {"text": 'What is the value of ΔG (Gibbs free energy change) when a system is at equilibrium?',
+     "options": ['A. ΔG = 0', 'B. ΔG > 0', 'C. ΔG < 0', 'D. infinity'], "correct": 0},
+
+    # 75
+    {"text": 'Given the following reactions and their enthalpy changes: C + O₂ → CO₂, ΔH = -393.5 kJ/mol; CO + ½O₂ → CO₂, ΔH = -283.0 kJ/mol; 2C + O₂ → 2CO, ΔH = -221.0 kJ/mol. What is the enthalpy of formation of CO in kJ/mol?',
+     "options": ['A. -283.0 kJ/mol', 'B. -110.5 kJ/mol', 'C. +110.5 kJ/mol', 'D. +283.0 kJ/mol'], "correct": 1},
+
+    # 76 (enthalpy of vaporization is not offered; entropy change is the closest, since ΔH = TΔS)
+    {"text": 'Which thermodynamic property does the Clausius-Clapeyron equation relate to the slope of the vapor pressure curve?',
+     "options": ['A. Temperature', 'B. Entropy change of vaporization', 'C. Pressure', 'D. Volume change during phase transition'], "correct": 1},
+
+    # 77
+    {"text": 'A liquid solution follows Raoult’s Law, where the pure vapor pressures of components A and B are: PA⁰ = 80 kPa and PB⁰ = 60 kPa. If the mole fraction of A in the liquid phase is 0.4, what is the total vapor pressure of the solution?',
+     "options": ['A. 68 kPa', 'B. 72 kPa', 'C. 76 kPa', 'D. 80 kPa'], "correct": 0},
+
+    # 78
+    {"text": 'Which colligative property explains why adding salt to ice lowers its melting point, causing roads to remain unfrozen in winter?',
+     "options": ['A. Boiling point elevation', 'B. Freezing point depression', 'C. Osmotic pressure', 'D. Vapor pressure lowering'], "correct": 1},
+
+    # 79
+    {"text": 'A 2 kg metal block is heated, increasing its temperature from 25°C to 75°C. The specific heat capacity of the metal is 104.5 J/kg-K. What is the amount of heat energy absorbed by the metal?',
+     "options": ['A. 7450 J', 'B. 8900 J', 'C. 10450 J', 'D. 12500 J'], "correct": 2},
+
+    # 80
+    {"text": 'If equal amounts of BaCl₂ and Na₂SO₄ solutions are mixed, what will be the precipitate formed?',
+     "options": ['A. BaSO₄', 'B. BaCl₂', 'C. NaCl', 'D. Na₂SO₄'], "correct": 0},
+
+    # 81
+    {"text": 'What is the purpose of digestion in gravimetric analysis?',
+     "options": ['A. To dissolve impurities in the precipitate', 'B. To increase the solubility of the precipitate in solution', 'C. To speed up the reaction by increasing temperature', 'D. To promote the growth of larger and purer precipitate particles for easier filtration'], "correct": 3},
+
+    # 82 (the printed ratio is inverted relative to the usual analyte/precipitate definition, but it is the only option that is a molar-mass ratio)
+    {"text": 'Which of the following represents the gravimetric factor used to convert the mass of a precipitate to the concentration of the analyte in a sample?',
+     "options": ['A. Molar mass of precipitate / Molar mass of analyte', 'B. 0.1', 'C. 1', 'D. Mass of precipitate / Volume of analyte'], "correct": 0},
+
+    # 83
+    {"text": 'A 0.03 mol solution of HCl is used to completely titrate an unknown amount of NaOH. How many moles of NaOH were present in the analyte?',
+     "options": ['A. 0.015 mol', 'B. 0.045 mol', 'C. 0.030 mol', 'D. 0.060 mol'], "correct": 2},
+
+    # 84
+    {"text": 'A back titration is performed using potassium dichromate (K₂Cr₂O₇). If 50.0 mL of a 0.100 M solution is used in the reaction, how many moles of Cr₂O₇²⁻ are present?',
+     "options": ['A. 0.00250 moles', 'B. 0.00500 moles', 'C. 0.0100 moles', 'D. 0.0500 moles'], "correct": 1},
+
+    # 85
+    {"text": 'Which of the following best defines the equivalence point in a titration?',
+     "options": ['A. The point where the amount of titrant added is stoichiometrically equal to the analyte in the solution', 'B. The point where the color of the indicator changes', 'C. The point where the pH reaches 7', 'D. The point where no more titrants can be added'], "correct": 0},
+
+    # 86
+    {"text": 'During the titration of a weak acid with a strong base, the pH rises from 3.0 to 4.7. What primarily causes this increase in pH?',
+     "options": ['A. The complete neutralization of the weak acid', 'B. The formation of its conjugate base, which partially resists further pH changes', 'C. The rapid dissociation of water molecules', 'D. The presence of excess strong base in the solution'], "correct": 1},
+
+    # 87
+    {"text": 'Which law describes the relationship between absorbance and concentration in spectrophotometry?',
+     "options": ['A. Boyle’s Law', 'B. Beer-Lambert Law', 'C. Henry’s Law', 'D. Dalton’s Law'], "correct": 1},
+
+    # 88
+    {"text": 'A solution has an absorbance of 0.5 when measured in a 1 cm cuvette. If the concentration is doubled, what will be the new absorbance?',
+     "options": ['A. 0.25', 'B. 0.50', 'C. 1.00', 'D. 2.00'], "correct": 2},
+
+    # 89
+    {"text": 'A solution has an absorbance of 1.2 when measured in a 1 cm path length cuvette. What will happen to the absorbance if the path length is increased to 2 cm while keeping the concentration constant?',
+     "options": ['A. Absorbance will stay the same', 'B. Absorbance will be halved', 'C. Absorbance will double', 'D. Absorbance will decrease to 1.0'], "correct": 2},
+
+    # 90
+    {"text": 'A solution has an absorbance of 0.301 when measured using a spectrophotometer. What is its transmittance (T)?',
+     "options": ['A. 25%', 'B. 30%', 'C. 50%', 'D. 75%'], "correct": 2},
+
+]
 
 # ----------------------------------------CHEMTECH---------------------------
 
