@@ -7772,8 +7772,8 @@ CT_PT_Analytical_Chemistry = [
      "options": ['A. Organic', 'B. Aqueous', 'C. Denser', 'D. Nonaqueous'], "correct": 1},
 
     # 43 (ANSWER UNVERIFIED: the figure of the two graduated cylinders was not included in the pasted text, so "correct" is a placeholder)
-    {"text": 'Determine the volumes of the liquids in the graduated cylinders shown. (Figure of two graduated cylinders not included in the source.)',
-     "options": ['A. 6.60 mL and 2.00 mL', 'B. 6.60 mL and 2.30 mL', 'C. 6.70 mL and 2.00 mL', 'D. 6.70 mL and 2.30 mL'], "correct": 0},
+    {"text": 'Determine the volumes of the liquids in the graduated cylinders shown. The image shows two graduated cylinders containing gray liquid, with horizontal graduation marks and numbered major graduations. Left cylinder: markings labeled 6, 7, and 8. The liquid level is between 6 and 7, closer to 7. Right cylinder: markings labeled 1, 2, and 3. The liquid level is between 2 and 3, closer to 2. Each numbered interval is divided into smaller graduations. The liquid surfaces are slightly curved, forming menisci.',
+     "options": ['A. 6.60 mL and 2.00 mL', 'B. 6.60 mL and 2.30 mL', 'C. 6.70 mL and 2.00 mL', 'D. 6.70 mL and 2.30 mL'], "correct": 1},
 
     # 44
     {"text": 'What is the normality of 0.250 M H₂SO₄ in a complete acid–base neutralization?',
