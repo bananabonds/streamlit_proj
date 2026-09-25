@@ -6858,6 +6858,925 @@ D1_L5_Material_Science_Engineering = [
 
 ]
 
+D1_L6_Physical_Chemistry = [
+
+    # 1
+    {"text": "It is the property of a fluid that is caused by the shearing effect of a fluid layer moving past another layer.",
+     "options": ["A. Density", "B. Viscosity", "C. Flow", "D. Compressibility"], "correct": 1},
+
+    # 2
+    {"text": "A sphere of radius 5 mm and density of 1.1 g/cm3 falls at a constant velocity through a liquid of density 1 g/cm3 and viscosity of 1 cP. What is the velocity of the falling sphere in m/s?",
+     "options": ["A. 1.36 m/s", "B. 2.72 m/s", "C. 5.45 m/s", "D. 10.88 m/s"], "correct": 2},
+
+    # 3
+    {"text": "An Ostwald Viscometer is used to measure the viscosity of a monoatomic gas. The inlet and outlet pressures of the gas are 1.1 atm and 1.08 atm. What is the viscosity in \u03bcP of 100 mL of this gas measured at 300 K if it took 5 s for the gas to flow through a 0.5 m tube of 1 mm diameter?",
+     "options": ["A. 0.5", "B. 5", "C. 50", "D. 500"], "correct": 2},
+
+    # 4
+    {"text": "A liquid with high surface tension and low viscosity is compared to one with low surface tension and high viscosity. Which statement is most accurate?",
+     "options": [
+         "A. First liquid rises higher in capillary tube and flows more easily",
+         "B. First liquid rises lower in capillary tube but flows more easily",
+         "C. First liquid rises higher in capillary tube but flows less easily",
+         "D. First liquid rises lower in capillary tube and flows less easily"],
+     "correct": 0},
+
+    # 5
+    {"text": "Surface tension of a liquid is 0.05 N/m. What force is required to pull a wire 0.1 m long from the surface?",
+     "options": ["A. 0.0025 N", "B. 0.005 N", "C. 0.01 N", "D. 0.02 N"], "correct": 2},
+
+    # 6
+    {"text": "Water (surface tension = 0.072 N/m) rises in a capillary tube of radius 1.5 mm. Assuming a contact angle of 0, what is the height of rise?",
+     "options": ["A. 4.9 mm", "B. 6.5 mm", "C. 9.8 mm", "D. 12.4 mm"], "correct": 2},
+
+    # 7
+    {"text": "The internal energy of an ideal gas depends on:",
+     "options": ["A. Volume", "B. Pressure", "C. Absolute temperature", "D. Number of moles"], "correct": 2},
+
+    # 8
+    {"text": "A sample of an ideal gas has an internal energy of U and is then compressed to \u00bd of its original volume while the temperature stays the same. What is the new internal energy of the ideal gas in terms of U?",
+     "options": ["A. U", "B. U/2", "C. U/4", "D. 2U"], "correct": 0},
+
+    # 9
+    {"text": "Which of the following is not conserved in any process?",
+     "options": ["A. Mass", "B. Energy", "C. Momentum", "D. Entropy"], "correct": 3},
+
+    # 10
+    {"text": "Which of the following statements is/are true?\n1) The criterion of equilibrium at constant temperature and pressure is dG = 0.\n2) For a reversible process, dS = dQ / T.",
+     "options": ["A. 1 only", "B. Both 1 and 2", "C. 2 only", "D. None of the above"], "correct": 1},
+
+    # 11
+    {"text": "The general statement of the Third Law of Thermodynamics is attributed to:",
+     "options": ["A. Nikolaus Otto", "B. Jacobus Clapeyron", "C. William Clausius", "D. Walther Nernst"], "correct": 3},
+
+    # 12
+    {"text": "Which of the following is false regarding absolute zero?",
+     "options": ["A. All molecules will stop moving", "B. Absolute zero can be achieved",
+                 "C. Temperature is 0 K", "D. Temperature is 0 R"], "correct": 1},
+
+    # 13
+    {"text": "Ethanol may be treated as an incompressible fluid at an appreciable pressure range. If the pressure is changed from 1 bar to 3 bar at 350 K, what is the change in the Gibbs free energy in J/g? The density of ethanol at this temperature is 800 kg/m3.",
+     "options": ["A. 0.25", "B. 2.5", "C. 25", "D. 250"], "correct": 0},
+
+    # 14
+    {"text": "Mix 2 mol N2 and 1 mol O2 at 1 atm and 298 K. What is \u0394S_MIX?",
+     "options": ["A. 14.1 J/K", "B. 11.5 J/K", "C. 15.9 J/K", "D. 16.6 J/K"], "correct": 2},
+
+    # 15
+    {"text": "The amount of heat absorbed when CO2 gas reacts with a solid CaO to form solid CaCO3 is measured in a bomb calorimeter. The data obtained give a direct measure of:",
+     "options": ["A. \u0394U", "B. V\u0394P", "C. \u0394H", "D. CP"], "correct": 0},
+
+    # 16
+    {"text": "Heat required to raise the temperature of 1 lbm of water by 1 \u02daF.",
+     "options": ["A. Calorie", "B. BTU", "C. Specific heat", "D. Heat capacity"], "correct": 1},
+
+    # 17
+    {"text": "Which of the following does not have a zero enthalpy of formation at 298.15 K?",
+     "options": ["A. Li(g)", "B. He(g)", "C. Hg(l)", "D. Br2(l)"], "correct": 0},
+
+    # 18
+    {"text": "Calculate the enthalpy change of the reaction (in kJ/mol): CS2(l) + 3O2(g) \u2192 CO2(g) + 2SO2(g)\n"
+             "Mechanism:\n"
+             "C(s) + O2(g) \u2192 CO2(g); \u0394HF = -393.5 kJ/mol\n"
+             "S(s) + O2(g) \u2192 SO2(g); \u0394HF = -296.8 kJ/mol\n"
+             "C(s) + 2S(s) \u2192 CS2(l); \u0394HF = 87.9 kJ/mol",
+     "options": ["A. -905", "B. -1075", "C. -1355", "D. -1525"], "correct": 1},
+
+    # 19 (Situation: iron block cooling in water)
+    {"text": "A block of iron weighing 3.6 kg at a temperature of 807 \u02daC was inserted into a container containing 1 L of water at a temperature of 30 \u02daC, isolated from the environment. The cooling of the iron happens in two steps: first the water is heated to its boiling point, then the water evaporates. This continues until the temperature of the iron equals the temperature of the water. The final temperature of the water and the iron is 100 \u02daC. The specific heat of solid iron is 0.45 J/g-K and the heat of vaporization of water is 2259.23 J/g. "
+             "The energy given off by the iron block in MJ is nearest to:",
+     "options": ["A. 1.1", "B. 1.3", "C. 0.7", "D. 0.9"], "correct": 0},
+
+    # 20
+    {"text": "(Situation: A 3.6 kg iron block at 807 \u02daC is inserted into 1 L of water at 30 \u02daC, isolated from the environment. The water first heats to its boiling point, then evaporates, until the iron and water reach a common final temperature of 100 \u02daC. Specific heat of solid iron = 0.45 J/g-K; heat of vaporization of water = 2259.23 J/g.) "
+             "How much sensible heat was used by the water to get to its boiling point, in J?",
+     "options": ["A. 200,000", "B. 300,000", "C. 400,000", "D. 500,000"], "correct": 1},
+
+    # 21
+    {"text": "(Situation: A 3.6 kg iron block at 807 \u02daC is inserted into 1 L of water at 30 \u02daC, isolated from the environment. The water first heats to its boiling point, then evaporates, until the iron and water reach a common final temperature of 100 \u02daC. Specific heat of solid iron = 0.45 J/g-K; heat of vaporization of water = 2259.23 J/g.) "
+             "The amount of water vaporized in grams in this process is nearest to:",
+     "options": ["A. 200", "B. 300", "C. 400", "D. 500"], "correct": 2},
+
+    # 22
+    {"text": "(Situation: A 3.6 kg iron block at 807 \u02daC is inserted into 1 L of water at 30 \u02daC, isolated from the environment. The water first heats to its boiling point, then evaporates, until the iron and water reach a common final temperature of 100 \u02daC. Specific heat of solid iron = 0.45 J/g-K; heat of vaporization of water = 2259.23 J/g.) "
+             "If the density of water at all temperatures is 1 g/mL, the amount of water left in the container in L is:",
+     "options": ["A. 0.5", "B. 0.6", "C. 0.7", "D. 0.8"], "correct": 1},
+
+    # 23 (Situation: ice placed in open calorimeter)
+    {"text": "A 2 kg open calorimeter at 100 \u02daC has a heat capacity of 4 kJ/K. 100 g of ice at -10 \u02daC was placed inside the calorimeter. Calculate the final temperature in \u00b0C.",
+     "options": ["A. 78", "B. 82", "C. 86", "D. 90"], "correct": 1},
+
+    # 24
+    {"text": "(Situation: A 2 kg open calorimeter at 100 \u02daC with heat capacity 4 kJ/K has 100 g of ice at -10 \u02daC placed inside it, reaching a common final temperature.) "
+             "Calculate the entropy change of the calorimeter in cal/K.",
+     "options": ["A. -184", "B. -92", "C. -46", "D. -24"], "correct": 2},
+
+    # 25
+    {"text": "(Situation: A 2 kg open calorimeter at 100 \u02daC with heat capacity 4 kJ/K has 100 g of ice at -10 \u02daC placed inside it, reaching a common final temperature.) "
+             "Calculate the entropy change of the ice in cal/K.",
+     "options": ["A. 200", "B. 100", "C. 60", "D. 40"], "correct": 2},
+
+    # 26
+    {"text": "(Situation: A 2 kg open calorimeter at 100 \u02daC with heat capacity 4 kJ/K has 100 g of ice at -10 \u02daC placed inside it, reaching a common final temperature.) "
+             "Calculate the entropy change of the universe in cal/K.",
+     "options": ["A. 12", "B. 14", "C. 16", "D. 18"], "correct": 0},
+
+    # 27
+    {"text": "State Le Chatelier's Principle.",
+     "options": [
+         "A. Le Chatelier's principle states that when a stress is placed on a system in equilibrium, the system tends to change in a way that relieves the stress.",
+         "B. Examples of the application of Le Chatelier's principle are blowing your breath through a straw and dissolving an alka seltzer tablet in a glass of water.",
+         "C. Le Chatelier's principle explains both the formation and decomposition of acids, where anything that might act to increase the concentration of an acid would produce an increase in the other components so as to keep the numerical value of the equilibrium constant unchanged.",
+         "D. All of these"], "correct": 3},
+
+    # 28
+    {"text": "The equilibrium constant KC for the reaction 2A(g) \u21cc 3B(g) + C(l) is 0.0271 M at 1100 K. Calculate KP at that temperature in bar.",
+     "options": ["A. 2", "B. 2.5", "C. 3", "D. 3.5"], "correct": 1},
+
+    # 29
+    {"text": "In a study of the equilibrium H2 + I2 \u21cc 2HI, 1 mol of H2 and 3 mol of I2 gave rise at equilibrium to x mol of HI. Addition of a further 2 mol of H2 gave an additional x mol of HI. What is K at the temperature of the experiment?",
+     "options": ["A. 3", "B. 4", "C. 5", "D. 6"], "correct": 1},
+
+    # 30 (Situation: H2S/CH4 equilibrium)
+    {"text": "A mixture of 11.02 mmol of H2S and 5.48 mmol of CH4 was placed in an empty container along with a Pt catalyst, and the equilibrium H2S(g) + CH4(g) \u21cc H2(g) + CS2(g) was achieved at 700 \u02daC and 762 torr. The reaction mixture was removed from the catalyst and rapidly cooled to room temperature, where the forward and reverse rates of reaction are negligible. Analysis of the equilibrium mixture found 0.711 mmol of CS2. "
+             "Find the amount of hydrogen sulfide at equilibrium in mmol.",
+     "options": ["A. 11.7", "B. 10.3", "C. 9.6", "D. 8.2"], "correct": 1},
+
+    # 31
+    {"text": "(Situation: 11.02 mmol H2S and 5.48 mmol CH4 reach the equilibrium H2S(g) + CH4(g) \u21cc H2(g) + CS2(g) at 700 \u02daC and 762 torr with a Pt catalyst, then are rapidly quenched. Analysis found 0.711 mmol of CS2 at equilibrium.) "
+             "Find KP\u00b0.",
+     "options": ["A. 3x10-5", "B. 3x10-4", "C. 3x10-3", "D. 0.03"], "correct": 3},
+
+    # 32
+    {"text": "(Situation: 11.02 mmol H2S and 5.48 mmol CH4 reach the equilibrium H2S(g) + CH4(g) \u21cc H2(g) + CS2(g) at 700 \u02daC and 762 torr with a Pt catalyst, then are rapidly quenched. Analysis found 0.711 mmol of CS2 at equilibrium.) "
+             "Find \u0394G\u00b0 (kJ/mol).",
+     "options": ["A. 0", "B. 20", "C. 40", "D. 60"], "correct": 2},
+
+    # 33
+    {"text": "(Situation: 11.02 mmol H2S and 5.48 mmol CH4 reach the equilibrium H2S(g) + CH4(g) \u21cc H2(g) + CS2(g) at 700 \u02daC and 762 torr with a Pt catalyst, then are rapidly quenched. Analysis found 0.711 mmol of CS2 at equilibrium.) "
+             "Find \u0394G (kJ/mol) for the mixture while it was at equilibrium in the reactor.",
+     "options": ["A. 0", "B. 25", "C. 45", "D. 65"], "correct": 0},
+
+    # 34 (Situation: N2O4 dissociation)
+    {"text": "Dinitrogen tetroxide gas is 18.46% dissociated to nitrogen dioxide at 298.15 K and 1 bar in equilibrium. Calculate KP at 25 \u02daC.",
+     "options": ["A. 0.14", "B. 1.4", "C. 0.56", "D. 5.6"], "correct": 0},
+
+    # 35
+    {"text": "(Situation: N2O4 gas is 18.46% dissociated to NO2 at 298.15 K and 1 bar in equilibrium.) "
+             "Calculate \u0394G\u00b0 at 25 \u02daC.",
+     "options": ["A. 4850 J/mol", "B. 834 J/mol", "C. 1440 J/mol", "D. 4270 J/mol"], "correct": 0},
+
+    # 36
+    {"text": "(Situation: N2O4 gas is 18.46% dissociated to NO2 at 298.15 K and 1 bar in equilibrium.) "
+             "Calculate KP at the normal boiling point of water, assuming \u0394H = 57.2 kJ/mol over that range.",
+     "options": ["A. 14.4 atm", "B. 144.7 atm", "C. 57.9 atm", "D. 578.8 atm"], "correct": 0},
+
+    # 37
+    {"text": "This is the pressure exerted by the gas molecules that are in equilibrium with the liquid.",
+     "options": ["A. Partial pressure", "B. Atmospheric pressure", "C. Total pressure", "D. Vapor pressure"], "correct": 3},
+
+    # 38
+    {"text": "The Clapeyron Equation gives the slope:",
+     "options": ["A. dV/dT", "B. dT/dP", "C. dT/dV", "D. dP/dT"], "correct": 3},
+
+    # 39
+    {"text": "The Clausius-Clapeyron Equation does NOT apply to:",
+     "options": ["A. S-V equilibrium", "B. L-V equilibrium", "C. S-L equilibrium", "D. None of these"], "correct": 2},
+
+    # 40
+    {"text": "What is the Clapeyron Equation?",
+     "options": [
+         "A. It postulates that the colligative properties, freezing point depression, boiling point elevation, osmotic pressure, and vapor pressures are all dependent on the number of particles in the solution and any change thereof is described.",
+         "B. It postulates that if two-component systems consisting of solid and liquid phases are miscible in the liquid state and immiscible in the solid state, only the pure solid systems will separate out on cooling solutions.",
+         "C. It postulates that if the temperature and pressure are both changed in such a way as to keep the chemical potentials of two phases equal to each other, the rates of change are given by a certain differential equation.",
+         "D. Any of these"], "correct": 2},
+
+    # 41
+    {"text": "The coexistence curve, where the plot of pressure versus temperature along which two phases coexist, was shown by Clausius-Clapeyron. What did Clausius postulate?",
+     "options": [
+         "A. The Clapeyron equation was simplified by assuming that the vapor obeys the ideal gas law and by neglecting the molar volume of the liquid VL in comparison with the molar volume of the gas VG",
+         "B. The Clausius-Clapeyron equation does not apply to this situation",
+         "C. The Clausius-Clapeyron theory is applicable only for vaporization and sublimation conditions",
+         "D. Both scientists apply their postulates to linear and curvilinear representation"], "correct": 0},
+
+    # 42
+    {"text": "Calculate the heat of vaporization in kJ/mol of a compound with the following T-P characteristics:\nT = 338.12 K, P = 52.301 torr\nT = 369.52 K, P = 141.801 torr",
+     "options": ["A. 33 kJ/mol", "B. 37 kJ/mol", "C. 45 kJ/mol", "D. None of these"], "correct": 0},
+
+    # 43
+    {"text": "The normal boiling point of Br2 is 58.8 \u02daC, and its vapor pressure at 25 \u02daC is 0.287 bar. Estimate the average \u0394HVAP in kJ/mol of Br2 in this temperature range.",
+     "options": ["A. 29", "B. 31", "C. 35", "D. 38"], "correct": 1},
+
+    # 44
+    {"text": "The vapor pressure of solid CO2 is 76.7 mmHg at -103 \u02daC and its normal sublimation point is -78.5 \u02daC. What is the heat of sublimation of CO2 in cal/mol at its normal sublimation point?",
+     "options": ["A. 6061", "B. 6160", "C. 6610", "D. 6801"], "correct": 1},
+
+    # 45 (Situation: vapor pressure table)
+    {"text": "Accurate vapor-pressure data for a substance are given in the table:\nT = 40 \u02daC, P = 55.364 torr\nT = 50 \u02daC, P = 92.592 torr\nT = 60 \u02daC, P = 149.51 torr\nT = 70 \u02daC, P = 233.847 torr\nT = 80 \u02daC, P = 355.343 torr\n"
+             "Estimate the latent heat of vaporization in kJ/mol over this temperature range.",
+     "options": ["A. 41", "B. 43", "C. 45", "D. 47"], "correct": 1},
+
+    # 46
+    {"text": "(Situation: Accurate vapor-pressure data for a substance: T = 40 \u02daC, P = 55.364 torr; T = 50 \u02daC, P = 92.592 torr; T = 60 \u02daC, P = 149.51 torr; T = 70 \u02daC, P = 233.847 torr; T = 80 \u02daC, P = 355.343 torr.) "
+             "Estimate the boiling point of this substance.",
+     "options": ["A. 40", "B. 60", "C. 80", "D. 100"], "correct": 3},
+
+    # 47
+    {"text": "For miscible systems, the boiling point of the solution is:",
+     "options": [
+         "A. Lower than the boiling point of the liquid with the lower boiling point",
+         "B. Between the boiling points of the two liquids",
+         "C. Above the boiling point of the liquid with the higher boiling point",
+         "D. Unobtainable"], "correct": 1},
+
+    # 48
+    {"text": "All colligative properties stem from the _____ of the chemical potential of the liquid solvent as a result of the presence of the solute.",
+     "options": ["A. Reduction", "B. Change", "C. Enlargement", "D. A or B or C, depending on the identities of the solute and solvent"], "correct": 0},
+
+    # 49
+    {"text": "In a process involving osmosis, at equilibrium, the chemical potential of the pure solvent side should be _____ the chemical potential of the side with solute.",
+     "options": ["A. Less than", "B. More than", "C. Equal to", "D. Negligible compared to"], "correct": 2},
+
+    # 50
+    {"text": "When a solute is introduced to a liquid system, the entropy of the said system:",
+     "options": ["A. Increases", "B. Decreases", "C. Stays the same", "D. Can't be determined"], "correct": 0},
+
+    # 51
+    {"text": "Among the following, which compound will produce the least lowering of the vapor pressure of a solution?",
+     "options": ["A. Sucrose", "B. Aluminum chloride", "C. Table salt", "D. Sodium sulfate"], "correct": 0},
+
+    # 52
+    {"text": "Which of the following statements is true?",
+     "options": [
+         "A. Trouton's rule fails for highly polar liquids",
+         "B. It is impossible to go from vapor phase to liquid phase without condensation",
+         "C. For C compounds and P phases, there are a total of CP intensive variables to be specified",
+         "D. At high pressures, the latent heat of vaporization is a measure of the strength of the intermolecular forces of the liquid"], "correct": 0},
+
+    # 53
+    {"text": "What is the significance of colligative property in physical chemistry?",
+     "options": [
+         "A. It refers to the freezing point depression, boiling point elevation, osmotic pressure and lowering of the vapor pressure by a nonvolatile solute",
+         "B. It refers to the temperature, pressure and energy of fusion of volatile solutes in phase equilibrium",
+         "C. It refers to the non-existence of pressure among molecules within the solute",
+         "D. It refers to the temperature differentials exhibited by nonvolatile solutes in reactions"], "correct": 0},
+
+    # 54
+    {"text": "What is the ionic strength in M of a solution that is 0.1 M potassium nitrate and 0.2 M potassium sulfate?",
+     "options": ["A. 0.5", "B. 0.6", "C. 0.7", "D. 0.8"], "correct": 2},
+
+    # 55 (Situation: HCl aqueous solution)
+    {"text": "An aqueous solution at 26.85 \u02daC of 0.72% by weight HCl freezes at -0.706 \u02daC. Calculate the Van't Hoff factor.",
+     "options": ["A. 1.8", "B. 1.85", "C. 1.9", "D. 1.95"], "correct": 2},
+
+    # 56
+    {"text": "(Situation: An aqueous solution at 26.85 \u02daC of 0.72% by weight HCl freezes at -0.706 \u02daC.) "
+             "Calculate the osmotic pressure of the solution in mmHg.",
+     "options": ["A. 4000", "B. 5000", "C. 6000", "D. 7000"], "correct": 3},
+
+    # 57
+    {"text": "(Situation: An aqueous solution at 26.85 \u02daC of 0.72% by weight HCl freezes at -0.706 \u02daC.) "
+             "Calculate the boiling point of the solution in \u02daC.",
+     "options": ["A. 100.1", "B. 100.2", "C. 100.3", "D. 100.4"], "correct": 1},
+
+    # 58 (Situation: NaCl in diethyl ether)
+    {"text": "150 g of NaCl is dissolved in 300 g of diethyl ether. The boiling point elevation of the solution is 26 K. The normal boiling point of diethyl ether is 34.6 \u02daC. Assuming that the Trouton-Hildebrand-Everett Rule applies, compute for the ebullioscopic constant KB.",
+     "options": ["A. 2.32", "B. 3.22", "C. 2.23", "D. 1.32"], "correct": 2},
+
+    # 59
+    {"text": "(Situation: 150 g of NaCl is dissolved in 300 g of diethyl ether. The boiling point elevation of the solution is 26 K; normal boiling point of diethyl ether is 34.6 \u02daC.) "
+             "Compute for the Van't Hoff factor.",
+     "options": ["A. 1.36", "B. 1.23", "C. 1.63", "D. 1.32"], "correct": 0},
+
+    # 60
+    {"text": "(Situation: 150 g of NaCl is dissolved in 300 g of diethyl ether. The boiling point elevation of the solution is 26 K; normal boiling point of diethyl ether is 34.6 \u02daC.) "
+             "Compute for the degree of dissociation (%).",
+     "options": ["A. 31.6", "B. 30.6", "C. 36.1", "D. 33.3"], "correct": 2},
+
+    # 61
+    {"text": "Are galvanic cells and electrolytic cells the same? Why?",
+     "options": [
+         "A. No, because galvanic cells are electrochemical cells in which chemical reactions occur spontaneously; while in electrolytic cells, the chemical reaction is caused by an externally applied potential difference.",
+         "B. No, because galvanic cells need a constant supply of electricity while electrolytic cells depend on an intermittent source of power.",
+         "C. Yes, because their uses are common to each other",
+         "D. Yes, because galvanic cells and electrolytic cells are both electrochemical cells."], "correct": 0},
+
+    # 62
+    {"text": "A constant current was passed through a solution of CuSO4 for 1 hr and 0.04 g of copper was deposited. What is the current?",
+     "options": ["A. 33.74 mA", "B. 16.88 mA", "C. 8.44 mA", "D. 4.22 mA"], "correct": 0},
+
+    # 63 (Situation: three electrolytic cells in series)
+    {"text": "Three electrolytic cells A, B, and C, containing solutions of ZnSO4, AgNO3, and CuSO4 respectively, are connected in series. A steady current of 1.5 A was passed through them until 1.45 g of silver deposited at the cathode of cell B. How long did the current flow?",
+     "options": ["A. 864.64 s", "B. 756.86 s", "C. 837.98 s", "D. 896.51 s"], "correct": 0},
+
+    # 64
+    {"text": "(Situation: Three electrolytic cells A, B, and C, containing solutions of ZnSO4, AgNO3, and CuSO4 respectively, are connected in series. A steady current of 1.5 A was passed through them until 1.45 g of silver deposited at the cathode of cell B.) "
+             "What mass of copper was deposited (in cell C)?",
+     "options": ["A. 0.427 g", "B. 0.553 g", "C. 0.576 g", "D. 0.452 g"], "correct": 0},
+
+    # 65
+    {"text": "Calculate the EMF at 25 \u02daC of the cell:\nPt | Sn2+ (0.1 m), Sn4+ (0.01 m) || Fe3+ (0.5 m) | Fe\n"
+             "Fe3+ + 3e- \u2192 Fe; E\u00b0 = -0.041 V\nSn4+ + 2e- \u2192 Sn2+; E\u00b0 = 0.151 V",
+     "options": ["A. -0.17 V", "B. 0.17 V", "C. -0.086 V", "D. 0.086 V"], "correct": 0},
+
+]
+
+D1_L7_CT_Biochemistry = [
+
+    # --- Carbohydrates ---
+    # 1
+    {"text": "Glucose and fructose are examples of",
+     "options": ["A. double sugars", "B. disaccharides", "C. single sugars", "D. polysaccharides"], "correct": 2},
+
+    # 2
+    {"text": "Hydrolysis of lactose yields:",
+     "options": ["A. galactose and fructose", "B. galactose and glucose", "C. glucose and fructose", "D. fructose and galactose"], "correct": 1},
+
+    # 3
+    {"text": "Storage polysaccharide made by animals is",
+     "options": ["A. amylopectin", "B. glycogen", "C. cellulose", "D. amylose"], "correct": 1},
+
+    # 4
+    {"text": "Humans are unable to digest:",
+     "options": ["A. starch", "B. complex carbohydrates", "C. denatured proteins", "D. cellulose"], "correct": 3},
+
+    # 5
+    {"text": "Plants like sugar cane and sugar beets store the energy as simple sugars. Other plants, like corn and potatoes, store the energy as more complex sugars called?",
+     "options": ["A. carbohydrates", "B. calories", "C. starches", "D. cellulose"], "correct": 2},
+
+    # --- Lipids ---
+    # 6
+    {"text": "Which macromolecule does not dissolve in water?",
+     "options": ["A. proteins", "B. lipids", "C. carbohydrates", "D. nucleic acids"], "correct": 1},
+
+    # 7
+    {"text": "What are the monomers of lipids?",
+     "options": ["A. Amino acids", "B. Simple sugars", "C. Fatty acids and glycerol", "D. Nucleic acids"], "correct": 2},
+
+    # 8
+    {"text": "Lipids are used by the body to perform all of the following functions EXCEPT:",
+     "options": ["A. membrane structural material", "B. enzyme action", "C. insulation", "D. a rich energy source"], "correct": 1},
+
+    # 9
+    {"text": "Essential fatty acids are",
+     "options": ["A. Linoleic acid", "B. Arachidonic acid", "C. Linolenic acid", "D. All of these"], "correct": 3},
+
+    # 10
+    {"text": "Which is not a component of a phospholipid?",
+     "options": ["A. Glycerol", "B. Fatty acids", "C. Deoxyribose", "D. Phosphate group"], "correct": 2},
+
+    # 11
+    {"text": "Which of the following is an example of sphingolipid?",
+     "options": ["A. phosphatidylcholine", "B. olein", "C. ceramide", "D. none of these"], "correct": 2},
+
+    # 12
+    {"text": "An important function of cholesterol is to:",
+     "options": ["A. modulate membrane fluidity", "B. enhance blood circulation", "C. prevent bile salts formation", "D. none of these"], "correct": 0},
+
+    # --- Proteins ---
+    # 13
+    {"text": "Amino acids required in the human diet and not synthesized by the body are called",
+     "options": ["A. specialized", "B. essential", "C. trace", "D. accessory"], "correct": 1},
+
+    # 14
+    {"text": "The following amino acids are basic except:",
+     "options": ["A. phenylalanine", "B. arginine", "C. lysine", "D. histidine"], "correct": 0},
+
+    # 15
+    {"text": "Which amino acids would most likely reside in the membrane-anchoring domain of a membrane protein?",
+     "options": ["A. isoleucine, valine, phenylalanine", "B. phenylalanine, valine, aspartate",
+                 "C. leucine, threonine, lysine", "D. lysine, arginine, histidine"], "correct": 0},
+
+    # 16
+    {"text": "What is the isoelectric point of glutamic acid? pKa(COOH) = 2.19, pKa(R) = 4.25, pKa(NH2) = 9.67.",
+     "options": ["A. 3.22", "B. 6.96", "C. 5.93", "D. 5.37"], "correct": 0},
+
+    # 17
+    {"text": "The term \u201cSALTING IN\u201d refers to?",
+     "options": ["A. Changes in an amino acid\u2019s isoelectric point.",
+                 "B. Increasing the solubility of a protein in solution by adding ions.",
+                 "C. The use of a liquid bridge in an electrochemical cell.",
+                 "D. The ionization of a strong acid."], "correct": 1},
+
+    # 18
+    {"text": "The local spatial arrangement of a polypeptide\u2019s backbone atoms without regard to the conformation of its side chains can be called as",
+     "options": ["A. Primary structure", "B. Secondary structure", "C. Tertiary structure", "D. Quaternary structure"], "correct": 1},
+
+    # 19
+    {"text": "The primary stabilizing force of protein secondary structure.",
+     "options": ["A. Ionic bonds", "B. Covalent bonds", "C. Van der Waals forces", "D. Hydrogen bonds"], "correct": 3},
+
+    # 20
+    {"text": "In this type of structure, most of the carbonyl groups of peptide bonds form a hydrogen bond with the amide nitrogen of another peptide bond four amino acids further down the polypeptide chain:",
+     "options": ["A. Alpha helix", "B. Beta sheet", "C. Beta turn", "D. Quaternary"], "correct": 0},
+
+    # 21
+    {"text": "Which of the following is NOT a characteristic of a globular protein?",
+     "options": ["A. Polypeptide chain in extended, long sheets", "B. Polypeptide chains are folded in a spherical shape.",
+                 "C. Contains several types of secondary structure", "D. Typical for regulatory proteins."], "correct": 0},
+
+    # 22
+    {"text": "Some parts of a protein that have a specific chemical structure and function are called protein",
+     "options": ["A. chemicals", "B. domains", "C. subunits", "D. enzymes"], "correct": 1},
+
+    # 23
+    {"text": "The quaternary structure of a protein is",
+     "options": ["A. the sequence of amino acids in the polypeptide", "B. the coiling or folding of the polypeptide",
+                 "C. the intertwining of two or more polypeptides", "D. the 3-dimensional appearance of the polypeptide"], "correct": 2},
+
+    # 24
+    {"text": "Hemoglobin has a quaternary structure and is made up of",
+     "options": ["A. six polypeptide chains: two \u03b1-chains and four \u03b2-chains",
+                 "B. two polypeptide chains: one \u03b1-chain and one \u03b2-chain",
+                 "C. four polypeptide chains: two \u03b1-chains and two \u03b2-chains",
+                 "D. five polypeptide chains: two \u03b1-chains and three \u03b2-chains"], "correct": 2},
+
+    # 25
+    {"text": "The action of disrupting the three-dimensional shape of a protein is termed",
+     "options": ["A. dehydration", "B. denaturation", "C. deamination", "D. hydrolysis"], "correct": 1},
+
+    # 26
+    {"text": "Which of the following is least affected in protein denaturation?",
+     "options": ["A. primary structure", "B. secondary structure", "C. tertiary structure", "D. quaternary structure"], "correct": 0},
+
+    # 27
+    {"text": "The bonds in protein structure that are not broken on denaturation.",
+     "options": ["A. Hydrogen bonds", "B. Peptide bonds", "C. Ionic bond", "D. Disulfide bonds"], "correct": 1},
+
+    # --- Nucleic Acids and Central Dogma ---
+    # 28
+    {"text": "A nucleotide consists of",
+     "options": ["A. a sugar, a base, and a phosphate", "B. a sugar and a phosphate",
+                 "C. paired bases", "D. a sugar, a base, and three phosphates"], "correct": 0},
+
+    # 29
+    {"text": "Which of the following is not considered a pyrimidine?",
+     "options": ["A. Cytosine", "B. Thymine", "C. Guanine", "D. Uracil"], "correct": 2},
+
+    # 30
+    {"text": "Nucleoside is a pyrimidine or purine base",
+     "options": ["A. covalently bonded to a sugar", "B. ionically bonded to a sugar",
+                 "C. hydrogen bonded to a sugar", "D. none of the above"], "correct": 0},
+
+    # 31
+    {"text": "Both strands of DNA serve as templates concurrently in:",
+     "options": ["A. replication", "B. excision repair", "C. mismatch repair", "D. none of these"], "correct": 0},
+
+    # 32
+    {"text": "Which of the following enzymes unwind short stretches of DNA helix immediately ahead of a replication fork?",
+     "options": ["A. DNA polymerases", "B. Helicases", "C. Single stranded binding proteins", "D. Topoisomerases"], "correct": 1},
+
+    # 33
+    {"text": "Which of the following enzymes adds complementary bases during replication?",
+     "options": ["A. Helicase", "B. Synthetase", "C. Replicase", "D. Polymerase"], "correct": 3},
+
+    # 34
+    {"text": "Enzyme responsible for proofreading base pairing is",
+     "options": ["A. DNA polymerase", "B. Telomerase", "C. Primase", "D. DNA ligase"], "correct": 0},
+
+    # 35
+    {"text": "Which of the following repairs nicked DNA by forming a phosphodiester bond between adjacent nucleotides?",
+     "options": ["A. Helicase", "B. DNA gyrase", "C. Topoisomerases", "D. DNA ligase"], "correct": 3},
+
+    # 36
+    {"text": "RNA is synthesized on a DNA template in a process called _____, which utilizes the enzyme _____.",
+     "options": ["A. translation, RNA polymerase", "B. transcription, DNA polymerase",
+                 "C. transcription, RNA polymerase", "D. replication, DNA polymerase"], "correct": 2},
+
+    # 37
+    {"text": "Recognition/binding site of RNA polymerase is called",
+     "options": ["A. receptor", "B. promoter", "C. facilitator", "D. terminator"], "correct": 1},
+
+    # 38
+    {"text": "Which of the following is a product of transcription?",
+     "options": ["A. mRNA", "B. tRNA", "C. rRNA", "D. all of these"], "correct": 3},
+
+    # 39
+    {"text": "Which of the following is not necessary for protein synthesis to occur, once transcription is completed?",
+     "options": ["A. tRNA", "B. Ribosomes", "C. mRNA", "D. DNA"], "correct": 3},
+
+    # 40
+    {"text": "Which is required for protein synthesis?",
+     "options": ["A. tRNA", "B. mRNA", "C. rRNA", "D. All of these"], "correct": 3},
+
+    # 41
+    {"text": "Initiation of eukaryotic translation begins when the",
+     "options": ["A. large and small subunits link together, then bind to the mRNA.",
+                 "B. ribosomal small subunit holding an initiator tRNA binds to the 5\u2019 end of mRNA.",
+                 "C. ribosome binds to the start codon and an initiator tRNA enters the ribosome.",
+                 "D. initiator tRNA binds to the start codon, followed by binding of the ribosome large subunit."], "correct": 1},
+
+    # 42
+    {"text": "Which of the following amino acids starts all protein synthesis?",
+     "options": ["A. Glycine", "B. Proline", "C. Thymine", "D. Methionine"], "correct": 3},
+
+    # 43
+    {"text": "During the process of translation:",
+     "options": ["A. the peptide is \u2018passed\u2019 from the tRNA in the P site to the tRNA in the A site.",
+                 "B. incoming tRNAs must first bind to the E site.",
+                 "C. initiation begins with the binding of the ribosomal small subunit to the poly A tail of the mRNA.",
+                 "D. the mRNA is translated by one ribosome at a time."], "correct": 0},
+
+    # 44
+    {"text": "Which of the following RNAs bind to an amino acid?",
+     "options": ["A. mRNA", "B. tRNA", "C. snRNA", "D. rRNA"], "correct": 1},
+
+    # 45
+    {"text": "Ribosomes select the correct tRNAs",
+     "options": ["A. based on the aminoacyl group", "B. solely on the basis of their anticodons",
+                 "C. depending on their abundance in the cytosol", "D. with the least abundant anticodons"], "correct": 1},
+
+    # 46
+    {"text": "Which of the following is not a type of post-translational modification?",
+     "options": ["A. Proteolysis", "B. Protein folding", "C. Glycosylation", "D. Lipid addition"], "correct": 1},
+
+    # --- Cellular Respiration ---
+    # 47
+    {"text": "C6H12O6 + 6O2 \u2192 6H2O + 6CO2 + 38 ATP. The process shown is...",
+     "options": ["A. reduction and is endergonic", "B. reduction and is exergonic",
+                 "C. oxidation and is endergonic", "D. oxidation and is exergonic"], "correct": 3},
+
+    # 48
+    {"text": "Which of the following is a list of the stages of cellular respiration in the correct order?",
+     "options": ["A. pyruvate oxidation, glycolysis, the citric acid cycle, and oxidative phosphorylation",
+                 "B. oxidative phosphorylation, glycolysis, the citric acid cycle, and pyruvate oxidation",
+                 "C. glycolysis, pyruvate oxidation, the citric acid cycle, and oxidative phosphorylation",
+                 "D. glycolysis, the citric acid cycle, pyruvate oxidation, and oxidative phosphorylation"], "correct": 2},
+
+    # 49
+    {"text": "Where does glycolysis occur?",
+     "options": ["A. inner membrane of mitochondria", "B. matrix of mitochondria", "C. stroma of chloroplast", "D. cytoplasm"], "correct": 3},
+
+    # 50
+    {"text": "Starting with one molecule of glucose, the net products of glycolysis are",
+     "options": ["A. 2 NAD+, 2 H+, 2 pyruvate, 2 ATP, and 2 H2O.", "B. 2 NADH, 2 H+, 2 pyruvate, 2 ATP, and 2 H2O.",
+                 "C. 2 FADH2, 2 pyruvate, 4 ATP, and 2 H2O.", "D. 6 CO2, 6 H2O, 2 ATP, and 2 pyruvate."], "correct": 1},
+
+    # 51
+    {"text": "Which of the following is not true of glycolysis?",
+     "options": ["A. ADP is phosphorylated to ATP via substrate level phosphorylation",
+                 "B. The pathway does not require oxygen",
+                 "C. The pathway oxidizes two moles of NADH to NAD for each mole of glucose that enters",
+                 "D. The pathway requires two moles of ATP to get started catabolizing each mole of glucose"], "correct": 2},
+
+    # 52
+    {"text": "Which of the following is an aerobic product of pyruvate catabolic metabolism?",
+     "options": ["A. lactate", "B. ethanol", "C. acetyl CoA", "D. glucose"], "correct": 2},
+
+    # 53
+    {"text": "The Krebs Cycle begins when pyruvic acid produced by glycolysis enters the",
+     "options": ["A. cytosol", "B. air", "C. mitochondrion", "D. nucleus"], "correct": 2},
+
+    # 54
+    {"text": "What are the products of the citric acid cycle?",
+     "options": ["A. NADH, ATP, FADH2 and CO2", "B. O2, ADP, 1 FAD, and NAD+",
+                 "C. Glucose, ATP, O2 and NADH", "D. heat, H2O, NADH, and pyruvate"], "correct": 0},
+
+    # 55
+    {"text": "The TCA cycle",
+     "options": ["A. Is found in the cytosol", "B. Is controlled by the ADP/ATP ratio and the NADH concentration",
+                 "C. Is also called the Cori cycle", "D. Produces most of the water made in humans"], "correct": 1},
+
+    # 56
+    {"text": "The main purpose of the electron transport chain is to:",
+     "options": ["A. Use high energy electrons from other cycles to convert ADP into ATP",
+                 "B. Maintain a stable balance of high energy electrons",
+                 "C. Constantly distribute electrons throughout the cell",
+                 "D. Tell the cell when glycolysis should stop or start"], "correct": 0},
+
+    # 57
+    {"text": "Where are the proteins of the electron transport chain located?",
+     "options": ["A. cytosol", "B. mitochondrial outer membrane", "C. mitochondrial inner membrane", "D. mitochondrial matrix"], "correct": 2},
+
+    # 58
+    {"text": "In the electron transport chain, the final electron acceptor is:",
+     "options": ["A. oxygen", "B. a molecule of carbon dioxide", "C. a molecule of water", "D. ADP"], "correct": 0},
+
+    # 59
+    {"text": "Which process in eukaryotic cells will proceed normally whether oxygen (O2) is present or absent?",
+     "options": ["A. electron transport", "B. glycolysis", "C. oxidative phosphorylation", "D. chemiosmosis"], "correct": 1},
+
+    # 60
+    {"text": "Muscle cells, when an individual is exercising heavily and the muscle becomes oxygen deprived, convert pyruvate to lactate. What happens to the lactate in skeletal muscle cells?",
+     "options": ["A. It is converted to NAD+.", "B. It produces CO2 and water.",
+                 "C. It is taken to the liver and converted back to pyruvate.", "D. It reduces FADH2 to FAD+."], "correct": 2},
+
+    # 61
+    {"text": "In alcohol fermentation, NAD+ is regenerated from NADH during which of the following?",
+     "options": ["A. reduction of acetaldehyde to ethanol (ethyl alcohol)", "B. oxidation of pyruvate to acetyl CoA",
+                 "C. reduction of pyruvate to form lactate", "D. oxidation of NAD+ in the citric acid cycle"], "correct": 0},
+
+    # 62
+    {"text": "Which of the following is NOT a way of producing ATP in humans?",
+     "options": ["A. Krebs Cycle", "B. Alcohol Fermentation", "C. Lactic Acid Fermentation", "D. Glycolysis"], "correct": 1},
+
+    # 63
+    {"text": "What does insulin do?",
+     "options": ["A. inhibit gluconeogenesis and stimulate glycolysis", "B. stimulate both gluconeogenesis and glycolysis",
+                 "C. stimulate gluconeogenesis and inhibit glycolysis", "D. inhibit both gluconeogenesis and glycolysis"], "correct": 0},
+
+    # 64
+    {"text": "In the liver, glucagon will activate",
+     "options": ["A. Glycolysis and glycogen synthesis", "B. Gluconeogenesis and glycogenolysis",
+                 "C. Gluconeogenesis and glycogen synthase", "D. Gluconeogenesis and glycogen synthesis"], "correct": 1},
+
+    # 65
+    {"text": "Which of the following represents the complete chemical reaction for the two stages of glycerol metabolism?",
+     "options": ["A. Glycerol + NAD+ + ADP \u2192 Glycerol-3-phosphate + NADH + ATP",
+                 "B. Glycerol + NAD+ + ATP \u2192 DHAP + NADH + H+ + ADP",
+                 "C. Glycerol-3-phosphate + NADH + H+ \u2192 Glycerol + ADP + Pi",
+                 "D. Fatty acid + NaOH + H2O \u2192 Glycerol + NADH + H2"], "correct": 1},
+
+    # Biochemical_Engineering
+    # --- Enzymes ---
+    # 1
+    {"text": "What is the function of enzymes within living systems?",
+     "options": ["A. structural elements", "B. neurotransmitters", "C. catalysts", "D. hormones"], "correct": 2},
+
+    # 2
+    {"text": "A catalyst can promote product formation during a chemical reaction by",
+     "options": ["A. lowering the activation energy barrier.", "B. stabilizing the transition state.",
+                 "C. positioning reactants in the correct orientation.", "D. bringing reactants together.",
+                 "E. all of the above"], "correct": 4},
+
+    # 3
+    {"text": "Which of the following statements about enzymes or their function is true?",
+     "options": ["A. Enzymes do not alter the overall change in free energy for a reaction",
+                 "B. Enzymes are proteins whose three-dimensional form is key to their function",
+                 "C. Enzymes speed up reactions by lowering activation energy",
+                 "D. All of the above"], "correct": 3},
+
+    # 4
+    {"text": "Which of the following statements is true for enzymatically catalyzed reactions?",
+     "options": ["A. The activation energy of the reaction is lowered so that a larger proportion of the substrate qualifies to overcome it.",
+                 "B. Additional substrate molecules are energized to overcome the activation energy of the reaction.",
+                 "C. The activation energy of the reaction is increased, thus decreasing the likelihood that any substrate molecules will overcome it.",
+                 "D. The activation energy of the reaction is lowered so that only a few substrate molecules can overcome it."], "correct": 0},
+
+    # 5
+    {"text": "What is the optimal temperature range for the majority of enzymes?",
+     "options": ["A. 40-55\u00b0C", "B. 35-40\u00b0C", "C. 25-30\u00b0C", "D. 15-20\u00b0C"], "correct": 1},
+
+    # 6
+    {"text": "Which of the following could be a component of a conjugated enzyme?",
+     "options": ["A. coenzyme", "B. cofactor", "C. apoenzyme", "D. more than one correct response"], "correct": 3},
+
+    # 7
+    {"text": "NAD+, FAD, and FMN are all cofactors for:",
+     "options": ["A. Oxidoreductases", "B. Transferases", "C. Hydrolases", "D. Ligases"], "correct": 0},
+
+    # 8
+    {"text": "An enzyme active site is the location in the enzyme where",
+     "options": ["A. protein side groups are brought together by bending and folding to form a site for interactions with substrates",
+                 "B. the catalyst interacts with the enzyme",
+                 "C. catalyst molecules are generated",
+                 "D. the substrate creates the catalyst molecules"], "correct": 0},
+
+    # 9
+    {"text": "Which of the following statements concerning the effect of temperature change on an enzyme catalyzed reaction is correct?",
+     "options": ["A. An increase in temperature can stop the reaction by denaturing the enzyme.",
+                 "B. An increase in temperature can increase the reaction rate by increasing the speed at which molecules move.",
+                 "C. An increase in temperature to the optimum temperature maximizes reaction rate.",
+                 "D. more than one correct response"], "correct": 3},
+
+    # 10
+    {"text": "The rate determining step of Michaelis Menten kinetics is",
+     "options": ["A. the complex formation step", "B. the complex dissociation step to produce substrate",
+                 "C. the product formation step", "D. Both (A) and (C)"], "correct": 2},
+
+    # 11
+    {"text": "Which of the following kinetic parameters best describes how well suited a specific compound functions as a substrate for a particular enzyme?",
+     "options": ["A. Km", "B. Vmax", "C. kcat", "D. kcat/Km"], "correct": 3},
+
+    # 12
+    {"text": "When substrate concentration is equal to 0.1 Km, the velocity of an enzyme-catalyzed reaction is:",
+     "options": ["A. 0.1 vmax", "B. 0.5 vmax", "C. 0.3 vmax", "D. 0.7 vmax"], "correct": 0},
+
+    # 13 (Situation: lactase kinetics)
+    {"text": "Lactase, also known as \u03b2-galactosidase, catalyzes the hydrolysis of lactose to produce glucose and galactose from milk and whey. Experiments are carried out to determine the kinetic parameters for the enzyme. Processing of the initial rate data using a Lineweaver-Burk plot (1/v vs. 1/[S]) gave the best-fit linear equation: y = 4.43\u00d710\u207b\u2074 + 0.01738x. Substrate concentrations were in M, and reaction velocities in M min\u207b\u00b9. Evaluate the enzyme\u2019s vmax.",
+     "options": ["A. 2257 M min-1", "B. 57.54 M min-1", "C. 4430 M min-1", "D. 0.0174 M min-1"], "correct": 0},
+
+    # 14
+    {"text": "(Situation: Lactase kinetics were processed with a Lineweaver-Burk plot giving the best-fit linear equation y = 4.43\u00d710\u207b\u2074 + 0.01738x, where x = 1/[S] in M\u207b\u00b9 and y = 1/v in M\u207b\u00b9 min.) Evaluate the enzyme\u2019s Km.",
+     "options": ["A. 58.1 M", "B. 17.4 M", "C. 39.2 M", "D. 4.43 M"], "correct": 2},
+
+    # 15
+    {"text": "An enzyme-catalyzed reaction was carried out with a [substrate] initially 1000 times greater than the Km for that enzyme. After 9 minutes, 1% of the total substrate was converted into 12 \u03bcmoles of product. If, in a separate experiment, one-third as much enzyme and twice as much substrate had been combined, how long would it take for the same amount of product (12 \u03bcmoles) to be formed?",
+     "options": ["A. 1.5 min", "B. 13.5 min", "C. 3 min", "D. 27 min"], "correct": 3},
+
+    # 16
+    {"text": "Some enzymatic regulation is allosteric. In such cases, which of the following would usually be found?",
+     "options": ["A. cooperativity", "B. feedback inhibition", "C. both activating and inhibitory activity", "D. an enzyme with more than one subunit"], "correct": 0},
+
+    # 17
+    {"text": "Which of the following statements about allosteric enzymes is CORRECT?",
+     "options": ["A. The binding of substrate to any active site affects the other active sites",
+                 "B. The plot of initial velocity vs. substrate concentration is a straight line",
+                 "C. The Keq of the reaction is increased when an allosteric activator is bound",
+                 "D. The enzyme contains only one polypeptide chain"], "correct": 0},
+
+    # 18
+    {"text": "An allosteric activator",
+     "options": ["A. increases the binding affinity", "B. decreases the binding affinity",
+                 "C. stabilizes the R state of the protein", "D. both A and C"], "correct": 3},
+
+    # 19
+    {"text": "Two curves showing reaction rate versus substrate concentration are given for an enzyme-catalyzed reaction: one curve is for the reaction in the presence of substance X, and the other is for the reaction in the absence of substance X. Both curves rise from the origin with the same hyperbolic (Michaelis-Menten) shape and approach the same maximum rate (Vmax) at high substrate concentration, but in the presence of X a higher substrate concentration is needed to reach the same reaction rate (i.e., the apparent Km is increased while Vmax is unchanged). Examine the curves and determine which statement is true.",
+     "options": ["A. The catalysis shows Michaelis Menten kinetics with or without X.",
+                 "B. X increases the activation energy for the catalytic reaction.",
+                 "C. X could be a competitive inhibitor.",
+                 "D. X is an activator of the enzyme."], "correct": 2},
+
+    # 20
+    {"text": "A plot of reaction rate versus substrate concentration for an allosteric enzyme shows curve N, a sigmoidal (S-shaped) curve typical of cooperative binding, obtained with no allosteric activators or inhibitors added. Three other curves are also plotted on the same axes: Curve A, more sigmoidal than N and shifted further right (lower apparent affinity); Curve B, more hyperbolic than N and shifted left, reaching higher rates at lower substrate concentrations (higher apparent affinity); and Curve C, similar in shape to N but with a lower maximum rate. Given that an allosteric activator increases the enzyme\u2019s apparent affinity for substrate and makes the response curve more hyperbolic, which curve would one obtain if an allosteric activator was added?",
+     "options": ["A. Curve A", "B. Curve B", "C. Curve C", "D. Curve D"], "correct": 1},
+
+    # 21
+    {"text": "A competitive inhibitor of an enzyme works by",
+     "options": ["A. fitting into the enzyme's active site", "B. fitting into the allosteric site of the enzyme",
+                 "C. attaching itself to the substrate, thereby preventing the enzyme from making contact with substrate",
+                 "D. increasing the activation energy of the enzyme catalyzed reaction"], "correct": 0},
+
+    # 22
+    {"text": "Which of the following binds to an enzyme at its active site?",
+     "options": ["A. irreversible inhibitor", "B. reversible competitive inhibitor",
+                 "C. reversible noncompetitive inhibitor", "D. more than one correct response"], "correct": 3},
+
+    # 23
+    {"text": "A competitive inhibitor of an enzyme is usually",
+     "options": ["A. a highly reactive compound", "B. a metal ion such as Hg2+ or Pb2+",
+                 "C. structurally similar to the substrate", "D. water-insoluble"], "correct": 2},
+
+    # 24
+    {"text": "A reversible inhibitor that can bind to either E alone or the ES complex is referred to as a",
+     "options": ["A. competitive inhibitor.", "B. noncompetitive inhibitor.", "C. uncompetitive inhibitor.", "D. suicide inhibitor."], "correct": 1},
+
+    # 25
+    {"text": "A classical uncompetitive inhibitor is a compound that binds",
+     "options": ["A. reversibly to the enzyme substrate complex yielding an inactive ESI complex",
+                 "B. irreversibly to the enzyme substrate complex yielding an inactive ESI complex",
+                 "C. reversibly to the enzyme substrate complex yielding an active ESI complex",
+                 "D. irreversibly to the enzyme substrate complex yielding an active ESI complex"], "correct": 0},
+
+    # 26
+    {"text": "If an enzyme is described by the Michaelis-Menten equation, a competitive inhibitor will:",
+     "options": ["A. decrease the Km and decrease the Vmax", "B. decrease the Km, but not the Vmax",
+                 "C. always just change the Vmax", "D. increase the Km but not change the Vmax"], "correct": 3},
+
+    # 27
+    {"text": "Noncompetitive inhibitor of an enzyme catalyzed reaction",
+     "options": ["A. decreases Vmax", "B. binds to ES", "C. both A and B", "D. can actually increase reaction velocity in rare cases"], "correct": 2},
+
+    # 28
+    {"text": "In a Lineweaver Burk Plot, a competitive inhibitor shows which of the following effects?",
+     "options": ["A. It moves the entire curve to the right", "B. It moves the entire curve to the left",
+                 "C. It changes the x intercept", "D. It has no effect on the slope"], "correct": 2},
+
+    # --- Microbiology ---
+    # 29
+    {"text": "The simplest way to differentiate a prokaryotic cell from a eukaryotic cell is",
+     "options": ["A. to look for a plasma membrane", "B. to see if a nucleus is present",
+                 "C. to check for the presence of DNA", "D. to determine if the cell is an entire organism or not"], "correct": 1},
+
+    # 30
+    {"text": "All of the following are considered eukaryotes except",
+     "options": ["A. archaea", "B. protozoa", "C. fungi", "D. human"], "correct": 0},
+
+    # 31
+    {"text": "An organism is completely dependent on atmospheric oxygen for growth. This organism is:",
+     "options": ["A. osmotolerant", "B. a facultative anaerobe", "C. an acidophile", "D. an obligate aerobe"], "correct": 3},
+
+    # 32
+    {"text": "Food preservation by using salts and sugars works by:",
+     "options": ["A. raising pH", "B. lowering osmotic pressure", "C. creating a hypertonic environment", "D. creating a hypotonic environment"], "correct": 2},
+
+    # 33
+    {"text": "An organism that grows best above 50\u00b0C is called:",
+     "options": ["A. psychrophilic", "B. thermophilic", "C. none of these", "D. mesophilic"], "correct": 1},
+
+    # 34
+    {"text": "The concept of using microbes to help clean up the environment is called",
+     "options": ["A. pasteurization", "B. bioremediation", "C. fermentation", "D. sterilization"], "correct": 1},
+
+    # 35
+    {"text": "Peptidoglycan layer is present in large quantity in?",
+     "options": ["A. Gram-positive bacteria", "B. Gram-negative bacteria", "C. Fungi", "D. Algae"], "correct": 0},
+
+    # 36
+    {"text": "E. coli and Salmonella belong to what phylum of bacteria?",
+     "options": ["A. proteobacteria", "B. actinobacteria", "C. bacteroidetes", "D. firmicutes"], "correct": 0},
+
+    # 37
+    {"text": "Which of the following microorganisms is used for the production of citric acid?",
+     "options": ["A. Lactobacillus bulgaricus", "B. Aspergillus niger", "C. Saccharomyces cerevisiae", "D. Streptococcus lactis"], "correct": 1},
+
+    # 38
+    {"text": "Which of the following is the most common capsid shape of a virus?",
+     "options": ["A. Cube", "B. Rod", "C. Cone", "D. Icosahedron"], "correct": 3},
+
+    # 39
+    {"text": "What are the cell wall structural components of fungi?",
+     "options": ["A. peptidoglycan", "B. cellulose", "C. chitin", "D. chitin, cellulose, or hemicellulose"], "correct": 2},
+
+    # 40
+    {"text": "Balanced growth is defined as",
+     "options": ["A. cells in culture maintaining a constant chemical composition",
+                 "B. balancing the growth while controlling the pH",
+                 "C. balancing the growth while controlling the temperature",
+                 "D. balancing the growth while controlling the nutrient composition"], "correct": 0},
+
+    # 41
+    {"text": "Starvation proteins or metabolites are produced by a culture during which of the following phases of the growth cycle?",
+     "options": ["A. lag phase", "B. stationary phase", "C. exponential phase", "D. death phase"], "correct": 1},
+
+    # 42
+    {"text": "The period between inoculation of bacteria in a culture medium and the beginning of multiplication is known as:",
+     "options": ["A. lag phase", "B. stationary phase", "C. exponential phase", "D. decline phase"], "correct": 0},
+
+    # 43
+    {"text": "The Monod model predicts that the specific growth rate:",
+     "options": ["A. will increase with the concentration of the growth-limiting substrate until it reaches a maximum value",
+                 "B. will decrease with the concentration of the growth-limiting substrate",
+                 "C. will increase without bound with the concentration of the growth-limiting substrate",
+                 "D. does not depend on the growth-limiting substrate"], "correct": 0},
+
+    # --- Bioreactor Design ---
+    # 44
+    {"text": "In a batch-fed (fed-batch) reactor configuration, substrate is added:",
+     "options": ["A. only at the beginning of the fermentation process", "B. periodically throughout the fermentation process",
+                 "C. only at the end of the fermentation process", "D. never"], "correct": 1},
+
+    # 45
+    {"text": "Immobilized cell reactors for wastewater treatment have the advantage of having/being:",
+     "options": ["A. higher cell concentration", "B. more stable and preventing washout",
+                 "C. higher maximum dilution rate", "D. all of the above"], "correct": 3},
+
+    # 46
+    {"text": "A mouse-mouse hybridoma cell line is used to produce a monoclonal antibody. Growth in batch culture is monitored over time, and the resulting cell-concentration-versus-time data (originally shown in a table/graph in the source material, not reproduced here) are used to estimate the exponential-phase specific growth rate of the culture. Based on the standard version of this problem, what is the specific growth rate?",
+     "options": ["A. 0.67 day-1", "B. 1.32 day-1", "C. 1.94 day-1", "D. 0.43 day-1"], "correct": 0},
+
+    # 47
+    {"text": "A chemostat has a liquid volume of 2 liters and is being fed at a rate of 4 liters per hour. What is the dilution rate for this reactor?",
+     "options": ["A. 2 /hour", "B. 0.5 /hour", "C. 2 hours", "D. 0.5 hours"], "correct": 0},
+
+    # 48 (Situation: 1000-L CSTR biomass production)
+    {"text": "Consider a 1000-L CSTR in which biomass is being produced with glucose as the substrate. The microbial system follows a Monod relationship with \u03bcmax = 0.4 /h, Ks = 1.5 g/L, and a biomass yield factor of YX/S = 0.5 g biomass/g substrate. If normal operation is with a sterile feed containing 10 g/L glucose at a rate of 100 L/hr, what is the specific growth rate at steady state?",
+     "options": ["A. 0.1 /h", "B. 0.2 /h", "C. 0.5 /h", "D. 0.7 /h"], "correct": 0},
+
+    # 49
+    {"text": "(Situation: A 1000-L CSTR produces biomass from glucose following Monod kinetics with \u03bcmax = 0.4 /h, Ks = 1.5 g/L, and YX/S = 0.5 g biomass/g substrate; sterile feed of 10 g/L glucose enters at 100 L/hr.) What is the substrate concentration in the CSTR at steady state?",
+     "options": ["A. 0.8 g/L", "B. 0.5 g/L", "C. 0.2 g/L", "D. 0.7 g/L"], "correct": 1},
+
+    # 50
+    {"text": "(Situation: A 1000-L CSTR produces biomass from glucose following Monod kinetics with \u03bcmax = 0.4 /h, Ks = 1.5 g/L, and YX/S = 0.5 g biomass/g substrate; sterile feed of 10 g/L glucose enters at 100 L/hr.) What is the biomass production rate at steady state?",
+     "options": ["A. 0.555 g/L-h", "B. 0.475 g/L-h", "C. 0.695 g/L-h", "D. 0.315 g/L-h"], "correct": 1},
+
+    # --- Modern Biotechnology ---
+    # 51
+    {"text": "Recombinant DNA technology can also be termed as:",
+     "options": ["A. Genetic engineering", "B. Sterilization", "C. Microbiology", "D. Bioinformatics"], "correct": 0},
+
+    # 52
+    {"text": "What are used to cut DNA at specific sites?",
+     "options": ["A. Restriction enzymes", "B. DNA ligase", "C. DNA polymerase", "D. Lipases"], "correct": 0},
+
+    # 53
+    {"text": "A method used to amplify specific DNA sequences, making it possible to study small amounts of DNA in detail",
+     "options": ["A. Polymerase Chain Reaction (PCR)", "B. Gel Electrophoresis", "C. Southern Blotting", "D. Western Blotting"], "correct": 0},
+
+    # 54
+    {"text": "Separates DNA, RNA, or proteins based on size and charge, aiding visualization and analysis.",
+     "options": ["A. Polymerase Chain Reaction (PCR)", "B. Gel Electrophoresis", "C. Southern Blotting", "D. Western Blotting"], "correct": 1},
+
+    # 55
+    {"text": "A method used to detect specific proteins in a sample, important for protein analysis.",
+     "options": ["A. Polymerase Chain Reaction (PCR)", "B. Gel Electrophoresis", "C. Southern Blotting", "D. Western Blotting"], "correct": 3},
+
+    # 56
+    {"text": "Southern blotting is used for ____________",
+     "options": ["A. RNA", "B. DNA", "C. Proteins", "D. Carbohydrates"], "correct": 1},
+
+    # 57
+    {"text": "RFLP is a ____________",
+     "options": ["A. Molecular scissor", "B. PCR technique", "C. Method of producing GMOs", "D. Molecular marker"], "correct": 3},
+
+    # 58
+    {"text": "Which of the following is false for karyotyping?",
+     "options": ["A. It is used to determine the chromosomal number", "B. It is used to determine the chromosomal size",
+                 "C. It is used in the detection of disease", "D. It is used in DNA amplification"], "correct": 3},
+
+    # 59
+    {"text": "Which of the following is a gene editing tool?",
+     "options": ["A. Polymerase Chain Reaction (PCR)", "B. Southern Blotting",
+                 "C. Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)", "D. RNA Interference (RNAi)"], "correct": 2},
+
+    # 60
+    {"text": "Which of the following is a gene silencing tool?",
+     "options": ["A. Polymerase Chain Reaction (PCR)", "B. Southern Blotting",
+                 "C. Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)", "D. RNA Interference (RNAi)"], "correct": 3},
+
+]
+
 # ----------------------------------------CHEMTECH---------------------------
 
 CT_Inorganic_Chemistry = [
