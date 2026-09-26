@@ -7181,7 +7181,7 @@ D1_L6_Physical_Chemistry = [
 
 ]
 
-D1_L7_CT_Biochemistry = [
+D1_L7_Biochemistry = [
 
     # --- Carbohydrates ---
     # 1
