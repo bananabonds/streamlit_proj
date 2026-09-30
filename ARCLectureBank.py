@@ -8139,7 +8139,7 @@ CT_Organic_Chemistry = [
 
     { "text": 'Which of the following is produced from addition of Cl2 to 1-butene? ',  "options": ['A. CH3CH3CCl2CH3', 'B. CH3CH2CH2CHCl2', 'C. CH3CH2CHClCH2Cl', 'D. ClCH2CH2CH2CH2Cl'], "correct": 2}, 
 
-    { "text": 'Which of the following reagents can perform the given reaction? ',  "options": ['A. Br2, H2O', 'B. Br2, CH2Cl2', 'C. O3, DMS', 'D. KMnO4, H3O+'], "correct": 2}, 
+    { "text": 'Which of the following reagents can perform the given reaction? Conversion of methylcyclohexene to 6-oxoheptanal ',  "options": ['A. Br2, H2O', 'B. Br2, CH2Cl2', 'C. O3, DMS', 'D. KMnO4, H3O+'], "correct": 2}, 
 
     { "text": 'All of the following reactions convert alkenes to alcohols except? ',  "options": ['A. Halohydrin formation', 'B. Hydroboration-oxidation', 'C. Addition polymerization', 'D. Oxymercuration-demercuration'], "correct": 2}, 
 
@@ -8210,7 +8210,7 @@ CT_Organic_Chemistry = [
 
     { "text": 'What is formed when an alcohol reacts with a carboxylic acid in the presence of an acid catalyst? ',  "options": ['A. Anhydride', 'B. Acid chloride', 'C. Ester', 'D. Ether'], "correct": 2}, 
 
-    # Orchem Laboratory
+    # Orgchem Laboratory
 
     { "text": 'Which of the following is not a common laboratory technique used in organic chemistry? ',  "options": ['A. Recrystallization', 'B. Distillation', 'C. Chromatography', 'D. Titration'], "correct": 3},
 
@@ -8233,6 +8233,61 @@ CT_Organic_Chemistry = [
     { "text": 'In crystallization, crystal phases can be interconverted by varying ',  "options": ['A. Temperature', 'B. Pressure', 'C. Viscosity', 'D. Size'], "correct": 0}, 
 
     { "text": 'All of the following statements are true except ',  "options": ['A. Two different pure substances have similar melting points', 'B. An impure sample of a substance has a wider melting point range', 'C. Melting point serves as an index of purity of a solid crystalline substance', 'D. Every pure solid crystalline substance has a characteristic and unique melting point'], "correct": 0}, 
+
+    # Orgchem Lab2    
+    {'text': 'All of the following are properties of an organic solvent for extraction except ', 'options': ['A. Dissolve the desired substance', 'B. React with the desired substance', 'C. Not react or be miscible with water', 'D. Have a low boiling point so that it can be easily removed later'], 'correct': 1},
+    
+    {'text': 'This is done during liquid-liquid extraction to release the pressure buildup inside the separatory funnel during shaking ', 'options': ['A. Stirring', 'B. Venting', 'C. Drawing', 'D. Salting out'], 'correct': 1}, 
+    
+    {'text': 'Which of the following should not be done when an emulsion is formed during extraction ', 'options': ['A. Stirring the emulsion gently using a stirring rod', 'B. Adding salt crystals to the mixture and then stirring it gently', 'C. Adding a salt solution to the mixture and then stirring it gently', 'D. Shaking the separatory funnel containing the mixture very vigorously'], 'correct': 3}, 
+    
+    {'text': 'Which of the following is/are considered in purification using crystallization? I. Polarity II. Solubility III. Vapor pressure ', 'options': ['A. I only', 'B. II only', 'C. I and II only', 'D. I, II, and III'], 'correct': 2}, 
+    
+    {'text': 'Which of the following funnels should be used to filter hot mother liquor during recrystallization? ', 'options': ['A. Hirsch funnel', 'B. Buchner funnel', 'C. Long stem funnel', 'D. Short stem funnel'], 'correct': 3}, 
+    
+    {'text': 'Which of the following techniques can be used to heat a reaction to 200oC? ', 'options': ['A. Use a Bunsen burner to heat the reaction vessel', 'B. Use a heating mantle with stirring', 'C. Place the reaction vessel in a sand bath with stirring', 'D. Place the reaction vessel in a water bath with stirring'], 'correct': 2}, 
+    
+    {'text': 'Which of the following can promote even boiling? ', 'options': ['A. Stones', 'B. Chips', 'C. Stir bars', 'D. All of the above'], 'correct': 3}, {'text': 'Where should a thermometer be placed to determine the boiling point of the distillate? ', 'options': ['A. Inside the distilling flask and it should be just below the side arm of the flask', 'B. Inside the distilling flask and it should be immersed in the mixture being distilled', 'C. Inside the receiver', 'D. Inside the adapter'], 'correct': 0}, 
+    
+    {'text': 'An organic compound decomposes at its boiling point. What is the most appropriate method for the recovery of the solid organic compound? ', 'options': ['A. Steam distillation', 'B. Batch distillation', 'C. Fractional distillation', 'D. Liquid-liquid extraction'], 'correct': 0}, {'text': 'It allows for many successive distillations to take place at once. It contains indentations or a packing material with lots of surface area? ', 'options': ['A. Adapter', 'B. Condenser', 'C. Round bottom flask', 'D. Fractionating column'], 'correct': 3}, 
+    
+    {'text': 'The boiling point of a liquid is the temperature at which the vapor pressure is? ', 'options': ['A. Lesser than internal pressure', 'B. Equal to internal pressure', 'C. Equal to external pressure', 'D. Greater than internal pressure'], 'correct': 2}, {'text': 'When the solid and liquid phases are in equilibrium, the temperature of the system ___? ', 'options': ['A. Decreases gradually', 'B. Increases gradually', 'C. Remains constant', 'D. None of the above'], 'correct': 2}, 
+    
+    {'text': 'A liquid mixture that has a constant boiling point and whose vapor has the same composition as the liquid. ', 'options': ['A. azeotrope', 'B. Ideal', 'C. Ethylene', 'D. Dimethyl ether'], 'correct': 0}, 
+    
+    {'text': 'What is the main purpose of heating under reflux? ', 'options': ['A. To provide a very high temperature so that slow reactions occur at faster rates', 'B. To increase the rate of evaporation of the solvent to increase the product yield', 'C. To heat the reaction mixture in a solvent at a constant temperature without the loss of any reagents', 'D. None of the above'], 'correct': 2},
+    
+    {'text': 'A reaction needs to be cooled to -77oC after refluxing. What is the best method to be used? ', 'options': ['A. Place the reaction vessel in an ice bath', 'B. Place the reaction vessel in the freezer', 'C. Place the reaction vessel in a salt and crushed ice mixture', 'D. Place the reaction vessel in a dry ice-acetone mixture'], 'correct': 3}
+
+]
+
+CT_Chemical_Waste_Management = [
+
+    { "text": 'In the acquisition of chemicals for the laboratory, the following are important considerations except ',  "options": ['A. Cost: chemical purchases must be determined by the cheaper unit price basis of large quantities. Buying bulk quantities will save significant amount of acquisition cost.', 'B. Availability: check first if the material is available from another laboratory in the institution', 'C. Facilities: the incoming chemicals must be managed safely when it arrives', 'D. Security: the institution must have adequate security measures and required documentations if purchasing a controlled substance'], "correct": 0}, 
+
+    { "text": 'It is a record (usually a database), which in some cases is a required document for compliance, that lists the chemicals in the laboratory, along with information essential for their proper management ',  "options": ['A. Safety datasheet', 'B. Material safety datasheet', 'C. Chemical inventory', 'D. Chemical list'], "correct": 3}, 
+
+    { "text": 'Which of the following acids are stored properly? ',  "options": ['A. Hydrochloric acid, nitric acid, phosphoric acid, sulfuric acid', 'B. Hydrochloric acid, acetic acid, sulfuric acid, lactic acid', 'C. Lactic acid, acetic acid, trichloroacetic acid', 'D. Lactic acid, acetic acid, perchloric acid'], "correct": 2}, 
+
+    { "text": 'Sodium metal should be best stored in ___: ',  "options": ['A. Dry ventilated cabinet', 'B. Closed container under kerosene, or mineral oil', 'C. Tightly screw-cap glass bottle', 'D. Closed metal container'], "correct": 1}, 
+
+    { "text": 'This refers to the net result of uptake, transformation and elimination of a substance in an organism due to all routes of exposure ',  "options": ['A. Bioaccumulation', 'B. Bioavailability', 'C. Availability', 'D. Bioconcentration'], "correct": 1}, 
+
+    { "text": 'A hazardous waste characteristic that refers to substances that are unstable under normal conditions and readily undergo violent reaction without detonation ',  "options": ['A. Ignitability', 'B. Corrosivity', 'C. Reactivity', 'D. Toxicity'], "correct": 2}, 
+
+    { "text": 'This refers to a type of waste in which when placed in a landfill is reasonably expected not to undergo any physical, chemical, and biological changes to such an extent as to cause health or safety hazards. ',  "options": ['A. Stable wastes', 'B. Infectious wastes', 'C. Special wastes', 'D. Inert wastes'], "correct": 3}, 
+
+    { "text": 'What type of container must be used to store waste such as paints and solvents? ',  "options": ['A. Polyethylene drum', 'B. Metal drum', 'C. Fiber drum', 'D. Glass drum'], "correct": 1}, 
+
+    { "text": 'It is an act regulating and modernizing the practice of chemistry in the Philippines, otherwise known as the Chemistry Law of the Philippines. ',  "options": ['A. RA 6969', 'B. RA 9514', 'C. RA 10657', 'D. RA 3720'], "correct": 2}, 
+
+    { "text": 'A sample of water was collected from immediately downstream of an industrial outfall to assess the worst possible situation regarding potential pollution. What type of sample is used in the situation? ',  "options": ['A. Selective sample', 'B. Random sample', 'C. Representative sample', 'D. Composite sample'], "correct": 1}, 
+
+    { "text": 'Which of the following laboratory activities practices green chemistry? I. Waste prevention II. Microscale work III. Use of digital thermometers IV. Catalysis ',  "options": ['A. I and II', 'B. I, II, and III', 'C. I and III', 'D. I, II, III, and IV'], "correct": 3}, 
+
+    { "text": 'When collecting waste in the laboratory a good way to reduce the expense of waste management is to ',  "options": ['A. Put non-halogenated and halogenated solvents in separate primary containers', 'B. Plan to recycle solvents', 'C. Put acids and mixtures of acids and metals in separate primary containers', 'D. All of these'], "correct": 3}, 
+
+    { "text": 'An “alkali waste” has a pH of ___ ',  "options": ['A. 7', 'B. ≥ 2', 'C. 10', 'D. ≥ 12.5'], "correct": 3}, 
 
 ]
 
@@ -9112,7 +9167,7 @@ CT_PT_Quality_Assurance_Control = [
 
     # 57 (GMP is the standard that applies to products for human consumption; "All of these" is the alternative if your key counts every listed standard)
     {"text": 'If you are going to mass produce vitamin C, which standard should you subscribe in?',
-     "options": ['A. GMP', 'B. HACCP', 'C. ISO 9001', 'D. All of these'], "correct": 0},
+     "options": ['A. GMP', 'B. HACCP', 'C. ISO 9001', 'D. All of these'], "correct": 3},
 
     # 58
     {"text": 'Which of the following is a required characteristic of a QC sample?',
@@ -9531,6 +9586,430 @@ CT_PT_Laboratory_Instrumentation = [
      "options": ['A. atomic numbers of the analytes', 'B. rates at which components move through a stationary phase', 'C. color of the analytes', 'D. boiling point of the stationary phase only'], "correct": 1},
 
 ]
+
+CT_RE_General_Chemistry = [
+
+    # 1
+    {"text": "He formulated the Periodic Law.",
+     "options": ["A. Dmitri Mendeleev", "B. John Newlands", "C. Johann Wolfgang Dobereiner", "D. Julius Meyer"], "correct": 0},
+
+    # 2
+    {"text": "What is the molarity of a solution formed from 6.75 g of NaCl (58.4 g/mol) dissolved in water to make a solution with a total volume of 452 mL?",
+     "options": ["A. 0.256 M", "B. 0.799 M", "C. 0.412 M", "D. 0.872 M"], "correct": 0},
+
+    # 3
+    {"text": "A substance that has the ability to dissolve or disperse one or more substances?",
+     "options": ["A. crystal", "B. solute", "C. solvent", "D. none of these"], "correct": 2},
+
+    # 4
+    {"text": "He discovered the nucleus with his “Gold Foil” experiment.",
+     "options": ["A. John Dalton", "B. J.J. Thomson", "C. Ernest Rutherford", "D. Eugen Goldstein"], "correct": 2},
+
+    # 5
+    {"text": "Which of the following elements is more electronegative: Cl, S, or Mg?",
+     "options": ["A. None of these", "B. S", "C. Mg", "D. Cl"], "correct": 3},
+
+    # 6
+    {"text": "Calculate the % Ca in Ca(OH)₂",
+     "options": ["A. 54.09%", "B. 2.73%", "C. 26.7%", "D. 43.18%"], "correct": 0},
+
+    # 7
+    {"text": "A solution with solute that dissolves until it is unable to dissolve anymore, leaving the undissolved substances at the bottom.",
+     "options": ["A. unsaturated solution", "B. supersaturated solution", "C. none of these", "D. saturated solution"], "correct": 3},
+
+    # 8
+    {"text": "Which has a larger ionic size (Na⁺ or Mg²⁺)?",
+     "options": ["A. Mg²⁺", "B. Na⁺", "C. Both ions", "D. None of these"], "correct": 1},
+
+    # 9
+    {"text": "He arranged the elements in the periodic table in groups of 3’s or triads also known as “Law of Triad.”",
+     "options": ["A. Dmitri Mendeleev", "B. Johann Wolfgang Dobereiner", "C. John Newlands", "D. Julius Meyer"], "correct": 1},
+
+    # 10
+    {"text": "Which of the following elements is more reactive: Li, Rb, or Fr?",
+     "options": ["A. Rb", "B. Fr", "C. Li", "D. None of these"], "correct": 1},
+
+    # 11
+    {"text": "Which subatomic particle determines the identity of an element?",
+     "options": ["A. Electron", "B. Neutron", "C. Proton", "D. Nucleus"], "correct": 2},
+
+    # 12
+    {"text": "It is the number of protons in the nucleus.",
+     "options": ["A. Atomic number", "B. Atomic charge", "C. Atomic mass", "D. Valence"], "correct": 0},
+
+    # 13
+    {"text": "Atoms of the same element with varying number of neutrons",
+     "options": ["A. None of these", "B. Element", "C. Ions", "D. Isotopes"], "correct": 3},
+
+    # 14
+    {"text": "What is the empirical formula of a compound which contains 52.94% Al and 47.06% O?",
+     "options": ["A. Al₃O", "B. Al₂O₃", "C. Al₃O₂", "D. AlO₂"], "correct": 1},
+
+    # 15
+    {"text": "The seven horizontal rows in the periodic table are called __________.",
+     "options": ["A. groups", "B. 000", "C. valence", "D. periods"], "correct": 3},
+
+    # 16
+    {"text": "A solution that completely dissolves, leaving no remaining substances.",
+     "options": ["A. saturated solution", "B. supersaturated solution", "C. unsaturated solution", "D. none of these"], "correct": 2},
+
+    # 17
+    {"text": "Group 7A is a family of _______.",
+     "options": ["A. Noble gases", "B. Alkaline Metals", "C. Halogens", "D. Alkali Metals"], "correct": 2},
+
+    # 18
+    {"text": "Which of the following is an intensive property?",
+     "options": ["A. volume", "B. mass", "C. none of these", "D. density"], "correct": 3},
+
+    # 19
+    {"text": "He is credited with the discovery of the electron in an atom.",
+     "options": ["A. J.J. Thomson", "B. Eugen Goldstein", "C. John Dalton", "D. Ernest Rutherford"], "correct": 0},
+
+    # 20
+    {"text": "What is the molecular formula if the empirical formula of a compound is CH. The molar mass of this compound is 78 g.",
+     "options": ["A. None of these", "B. C₈H₈", "C. C₆H₆", "D. C₂H₂"], "correct": 2},
+
+    # 21
+    {"text": "Which of the following is an extensive property?",
+     "options": ["A. weight", "B. melting point", "C. none of these", "D. density"], "correct": 0},
+
+    # 22
+    {"text": "Calculate the molality of a solution prepared from 29.1 g of toluene (92 g/mol) dissolved in 832 g of benzene.",
+     "options": ["A. 0.114 m", "B. 0.380 m", "C. 0.787 m", "D. 0.567 m"], "correct": 1},
+
+    # 23
+    {"text": "Which of the following is not an example of observable physical property?",
+     "options": ["A. texture", "B. color", "C. mass", "D. odor"], "correct": 2},
+
+    # 24
+    {"text": "Which of the following elements (Br or Cu) has the higher ionization energy?",
+     "options": ["A. Both elements", "B. Cu", "C. None of these", "D. Br"], "correct": 3},
+
+    # 25
+    {"text": "A solution is prepared by dissolving 464 g of NaOH (40 g/mol) in water and then diluting to 1 L. The density of the resulting solution is 1.37 g/mL. What is the % mass of NaOH?",
+     "options": ["A. 33.87%", "B. 11.60%", "C. 50.33%", "D. 12.80%"], "correct": 0},
+
+    # 26
+    {"text": "He arranged the elements in the periodic table in groups of 8’s like from lithium to sodium also known as “Law of Octaves.”",
+     "options": ["A. Dmitri Mendeleev", "B. Johann Wolfgang Dobereiner", "C. Julius Meyer", "D. John Newlands"], "correct": 3},
+
+    # 27
+    {"text": "If a mixture of gases contains 7.50 g of H₂, 3.25 g of O₂ and 5.55 g of N₂, what is the mole fraction of the oxygen gas?",
+     "options": ["A. 0.049", "B. 0.925", "C. 0.673", "D. 0.0253"], "correct": 3},
+
+    # 28
+    {"text": "Sodium carbonate is also known as?",
+     "options": ["A. caustic potash", "B. caustic soda", "C. soda ash", "D. baking soda"], "correct": 2},
+
+    # 29
+    {"text": "Brass is an example of ___________.",
+     "options": ["A. Homogenous mixture", "B. Heterogenous mixture", "C. Compound", "D. Element"], "correct": 0},
+
+    # 30
+    {"text": "It is the most ideal gas element.",
+     "options": ["A. Neon", "B. Sulfur", "C. Helium", "D. Oxygen"], "correct": 2},
+
+    # 31
+    {"text": "A compound is 85.69% C and 14.31% H. If the molar mass is 56 g/mol, what is the molecular formula of the compound?",
+     "options": ["A. CH₂", "B. C₄H₈", "C. CH₄", "D. CH₄H₁₀"], "correct": 1},
+
+    # 32
+    {"text": "Which of the following has the largest atomic radius?",
+     "options": ["A. Na", "B. Mg", "C. Al", "D. Cl"], "correct": 0},
+
+    # 33
+    {"text": "Agua regia is a/an ______.",
+     "options": ["A. all of these", "B. suspension", "C. solution", "D. colloid"], "correct": 2},
+
+    # 34
+    {"text": "Methane is an example of __________.",
+     "options": ["A. Heterogenous mixture", "B. Element", "C. Homogenous mixture", "D. Compound"], "correct": 3},
+
+    # 35
+    {"text": "What is the empirical formula of a compound which contains 2.05% H, 32.65% S, and 65.30% O?",
+     "options": ["A. H₂SO₄", "B. HSO₄", "C. H₂SO", "D. none of the above"], "correct": 0},
+
+]
+
+CT_RE_Analytical_Chemistry = [
+
+    # 1
+    {"text": "This type of analysis means that the amount of some constituents was determined.",
+     "options": ["A. Partial analysis", "B. Complete analysis", "C. Single-component analysis", "D. Ultimate analysis"], "correct": 0},
+
+    # 2
+    {"text": "The molar mass of Na₂B₄O₇·10H₂O is:",
+     "options": ["A. 269.32 mg/mmol", "B. 383.43 mg/mmol", "C. 381.42 mg/mmol", "D. 201.22 mg/mmol"], "correct": 2},
+
+    # 3
+    {"text": "How many grams of BaCl₂·2H₂O are needed to prepare 2.00 L of 0.108 M BaCl₂ solution?",
+     "options": ["A. 528 g", "B. 5.28 g", "C. 5280 mg", "D. 52.8 g"], "correct": 3},
+
+    # 4
+    {"text": "Calculate the molality of 25.0 g of KBr dissolved in 750.0 mL of pure water.",
+     "options": ["A. 0.120 m", "B. 0.310 m", "C. 0.410 m", "D. 0.280 m"], "correct": 3},
+
+    # 5
+    {"text": "These are solid materials added to promote fusing of metals.",
+     "options": ["A. Fluxes", "B. Interferences", "C. Solvents", "D. Precipitate"], "correct": 0},
+
+    # 6
+    {"text": "The result of an analysis is 36.97 g, compared with the accepted value of 37.06 g. What is the relative error in parts per thousand?",
+     "options": ["A. 3.04 ppt", "B. 2.43 ppt", "C. 4.12 ppt", "D. None of the choices"], "correct": 1},
+
+    # 7
+    {"text": "Which of the following sets of data is more precise?\nSet A, in mm: 821, 783, 834, 855\nSet B, in mm: 790, 810, 838, 855",
+     "options": ["A. Set B", "B. Both Set A and B", "C. Set A", "D. Neither"], "correct": 0},
+
+    # 8
+    {"text": "Which of the following is used to express the ppm of a solution?",
+     "options": ["A. kg analyte/L solution", "B. mg analyte/L solution", "C. g analyte/g sample × 10", "D. kg analyte/kg sample"], "correct": 1},
+
+    # 9
+    {"text": "The initial and final readings of a buret in a titration are 1.05 mL and 27.40 mL, respectively. If the buret has a standard deviation of ±0.05 mL, what is the volume of titrant used and its corresponding deviation?",
+     "options": ["A. 26.35 ± 0.07 mL", "B. 20.32 ± 0.07 mL", "C. 25.30 ± 0.05 mL", "D. 24.10 ± 0.04 mL"], "correct": 0},
+
+    # 10
+    {"text": "Which is NOT true in the context of preventing peptization of colloids?",
+     "options": ["A. The electrolyte solution should volatilize when the precipitate is dried.",
+                 "B. Wash the precipitate with distilled water.",
+                 "C. Coagulated colloids revert to their original dispersed state.",
+                 "D. Wash the precipitate with a solution containing an electrolyte."], "correct": 1},
+
+    # 11
+    {"text": "A new gravimetric method is developed for Fe³⁺ determination and compared with the standard precipitation method with ammonia and weighing Fe₂O₃.\nNew method: 22.10, 20.50, 17.65, 20.23, 19.40, 17.99\nStandard method: 18.89, 19.20, 19.00, 19.70, 19.40\nBased on the results, is the new gravimetric method comparable with the standard method?",
+     "options": ["A. The two methods are significantly different.", "B. The two methods are not significantly different.",
+                 "C. Neither of the two methods are significant.", "D. None of the choices."], "correct": 0},
+
+    # 12
+    {"text": "Analysis of carbonate in bottled water gives a mean of 11.8 ppm with a standard deviation of 0.70 ppm for five replicates. If the standard value is <11.7 ppm, is there a need for product recall at the 90% confidence level?",
+     "options": ["A. Yes", "B. No", "C. The question is invalid"], "correct": 1},
+
+    # 13
+    {"text": "Calculate the molarity of a NaOH solution made by weighing 5.25 g NaOH using a balance with a standard deviation of ±0.05 g and dissolving it in enough water in a 500 mL volumetric flask with a standard deviation of ±0.08 mL",
+     "options": ["A. 0.2085 ± 0.040 M", "B. 0.2625 ± 0.0025 M", "C. 0.2021 ± 0.042 M", "D. 0.2021 ± 0.0025 M"], "correct": 1},
+
+    # 14
+    {"text": "In the analysis of a 0.7011 g impure chloride-containing sample, 0.9805 g of AgCl was precipitated. What is the percentage by mass of chloride in the sample?",
+     "options": ["A. 78.14%", "B. 28.85%", "C. 34.59%", "D. 25.45%"], "correct": 2},
+
+    # 15
+    {"text": "A 0.4054 g solid organic sample containing covalently bound bromide and no other halogens was subjected to sodium fusion. The resulting bromide was precipitated with AgNO₃, producing 37.8 mg of AgBr. What is the percentage by mass of bromine in the organic compound?",
+     "options": ["A. 3.97%", "B. 4.15%", "C. 2.15%", "D. 3.00%"], "correct": 0},
+
+    # 16
+    {"text": "A 0.4960 g sample of CaCO₃ is dissolved in an acidic solution. Calcium is precipitated as CaC₂O₄·H₂O, and the dry precipitate weighs 0.6186 g. What is the percentage of CaO in the sample?",
+     "options": ["A. 47.78%", "B. 52.10%", "C. 30.66%", "D. 41.89%"], "correct": 0},
+
+    # 17
+    {"text": "A 0.8 g sample is dissolved, and its sulfur is precipitated as BaSO₄. If the precipitate weighs 0.3 g, calculate the percentage of sulfur in the sample.",
+     "options": ["A. 5.20%", "B. 7.02%", "C. 4.10%", "D. 6.52%"], "correct": 0},
+
+    # 18
+    {"text": "Calculate the concentration of a species having an absorbance of 0.494 at 525 nm if the cell path length is 1.00 cm and the molar absorptivity is 1.38 × 10⁴ L/(mol·cm).",
+     "options": ["A. 3.28 × 10⁻⁵ M", "B. 3.02 × 10⁻⁵ M", "C. 3.16 × 10⁻⁵ M", "D. 3.58 × 10⁻⁵ M"], "correct": 3},
+
+    # 19
+    {"text": "A 50.00 mL NaOH solution is titrated with 1.605 M H₂SO₄. The titration requires 24.09 mL of acid to reach the equivalence point. What is the molarity of the NaOH solution?\nH₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)",
+     "options": ["A. 1.451 M NaOH", "B. 1.623 M NaOH", "C. 1.501 M NaOH", "D. 1.547 M NaOH"], "correct": 3},
+
+    # 20
+    {"text": "It is an ultrapure compound that serves as the reference material for a titrimetric method of analysis.",
+     "options": ["A. None of the above", "B. Primary standard", "C. Secondary standard", "D. Standard solution"], "correct": 1},
+
+]
+
+CT_RE_Laboratory_Quality_Safety = [
+
+    # 1
+    {"text": "Having a system in place where each data entry gets approved by two sets of eyes.",
+     "options": ["A. Quality Assurance", "B. Quality Control"], "correct": 0},
+
+    # 2
+    {"text": "A single sample split in the laboratory and measure laboratory precision based on relative percent difference between the sample and SD.",
+     "options": ["A. Duplicate", "B. CRM", "C. QC sample", "D. Blank"], "correct": 0},
+
+    # 3
+    {"text": "Regularly evaluating standard procedures carried out by lab techs and interns.",
+     "options": ["A. Quality Control", "B. Quality Assurance"], "correct": 1},
+
+    # 4
+    {"text": "What is the difference between a fire extinguisher and a fire sprinkler?",
+     "options": ["A. A fire extinguisher is used to put out a fire, while a fire sprinkler is used to prevent a fire from starting.",
+                 "B. A fire extinguisher is used by a person, while a fire sprinkler is activated automatically.",
+                 "C. A fire extinguisher is a portable device, while a fire sprinkler is a fixed device.",
+                 "D. All of the choices"], "correct": 3},
+
+    # 5
+    {"text": "A group of samples which behave similarly with respect to the sampling, or the testing procedures being employed, and which are processed as a unit.",
+     "options": ["A. Matrix", "B. Batch", "C. CRM", "D. Method blank"], "correct": 1},
+
+    # 6
+    {"text": "What is the difference between a fire extinguisher and a fire blanket?",
+     "options": ["A. A fire extinguisher is used by a person, while a fire blanket is used by a team of people.",
+                 "B. All of the choices",
+                 "C. A fire extinguisher is a portable device, while a fire blanket is a fixed device.",
+                 "D. A fire extinguisher is used to put out a fire, while a fire blanket is used to smother a fire."], "correct": 3},
+
+    # 7
+    {"text": "Regularly calibrating equipment and machines.",
+     "options": ["A. Quality Assurance", "B. Quality Control"], "correct": 0},
+
+    # 8
+    {"text": "To measure the amount of the analytical signal which arises from the dilution solvent.",
+     "options": ["A. Equipment Blank", "B. Calibration Blank", "C. Sampling Blank", "D. Method Blank"], "correct": 1},
+
+    # 9
+    {"text": "Double-checking bottle labels before starting each test.",
+     "options": ["A. Quality Control", "B. Quality Assurance"], "correct": 1},
+
+    # 10
+    {"text": "What should you do if you smell a chemical fume in a chemical laboratory?",
+     "options": ["A. (a) Alert the nearest person", "B. (b) Leave the area immediately",
+                 "C. Both (a) and (b)", "D. None of the choices"], "correct": 2},
+
+    # 11
+    {"text": "Analysis of blanks.",
+     "options": ["A. Contamination", "B. Precision", "C. Accuracy", "D. Extraction Efficiency"], "correct": 0},
+
+    # 12
+    {"text": "What is the purpose of an inventory of chemicals?",
+     "options": ["A. To identify the location of chemicals", "B. To track the quantity of chemicals on hand",
+                 "C. To ensure that chemicals are properly stored", "D. All of the choices"], "correct": 3},
+
+    # 13
+    {"text": "What is the best way to protect yourself from chemical fumes?",
+     "options": ["A. (a) Wear a respirator", "B. (b) Work in a well-ventilated area",
+                 "C. Both (a) and (b)", "D. None of the choices"], "correct": 2},
+
+    # 14
+    {"text": "Which of the following is a chemical hazard in a chemical laboratory?",
+     "options": ["A. Inhalation of toxic fumes", "B. Contact with an electrical outlet",
+                 "C. Slipping on a wet floor", "D. Exposure to loud noise"], "correct": 0},
+
+    # 15
+    {"text": "Which of the following is the most effective principle of laboratory safety?",
+     "options": ["A. Administrative controls", "B. Substitution", "C. PPE", "D. Elimination"], "correct": 3},
+
+    # 16
+    {"text": "What is the best way to protect yourself from chemical spills?",
+     "options": ["A. Wear safety glasses", "B. Wear gloves", "C. All of the choices", "D. Wear a lab coat"], "correct": 2},
+
+    # 17
+    {"text": "What is the proper way to use a fire extinguisher?",
+     "options": ["A. Pull the pin, aim at the middle of the fire, and squeeze the handle.",
+                 "B. Pull the pin, aim at the top of the fire, and squeeze the handle.",
+                 "C. Pull the pin, aim at the side of the fire, and squeeze the handle.",
+                 "D. Pull the pin, aim at the base of the fire, squeeze the handle and sweep."], "correct": 3},
+
+    # 18
+    {"text": "What type of gloves should you wear when working with chemicals?",
+     "options": ["A. Nitrile gloves", "B. Vinyl gloves", "C. Latex gloves", "D. Rubber gloves"], "correct": 0},
+
+    # 19
+    {"text": "Which of the following is an example of substitution in a laboratory?",
+     "options": ["A. Using a fume hood to protect against hazardous fumes",
+                 "B. Using a less toxic chemical in place of a more toxic chemical",
+                 "C. Washing your hands after handling chemicals",
+                 "D. Wearing gloves to protect against skin contact with chemicals"], "correct": 1},
+
+    # 20
+    {"text": "A quality system of management controls for research laboratories and organizations to ensure the uniformity, consistency, reliability, reproducibility, quality, and integrity of products in development for human or animal health (including pharmaceuticals) through non-clinical safety tests; from physio-chemical properties through acute to chronic toxicity tests.",
+     "options": ["A. Quality Assessment", "B. Quality Control", "C. GMP", "D. GLP"], "correct": 3},
+
+    # 21
+    {"text": "What is the difference between a fire extinguisher and a fire blanket?",
+     "options": ["A. All of the choices.",
+                 "B. A fire extinguisher is used by a person, while a fire blanket is used by a team of people.",
+                 "C. A fire extinguisher is a portable device, while a fire blanket is a fixed device.",
+                 "D. A fire extinguisher is used to put out a fire, while a fire blanket is used to smother a fire."], "correct": 3},
+
+    # 22
+    {"text": "A substance that are inserted into the run alongside the test materials and subjected to the same treatment.",
+     "options": ["A. Matrix spike", "B. CRM", "C. Control materials", "D. Blank"], "correct": 2},
+
+    # 23
+    {"text": "To detect contamination from reagents, sample handling, and the entire analytical process.",
+     "options": ["A. Method Blank", "B. Equipment Blank", "C. Calibration Blank", "D. Sampling Blank"], "correct": 0},
+
+    # 24
+    {"text": "Analysis of matrix spikes.",
+     "options": ["A. Extraction Efficiency", "B. Contamination", "C. Precision", "D. Accuracy"], "correct": 0},
+
+    # 25
+    {"text": "Which of the following is an example of an administrative control in a laboratory?",
+     "options": ["A. Washing your hands after handling chemicals", "B. Posting safety signs and labels",
+                 "C. Using a fume hood to protect against hazardous fumes",
+                 "D. Wearing gloves to protect against skin contact with chemicals"], "correct": 1},
+
+    # 26
+    {"text": "A system of processes and procedures that pharmaceutical and medical device manufacturers must adhere to in order to ensure that their products are of the highest quality.",
+     "options": ["A. GLP", "B. GMP", "C. Quality Control", "D. Quality Assessment"], "correct": 1},
+
+    # 27
+    {"text": "Which of the following is a physical hazard in a chemical laboratory?",
+     "options": ["A. Flammable liquids", "B. Toxic chemicals", "C. Corrosive substances", "D. Biohazardous materials"], "correct": 0},
+
+    # 28
+    {"text": "What is the best way to protect yourself from chemical splashes?",
+     "options": ["A. (a) Wear a face shield", "B. (b) Wear goggles", "C. Both (a) and (b)", "D. None of the choices"], "correct": 2},
+
+    # 29
+    {"text": "A periodic assessment of the performance of individual laboratories and groups of laboratories that is achieved by the distribution by an independent testing body of typical materials of unsupervised analysis by the participants.",
+     "options": ["A. Proficiency Testing", "B. Quality assessment", "C. Quality assurance", "D. CRM"], "correct": 0},
+
+    # 30
+    {"text": "Analysis of reference materials or samples of known concentration.",
+     "options": ["A. Accuracy", "B. Extraction Efficiency", "C. Precision", "D. Contamination"], "correct": 0},
+
+    # 31
+    {"text": "A program designed to make the measurement process as reliable as possible.",
+     "options": ["A. Quality assurance", "B. Quality control", "C. Blank", "D. Matrix"], "correct": 0},
+
+    # 32
+    {"text": "Which of the following is a principle of green chemistry?",
+     "options": ["A. Use of non-renewable energy sources", "B. Use of renewable feedstocks",
+                 "C. Use of toxic chemicals", "D. Generation of hazardous waste"], "correct": 1},
+
+    # 33
+    {"text": "Which of the following is an environmental hazard in a chemical laboratory?",
+     "options": ["A. Cuts from broken glass", "B. Burns from chemical spills",
+                 "C. Electric shock from faulty equipment", "D. Contamination of water sources"], "correct": 3},
+
+    # 34
+    {"text": "What are the different types of fire extinguisher ratings?",
+     "options": ["A. Class A, B, D", "B. Class A, B, C, D", "C. Class A, B, C", "D. Class A, C, D"], "correct": 1},
+
+    # 35
+    {"text": "An activity designed to identify and determine sources of error.",
+     "options": ["A. Matrix", "B. Quality assurance", "C. Blank", "D. Quality control"], "correct": 3},
+
+    # 36
+    {"text": "It refers to procedures undertaken by laboratory for continuous monitoring of operations and measurement results.",
+     "options": ["A. Certified reference Material (CRM)", "B. Internal Quality control",
+                 "C. Quality Control", "D. Quality Assessment"], "correct": 1},
+
+    # 37
+    {"text": "Running both a duplicate sample and a blank sample to compare test results.",
+     "options": ["A. Quality Control", "B. Quality Assurance"], "correct": 0},
+
+    # 38
+    {"text": "What should you do if you break a glass beaker in a chemical laboratory?",
+     "options": ["A. Use a wet mop to clean up the broken glass.",
+                 "B. Use a dustpan and brush to sweep up the broken glass.",
+                 "C. Pick up the broken glass with your hands.",
+                 "D. Use a paper to sweep up the broken glass."], "correct": 1},
+
+    # 39
+    {"text": "What should you do if you feel dizzy or lightheaded in a chemical laboratory?",
+     "options": ["A. Get some fresh air", "B. Drink a glass of water", "C. Sit down and rest", "D. All of the choices"], "correct": 3},
+
+    # 40
+    {"text": "Sterilizing equipment and preventing personal contamination through the distribution of gloves, hairnets, and lab coats.",
+     "options": ["A. Quality Control", "B. Quality Assurance"], "correct": 1},
+
+]
+
 
 # ------------------------- AI GENERATED Question Bank --------------------------------
 
