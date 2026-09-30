@@ -9965,3 +9965,334 @@ ai_Day1_SET1 = [
 
   { "text": 'Which property is NOT a colligative property?', "options": ['A. Osmotic pressure', 'B. Boiling-point elevation', 'C. Freezing-point depression', 'D. Viscosity'], "correct": 3 }
 ]
+
+# Chemical Technician board exam practice questions
+# 'correct' is the 0-based index of the right option (0 = A, 1 = B, 2 = C, 3 = D)
+
+AI_CT_General_Chemistry = [
+
+    { "text": 'What is the SI base unit for amount of substance?',  "options": ['A. liter', 'B. kilogram', 'C. gram', 'D. mole'], "correct": 3},
+
+    { "text": 'How many liters are in 250 mL?',  "options": ['A. 0.250 L', 'B. 0.0250 L', 'C. 2.50 L', 'D. 25.0 L'], "correct": 0},
+
+    { "text": 'How many significant figures are in the measurement 0.004050 g?',  "options": ['A. 4', 'B. 2', 'C. 3', 'D. 5'], "correct": 0},
+
+    { "text": 'Which statement correctly distinguishes accuracy from precision?',  "options": ['A. Accuracy refers to the number of significant figures; precision refers to the units used', 'B. Accuracy and precision both refer only to closeness to the true value', 'C. Accuracy is closeness to the true value; precision is closeness of repeated measurements to one another', 'D. Accuracy is closeness of repeated measurements to one another; precision is closeness to the true value'], "correct": 2},
+
+    { "text": 'Express 0.000456 in scientific notation.',  "options": ['A. 4.56 × 10⁻⁵', 'B. 4.56 × 10⁴', 'C. 4.56 × 10⁻³', 'D. 4.56 × 10⁻⁴'], "correct": 3},
+
+    { "text": 'Elements in Group 17 of the periodic table are known as the',  "options": ['A. alkaline earth metals', 'B. alkali metals', 'C. halogens', 'D. noble gases'], "correct": 2},
+
+    { "text": 'A bond formed by the complete transfer of electrons from a metal to a nonmetal is',  "options": ['A. hydrogen', 'B. covalent', 'C. ionic', 'D. metallic'], "correct": 2},
+
+    { "text": 'In the balanced equation CH4 + 2O2 → CO2 + 2H2O, how many moles of O2 react with 3.0 moles of CH4?',  "options": ['A. 6.0', 'B. 2.0', 'C. 3.0', 'D. 1.5'], "correct": 0},
+
+    { "text": 'What is the molarity of a solution prepared by dissolving 5.85 g NaCl (M = 58.5 g/mol) in enough water to make 500 mL?',  "options": ['A. 0.100 M', 'B. 0.200 M', 'C. 0.0117 M', 'D. 1.00 M'], "correct": 1},
+
+    { "text": 'In dilute aqueous solutions, 1 ppm is approximately equal to',  "options": ['A. 1% w/v', 'B. 1 g/L', 'C. 1 mg/L', 'D. 1 µg/L'], "correct": 2},
+
+    { "text": 'What volume of 1.0 M stock solution is needed to prepare 250 mL of 0.10 M solution?',  "options": ['A. 100 mL', 'B. 25 mL', 'C. 2.5 mL', 'D. 10 mL'], "correct": 1},
+
+    { "text": 'Adding a nonvolatile solute to water will',  "options": ['A. lower both its boiling point and freezing point', 'B. lower its boiling point and raise its freezing point', 'C. raise its boiling point and lower its freezing point', 'D. raise both its boiling point and freezing point'], "correct": 2},
+
+    { "text": 'What is the pH of a 0.001 M HCl solution?',  "options": ['A. 3', 'B. 7', 'C. 1', 'D. 11'], "correct": 0},
+
+    { "text": 'Which of the following is a strong base?',  "options": ['A. Al(OH)3', 'B. CH3COOH', 'C. NH3', 'D. NaOH'], "correct": 3},
+
+    { "text": 'A real gas behaves most like an ideal gas at',  "options": ['A. high temperature and high pressure', 'B. low temperature and low pressure', 'C. low temperature and high pressure', 'D. high temperature and low pressure'], "correct": 3},
+
+    { "text": 'What is the correct name of Fe2O3?',  "options": ['A. iron(III) oxide', 'B. iron(II) oxide', 'C. iron(III) dioxide', 'D. ferric peroxide'], "correct": 0},
+
+    { "text": 'In a voltaic (galvanic) cell, oxidation occurs at the',  "options": ['A. anode', 'B. cathode', 'C. salt bridge', 'D. external wire'], "correct": 0},
+
+    { "text": 'Which statement describes a redox reaction?',  "options": ['A. It involves the transfer of protons only', 'B. It always forms a precipitate', 'C. It involves ion exchange with no change in oxidation numbers', 'D. It involves the transfer of electrons between species'], "correct": 3},
+
+    { "text": 'A technician\'s repeat test still gives a result outside the specification. The ethical action is to',  "options": ['A. keep re-running the test until it passes', 'B. adjust the data so it meets the specification', 'C. report the actual result and follow the out-of-specification procedure', 'D. discard the result and report only passing values'], "correct": 2},
+
+    { "text": 'In the scientific method, a hypothesis is evaluated by',  "options": ['A. repeating the observation without changing anything', 'B. a controlled experiment', 'C. personal opinion', 'D. memorizing previous results'], "correct": 1},
+
+]
+
+AI_CT_Laboratory_Technology = [
+
+    { "text": 'When reading the volume of a liquid in a graduated cylinder, the eye should be level with',  "options": ['A. the top of the meniscus', 'B. the top of the cylinder', 'C. the bottom of the meniscus (for water)', 'D. the edge where the liquid touches the glass'], "correct": 2},
+
+    { "text": 'Which glassware delivers 25.00 mL with the highest accuracy?',  "options": ['A. Volumetric pipette', 'B. Graduated cylinder', 'C. Beaker', 'D. Erlenmeyer flask'], "correct": 0},
+
+    { "text": 'Before filling a burette with titrant, it should be rinsed with',  "options": ['A. a small portion of the titrant', 'B. distilled water only', 'C. acetone', 'D. the analyte'], "correct": 0},
+
+    { "text": 'Glassware is considered clean when',  "options": ['A. water drains as a uniform film with no droplets', 'B. it has been wiped with a paper towel', 'C. it smells of detergent', 'D. it has been rinsed once with tap water'], "correct": 0},
+
+    { "text": 'A hygroscopic solid should be weighed',  "options": ['A. in an uncovered weighing boat left for several minutes', 'B. quickly in a closed weighing bottle', 'C. on open filter paper', 'D. directly on the balance pan'], "correct": 1},
+
+    { "text": 'Which apparatus is calibrated "to contain" (TC) rather than "to deliver"?',  "options": ['A. Graduated pipette', 'B. Volumetric flask', 'C. Burette', 'D. Volumetric pipette'], "correct": 1},
+
+    { "text": 'A primary standard should be',  "options": ['A. a liquid that partially decomposes', 'B. hygroscopic with a low molar mass', 'C. impure but inexpensive', 'D. highly pure, stable, and non-hygroscopic'], "correct": 3},
+
+    { "text": 'Which substance is commonly used as a primary standard to standardize NaOH solution?',  "options": ['A. Concentrated sulfuric acid', 'B. Potassium hydrogen phthalate (KHP)', 'C. Sodium hydroxide pellets', 'D. Hydrochloric acid'], "correct": 1},
+
+    { "text": 'Standardization is the process of',  "options": ['A. determining the exact concentration of a solution', 'B. diluting a solution', 'C. preparing a blank', 'D. filtering a solution'], "correct": 0},
+
+    { "text": 'A pH meter should be calibrated using',  "options": ['A. at least two standard buffers that bracket the expected sample pH', 'B. distilled water only', 'C. one pH 7 buffer regardless of the sample', 'D. the sample itself'], "correct": 0},
+
+    { "text": 'Which instrument is used to measure viscosity?',  "options": ['A. Hydrometer', 'B. Ostwald viscometer', 'C. Refractometer', 'D. Pycnometer'], "correct": 1},
+
+    { "text": 'Density is calculated as',  "options": ['A. mass divided by volume', 'B. mass divided by molar mass', 'C. volume divided by mass', 'D. mass multiplied by volume'], "correct": 0},
+
+    { "text": 'A pure crystalline organic compound typically melts',  "options": ['A. at a different temperature each time', 'B. only after it boils', 'C. over a broad range of several tens of degrees', 'D. over a sharp, narrow temperature range'], "correct": 3},
+
+    { "text": 'The conductivity of an electrolyte solution mainly depends on',  "options": ['A. the volume of the container', 'B. the color of the solution', 'C. the concentration and mobility of ions', 'D. the density of the solvent only'], "correct": 2},
+
+    { "text": 'The best way to obtain a representative sample from a large pile of solid material is to',  "options": ['A. take material from the bottom only', 'B. take one scoop from the top', 'C. take increments from several random locations and combine them', 'D. choose the most uniform-looking portion'], "correct": 2},
+
+    { "text": 'Coning and quartering is used to',  "options": ['A. separate two immiscible liquids', 'B. reduce a large bulk solid to a smaller representative portion', 'C. dissolve a solid sample', 'D. measure particle color'], "correct": 1},
+
+    { "text": 'Samples for volatile organic analysis should be collected',  "options": ['A. in sealed containers filled with no headspace and kept cold', 'B. with extra headspace to allow expansion', 'C. in loosely capped plastic bags', 'D. in open beakers at room temperature'], "correct": 0},
+
+    { "text": 'Which step is commonly used to convert a solid inorganic sample into solution for analysis?',  "options": ['A. Distillation', 'B. Acid digestion or dissolution', 'C. Titration', 'D. Recrystallization'], "correct": 1},
+
+    { "text": 'The purpose of validating an analytical method is to',  "options": ['A. replace instrument calibration', 'B. reduce reagent cost', 'C. eliminate the need for blanks', 'D. confirm that it is suitable for its intended use'], "correct": 3},
+
+    { "text": 'Before weighing on an analytical balance, the technician should make sure the balance is',  "options": ['A. on a shaking bench with doors open', 'B. warm from being touched by hand', 'C. loaded with the sample before taring', 'D. level, clean, and tared with the draft shield doors closed'], "correct": 3},
+
+]
+
+AI_CT_Reagents_and_QC = [
+
+    { "text": 'How many grams of NaOH (M = 40.00 g/mol) are needed to prepare 500 mL of 0.10 M solution?',  "options": ['A. 20 g', 'B. 4.0 g', 'C. 2.0 g', 'D. 0.20 g'], "correct": 2},
+
+    { "text": 'When diluting concentrated sulfuric acid, one should',  "options": ['A. slowly add the acid to water while stirring', 'B. add water quickly to the acid', 'C. heat the water first and then add the acid', 'D. add all the acid at once to a small volume of water'], "correct": 0},
+
+    { "text": 'Approximately what volume of concentrated HCl (about 12 M) is needed to prepare 1.0 L of 0.10 M HCl?',  "options": ['A. 12 mL', 'B. 83 mL', 'C. 8.3 mL', 'D. 0.83 mL'], "correct": 2},
+
+    { "text": 'A reagent blank is used to',  "options": ['A. increase the sensitivity of the method', 'B. correct for signal contributed by the reagents and background', 'C. replace the calibration standards', 'D. determine the density of the sample'], "correct": 1},
+
+    { "text": 'A calibration curve is a plot of',  "options": ['A. temperature versus pressure', 'B. instrument response versus concentration of standards', 'C. sample volume versus concentration of blank', 'D. sample mass versus time'], "correct": 1},
+
+    { "text": 'NaOH solutions for titration are best stored in',  "options": ['A. glass-stoppered bottles for several months', 'B. open beakers', 'C. tightly closed polyethylene bottles', 'D. aluminum containers'], "correct": 2},
+
+    { "text": 'Percent error is computed as',  "options": ['A. |experimental − true| × 100', 'B. experimental + true ÷ 100', 'C. |experimental − true| ÷ true × 100', 'D. true ÷ experimental × 100'], "correct": 2},
+
+    { "text": 'The standard deviation of repeated measurements is a measure of',  "options": ['A. sensitivity', 'B. precision', 'C. accuracy', 'D. selectivity'], "correct": 1},
+
+    { "text": 'A control chart is used to',  "options": ['A. prepare standard solutions', 'B. monitor whether a measurement process remains stable over time', 'C. identify unknown functional groups', 'D. calculate the molar mass of a sample'], "correct": 1},
+
+    { "text": 'A product is considered within specification when',  "options": ['A. the sample looks normal to the eye', 'B. the result is precise even if outside limits', 'C. the result equals the previous batch exactly', 'D. the test result falls within the specified limits'], "correct": 3},
+
+    { "text": 'Quality assurance differs from quality control in that quality assurance',  "options": ['A. is performed only by customers', 'B. refers only to instrument calibration', 'C. only tests the finished product', 'D. is the planned system of activities that prevents defects'], "correct": 3},
+
+    { "text": 'A 0.5105 g sample of KHP (M = 204.22 g/mol) requires 25.00 mL of NaOH to reach the endpoint. What is the molarity of the NaOH?',  "options": ['A. 0.2040 M', 'B. 0.0100 M', 'C. 0.5105 M', 'D. 0.1000 M'], "correct": 3},
+
+    { "text": 'Which information should appear on the label of a prepared reagent?',  "options": ['A. Name, concentration, date of preparation, preparer, and hazards', 'B. Name only', 'C. Date only', 'D. Price and supplier only'], "correct": 0},
+
+    { "text": 'Oxidizing reagents such as nitric acid should be stored',  "options": ['A. in the same cabinet as flammable liquids', 'B. separately from flammable and organic materials', 'C. beside solvents for convenience', 'D. together with reducing agents'], "correct": 1},
+
+    { "text": 'How many grams of solute are in 200 mL of a 5.0% w/v solution?',  "options": ['A. 25 g', 'B. 10 g', 'C. 1.0 g', 'D. 100 g'], "correct": 1},
+
+    { "text": 'A standard solution is a solution whose',  "options": ['A. color is standardized', 'B. concentration is accurately known', 'C. volume is exactly 1 L', 'D. concentration is estimated'], "correct": 1},
+
+]
+
+AI_CT_Instrumental_Analysis = [
+
+    { "text": 'The Beer–Lambert law relating absorbance to concentration is',  "options": ['A. A = εbc', 'B. A = c ÷ εb', 'C. A = ε ÷ bc', 'D. A = bc ÷ ε'], "correct": 0},
+
+    { "text": 'In colorimetric analysis, measurements are normally made at',  "options": ['A. the wavelength of minimum absorbance', 'B. the wavelength of maximum absorbance', 'C. any random wavelength', 'D. the wavelength where absorbance is zero'], "correct": 1},
+
+    { "text": 'Which cuvette material is required for measurements in the ultraviolet region?',  "options": ['A. Polyethylene', 'B. Ordinary glass', 'C. Polystyrene', 'D. Quartz'], "correct": 3},
+
+    { "text": 'A sample transmits 50% of the incident light. Its absorbance is approximately',  "options": ['A. 0.500', 'B. 1.000', 'C. 0.699', 'D. 0.301'], "correct": 3},
+
+    { "text": 'A blank solution in a spectrophotometer is used to',  "options": ['A. set the instrument to maximum absorbance', 'B. measure the density of the sample', 'C. calibrate the wavelength scale', 'D. set the instrument to zero absorbance (100 %T)'], "correct": 3},
+
+    { "text": 'Cuvettes should be handled by',  "options": ['A. the clear optical sides with bare fingers', 'B. the frosted sides and wiped with lint-free tissue', 'C. the clear sides after rubbing with paper towels', 'D. any side while still wet'], "correct": 1},
+
+    { "text": 'A glass pH electrode should be stored in',  "options": ['A. distilled water', 'B. a storage solution (or pH 4 buffer with KCl) so it stays hydrated', 'C. air, completely dry', 'D. strong acid'], "correct": 1},
+
+    { "text": 'The conductivity of a solution generally',  "options": ['A. depends only on pressure', 'B. increases with increasing temperature', 'C. is independent of temperature', 'D. decreases with increasing temperature'], "correct": 1},
+
+    { "text": 'In gas chromatography, the mobile phase is',  "options": ['A. the volatile liquid sample', 'B. a solid silica bed', 'C. an inert carrier gas such as helium or nitrogen', 'D. a polar liquid'], "correct": 2},
+
+    { "text": 'Retention time in chromatography is the time',  "options": ['A. from sample injection to the peak maximum', 'B. needed to pack the column', 'C. needed to warm up the detector', 'D. needed to prepare the sample'], "correct": 0},
+
+    { "text": 'In TLC, the Rf value is equal to',  "options": ['A. distance traveled by the spot × distance traveled by the solvent front', 'B. distance traveled by the solvent front ÷ distance traveled by the spot', 'C. distance traveled by the spot ÷ distance traveled by the solvent front', 'D. distance traveled by the spot − distance traveled by the solvent front'], "correct": 2},
+
+    { "text": 'A flame ionization detector (FID) responds mainly to',  "options": ['A. noble gases', 'B. nitrogen gas', 'C. organic compounds that form ions when burned', 'D. water vapor'], "correct": 2},
+
+    { "text": 'Deviations from the Beer–Lambert law are most common at',  "options": ['A. high concentrations', 'B. low temperatures only', 'C. zero absorbance', 'D. very dilute solutions only'], "correct": 0},
+
+    { "text": 'The reference electrode commonly built into a combination pH electrode is',  "options": ['A. Ag/AgCl', 'B. zinc rod', 'C. platinum wire', 'D. glassy carbon'], "correct": 0},
+
+    { "text": 'In HPLC, the mobile phase is',  "options": ['A. a solid', 'B. a gas', 'C. a liquid pumped at high pressure', 'D. a plasma'], "correct": 2},
+
+    { "text": 'Routine maintenance of a spectrophotometer includes',  "options": ['A. disassembling the detector regularly', 'B. checking wavelength accuracy and keeping the optics and sample compartment clean', 'C. leaving the lamp on continuously', 'D. lubricating the cuvettes'], "correct": 1},
+
+    { "text": 'Which of the following is an electroanalytical method?',  "options": ['A. UV-Vis spectrophotometry', 'B. Thin layer chromatography', 'C. Potentiometry using a pH meter', 'D. Gas chromatography'], "correct": 2},
+
+]
+
+AI_CT_Chemical_Safety = [
+
+    { "text": 'The GHS flame pictogram indicates',  "options": ['A. explosives', 'B. oxidizers', 'C. flammable materials', 'D. corrosives'], "correct": 2},
+
+    { "text": 'The GHS skull and crossbones pictogram indicates',  "options": ['A. acute toxicity (fatal or toxic)', 'B. skin irritation', 'C. flammability', 'D. environmental hazard'], "correct": 0},
+
+    { "text": 'First-aid measures are found in which section of a 16-section SDS?',  "options": ['A. Section 1', 'B. Section 4', 'C. Section 8', 'D. Section 14'], "correct": 1},
+
+    { "text": 'Which SDS section covers exposure controls and personal protection?',  "options": ['A. Section 5', 'B. Section 13', 'C. Section 2', 'D. Section 8'], "correct": 3},
+
+    { "text": 'After a chemical splash in the eye, the eye should be flushed at an eyewash station for at least',  "options": ['A. 1 minute', 'B. 15 minutes', 'C. 30 seconds', 'D. 5 minutes'], "correct": 1},
+
+    { "text": 'Which extinguisher type is suitable for an electrical (Class C) fire?',  "options": ['A. Wet chemical', 'B. Water', 'C. Foam', 'D. Carbon dioxide (CO2)'], "correct": 3},
+
+    { "text": 'Fires involving flammable liquids are classified as',  "options": ['A. Class B', 'B. Class D', 'C. Class C', 'D. Class A'], "correct": 0},
+
+    { "text": 'The fire extinguisher operating sequence PASS stands for',  "options": ['A. Push, Aim, Spray, Stop', 'B. Pull, Aim, Squeeze, Sweep', 'C. Point, Activate, Spray, Slide', 'D. Pull, Alert, Squeeze, Stand'], "correct": 1},
+
+    { "text": 'The fire triangle consists of',  "options": ['A. oxygen, nitrogen, and heat', 'B. fuel, light, and oxygen', 'C. fuel, water, and heat', 'D. fuel, heat, and oxygen'], "correct": 3},
+
+    { "text": 'Which control is the most effective in the hierarchy of controls?',  "options": ['A. Personal protective equipment', 'B. Administrative controls', 'C. Elimination or substitution of the hazard', 'D. Warning signs'], "correct": 2},
+
+    { "text": 'A chemical fume hood should be used when working with',  "options": ['A. dry glassware', 'B. tap water', 'C. table salt', 'D. volatile, toxic, or odorous substances'], "correct": 3},
+
+    { "text": 'Flash point is the',  "options": ['A. temperature at which a liquid freezes', 'B. temperature at which a liquid boils', 'C. temperature of ignition without any ignition source', 'D. lowest temperature at which a liquid gives off enough vapor to ignite with an ignition source'], "correct": 3},
+
+    { "text": 'LD50 refers to',  "options": ['A. the dose that irritates 50% of a population', 'B. the dose that kills 50% of a test population', 'C. half of the safe exposure limit', 'D. the lowest dose that has any effect'], "correct": 1},
+
+    { "text": 'Minimum PPE when working in a chemistry laboratory includes',  "options": ['A. gloves only', 'B. safety goggles, laboratory gown, and gloves', 'C. safety goggles and open-toed shoes', 'D. contact lenses and shorts'], "correct": 1},
+
+    { "text": 'A small acid spill on the bench is commonly neutralized with',  "options": ['A. water only', 'B. sodium bicarbonate', 'C. more concentrated acid', 'D. sodium hydroxide pellets'], "correct": 1},
+
+    { "text": 'Which combination produces toxic chloramine vapors and must never be mixed?',  "options": ['A. Ethanol and water', 'B. Table salt and water', 'C. Vinegar and water', 'D. Bleach and ammonia'], "correct": 3},
+
+    { "text": 'Pipetting by mouth in the laboratory is',  "options": ['A. acceptable for water', 'B. acceptable for dilute solutions', 'C. prohibited; use a pipette bulb or pipettor', 'D. allowed when wearing gloves'], "correct": 2},
+
+    { "text": 'Which GHS pictogram is used for substances that corrode metals and burn skin?',  "options": ['A. Exclamation mark', 'B. Flame over circle', 'C. Gas cylinder', 'D. Corrosion'], "correct": 3},
+
+    { "text": 'Methanol exposure is especially dangerous because it can cause',  "options": ['A. hearing loss only', 'B. hair loss', 'C. blindness and metabolic acidosis', 'D. sunburn'], "correct": 2},
+
+    { "text": 'Prolonged exposure to benzene is associated with',  "options": ['A. leukemia and other blood disorders', 'B. lead poisoning', 'C. scurvy', 'D. color blindness'], "correct": 0},
+
+    { "text": 'Diethyl ether stored for a long time can form',  "options": ['A. strong acids', 'B. harmless polymers', 'C. stable hydrates', 'D. explosive peroxides'], "correct": 3},
+
+]
+
+AI_CT_Chemical_Waste_Management = [
+
+    { "text": 'In the Philippines, RA 6969 is the',  "options": ['A. Toxic Substances and Hazardous and Nuclear Wastes Control Act of 1990', 'B. Philippine Clean Water Act', 'C. Ecological Solid Waste Management Act', 'D. Philippine Clean Air Act'], "correct": 0},
+
+    { "text": 'RA 9003 is the',  "options": ['A. Philippine Clean Water Act of 2004', 'B. Ecological Solid Waste Management Act of 2000', 'C. Philippine Clean Air Act of 1999', 'D. Toxic Substances and Hazardous and Nuclear Wastes Control Act'], "correct": 1},
+
+    { "text": 'RA 9275 is the',  "options": ['A. Philippine Clean Water Act of 2004', 'B. Ecological Solid Waste Management Act of 2000', 'C. Toxic Substances and Hazardous and Nuclear Wastes Control Act', 'D. Philippine Clean Air Act of 1999'], "correct": 0},
+
+    { "text": 'Hazardous waste generators in the Philippines are required to register with the',  "options": ['A. DENR Environmental Management Bureau (EMB)', 'B. Department of Labor and Employment', 'C. Department of Health', 'D. Bureau of Fisheries and Aquatic Resources'], "correct": 0},
+
+    { "text": 'Halogenated and non-halogenated solvent wastes are segregated mainly because',  "options": ['A. it only saves storage space', 'B. they have different colors', 'C. halogenated solvents always float', 'D. they require different disposal treatment, and mixing increases hazard and cost'], "correct": 3},
+
+    { "text": 'Mixing cyanide waste with acidic waste is dangerous because it',  "options": ['A. cools the mixture', 'B. solidifies the waste', 'C. produces a harmless salt', 'D. releases toxic hydrogen cyanide gas'], "correct": 3},
+
+    { "text": 'A hazardous waste container must be labeled with',  "options": ['A. nothing, to avoid confusion', 'B. the words "hazardous waste", the contents, and the accumulation date', 'C. the price of the chemical', 'D. only the laboratory name'], "correct": 1},
+
+    { "text": 'Waste containers should be kept',  "options": ['A. closed except when waste is being added', 'B. uncapped to allow evaporation', 'C. open for ventilation', 'D. loosely covered with paper'], "correct": 0},
+
+    { "text": 'Used needles and broken glass should be placed in',  "options": ['A. a paper bag', 'B. a regular trash bag', 'C. the sink', 'D. a puncture-resistant sharps container'], "correct": 3},
+
+    { "text": 'Waste containing heavy metals such as mercury or lead should be',  "options": ['A. discarded in the general trash', 'B. collected in labeled containers for treatment by an accredited treater', 'C. diluted and flushed with water', 'D. poured down the drain'], "correct": 1},
+
+    { "text": 'Aqueous and solvent-based wastes should be',  "options": ['A. combined for convenience', 'B. combined into one drum', 'C. evaporated in the open', 'D. collected in separate containers'], "correct": 3},
+
+    { "text": 'A hazardous waste manifest is used to',  "options": ['A. record the weight of laundry', 'B. set the price of disposal', 'C. label reagent bottles', 'D. track waste from the generator to the transporter to the treatment facility'], "correct": 3},
+
+    { "text": 'The preferred first step in waste management is',  "options": ['A. waste minimization at the source', 'B. disposal in a landfill', 'C. open burning', 'D. dilution before disposal'], "correct": 0},
+
+    { "text": 'A broken mercury thermometer should be cleaned up using',  "options": ['A. a broom', 'B. a wet mop and then the sink', 'C. a household vacuum cleaner', 'D. a mercury spill kit, with the waste disposed of as hazardous waste'], "correct": 3},
+
+]
+
+AI_CT_Organic_Chemistry = [
+
+    { "text": 'Compared with typical inorganic compounds, organic compounds generally',  "options": ['A. have covalent bonds, lower melting points, and are often flammable', 'B. do not contain carbon', 'C. are ionic with very high melting points', 'D. are all soluble in water'], "correct": 0},
+
+    { "text": 'Isomers are compounds that have',  "options": ['A. different elements', 'B. the same structure but different molecular formulas', 'C. the same molecular formula but different structures', 'D. identical physical properties'], "correct": 2},
+
+    { "text": 'What is the IUPAC name of CH3CH2CH2CH2CH2CH3?',  "options": ['A. butane', 'B. heptane', 'C. hexane', 'D. pentane'], "correct": 2},
+
+    { "text": 'The general formula of alkanes is',  "options": ['A. CnHn', 'B. CnH2n', 'C. CnH2n−2', 'D. CnH2n+2'], "correct": 3},
+
+    { "text": 'The functional group of alcohols is',  "options": ['A. −COOH', 'B. C=O', 'C. −OH (hydroxyl)', 'D. −NH2'], "correct": 2},
+
+    { "text": 'The −COOH group characterizes',  "options": ['A. ketones', 'B. aldehydes', 'C. esters', 'D. carboxylic acids'], "correct": 3},
+
+    { "text": 'What is the IUPAC name of acetone?',  "options": ['A. propanone', 'B. propanal', 'C. ethanal', 'D. methanol'], "correct": 0},
+
+    { "text": 'Which of the following is an aromatic compound?',  "options": ['A. Cyclohexane', 'B. Ethene', 'C. Benzene', 'D. Hexane'], "correct": 2},
+
+    { "text": 'Alkenes typically undergo',  "options": ['A. no reactions', 'B. addition reactions', 'C. substitution at the C=C bond only', 'D. neutralization only'], "correct": 1},
+
+    { "text": 'Esterification is the reaction of',  "options": ['A. a carboxylic acid with an alcohol to form an ester and water', 'B. an amine with an alkane', 'C. an alcohol with a base to form a salt', 'D. an alkene with hydrogen'], "correct": 0},
+
+    { "text": 'Oxidation of a primary alcohol with excess oxidant generally yields',  "options": ['A. a ketone', 'B. an ether', 'C. an alkane', 'D. a carboxylic acid'], "correct": 3},
+
+    { "text": 'Ethanol is completely miscible with water mainly because it',  "options": ['A. is nonpolar', 'B. forms hydrogen bonds with water', 'C. has a very high density', 'D. is ionic'], "correct": 1},
+
+    { "text": 'A liquid with a higher vapor pressure at a given temperature is',  "options": ['A. always less flammable', 'B. more volatile', 'C. always denser', 'D. less volatile'], "correct": 1},
+
+    { "text": 'Amines behave as organic',  "options": ['A. bases', 'B. acids', 'C. neutral salts', 'D. oxidizers'], "correct": 0},
+
+    { "text": 'What is the formula of chloroform?',  "options": ['A. CHCl3', 'B. CH3Cl', 'C. CCl4', 'D. CH2Cl2'], "correct": 0},
+
+    { "text": 'What is the common name of methanoic acid?',  "options": ['A. butyric acid', 'B. acetic acid', 'C. formic acid', 'D. propionic acid'], "correct": 2},
+
+    { "text": 'Which pair are structural isomers?',  "options": ['A. butane and 2-methylpropane', 'B. propane and propene', 'C. ethane and ethene', 'D. methanol and ethanol'], "correct": 0},
+
+    { "text": 'Saponification is the hydrolysis of an ester (fat) using',  "options": ['A. a strong base such as NaOH to give soap and glycerol', 'B. water alone at room temperature', 'C. hydrogen gas', 'D. an oxidizing agent only'], "correct": 0},
+
+    { "text": 'Aromatic hydrocarbons are typically characterized by',  "options": ['A. the absence of carbon', 'B. ionic bonding', 'C. delocalized π electrons in a ring', 'D. only single bonds in a chain'], "correct": 2},
+
+]
+
+AI_CT_Organic_Laboratory_Technology = [
+
+    { "text": 'An ideal recrystallization solvent dissolves the compound',  "options": ['A. not at all at any temperature', 'B. well when hot but only slightly when cold', 'C. equally well at all temperatures', 'D. well when cold'], "correct": 1},
+
+    { "text": 'Vacuum filtration with a Büchner funnel is mainly used to',  "options": ['A. collect crystals quickly and efficiently', 'B. separate miscible liquids', 'C. dissolve solids', 'D. measure volume'], "correct": 0},
+
+    { "text": 'Liquid–liquid extraction separates compounds based on',  "options": ['A. their boiling points', 'B. their molecular size only', 'C. their color', 'D. their relative solubility in two immiscible solvents'], "correct": 3},
+
+    { "text": 'When shaking a separatory funnel containing a volatile solvent, one should',  "options": ['A. heat it while shaking', 'B. shake with the stopper removed', 'C. keep the stopcock closed and never vent', 'D. invert and vent frequently to release pressure'], "correct": 3},
+
+    { "text": 'In an extraction with dichloromethane and water, the dichloromethane layer is',  "options": ['A. the top layer because it is less dense than water', 'B. not a separate layer', 'C. the bottom layer because it is denser than water', 'D. the top layer because it is polar'], "correct": 2},
+
+    { "text": 'An impure solid generally has a melting point that is',  "options": ['A. higher and sharper', 'B. impossible to measure', 'C. identical to the pure compound', 'D. lower and broader than that of the pure compound'], "correct": 3},
+
+    { "text": 'Simple distillation separates liquids based on differences in',  "options": ['A. densities', 'B. boiling points', 'C. solubility in acid', 'D. colors'], "correct": 1},
+
+    { "text": 'Boiling chips are added to a distillation flask to',  "options": ['A. neutralize acid', 'B. promote smooth boiling and prevent bumping', 'C. speed up the reaction', 'D. raise the boiling point'], "correct": 1},
+
+    { "text": 'In a water-cooled condenser, the cooling water should enter at the',  "options": ['A. top inlet and exit at the bottom', 'B. either end, with no difference', 'C. top only, with no flow through', 'D. lower inlet and exit at the top'], "correct": 3},
+
+    { "text": 'In a distillation setup, the thermometer bulb should be placed',  "options": ['A. just below the side-arm opening of the distillation head', 'B. above the condenser', 'C. in the boiling liquid', 'D. outside the apparatus'], "correct": 0},
+
+    { "text": 'A common drying agent for organic liquids is',  "options": ['A. calcium chloride solution', 'B. dilute sulfuric acid', 'C. anhydrous sodium sulfate', 'D. sodium hydroxide solution'], "correct": 2},
+
+    { "text": 'In TLC, the starting line should be drawn with',  "options": ['A. a pencil', 'B. a marker', 'C. a felt-tip pen', 'D. a ballpoint pen'], "correct": 0},
+
+    { "text": 'On a silica gel column, more polar compounds generally',  "options": ['A. elute at the same rate as nonpolar compounds', 'B. elute more slowly', 'C. elute first', 'D. do not elute'], "correct": 1},
+
+    { "text": 'Gas chromatography is best suited for compounds that are',  "options": ['A. nonvolatile salts', 'B. thermally unstable polymers', 'C. volatile and thermally stable', 'D. ionic solids'], "correct": 2},
+
+    { "text": 'In infrared spectroscopy, a strong absorption near 1700 cm⁻¹ indicates',  "options": ['A. a carbonyl (C=O) group', 'B. a nitrile C≡N group', 'C. an alcohol O–H group', 'D. an aromatic C–H bond'], "correct": 0},
+
+    { "text": 'UV-Vis spectroscopy is most useful for organic compounds containing',  "options": ['A. only metals', 'B. conjugated systems (chromophores)', 'C. only single bonds', 'D. only saturated alkanes'], "correct": 1},
+
+    { "text": 'Flammable organic solvents should be heated using',  "options": ['A. an open flame under a beaker', 'B. a water bath or heating mantle rather than an open flame', 'C. a microwave oven', 'D. a Bunsen burner flame'], "correct": 1},
+
+    { "text": 'Reflux is used to',  "options": ['A. filter a solid product', 'B. cool a reaction mixture', 'C. heat a reaction at its boiling point without losing solvent, using a condenser', 'D. evaporate all the solvent'], "correct": 2},
+
+    { "text": 'A closed system should never be heated because',  "options": ['A. it slows the reaction', 'B. it changes the color of the product', 'C. it wastes energy', 'D. pressure buildup may cause an explosion'], "correct": 3},
+
+    { "text": 'NaCl plates used for liquid IR samples must be protected from',  "options": ['A. darkness', 'B. moisture', 'C. dry air', 'D. nitrogen'], "correct": 1},
+
+    { "text": 'The stationary phase commonly used in TLC is',  "options": ['A. water only', 'B. silica gel', 'C. methanol', 'D. helium'], "correct": 1},
+
+]
