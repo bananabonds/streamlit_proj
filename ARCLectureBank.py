@@ -9587,6 +9587,190 @@ CT_PT_Laboratory_Instrumentation = [
 
 ]
 
+CT_PT_Chemical_Safety = [
+
+    # 1
+    {"text": "Which term refers to the net uptake, transformation, and elimination of a substance in an organism specifically due to waterborne exposure?", "options": ["A. Bioavailability", "B. Bioaccumulation", "C. Bioconcentration", "D. Biodegradation"], "correct": 2},
+
+    # 2
+    {"text": "A written program containing procedures, equipment, PPE, and work practices for protecting employees from hazardous chemicals is called the", "options": ["A. Safety Data Sheet", "B. Chemical Hygiene Plan", "C. NFPA Hazard Signal", "D. GHS label"], "correct": 1},
+
+    # 3
+    {"text": "A Globally Harmonized System (GHS) pictogram (a red-bordered diamond containing a black symbol) is shown on a chemical container. The symbol is a single flame. What hazards are represented by this GHS pictogram?", "options": ["A. Flammable and self-reactive substances", "B. Oxidizers, organic peroxides", "C. Carcinogens", "D. Explosives"], "correct": 0},
+
+    # 4
+    {"text": "The following information can be found in a safety data sheet EXCEPT _______.", "options": ["A. manufacturer name", "B. manufacturer contact details", "C. required PPEs", "D. none of the above"], "correct": 3},
+
+    # 5
+    {"text": "What is the recommended face velocity for a laboratory chemical fume hood?", "options": ["A. 20–40 ft/min", "B. 40–60 ft/min", "C. 60–80 ft/min", "D. 80–100 ft/min"], "correct": 3},
+
+    # 6
+    {"text": "How long is flushing recommended for most corrosive substances?", "options": ["A. 5 min", "B. 15 min", "C. 30 min", "D. 60 min"], "correct": 1},
+
+    # 7
+    {"text": "During an accidental chemical spill inside a chemical hood, the hood primarily helps by", "options": ["A. heating the spilled chemical", "B. containing the spill and exhausting fumes away from personnel", "C. neutralizing the chemical automatically", "D. converting the chemical into a solid"], "correct": 1},
+
+    # 8
+    {"text": "Which of the following is one of the general principles of laboratory safety discussed in the material?", "options": ["A. Maximize chemical exposure", "B. Minimize all chemical exposures", "C. Ignore low-level risks", "D. Avoid ventilation"], "correct": 1},
+
+    # 9
+    {"text": "The guidelines on proper labeling, storage, and management of hazardous substances discussed in the material are pursuant to RA 6969 and", "options": ["A. DAO 2015-09", "B. DAO 2000-01", "C. RA 9003", "D. RA 8749"], "correct": 0},
+
+    # 10
+    {"text": "Eyewash fountains and safety showers should be separated by at least", "options": ["A. 1 ft", "B. 3 ft", "C. 5 ft", "D. 10 ft"], "correct": 1},
+
+    # 11
+    {"text": "When certain hydrides react with water, they can produce heat and which flammable gas?", "options": ["A. Oxygen", "B. Nitrogen", "C. Hydrogen", "D. Carbon dioxide"], "correct": 2},
+
+    # 12
+    {"text": "Which of the following is an example of an engineering control?", "options": ["A. Worker rotation", "B. Local exhaust ventilation", "C. Use of a digital thermometer instead of a mercury thermometer", "D. Wearing gloves"], "correct": 1},
+
+    # 13
+    {"text": "According to the Department of Trade and Industry-Bureau of Philippine Standards (DTI-BPS), what color designations correspond to a foam type fire extinguisher?", "options": ["A. red body, white band", "B. red body, black band", "C. red body, blue band", "D. light green body, white band"], "correct": 0},
+
+    # 14
+    {"text": "Which of the following is identified in the material as another functional group or substance associated with explosion hazards?", "options": ["A. Nitroso group", "B. Chloride ion", "C. Sulfate ion", "D. Carbonate ion"], "correct": 0},
+
+    # 15
+    {"text": "The following are gases under pressure EXCEPT", "options": ["A. Aerosols", "B. Liquefied gases", "C. Compressed gases", "D. All are gases under pressure"], "correct": 0},
+
+    # 16
+    {"text": "Large and potentially toxic solid chemical spills should be collected using a special vacuum cleaner equipped with a", "options": ["A. activated-carbon flame arrestor", "B. High Efficiency Particulate Air (HEPA) filter", "C. water scrubber", "D. mercury trap"], "correct": 1},
+
+    # 17
+    {"text": "In an NFPA hazard signal, what does an increasing numerical rating indicate?", "options": ["A. Decreasing risk", "B. Increasing corresponding risk", "C. Increasing cost of chemical", "D. Decreasing flammability only"], "correct": 1},
+
+    # 18
+    {"text": "Which is a primary function of a laboratory chemical hood?", "options": ["A. Increase chemical vapor concentration in the laboratory", "B. Exhaust hazardous or odorous chemicals", "C. Store all laboratory chemicals permanently", "D. Replace the need for PPE"], "correct": 1},
+
+    # 19
+    {"text": "Concentrated hydrochloric acid is a highly corrosive material. It is expected that its container contains which of the following GHS label(s)?\n\nI. Flame over circle pictogram\nII. Exclamation mark pictogram\nIII. Corrosion pictogram\nIV. Skull and crossbones pictogram", "options": ["A. I", "B. II", "C. II and III", "D. III and IV"], "correct": 2},
+
+    # 20
+    {"text": "What are the components of the fire triangle?", "options": ["A. oxygen, heat, material", "B. oxygen, fuel, heat", "C. air, fuel, spark", "D. air, fuel, fire"], "correct": 1},
+
+    # 21
+    {"text": "Narcotics or anesthetics mainly affect which body system by inducing depressant effects?", "options": ["A. Digestive system", "B. Central nervous system", "C. Skeletal system", "D. Integumentary system"], "correct": 1},
+
+    # 22
+    {"text": "Laboratory chemical hoods are BEST placed in a location that is ______________.", "options": ["A. near the aisle for ease of access", "B. near the windows and doors", "C. away from air diffuser", "D. none of the choices"], "correct": 2},
+
+    # 23
+    {"text": "The white section of the NFPA diagram corresponds to the special hazard of the material. Which of the following is NOT considered as \"special hazard\"?", "options": ["A. ACID: acid", "B. COR: corrosive", "C. EXP: explosive", "D. ☢: radioactive"], "correct": 2},
+
+    # 24
+    {"text": "A researcher is working in a lab where hazardous liquid chemicals are present. Which of the following is NOT considered appropriate PPE for this situation?", "options": ["A. wire mesh glove", "B. lab coat", "C. chemical resistant glove", "D. chemical splash goggles"], "correct": 0},
+
+    # 25
+    {"text": "Work methods or procedures designed to minimize employee exposure to hazards are classified as", "options": ["A. elimination controls", "B. substitution controls", "C. administrative controls", "D. chemical controls"], "correct": 2},
+
+    # 26
+    {"text": "How long should you rinse in an eyewash during accidental chemical splashes on the eyes?", "options": ["A. 5 mins", "B. 10 mins", "C. 15 mins", "D. 30 seconds"], "correct": 2},
+
+    # 27
+    {"text": "Which hazardous agents may cause birth defects when a pregnant woman is exposed?", "options": ["A. Carcinogens", "B. Mutagens", "C. Teratogens", "D. Asphyxiants"], "correct": 2},
+
+    # 28
+    {"text": "Which level of the hierarchy of controls completely removes the hazard and its associated risk?", "options": ["A. Administrative control", "B. PPE", "C. Elimination", "D. Engineering control"], "correct": 2},
+
+    # 29
+    {"text": "How long is flushing recommended for strong alkalis such as sodium, potassium, or calcium hydroxide?", "options": ["A. 5 min", "B. 15 min", "C. 30 min", "D. 60 min"], "correct": 2},
+
+    # 30
+    {"text": "Which physiological class of hazardous material causes depletion of oxygen to the tissues?", "options": ["A. Irritants", "B. Asphyxiants", "C. Sensitizers", "D. Teratogens"], "correct": 1},
+
+    # 31
+    {"text": "In the hierarchy of controls, personal protective equipment is considered the", "options": ["A. first method that should always be applied", "B. last line of defense against hazards", "C. most effective method of hazard elimination", "D. replacement for engineering controls"], "correct": 1},
+
+    # 32
+    {"text": "This general type of reaction results in a sudden rapid rise in temperature upon heating of the material that usually becomes violent.", "options": ["A. vigorous reaction", "B. combustion reaction", "C. runaway reaction", "D. reaction under pressure"], "correct": 2},
+
+    # 33
+    {"text": "Which combination describes the appropriate conditions for a chemical storage area?", "options": ["A. Poorly ventilated, warm, and accessible to everyone", "B. Well-ventilated, temperature/humidity-controlled, and secured", "C. Open to direct sunlight and unrestricted access", "D. Sealed without ventilation"], "correct": 1},
+
+    # 34
+    {"text": "It refers to the production of reversible damage to the skin occurring after exposure to a substance or mixture.", "options": ["A. Skin allergy", "B. Skin corrosion", "C. Skin irritation", "D. Skin damage"], "correct": 2},
+
+    # 35
+    {"text": "These are solid particles of a substance or mixture suspended in a gas (usually air).", "options": ["A. Fog", "B. Dusts", "C. Mists", "D. Vapor"], "correct": 1},
+
+    # 36
+    {"text": "These materials ignite due to the rapid oxidation by oxygen or moisture in the air.", "options": ["A. Water reactive substances", "B. Pyrophoric substances", "C. Explosives", "D. Flammables"], "correct": 1},
+
+    # 37
+    {"text": "Situation: A foam type fire extinguisher (red body with a colored band, as identified under the DTI-BPS color designations) is being considered for use. The foam type fire extinguisher is most appropriately used for which type of fire?", "options": ["A. fires involving ordinary combustible materials", "B. surface fire", "C. electrical fire", "D. both A and B"], "correct": 3},
+
+    # 38
+    {"text": "Which of the following is NOT a GHS pictogram?", "options": ["A. exploding bomb", "B. gas tank", "C. skull and crossbones", "D. health hazard"], "correct": 1},
+
+    # 39
+    {"text": "Examples of activities that require appropriate eye protection include", "options": ["A. working with lasers", "B. working with UV light", "C. working in an area where there are flying particles", "D. All of the above"], "correct": 3},
+
+    # 40
+    {"text": "Who is responsible for activities such as reviewing hazardous chemical operations, checking MSDSs, monitoring emergency equipment, and ensuring proper labeling?", "options": ["A. Chemical hygiene officer", "B. Equipment supplier", "C. Laboratory visitor", "D. Chemical manufacturer"], "correct": 0},
+
+    # 41
+    {"text": "Which of the following safety practices implements the substitution method according to the hierarchy of control principle?", "options": ["A. Physically removing the hazards.", "B. Use of mercury thermometer alternatives.", "C. Use of glove box.", "D. Establishing rotations among workers to reduce exposure."], "correct": 1},
+
+    # 42
+    {"text": "Which of the following is NOT suitable safety attire when handling a large volume of corrosive liquid?", "options": ["A. Lab coat", "B. Chemical resistant gloves", "C. General safety glasses", "D. Closed toe shoes"], "correct": 2},
+
+    # 43
+    {"text": "It refers to the production of irreversible damage to the skin; namely, visible necrosis through the epidermis and into the dermis occurring after exposure to a substance or mixture.", "options": ["A. Skin allergy", "B. Skin corrosion", "C. Skin irritation", "D. Skin damage"], "correct": 1},
+
+    # 44
+    {"text": "During a mercury spillage in the laboratory, what is the most appropriate action to do?", "options": ["A. Wipe mercury spill with dry cloth", "B. Clean spill with an aspirator bulb", "C. Smother the spill with powdered graphite", "D. Use calcinated absorbent product such as Oil-Dri or Zorball"], "correct": 1},
+
+    # 45
+    {"text": "When exposure to hazards cannot be engineered completely out of normal operations, this supplementary method of control can be used.", "options": ["A. elimination", "B. substitution", "C. administrative control", "D. use of PPE"], "correct": 3},
+
+    # 46
+    {"text": "This type of toxin in the chemical laboratory may potentially cause allergies or allergic-like reactions.", "options": ["A. Allergen", "B. Corrosive substance", "C. Sensitizer", "D. Asphyxiants"], "correct": 2},
+
+    # 47
+    {"text": "Eyewash fountains should provide which type of water flow?", "options": ["A. Hot distilled water", "B. Cold deionized water", "C. Gentle flow of temperate aerated potable water", "D. High-pressure tap water"], "correct": 2},
+
+    # 48
+    {"text": "Chemicals in a storage area should primarily be grouped according to their", "options": ["A. container size", "B. price", "C. compatibilities", "D. alphabetical order"], "correct": 2},
+
+    # 49
+    {"text": "Which of the following functional groups pose explosion hazards?\n\nI. Azide\nII. Peroxide\nIII. Sulfide\nIV. Hydrocarbons", "options": ["A. I and II", "B. II and III", "C. III and IV", "D. I, II and III"], "correct": 0},
+
+    # 50
+    {"text": "How many standardized sections comprise a Safety Data Sheet based on the GHS arrangement?", "options": ["A. 8", "B. 10", "C. 12", "D. 16"], "correct": 3},
+
+    # 51
+    {"text": "For safety, long hair needs to _________.", "options": ["A. be tied back", "B. hang over your face and cheeks", "C. be cut short", "D. None of these"], "correct": 0},
+
+    # 52
+    {"text": "Which section of an SDS contains Exposure Controls / Personal Protection?", "options": ["A. Section 4", "B. Section 6", "C. Section 8", "D. Section 12"], "correct": 2},
+
+    # 53
+    {"text": "Common hazards posed by different chemicals in the laboratories can be found at ________.", "options": ["A. CHP", "B. SDS", "C. GHS labels", "D. B and C"], "correct": 3},
+
+    # 54
+    {"text": "What does NFPA stand for?", "options": ["A. National Fire Prevention Agency", "B. National Fire Protection Association", "C. National Facility Protection Authority", "D. National Fire and Process Association"], "correct": 1},
+
+    # 55
+    {"text": "At this concentration, the mixture of flammable liquids is considered too \"lean\" to burn.", "options": ["A. at lower explosion limit", "B. below lower explosion limit", "C. above upper explosion limit", "D. between upper and lower explosion limit"], "correct": 1},
+
+    # 56
+    {"text": "Which of the following is (are) GOOD practices when using a lab chemical hood?\n\nI. Place chemical sources and apparatus at least 6 cm behind the face.\nII. Scrubbers must be installed especially when the lab is dealing with highly toxic vapors.\nIII. Avoid opening and closing the sash rapidly.\nIV. Store odoriferous materials inside the chemical hood to prevent personnel from inhaling the toxic vapors.", "options": ["A. I and II", "B. I, II, and III", "C. II, III, and IV", "D. II and III"], "correct": 1},
+
+    # 57
+    {"text": "Which section of an SDS contains Stability and Reactivity information?", "options": ["A. Section 7", "B. Section 8", "C. Section 9", "D. Section 10"], "correct": 3},
+
+    # 58
+    {"text": "Flash point is defined in the material as the lowest temperature at 1 atm at which a liquid", "options": ["A. freezes completely", "B. boils completely", "C. releases enough flammable vapor to ignite when an ignition source is applied", "D. becomes completely nonflammable"], "correct": 2},
+
+    # 59
+    {"text": "The area surrounding a safety shower or eyewash _______________________.", "options": ["A. can be used to store boxes if they can be removed quickly", "B. must remain clear of all items at all times", "C. is typically marked with yellow and black floor tape as a reminder to keep it clear", "D. both B and C"], "correct": 3},
+
+    # 60
+    {"text": "The SDS of a certain chemical contains an NFPA 704 hazard diamond (four colored sections: blue = health, red = flammability, yellow = instability/reactivity, white = special hazard). Determine the corresponding hazards related to the material.", "options": ["A. Normal material, > 200°F, Violent chemical change, Alkaline", "B. Slightly hazardous, < 100°F, Unstable if heated, Oxidizer", "C. Slightly hazardous, < 73°F, Violent chemical change, Reacts violently with water", "D. Hazardous, < 100°F, Unstable if heated, Reacts violently with water"], "correct": 2},
+
+]
+
 CT_RE_General_Chemistry = [
 
     # 1
@@ -10007,6 +10191,130 @@ CT_RE_Laboratory_Quality_Safety = [
     # 40
     {"text": "Sterilizing equipment and preventing personal contamination through the distribution of gloves, hairnets, and lab coats.",
      "options": ["A. Quality Control", "B. Quality Assurance"], "correct": 1},
+
+]
+
+CT_RE_Organic_Chem_Waste = [
+
+    # 1
+    {"text": "Which of the following carbonyl compounds produces a secondary alcohol with LiAlH₄?", "options": ["A. ketone", "B. carboxylic acid", "C. ester", "D. aldehyde"], "correct": 0},
+
+    # 2
+    {"text": "No carbonyl group is found in", "options": ["A. ketone", "B. ester", "C. epoxide", "D. aldehyde"], "correct": 2},
+
+    # 3
+    {"text": "What is the recommended method for storing incompatible chemicals?", "options": ["A. Placing them in a plastic bag for containment", "B. Mixing them together in a single container", "C. Storing them next to each other for easy access", "D. Storing them in separate, labeled containers"], "correct": 3},
+
+    # 4
+    {"text": "What is the primary purpose of the Globally Harmonized System (GHS)?", "options": ["A. To reduce greenhouse gas emissions", "B. To ensure consistent labeling and classification of chemicals", "C. To harmonize international trade regulations", "D. To standardize waste management practices globally"], "correct": 1},
+
+    # 5
+    {"text": "Which of the following is a GHS hazard pictogram for health hazards?", "options": ["A. Exclamation mark", "B. Flame", "C. Environment", "D. Skull and crossbones"], "correct": 3},
+
+    # 6
+    {"text": "How many isomers does xylene have?", "options": ["A. 1", "B. 2", "C. 3", "D. 4"], "correct": 2},
+
+    # 7
+    {"text": "Which type of storage container is commonly used for flammable liquids?", "options": ["A. Metal drums", "B. Plastic bags", "C. Glass bottles", "D. Cardboard boxes"], "correct": 0},
+
+    # 8
+    {"text": "What does the GHS use to communicate the hazards of chemicals?", "options": ["A. Product Safety Data Sheets (PSDS)", "B. Material Safety Data Sheets (MSDS)", "C. Hazard Communication Labels", "D. Safety Data Sheets (SDS)"], "correct": 3},
+
+    # 9
+    {"text": "Which Philippine legislation is known as the \"Ecological Solid Waste Management Act\" and promotes proper solid waste management practices?", "options": ["A. Republic Act No. 9729", "B. Republic Act No. 8749", "C. Republic Act No. 9003", "D. Republic Act No. 6969"], "correct": 2},
+
+    # 10
+    {"text": "Which sector is a significant source of hazardous waste due to its production of electronic devices?", "options": ["A. Hospitality", "B. Information technology", "C. Automotive", "D. Agriculture"], "correct": 1},
+
+    # 11
+    {"text": "Which characteristic of hazardous waste refers to its potential to build up in the tissues of organisms over time?", "options": ["A. bioaccumulation", "B. persistence", "C. reactivity", "D. mobility"], "correct": 0},
+
+    # 12
+    {"text": "Addition of methyl magnesium bromide to acetaldehyde produces", "options": ["A. methanol", "B. 1-propanol", "C. 2-propanol", "D. ethanol"], "correct": 2},
+
+    # 13
+    {"text": "What is the purpose of a Material Safety Data Sheet (MSDS)?", "options": ["A. To identify hazardous waste generators", "B. To determine the cost of hazardous waste disposal", "C. To communicate information about hazardous substances", "D. To provide instructions for waste disposal"], "correct": 2},
+
+    # 14
+    {"text": "Which Philippine law governs the practice of chemistry and regulates the registration and licensure of chemists?", "options": ["A. Republic Act No. 754", "B. Republic Act No. 9208", "C. Republic Act No. 6969", "D. Republic Act No. 10657"], "correct": 0},
+
+    # 15
+    {"text": "Oxidation of isopropyl alcohol with KMnO₄ will yield", "options": ["A. acetaldehyde", "B. acetone", "C. acetic acid", "D. diethyl ether"], "correct": 1},
+
+    # 16
+    {"text": "Hydrogenation of one mole of allene (CH₂=C=CH₂) with 2 moles of H₂ in the presence of Lindlar catalyst yields", "options": ["A. propane", "B. propylene", "C. 2-butene", "D. 2-propene"], "correct": 0},
+
+    # 17
+    {"text": "Carboxylic acids are reduced by lithium aluminum hydride to the corresponding", "options": ["A. primary alcohols", "B. tertiary alcohols", "C. secondary alcohols", "D. all of the choices"], "correct": 0},
+
+    # 18
+    {"text": "Which characteristic of hazardous waste refers to its ability to catch fire easily?", "options": ["A. reactivity", "B. ignitability", "C. toxicity", "D. corrosivity"], "correct": 1},
+
+    # 19
+    {"text": "Which of the following characteristics is used to classify a waste as hazardous?", "options": ["A. size", "B. toxicity", "C. color", "D. odor"], "correct": 1},
+
+    # 20
+    {"text": "Which of the following is a common source of hazardous waste in households?", "options": ["A. Glass jars", "B. Food waste", "C. Batteries", "D. Plastic bottles"], "correct": 2},
+
+    # 21
+    {"text": "2-Methyl-2-butene undergoes hydrochlorination in the presence of benzoyl peroxide to form", "options": ["A. 3-chloro-3-methylbutane", "B. 2-chloro-3-methylbutane", "C. 2-chloro-2-methylbutane", "D. 1-chloro-3-methylbutane"], "correct": 2},
+
+    # 22
+    {"text": "Which Philippine legislation establishes the policies and institutional mechanisms for the control and prevention of water pollution?", "options": ["A. Republic Act No. 6969", "B. Republic Act No. 8749", "C. Republic Act No. 9003", "D. Republic Act No. 9275"], "correct": 3},
+
+    # 23
+    {"text": "An unknown ester was hydrolyzed with water and acid to produce an acid, X, and alcohol, Y. Oxidation of the alcohol with hot KMnO₄ yielded acid X. Oxidation of the alcohol produced acetaldehyde. Name the ester.", "options": ["A. methyl propanoate", "B. methyl ethanoate", "C. ethyl benzoate", "D. ethyl ethanoate"], "correct": 3},
+
+    # 24
+    {"text": "In Williamson synthesis of methyl isopropyl ether, the alcohol used is", "options": ["A. ethanol", "B. isopropyl alcohol", "C. methanol", "D. n-propyl alcohol"], "correct": 1},
+
+    # 25
+    {"text": "When ethyl bromide is treated with sodium in dry ether, the product is", "options": ["A. propane", "B. methylpropane", "C. butane", "D. ethane"], "correct": 2},
+
+    # 26
+    {"text": "Which government agency is responsible for the implementation and enforcement of chemical safety regulations in the Philippines?", "options": ["A. Department of Environment and Natural Resources (DENR)", "B. Occupational Safety and Health Center (OSHC)", "C. Department of Health (DOH)", "D. Food and Drug Administration (FDA)"], "correct": 0},
+
+    # 27
+    {"text": "Part of a molecule where most of its chemical reactions occur", "options": ["A. Single covalent", "B. Functional group", "C. Double covalent", "D. Triple covalent"], "correct": 1},
+
+    # 28
+    {"text": "Which section of the Safety Data Sheet (SDS) provides information on first aid measures?", "options": ["A. Section 1", "B. Section 2", "C. Section 3", "D. Section 4"], "correct": 3},
+
+    # 29
+    {"text": "Which of the following is a characteristic of hazardous waste?", "options": ["A. Non-toxicity", "B. Recyclability", "C. Biodegradability", "D. None of the choices"], "correct": 3},
+
+    # 30
+    {"text": "No carbonyl group is found in", "options": ["A. ether", "B. carboxylic acid", "C. aldehyde", "D. ketone"], "correct": 0},
+
+    # 31
+    {"text": "Which of the following is a common source of hazardous waste in the construction industry?", "options": ["A. Asbestos-containing materials", "B. Wood scraps", "C. Paper documents", "D. Concrete blocks"], "correct": 0},
+
+    # 32
+    {"text": "Which of the following is not an aliphatic hydrocarbon?", "options": ["A. propylene", "B. n-tridecane", "C. toluene", "D. n-octane"], "correct": 2},
+
+    # 33
+    {"text": "Friedel-Crafts acylation of benzene with acetyl chloride in AlCl₃ yields", "options": ["A. cumene", "B. acetophenone", "C. benzaldehyde", "D. chlorobenzene"], "correct": 1},
+
+    # 34
+    {"text": "Reaction of alcohol and a carboxylic acid is known as ____________.", "options": ["A. esterification", "B. neutralization", "C. saponification", "D. epoxidation"], "correct": 0},
+
+    # 35
+    {"text": "Which of the following is an example of a characteristic hazardous waste?", "options": ["A. Used motor oil", "B. Cardboard boxes", "C. Organic food waste", "D. Aluminum cans"], "correct": 0},
+
+    # 36
+    {"text": "The following reagents will yield an alkyl halide from an alkene EXCEPT", "options": ["A. HCl", "B. HBr / peroxide", "C. Br₂ / UV or light", "D. Br₂ in CCl₄"], "correct": 2},
+
+    # 37
+    {"text": "In the Grignard synthesis of an alkane using sec-butyl bromide, which of the following alkane will be produced?", "options": ["A. isobutane", "B. none of these", "C. n-butane", "D. isopentane"], "correct": 2},
+
+    # 38
+    {"text": "Hydrogenation of alkenes in the presence of a poisoned palladium catalyst produces", "options": ["A. alcohol", "B. alkyne", "C. alkane", "D. alkyl halide"], "correct": 2},
+
+    # 39
+    {"text": "Which of the following contains sp-hybridized carbon?", "options": ["A. C₆H₁₂", "B. C₄H₈", "C. C₅H₈", "D. C₃H₆"], "correct": 2},
+
+    # 40
+    {"text": "Which of the following is an example of electronic waste (e-waste)?", "options": ["A. Plastic water bottles", "B. Used batteries", "C. Glass jars", "D. Scrap metal"], "correct": 1},
 
 ]
 
